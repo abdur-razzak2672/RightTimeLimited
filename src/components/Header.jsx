@@ -9,7 +9,7 @@ function Header() {
           <ul className="topbar__info">
             <li>
               <i className="fa fa-envelope"></i>
-              <a href="mailto:needhelp@company.com">info@righttime.biz</a>
+              <a href="/">info@righttime.biz</a>
             </li>
             <li>
               <i className="fa fa-map-marker"></i>
@@ -93,7 +93,7 @@ function Header() {
                   </a>
                 </li>
                 <li>
-                  <a href="ecommerce-retail">
+                  <a href="/ecommerce-retail">
                     eCommerce & Retail Merchants
                   </a>
                 </li>
@@ -247,7 +247,7 @@ function Header() {
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <a href="security-testing">
+                  <a href="/security-testing">
                     Security Testing
                   </a>
                   <ul>
@@ -474,14 +474,14 @@ function Header() {
           </ul>
 
           <div className="main-menu__right">
-            <a href="#" className="mobile-nav__toggler">
+            <a href="/" className="mobile-nav__toggler">
               <span></span>
               <span></span>
               <span></span>
             </a>
 
             {/* <!-- /.search-toggler --> */}
-            <a href="#" className="main-menu__cta ">
+            <a href="/#" className="main-menu__cta ">
               <i className="fa fa-phone-alt"></i>
               <span className="main-menu__cta__text">
                 <b>(+88)-02-55012235</b>
@@ -505,13 +505,13 @@ function Header() {
         <div className="mobile-nav__overlay mobile-nav__toggler"></div>
      
         <div className="mobile-nav__content">
-            <a href="#" className="mobile-nav__close mobile-nav__toggler">
+            <a href="/#" className="mobile-nav__close mobile-nav__toggler">
                 <span></span>
                 <span></span>
             </a>
     
             <div className="logo-box">
-                <a href="/public/" aria-label="logo image"><img src="assets/images/images-removebg-preview.png" width="78"
+                <a href="/" aria-label="logo image"><img src="assets/images/images-removebg-preview.png" width="78"
                                                                   height="53" alt="Cretech"/></a>
             </div>
     
@@ -520,23 +520,23 @@ function Header() {
     
             <ul className="mobile-mobile-nav__country">
                 <h5>Select Country</h5>
-                <li><a href="/"><img src="/assets/images/flag/usa.png" width="40px"/></a></li>
-                <li><a href="/"><img src="/assets/images/flag/aus.png" width="40px"/></a></li>
-                <li><a href="/"><img src="/assets/images/flag/de.png" width="40px"/></a></li>
+                <li><a href="/"><img src="/assets/images/flag/usa.png" width="40px" alt=""/></a></li>
+                <li><a href="/"><img src="/assets/images/flag/aus.png" width="40px" alt=""/></a></li>
+                <li><a href="/"><img src="/assets/images/flag/de.png" width="40px" alt=""/></a></li>
             </ul> 
     
             <ul className="mobile-nav__contact list-unstyled">
                 <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:+8801318013300">+88 02550 12235,</a>
+                    <a href="/">+88 02550 12235,</a>
                 </li>
                 <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:+8801318013300">+88 01318 013300</a>
+                    <a href="/">+88 01318 013300</a>
                 </li>
                 <li>
                     <i className="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@company.com">info@righttime.biz</a>
+                    <a href="/">info@righttime.biz</a>
                 </li>
                 <li>
                     <i className="fa fa-map-marker-alt"></i>
@@ -546,10 +546,10 @@ function Header() {
                 </li>
             </ul> 
             <ul className="mobile-nav__social">
-                <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
-                <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                <li><a href="/"><i className="fab fa-twitter"></i></a></li>
+                <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+                <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
+                <li><a href="/"><i className="fab fa-instagram"></i></a></li>
             </ul> 
     
     
