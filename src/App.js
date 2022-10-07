@@ -26,7 +26,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      {/* <Header /> */}
+      <Header />
       <div>
         <Route path="/" component={Dashboard} exact />
         <Route path="/about-us" component={AboutUs} exact />
