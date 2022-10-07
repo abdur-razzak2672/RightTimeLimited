@@ -118,7 +118,7 @@ function App() {
       <div>
 
         {/*Dashboard Section Route Declaration start */}
-        <Route path="/" component={AboutUs} exact />
+        <Route path="/" component={Dashboard} exact />
         {/*Dashboard Section Route Declaration end */}
 
         {/*AboutUs Section Route Declaration start */}
