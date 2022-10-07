@@ -1,4 +1,9 @@
-(function ($) {
+
+  import $ from 'jquery';
+  import jQuery from 'jquery';
+  import WOW from 'wowjs';
+
+   (function ($) {
 	"use strict";
 	if ($('.niceselect').length) {
 		$('.niceselect').niceSelect();
@@ -446,3 +451,22 @@ $(function() {
     }
     });
     });
+
+
+	$(".main-content .owl-carousel").owlCarousel({
+		{loop: true,
+         items: 1,
+         navText: ["<span className=\"fa fa-angle-left\"></span>","<span className=\"fa fa-angle-right\"></span>"],
+         margin: 0,
+         dots: true,
+         nav: true,
+         animateOut:
+         slideOutDown,
+         animateIn: fadeIn,
+         active: true,
+         smartSpeed: 7000,
+         autoplay: true,
+         autoplayTimeout: 7000,
+         autoplayHoverPause: false}
+	  });
+	  

@@ -6,20 +6,7 @@ function Home() {
       <div className="slider-one">
         <div
           className="slider-one__carousel owl-carousel  owl-theme thm-owl__carousel"
-          data-owl-options='{"loop": true,
-         "items": 1,
-         "navText": ["<span className=\"fa fa-angle-left\"></span>","<span className=\"fa fa-angle-right\"></span>"],
-         "margin": 0,
-         "dots": true,
-         "nav": true,
-         "animateOut":
-         "slideOutDown",
-         "animateIn": "fadeIn",
-         "active": true,
-         "smartSpeed": 7000,
-         "autoplay": true,
-         "autoplayTimeout": 7000,
-         "autoplayHoverPause": false}'
+          data-owl-options=''
         >
           <div className="item slider-one__slide-1">
             <div className="slider-one__bg-1"></div>
