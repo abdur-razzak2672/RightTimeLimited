@@ -4,24 +4,24 @@ import IndustriesNav from './IndustriesNav'
 function BankNbfi() {
   return (
     <div>
-    <div class="page-header">
-        <div class="page-header__bg"
+    <div className="page-header">
+        <div className="page-header__bg"
              style={{backgroundImage: `url('/assets/images/background/bank.png')`}}></div>
-        <div class="container">
-            <ul class="thm-breadcrumb list-unstyled">
-                <li><a href="{{ url('/') }}">Home</a></li>
+        <div className="container">
+            <ul className="thm-breadcrumb list-unstyled">
+                <li><a href="/">Home</a></li>
                 <li>Bank & NBFI</li>
             </ul>
-            <h2 class="page-header__title" >Bank & NBFI</h2>
+            <h2 className="page-header__title" >Bank & NBFI</h2>
         </div>
     </div>
 
-    <section class="section-padding--bottom section-padding--top">
-        <div class="container">
-        <div class="row">
-                <div class="col-lg-8">
-                    <h3 class="blog-card-one__title blog-details__title" style={{color:"orange"}} > Bank and NBFI</h3>
-                    <div class="blog-details__content">
+    <section className="section-padding--bottom section-padding--top">
+        <div className="container">
+        <div className="row">
+                <div className="col-lg-8">
+                    <h3 className="blog-card-one__title blog-details__title" style={{color:"orange"}} > Bank and NBFI</h3>
+                    <div className="blog-details__content">
                         <p>The majority of cyberattacks target financial institutions.
                         Banks are where the money is, and targeting them provides cybercriminals with several opportunities to make money through extortion, theft, and fraud.
                         Nation-states and hacktivists also target the financial industry to gain political and ideological strength. </p>
@@ -37,9 +37,9 @@ function BankNbfi() {
                             Over the years we have worked closely with leading financial institutions to develop effective and long-term information security management systems. </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="sidebar">
-                        <div class="sidebar__item sidebar__item--category">
+                <div className="col-lg-4">
+                    <div className="sidebar">
+                        <div className="sidebar__item sidebar__item--category">
                             <IndustriesNav/>
                             
                         </div>

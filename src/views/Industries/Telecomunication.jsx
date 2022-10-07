@@ -3,27 +3,27 @@ import IndustriesNav from './IndustriesNav'
 function Telecomunication() {
   return (
     <div>
-     <div class="page-header">
-        <div class="page-header__bg"
+     <div className="page-header">
+        <div className="page-header__bg"
              style={{backgroundImage: `url('assets/images/background/tele.png')` }}></div>
     
-        <div class="container">
-            <ul class="thm-breadcrumb list-unstyled">
+        <div className="container">
+            <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="/">Home</a></li>
                 <li>Telecommunications</li>
             </ul>
-            <h2 class="page-header__title">Telecommunications</h2> 
+            <h2 className="page-header__title">Telecommunications</h2> 
         </div> 
     </div> 
 
-    <section class="section-padding--bottom section-padding--top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
+    <section className="section-padding--bottom section-padding--top">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-8">
 
 
-                    <h3 class="blog-card-one__title blog-details__title" style={{color:"orange"}}>Telecommunications</h3>
-                    <div class="blog-details__content">
+                    <h3 className="blog-card-one__title blog-details__title" style={{color:"orange"}}>Telecommunications</h3>
+                    <div className="blog-details__content">
                         <p>Telecom companies have long been a high value target for cybercriminals and nation state actors because they maintain and operate critical
                         communications infrastructure which is used to transmit and store large amounts of private and sensitive data.
                         Nation state actors are increasingly targeting telecommunications providers, their infrastructure and
@@ -48,9 +48,9 @@ Additionally, our Application Security and Penetration testing services can help
                     </div> 
 
                 </div> 
-                <div class="col-lg-4">
-                    <div class="sidebar">
-                        <div class="sidebar__item sidebar__item--category">
+                <div className="col-lg-4">
+                    <div className="sidebar">
+                        <div className="sidebar__item sidebar__item--category">
                             <IndustriesNav/>
                          </div>
                     </div>

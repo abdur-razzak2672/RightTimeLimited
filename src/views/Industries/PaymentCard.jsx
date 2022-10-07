@@ -3,27 +3,27 @@ import IndustriesNav from './IndustriesNav'
 function PaymentCard() {
   return (
     <div>
-    <div class="page-header">
-        <div class="page-header__bg"
+    <div className="page-header">
+        <div className="page-header__bg"
              style={{backgroundImage: `url('assets/images/background/bank.png')`}}></div>
     
-        <div class="container">
-            <ul class="thm-breadcrumb list-unstyled">
+        <div className="container">
+            <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="/">Home</a></li>
                 <li>Payment Card Industry</li>
             </ul>
-            <h2 class="page-header__title">Payment Card Industry</h2>
+            <h2 className="page-header__title">Payment Card Industry</h2>
         </div>
     </div>
 
-    <section class="section-padding--bottom section-padding--top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
+    <section className="section-padding--bottom section-padding--top">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-8">
 
 
-                    <h3 class="blog-card-one__title blog-details__title" style={{color:"orange"}} >Payment Card Industries</h3>
-                    <div class="blog-details__content">
+                    <h3 className="blog-card-one__title blog-details__title" style={{color:"orange"}} >Payment Card Industries</h3>
+                    <div className="blog-details__content">
                         <p>Online payment is getting more and more common as enterprises utilize an online payment system, which brings convenience to the public and to the online consumer market.
                         By providing secure online payment to customers, enterprises have to implement security controls in order to protect cardholder and payment information.
                         If payment information is leaked, it can create a huge losses for the cardholder as well as the organization’s reputation, brand, and image.
@@ -32,9 +32,9 @@ function PaymentCard() {
 
 
                 </div>
-                <div class="col-lg-4">
-                    <div class="sidebar">
-                        <div class="sidebar__item sidebar__item--category">
+                <div className="col-lg-4">
+                    <div className="sidebar">
+                        <div className="sidebar__item sidebar__item--category">
                             <IndustriesNav/>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ function Footer() {
           <div className="row gutter-y-30">
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--about">
-                <a href="{{ url('/') }}" className="footer-widget__logo">
+                <a href="/" className="footer-widget__logo">
                   <img
                     src="/assets/images/images-removebg-preview.png"
                     width="50"
@@ -23,15 +23,15 @@ function Footer() {
                 <ul className="footer-widget__contact">
                   <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:+880255012235"> +88 02550 12235,</a>
+                    <a href="/"> +88 02550 12235,</a>
                   </li>
                   <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:+8801318013300"> +88 01318 013300,</a>
+                    <a href="/"> +88 01318 013300,</a>
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <a href="mailto:info@righttime.biz">info@righttime.biz</a>
+                    <a href="/">info@righttime.biz</a>
                   </li>
                   <li>
                     <i className="fa fa-map-marker-alt"></i>
@@ -49,7 +49,7 @@ function Footer() {
                 <ul className="footer-widget__contact">
                   <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:+492311377672"> (+49) 2311377672,</a>
+                    <a href="/"> (+49) 2311377672,</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-fax"></i>
@@ -57,7 +57,7 @@ function Footer() {
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <a href="mailto:coo.de@righttime.biz">
+                    <a href="/">
                       coo.de@righttime.biz
                     </a>
                   </li>
@@ -76,11 +76,11 @@ function Footer() {
                 <ul className="footer-widget__contact">
                   <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:+18187790442"> (+1) 818 779 0442,</a>
+                    <a href="/"> (+1) 818 779 0442,</a>
                   </li>
                   <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:+18188625708"> (+1) 818 862 5708,</a>
+                    <a href="/"> (+1) 818 862 5708,</a>
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
@@ -102,12 +102,12 @@ function Footer() {
                 <ul className="footer-widget__contact">
                   <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:+61490517545"> (+61) 490517545,</a>
+                    <a href="/"> (+61) 490517545,</a>
                   </li>
 
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <a href="mailto:coo.au@righttime.biz">
+                    <a href="/">
                       coo.au@righttime.biz
                     </a>
                   </li>
@@ -128,22 +128,22 @@ function Footer() {
           >
             <ul className="footer-widget__social">
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fab fa-pinterest-p"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>

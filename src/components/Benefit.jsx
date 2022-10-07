@@ -41,7 +41,7 @@ function Benefit() {
                     </div>
                     <div className="about-three__list__content">
                       <h3 className="about-three__list__title">
-                        <a href="service-cyber-security.html">
+                        <a href="/">
                           Cloud Based Services
                         </a>
                       </h3>
@@ -57,7 +57,7 @@ function Benefit() {
                     </div>
                     <div className="about-three__list__content">
                       <h3 className="about-three__list__title">
-                        <a href="team.html">Expert Team Members</a>
+                        <a href="/">Expert Team Members</a>
                       </h3>
                       <p className="about-three__list__text">
                         Services address a range of simply free text application

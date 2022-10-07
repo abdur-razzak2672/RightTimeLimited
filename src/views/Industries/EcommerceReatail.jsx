@@ -4,27 +4,27 @@ import IndustriesNav from './IndustriesNav'
 function EcommerceReatail() {
   return (
     <div>
-        <div class="page-header">
-        <div class="page-header__bg"
+        <div className="page-header">
+        <div className="page-header__bg"
              style={{backgroundImage: `url('/assets/images/background/ecom.png')`}}></div>
    
-        <div class="container">
-            <ul class="thm-breadcrumb list-unstyled">
-                <li><a href="{{ url('/') }}">Home</a></li>
+        <div className="container">
+            <ul className="thm-breadcrumb list-unstyled">
+                <li><a href="/">Home</a></li>
                 <li>eCommerce & Retail Merchants</li>
             </ul>
-            <h2 class="page-header__title">eCommerce & Retail Merchants</h2> 
+            <h2 className="page-header__title">eCommerce & Retail Merchants</h2> 
         </div> 
     </div> 
 
-    <section class="section-padding--bottom section-padding--top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
+    <section className="section-padding--bottom section-padding--top">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-8">
 
 
-                    <h3 class="blog-card-one__title blog-details__title" style={{ color: "orange" }}  >E-Commerce and Retails Merchentant</h3>
-                    <div class="blog-details__content">
+                    <h3 className="blog-card-one__title blog-details__title" style={{ color: "orange" }}  >E-Commerce and Retails Merchentant</h3>
+                    <div className="blog-details__content">
                         <p>E-commerce and Retail companies are high on hacker lists, and recent reports highlight the number of cyber attacks on the sector.
                         As E-commerce and retailers handle millions of transactions each year, attackers with the ability to compromise networks gain access to huge blocks of data that can be forged or sold online.
                         As skimming, Point of Sale (POS) compromise, phishing, ransomware, web applications and denial of service attacks increase, organizations must continually improve their security controls..</p>
@@ -57,9 +57,9 @@ function EcommerceReatail() {
 
 
                 </div>
-                <div class="col-lg-4">
-                    <div class="sidebar">
-                        <div class="sidebar__item sidebar__item--category">
+                <div className="col-lg-4">
+                    <div className="sidebar">
+                        <div className="sidebar__item sidebar__item--category">
                             <IndustriesNav/>
                       
                         </div>

@@ -4,33 +4,33 @@ import IndustriesNav from './IndustriesNav'
 function Educational() {
   return (
     <div>
-      <div class="page-header">
-        <div class="page-header__bg"
+      <div className="page-header">
+        <div className="page-header__bg"
           style={{ backgroundImage: `url('/assets/images/background/ed.png')` }}></div>
 
-        <div class="container">
-          <ul class="thm-breadcrumb list-unstyled">
+        <div className="container">
+          <ul className="thm-breadcrumb list-unstyled">
             <li><a href="/">Home</a></li>
             <li>Educational Institutions</li>
           </ul>
-          <h2 class="page-header__title">Educational Institutions</h2>
+          <h2 className="page-header__title">Educational Institutions</h2>
         </div>
       </div>
 
-      <section class="section-padding--bottom section-padding--top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8">
+      <section className="section-padding--bottom section-padding--top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8">
 
 
-              <h3 class="blog-card-one__title blog-details__title" style={{ color: "orange" }}>Educational Institutions</h3>
-              <div class="blog-details__content">
+              <h3 className="blog-card-one__title blog-details__title" style={{ color: "orange" }}>Educational Institutions</h3>
+              <div className="blog-details__content">
                 <p>Cyber security is critical for all organizations, not just IT.
                   The need for cyber security in educational institutions is growing.
                   The development of computers and the Internet has made life easier for people in educational and other institutions.
                 </p>
                 <p>Digitization of the education system has led to serious problems such as cyberbullying, malware attacks and hacking.
-                  Additionally, with the rapid growth of distance education and virtual classrooms, cyber security is one of the main concerns for educational institutions and students.
+                  Additionally, with the rapid growth of distance education and virtual classNamerooms, cyber security is one of the main concerns for educational institutions and students.
                 </p>
                 <p>Educational institutions are gold mines of personal information. Therefore, this department should prioritize cyber security.
                   While the sector faces major challenges such as lack of personnel and funding and resources, cyber attacks are no less frequent or less severe in education.
@@ -49,9 +49,9 @@ function Educational() {
 
 
             </div>
-            <div class="col-lg-4">
-              <div class="sidebar">
-                <div class="sidebar__item sidebar__item--category">
+            <div className="col-lg-4">
+              <div className="sidebar">
+                <div className="sidebar__item sidebar__item--category">
                   <IndustriesNav />
 
                 </div>

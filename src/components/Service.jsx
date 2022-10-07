@@ -58,7 +58,7 @@ function Service() {
                 </div>
                 <div className="service-card-three__content">
                   <h3 className="service-card-three__title">
-                    <a href="{{ url('/services/consultation') }}">
+                    <a href="/consultation">
                       Consultation
                       <br />
                     </a>
@@ -74,7 +74,7 @@ function Service() {
                 </div>
                 <div className="service-card-three__content">
                   <h3 className="service-card-three__title">
-                    <a href="{{ url('/services/auditing') }}">Auditing </a>
+                    <a href="/auditing">Auditing </a>
                   </h3>
                   <div className="service-card-three__text"></div>
                 </div>
@@ -87,7 +87,7 @@ function Service() {
                 </div>
                 <div className="service-card-three__content">
                   <h3 className="service-card-three__title">
-                    <a href="{{ url('/services/security-assessment-testing') }}">
+                    <a href="/">
                       Security <br />
                       Assessment & Testing
                     </a>
@@ -103,7 +103,7 @@ function Service() {
                 </div>
                 <div className="service-card-three__content">
                   <h3 className="service-card-three__title">
-                    <a href="{{ url('/services/standard-implementation-certification') }}">
+                    <a href="/">
                       Standard
                       <br />
                       Implementation & Certification
@@ -120,7 +120,7 @@ function Service() {
                   </div>
                   <div className="service-card-three__content">
                     <h3 className="service-card-three__title">
-                      <a href="{{ url('/services/solutions') }}">Solutions</a>
+                      <a href="/solutions">Solutions</a>
                     </h3>
                     <div className="service-card-three__text"></div>
                   </div>

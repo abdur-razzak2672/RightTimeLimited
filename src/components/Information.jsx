@@ -157,7 +157,7 @@ function Information() {
           className="cta-two__bg jarallax"
           data-jarallax
           data-speed="0.2"
-          data-imgPosition="50% 0%"
+          // data-imgPosition="50% 0%"
           style={{ backgroundImage: `url('assets/images/background/s4.jpeg')` }}
         ></div>
         <div className="container">
@@ -166,7 +166,7 @@ function Information() {
               Better Information Security Services And Solutions At Your{" "}
               <span>Fingertips</span>
             </h3>
-            <a href="contact.html" className="thm-btn cta-two__btn">
+            <a href="/contact-us" className="thm-btn cta-two__btn">
               <span>LEarn More</span>
             </a>
           </div>

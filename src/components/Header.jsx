@@ -103,10 +103,10 @@ function Header() {
               </ul>
             </li>
             <li>
-              <a href="{{ url('/partners') }}">Partners</a>
+              <a href="/partners">Partners</a>
               <ul>
                 <li>
-                  <a href="#">Service Partner</a>
+                  <a href="/partners">Service Partner</a>
                   <ul>
                     <li>
                       <a href="https://www.eccouncil.org/">EC Council</a>
@@ -130,7 +130,7 @@ function Header() {
                 </li>
 
                 <li>
-                  <a href="#">Solution Partner</a>
+                  <a href="/partners">Solution Partner</a>
                   <ul>
                     <li>
                       <a href="https://www.invicti.com/">INVICTI</a>
@@ -146,7 +146,7 @@ function Header() {
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Association</a>
+                  <a href="/partners">Association</a>
                   <ul>
                     <li>
                       <a href="http://cca.gov.bd/site/office_head/5891f732-8e0f-40b0-9f85-1cb867657bfd/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4">
@@ -177,39 +177,39 @@ function Header() {
               </ul>
             </li>
             <li className="menu-item-has-children">
-              <a href="{{ url('/services') }}">Services</a>
+              <a href="/services">Services</a>
               <ul>
                 <li className="menu-item-has-children">
-                  <a href="{{ url('/services/consultation') }}">Consultation</a>
+                  <a href="/consultation">Consultation</a>
 
                   <ul>
                     <li>
-                      <a href="{{ url('/services/consultation/information-security') }}">
+                      <a href="/information-security-Special">
                         Information Security-Specially Cyber Security Consulting
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/consultation/partners-management') }}">
+                      <a href="/project-management">
                         Project Management
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/consultation/providing-security') }}">
+                      <a href="/providing-security">
                         Providing Security
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/consultation/DC-DRS') }}">
+                      <a href="/consultation-on-shaping">
                         Consultation on Shaping the DC & DRS
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/consultation/swift-cyber-security-consulting') }} ">
+                      <a href="/swift-cyber-security">
                         Swift Cyber Security Consulting
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/consultation/technical-documentation-on-ICT') }} ">
+                      <a href="/technical-documentation ">
                         Technical Documentation on ICT
                       </a>
                     </li>
@@ -217,80 +217,81 @@ function Header() {
                 </li>
 
                 <li className="menu-item-has-children">
-                  <a href="{{ url('/services/auditing') }}">Auditing</a>
+                  <a href="Auditing">Auditing</a>
                   <ul>
                     <li>
-                      <a href="{{ url('/services/auditing/information-system-audit') }}">
+                      <a href="/information-system">
                         Information System Audit
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/auditing/information-technology-audit') }}">
+                      <a href="/information-technology">
                         Information Technology Audit
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/auditing/information-security-graded-audit') }}">
+                      <a href="/information-security-graded">
                         Information Security Graded Audit
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/auditing/DC-DRS-audit') }}">
+                      <a href="/swift-csp">
+                        Swift Csp Indpended Assessment
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/dc-drs-auditing">
                         DC & DRS Auditing
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <a href="{{ url('/services/security-assessment-testing') }}">
+                  <a href="security-testing">
                     Security Testing
                   </a>
                   <ul>
                     <li>
-                      <a href="{{ url('/services/security-assessment-testing/VAPT') }}">
+                      <a href="/vulnerability-assessment">
                         Vulnerability Assessment & Presentation Testing Services
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-assessment-testing/digital-forensics') }}">
+                      <a href="/digital-forensics">
                         Digital Forensics
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-assessment-testing/code-review') }}">
+                      <a href="/code-review">
                         Code Review
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <a href="{{ url('/services/standard-implementation-certification') }}">
+                  <a href="/certification">
                     Certification
                   </a>
                   <ul>
                     <li>
-                      {" "}
-                      <a href="{{ url('/services/standard-implementation-certification/pci-dss') }}">
+                    
+                      <a href="/pci-dss-payment">
                         Payment Card Industry Data Security Standards
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/standard-implementation-certification/iso') }}">
+                      <a href="/iso-international">
                         International Organization for Standardization-ISO
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/standard-implementation-certification/CMMI') }}">
+                      <a href="/cmmi">
                         CMMI
                       </a>
                     </li>
+                   
                     <li>
-                      <a href="{{ url('/services/standard-implementation-certification/SCIA') }}">
-                        SWIFT CSP Independent Assesment
-                      </a>
-                    </li>
-                    <li>
-                      <a href="{{ url('/services/standard-implementation-certification/') }}">
+                      <a href="/tia-for-data-center">
                         TIA 942 for Data Center
                       </a>
                     </li>
@@ -299,45 +300,45 @@ function Header() {
               </ul>
             </li>
             <li className="menu-item-has-children">
-              <a href="{{ url('/services/solutions') }}">Solutions</a>
+              <a href="/solutions">Solutions</a>
               <ul>
                 <li>
-                  <a href="{{ url('/services/solutions/BURP-Suite') }}">
+                  <a href="/burp-suite">
                     BURP Suite
                   </a>
                 </li>
                 <li>
-                  <a href="{{ url('/services/solutions/acunetix') }}">
+                  <a href="/acunetix">
                     Acunetix
                   </a>
                 </li>
                 <li>
-                  <a href="{{ url('/services/solutions/net-sporker') }}">
+                  <a href="/netsparker">
                     Net Sparker
                   </a>
                 </li>
                 <li>
-                  <a href="{{ url('/services/solutions/core-impact') }}">
+                  <a href="/core-impact">
                     Core Impact
                   </a>
                 </li>
                 <li>
-                  <a href="{{ url('/services/solutions/SIEM-solutions') }}">
+                  <a href="/siem">
                     SIEM
                   </a>
                 </li>
                 <li>
-                  <a href="{{ url('/services/solutions/firewall') }}">
+                  <a href="/firewall">
                     Firewall
                   </a>
                 </li>
                 <li>
-                  <a href="{{ url('/services/solutions/Bulk-SMS') }}">
+                  <a href="/bulk-sms">
                     Bulk SMS
                   </a>
                 </li>
                 <li>
-                  <a href="{{ url('/services/solutions/smart-contract') }}">
+                  <a href="/smart-contact">
                     Smart Contract
                   </a>
                 </li>
@@ -345,40 +346,40 @@ function Header() {
             </li>
 
             <li className="menu-item-has-children">
-              <a href="{{ url('/services/security-training') }}">Training</a>
+              <a href="/training">Training</a>
               <ul>
                 <li className="menu-item-has-children">
-                  <a href="{{ url('/service/s/security-training/assessment') }}">
+                  <a href="/assessment">
                     Assessment
                   </a>
                   <ul>
                     <li>
-                      <a href="{{ url('/services/security-training/assessment/ethical-hacker') }}">
+                      <a href="/certified-ethical-hacker">
                         Certified Ethical Hacker (CEH)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/assessment/CPENT') }}">
+                      <a href="/certified-penetration">
                         Certified Penetration Testing Professional(CPENT)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/assessment/CHFI') }}">
+                      <a href="/computer-hacking">
                         Computer Hacking Forensic Investigator(CHFI)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/assessment/OSINT') }}">
+                      <a href="/open-source">
                         Open Source Intelligence(OSINT)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/assessment/GPEN') }}">
+                      <a href="/giac-penetration">
                         GIAC Penetration Tester(GPEN)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/assessment/GWAPT') }}">
+                      <a href="/giac-web-application">
                         GIAC Web Application Penetration Tester(GWAPT)
                       </a>
                     </li>
@@ -386,48 +387,48 @@ function Header() {
                 </li>
 
                 <li className="menu-item-has-children">
-                  <a href="{{ url('/services/security-training/management') }}">
+                  <a href="/management">
                     Management
                   </a>
                   <ul>
                     <li>
-                      <a href="{{ url('/services/security-training/management/CDRP') }}">
+                      <a href="/certified-disaster">
                         Certified Disaster Recovery Professional
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/management/CIH') }}">
+                      <a href="/certified-incident-handler">
                         Certified Incident Handler
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/management/CSA') }}">
+                      <a href="/certified-soc-analyst">
                         Certified SOC Analyst(CSA)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/management/CTIA') }}">
+                      <a href="/certified-threat">
                         Certified Threat Intelligence Analyst(CTIA)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/management/CISA') }}">
+                      <a href="/certified-information-system">
                         Certified Information Systems Auditor(CISA)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/management/CISM') }}">
+                      <a href="/certified-information-security">
                         Certified Information Security Manager(CISM)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/management/CISSP') }}">
+                      <a href="/certified-information-system-security">
                         Certified Information Systems Security
                         Professional(CISSP)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/management/GCPM') }}">
+                      <a href="/giac-certified-project">
                         GIAC Certified Project Manager (GCPM)
                       </a>
                     </li>
@@ -435,27 +436,27 @@ function Header() {
                 </li>
 
                 <li className="menu-item-has-children">
-                  <a href="{{ url('/services/security-training/right-time-customized') }}">
+                  <a href="customized">
                     Customized
                   </a>
                   <ul>
                     <li>
-                      <a href="{{ url('/services/security-training/right-time-customized/basic') }}">
+                      <a href="/basic-corporate">
                         Basic (Corporate)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/right-time-customized/advanced') }}">
+                      <a href="/advance-corporate">
                         Advance (Corporate)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/right-time-customized/intermediate') }}">
+                      <a href="/intermidiate-corporate">
                         Intermediate (Corporate)
                       </a>
                     </li>
                     <li>
-                      <a href="{{ url('/services/security-training/right-time-customized/one-to-one-training') }}">
+                      <a href="/one-to-one-training">
                         One to One Training
                       </a>
                     </li>
@@ -464,11 +465,11 @@ function Header() {
               </ul>
             </li>
             <li>
-              <a href="{{ url('/blog') }}">Careers</a>
+              <a href="/careers">Careers</a>
             </li>
 
             <li>
-              <a href="contact.html">Contact Us</a>
+              <a href="/contact-us">Contact Us</a>
             </li>
           </ul>
 
@@ -500,55 +501,55 @@ function Header() {
 
 
 
-      <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+      <div className="mobile-nav__wrapper">
+        <div className="mobile-nav__overlay mobile-nav__toggler"></div>
      
-        <div class="mobile-nav__content">
-            <a href="#" class="mobile-nav__close mobile-nav__toggler">
+        <div className="mobile-nav__content">
+            <a href="#" className="mobile-nav__close mobile-nav__toggler">
                 <span></span>
                 <span></span>
             </a>
     
-            <div class="logo-box">
+            <div className="logo-box">
                 <a href="/public/" aria-label="logo image"><img src="assets/images/images-removebg-preview.png" width="78"
                                                                   height="53" alt="Cretech"/></a>
             </div>
     
-            <div class="mobile-nav__container"></div>
+            <div className="mobile-nav__container"></div>
         
     
-            <ul class="mobile-mobile-nav__country">
+            <ul className="mobile-mobile-nav__country">
                 <h5>Select Country</h5>
                 <li><a href="/"><img src="/assets/images/flag/usa.png" width="40px"/></a></li>
                 <li><a href="/"><img src="/assets/images/flag/aus.png" width="40px"/></a></li>
                 <li><a href="/"><img src="/assets/images/flag/de.png" width="40px"/></a></li>
             </ul> 
     
-            <ul class="mobile-nav__contact list-unstyled">
+            <ul className="mobile-nav__contact list-unstyled">
                 <li>
-                    <i class="fa fa-phone"></i>
+                    <i className="fa fa-phone"></i>
                     <a href="tel:+8801318013300">+88 02550 12235,</a>
                 </li>
                 <li>
-                    <i class="fa fa-phone"></i>
+                    <i className="fa fa-phone"></i>
                     <a href="tel:+8801318013300">+88 01318 013300</a>
                 </li>
                 <li>
-                    <i class="fa fa-envelope"></i>
+                    <i className="fa fa-envelope"></i>
                     <a href="mailto:needhelp@company.com">info@righttime.biz</a>
                 </li>
                 <li>
-                    <i class="fa fa-map-marker-alt"></i>
+                    <i className="fa fa-map-marker-alt"></i>
                     Level: 06 & 14 (west), BDBL Bhaban,
                     12, Karwan Bazar, Tejgaon
                     Post Code: 1215 <br/>Dhaka, Bangladesh
                 </li>
             </ul> 
-            <ul class="mobile-nav__social">
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <ul className="mobile-nav__social">
+                <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i className="fab fa-instagram"></i></a></li>
             </ul> 
     
     

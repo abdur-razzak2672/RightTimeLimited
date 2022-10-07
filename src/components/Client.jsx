@@ -30,7 +30,7 @@ function Client() {
                   ligula ultrices.
                 </div>
                 <a
-                  href="about.html"
+                  href="/"
                   className="thm-btn testimonials-two__content__btn"
                 >
                   <span>View All feedbacks</span>

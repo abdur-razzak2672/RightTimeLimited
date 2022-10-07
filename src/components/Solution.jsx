@@ -16,7 +16,7 @@ function Solution() {
                 Let’s Work Togather on Project
               </h2>
             </div>
-            <a href="contact.html" className="thm-btn thm-btn--light cta-one__btn">
+            <a href="/contact-us" className="thm-btn thm-btn--light cta-one__btn">
               <span>Start Now</span>
             </a>
           </div>

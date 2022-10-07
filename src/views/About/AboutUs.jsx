@@ -282,7 +282,7 @@ function AboutUs() {
               Better Information Security Services And Solutions At Your 
               <span>Fingertips</span>
             </h3>
-            <a href="contact.html" className="thm-btn cta-two__btn">
+            <a href="/" className="thm-btn cta-two__btn">
               <span>LEarn More</span>
             </a>
           </div>
@@ -315,7 +315,7 @@ function AboutUs() {
                   ligula ultrices.
                 </div>
                 <a
-                  href="about.html"
+                  href="/"
                   className="thm-btn testimonials-two__content__btn"
                 >
                   <span>View All feedbacks</span>
