@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <div className="footer-main section-padding--bottom footer-main--top-padding section-padding--top">
-        <div className="container " style={{ paddingTop: "150px" }}>
+        <div className="container "  >
           <div className="row gutter-y-30">
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--about">
