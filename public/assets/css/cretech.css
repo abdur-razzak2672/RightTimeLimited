@@ -50,7 +50,9 @@
   --cretech-gray-rgb: 249, 246, 255;
   --cretech-border: #e1dbec;
 }
-
+a{
+  text-decoration: none;
+}
 /***********************
 * Animations
 ***********************/
@@ -1077,12 +1079,16 @@ a:visited {
   transition: all 500ms ease;
   display: block;
   padding: 29.5px 0;
+  text-decoration: none;
+
 }
 
 .main-menu__list>li:hover>a,
 .main-menu__list>li.current>a {
   text-shadow: 0 0 1px currentColor;
   color: var(--cretech-black, #12062c);
+  text-decoration: none;
+
 }
 
 .main-menu__list>li>ul {
@@ -1115,6 +1121,8 @@ a:visited {
   transition: all 500ms ease;
   display: block;
   padding: 7px 20px;
+  text-decoration: none;
+
 }
 
 .main-menu__list>li>ul>li>a:hover {
@@ -1147,10 +1155,16 @@ a:visited {
   transition: all 500ms ease;
   display: block;
   padding: 7px 20px;
+  text-decoration: none;
+
 }
 
 .main-menu__list>li>ul>li>ul>li>a:hover {
   color: #fff;
+}
+a{
+  text-decoration: none;
+
 }
 
 .main-menu__list>li>ul>li>ul>li>ul {
@@ -2463,19 +2477,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/1.png');
+  background-image: url('/assets/images/background/1.png');
   background-size: 100% 100%;
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-1 {
-    background-image: url('/frontend/assets/images/background/1-mbl.png');
+    background-image: url('/assets/images/background/1-mbl.png');
   }
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-1 {
-    background-image: url('/frontend/assets/images/background/1-Lp.png');
+    background-image: url('/assets/images/background/1-Lp.png');
   }
 }
 
@@ -2488,19 +2502,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/2.png');
+  background-image: url('/assets/images/background/2.png');
   background-size: 100% 100%;
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-2 {
-    background-image: url('/frontend/assets/images/background/2-mbl.png');
+    background-image: url('/assets/images/background/2-mbl.png');
   }
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-2 {
-    background-image: url('/frontend/assets/images/background/2-Lp.png');
+    background-image: url('/assets/images/background/2-Lp.png');
   }
 }
 
@@ -2513,19 +2527,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/3.png');
+  background-image: url('/assets/images/background/3.png');
   background-size: 100% 100%;
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-3 {
-    background-image: url('/frontend/assets/images/background/3-Lp.png');
+    background-image: url('/assets/images/background/3-Lp.png');
   }
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-3 {
-    background-image: url('/frontend/assets/images/background/3-mbl.png');
+    background-image: url('/assets/images/background/3-mbl.png');
   }
 }
 
@@ -2538,19 +2552,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/4.jpeg');
+  background-image: url('/assets/images/background/4.jpeg');
   background-size: 100% 100%;
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-4 {
-    background-image: url('/frontend/assets/images/background/4-mbl.png');
+    background-image: url('/assets/images/background/4-mbl.png');
   }
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-4 {
-    background-image: url('/frontend/assets/images/background/4-Lp.png');
+    background-image: url('/assets/images/background/4-Lp.png');
   }
 }
 
@@ -2563,19 +2577,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/5.png');
+  background-image: url('/assets/images/background/5.png');
   background-size: 100% 100%;
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-5 {
-    background-image: url('/frontend/assets/images/background/5-mbl.png');
+    background-image: url('/assets/images/background/5-mbl.png');
   }
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-5 {
-    background-image: url('/frontend/assets/images/background/5-Lp.png');
+    background-image: url('/assets/images/background/5-Lp.png');
   }
 }
 
@@ -2588,19 +2602,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/6.png');
+  background-image: url('/assets/images/background/6.png');
   background-size: 100% 100%;
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-6 {
-    background-image: url('/frontend/assets/images/background/6-mbl.png');
+    background-image: url('/assets/images/background/6-mbl.png');
   }
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-6 {
-    background-image: url('/frontend/assets/images/background/6-Lp.png');
+    background-image: url('/assets/images/background/6-Lp.png');
   }
 }
 
@@ -2613,19 +2627,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/7.png');
+  background-image: url('/assets/images/background/7.png');
   background-size: 100% 100%;
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-7 {
-    background-image: url('/frontend/assets/images/background/7-mbl.png');
+    background-image: url('/assets/images/background/7-mbl.png');
   }
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-7 {
-    background-image: url('/frontend/assets/images/background/7-Lp.png');
+    background-image: url('/assets/images/background/7-Lp.png');
   }
 }
 
@@ -2638,19 +2652,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/8.png');
+  background-image: url('/assets/images/background/8.png');
   background-size: 100% 100%;
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-8 {
-    background-image: url('/frontend/assets/images/background/8-mbl.png');
+    background-image: url('/assets/images/background/8-mbl.png');
   }
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-8 {
-    background-image: url('/frontend/assets/images/background/8-Lp.png');
+    background-image: url('/assets/images/background/8-Lp.png');
   }
 }
 
@@ -2663,19 +2677,19 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: 0.7;
-  background-image: url('/frontend/assets/images/background/9.png');
+  background-image: url('/assets/images/background/9.png');
   background-size: 100% 100%;
 }
 
 @media(max-width: 600px) {
   .slider-one__bg-9 {
-    background-image: url('/frontend/assets/images/background/9-mbl.png');
+    background-image: url('/assets/images/background/9-mbl.png');
   }
 }
 
 @media(max-width: 1500px) {
   .slider-one__bg-9 {
-    background-image: url('/frontend/assets/images/background/9-Lp.png');
+    background-image: url('/assets/images/background/9-Lp.png');
   }
 }
 
@@ -8600,3 +8614,10 @@ div#CybotCookiebotDialogPoweredByText {
 
 
 /*# sourceMappingURL=cretech.css.map */
+
+
+
+
+
+
+
