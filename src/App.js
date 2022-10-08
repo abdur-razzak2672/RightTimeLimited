@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // Header Section Imported Start
-import Header from "./components/Header";
+// import Header from "./components/Header";
 // Header Section Imported End
 
 // Dashboard Section Imported Start
@@ -114,7 +114,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <div>
 
         {/*Dashboard Section Route Declaration start */}
@@ -222,7 +222,7 @@ function App() {
       </div>
       {/* Footer Section Route Declaration */}
        <Footer />
-      <a href="/#" data-target="html" className="scroll-to-target scroll-to-top">
+      <a href="#" data-target="html" className="scroll-to-target scroll-to-top">
         <i className="fa fa-angle-up"></i>
       </a>
     </Router>

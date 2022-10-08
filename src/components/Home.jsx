@@ -1,5 +1,5 @@
 import React from "react";
-import "./assets/vendors/owl-carousel/assets/owl.carousel.min.css";
+// import "./assets/vendors/owl-carousel/assets/owl.carousel.min.css";
 function Home() {
   return (
     <div className="pt-5 mt-5">
