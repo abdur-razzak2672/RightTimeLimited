@@ -144,7 +144,7 @@ function Service() {
               <li className="funfact-one__list__item">
                 <h3 className="funfact-one__list__title count-box">
                   <span data-stop="255" data-speed="2500" className="count-text">
-                    255
+                    00
                   </span>
                 </h3>
                 <p className="funfact-one__list__text">Business Interogation</p>
@@ -152,7 +152,7 @@ function Service() {
               <li className="funfact-one__list__item">
                 <h3 className="funfact-one__list__title count-box">
                   <span data-stop="325" data-speed="2500" className="count-text">
-                    325
+                    00
                   </span>
                 </h3>
                 <p className="funfact-one__list__text">Strategies Planned</p>
@@ -160,7 +160,7 @@ function Service() {
               <li className="funfact-one__list__item">
                 <h3 className="funfact-one__list__title count-box">
                   <span data-stop="569" data-speed="2500" className="count-text">
-                    569
+                    00
                   </span>
                 </h3>
                 <p className="funfact-one__list__text">Projects Relased</p>
@@ -168,7 +168,7 @@ function Service() {
               <li className="funfact-one__list__item">
                 <h3 className="funfact-one__list__title count-box">
                   <span data-stop="769" data-speed="2500" className="count-text">
-                    769
+                    00
                   </span>
                 </h3>
                 <p className="funfact-one__list__text">Satisfied Clients </p>

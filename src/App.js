@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Header Section Imported Start
-// import Header from "./components/Header";
+import Header from "./components/Header";
 // Header Section Imported End
 
 // Dashboard Section Imported Start
@@ -46,7 +46,7 @@ import InformationTechnology from "./views/Services/Auditing/InformationTechnolo
 import InformatonSystem from "./views/Services/Auditing/InformatonSystem";
 import SwiftCsp from "./views/Services/Auditing/SwiftCsp";
 //Security testing
-import SecuirityTesting from "./views/Services/SecuirityTesting/CodeReview";
+import SecuirityTesting from "./views/Services/SecuirityTesting/SecurityTesting";
 import CodeReview from "./views/Services/SecuirityTesting/CodeReview";
 import DigitalForensics from "./views/Services/SecuirityTesting/DigitalForensics";
 import VulnerabilityAssesment from "./views/Services/SecuirityTesting/VulnerabilityAssesment";
@@ -115,7 +115,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      {/* <Header /> */}
+      <Header />
       <div>
 
         {/*Dashboard Section Route Declaration start */}

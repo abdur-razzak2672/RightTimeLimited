@@ -21,7 +21,7 @@ function About() {
                   data-wow-duration="1500ms"
                 >
                   <span className="count-text" data-stop="13" data-speed="1300">
-                    13
+                    00
                   </span>
                   Years of
                   <br />
