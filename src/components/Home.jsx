@@ -1,12 +1,27 @@
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel';
+import "./assets/vendors/owl-carousel/assets/owl.carousel.min.css";
 function Home() {
   return (
-
-
-    <Carousel className="slider-one ">
-      <Carousel.Item>
-      <div className="item slider-one__slide-1     ">
+    <div >
+      <div className="slider-one">
+        <div
+          className="slider-one__carousel owl-carousel  owl-theme thm-owl__carousel"
+          data-owl-options='{"loop": true,
+         "items": 1,
+         "navText": ["<span className=\"fa fa-angle-left\"></span>","<span className=\"fa fa-angle-right\"></span>"],
+         "margin": 0,
+         "dots": true,
+         "nav": true,
+         "animateOut":
+         "slideOutDown",
+         "animateIn": "fadeIn",
+         "active": true,
+         "smartSpeed": 7000,
+         "autoplay": true,
+         "autoplayTimeout": 7000,
+         "autoplayHoverPause": false}'
+        >
+          <div className="item slider-one__slide-1">
             <div className="slider-one__bg-1"></div>
             <div className="slider-one__line"></div>
             <div className="slider-one__shape-1"></div>
@@ -23,7 +38,7 @@ function Home() {
                 </div>
                 <div className="slider-one__btns">
                   <a
-                    href="/about-us"
+                    href="{{ url('/about-us') }}"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -32,9 +47,7 @@ function Home() {
               </div>
             </div>
           </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className="item slider-one__slide-2      " >
+          <div className="item slider-one__slide-2">
             <div className="slider-one__bg-2"></div>
             {/* <!-- /.slider-one__bg --> */}
             <div className="slider-one__line"></div>
@@ -60,7 +73,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="/about-us"
+                    href="{{ url('/about-us') }}"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -73,9 +86,8 @@ function Home() {
             </div>
             {/* <!-- /.container --> */}
           </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className="item slider-one__slide-3      ">
+          {/* <!-- /.item --> */}
+          <div className="item slider-one__slide-3">
             <div className="slider-one__bg-3"></div>
             {/* <!-- /.slider-one__bg --> */}
             <div className="slider-one__line"></div>
@@ -97,7 +109,7 @@ function Home() {
                 </div>
                 <div className="slider-one__btns">
                   <a
-                    href="/about-us"
+                    href="{{ url('/about-us') }}"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -111,9 +123,7 @@ function Home() {
             {/* <!-- /.container --> */}
           </div>
           {/* <!-- /.item --> */}
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className="item slider-one__slide-4      ">
+          <div className="item slider-one__slide-4">
             <div className="slider-one__bg-4"></div>
             {/* <!-- /.slider-one__bg --> */}
             <div className="slider-one__line"></div>
@@ -139,7 +149,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="/about-us"
+                    href="{{ url('/about-us') }}"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -152,9 +162,8 @@ function Home() {
             </div>
             {/* <!-- /.container --> */}
           </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className="item slider-one__slide-5      ">
+          {/* <!-- /.item --> */}
+          <div className="item slider-one__slide-5">
             <div className="slider-one__bg-5"></div>
             {/* <!-- /.slider-one__bg --> */}
             <div className="slider-one__line"></div>
@@ -180,7 +189,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="/about-us"
+                    href="{{ url('/about-us') }}"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -193,16 +202,19 @@ function Home() {
             </div>
             {/* <!-- /.container --> */}
           </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className="item slider-one__slide-6      ">
+          {/* <!-- /.item --> */}
+          <div className="item slider-one__slide-6">
             <div className="slider-one__bg-6"></div>
             {/* <!-- /.slider-one__bg --> */}
             <div className="slider-one__line"></div>
-             <div className="slider-one__shape-1"></div>
-             <div className="slider-one__shape-2"></div>
-             <div className="slider-one__shape-3"></div>
-             <div className="container">
+            {/* <!-- /.slider-one__line --> */}
+            <div className="slider-one__shape-1"></div>
+            {/* <!-- /.slider-one__shape-1 --> */}
+            <div className="slider-one__shape-2"></div>
+            {/* <!-- /.slider-one__shape-2 --> */}
+            <div className="slider-one__shape-3"></div>
+            {/* <!-- /.slider-one__shape-3 --> */}
+            <div className="container">
               <div className="slider-one__content ">
                 <div className="slider-one__floated lettering-text">technology</div>
                 {/* <!-- /.slider-one__floated --> */}
@@ -217,7 +229,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="/about-us"
+                    href="{{ url('/about-us') }}"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -230,9 +242,88 @@ function Home() {
             </div>
             {/* <!-- /.container --> */}
           </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className="item slider-one__slide-7      ">
+          {/* <!-- /.item --> */}
+          <div className="item slider-one__slide-7">
+            <div className="slider-one__bg-7"></div>
+            {/* <!-- /.slider-one__bg --> */}
+            <div className="slider-one__line"></div>
+            {/* <!-- /.slider-one__line --> */}
+            <div className="slider-one__shape-1"></div>
+            {/* <!-- /.slider-one__sha/pe-1 --> */}
+            <div className="slider-one__shape-2"></div>
+            {/* <!-- /.slider-one__shape-2 --> */}
+            <div className="slider-one__shape-3"></div>
+            {/* <!-- /.slider-one__shape-3 --> */}
+            <div className="container">
+              <div className="slider-one__content ">
+                <div className="slider-one__floated lettering-text">technology</div>
+                {/* <!-- /.slider-one__floated --> */}
+                <p className="slider-one__text">We, Right Time Limited</p>
+                {/* <!-- /.slider-one__text --> */}
+                <div className="slider-one__title-wrapper">
+                  <h2 className="slider-one__title">
+                    First Ever QSA Firm in <br /> Bangladesh
+                  </h2>
+                  {/* <!-- /.slider-one__title --> */}
+                </div>
+                {/* <!-- /.slider-one__title-wrapper --> */}
+                <div className="slider-one__btns">
+                  <a
+                    href="{{ url('/about-us') }}"
+                    className="thm-btn slider-one__btn"
+                  >
+                    <span>Details</span>
+                  </a>
+                  {/* <!-- /.thm-btn slider-one__btn --> */}
+                </div>
+                {/* <!-- /.slider-one__btns --> */}
+              </div>
+              {/* <!-- /.slider-one__content --> */}
+            </div>
+            {/* <!-- /.container --> */}
+          </div>
+          {/* <!-- /.item --> */}
+          <div className="item slider-one__slide-7">
+            <div className="slider-one__bg-8"></div>
+            {/* <!-- /.slider-one__bg --> */}
+            <div className="slider-one__line"></div>
+            {/* <!-- /.slider-one__line --> */}
+            <div className="slider-one__shape-1"></div>
+            {/* <!-- /.slider-one__shape-1 --> */}
+            <div className="slider-one__shape-2"></div>
+            {/* <!-- /.slider-one__shape-2 --> */}
+            <div className="slider-one__shape-3"></div>
+            {/* <!-- /.slider-one__shape-3 --> */}
+            <div className="container">
+              <div className="slider-one__content ">
+                <div className="slider-one__floated lettering-text">technology</div>
+                {/* <!-- /.slider-one__floated --> */}
+                <p className="slider-one__text">We, Right Time Limited</p>
+                {/* <!-- /.slider-one__text --> */}
+                <div className="slider-one__title-wrapper">
+                  <h2 className="slider-one__title">
+                    First Ever QSA Firm in <br /> Bangladesh
+                  </h2>
+                  {/* <!-- /.slider-one__title --> */}
+                </div>
+                {/* <!-- /.slider-one__title-wrapper --> */}
+                <div className="slider-one__btns">
+                  <a
+                    href="{{ url('/about-us') }}"
+                    className="thm-btn slider-one__btn"
+                  >
+                    <span>Details</span>
+                  </a>
+                  {/* <!-- /.thm-btn slider-one__btn --> */}
+                </div>
+                {/* <!-- /.slider-one__btns --> */}
+              </div>
+              {/* <!-- /.slider-one__content --> */}
+            </div>
+            {/* <!-- /.container --> */}
+          </div>
+          {/* <!-- /.item --> */}
+          <div className="item slider-one__slide-7">
             <div className="slider-one__bg-9"></div>
             {/* <!-- /.slider-one__bg --> */}
             <div className="slider-one__line"></div>
@@ -257,7 +348,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="/about-us"
+                    href="{{ url('/about-us') }}"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -270,10 +361,12 @@ function Home() {
             </div>
             {/* <!-- /.container --> */}
           </div>
-      </Carousel.Item>
-    </Carousel>
-
-
+          {/* <!-- /.item --> */}
+        </div>
+        {/* <!-- /.slider-one__carousel --> */}
+      </div>
+      {/* <!-- /.slider-one --> */}
+    </div>
   );
 }
 

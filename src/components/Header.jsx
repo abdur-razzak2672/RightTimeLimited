@@ -1,35 +1,103 @@
-import React from "react";
-function Header() {
+ import React,{ useState } from "react";
+function Header(props) {
+  const [show, setShow] = useState("1");
+  console.log("fdgf",show)
   return (
     <div>
      <div className="topbar">
         <div className="container-fluid">
           <p className="topbar__text">Welcome to Right Time Limited</p>
+          {
+            show === '1' ?
+              <img className="m-2" width = "30px" src = "assets/images/flag/bd.png" alt=""/>
+            
+            :show==='2'?
+              <img className="m-2" width = "30px" src = "assets/images/flag/usa.png" alt=""/>
+            :show==='3'?
+              <img className="m-2" width = "30px" src = "assets/images/flag/aus.png" alt=""/>
+              :<img className="m-2" width = "30px" src = "assets/images/flag/de.png" alt=""/>
+
+            
+           
+          }
+         
 
           <ul className="topbar__info">
-            <li>
-              <i className="fa fa-envelope"></i>
-              <a href="/">info@righttime.biz</a>
+          {
+            show === '1' ?(
+            <>
+                <li>
+                <i className="fa fa-envelope"></i>
+                <a href="/">info@righttime.biz</a>
+              </li>
+              <li>
+                <i className="fa fa-map-marker"></i>
+                Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar, Tejgaon
+              </li>
+            </>
+               
+            )
+          
+            :show==='2'?
+            <>
+                <li>
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:info@righttime.biz">coo.usa@righttime.biz</a>
             </li>
             <li>
-              <i className="fa fa-map-marker"></i>
-              Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar, Tejgaon
+                <i class="fa fa-map-marker"></i>
+                14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
             </li>
+            </>
+            :show==='3'?
+              <>
+                  <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
+                </li>
+              </>
+            :
+            <>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    Hausmann str-1.44139,Dortmund. Germany
+                </li>
+            </>
+            
+           
+          }
 
             <li>
               <div className="dropdown">
                 <div className="dropbtn">
-                  Countries{" "}
+                  {/* Countrie
                   <i
                     className="fa fa-solid fa-square-caret-down"
                     style={{ paddingTop: "10px" }}
-                  ></i>
+                  ></i> */}
                 </div>
-                <div className="dropdown-content">
-                  <a href="/">USA</a>
+                {/* <select className="dropdown-content">
+                  <option>USA</option>
                   <a href="/">Australia</a>
                   <a href="/">Germany</a>
-                </div>
+                </select> */}
+                <select className="topbar text-light"
+                onChange={(event) => {
+                  setShow(event.target.value);
+                }}
+                >
+                <option value="2">USA</option>
+                <option value="3">Australia</option>
+                <option value="4">Germany</option>
+               </select>
               </div>
             </li>
           </ul>

@@ -4090,14 +4090,14 @@ a{
 }
 
 .footer-main--top-padding {
-  padding-top: 160px;
+  padding-top: 60px;
   margin-top: 80px;
 }
 
 @media (min-width: 992px) {
   .footer-main--top-padding {
-    padding-top: 240px;
-    margin-top: -120px;
+    padding-top: 140px;
+    margin-top: -80px;
   }
 }
 
@@ -4144,10 +4144,10 @@ a{
 
 .footer-widget__title::after {
   content: '';
-  width: 31px;
-  height: 2px;
+  width: 41px;
+  height: 4px;
   display: block;
-  background-color: var(--cretech-secondary, #9c2ede);
+  background-color: var(--cretech-secondary, #574b25);
   margin-top: 8px;
 }
 
@@ -4227,9 +4227,9 @@ a{
 
 .footer-widget__contact li {
   position: relative;
-  padding-left: 33px;
+  padding-left: 5px;
   color: var(--cretech-link-light, #877e9b);
-  font-size: 16px;
+  font-size: 20px;
   line-height: 36px;
 }
 

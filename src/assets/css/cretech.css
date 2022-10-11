@@ -3615,7 +3615,7 @@ a:visited {
 .page-header {
   background-color: var(--cretech-black, #12062c);
   position: relative;
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 70px;
 }
 
