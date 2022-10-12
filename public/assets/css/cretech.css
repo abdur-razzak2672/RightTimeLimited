@@ -3671,7 +3671,8 @@ a{
 * Contact
 ***********************/
 .contact-one__form {
-  
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: var(--cretech-gray, #f9f6ff);
@@ -3679,7 +3680,8 @@ a{
 
 @media (min-width: 768px) {
   .contact-one__form {
-   }
+    padding: 80px 40px;
+  }
 }
 
 @media (min-width: 992px) {

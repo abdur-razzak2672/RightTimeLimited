@@ -445,9 +445,6 @@ function ServiceBody() {
                 style={{ backgroundImage: `url('/assets/images/shapes/service-four-bg-1-1.png')` }}><br />
                 <div class="container">
                     <div class="section-title text-center">
-
-                        <h2 class="section-title__title">We Provide Our Client Best <br />Information Security Services</h2>
-
                     </div>
                     <div class="owl-carousel client-carousel--two">
                         <div class="container">
