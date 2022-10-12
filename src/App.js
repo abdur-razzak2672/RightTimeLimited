@@ -115,7 +115,13 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      <Header />
+       <div class="custom-cursor__cursor"></div>
+  <div class="custom-cursor__cursor-two"></div>
+  <div class="preloader">
+    <div class="preloader__circle"></div>
+  </div>
+  <div class="page-wrapper">
+  <Header />
       <div>
 
         {/*Dashboard Section Route Declaration start */}
@@ -223,9 +229,12 @@ function App() {
       </div>
       {/* Footer Section Route Declaration */}
        <Footer />
-      <a href="#" data-target="html" className="scroll-to-target scroll-to-top">
+<a href="#" data-target="html" className="scroll-to-target scroll-to-top">
         <i className="fa fa-angle-up"></i>
       </a>
+  </div>
+      
+      
     </Router>
   );
 }

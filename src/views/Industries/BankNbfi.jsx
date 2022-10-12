@@ -1,7 +1,14 @@
-import React from 'react'
+import React,{ useState} from 'react'
 import IndustriesNav from './IndustriesNav'
-
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
 function BankNbfi() {
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
   return (
     <div>
     <div className="page-header">
@@ -35,7 +42,8 @@ function BankNbfi() {
                             <p>Right Time Limited is an authorized agency to issue PCI DSS and ISO 27001 certifications.
                             In addition, we provide consulting services for implementation of PCI DSS, PCI 3DS, SWIFT, and ISO standards.
                             Over the years we have worked closely with leading financial institutions to develop effective and long-term information security management systems. </p>
-                    </div>
+                    </div><br/>
+                    <Button variant="primary" onClick={handleShow}>Contact Us</Button>
                 </div>
                 <div className="col-lg-4">
                     <div className="sidebar">
@@ -47,7 +55,50 @@ function BankNbfi() {
                 </div>
             </div>
         </div>
-    </section><br/><br/><br/>
+    </section>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Body>
+          <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="input"
+                placeholder="name"
+                autoFocus
+              />
+              <Form.Label>Email</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="name@example.com"
+                autoFocus
+              />
+              <Form.Label>Subject</Form.Label>
+              <Form.Control
+                type="input"
+                placeholder="subject"
+                autoFocus
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Details</Form.Label>
+              <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Submit
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    <br/><br/><br/>
       
     </div>
   )

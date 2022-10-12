@@ -15,6 +15,7 @@ function PartnerBody() {
                     <h2 className="page-header__title">Partners</h2>
                 </div>
             </div>
+            
 
             <section className="section-padding--bottom section-padding--top">
                 <div className="container">

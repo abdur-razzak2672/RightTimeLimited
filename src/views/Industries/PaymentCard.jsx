@@ -1,7 +1,15 @@
-import React from 'react'
+import React,{ useState} from 'react'
 import IndustriesNav from './IndustriesNav'
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
 function PaymentCard() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
   return (
+    
     <div>
     <div className="page-header">
         <div className="page-header__bg"
@@ -29,6 +37,8 @@ function PaymentCard() {
                         If payment information is leaked, it can create a huge losses for the cardholder as well as the organization’s reputation, brand, and image.
                         Right Time can help by providing a PCI data-security audit to ensure that your organization’s payment system is secure thus garnering trust from customers with their sensitive payment card information.</p>
                     </div>
+                    <br/>
+                    <Button variant="primary" onClick={handleShow}>Contact Us</Button>
 
 
                 </div>
@@ -41,7 +51,48 @@ function PaymentCard() {
                 </div>
             </div>
         </div> 
-    </section><br/><br/><br/>
+    </section>
+    <Modal show={show} onHide={handleClose}>
+        <Modal.Body>
+          <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="input"
+                placeholder="name"
+                autoFocus
+              />
+              <Form.Label>Email</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="name@example.com"
+                autoFocus
+              />
+              <Form.Label>Subject</Form.Label>
+              <Form.Control
+                type="input"
+                placeholder="subject"
+                autoFocus
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Details</Form.Label>
+              <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Submit
+          </Button>
+        </Modal.Footer>
+      </Modal><br/><br/><br/>
 
       
     </div>

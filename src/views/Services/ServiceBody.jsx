@@ -36,7 +36,7 @@ function ServiceBody() {
                                 <div id="card-container">
                                     <div className="text-center rounded" id="card3">
                                         <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
+                                            <img src="assets/images/resources/1.jpeg" width="50%" />
                                             <h5 className='pt-3'>services</h5>
                                         </div>
                                         <div class="back face">

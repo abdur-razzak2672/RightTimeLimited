@@ -27,10 +27,10 @@ function ConsultationBody() {
           <a href='/jh'>FAQ</a>
         </div>
         <div className=''>
-          <a href='/jh'>FAQ</a>
+          <a href='/jh'>Methology</a>
         </div>
         <div style={{ marginRight: "150px" }} className=''>
-          <a href='/jh'>FAQ</a>
+          <a href='/jh'>Show All Item</a>
         </div>
       </div>
 
