@@ -42,7 +42,7 @@ function Footer({  show }) {
                       <i className="fa fa-map-marker-alt"></i>
                      <p className="m-3"> Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar,
                       Tejgaon Post Code: 1215 <br />
-                      Dhaka,Bangladesh</p>
+                      Dhaka, Bangladesh</p>
                     </li>
                   </ul>
             </>
