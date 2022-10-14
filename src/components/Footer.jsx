@@ -53,21 +53,21 @@ function Footer({  show }) {
             <>
                <h3 className="footer-widget__title"> USA</h3>
 
-               <ul class="footer-widget__contact">
+               <ul className="footer-widget__contact">
                         <li>
-                            <i class="fa fa-phone"></i>
+                            <i className="fa fa-phone"></i>
                             <a className="m-3" href="tel:+18187790442"> (+1) 818 779 0442,</a>
                         </li>
                         <li>
-                            <i class="fa fa-phone"></i>
+                            <i className="fa fa-phone"></i>
                             <a className="m-3" href="tel:+18188625708"> (+1) 818 862 5708,</a>
                         </li>
                         <li>
-                            <i class="fa fa-envelope"></i>
+                            <i className="fa fa-envelope"></i>
                             <a className="m-3" href="mailto:coo.usa@righttime.biz">coo.usa@righttime.biz</a>
                         </li>
                         <li>
-                            <i class="fa fa-map-marker-alt"></i>
+                            <i className="fa fa-map-marker-alt"></i>
                             <p className="m-3">14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401</p>
                         </li>
                     </ul>
@@ -76,21 +76,21 @@ function Footer({  show }) {
               <>
                  <h3 className="footer-widget__title">Australia</h3>
 
-                 <ul class="footer-widget__contact">
+                 <ul className="footer-widget__contact">
                         <li>
-                            <i class="fa fa-phone"></i>
+                            <i className="fa fa-phone"></i>
                             <a className="m-3" href="tel:+61490517545"> (+61) 490517545,</a>
                         </li>
                          <li> 
-                           <i class="fa-solid fa-fax"></i> 
+                           <i className="fa-solid fa-fax"></i> 
                              <a className="m-3" href="tel:+61490517545"> (+61) 490517545,</a> 
                          </li> 
                         <li>
-                            <i class="fa fa-envelope"></i>
+                            <i className="fa fa-envelope"></i>
                             <a className="m-3" href="mailto:coo.au@righttime.biz">coo.au@righttime.biz</a>
                         </li>
                         <li>
-                            <i class="fa fa-map-marker-alt"></i>
+                            <i className="fa fa-map-marker-alt"></i>
                            <p className="m-3">11 Dahlia St. Quakers Hill,NSW 2763<br/>
                             Sydney,Australia.</p> 
                         </li>
@@ -100,21 +100,21 @@ function Footer({  show }) {
             <>
                <h3 className="footer-widget__title">Germany</h3>
 
-               <ul class="footer-widget__contact">
+               <ul className="footer-widget__contact">
                         <li>
-                            <i class="fa fa-phone"></i>
+                            <i className="fa fa-phone"></i>
                             <a className="m-3" href="tel:+492311377672"> (+49) 2311377672,</a>
                         </li>
                         <li>
-                            <i class="fa-solid fa-fax"></i>
+                            <i className="fa-solid fa-fax"></i>
                            <a className="m-3" href="">(+49) 01624069887</a> 
                         </li>
                         <li>
-                            <i class="fa fa-envelope"></i>
+                            <i className="fa fa-envelope"></i>
                             <a className="m-3" href="mailto:coo.de@righttime.biz">coo.de@righttime.biz</a>
                         </li>
                         <li>
-                            <i class="fa fa-map-marker-alt"></i>
+                            <i className="fa fa-map-marker-alt"></i>
                            <p> Hausmann str-1.44139, <br/>Dortmund. Germany</p>
                         </li>
                     </ul>
@@ -148,11 +148,17 @@ function Footer({  show }) {
                   <li>
                      <a href="/">Web Application</a>
                   </li>
+                  <li>
+                     <a href="/">One To One Training</a>
+                  </li>
+                  <li>
+                     <a href="/">Web Application</a>
+                  </li>
                   
                 </ul>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--newsletter">
                 <h3 className="footer-widget__title  ">Services</h3>
 
@@ -173,11 +179,28 @@ function Footer({  show }) {
                     
                     <a href="/">Information System Audit</a>
                   </li>
+                  <li>
+                    
+                    <a href="/">Swift Cyber Security</a>
+                  </li>
+                  <li>
+                    
+                    <a href="/">Security Testing</a>
+                  </li>
+                  <li>
+                    
+                    <a href="/">Information System Audit</a>
+                  </li>
+                  <li>
+                    
+                    <a href="/">Swift Cyber Security</a>
+                  </li>
+                  
                 </ul>
                 <div className="mc-form__response"></div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--contact">
                 <h3 className="footer-widget__title">People Presence</h3>
                 <ul className="footer-widget__contact">
@@ -193,52 +216,12 @@ function Footer({  show }) {
 
                   </li>
                 </ul>
-              </div>
-              </div>
-
-              <div className="col-lg-2 col-md-6 col-sm-12">
-              <div className="footer-widget footer-widget--contact">
-                <h3 className="footer-widget__title">News Letter</h3>
-                <ul className="footer-widget__contact">
-                <Card  bg="dark" className="rounded" style={{ width: '18rem' }}>
-                  <Card.Body>
-                    <Card.Title>Subscribe newsletter to receive latest news/updated from RTL</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    <Card.Text className="d-flex">
-                     <input className="rounded" border="none" type="email" placeholder="Email Address" bg="dark" /><button className="btn btn-dark"> <i className="fab fa-twitter"></i>
-</button>
-                    </Card.Text>
-      
-                  </Card.Body>
-                </Card>
-                </ul>
-                <div
-            className="container mt-4"
-            style={{ paddingLeft: "25px", marginBottom: "-60px" }}
-          >
-            <ul className="footer-widget__social">
-              <li>
-                <a href="/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <i className="fab fa-pinterest-p"></i>
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
+                <ul className="footer-widget__social mx-3 mt-3">
+                <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i className="fab fa-instagram"></i></a></li>
             </ul>
-          </div>
               </div>
               </div>
             {/* <div className="col-lg-3 col-md-6 col-sm-12">

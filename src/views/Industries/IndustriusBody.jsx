@@ -16,88 +16,106 @@ function IndustriusBody() {
                 </div>
             </div>
 
-            <section class="section-padding--bottom text-center mt-5">
-                <div class="container">
-                    <div class="section-title text-center">
-                        <p class="section-title__text">Our Focus Industries</p>
-                        <h2 class="section-title__title">Industries We Specialized We</h2>
-
-                    </div>
-                    <div class="wrapper">
-                        <ul class="img-grid mt-5">
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Beatles">
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" class="overlay-img" />
+            <section className="  text-center mt-5">
+                <div className=" ">  
+                    <div className="wrapper1 page-header">
+                    <p className="section-title__text">Our Focus Industries</p>
+                         <h2 className="section-title__title text-light">Industries We Specialized We</h2>
+                        <ul className="img-grid mt-5  ">
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Bonsai">
-                                    <img src="https://trungk18.com/img/image-grid/img-bonsai.jpg" alt="Image capture goes here 02" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Bottles">
-                                    <img src="https://trungk18.com/img/image-grid/img-bottles.jpg" alt="Image capture goes here 03" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Brunch">
-                                    <img src="https://trungk18.com/img/image-grid/img-brunch.jpg" alt="Image capture goes here 04" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Ceramics">
-                                    <img src="https://trungk18.com/img/image-grid/img-ceramics.jpg" alt="Image capture goes here 05" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Hammock">
-                                    <img src="https://trungk18.com/img/image-grid/img-hammock.jpg" alt="Image capture goes here 06" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Hiking">
-                                    <img src="https://trungk18.com/img/image-grid/img-hiking.jpg" alt="Image capture goes here 07" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Orchard">
-                                    <img src="https://trungk18.com/img/image-grid/img-orchard.jpg" alt="Image capture goes here 08" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Cooking">
-                                    <img src="https://trungk18.com/img/image-grid/img-cooking.jpg" alt="Image capture goes here 09" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="School">
-                                    <img src="https://trungk18.com/img/image-grid/img-school.jpg" alt="Image capture goes here 10" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Shoes">
-                                    <img src="https://trungk18.com/img/image-grid/img-shoes.jpg" alt="Image capture goes here 11" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Flight">
-                                    <img src="https://trungk18.com/img/image-grid/img-flight.jpg" alt="Image capture goes here 12" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="School">
-                                    <img src="https://trungk18.com/img/image-grid/img-school.jpg" alt="Image capture goes here 10" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Shoes">
-                                    <img src="https://trungk18.com/img/image-grid/img-shoes.jpg" alt="Image capture goes here 11" class="overlay-img" />
+                            <li className ="m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="overlay-container" data-overlay-text="Flight">
-                                    <img src="https://trungk18.com/img/image-grid/img-flight.jpg" alt="Image capture goes here 12" class="overlay-img" />
+                            <li className =" m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
+                                </a>
+                            </li>
+                            <li className =" m-2 rounded border">
+                                <a href="#" className="overlay-container"  >
+                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
+                                    <p>This is Book</p>
                                 </a>
                             </li>
                         </ul>
@@ -106,9 +124,18 @@ function IndustriusBody() {
 
 
                 </div>
+                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
             </section>
 
-            <section className="section-padding--bottom section-padding--top">
+            {/* <section className="section-padding--bottom section-padding--top">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
@@ -144,7 +171,7 @@ function IndustriusBody() {
             </section><br /><br />
             <br />
             <br />
-            <br />
+            <br /> */}
 
 
         </div>

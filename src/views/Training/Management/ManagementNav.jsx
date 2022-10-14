@@ -3,8 +3,8 @@ import React from 'react'
 function ManagementNav() {
   return (
     <div>
-        <h3 class="sidebar__title">Management</h3>
-<ul class="sidebar__category">
+        <h3 className="sidebar__title">Management</h3>
+<ul className="sidebar__category">
     <li><a href="{{ url('/services/security-training/management/CDRP') }}">Certified Disaster Recovery Professional</a></li>
     <li><a href="{{ url('/services/security-training/management/CIH') }}">Certified Incident Handler</a></li>
     <li><a href="{{ url('/services/security-training/management/CSA') }}">Certified SOC Analyst(CSA)</a></li>

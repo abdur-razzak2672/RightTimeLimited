@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
+import CookieConsent from "react-cookie-consent";
 // Header Section Imported Start
 import Header from "./components/Header";
 // Header Section Imported End
@@ -25,6 +25,9 @@ import HealthCare from "./views/Industries/HealthCare";
 
 // Partner Section Imported start
 import PartnerBody from "./views/Partners/PartnerBody";
+import ServicePartner from "./views/Partners/ServicePartner";
+import SolutionPartner from "./views/Partners/SolutionPartner";
+import Association from "./views/Partners/Association";
 // Partner Section Imported End
 
 
@@ -125,12 +128,12 @@ function App() {
 
   return (
     <Router>
-       <div class="custom-cursor__cursor"></div>
-  <div class="custom-cursor__cursor-two"></div>
-  <div class="preloader">
-    <div class="preloader__circle"></div>
+       <div className="custom-cursor__cursor"></div>
+  <div className="custom-cursor__cursor-two"></div>
+  <div className="preloader">
+    <div className="preloader__circle"></div>
   </div>
-  <div class="page-wrapper">
+  <div className="page-wrapper">
   <div className="topbar">
         <div className="container-fluid">
           <p className="topbar__text">Welcome to Right Time Limited</p>
@@ -168,33 +171,33 @@ function App() {
             :show==='2'?
             <>
                 <li>
-                <i class="fa fa-envelope"></i>
+                <i className="fa fa-envelope"></i>
                 <a href="mailto:info@righttime.biz">coo.usa@righttime.biz</a>
             </li>
             <li>
-                <i class="fa fa-map-marker"></i>
+                <i className="fa fa-map-marker"></i>
                 14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
             </li>
             </>
             :show==='3'?
               <>
                   <li>
-                    <i class="fa fa-envelope"></i>
+                    <i className="fa fa-envelope"></i>
                     <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
                 </li>
                 <li>
-                    <i class="fa fa-map-marker"></i>
+                    <i className="fa fa-map-marker"></i>
                     11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
                 </li>
               </>
             :
             <>
                 <li>
-                    <i class="fa fa-envelope"></i>
+                    <i className="fa fa-envelope"></i>
                     <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
                 </li>
                 <li>
-                    <i class="fa fa-map-marker"></i>
+                    <i className="fa fa-map-marker"></i>
                     Hausmann str-1.44139,Dortmund. Germany
                 </li>
             </>
@@ -234,6 +237,20 @@ function App() {
   <Header show = {show} setShow={setShow}/>
       <div>
 
+        <CookieConsent
+          location="bottom"
+          buttonclassNamees="rounded-pill"
+          
+          buttonText="Accepted Cookies"
+          cookieName="myAwesomeCookieName2"
+          style={{ background: "#2B373B" }}
+          buttonStyle={{ color: "#4e503b", fontSize: "13px",borderReidus:"60px", textAlign: "center", alignItem:"center" ,marginRight:"150px" }}
+          expires={350}
+
+        >
+         We use cookies to enhance your user experience. By continuing to browse, you hereby agree to the use of cookies. To know more; visit our <a href="/">Privacy Policy</a> & <a href="/">Cookies Policy.</a>  
+        </CookieConsent>
+
         {/*Dashboard Section Route Declaration start */}
         <Route path="/" component={Dashboard} exact />
         {/*Dashboard Section Route Declaration end */}
@@ -254,6 +271,9 @@ function App() {
 
         {/*PArtner Section Route Declaration Start */}
         <Route path="/partners" component={PartnerBody} exact />
+        <Route path="/service-partners" component={ServicePartner} exact />
+        <Route path="/solution-partners" component={SolutionPartner} exact />
+        <Route path="/association-partners" component={Association} exact />
          {/*Partner Section Route Declaration End */}
 
         {/*Services Section Route Declaration Start */}

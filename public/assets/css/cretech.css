@@ -762,6 +762,10 @@ a:visited {
 /***********************
 * Main Menu
 ***********************/
+.service-topbar {
+  background-color: var(--cretech-black, #12062c);
+  padding: 10px 0;
+}
 .topbar {
   background-color: var(--cretech-black, #12062c);
   display: none;
@@ -1411,8 +1415,9 @@ a{
 
 @media (min-width: 992px) {
   .main-menu__cta {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
   }
 }
 
@@ -8630,4 +8635,22 @@ div#CybotCookiebotDialogPoweredByText {
    top: 50%;
    -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+
+/* training */
+.itmButton a{
+   color: orange;
+   text-align: center;
+  border: 1px solid #574b25;
+  border-radius: 6px;
+
+
+}
+.itmButton a:hover{
+  color: #fff;
+  background-color: #574b25;
+  border-radius: 6px;
+ text-align: center;
+
 }

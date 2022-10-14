@@ -3,8 +3,8 @@ import React from 'react'
 function AssessmentNav() {
   return (
     <div>
-        <h3 class="sidebar__title">Assessment</h3>
-<ul class="sidebar__category">
+        <h3 className="sidebar__title">Assessment</h3>
+<ul className="sidebar__category">
     <li><a href="{{ url('/services/security-training/assessment/ethical-hacker') }}">Certified Ethical Hacker (CEH)</a></li>
     <li><a href="{{ url('/services/security-training/assessment/CPENT') }}">Certified Penetration Testing Professional(CPENT)</a></li>
     <li><a href="{{ url('/services/security-training/assessment/CHFI') }}">Computer Hacking Forensic Investigator(CHFI)</a></li>

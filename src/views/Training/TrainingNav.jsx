@@ -3,8 +3,8 @@ import React from 'react'
 function TrainingNav() {
   return (
     <div>
-        <h3 class="sidebar__title">Security Training</h3>
-<ul class="sidebar__category">
+        <h3 className="sidebar__title">Security Training</h3>
+<ul className="sidebar__category">
     <li><a href="{{ url('/services/security-training/information-technology') }}">Training on Information Technology Enabled Service</a></li>
     <li><a href="{{ url('/services/security-training/cyber-security') }}">Cyber Security</a></li>
     <li><a href="{{ url('/services/security-training/CHFI') }}">Computer Hacking Forensic Investigator(CHFI)</a></li>

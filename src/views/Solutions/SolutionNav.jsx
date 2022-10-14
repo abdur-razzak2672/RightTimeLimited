@@ -3,8 +3,8 @@ import React from 'react'
 function SolutionNav() {
     return (
         <div>
-            <h3 class="sidebar__title">Solutions</h3>
-            <ul class="sidebar__category">
+            <h3 className="sidebar__title">Solutions</h3>
+            <ul className="sidebar__category">
                 <li><a href="{{ url('/services/solutions/BURP-Suite') }}">BURP Suite</a></li>
                 <li><a href="{{ url('/services/solutions/acunetix') }}">Acunetix</a></li>
                 <li><a href="{{ url('/services/solutions/net-sporker') }}">Net Sparker</a></li>

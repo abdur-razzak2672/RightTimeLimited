@@ -4,28 +4,28 @@ import SecurityTestingNav from './SecurityTestingNav'
 function SecurityTesting() {
   return (
     <div>
-      <div class="page-header">
-    <div class="page-header__bg"
+      <div className="page-header">
+    <div className="page-header__bg"
          style={{ backgroundImage: `url('/assets/images/background/page-header-bg-1-1.jpg')` }}></div>
-    <div class="container">
-        <ul class="thm-breadcrumb list-unstyled">
+    <div className="container">
+        <ul className="thm-breadcrumb list-unstyled">
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/services') }}">Services</a></li>
             <li>Security Assessment & Testing</li>
         </ul>
-        <h2 class="page-header__title">Security Assessment & Testing</h2> 
+        <h2 className="page-header__title">Security Assessment & Testing</h2> 
     </div> 
 </div> 
 
-<section class="section-padding--bottom section-padding--top">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
+<section className="section-padding--bottom section-padding--top">
+    <div className="container">
+        <div className="row">
+            <div className="col-lg-8">
 
 
-                <h3 class="blog-card-one__title blog-details__title">Web design done Delightful
+                <h3 className="blog-card-one__title blog-details__title">Web design done Delightful
                     Visualization Examples</h3>
-                <div class="blog-details__content">
+                <div className="blog-details__content">
                     <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many
                         variations of passages of Lorem Ipsum available, but the majority have alteration in
                         some injected or words which don't look even slightly believable. If you are going to
@@ -45,9 +45,9 @@ function SecurityTesting() {
 
 
             </div> 
-            <div class="col-lg-4">
-                <div class="sidebar">
-                    <div class="sidebar__item sidebar__item--category">
+            <div className="col-lg-4">
+                <div className="sidebar">
+                    <div className="sidebar__item sidebar__item--category">
                         {/* @include('frontend.bd.services.sat.common') */}
                         <SecurityTestingNav/>
                     </div>

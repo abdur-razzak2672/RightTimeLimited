@@ -10,18 +10,18 @@ function Service() {
         }}
       >
         <div className="container"> 
-          <div class="container">
-                    <div class="section-title text-center">
-                        <p class="section-title__text">Popular Services</p>
-                        <h2 class="section-title__title">We Provide Our Client Best <br />Information Security Solution & Services</h2>
+          <div className="container">
+                    <div className="section-title text-center">
+                        <p className="section-title__text">Popular Services</p>
+                        <h2 className="section-title__title">We Provide Our Client Best <br />Information Security Solution & Services</h2>
 
                     </div>
-                    <div class="owl-carousel  thm-owl__carousel thm-owl__carousel--with-shadow service-four__carousel"
+                    <div className="owl-carousel  thm-owl__carousel thm-owl__carousel--with-shadow service-four__carousel"
                         data-owl-options='{"loop": true,
 				"autoplay": true,
 				"autoplayTimeout": 3000,
 				"nav": false,
-				"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+				"navText": ["<span className=\"fa fa-angle-left\"></span>","<span className=\"fa fa-angle-right\"></span>"],
 				"dots": true,
 				"margin": 0,
                 "items": 1,
@@ -48,82 +48,82 @@ function Service() {
 						"items": 4
 					}
 				}}'>
-                        <div class="item">
-                            <div style={{ height :"300px" }}  class="service-card-three">
-                                <div class="service-card-three__icon">
-                                    <i class="icon-new-product"></i>
+                        <div className="item">
+                            <div style={{ height :"300px" }}  className="service-card-three">
+                                <div className="service-card-three__icon">
+                                    <i className="icon-new-product"></i>
                                 </div>
-                                <div class="service-card-three__content">
-                                    <h3 class="service-card-three__title"><a href="/consultation">Consultation
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="/consultation">Consultation
                                         <br /></a></h3>
-                                    <div class="service-card-three__text">Providing the solutions for non-IT businesses.
+                                    <div className="service-card-three__text">Providing the solutions for non-IT businesses.
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div  style={{ height :"300px" }} class="service-card-three">
-                                <div class="service-card-three__icon">
-                                    <i class="icon-new-product"></i>
+                        <div className="item">
+                            <div  style={{ height :"300px" }} className="service-card-three">
+                                <div className="service-card-three__icon">
+                                    <i className="icon-new-product"></i>
                                 </div>
-                                <div class="service-card-three__content">
-                                    <h3 class="service-card-three__title"><a href="/auditing">Auditing</a></h3>
-                                    <div class="service-card-three__text">Providing the solutions for non-IT businesses.
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="/auditing">Auditing</a></h3>
+                                    <div className="service-card-three__text">Providing the solutions for non-IT businesses.
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div style={{ height :"300px" }}  class="service-card-three">
-                                <div class="service-card-three__icon">
-                                    <i class="icon-protection"></i>
+                        <div className="item">
+                            <div style={{ height :"300px" }}  className="service-card-three">
+                                <div className="service-card-three__icon">
+                                    <i className="icon-protection"></i>
                                 </div>
-                                <div class="service-card-three__content">
-                                    <h3 class="service-card-three__title"><a
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a
                                         href="/">Security <br />
                                         Assessment & Testing</a></h3>
-                                    <div class="service-card-three__text">Providing the solutions for non-IT businesses.
+                                    <div className="service-card-three__text">Providing the solutions for non-IT businesses.
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div style={{ height :"300px" }}  class="service-card-three">
-                                <div class="service-card-three__icon">
-                                    <i class="icon-web-development"></i>
+                        <div className="item">
+                            <div style={{ height :"300px" }}  className="service-card-three">
+                                <div className="service-card-three__icon">
+                                    <i className="icon-web-development"></i>
                                 </div>
-                                <div class="service-card-three__content">
-                                    <h3 class="service-card-three__title"><a href="/">Standard
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="/">Standard
                                         <br />
                                         Implementation & Certification</a></h3>
-                                    <div class="service-card-three__text">Providing the solutions for non-IT businesses.
+                                    <div className="service-card-three__text">Providing the solutions for non-IT businesses.
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div style={{ height :"300px" }} class="service-card-three">
-                                <div class="service-card-three__icon">
-                                    <i class="icon-analysis"></i>
+                        <div className="item">
+                            <div style={{ height :"300px" }} className="service-card-three">
+                                <div className="service-card-three__icon">
+                                    <i className="icon-analysis"></i>
                                 </div>
-                                <div class="service-card-three__content">
-                                    <h3 class="service-card-three__title"><a href="/">Security
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="/">Security
                                         <br />
                                         Training</a></h3>
-                                    <div class="service-card-three__text">Providing the solutions for non-IT businesses.
+                                    <div className="service-card-three__text">Providing the solutions for non-IT businesses.
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item">
-                            <div style={{ height :"300px" }}  class="service-card-three">
-                                <div class="service-card-three__icon">
-                                    <i class="icon-analysis"></i>
+                        <div className="item">
+                            <div style={{ height :"300px" }}  className="service-card-three">
+                                <div className="service-card-three__icon">
+                                    <i className="icon-analysis"></i>
                                 </div>
-                                <div class="service-card-three__content">
-                                    <h3 class="service-card-three__title"><a href="{{ url('/services/solutions">Solutions</a></h3>
-                                    <div class="service-card-three__text">Providing the solutions for non-IT businesses.
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="{{ url('/services/solutions">Solutions</a></h3>
+                                    <div className="service-card-three__text">Providing the solutions for non-IT businesses.
                                     </div>
                                 </div>
                             </div>

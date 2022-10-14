@@ -75,7 +75,7 @@ function Header({ show,setShow }) {
               <a href="/partners">Partners</a>
               <ul>
                 <li>
-                  <a href="/partners">Service Partner</a>
+                  <a href="/service-partners">Service Partner</a>
                   <ul>
                     <li>
                       <a href="https://www.eccouncil.org/">EC Council</a>
@@ -99,7 +99,7 @@ function Header({ show,setShow }) {
                 </li>
 
                 <li>
-                  <a href="/partners">Solution Partner</a>
+                  <a href="/solution-partners">Solution Partner</a>
                   <ul>
                     <li>
                       <a href="https://www.invicti.com/">INVICTI</a>
@@ -115,7 +115,7 @@ function Header({ show,setShow }) {
                   </ul>
                 </li>
                 <li>
-                  <a href="/partners">Association</a>
+                  <a href="/association-partners">Association</a>
                   <ul>
                     <li>
                       <a href="http://cca.gov.bd/site/office_head/5891f732-8e0f-40b0-9f85-1cb867657bfd/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4">
@@ -450,7 +450,7 @@ function Header({ show,setShow }) {
             </a>
 
             {/* <!-- /.search-toggler --> */}
-            <a href="/#" className="main-menu__cta ">
+            <a href="/#" className="main-menu__cta  ">
               <i className="fa fa-phone-alt"></i>
               {
             show === '1' ?(
@@ -466,21 +466,21 @@ function Header({ show,setShow }) {
           
             :show==='2'?
             <>
-              <span class="main-menu__cta__text">
+              <span className="main-menu__cta__text">
 							<b>(+18)-779-0442</b>
 							Call Anytime
 						</span>
             </>
             :show==='3'?
               <>
-            <span class="main-menu__cta__text">
+            <span className="main-menu__cta__text">
 							<b>(+61) 490517545</b>
 							Call Anytime
 						</span>
               </>
             :
             <>
-               <span class="main-menu__cta__text">
+               <span className="main-menu__cta__text">
 							<b>(+49)-01624069887</b>
 							Call Anytime
 						</span>
@@ -499,23 +499,23 @@ function Header({ show,setShow }) {
       </nav>
       {/* <!-- /.main-menu --> */}
 
-      <div class="mobile-nav__wrapper">
-      <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-      <div class="mobile-nav__content">
-        <a href="/" class="mobile-nav__close mobile-nav__toggler">
+      <div className="mobile-nav__wrapper">
+      <div className="mobile-nav__overlay mobile-nav__toggler"></div>
+      <div className="mobile-nav__content">
+        <a href="/" className="mobile-nav__close mobile-nav__toggler">
           <span></span>
           <span></span>
         </a>
 
-        <div class="logo-box">
+        <div className="logo-box">
           <a href="/" aria-label="logo image"><img src="assets/images/images-removebg-preview.png" width="78"
               height="53" alt="Cretech"/></a>
         </div>
 
-        <div class="mobile-nav__container"></div>
+        <div className="mobile-nav__container"></div>
 
 
-        <ul class="mobile-mobile-nav__country">
+        <ul className="mobile-mobile-nav__country">
           <h5>Select Country</h5>
           {/* <li><a href="/"><img src="/assets/images/flag/usa.png" width="40px"/></a></li>
           <li><a href="/"><img src="/assets/images/flag/aus.png" width="40px"/></a></li>
@@ -533,24 +533,24 @@ function Header({ show,setShow }) {
               
         </ul>
 
-        <ul class="mobile-nav__contact list-unstyled">
+        <ul className="mobile-nav__contact list-unstyled">
         {
             show === '1' ?(
             <>
                <li>
-            <i class="/"></i>
+            <i className="/"></i>
             <a href="/">+88 02550 12235,</a>
           </li>
           <li>
-            <i class="/"></i>
+            <i className="/"></i>
             <a href="/">+88 01318 013300</a>
           </li>
           <li>
-            <i class="fa fa-envelope"></i>
+            <i className="fa fa-envelope"></i>
             <a href="/">info@righttime.biz</a>
           </li>
           <li>
-            <i class="fa fa-map-marker-alt"></i>
+            <i className="fa fa-map-marker-alt"></i>
             Level: 06 & 14 (west), BDBL Bhaban,
             12, Karwan Bazar, Tejgaon
             Post Code: 1215 <br/>Dhaka, Bangladesh
@@ -562,33 +562,33 @@ function Header({ show,setShow }) {
             :show==='2'?
             <>
                 <li>
-                <i class="fa fa-envelope"></i>
+                <i className="fa fa-envelope"></i>
                 <a href="mailto:info@righttime.biz">coo.usa@righttime.biz</a>
             </li>
             <li>
-                <i class="fa fa-map-marker"></i>
+                <i className="fa fa-map-marker"></i>
                 14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
             </li>
             </>
             :show==='3'?
               <>
                   <li>
-                    <i class="fa fa-envelope"></i>
+                    <i className="fa fa-envelope"></i>
                     <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
                 </li>
                 <li>
-                    <i class="fa fa-map-marker"></i>
+                    <i className="fa fa-map-marker"></i>
                     11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
                 </li>
               </>
             :
             <>
                 <li>
-                    <i class="fa fa-envelope"></i>
+                    <i className="fa fa-envelope"></i>
                     <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
                 </li>
                 <li>
-                    <i class="fa fa-map-marker"></i>
+                    <i className="fa fa-map-marker"></i>
                     Hausmann str-1.44139,Dortmund. Germany
                 </li>
             </>
@@ -597,11 +597,11 @@ function Header({ show,setShow }) {
           }
           
         </ul>
-        <ul class="mobile-nav__social">
-          <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="/"><i class="fab fa-pinterest-p"></i></a></li>
-          <li><a href="/"><i class="fab fa-instagram"></i></a></li>
+        <ul className="mobile-nav__social">
+          <li><a href="/"><i className="fab fa-twitter"></i></a></li>
+          <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+          <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
+          <li><a href="/"><i className="fab fa-instagram"></i></a></li>
         </ul>
 
 

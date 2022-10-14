@@ -43,7 +43,7 @@ function BankNbfi() {
                             In addition, we provide consulting services for implementation of PCI DSS, PCI 3DS, SWIFT, and ISO standards.
                             Over the years we have worked closely with leading financial institutions to develop effective and long-term information security management systems. </p>
                     </div><br/>
-                    <Button variant="primary" onClick={handleShow}>Contact Us</Button>
+                    <Button style={{backgroundColor:"#fd7e14"}} onClick={handleShow}>Contact Us</Button>
                 </div>
                 <div className="col-lg-4">
                     <div className="sidebar">
@@ -58,10 +58,10 @@ function BankNbfi() {
     </section>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Body>
+        <Modal.Body  className="bg-dark">
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Name</Form.Label>
+            <Form.Label className ="text-light">Name</Form.Label>
               <Form.Control
                 type="input"
                 placeholder="name"
@@ -88,15 +88,17 @@ function BankNbfi() {
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
           </Form>
-        </Modal.Body>
-        <Modal.Footer>
+          <Modal.Footer className = "bg-dark">
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button style={{backgroundColor:"#fd7e14"}} onClick={handleClose}>
             Submit
           </Button>
         </Modal.Footer>
+          
+        </Modal.Body>
+       
       </Modal>
     <br/><br/><br/>
       

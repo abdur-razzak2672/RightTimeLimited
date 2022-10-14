@@ -1,6 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './partner.css'
+import Button from 'react-bootstrap/Button';
+ import Modal from 'react-bootstrap/Modal';
+ 
 function PartnerBody() {
+    const [show, setShow] = useState(false);
+    const [show1, setShow1] = useState(false);
+    const [show2, setShow2] = useState(false);
+    const [show3, setShow3] = useState(false);
+    
+    const [show4, setShow4] = useState(false);
+    const [show5, setShow5] = useState(false);
+    const [show6, setShow6] = useState(false);
+    const [show7, setShow7] = useState(false);
+
+    const [show8, setShow8] = useState(false);
+    const [show9, setShow9] = useState(false);
+    const [show10, setShow10] = useState(false);
+    const [show11, setShow11] = useState(false);
+
+
     return (
         <div>
             <div className="page-header">
@@ -15,177 +34,493 @@ function PartnerBody() {
                     <h2 className="page-header__title">Partners</h2>
                 </div>
             </div>
-            
-            <section class="section-padding--bottom text-center mt-5">
-                    <div class="container">
-                        <div class="section-title text-center">
-                             <h2 class="">Services Partner</h2>
 
-                        </div>
-                        <div class="row gutter box text-center col-xs-6">
-                            <div class="col-lg-3 col-md-6 col-sm-6 rounded">
-                                <div id="card-container">
-                                    <div className="text-center rounded" id="partner_card">
-                                        <div class="front face text-center">
+            <section className="section-padding--bottom text-center mt-5">
+                <div className="container">
+                    <div className="section-title text-center">
+                        <h2 className="">Services Partner</h2>
+
+                    </div>
+                    <div className="row gutter box text-center col-xs-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow(true)}>
                                             <img src="assets/images/resources/1.jpeg" width="100%" />
-                                            <h5 className='pt-3'>services partner logo</h5>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
 
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show} onHide={() => setShow(false)}
+                                            centered
 
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                   
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
                                     </div>
+
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow1(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show1} onHide={() => setShow1(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service o Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow1(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow2(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show2} onHide={() => setShow2(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow2(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow3(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show3} onHide={() => setShow3(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    jjCras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow3(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>      
+                </div>
+            </section>
+            <section className="section-padding--bottom text-center mt-5">
+                <div className="container">
+                    <div className="section-title text-center">
+                        <h2 className="">Solution Partner</h2>
+
                     </div>
-                </section>
-                <section class="section-padding--bottom text-center mt-5">
-                    <div class="container">
-                        <div class="section-title text-center">
-                             <h2 class="">Solution Partner</h2>
+                    <div className="row gutter box text-center col-xs-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow4(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'> partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show4} onHide={() => setShow4(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow4(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
 
                         </div>
-                        <div class="row gutter box text-center col-xs-6">
-                            <div class="col-lg-3 col-md-6 col-sm-6 rounded">
-                                <div id="card-container">
-                                    <div className="text-center rounded" id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpeg" width="50%" />
-                                            <h5 className='pt-3'>services partner logo</h5>
-                                        </div>
-                                     
-                                    </div>
-                                </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow5(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
 
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show5} onHide={() => setShow5(false)}
+                                            centered
 
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                    
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service o Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow5(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
                                     </div>
+
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow6(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show6} onHide={() => setShow6(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow6(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow7(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show7} onHide={() => setShow7(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    jjCras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow7(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>      
+                </div>
+            </section>
+            <section className="section-padding--bottom text-center mt-5">
+                <div className="container">
+                    <div className="section-title text-center">
+                        <h2 className="">Services Partner</h2>
+
                     </div>
-                </section>
-                <section class="section-padding--bottom text-center mt-5">
-                    <div class="container">
-                        <div class="section-title text-center">
-                             <h2 class="">Association</h2>
+                    <div className="row gutter box text-center col-xs-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow8(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show8} onHide={() => setShow8(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow8(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
 
                         </div>
-                        <div class="row gutter box text-center col-xs-6">
-                            <div class="col-lg-3 col-md-6 col-sm-6 rounded">
-                                <div id="card-container">
-                                    <div className="text-center rounded" id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpeg" width="50%" />
-                                            <h5 className='pt-3'>services partner logo</h5>
-                                        </div>
-                                        <div class="back face">
-                                            <h1>Partner</h1>
-                                            <p class="artist">parther</p>
-                                         </div>
-                                    </div>
-                                </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow9(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
 
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                    </div>
-                                </div>
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show9} onHide={() => setShow9(false)}
+                                            centered
 
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                        
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service o Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow9(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
                                     </div>
+
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div id="card-container">
-                                    <div id="partner_card">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpg" width="50%" />
-                                            <h5 className='pt-3'>services partner</h5>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
-                    </div>
-                </section>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow10(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show10} onHide={() => setShow10(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow10(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 rounded">
+                            <div id="card-container">
+                                <div className="text-center rounded" id="partner_card">
+                                    <div className="front face text-center">
+                                        <a href="javascript:void(0)" onClick={() => setShow11(true)}>
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+
+                                            <h5 className='pt-3'>Our Partner</h5>
+                                        </a>
+                                        <Modal
+                                            show={show11} onHide={() => setShow11(false)}
+                                            centered
+
+                                        >
+
+                                            <Modal.Body className="partner-header text-light  ">
+                                                 
+                                                <h4 className="text-light m-3">Service Partner</h4>
+                                                <p className="text-light m-3">
+                                                    jjCras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+                                                    consectetur ac, vestibulum at eros.
+                                                </p>
+                                                <Modal.Footer>
+                                                    <Button style={{ backgroundColor: "#fd7e14" }} onClick={() => setShow11(false)}>
+                                                        Close
+                                                    </Button>
+                                                </Modal.Footer>
+                                            </Modal.Body>
+
+                                        </Modal>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>      
+                </div>
+            </section>
 
             <section className="section-padding--bottom section-padding--top">
                 <div className="container">

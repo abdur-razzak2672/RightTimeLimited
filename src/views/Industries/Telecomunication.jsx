@@ -55,7 +55,7 @@ Additionally, our Application Security and Penetration testing services can help
 
                     </div> 
                     <br/>
-                    <Button variant="primary" onClick={handleShow}>Contact Us</Button>
+                    <Button style={{backgroundColor:"#fd7e14"}} onClick={handleShow}>Contact Us</Button>
 
                 </div> 
                 <div className="col-lg-4">
@@ -69,10 +69,10 @@ Additionally, our Application Security and Penetration testing services can help
         </div>
     </section>
     <Modal show={show} onHide={handleClose}>
-        <Modal.Body>
+        <Modal.Body  className="bg-dark">
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Name</Form.Label>
+            <Form.Label className ="text-light">Name</Form.Label>
               <Form.Control
                 type="input"
                 placeholder="name"
@@ -99,15 +99,17 @@ Additionally, our Application Security and Penetration testing services can help
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
           </Form>
-        </Modal.Body>
-        <Modal.Footer>
+          <Modal.Footer className = "bg-dark">
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button style={{backgroundColor:"#fd7e14"}} onClick={handleClose}>
             Submit
           </Button>
         </Modal.Footer>
+          
+        </Modal.Body>
+       
       </Modal><br/><br/>
       
     </div>

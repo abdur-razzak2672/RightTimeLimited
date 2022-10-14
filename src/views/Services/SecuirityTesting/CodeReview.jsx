@@ -5,28 +5,28 @@ function CodeReview() {
   return (
     <div>
       <div>
-      <div class="page-header">
-    <div class="page-header__bg"
+      <div className="page-header">
+    <div className="page-header__bg"
          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZSUyMHJldmlld3xlbnwwfHwwfHw%3D&w=1000&q=80'')` }}></div>
-    <div class="container">
-    <ul class="thm-breadcrumb list-unstyled">
+    <div className="container">
+    <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('/services') }}">Services</a></li>
                 <li><a href="{{ url('/services/security-assessment-testing') }}">Security Assessment & Testing</a></li>
                 <li>Code Review</li>
             </ul>
-            <h2 class="page-header__title">Code Review</h2>
+            <h2 className="page-header__title">Code Review</h2>
     </div> 
 </div> 
 
-<section class="section-padding--bottom section-padding--top">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
+<section className="section-padding--bottom section-padding--top">
+    <div className="container">
+        <div className="row">
+            <div className="col-lg-8">
 
-                <h3 style = {{color:"orange"}} class="blog-card-one__title blog-details__title">Code Review
+                <h3 style = {{color:"orange"}} className="blog-card-one__title blog-details__title">Code Review
 </h3>
-                <div class="blog-details__content">
+                <div className="blog-details__content">
                     <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many
                         variations of passages of Lorem Ipsum available, but the majority have alteration in
                         some injected or words which don't look even slightly believable. If you are going to
@@ -46,9 +46,9 @@ function CodeReview() {
 
 
             </div> 
-            <div class="col-lg-4">
-                <div class="sidebar">
-                    <div class="sidebar__item sidebar__item--category">
+            <div className="col-lg-4">
+                <div className="sidebar">
+                    <div className="sidebar__item sidebar__item--category">
                         {/* @include('frontend.bd.services.sat.common') */}
                         <SecurityTestingNav/>
                     </div>
