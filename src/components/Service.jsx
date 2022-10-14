@@ -49,7 +49,7 @@ function Service() {
 					}
 				}}'>
                         <div class="item">
-                            <div class="service-card-three">
+                            <div style={{ height :"300px" }}  class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-new-product"></i>
                                 </div>
@@ -62,7 +62,7 @@ function Service() {
                             </div>
                         </div>
                         <div class="item">
-                            <div class="service-card-three">
+                            <div  style={{ height :"300px" }} class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-new-product"></i>
                                 </div>
@@ -74,7 +74,7 @@ function Service() {
                             </div>
                         </div>
                         <div class="item">
-                            <div class="service-card-three">
+                            <div style={{ height :"300px" }}  class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-protection"></i>
                                 </div>
@@ -88,7 +88,7 @@ function Service() {
                             </div>
                         </div>
                         <div class="item">
-                            <div class="service-card-three">
+                            <div style={{ height :"300px" }}  class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-web-development"></i>
                                 </div>
@@ -102,7 +102,7 @@ function Service() {
                             </div>
                         </div>
                         <div class="item">
-                            <div class="service-card-three">
+                            <div style={{ height :"300px" }} class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-analysis"></i>
                                 </div>
@@ -117,7 +117,7 @@ function Service() {
                         </div>
 
                         <div class="item">
-                            <div class="service-card-three">
+                            <div style={{ height :"300px" }}  class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-analysis"></i>
                                 </div>

@@ -1,5 +1,5 @@
  import React,{ useState } from "react";
-function Header(show) {
+function Header({ show,setShow }) {
  
   console.log("fdgf",show)
   return (
@@ -452,11 +452,43 @@ function Header(show) {
             {/* <!-- /.search-toggler --> */}
             <a href="/#" className="main-menu__cta ">
               <i className="fa fa-phone-alt"></i>
-              <span className="main-menu__cta__text">
+              {
+            show === '1' ?(
+            <>
+                <span className="main-menu__cta__text">
                 <b>(+88)-02-55012235</b>
                 <b>(+88)-01318-013300</b>
                 Call Anytime
               </span>
+            </>
+               
+            )
+          
+            :show==='2'?
+            <>
+              <span class="main-menu__cta__text">
+							<b>(+18)-779-0442</b>
+							Call Anytime
+						</span>
+            </>
+            :show==='3'?
+              <>
+            <span class="main-menu__cta__text">
+							<b>(+61) 490517545</b>
+							Call Anytime
+						</span>
+              </>
+            :
+            <>
+               <span class="main-menu__cta__text">
+							<b>(+49)-01624069887</b>
+							Call Anytime
+						</span>
+            </>
+            
+           
+          }
+              
               {/* <!-- /.main-menu__cta__text --> */}
             </a>
             {/* <!-- /.main-menu__cta --> */}
@@ -485,13 +517,27 @@ function Header(show) {
 
         <ul class="mobile-mobile-nav__country">
           <h5>Select Country</h5>
-          <li><a href="/"><img src="/assets/images/flag/usa.png" width="40px"/></a></li>
+          {/* <li><a href="/"><img src="/assets/images/flag/usa.png" width="40px"/></a></li>
           <li><a href="/"><img src="/assets/images/flag/aus.png" width="40px"/></a></li>
-          <li><a href="/"><img src="/assets/images/flag/de.png" width="40px"/></a></li>
+          <li><a href="/"><img src="/assets/images/flag/de.png" width="40px"/></a></li>  */}
+          <select className="mobileTopbar text-light"
+                onChange={(event) => {
+                  setShow(event.target.value);
+                }}
+                >
+                <option value="1"><a href="/">BD</a></option>
+                <option value="2"><a href="/">USA</a></option>
+                <option value="3"><a href="/">Australia</a></option>
+                <option value="4"><a href="/">Germany</a></option>
+               </select>             
+              
         </ul>
 
         <ul class="mobile-nav__contact list-unstyled">
-          <li>
+        {
+            show === '1' ?(
+            <>
+               <li>
             <i class="/"></i>
             <a href="/">+88 02550 12235,</a>
           </li>
@@ -509,6 +555,47 @@ function Header(show) {
             12, Karwan Bazar, Tejgaon
             Post Code: 1215 <br/>Dhaka, Bangladesh
           </li>
+            </>
+               
+            )
+          
+            :show==='2'?
+            <>
+                <li>
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:info@righttime.biz">coo.usa@righttime.biz</a>
+            </li>
+            <li>
+                <i class="fa fa-map-marker"></i>
+                14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
+            </li>
+            </>
+            :show==='3'?
+              <>
+                  <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
+                </li>
+              </>
+            :
+            <>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    Hausmann str-1.44139,Dortmund. Germany
+                </li>
+            </>
+            
+           
+          }
+          
         </ul>
         <ul class="mobile-nav__social">
           <li><a href="/"><i class="fab fa-twitter"></i></a></li>

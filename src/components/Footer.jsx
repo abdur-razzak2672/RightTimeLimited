@@ -25,102 +25,104 @@ function Footer({ show }) {
                     <>
                       <h3 className="footer-widget__title"> Bangladesh</h3>
 
-                      <ul className="footer-widget__contact">
-                        <li>
-                          <i className="fa fa-phone"></i>
-                          <a href="/"> +88 02550 12235,</a>
-                        </li>
-                        <li>
-                          <i className="fa fa-phone"></i>
-                          <a href="/"> +88 01318 013300,</a>
-                        </li>
-                        <li>
-                          <i className="fa fa-envelope"></i>
-                          <a href="/">info@righttime.biz</a>
-                        </li>
-                        <li>
-                          <i className="fa fa-map-marker-alt"></i>
-                          Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar,
-                          Tejgaon Post Code: 1215 <br />
-                          Dhaka, Bangladesh
-                        </li>
-                      </ul>
-                    </>
-
-                  )
-
-                    : show === '2' ?
-                      <>
-                        <h3 className="footer-widget__title"> USA</h3>
+                  <ul className="footer-widget__contact">
+                    <li>
+                      <i className="fa fa-phone"></i>
+                      <a href="/"> +88 02550 12235,</a>
+                    </li>
+                    <li>
+                      <i className="fa fa-phone"></i>
+                      <a href="/"> +88 01318 013300,</a>
+                    </li>
+                    <li>
+                      <i className="fa fa-envelope"></i>
+                      <a href="/">info@righttime.biz</a>
+                    </li>
+                    <li>
+                      <i className="fa fa-map-marker-alt"></i>
+                      Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar,
+                      Tejgaon Post Code: 1215 <br />
+                      Dhaka, Bangladesh
+                    </li>
+                  </ul>
+            </>
+               
+            )
+          
+            :show==='2'?
+            <>
+               <h3 className="footer-widget__title"> USA</h3>
 
                         <ul class="footer-widget__contact">
                           <li>
                             <i class="fa fa-phone"></i>
                             <a href="tel:+18187790442"> (+1) 818 779 0442,</a>
-                          </li>
-                          <li>
+                        </li>
+                        <li>
                             <i class="fa fa-phone"></i>
                             <a href="tel:+18188625708"> (+1) 818 862 5708,</a>
-                          </li>
-                          <li>
+                        </li>
+                        <li>
                             <i class="fa fa-envelope"></i>
                             <a href="mailto:coo.usa@righttime.biz">coo.usa@righttime.biz</a>
-                          </li>
-                          <li>
+                        </li>
+                        <li>
                             <i class="fa fa-map-marker-alt"></i>
                             14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
-                          </li>
-                        </ul>
-                      </>
-                      : show === '3' ?
-                        <>
-                          <h3 className="footer-widget__title">Australia</h3>
+                        </li>
+                    </ul>
+            </>
+            :show==='3'?
+              <>
+                 <h3 className="footer-widget__title">Australia</h3>
 
-                          <ul class="footer-widget__contact">
-                            <li>
-                              <i class="fa fa-phone"></i>
-                              <a href="tel:+61490517545"> (+61) 490517545,</a>
-                            </li>
-                            <li>
-                              <i class="fa-solid fa-fax"></i>
-                              <a href="tel:+61490517545"> (+61) 490517545,</a>
-                            </li>
-                            <li>
-                              <i class="fa fa-envelope"></i>
-                              <a href="mailto:coo.au@righttime.biz">coo.au@righttime.biz</a>
-                            </li>
-                            <li>
-                              <i class="fa fa-map-marker-alt"></i>
-                              11 Dahlia St. Quakers Hill,NSW 2763<br />
-                              Sydney,Australia.
-                            </li>
-                          </ul>
-                        </>
-                        :
-                        <>
-                          <h3 className="footer-widget__title">Germany</h3>
+                 <ul class="footer-widget__contact">
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+61490517545"> (+61) 490517545,</a>
+                        </li>
+                         <li> 
+                           <i class="fa-solid fa-fax"></i> 
+                             <a href="tel:+61490517545"> (+61) 490517545,</a> 
+                         </li> 
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:coo.au@righttime.biz">coo.au@righttime.biz</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker-alt"></i>
+                            11 Dahlia St. Quakers Hill,NSW 2763<br/>
+                            Sydney,Australia.
+                        </li>
+                    </ul>
+              </>
+            :
+            <>
+               <h3 className="footer-widget__title">Germany</h3>
 
-                          <ul class="footer-widget__contact">
-                            <li>
-                              <i class="fa fa-phone"></i>
-                              <a href="tel:+492311377672"> (+49) 2311377672,</a>
-                            </li>
-                            <li>
-                              <i class="fa-solid fa-fax"></i>
-                              (+49) 01624069887
-                            </li>
-                            <li>
-                              <i class="fa fa-envelope"></i>
-                              <a href="mailto:coo.de@righttime.biz">coo.de@righttime.biz</a>
-                            </li>
-                            <li>
-                              <i class="fa fa-map-marker-alt"></i>
-                              Hausmann str-1.44139, <br />Dortmund. Germany
-                            </li>
-                          </ul>
-                        </>
+               <ul class="footer-widget__contact">
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+492311377672"> (+49) 2311377672,</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-fax"></i>
+                            (+49) 01624069887
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:coo.de@righttime.biz">coo.de@righttime.biz</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker-alt"></i>
+                            Hausmann str-1.44139, <br/>Dortmund. Germany
+                        </li>
+                    </ul>
+            </>
+            
+           
+          }
 
-                }
                 <br />
               </div>
             </div>

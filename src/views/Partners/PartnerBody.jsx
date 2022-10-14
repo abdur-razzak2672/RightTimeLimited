@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './partner.css'
 function PartnerBody() {
     return (
         <div>
@@ -25,61 +25,47 @@ function PartnerBody() {
                         <div class="row gutter box text-center col-xs-6">
                             <div class="col-lg-3 col-md-6 col-sm-6 rounded">
                                 <div id="card-container">
-                                    <div className="text-center rounded" id="card3">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpeg" width="50%" />
+                                    <div className="text-center rounded" id="partner_card">
+                                        <div class="front face text-center">
+                                            <img src="assets/images/resources/1.jpeg" width="100%" />
                                             <h5 className='pt-3'>services partner logo</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Partner</h1>
-                                            <p class="artist">parther</p>
-                                         </div>
+                                      
                                     </div>
                                 </div>
 
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our partner</h1>
-                                            <p class="artist">We Provide Best Information Security</p>
-                                         </div>
+                                      
                                     </div>
                                 </div>
 
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our Service</h1>
-                                            <p class="artist">  Information Security</p>
-                                            <p class="date">2015</p>
-                                        </div>
+                                   
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our partner</h1>
-                                            <p class="artist">We Provide Best Information Security</p>
-                                            <p class="date">2015</p>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -95,61 +81,47 @@ function PartnerBody() {
                         <div class="row gutter box text-center col-xs-6">
                             <div class="col-lg-3 col-md-6 col-sm-6 rounded">
                                 <div id="card-container">
-                                    <div className="text-center rounded" id="card3">
+                                    <div className="text-center rounded" id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpeg" width="50%" />
                                             <h5 className='pt-3'>services partner logo</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Partner</h1>
-                                            <p class="artist">parther</p>
-                                         </div>
+                                     
                                     </div>
                                 </div>
 
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our partner</h1>
-                                            <p class="artist">We Provide Best Information Security</p>
-                                         </div>
+                                      
                                     </div>
                                 </div>
 
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our Service</h1>
-                                            <p class="artist">  Information Security</p>
-                                            <p class="date">2015</p>
-                                        </div>
+                                    
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our partner</h1>
-                                            <p class="artist">We Provide Best Information Security</p>
-                                            <p class="date">2015</p>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -165,7 +137,7 @@ function PartnerBody() {
                         <div class="row gutter box text-center col-xs-6">
                             <div class="col-lg-3 col-md-6 col-sm-6 rounded">
                                 <div id="card-container">
-                                    <div className="text-center rounded" id="card3">
+                                    <div className="text-center rounded" id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpeg" width="50%" />
                                             <h5 className='pt-3'>services partner logo</h5>
@@ -180,46 +152,34 @@ function PartnerBody() {
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our partner</h1>
-                                            <p class="artist">We Provide Best Information Security</p>
-                                         </div>
                                     </div>
                                 </div>
 
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our Service</h1>
-                                            <p class="artist">  Information Security</p>
-                                            <p class="date">2015</p>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                                 <div id="card-container">
-                                    <div id="card3">
+                                    <div id="partner_card">
                                         <div class="front face text-center p-5">
                                             <img src="assets/images/resources/1.jpg" width="50%" />
                                             <h5 className='pt-3'>services partner</h5>
                                         </div>
-                                        <div class="back face">
-                                            <h1>Our partner</h1>
-                                            <p class="artist">We Provide Best Information Security</p>
-                                            <p class="date">2015</p>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
