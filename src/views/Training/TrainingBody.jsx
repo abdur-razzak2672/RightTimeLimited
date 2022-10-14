@@ -131,7 +131,7 @@ function TrainingBody() {
 						"items": 4
 					}
 				}}'>
-              <div class="item">
+              <div  style={{ height :"300px" }} class="item">
                 <div class="card1">
                 <img style={{width: "150px"}} src="/assets/images/resources/1.jpeg" alt="" />
                   <div class="service-card-three__content">
@@ -142,7 +142,7 @@ function TrainingBody() {
                   </div>
                 </div>
               </div>
-              <div class="item">
+              <div  style={{ height :"300px" }} class="item">
               <div class="card1">
                 <img style={{width: "150px"}} src="/assets/images/resources/1.jpeg" alt="" />
                   <div class="service-card-three__content">
@@ -153,7 +153,7 @@ function TrainingBody() {
                   </div>
                 </div>
               </div>
-              <div class="item">
+              <div style={{ height :"300px" }} class="item">
               <div class="card1">
                 <img style={{width: "150px"}} src="/assets/images/resources/1.jpeg" alt="" />
                   <div class="service-card-three__content">

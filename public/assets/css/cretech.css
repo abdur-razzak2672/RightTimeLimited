@@ -766,6 +766,10 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   display: none;
 }
+.mobileTopbar{
+  background-color: var(--cretech-black, #12062c);
+
+}
 
 @media (min-width: 835px) {
   .topbar {

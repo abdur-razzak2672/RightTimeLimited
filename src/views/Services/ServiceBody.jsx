@@ -35,13 +35,13 @@ function ServiceBody() {
                             <div class="col-lg-3 col-md-6 col-sm-6 rounded">
                                 <div id="card-container">
                                     <div className="text-center rounded" id="card3">
-                                        <div class="front face text-center p-5">
-                                            <img src="assets/images/resources/1.jpeg" width="50%" />
-                                            <h5 className='pt-3'>services</h5>
+                                        <div class="front face text-center ">
+                                            <img src="assets/images/resources/1.jpeg" height="100%" width="100%" />
+                                            {/* <h5 className='pt-3'>services</h5> */}
                                         </div>
                                         <div class="back face">
-                                            <h1>Our Service</h1>
-                                            <p class="artist">We Provide Best Information Security</p>
+                                            <h5>Our Service</h5>
+                                            <p class="artist">We Provide Best Information Security & Information Security</p>
                                             <p class="date">2015</p>
                                         </div>
                                     </div>
@@ -239,7 +239,7 @@ function ServiceBody() {
 				"autoplay": true,
 				"autoplayTimeout": 3000,
 				"nav": false,
-				"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+				"navText": ["<span class=\"fam fa-angle-left\"></span>","<span class=\"fam fa-angle-right\"></span>"],
 				"dots": true,
 				"margin": 0,
                 "items": 1,
@@ -266,8 +266,8 @@ function ServiceBody() {
 						"items": 4
 					}
 				}}'>
-                        <div class="item">
-                            <div class="service-card-three">
+                        <div   class="item">
+                            <div style={{ height :"300px" }} class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-new-product"></i>
                                 </div>
@@ -279,8 +279,8 @@ function ServiceBody() {
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="service-card-three">
+                        <div   class="item">
+                            <div style={{ height :"300px" }} class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-new-product"></i>
                                 </div>
@@ -291,8 +291,8 @@ function ServiceBody() {
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="service-card-three">
+                        <div   class="item">
+                            <div style={{ height :"300px" }} class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-protection"></i>
                                 </div>
@@ -306,7 +306,7 @@ function ServiceBody() {
                             </div>
                         </div>
                         <div class="item">
-                            <div class="service-card-three">
+                            <div style={{ height :"300px" }} class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-web-development"></i>
                                 </div>
@@ -319,8 +319,8 @@ function ServiceBody() {
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="service-card-three">
+                        <div  class="item">
+                            <div style={{ height :"300px" }}  class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-analysis"></i>
                                 </div>
@@ -335,7 +335,7 @@ function ServiceBody() {
                         </div>
 
                         <div class="item">
-                            <div class="service-card-three">
+                            <div style={{ height :"300px" }}  class="service-card-three">
                                 <div class="service-card-three__icon">
                                     <i class="icon-analysis"></i>
                                 </div>

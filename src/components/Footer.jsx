@@ -28,21 +28,21 @@ function Footer({  show }) {
                   <ul className="footer-widget__contact">
                     <li>
                       <i className="fa fa-phone"></i>
-                      <a href="/"> +88 02550 12235,</a>
+                      <a className="m-3" href="/"> +88 02550 12235,</a>
                     </li>
                     <li>
                       <i className="fa fa-phone"></i>
-                      <a href="/"> +88 01318 013300,</a>
+                      <a className="m-3" href="/"> +88 01318 013300,</a>
                     </li>
                     <li>
                       <i className="fa fa-envelope"></i>
-                      <a href="/">info@righttime.biz</a>
+                      <a className="m-3" href="/">info@righttime.biz</a>
                     </li>
                     <li>
                       <i className="fa fa-map-marker-alt"></i>
-                      Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar,
+                     <p className="m-3"> Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar,
                       Tejgaon Post Code: 1215 <br />
-                      Dhaka, Bangladesh
+                      Dhaka, Bangladesh</p>
                     </li>
                   </ul>
             </>
@@ -56,19 +56,19 @@ function Footer({  show }) {
                <ul class="footer-widget__contact">
                         <li>
                             <i class="fa fa-phone"></i>
-                            <a href="tel:+18187790442"> (+1) 818 779 0442,</a>
+                            <a className="m-3" href="tel:+18187790442"> (+1) 818 779 0442,</a>
                         </li>
                         <li>
                             <i class="fa fa-phone"></i>
-                            <a href="tel:+18188625708"> (+1) 818 862 5708,</a>
+                            <a className="m-3" href="tel:+18188625708"> (+1) 818 862 5708,</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <a href="mailto:coo.usa@righttime.biz">coo.usa@righttime.biz</a>
+                            <a className="m-3" href="mailto:coo.usa@righttime.biz">coo.usa@righttime.biz</a>
                         </li>
                         <li>
                             <i class="fa fa-map-marker-alt"></i>
-                            14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
+                            <p className="m-3">14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401</p>
                         </li>
                     </ul>
             </>
@@ -79,20 +79,20 @@ function Footer({  show }) {
                  <ul class="footer-widget__contact">
                         <li>
                             <i class="fa fa-phone"></i>
-                            <a href="tel:+61490517545"> (+61) 490517545,</a>
+                            <a className="m-3" href="tel:+61490517545"> (+61) 490517545,</a>
                         </li>
                          <li> 
                            <i class="fa-solid fa-fax"></i> 
-                             <a href="tel:+61490517545"> (+61) 490517545,</a> 
+                             <a className="m-3" href="tel:+61490517545"> (+61) 490517545,</a> 
                          </li> 
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <a href="mailto:coo.au@righttime.biz">coo.au@righttime.biz</a>
+                            <a className="m-3" href="mailto:coo.au@righttime.biz">coo.au@righttime.biz</a>
                         </li>
                         <li>
                             <i class="fa fa-map-marker-alt"></i>
-                            11 Dahlia St. Quakers Hill,NSW 2763<br/>
-                            Sydney,Australia.
+                           <p className="m-3">11 Dahlia St. Quakers Hill,NSW 2763<br/>
+                            Sydney,Australia.</p> 
                         </li>
                     </ul>
               </>
@@ -103,19 +103,19 @@ function Footer({  show }) {
                <ul class="footer-widget__contact">
                         <li>
                             <i class="fa fa-phone"></i>
-                            <a href="tel:+492311377672"> (+49) 2311377672,</a>
+                            <a className="m-3" href="tel:+492311377672"> (+49) 2311377672,</a>
                         </li>
                         <li>
                             <i class="fa-solid fa-fax"></i>
-                            (+49) 01624069887
+                           <a className="m-3" href="">(+49) 01624069887</a> 
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <a href="mailto:coo.de@righttime.biz">coo.de@righttime.biz</a>
+                            <a className="m-3" href="mailto:coo.de@righttime.biz">coo.de@righttime.biz</a>
                         </li>
                         <li>
                             <i class="fa fa-map-marker-alt"></i>
-                            Hausmann str-1.44139, <br/>Dortmund. Germany
+                           <p> Hausmann str-1.44139, <br/>Dortmund. Germany</p>
                         </li>
                     </ul>
             </>

@@ -115,6 +115,14 @@ import React,{useState} from 'react'
 function App() {
   const [show, setShow] = useState("1");
 
+
+  function addItemToCart(e) {
+    const num = e.target.value;
+    console.log(num);
+    setShow([...show, num]);
+  }
+
+
   return (
     <Router>
        <div class="custom-cursor__cursor"></div>
@@ -208,16 +216,16 @@ function App() {
                   <a href="/">Australia</a>
                   <a href="/">Germany</a>
                 </select> */}
-                <select className="topbar text-light"
+                    <select className="topbar text-light"
                 onChange={(event) => {
                   setShow(event.target.value);
                 }}
                 >
-                  <option value="1">BD</option>
-                <option value="2">USA</option>
-                <option value="3">Australia</option>
-                <option value="4">Germany</option>
-               </select>
+                <option onClick={addItemToCart} value="1"><a href="/">BD</a></option>
+                <option onClick={addItemToCart}value="2"><a href="/">USA</a></option>
+                <option onClick={addItemToCart}value="3"><a href="/">Australia</a></option>
+                <option onClick={addItemToCart} value="4"><a href="/">Germany</a></option>
+               </select>               
               </div>
             </li>
           </ul>
