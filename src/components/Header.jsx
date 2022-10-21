@@ -75,7 +75,82 @@ function Header({ show,setShow }) {
                 </li>
               </ul>
             </li>
-            <li>
+
+
+
+            <li class="dropdown serviceNav2">
+              <a href="/partners" class="dropbtn1">Partners</a>
+              <div  style ={{  minWidth: "600px",left:"-280px",height:"55vh"}} class="dropdown-content">
+                <Container className="mt-4">
+                  <Row>
+                    <Col>
+                    <a href="/service-partners">Service Partner</a>
+                      <p style={{borderBottom:"1px solid white"}}></p>
+
+                      <a className="mt-3" href="https://www.eccouncil.org/">EC Council</a>
+                 
+                      <a className="mt-3"  href="https://home.pearsonvue.com/">Pearson Vue</a>
+                    
+                      <a className="mt-3"  href="https://pecb.com/en">PECB ISO Certification</a>
+                   
+                      <a className="mt-3"  href="https://arscert.com/certification/">ARS</a>
+                   
+                      <a className="mt-3"  href="https://sckcerts.com/">SCK</a>
+                   
+                      <a className="mt-3"  href="https://www.acnabin.com/">ACNABIN</a>
+
+                    </Col>
+
+                  <Col>
+                  
+                  <a href="/solution-partners">Solution Partner</a>
+                  <p style={{borderBottom:"1px solid white"}}></p>
+                  <a className="mt-3"  href="https://www.invicti.com/">INVICTI</a>
+                
+                      <a className="mt-3"  href="https://www.coresecurity.com/products/core-impact">
+                        Core Impact
+                      </a>
+                  
+                      <a className="mt-3"  href="https://portswigger.net/burp">Burp Suite</a>
+
+                  </Col>
+
+                  <Col>
+                  <a href="/association-partners">Association</a>
+                  <p style={{borderBottom:"1px solid white"}}></p>
+                
+                  <a className="mt-3"  href="http://cca.gov.bd/site/office_head/5891f732-8e0f-40b0-9f85-1cb867657bfd/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4">
+                        CCA,Ministry of ICT
+                      </a>
+                    
+                      <a className="mt-3"  href="https://www.pcisecuritystandards.org/">
+                        PCI SSC, USA
+                      </a>
+                  
+                      <a className="mt-3"  href="https://www.worldbank.org/en/home">
+                        WBGs (World Bank Group)
+                      </a>
+               
+                      <a className="mt-3"  href="https://www.swift.com/">SWIFT</a>
+                
+                      <a className="mt-3"  href="https://basis.org.bd/">BASIS</a>
+                  
+                      <a className="mt-3"  href="https://e-cab.net/">E-CAB</a>
+                  </Col>
+                </Row>
+              </Container>
+                    
+
+              </div>
+            </li>
+
+
+
+
+
+
+
+            <li className="servicNav">
               <a href="/partners">Partners</a>
               <ul>
                 <li>
@@ -457,7 +532,7 @@ function Header({ show,setShow }) {
             </li>
             <li class="dropdown serviceNav2">
               <a href="/services" class="dropbtn1">Training</a>
-              <div style={{left:"-650px"}} class=" dropdown-content">
+              <div style={{left:"-580px",minWidth:"1000px"}} class=" dropdown-content">
                 <Container className="mt-4">
                   <Row>
                     <Col>
