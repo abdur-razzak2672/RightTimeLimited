@@ -523,7 +523,7 @@ a:visited {
   font-weight: bold;
   letter-spacing: .1em;
   display: inline-block;
-  padding: 15px 49px;
+  padding: 15px 20px;
   overflow: hidden;
   -webkit-transition: all .35s;
   transition: all .35s;
@@ -1070,12 +1070,12 @@ a:visited {
 }
 
 .main-menu__list>li+li {
-  margin-left: 15px;
+  margin-left: 11px;
 }
 
 @media (min-width: 1270px) {
   .main-menu__list>li+li {
-    margin-left: 25px;
+    margin-left: 15px;
   }
 }
 
@@ -1117,6 +1117,22 @@ a:visited {
   box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.1);
 }
 
+.main-menu__list .service-menu>ul {
+  left: -200px;
+  top: 100%;
+  min-width: 600px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+    background-image: linear-gradient(55deg, var(--cretech-secondary, #9c2ede) 0%, var(--cretech-primary, #f99d1c) 100%);
+  opacity: 0;
+   -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+  z-index: 99;
+  -webkit-box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.1);
+}
+ 
 .main-menu__list>li>ul>li {
   position: relative;
 }
@@ -1415,8 +1431,8 @@ a{
 
 @media (min-width: 992px) {
   .main-menu__cta {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 12px;
   }
 }
@@ -8654,3 +8670,58 @@ div#CybotCookiebotDialogPoweredByText {
  text-align: center;
 
 }
+
+
+/* Services */
+
+
+
+@media (min-width: 1200px) {
+  .serviceNav2{
+    display: block;
+  }
+  .servicNav{
+    display: none;
+  }
+  
+   
+}
+
+@media (max-width: 1199px) {
+  .serviceNav2{
+    display: none;
+  }
+  .servicNav{
+    display: block;
+  }
+  
+   
+}
+
+ 
+
+@media (min-width: 1400px) {
+  .serviceNav2{
+    display: block;
+  }
+  .servicNav{
+    display: none;
+  }
+  
+  
+  
+}
+ 
+
+
+
+@media (max-width: 767px) {
+  .serviceNav2{
+    display: none;
+  }
+  .servicNav{
+    display: block;
+  }
+  
+}
+

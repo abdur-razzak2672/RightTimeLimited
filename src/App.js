@@ -103,6 +103,8 @@ import OneToOneTraining from "./views/Training/Customized/OneToOneTraining";
 
 //Careers Section Imported Start
 import CareersBody from "./views/Careers/CareersBody";
+import ViewJob from "./views/Careers/ViewJob";
+import StartProject from "./views/Careers/StartProject";
 //Careers Section Imported End
 
 //Contact Section Imported Start
@@ -130,9 +132,9 @@ function App() {
     <Router>
        <div className="custom-cursor__cursor"></div>
   <div className="custom-cursor__cursor-two"></div>
-  <div className="preloader">
+  {/* <div className="preloader">
     <div className="preloader__circle"></div>
-  </div>
+  </div> */}
   <div className="page-wrapper">
   <div className="topbar">
         <div className="container-fluid">
@@ -348,6 +350,9 @@ function App() {
 
         {/*Careers Section Route Declaration start */}
         <Route path="/careers" component={CareersBody} exact />
+        <Route path="/view-job" component={ViewJob} exact />
+        <Route path="/contact" component={StartProject} exact />
+
         {/*Careers Section Route Declaration End */}
 
         {/*Contact Section Route Declaration start */}

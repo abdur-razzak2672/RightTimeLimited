@@ -1,4 +1,8 @@
  import React,{ useState } from "react";
+ import "./serviceStyle.css";
+ import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 function Header({ show,setShow }) {
  
   console.log("fdgf",show)
@@ -145,7 +149,138 @@ function Header({ show,setShow }) {
                 </li>
               </ul>
             </li>
-            <li className="menu-item-has-children">
+
+{/* 
+            <div className="service-menu">
+                  <a href="/services">Services</a>
+                  <div className = "row">
+                    <div className = "col-md-3">
+                      <a href="/consultation">Consultation</a>
+                      <div><h3>dfgdfhfdhfg</h3> </div> 
+
+                    </div>
+                    <div className = "col-md-3">
+                      <a href="/consultation">Consultation</a>
+                      <div><h3>dfgdfhftyryrtyyyyyyyyyyyyyyyyyyyrdhfg</h3> </div> 
+
+
+                    </div>
+                    <div className = "col-md-3">
+                      <a href="/consultation">Consultation</a>
+
+                    </div>
+                    <div className = "col-md-3">
+                      <a href="/consultation">Consultation</a>
+
+                    </div>
+                  </div> 
+            </div> */}
+            <li class="dropdown serviceNav2">
+              <a href="/services" class="dropbtn1">Services</a>
+              <div class="  dropdown-content">
+                <Container className="mt-4">
+                  <Row>
+                    <Col>
+                      <a href="/consultation">Consultation</a>
+                      <p style={{borderBottom:"1px solid white"}}></p>
+
+                      <a href="/information-security-Special">
+                        Information Security-Specially Cyber Security Consulting
+                      </a>
+                      <a className="mt-3" href="/project-management">
+                        Project Management
+                      </a>
+                      <a  className="mt-3" href="/providing-security">
+                        Providing Security
+                      </a>
+                      <a  className="mt-3" href="/consultation-on-shaping">
+                        Consultation on Shaping the DC & DRS
+                      </a>
+                      <a className="mt-3" href="/swift-cyber-security">
+                        Swift Cyber Security Consulting
+                      </a>
+                      <a className="mt-3" href="/technical-documentation ">
+                        Technical Documentation on ICT
+                      </a>
+
+                    </Col>
+
+                  <Col>
+                  <a href="/consultation">Auditing</a>
+                 <p style={{borderBottom:"1px solid white"}}></p>
+                  <a  className="mt-3" href="/information-system">
+                        Information System Audit
+                      </a>
+                      <a  className="mt-3" href="/information-technology">
+                        Information Technology Audit
+                      </a>
+                      <a  className="mt-3" href="/information-security-graded">
+                        Information Security Graded Audit
+                      </a>
+                      <a className="mt-3"  href="/swift-csp">
+                        Swift Csp Indpended Assessment
+                      </a>
+                      <a className="mt-3"  href="/dc-drs-auditing">
+                        DC & DRS Auditing
+                      </a>
+
+                  </Col>
+
+                  <Col>
+                  
+                  <a href="/consultation">Security Testing</a>
+                  <p style={{borderBottom:"1px solid white"}}></p>
+
+                
+                      <a className="mt-3"   href="/vulnerability-assessment">
+                        Vulnerability Assessment & Presentation Testing Services
+                      </a>
+                 
+                      <a  className="mt-3"  href="/digital-forensics">
+                        Digital Forensics
+                      </a>
+                   
+                      <a  className="mt-3"   href="/code-review">
+                        Code Review
+                      </a>
+
+                  </Col>
+
+                  <Col>
+                  <a href="/consultation">Certification</a>
+                  <p style={{borderBottom:"1px solid white"}}></p>
+                
+                      <a  className="mt-3" href="/pci-dss-payment">
+                        Payment Card Industry Data Security Standards
+                      </a>
+                   
+                      <a  className="mt-3" href="/iso-international">
+                        International Organization for Standardization-ISO
+                      </a>
+                 
+                      <a className="mt-3"  href="/cmmi">
+                        CMMI
+                      </a>
+
+                      <a  className="mt-3" href="/tia-for-data-center">
+                        TIA 942 for Data Center
+                      </a>
+
+                  </Col>
+                </Row>
+              </Container>
+                    
+
+              </div>
+            </li>
+
+
+
+
+
+
+
+            <li  className="menu-item-has-children servicNav">
               <a href="/services">Services</a>
               <ul>
                 <li className="menu-item-has-children">
@@ -268,6 +403,13 @@ function Header({ show,setShow }) {
                 </li>
               </ul>
             </li>
+
+
+
+
+
+
+
             <li className="menu-item-has-children">
               <a href="/solutions">Solutions</a>
               <ul>
@@ -313,8 +455,119 @@ function Header({ show,setShow }) {
                 </li>
               </ul>
             </li>
+            <li class="dropdown serviceNav2">
+              <a href="/services" class="dropbtn1">Training</a>
+              <div style={{left:"-650px"}} class=" dropdown-content">
+                <Container className="mt-4">
+                  <Row>
+                    <Col>
+                      <a href="/assesment">Assesment</a>
+                      <p style={{borderBottom:"1px solid white"}}></p>
 
-            <li className="menu-item-has-children">
+                      <a className="mt-3"  href="/certified-ethical-hacker">
+                        Certified Ethical Hacker (CEH)
+                      </a>
+                     
+                      <a className="mt-3"  href="/certified-penetration">
+                        Certified Penetration Testing Professional(CPENT)
+                      </a>
+                    
+                      <a className="mt-3"  href="/computer-hacking">
+                        Computer Hacking Forensic Investigator(CHFI)
+                      </a>
+                    
+                      <a className="mt-3"  href="/open-source">
+                        Open Source Intelligence(OSINT)
+                      </a>
+                    
+                      <a className="mt-3"  href="/giac-penetration">
+                        GIAC Penetration Tester(GPEN)
+                      </a>
+                    
+                      <a className="mt-3"  href="/giac-web-application">
+                        GIAC Web Application Penetration Tester(GWAPT)
+                      </a>
+
+                    </Col>
+
+                  <Col>
+                  <a href="/management">Management</a>
+                 <p style={{borderBottom:"1px solid white"}}></p>
+                 <a className="mt-2"  href="/certified-disaster">
+                        Certified Disaster Recovery Professional
+                      </a>
+                   
+                      <a   className="mt-2"  href="/certified-incident-handler">
+                        Certified Incident Handler
+                      </a>
+                   
+                      <a  className="mt-2" href="/certified-soc-analyst">
+                        Certified SOC Analyst(CSA)
+                      </a>
+                    
+                      <a className="mt-2"  href="/certified-threat">
+                        Certified Threat Intelligence Analyst(CTIA)
+                      </a>
+                   
+                      <a  className="mt-2" href="/certified-information-system">
+                        Certified Information Systems Auditor(CISA)
+                      </a>
+                    
+                      <a  className="mt-2" href="/certified-information-security">
+                        Certified Information Security Manager(CISM)
+                      </a>
+                    
+                      <a className="mt-2"  href="/certified-information-system-security">
+                        Certified Information Systems Security
+                        Professional(CISSP)
+                      </a>
+                    
+                      <a  className="mt-2" href="/giac-certified-project">
+                        GIAC Certified Project Manager (GCPM)
+                      </a>
+
+                  </Col>
+
+                  <Col>
+                  
+                  <a href="/Customized">Cutomized</a>
+                  <p style={{borderBottom:"1px solid white"}}></p>
+
+                
+                  <a  className="mt-3"  href="/basic-corporate">
+                        Basic (Corporate)
+                      </a>
+                 
+                      <a className="mt-3"   href="/advance-corporate">
+                        Advance (Corporate)
+                      </a>
+                  
+                      <a className="mt-3"   href="/intermidiate-corporate">
+                        Intermediate (Corporate)
+                      </a>
+                  
+                      <a className="mt-3"   href="/one-to-one-training">
+                        One to One Training
+                      </a>
+
+                  </Col>
+
+                  
+                </Row>
+              </Container>
+                    
+
+              </div>
+            </li>
+
+
+
+
+
+
+
+
+            <li className="menu-item-has-children servicNav">
               <a href="/training">Training</a>
               <ul>
                 <li className="menu-item-has-children">

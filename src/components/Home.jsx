@@ -8,8 +8,7 @@ function Home() {
           className="slider-one__carousel owl-carousel  owl-theme thm-owl__carousel"
           data-owl-options='{"loop": true,
          "items": 1,
-         "navText": ["<span className=\"fa fa-angle-left\"></span>","<span className=\"fa fa-angle-right\"></span>"],
-         "margin": 0,
+          "margin": 0,
          "dots": true,
          "nav": true,
          "animateOut":
