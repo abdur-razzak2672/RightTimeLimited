@@ -26,7 +26,7 @@ function TrainingBody() {
             </div>
             <ul className="card-wrapper">
               <li className="card">
-                <img className="  text-center" src="/assets/images/resources/1.jpeg" alt="" />
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -36,7 +36,7 @@ function TrainingBody() {
 
               </li>
               <li className="card">
-                <img className="  text-center" src="/assets/images/resources/1.jpeg" alt="" />
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure  Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" >Download Course Description</a>
@@ -44,7 +44,7 @@ function TrainingBody() {
               </li>
 
               <li className="card">
-                <img className="  text-center" src="/assets/images/resources/1.jpeg" alt="" />
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -54,7 +54,7 @@ function TrainingBody() {
 
               </li>
               <li className="card">
-                <img className="  text-center" src="/assets/images/resources/1.jpeg" alt="" />
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -64,7 +64,7 @@ function TrainingBody() {
 
               </li>
               <li className="card">
-                <img className="  text-center" src="/assets/images/resources/1.jpeg" alt="" />
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -74,7 +74,7 @@ function TrainingBody() {
 
               </li>
               <li className="card">
-                <img className="  text-center" src="/assets/images/resources/1.jpeg" alt="" />
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -131,9 +131,9 @@ function TrainingBody() {
 						"items": 4
 					}
 				}}'>
-              <div  style={{ height :"300px" }} className="item">
-                <div className="card1">
-                <img style={{width: "150px"}} src="/assets/images/resources/1.jpeg" alt="" />
+              <div  className="item">
+                <div className="card">
+                <a className="circleImage2 mt-4" href="/"><img style={{width:"65%"}} src="/assets/images/career/computer.png" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation"> Marc Bayerkohler
                       <br /></a></h4>
@@ -142,9 +142,9 @@ function TrainingBody() {
                   </div>
                 </div>
               </div>
-              <div  style={{ height :"300px" }} className="item">
-              <div className="card1">
-                <img style={{width: "150px"}} src="/assets/images/resources/1.jpeg" alt="" />
+              <div  className="item">
+              <div className="card">
+              <a className="circleImage2 mt-4" href="/"><img  style={{width:"65%"}} src="/assets/images/career/computer.png" alt="" /></a>
                   <div className="service-card-three__content">
                   <h4 className="pt-3"><a href="/consultation"> Marc Bayerkohler
                       <br /></a></h4>
@@ -153,9 +153,9 @@ function TrainingBody() {
                   </div>
                 </div>
               </div>
-              <div style={{ height :"300px" }} className="item">
-              <div className="card1">
-                <img style={{width: "150px"}} src="/assets/images/resources/1.jpeg" alt="" />
+              <div  className="item">
+              <div className="card">
+              <a className="circleImage2 mt-4" href="/"><img  style={{width:"65%"}} src="/assets/images/career/computer.png" alt="" /></a>
                   <div className="service-card-three__content">
                   <h4 className="pt-3"><a href="/consultation"> Marc Bayerkohler
                       <br /></a></h4>

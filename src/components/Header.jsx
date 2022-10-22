@@ -80,7 +80,7 @@ function Header({ show,setShow }) {
 
             <li class="dropdown serviceNav2">
               <a href="/partners" class="dropbtn1">Partners</a>
-              <div  style ={{  minWidth: "600px",left:"-280px",height:"55vh"}} class="dropdown-content">
+              <div  style ={{  minWidth: "600px",left:"-280px",height:"400px"}} class="dropdown-content">
                 <Container className="mt-4">
                   <Row>
                     <Col>
@@ -531,8 +531,8 @@ function Header({ show,setShow }) {
               </ul>
             </li>
             <li class="dropdown serviceNav2">
-              <a href="/services" class="dropbtn1">Training</a>
-              <div style={{left:"-580px",minWidth:"1000px"}} class=" dropdown-content">
+              <a href="/training" class="dropbtn1">Training</a>
+              <div style={{left:"-580px",minWidth:"1000px",height:"580px"}} class=" dropdown-content">
                 <Container className="mt-4">
                   <Row>
                     <Col>

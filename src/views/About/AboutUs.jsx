@@ -76,7 +76,7 @@ function AboutUs() {
               <div className="row active-with-click grid">
                 <div className="grid-item">
                   <article className="material-card Red">
-                    <h2 className="h2">
+                    <h2 className="h21">
                       <span>Sahaly Yasmin Bhuiyan</span>
                       <strong>
                         <i className="fa fa-fw fa-star"></i>

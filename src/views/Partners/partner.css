@@ -18,7 +18,9 @@
  margin: 10%;
  transform-style: preserve-3d;
  transition: all 0.8s linear;
- box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+ box-shadow: 5px 5px 15px rgba(48, 44, 44, 0.3);
+ background-color: rgb(64, 62, 75);
+
 }
 
 #card:hover {

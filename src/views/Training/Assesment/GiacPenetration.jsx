@@ -17,7 +17,6 @@ function GiacPenetration() {
         <h2 className="page-header__title"> GIAC Penetration Tester(GPEN)</h2>
   </div> 
 </div> 
-
 <section className="section-padding--bottom section-padding--top">
         <div className="container">
           <div className="row">
@@ -36,8 +35,8 @@ function GiacPenetration() {
 
             </div>
             <div className="col-lg-4 mt-5">
-            <div className="right border-2 shadow " style={{width: "20rem"}}>
-                   <img className="card-img-top w-100" src="/assets/images/resources/1.jpeg" alt="" />
+            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
+                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/3D.png" alt="" />
                   <div className="card-body p-3">
                     <h5 className='mt-4'><a href="#" >View Trainig Shcedule</a></h5>
                     <h5 className='mt-4'><a href="#" >Download Course Description</a></h5>
@@ -51,7 +50,25 @@ function GiacPenetration() {
           </div>
         </div>
       </section><br /><br />
-      <div className = "container">
+        <div className ="container">
+          <div className="itmButton">
+            <div class="container1">
+
+              <a href="#id1" className="p-2">Course Highlight</a>
+              <a href="#id2" className="p-2">How to Prepare</a>
+              <a href="#id3" className="p-2">Schedule</a>
+              <a href="#id4" className="p-2 w-100">Price</a>
+              <a href="#id5" className="p-2">Information</a>
+              <a href="#id6" className="p-2 w-100">Registration</a>
+
+            </div>
+             
+        
+        </div>
+              
+        </div>
+      {/* <div className = "container">
+
       <div className = "row itmButton">
         <div className = "col-lg-2 col-md-3 col-sm-4 col-6 mt-4 ">
           <a href="#id1" className="p-2">Course Highlight</a>
@@ -63,17 +80,17 @@ function GiacPenetration() {
           <a href="#id3" className="p-2">Schedule</a>
         </div>
         <div className = "col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
-          <a href="#id4" className="p-2">Price</a>
+          <a href="#id4" className="p-2 w-100">Price</a>
         </div>
-        <div className = "col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+        <div className = "col-lg-2 col-md-3 col-sm-4 col-6 mt-4 ">
           <a href="#id5" className="p-2">Information</a>
         </div>
         <div className = "col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
-          <a href="#id6" className="p-2">Registration</a>
+          <a href="#id6" className="p-2 w-100">Registration</a>
         </div>
 
       </div>
-      </div>
+      </div> */}
 
       <section id ="id1" className="section-padding--bottom section-padding--top">
         <div className="container">
@@ -93,14 +110,12 @@ function GiacPenetration() {
 
             </div>
             <div className="col-lg-4 mt-5">
-            <div className="right border-2 shadow " style={{width: "20rem"}}>
-                   <img className="card-img-top w-100" src="/assets/images/resources/1.jpeg" alt="" />
-                  <div className="card-body p-3">
-                    <h5 className='mt-4'><a href="#" >View Trainig Shcedule</a></h5>
-                    <h5 className='mt-4'><a href="#" >Download Course Description</a></h5>
-                    <h5 className='mt-4'><a href="#" >More About 3Ds on the blog</a></h5>
+            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
+                   <div className="card-body p-3">
+                    <h5 className='mt-4'><a href="#" >Ready For You ?</a></h5>
+               
 
-                    <h5 className='mt-4'><a href="#" >Request More Information</a></h5>
+                    <p className='mt-4'>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports<br/> (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks. </p>
                     <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                   </div>
                 </div>
@@ -126,8 +141,8 @@ function GiacPenetration() {
 
             </div>
             <div className="col-lg-4 mt-5">
-            <div className="right border-2 shadow " style={{width: "20rem"}}>
-                   <img className="card-img-top w-100" src="/assets/images/resources/1.jpeg" alt="" />
+            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
+                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
                   <div className="card-body p-3">
                     <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
 
@@ -173,8 +188,8 @@ function GiacPenetration() {
 
             </div>
             <div className="col-lg-4 mt-5">
-            <div className="right border-2 shadow " style={{width: "20rem"}}>
-                   <img className="card-img-top w-100" src="/assets/images/resources/1.jpeg" alt="" />
+            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
+                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
                   <div className="card-body p-3">
                   <p>
                      required by payment card brands and acquiring banks.
@@ -232,8 +247,8 @@ function GiacPenetration() {
 
             </div>
             <div className="col-lg-4 mt-5">
-            <div className="right border-2 shadow " style={{width: "20rem"}}>
-                   <img className="card-img-top w-100" src="/assets/images/resources/1.jpeg" alt="" />
+            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
+                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
                   <div className="card-body p-3">
                   <p>
                      required by payment card brands and acquiring banks.

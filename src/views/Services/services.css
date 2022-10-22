@@ -1,40 +1,50 @@
 
 .box {
+  padding:25px;
  }
 
 #card-container {
-   margin: 30px;
-  width: 200px;
-  height: 200px;
+   width: 100%;
+  height: 250px;
   z-index: 1;
-  float: left;
-}
+ }
 
-
+ @media screen and (max-width: 580px) {
+  #card-container {
+    height: 300px;
+  }
+ }
+  
+ 
 #card,
 #card2,
 #card3 {
-  width: 100%;
+  width: 90%;
   height: 100%;
-  margin: 10%;
-  transform-style: preserve-3d;
+   background-color: #e0dedc;
+   transform-style: preserve-3d;
   transition: all 0.8s linear;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #card:hover {
   transform: rotateY(180deg);
-  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: -5px 5px 15px rgba(204, 164, 104, 0.3);
+  background-color: #ec483b;
 }
 
 #card2:hover {
   transform: rotateY(-180deg);
-  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: -5px 5px 15px rgba(204, 164, 104, 0.3);
+  background-color: #ec483b;
+
 }
 
 #card3:hover {
   transform: rotateX(180deg);
-  box-shadow: 5px -5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: -5px 5px 15px rgba(204, 164, 104, 0.3);
+  background-color: #ec483b;
+
 }
 #card3 .back {
   transform: rotateX(-180deg);
@@ -177,3 +187,25 @@
  .borderReidus{
   border-bottom-right-radius: 30px 30px;
  }
+
+ .expanedItem{
+  display:flex;
+  justify-content:space-between;
+ }
+
+ .expaneditems1{
+  width:50%;
+  margin:0px 10px;
+
+}
+
+ @media screen and (max-width: 780px) {
+  .expanedItem{
+    display:block;
+  }
+  .expaneditems1{
+    width:100%;
+
+ }
+ }
+ 

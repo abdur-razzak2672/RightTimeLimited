@@ -323,7 +323,7 @@ function App() {
         {/*Training Section Route Declaration Start */}
         {/* Assessment */}
         <Route path="/training" component={TrainingBody} exact />
-        <Route path="/assessment" component={AssessmentBody} exact />
+        <Route path="/assesment" component={AssessmentBody} exact />
         <Route path="/certified-ethical-hacker" component={CertifiedEthicalHacker} exact />
         <Route path="/certified-penetration" component={CertifiedPenetration} exact />
         <Route path="/computer-hacking" component={ComputerHacking} exact />

@@ -21,103 +21,98 @@ function IndustriusBody() {
                     <div className="wrapper1 page-header">
                     <p className="section-title__text">Our Focus Industries</p>
                          <h2 className="section-title__title text-light">Industries We Specialized We</h2>
-                        <ul className="img-grid mt-5  ">
-                            <li className ="m-2 rounded border">
+                        <ul className="img-grid mt-5 cardHieght ">
+                            <li className ="m-2 rounded border ">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                    <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
+                                </a>
+                            </li>
+                            <li className ="m-2 rounded border ">
+                                <a href="#" className="overlay-container"  >
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className ="m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
-                                </a>
-                            </li>
-                            <li className ="m-2 rounded border">
-                                <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
                             <li className =" m-2 rounded border">
                                 <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
+                                <img src="assets/images/industry/plate.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="50%" />
+                                    <p>title</p>
                                 </a>
                             </li>
-                            <li className =" m-2 rounded border">
-                                <a href="#" className="overlay-container"  >
-                                    <img src="https://trungk18.com/img/image-grid/img-beatles.jpg" alt="Image capture goes here 01" className="overlay-img" width ="50%" />
-                                    <p>This is Book</p>
-                                </a>
-                            </li>
+                            
                         </ul>
                     </div>
 

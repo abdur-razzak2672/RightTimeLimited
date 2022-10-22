@@ -69,7 +69,7 @@ function Educational() {
         </div>
       </section>
       <Modal show={show} onHide={handleClose}>
-        <Modal.Body  className="bg-dark">
+        <Modal.Body  className="bg-dark rounded-3">
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label className ="text-light">Name</Form.Label>

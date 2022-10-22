@@ -45,9 +45,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
-                                        <a href="javascript:void(0)" onClick={() => setShow(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                    <div className="front face text-center mt-3">
+                                        <a className="mt-5" href="javascript:void(0)" onClick={() => setShow(true)}>
+                                            <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -83,9 +83,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow1(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -121,9 +121,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow2(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -159,9 +159,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow3(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -207,9 +207,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow4(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'> partner</h5>
                                         </a>
@@ -245,9 +245,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow5(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -283,9 +283,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow6(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -321,9 +321,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow7(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -369,9 +369,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow8(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -407,9 +407,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow9(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -445,9 +445,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow10(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -483,9 +483,9 @@ function PartnerBody() {
                         <div className="col-lg-3 col-md-6 col-sm-6 rounded">
                             <div id="card-container">
                                 <div className="text-center rounded" id="partner_card">
-                                    <div className="front face text-center">
+                                    <div className="front face text-center mt-3">
                                         <a href="javascript:void(0)" onClick={() => setShow11(true)}>
-                                            <img src="assets/images/resources/1.jpeg" width="100%" />
+                                        <img src="assets/images/partners/logo.webp" width="50%" />
 
                                             <h5 className='pt-3'>Our Partner</h5>
                                         </a>
@@ -522,7 +522,7 @@ function PartnerBody() {
                 </div>
             </section>
 
-            <section className="section-padding--bottom section-padding--top">
+            {/* <section className="section-padding--bottom section-padding--top">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
@@ -574,7 +574,7 @@ function PartnerBody() {
                         </div>
                     </div>
                 </div>
-            </section><br /><br /><br /><br />
+            </section> */}<br /><br /><br /><br />
 
         </div>
     )
