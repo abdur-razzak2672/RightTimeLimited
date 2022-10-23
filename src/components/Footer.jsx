@@ -205,14 +205,14 @@ function Footer({  show }) {
                 <h3 className="footer-widget__title">People Presence</h3>
                 <ul className="footer-widget__contact">
                   <li>
-                     <img className="m-2" width = "40%" src = "assets/images/flag/bd.png" alt=""/>
-                     <img className="m-2" width = "40%" src = "assets/images/flag/de.png" alt=""/>
+                     <img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/bd.png" alt=""/>
+                     <img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/de.png" alt=""/>
 
                   </li>
 
                   <li>
-                     <img className="m-2" width = "40%" src = "assets/images/flag/usa.png" alt=""/>
-                     <img className="m-2" width = "40%" src = "assets/images/flag/aus.png" alt=""/>
+                     <img style={{border :"1px solid gray"}} className="m-2   shadow" width = "40%" src = "assets/images/flag/usa.png" alt=""/>
+                     <img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/aus.png" alt=""/>
 
                   </li>
                 </ul>
@@ -224,83 +224,7 @@ function Footer({  show }) {
             </ul>
               </div>
               </div>
-            {/* <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="footer-widget footer-widget--links">
-                <h3 className="footer-widget__title">Germany</h3>
-                <ul className="footer-widget__contact">
-                  <li>
-                    <i className="fa fa-phone"></i>
-                    <a href="/"> (+49) 2311377672,</a>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-fax"></i>
-                    (+49) 01624069887
-                  </li>
-                  <li>
-                    <i className="fa fa-envelope"></i>
-                    <a href="/">
-                      coo.de@righttime.biz
-                    </a>
-                  </li>
-                  <li>
-                    <i className="fa fa-map-marker-alt"></i>
-                    Hausmann str-1.44139, <br />
-                    Dortmund. Germany
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="footer-widget footer-widget--newsletter">
-                <h3 className="footer-widget__title">USA</h3>
-
-                <ul className="footer-widget__contact">
-                  <li>
-                    <i className="fa fa-phone"></i>
-                    <a href="/"> (+1) 818 779 0442,</a>
-                  </li>
-                  <li>
-                    <i className="fa fa-phone"></i>
-                    <a href="/"> (+1) 818 862 5708,</a>
-                  </li>
-                  <li>
-                    <i className="fa fa-envelope"></i>
-                    <a href="mailto:coo.usa@righttime.biz">
-                      coo.usa@righttime.biz
-                    </a>
-                  </li>
-                  <li>
-                    <i className="fa fa-map-marker-alt"></i>
-                    14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
-                  </li>
-                </ul>
-                <div className="mc-form__response"></div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="footer-widget footer-widget--contact">
-                <h3 className="footer-widget__title">Australia</h3>
-                <ul className="footer-widget__contact">
-                  <li>
-                    <i className="fa fa-phone"></i>
-                    <a href="/"> (+61) 490517545,</a>
-                  </li>
-
-                  <li>
-                    <i className="fa fa-envelope"></i>
-                    <a href="/">
-                      coo.au@righttime.biz
-                    </a>
-                  </li>
-                  <li>
-                    <i className="fa fa-map-marker-alt"></i>
-                    11 Dahlia St. Quakers Hill,NSW 2763
-                    <br />
-                    Sydney,Australia.
-                  </li>
-                </ul>
-              </div> */}
-            {/* </div> */}
+           
           </div>
           <br />
          

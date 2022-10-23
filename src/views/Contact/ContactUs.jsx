@@ -1,4 +1,9 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import './contact.css'
 function ContactUs() {
   return (
@@ -828,65 +833,69 @@ function ContactUs() {
                   </svg>
                 </div>
               </section>
-
-
-
-
-
-
-              {/* <div className="contact-one__info wow fadeInRight" data-wow-duration="1500ms"
-                         style={{backgroundImage: `url(assets/images/background/')` }}>
-                        <div className="contact-one__item">
-                            <h3 className="contact-one__item__title">Address</h3> 
-                            <p className="contact-one__item__text">Level: 06 & 14 (west), BDBL Bhaban,<br/> 12 Karwan Bazar, Tejgaon. 
-Dhaka - 1215, Bangladesh <br/> </p> 
-                        </div> 
-                        <div className="contact-one__item">
-                            <h3 className="contact-one__item__title">Phone</h3> 
-                            <p className="contact-one__item__text">Local: <a href="tel:+88 02550 12235">+88 02550 12235</a><br/>
-                                Mobile: <a href="tel:+88 01318 013300">+88 01318 013300</a></p>
-                          
-                        </div> 
-                        <div className="contact-one__item">
-                            <h3 className="contact-one__item__title">Email</h3> 
-                            <p className="contact-one__item__text">
-                                    <a href="mailto:info@righttime.biz">info@righttime.biz</a></p>
-                     
-                        </div> 
-                        <div className="contact-one__item">
-                            <ul className="contact-one__social">
-                                <li><a href="/"><i className="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/RightTimeLimited/"><i className="fab fa-facebook-f"></i></a></li>
-                                <li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="/"><i className="fab fa-instagram"></i></a></li>
-                            </ul> 
-                        </div>  
-                    </div> */}
-
             </div>
-            <div className="col-lg-4">
-              <form action="" className="contact-one__form contact-form-validated">
-                <div className="text-center">
-                  <p className="section-title__text">Contact with us</p>
-                  <h4 className=" ">Join Us To Get IT
-                    Consultations</h4>
-                </div>
-                <div className="row mt-4 ">
-                  <div className="col-lg-6 col-md-12">
-                    <input type="text" placeholder="Your name" name="name" />
-                  </div>
-                  <div className="col-lg-6 col-md-12">
-                    <input type="email" placeholder="Email address" name="email" />
-                  </div>
-                  <div className="col-lg-12 col-md-12">
-                    <textarea name="message" placeholder="Write message"></textarea>
-                  </div>
-                  <div className="col-md-12">
-                    <button className="thm-btn contact-one__btn" type="submit"><span>send a
-                      message</span></button>
-                  </div>
-                </div>
-              </form>
+            <div className="col-lg-4 px-5">
+            <Form>
+
+            <Row className="">
+                                           
+            <Form.Group as={Col} controlId="formGridPassword">
+            <Form.Label >First Name</Form.Label>
+            <Form.Control type="text" placeholder="First Name" />
+            </Form.Group>
+            <Form.Group as={Col} controlId="formGridEmail">
+            <Form.Label >Last Name</Form.Label>
+            <Form.Control type="text" placeholder="Last Name" />
+            </Form.Group>
+              </Row>
+              <Row className="">
+              
+              <Form.Group as={Col} controlId="formGridPassword">
+              <Form.Label >Title</Form.Label>
+              <Form.Control type="text" placeholder="Title" />
+              </Form.Group>
+              <Form.Group as={Col} controlId="formGridEmail">
+              <Form.Label >Email</Form.Label>
+              <Form.Control type="email" placeholder="Ex@gmail.com" />
+              </Form.Group>
+          </Row>
+
+          <Row className="">
+                                                
+            <Form.Group as={Col} controlId="formGridPassword">
+            <Form.Label >Phone No</Form.Label>
+            <Form.Control type="text" placeholder="Enter Phone No" />
+            </Form.Group>
+            <Form.Group as={Col} controlId="formGridEmail">
+            <Form.Label >Company</Form.Label>
+            <Form.Control type="text" placeholder="Enter Company Name" />
+            </Form.Group>
+          </Row>
+          <Form.Group as={Col} controlId="formGridPassword">
+            <Form.Label >Country</Form.Label>
+            <Form.Control type="text" placeholder="Enter County Name" />
+          </Form.Group>
+          <Form.Group className="mt-3" as={Col} controlId="formGridEmail">
+            <Form.Select aria-label="Default select example">
+              <option>How Did You About Us ?</option>
+              <option value="1">Facebook</option>
+              <option value="2">twitter</option>
+              <option value="3">LinkedIn</option>
+
+
+            </Form.Select>
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formGridAddress2">
+              <Form.Label>Message</Form.Label>
+              <Form.Control as="textarea" rows={2} placeholder=" Enter your Message here..." />
+          </Form.Group>
+
+          <a href="#" className="mt-1 my-5 thm-btn cta-two__btn rounded-5 w-100 text-center">
+            <span>Send Message </span>
+         </a>
+
+        </Form>
+               
               <div className="result"></div>
             </div>
           </div>

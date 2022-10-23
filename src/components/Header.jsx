@@ -83,10 +83,9 @@ function Header({ show,setShow }) {
               <div  style ={{  minWidth: "600px",left:"-280px",height:"400px"}} class="dropdown-content">
                 <Container className="mt-4">
                   <Row>
-                    <Col>
+                    <Col style={{borderRight:"1px solid #6f42c1"}}>
                     <a href="/service-partners">Service Partner</a>
-                      <p style={{borderBottom:"1px solid white"}}></p>
-
+ 
                       <a className="mt-3" href="https://www.eccouncil.org/">EC Council</a>
                  
                       <a className="mt-3"  href="https://home.pearsonvue.com/">Pearson Vue</a>
@@ -101,11 +100,10 @@ function Header({ show,setShow }) {
 
                     </Col>
 
-                  <Col>
+                  <Col style={{borderRight:"1px solid #6f42c1"}}>
                   
                   <a href="/solution-partners">Solution Partner</a>
-                  <p style={{borderBottom:"1px solid white"}}></p>
-                  <a className="mt-3"  href="https://www.invicti.com/">INVICTI</a>
+                   <a className="mt-3"  href="https://www.invicti.com/">INVICTI</a>
                 
                       <a className="mt-3"  href="https://www.coresecurity.com/products/core-impact">
                         Core Impact
@@ -117,8 +115,7 @@ function Header({ show,setShow }) {
 
                   <Col>
                   <a href="/association-partners">Association</a>
-                  <p style={{borderBottom:"1px solid white"}}></p>
-                
+                 
                   <a className="mt-3"  href="http://cca.gov.bd/site/office_head/5891f732-8e0f-40b0-9f85-1cb867657bfd/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4">
                         CCA,Ministry of ICT
                       </a>
@@ -225,40 +222,14 @@ function Header({ show,setShow }) {
               </ul>
             </li>
 
-{/* 
-            <div className="service-menu">
-                  <a href="/services">Services</a>
-                  <div className = "row">
-                    <div className = "col-md-3">
-                      <a href="/consultation">Consultation</a>
-                      <div><h3>dfgdfhfdhfg</h3> </div> 
-
-                    </div>
-                    <div className = "col-md-3">
-                      <a href="/consultation">Consultation</a>
-                      <div><h3>dfgdfhftyryrtyyyyyyyyyyyyyyyyyyyrdhfg</h3> </div> 
-
-
-                    </div>
-                    <div className = "col-md-3">
-                      <a href="/consultation">Consultation</a>
-
-                    </div>
-                    <div className = "col-md-3">
-                      <a href="/consultation">Consultation</a>
-
-                    </div>
-                  </div> 
-            </div> */}
             <li class="dropdown serviceNav2">
               <a href="/services" class="dropbtn1">Services</a>
               <div class="  dropdown-content">
                 <Container className="mt-4">
                   <Row>
-                    <Col>
+                    <Col style={{borderRight:"1px solid #6f42c1"}}>
                       <a href="/consultation">Consultation</a>
-                      <p style={{borderBottom:"1px solid white"}}></p>
-
+ 
                       <a href="/information-security-Special">
                         Information Security-Specially Cyber Security Consulting
                       </a>
@@ -280,10 +251,9 @@ function Header({ show,setShow }) {
 
                     </Col>
 
-                  <Col>
+                  <Col style={{borderRight:"1px solid #6f42c1"}}>
                   <a href="/consultation">Auditing</a>
-                 <p style={{borderBottom:"1px solid white"}}></p>
-                  <a  className="mt-3" href="/information-system">
+                   <a  className="mt-3" href="/information-system">
                         Information System Audit
                       </a>
                       <a  className="mt-3" href="/information-technology">
@@ -301,11 +271,10 @@ function Header({ show,setShow }) {
 
                   </Col>
 
-                  <Col>
+                  <Col style={{borderRight:"1px solid #6f42c1"}}>
                   
                   <a href="/consultation">Security Testing</a>
-                  <p style={{borderBottom:"1px solid white"}}></p>
-
+ 
                 
                       <a className="mt-3"   href="/vulnerability-assessment">
                         Vulnerability Assessment & Presentation Testing Services
@@ -323,8 +292,7 @@ function Header({ show,setShow }) {
 
                   <Col>
                   <a href="/consultation">Certification</a>
-                  <p style={{borderBottom:"1px solid white"}}></p>
-                
+                 
                       <a  className="mt-3" href="/pci-dss-payment">
                         Payment Card Industry Data Security Standards
                       </a>
@@ -535,9 +503,8 @@ function Header({ show,setShow }) {
               <div style={{left:"-580px",minWidth:"1000px",height:"580px"}} class=" dropdown-content">
                 <Container className="mt-4">
                   <Row>
-                    <Col>
+                    <Col style={{borderRight:"1px solid #6f42c1"}}>
                       <a href="/assesment">Assesment</a>
-                      <p style={{borderBottom:"1px solid white"}}></p>
 
                       <a className="mt-3"  href="/certified-ethical-hacker">
                         Certified Ethical Hacker (CEH)
@@ -565,10 +532,9 @@ function Header({ show,setShow }) {
 
                     </Col>
 
-                  <Col>
+                  <Col style={{borderRight:"1px solid #6f42c1"}}>
                   <a href="/management">Management</a>
-                 <p style={{borderBottom:"1px solid white"}}></p>
-                 <a className="mt-2"  href="/certified-disaster">
+                  <a className="mt-2"  href="/certified-disaster">
                         Certified Disaster Recovery Professional
                       </a>
                    
@@ -603,11 +569,10 @@ function Header({ show,setShow }) {
 
                   </Col>
 
-                  <Col>
+                  <Col >
                   
                   <a href="/Customized">Cutomized</a>
-                  <p style={{borderBottom:"1px solid white"}}></p>
-
+ 
                 
                   <a  className="mt-3"  href="/basic-corporate">
                         Basic (Corporate)

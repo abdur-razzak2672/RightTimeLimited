@@ -1,6 +1,17 @@
-import React from 'react'
+import React,{ useState} from 'react'
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 import './career.css'
 function ViewJob() {
+  
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div>
       <div className="page-header">
@@ -87,7 +98,7 @@ function ViewJob() {
                     <h4 className='text-light mt-4'>31-10-2022</h4>
 
 
-                    <a href="/view-job" className="mt-5 thm-btn cta-two__btn rounded-5 w-100 text-center">
+                    <a href="javascript:void(0)" onClick={handleShow} className="mt-5 thm-btn cta-two__btn rounded-5 w-100 text-center">
               <span>Apply Now <i className="mx-3 fas fa-arrow-right"></i></span> 
             </a>
                   </div>
@@ -109,6 +120,90 @@ function ViewJob() {
         <br/>
 
       </section>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Body  className="bg-dark rounded-3">
+          <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label className ="text-light">Job Title</Form.Label>
+            <Form.Select aria-label="Default select example">
+              <option>Full Stack Developer</option>
+              <option value="1">Fronend Developer</option>
+              <option value="2">Backend Developer</option>
+              <option value="3">UX/UI Designer</option>
+              <option value="3">Laravel Developer</option>
+              <option value="3">Mern Stack Developer</option>
+
+            </Form.Select>
+            </Form.Group>
+
+            <Row className="">
+                                           
+              <Form.Group as={Col} controlId="formGridPassword">
+              <Form.Label className ="text-light">First Name</Form.Label>
+              <Form.Control type="text" placeholder="Enter First Name" />
+              </Form.Group>
+              <Form.Group as={Col} controlId="formGridEmail">
+              <Form.Label className ="text-light">Last Name</Form.Label>
+              <Form.Control type="text" placeholder="Enter LAst Name" />
+              </Form.Group>
+          </Row>
+
+          <Form.Group className="mb-3 " controlId="formGridAddress1">
+          <Form.Label className ="text-light">Phone Number</Form.Label>
+            <span className="d-flex">
+                <Form.Select style={{width:"80px"}} defaultValue="Choose...">
+                    <option>BDT +880</option>
+                    <option>BDT +880</option>
+                    <option>BDT +880</option>
+                    <option>BDT +880</option>
+                    <option>AUS</option>
+                </Form.Select>
+                  <Form.Control type = "text" placeholder="017xxxxxxxx" />
+
+            </span>
+        </Form.Group>
+
+        <Row className="">
+          
+          <Form.Group as={Col} controlId="formGridPassword">
+          <Form.Label className ="text-light">Email</Form.Label>
+          <Form.Control type="email" placeholder="Ex@gmail.com" />
+          </Form.Group>
+          <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label className ="text-light">Country</Form.Label>
+          <Form.Select aria-label="Default select example">
+              <option>Bangladesh</option>
+              <option value="1">USA</option>
+              <option value="2">Germany</option>
+              <option value="3">Australia</option>
+     
+
+            </Form.Select>
+          </Form.Group>
+      </Row>
+
+      <Form.Group controlId="formFileMultiple" className="mb-3">
+          <Form.Label>Attach File</Form.Label>
+          <Form.Control type="file" multiple />
+          <Form.Label>Allow fromate are .jpg, .jpeg, .docx, .docs, .pdf and maxumum size 10MB</Form.Label>
+
+      </Form.Group>
+
+ 
+          </Form>
+          <Modal.Footer className = "bg-dark">
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button style={{backgroundColor:"#fd7e14"}} onClick={handleClose}>
+            Submit
+          </Button>
+        </Modal.Footer>
+          
+        </Modal.Body>
+       
+      </Modal>
 
 
       <section className="mt-5" style = {{backgroundColor :"#261d3b"}}>

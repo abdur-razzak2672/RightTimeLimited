@@ -208,7 +208,7 @@ function StartProject() {
                                         </Form.Group>
 
 
-                                          <a href="/view-job" className="mt-1 my-5 thm-btn cta-two__btn rounded-5 w-100 text-center">
+                                          <a href="#" className="mt-1 my-5 thm-btn cta-two__btn rounded-5 w-100 text-center">
                                         <span>Send Message </span> </a>
 
                                         </div>

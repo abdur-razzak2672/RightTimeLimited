@@ -424,89 +424,8 @@ function ConsultationBody() {
       </section>
 
 
-      {/* <section className="section-padding--bottom text-center">
-        <div className="container">
-          <div className="section-title text-center">
-            <h2 className="section-title__title">Related Updates</h2>
-            <div className="col-md-12 text-center mt-5">
-              <button type="button" onClick={() => setTabIndex(1)} className="btn btn-success m-3">Blogs</button>
-              <button type="button" onClick={() => setTabIndex(2)} className="btn btn-dark m-3">Case Studies</button>
-              <button type="button" onClick={() => setTabIndex(3)} className="btn btn-warning m-3">Downloads</button>
-
-            </div>
-            <div className="mt-2">
-            {
-          tabIndex === 1 && (
-            <div className="row mt-5">
-               <div className ="col-md-4 text-center d-flex">
-               <Card>
-               <img className="" src="/assets/images/resources/1.jpeg" alt="" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-               </div>
-               <div className ="col-md-4 text-center d-flex">
-               <Card>
-               <img className="" src="/assets/images/resources/1.jpeg" alt="" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-               </div>
-               <div className ="col-md-4 text-center d-flex">
-               <Card>
-               <img className="" src="/assets/images/resources/1.jpeg" alt="" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-               </div>
-
-            </div>
-           
-            // <h3>Frequently Asked Questions</h3>
-            // <p>Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources</p>
-           
-          )
-        }
-        {
-          tabIndex === 2 && (
-            <div>
-              <h3>2nd facility</h3>
-            </div>
-          )
-        }
-         {
-          tabIndex === 3 && (
-            <div>
-              <h3>3nd facility</h3>
-            </div>
-          )
-        }
-            </div>
-            
-          </div>
-        </div>
-      </section>
-
      
-
+{/* 
 
 
       <section className="section-padding--bottom section-padding--top ">
@@ -552,7 +471,7 @@ function ConsultationBody() {
             </div>
           </div>
         </div>
-      </section>*/}<br /> 
+      </section><br />  */}
     </div>
   )
 }

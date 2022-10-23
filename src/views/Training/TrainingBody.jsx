@@ -26,7 +26,7 @@ function TrainingBody() {
             </div>
             <ul className="card-wrapper">
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon1.webp" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -36,7 +36,7 @@ function TrainingBody() {
 
               </li>
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon2.webp" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure  Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" >Download Course Description</a>
@@ -44,7 +44,7 @@ function TrainingBody() {
               </li>
 
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon3.webp" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -54,7 +54,7 @@ function TrainingBody() {
 
               </li>
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon4.webp" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -64,7 +64,7 @@ function TrainingBody() {
 
               </li>
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon5.webp" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>
@@ -74,7 +74,7 @@ function TrainingBody() {
 
               </li>
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/career/computer.png" alt="" /></a>
+              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon6.webp" alt="" /></a>
                 <h2 className="text-center" ><a href="">Secure Software</a></h2>
                 <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
                 <a href="" className="">Download Course Description</a>

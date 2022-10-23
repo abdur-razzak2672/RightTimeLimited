@@ -25,33 +25,35 @@ function CareersBody() {
           </div>
             <ul className="card-wrapper1">
             <li className="card2">
-                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/computer.png" alt="" /></a>
-                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Highbrid/Remote/ in Office</a></h3>
+                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/Hybrid.svg" alt="" /></a>
+                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Hybrid/remote/in-office</a></h3>
             
               </li>
               <li className="card2">
-                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/computer.png" alt="" /></a>
-                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Highbrid/Remote/ in Office</a></h3>
+                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/Paid.svg" alt="" /></a>
+                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Paid vacation
+</a></h3>
             
               </li>
               <li className="card2">
-                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/computer.png" alt="" /></a>
-                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Highbrid/Remote/ in Office</a></h3>
+                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/Company.svg" alt="" /></a>
+                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Company retreat</a></h3>
             
               </li>
               <li className="card2">
-                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/computer.png" alt="" /></a>
-                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Highbrid/Remote/ in Office</a></h3>
+                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/Performance.svg" alt="" /></a>
+                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Performance bonus</a></h3>
             
               </li>
               <li className="card2">
-                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/computer.png" alt="" /></a>
-                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Highbrid/Remote/ in Office</a></h3>
+                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/Childcare.svg" alt="" /></a>
+                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Childcare facilities
+</a></h3>
             
               </li>
               <li className="card2">
-                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/computer.png" alt="" /></a>
-                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Highbrid/Remote/ in Office</a></h3>
+                <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/Wellness.svg" alt="" /></a>
+                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Wellness programs</a></h3>
             
               </li>
             
