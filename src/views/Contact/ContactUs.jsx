@@ -22,7 +22,7 @@ function ContactUs() {
       <section className="contact-one section-padding--top section-padding--bottom">
         <div className=" ">
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-lg-7">
               <section className="container">
                 <div className="wrapper">
                   <svg width="100%" height="100%" viewBox="0 0 1568 774" fill="none" >
@@ -834,7 +834,7 @@ function ContactUs() {
                 </div>
               </section>
             </div>
-            <div className="col-lg-4 px-5">
+            <div className="col-lg-5 px-5">
             <Form>
 
             <Row className="">
