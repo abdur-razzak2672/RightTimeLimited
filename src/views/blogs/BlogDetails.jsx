@@ -97,7 +97,7 @@ function BlogDetails() {
 									<h3 class="comments-one__item__title">Sarah Albert</h3>
 								 
 									<p class="comments-one__item__text">It has survived not only five centuries, but
-										also the leap into electronic typesetting simply fee text aunchanged. It was
+										also the leap into electronic typesetting simply fee the text aunchanged. It was
 										popularised in the sheets containing lorem ipsum is simply free text.</p>
  									<a href="#" class="thm-btn comments-one__item__btn"><span>Reply</span></a>
  								</div> 
