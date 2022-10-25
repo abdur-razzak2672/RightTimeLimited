@@ -115,13 +115,18 @@ import ContactUs from "./views/Contact/ContactUs";
 import Footer from "./components/Footer";
 //Footer Section Imported End
 
+// blog Section Imported Start
+import Blogs from "./views/blogs/Blogs";
+import BlogDetails from "./views/blogs/BlogDetails";
+
 import React,{useState} from 'react'
+import blogs from "./views/blogs/Blogs";
 
 function App() {
   const [show, setShow] = useState("1");
 
 
-  function addItemToCart(e) {
+  function showCountry(e) {
     const num = e.target.value;
     console.log(num);
     setShow([...show, num]);
@@ -226,10 +231,10 @@ function App() {
                   setShow(event.target.value);
                 }}
                 >
-                <option onClick={addItemToCart} value="1"><a href="/">BD</a></option>
-                <option onClick={addItemToCart}value="2"><a href="/">USA</a></option>
-                <option onClick={addItemToCart}value="3"><a href="/">Australia</a></option>
-                <option onClick={addItemToCart} value="4"><a href="/">Germany</a></option>
+                <option onClick={showCountry} value="1"><a href="/">BD</a></option>
+                <option onClick={showCountry}value="2"><a href="/">USA</a></option>
+                <option onClick={showCountry}value="3"><a href="/">Australia</a></option>
+                <option onClick={showCountry} value="4"><a href="/">Germany</a></option>
                </select>               
               </div>
             </li>
@@ -358,6 +363,10 @@ function App() {
         {/*Contact Section Route Declaration start */}
         <Route path="/contact-us" component={ContactUs} exact />
         {/*Contact Section Route Declaration End */}
+
+        {/*Blog Section Route Declaration start */}
+        <Route path="/blogs" component={blogs} exact />
+        <Route path="/blog-details" component={BlogDetails} exact />
 
       
 

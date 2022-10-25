@@ -1,9 +1,12 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 
-function Footer({  show }) {
+function Footer({setShow,  show }) {
  
    console.log("Footer", show);
+
+
+
   return (
     <div>
       <div className="footer-main section-padding--bottom footer-main--top-padding section-padding--top">
@@ -160,24 +163,25 @@ function Footer({  show }) {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--newsletter">
-                <h3 className="footer-widget__title  ">Services</h3>
+                <h3 className="footer-widget__title  ">Blogs</h3>
 
                 <ul className="footer-widget__contact">
                   <li>
                     
-                    <a href="/">Project management</a>
+                    <a href="/blogs">Show Our All Blogs</a>
                   </li>
                   <li>
                     
-                    <a href="/">Swift Cyber Security</a>
+                    <a href="/blog-details">Show Blog Details</a>
+                  </li>
+
+                  <li className="mt-3">
+                    
+                    <a className="text-bold text-light" href="/">Servives</a>
                   </li>
                   <li>
                     
-                    <a href="/">Security Testing</a>
-                  </li>
-                  <li>
-                    
-                    <a href="/">Information System Audit</a>
+                    <a  href="/">Information System Audit</a>
                   </li>
                   <li>
                     
@@ -205,14 +209,14 @@ function Footer({  show }) {
                 <h3 className="footer-widget__title">People Presence</h3>
                 <ul className="footer-widget__contact">
                   <li>
-                     <img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/bd.png" alt=""/>
-                     <img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/de.png" alt=""/>
+                     <a onClick={() => setShow("1")} href="javascript:void(0)"><img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/bd.png" alt=""/></a>
+                     <a onClick={() => setShow("4")} href="javascript:void(0)"><img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/de.png" alt=""/></a>
 
                   </li>
 
                   <li>
-                     <img style={{border :"1px solid gray"}} className="m-2   shadow" width = "40%" src = "assets/images/flag/usa.png" alt=""/>
-                     <img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/aus.png" alt=""/>
+                  <a onClick={() => setShow("2")}  href="javascript:void(0)"><img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/usa.png" alt=""/></a>
+                  <a onClick={() => setShow("3")} href="javascript:void(0)"><img style={{border :"1px solid gray"}} className="m-2  " width = "40%" src = "assets/images/flag/aus.png" alt=""/></a>
 
                   </li>
                 </ul>
