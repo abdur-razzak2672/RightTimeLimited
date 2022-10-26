@@ -122,8 +122,8 @@ function ViewJob() {
       </section>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Body  className="bg-dark rounded-3">
-          <Form>
+        <Modal.Body  style={{width:"110%"}} className="bg-dark rounded-3">
+          <Form className="px-5">
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label className ="text-light">Job Title</Form.Label>
             <Form.Select aria-label="Default select example">
@@ -186,7 +186,7 @@ function ViewJob() {
       <Form.Group controlId="formFileMultiple" className="mb-3">
           <Form.Label>Attach File</Form.Label>
           <Form.Control type="file" multiple />
-          <Form.Label>Allow fromate are .jpg, .jpeg, .docx, .docs, .pdf and maxumum size 10MB</Form.Label>
+          <Form.Label>Allow fromate are .docx, .docs, .pdf and maxumum size 10MB</Form.Label>
 
       </Form.Group>
 

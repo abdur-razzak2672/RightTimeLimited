@@ -287,6 +287,10 @@ function Header({ show,setShow }) {
                       <a  className="mt-3"   href="/code-review">
                         Code Review
                       </a>
+                      <a  className="mt-3"   href="/software-quality">
+                      Software Quality Assurance & Testing
+                        </a>
+
 
                   </Col>
 
@@ -412,6 +416,10 @@ function Header({ show,setShow }) {
                       <a href="/code-review">
                         Code Review
                       </a>
+                      <a  href="/software-quality">
+                      Software Quality Assurance & Testing
+                        </a>
+
                     </li>
                   </ul>
                 </li>
