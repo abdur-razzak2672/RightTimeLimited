@@ -220,19 +220,33 @@ function Footer({setShow,  show }) {
 
                   </li>
                 </ul>
-                <ul className="footer-widget__social mx-3 mt-3">
-                <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
-                <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                <ul className="footer-widget__social mx-3 mt-3 ">
+                <li className="mx-4"><a href="#">< img src="assets/images/footer/9001.png" width="130%" alt=""/></a></li>
+                <li className="mx-4"><a href="#">< img src="assets/images/footer/14001.png" width="130%" alt=""/></a></li>
+
+                <li className="mx-4"><a href="#">< img src="assets/images/footer/27001.png" width="130%" alt=""/></a></li>
+
+              
             </ul>
               </div>
               </div>
+          
            
           </div>
+     
           <br />
+          <div class="container" style={{paddingLeft: "40%",marginBottom: "-60px"}}>
+            <ul class="footer-widget__social">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul> 
+        </div>
          
         </div>
+    
+        
       </div>
       <div className="footer-bottom">
         <div className="container">

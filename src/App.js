@@ -53,6 +53,7 @@ import SecuirityTesting from "./views/Services/SecuirityTesting/SecurityTesting"
 import CodeReview from "./views/Services/SecuirityTesting/CodeReview";
 import DigitalForensics from "./views/Services/SecuirityTesting/DigitalForensics";
 import VulnerabilityAssesment from "./views/Services/SecuirityTesting/VulnerabilityAssesment";
+import SoftwareQuality from "./views/Services/SecuirityTesting/SoftwareQuality";
 //certification
 import CertificationBody from "./views/Services/Certification/CertificationBody";
 import Cmmi from "./views/Services/Certification/Cmmi";
@@ -305,6 +306,7 @@ function App() {
         <Route path="/code-review" component={CodeReview} exact />
         <Route path="/digital-forensics" component={DigitalForensics} exact />
         <Route path="/vulnerability-assessment" component={VulnerabilityAssesment} exact />
+        <Route path="/software-quality" component={SoftwareQuality} exact />
         {/* Certification */}
         <Route path="/certification" component={CertificationBody} exact />
         <Route path="/cmmi" component={Cmmi} exact />
