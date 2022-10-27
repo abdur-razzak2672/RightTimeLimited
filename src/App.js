@@ -154,13 +154,13 @@ function App() {
             :show==='3'?
               <img className="m-2" width = "30px" src = "assets/images/flag/aus.png" alt=""/>
               :<img className="m-2" width = "30px" src = "assets/images/flag/de.png" alt=""/>
-
-            
            
           }
          
 
-          <ul className="topbar__info">
+          <ul className="topbar__info"> 
+          <li><marquee>together we make the world happier</marquee></li>
+
           {
             show === '1' ?(
             <>
