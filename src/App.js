@@ -232,7 +232,7 @@ function App() {
                   setShow(event.target.value);
                 }}
                 >
-                <option onClick={showCountry} value="1"><a href="/">BD</a></option>
+                <option onClick={showCountry} value="1"><a href="/">Bangladesh</a></option>
                 <option onClick={showCountry}value="2"><a href="/">USA</a></option>
                 <option onClick={showCountry}value="3"><a href="/">Australia</a></option>
                 <option onClick={showCountry} value="4"><a href="/">Germany</a></option>
