@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
-import ConsultationNav from './ConsultationNav'
 import Accordion from 'react-bootstrap/Accordion';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+
 function SwiftCyberSecurity() {
-  const [tabIndex, setTabIndex] = useState(1);
 
   return (
     <div>
@@ -61,7 +58,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt=""  />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -76,7 +73,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -91,7 +88,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -106,7 +103,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -121,7 +118,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt=""  />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -136,7 +133,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -151,7 +148,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -166,7 +163,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -183,7 +180,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -198,7 +195,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -213,7 +210,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt="" />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">
@@ -228,7 +225,7 @@ function SwiftCyberSecurity() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img src="assets/images/services/book.jpg" width="50%" />
+                    <img src="assets/images/services/book.jpg" width="50%" alt=""  />
                     <h5 className='pt-3 text-dark'>services</h5>
                   </div>
                   <div className="back face">

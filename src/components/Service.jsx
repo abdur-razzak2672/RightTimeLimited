@@ -122,7 +122,7 @@ function Service() {
                                     <i className="icon-analysis"></i>
                                 </div>
                                 <div className="service-card-three__content">
-                                    <h3 className="service-card-three__title"><a href="{{ url('/services/solutions">Solutions</a></h3>
+                                    <h3 className="service-card-three__title"><a href="/">Solutions</a></h3>
                                     <div className="service-card-three__text">Providing the solutions for non-IT businesses.
                                     </div>
                                 </div>

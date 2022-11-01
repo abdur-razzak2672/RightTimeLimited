@@ -37,7 +37,7 @@ function Home() {
                 </div>
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -72,7 +72,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -108,7 +108,7 @@ function Home() {
                 </div>
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -148,7 +148,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -188,7 +188,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -228,7 +228,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -268,7 +268,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -308,7 +308,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>
@@ -347,7 +347,7 @@ function Home() {
                 {/* <!-- /.slider-one__title-wrapper --> */}
                 <div className="slider-one__btns">
                   <a
-                    href="{{ url('/about-us') }}"
+                    href="/about"
                     className="thm-btn slider-one__btn"
                   >
                     <span>Details</span>

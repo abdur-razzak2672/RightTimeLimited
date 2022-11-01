@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 function ManagementBody() {
   const [tabIndex, setTabIndex] = useState(1);
 
@@ -39,11 +37,11 @@ function ManagementBody() {
             <div className="right border rounded-3 shadow " style={{width: "100%"}}>
                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/3D.png" alt="" />
                   <div className="card-body p-3">
-                    <h5 className='mt-4'><a href="#" >View Trainig Shcedule</a></h5>
-                    <h5 className='mt-4'><a href="#" >Download Course Description</a></h5>
-                    <h5 className='mt-4'><a href="#" >More About 3Ds on the blog</a></h5>
+                    <h5 className='mt-4'><a href="/training" >View Trainig Shcedule</a></h5>
+                    <h5 className='mt-4'><a href="/training" >Download Course Description</a></h5>
+                    <h5 className='mt-4'><a href="/training" >More About 3Ds on the blog</a></h5>
 
-                    <h5 className='mt-4'><a href="#" >Request More Information</a></h5>
+                    <h5 className='mt-4'><a href="/training" >Request More Information</a></h5>
                     <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                   </div>
                 </div>
@@ -88,7 +86,7 @@ function ManagementBody() {
             <div className="col-lg-4 mt-5">
             <div className="right border rounded-3 shadow " style={{width: "100%"}}>
                    <div className="card-body p-3">
-                    <h5 className='mt-4'><a href="#" >Ready For You ?</a></h5>
+                    <h5 className='mt-4'><a href="/training" >Ready For You ?</a></h5>
                
 
                     <p className='mt-4'>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports<br/> (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks. </p>
@@ -128,7 +126,7 @@ function ManagementBody() {
                   <div className="card-body p-3">
                     <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
 
-                    <h5 className='mt-4'><a href="#" >Request More Information</a></h5>
+                    <h5 className='mt-4'><a href="/training" >Request More Information</a></h5>
                     <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                   </div>
                 </div>
@@ -224,7 +222,7 @@ function ManagementBody() {
                     <p>
                        required by payment card brands and acquiring banks.
                        </p>
-                      <a href="" className=" mt-4 ">More Information</a>
+                      <a href="/managent" className=" mt-4 ">More Information</a>
                     </div>
                   </div>
               </div>

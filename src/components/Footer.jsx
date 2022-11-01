@@ -163,7 +163,7 @@ function Footer({setShow,  show }) {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--newsletter">
-                <h3 className="footer-widget__title  ">Blogs</h3>
+                <h3 className="footer-widget__title  ">Services</h3>
 
                 <ul className="footer-widget__contact">
                   <li>
@@ -173,11 +173,6 @@ function Footer({setShow,  show }) {
                   <li>
                     
                     <a href="/blog-details">Show Blog Details</a>
-                  </li>
-
-                  <li className="mt-3">
-                    
-                    <a className="text-bold text-light" href="/">Servives</a>
                   </li>
                   <li>
                     
@@ -198,6 +193,10 @@ function Footer({setShow,  show }) {
                   <li>
                     
                     <a href="/">Swift Cyber Security</a>
+                  </li>
+                  <li className="mt-3">
+                    
+                    <a className="text-bold text-light" href="/blogs">Blogs</a>
                   </li>
                   
                 </ul>
@@ -221,13 +220,14 @@ function Footer({setShow,  show }) {
                   </li>
                 </ul>
                 <ul className="footer-widget__social mx-3 mt-3 ">
-                <li className="mx-4"><a href="#">< img src="assets/images/footer/9001.png" width="130%" alt=""/></a></li>
-                <li className="mx-4"><a href="#">< img src="assets/images/footer/14001.png" width="130%" alt=""/></a></li>
+                <li className="mx-4"><a href="/">< img src="assets/images/footer/9001.png" width="130%" alt=""/></a></li>
+                <li className="mx-4"><a href="/">< img src="assets/images/footer/14001.png" width="130%" alt=""/></a></li>
 
-                <li className="mx-4"><a href="#">< img src="assets/images/footer/27001.png" width="130%" alt=""/></a></li>
+                <li className="mx-4"><a href="/">< img src="assets/images/footer/27001.png" width="130%" alt=""/></a></li>
 
               
             </ul>
+            <h6 className="mt-4 mx-5">An Iso Certified Company</h6>
               </div>
               </div>
           
@@ -237,10 +237,10 @@ function Footer({setShow,  show }) {
           <br />
           <div class="container" style={{paddingLeft: "40%",marginBottom: "-60px"}}>
             <ul class="footer-widget__social">
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="/"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
             </ul> 
         </div>
          

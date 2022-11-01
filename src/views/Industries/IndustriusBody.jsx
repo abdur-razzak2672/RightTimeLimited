@@ -23,73 +23,73 @@ function IndustriusBody() {
                          <h2 className="section-title__title text-light">Industries We Specialized We</h2>
                         <ul className="img-grid mt-5 cardHieght ">
                         <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/Banking.svg" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Banking</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/eCommerce.svg" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Ecommerce</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/Education.svg" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Education</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/Healthcare.svg" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Health Care</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/pci.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>PCI</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container">
+                                <a href="/career" className="overlay-container">
                                 <img src="assets/images/Industries/telecommunication.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Telecommunication</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container">
+                                <a href="/career" className="overlay-container">
                                 <img src="assets/images/Industries/telecommunication.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Telecommunication</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/pci.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>PCI</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/Healthcare.svg" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Health Care</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/Education.svg" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Education</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/Banking.svg" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Banking</p>
                                 </a>
                             </li>
                             <li style={{width:"200px"}} className ="m-2 rounded border ">
-                                <a href="#" className="overlay-container" >
+                                <a href="/career" className="overlay-container" >
                                 <img src="assets/images/Industries/eCommerce.svg" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Ecommerce</p>
                                 </a>

@@ -403,7 +403,7 @@ function App() {
       </div>
       {/* Footer Section Route Declaration */}
        <Footer show = {show} setShow={setShow}/>
-<a href="#" data-target="html" className="scroll-to-target scroll-to-top">
+<a href="javascript:void(0);" data-target="html" className="scroll-to-target scroll-to-top">
         <i className="fa fa-angle-up"></i>
       </a>
   </div>

@@ -11,7 +11,7 @@ function blogs() {
 		 
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="/">Home</a></li>
 					<li>Blog</li>
 				</ul>
 				<h2 class="page-header__title">Blog Page</h2> 
@@ -27,20 +27,19 @@ function blogs() {
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/blog-1-1.jpg" alt=""/>
-								<a href="blog-details.html"></a>
-							</div>
+ 							</div>
 							<div class="blog-card-one__content">
 								<div class="blog-card-one__meta">
 									<div class="blog-card-one__date">
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div>
-									<a href="blog.html" class="blog-card-one__category">Designer</a>
+									<a href="/blog" class="blog-card-one__category">Designer</a>
 								
 								</div>
-								<h3 class="blog-card-one__title"><a href="blog-details.html">Web design done Delightful
+								<h3 class="blog-card-one__title"><a href="/blog">Web design done Delightful
 										Visualization Examples</a></h3>
-								<a href="blog-details.html" class="blog-card-one__more">
+								<a href="/blog" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a>
@@ -52,20 +51,19 @@ function blogs() {
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/blog-1-2.jpg" alt=""/>
-								<a href="blog-details.html"></a>
-							</div>
+ 							</div>
 							<div class="blog-card-one__content">
 								<div class="blog-card-one__meta">
 									<div class="blog-card-one__date">
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div>
-									<a href="blog.html" class="blog-card-one__category">Graphic</a>
+									<a href="/blog" class="blog-card-one__category">Graphic</a>
 								
 								</div>
-								<h3 class="blog-card-one__title"><a href="blog-details.html">Technology Support Allows
+								<h3 class="blog-card-one__title"><a href="/blog">Technology Support Allows
 										Erie non-profit to Serve</a></h3>
-								<a href="blog-details.html" class="blog-card-one__more">
+								<a href="/blog" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a>
@@ -77,20 +75,19 @@ function blogs() {
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/blog-1-3.jpg" alt=""/>
-								<a href="blog-details.html"></a>
-							</div>
+ 							</div>
 							<div class="blog-card-one__content">
 								<div class="blog-card-one__meta">
 									<div class="blog-card-one__date">
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div>
-									<a href="blog.html" class="blog-card-one__category">SEO</a>
+									<a href="/blog" class="blog-card-one__category">SEO</a>
 								
 								</div>
-								<h3 class="blog-card-one__title"><a href="blog-details.html">Software Makes Your Profit
+								<h3 class="blog-card-one__title"><a href="/blog">Software Makes Your Profit
 										Double if You Scale Properly</a></h3>
-								<a href="blog-details.html" class="blog-card-one__more">
+								<a href="/blog" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a>
@@ -102,19 +99,18 @@ function blogs() {
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/blog-1-4.jpg" alt=""/>
-								<a href="blog-details.html"></a>
-							</div> 
+ 							</div> 
 							<div class="blog-card-one__content">
 								<div class="blog-card-one__meta">
 									<div class="blog-card-one__date">
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div> 
-									<a href="blog.html" class="blog-card-one__category">Designer</a>
+									<a href="/blog" class="blog-card-one__category">Designer</a>
  								</div> 
-								<h3 class="blog-card-one__title"><a href="blog-details.html">Bring to the table win-win
+								<h3 class="blog-card-one__title"><a href="/blog">Bring to the table win-win
 										survival strategies to </a></h3>
-								<a href="blog-details.html" class="blog-card-one__more">
+								<a href="/blog" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a> 
@@ -126,20 +122,19 @@ function blogs() {
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/blog-1-5.jpg" alt=""/>
-								<a href="blog-details.html"></a>
-							</div> 
+ 							</div> 
 							<div class="blog-card-one__content">
 								<div class="blog-card-one__meta">
 									<div class="blog-card-one__date">
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div> 
-									<a href="blog.html" class="blog-card-one__category">Graphic</a>
+									<a href="/blog" class="blog-card-one__category">Graphic</a>
 								 
 								</div> 
-								<h3 class="blog-card-one__title"><a href="blog-details.html">Capitalize on low hanging
+								<h3 class="blog-card-one__title"><a href="/blog">Capitalize on low hanging
 										fruit to identify a ballpark </a></h3>
-								<a href="blog-details.html" class="blog-card-one__more">
+								<a href="/blog" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a> 
@@ -151,19 +146,18 @@ function blogs() {
 						<div class="blog-card-one">
 							<div class="blog-card-one__image">
 								<img src="assets/images/blog/blog-1-6.jpg" alt=""/>
-								<a href="blog-details.html"></a>
-							</div> 
+ 							</div> 
 							<div class="blog-card-one__content">
 								<div class="blog-card-one__meta">
 									<div class="blog-card-one__date">
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div> 
-									<a href="blog.html" class="blog-card-one__category">SEO</a>
+									<a href="/blog" class="blog-card-one__category">SEO</a>
  								</div> 
-								<h3 class="blog-card-one__title"><a href="blog-details.html">User generated content in
+								<h3 class="blog-card-one__title"><a href="/blog">User generated content in
 										real-time will have multiple </a></h3>
-								<a href="blog-details.html" class="blog-card-one__more">
+								<a href="/blog" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a> 

@@ -141,12 +141,6 @@ function Header({ show,setShow }) {
               </div>
             </li>
 
-
-
-
-
-
-
             <li className="servicNav">
               <a href="/partners">Partners</a>
               <ul>
@@ -320,13 +314,6 @@ function Header({ show,setShow }) {
 
               </div>
             </li>
-
-
-
-
-
-
-
             <li  className="menu-item-has-children servicNav">
               <a href="/services">Services</a>
               <ul>
@@ -548,10 +535,116 @@ function Header({ show,setShow }) {
 
 
 
+            <li class="dropdown serviceNav2">
+              <a href="/solutions" class="dropbtn1">Solutions</a>
+              <div  style ={{  minWidth: "600px",left:"-280px",height:"400px"}} class="dropdown-content">
+                <Container className="mt-4">
+                  <Row>
+                    <Col style={{borderRight:"1px solid #6f42c1"}}>
+                    <a  style={{fontWeight:"bold"}} href="/service-partners">Security Assessment (VA & Tools)</a>
+ 
+                      <a className="mt-3" href="https://www.eccouncil.org/">Burp Suite</a>
+                 
+                      <a className="mt-3"  href="https://home.pearsonvue.com/">Acunetix</a>
+                    
+                      <a className="mt-3"  href="https://pecb.com/en">Tenable (multiple solutions)</a>
+                   
+                      <a className="mt-3"  href="https://arscert.com/certification/">Core Impact</a>
+                   
+                    
+
+                    </Col>
+
+                  
+
+                  <Col>
+                  <a  style={{fontWeight:"bold"}} href="/association-partners">Cyber Security Visibility & management Solutions</a>
+                 
+                  <a className="mt-3"  href="http://cca.gov.bd/site/office_head/5891f732-8e0f-40b0-9f85-1cb867657bfd/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4">
+                  SIEM
+                      </a>
+                    
+                      <a className="mt-3"  href="https://www.pcisecuritystandards.org/">
+                      Firewall
+                      </a>
+                  
+                      <a className="mt-3"  href="https://www.worldbank.org/en/home">
+                      Log Management
+                      </a>
+               
+                      <a className="mt-3"  href="https://www.swift.com/">Patch management </a>
+                
+                      <a className="mt-3"  href="https://basis.org.bd/">Smart Contact</a>
+                  
+                      <a className="mt-3"  href="https://e-cab.net/">BULK SMS</a>
+                  </Col>
+                </Row>
+              </Container>
+                    
+
+              </div>
+            </li>
+            
+            <li className="servicNav">
+              <a href="/Solution">Security Assessment (VA & Tools)</a>
+              <ul>
+                <li>
+                  <a href="/service-partners">Burp Suite</a>
+                  <ul>
+                    <li>
+                      <a href="https://www.eccouncil.org/">Acunetix</a>
+                    </li>
+                    <li>
+                      <a href="https://home.pearsonvue.com/">Netsparker</a>
+                    </li>
+                    <li>
+                      <a href="https://pecb.com/en">Tenable (multiple solutions)</a>
+                    </li>
+                    <li>
+                      <a href="https://arscert.com/certification/">Core Impact</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/association-partners">Cyber Security Visibility & management Solutions</a>
+                  <ul>
+                  <li>
+                      <a href="https://sckcerts.com/">SIEM</a>
+                    </li>
+                    <li>
+                      <a href="https://www.acnabin.com/">Firewall</a>
+                    </li>
+                    <li>
+                      <a href="http://cca.gov.bd/site/office_head/5891f732-8e0f-40b0-9f85-1cb867657bfd/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4">
+                      Log Management
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.pcisecuritystandards.org/">
+                      Patch management 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.worldbank.org/en/home">
+                      Smart Contact
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.swift.com/">BULK SMS</a>
+                    </li>
+                     
+                  </ul>
+                </li>
+              </ul>
+            </li>
 
 
 
-            <li className="menu-item-has-children">
+
+
+
+
+            {/* <li className="menu-item-has-children">
               <a href="/solutions">Solutions</a>
               <ul>
                 <li>
@@ -595,7 +688,13 @@ function Header({ show,setShow }) {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
+
+
+
+
+
+
             <li class="dropdown serviceNav2">
               <a href="/training" class="dropbtn1">Training</a>
               <div style={{left:"-580px",minWidth:"1000px",height:"580px"}} class=" dropdown-content">

@@ -9,7 +9,7 @@ function BlogDetails() {
 			
 			<div class="container">
 				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="/">Home</a></li>
 					<li>Blog</li>
 				</ul>
 				<h2 class="page-header__title">Blog Details</h2>
@@ -52,14 +52,14 @@ function BlogDetails() {
 						<div class="blog-details__meta">
 							<div class="blog-details__tags">
 								<span>Tags</span>
-								<a href="#">Development</a>
-								<a href="#">Designing</a>
+								<a href="/blog">Development</a>
+								<a href="/blog">Designing</a>
 							</div> 
 							<ul class="blog-details__share">
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="/blog"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="/blog"><i class="fab fa-facebook"></i></a></li>
+								<li><a href="/blog"><i class="fab fa-pinterest-p"></i></a></li>
+								<li><a href="/blog"><i class="fab fa-instagram"></i></a></li>
 							</ul> 
 						</div> 
 						<div class="author-one">
@@ -85,7 +85,7 @@ function BlogDetails() {
 										also the leap into electronic typesetting simply fee text aunchanged. It was
 										popularised in the sheets containing lorem ipsum is simply free text.</p>
 								 
-									<a href="#" class="thm-btn comments-one__item__btn"><span>Reply</span></a>
+									<a href="/blog" class="thm-btn comments-one__item__btn"><span>Reply</span></a>
 								 
 								</div> 
 							</div> 
@@ -99,7 +99,7 @@ function BlogDetails() {
 									<p class="comments-one__item__text">It has survived not only five centuries, but
 										also the leap into electronic typesetting simply fee the text aunchanged. It was
 										popularised in the sheets containing lorem ipsum is simply free text.</p>
- 									<a href="#" class="thm-btn comments-one__item__btn"><span>Reply</span></a>
+ 									<a href="/blog" class="thm-btn comments-one__item__btn"><span>Reply</span></a>
  								</div> 
 							</div>
 						</div>
@@ -188,30 +188,30 @@ function BlogDetails() {
 								<h3 class="sidebar__title">Categories</h3> 
 								<ul class="sidebar__category">
 									<li>
-										<a href="#">Web Development</a>
+										<a href="/blog">Web Development</a>
 									</li>
 									<li>
-										<a href="#">Digital Marketing</a>
+										<a href="/blog">Digital Marketing</a>
 									</li>
 									<li>
-										<a href="#">Technology</a>
+										<a href="/blog">Technology</a>
 									</li>
 									<li>
-										<a href="#">Data Analysis</a>
+										<a href="/blog">Data Analysis</a>
 									</li>
 									<li>
-										<a href="#">Cyber Security</a>
+										<a href="/blog">Cyber Security</a>
 									</li>
 								</ul> 
 							</div> 
 							<div class="sidebar__item sidebar__item--tags">
 								<h3 class="sidebar__title">Tags</h3> 
 								<div class="sidebar__tags">
-									<a href="#">Development</a>
-									<a href="#">Designing</a>
-									<a href="#">Business</a>
-									<a href="#">Marketing</a>
-									<a href="#">technology</a>
+									<a href="/blog">Development</a>
+									<a href="/blog">Designing</a>
+									<a href="/blog">Business</a>
+									<a href="/blog">Marketing</a>
+									<a href="/blog">technology</a>
 								</div> 
 							</div> 
 						</div>  
