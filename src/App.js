@@ -62,6 +62,19 @@ import TiaForDataCenter from "./views/Services/Certification/TiaForDataCenter";
 import PciDssPayment from "./views/Services/Certification/PciDssPayment";
 //Service Section Imported End
 
+//Managed Service Section Imported Start
+import ManagedServiceBody from "./views/ManagedServices/ManagedServiceBody";
+import CloudeApp from "./views/ManagedServices/CloudeApp";
+import DamAsService from "./views/ManagedServices/DamAsService";
+import ManagedNextgen from "./views/ManagedServices/ManagedNextgen";
+import MdrAsService from "./views/ManagedServices/MdrAsService";
+import PmAsService from "./views/ManagedServices/PmAsService";
+import PtAsServices from "./views/ManagedServices/PtAsServices";
+import SocAsService from "./views/ManagedServices/SocAsService";
+import VaAsService from "./views/ManagedServices/VaAsService";
+
+//Managed Service Section Imported End
+
 //Solution Section Imported Start
 import SolutionBody from "./views/Solutions/SolutionBody";
 import Acunetix from "./views/Solutions/Acunetix";
@@ -314,6 +327,21 @@ function App() {
         <Route path="/tia-for-data-center" component={TiaForDataCenter} exact />
         <Route path="/pci-dss-payment" component={PciDssPayment} exact />
         {/*Services Section Route Declaration End */}
+
+        {/* Managed Service Section Route Declaration Start*/}
+        <Route path="/managed-service" component={ManagedServiceBody} exact />
+        <Route path="/cloud-app" component={CloudeApp} exact />
+        <Route path="/dam-as-service" component={DamAsService} exact />
+        <Route path="/managed-nextgen" component={ManagedNextgen} exact />
+         <Route path="/mdr-as-service" component={MdrAsService} exact />
+        <Route path="/pm-as-service" component={PmAsService} exact />
+        <Route path="/pt-as-service" component={PtAsServices} exact />
+        <Route path="/soc-as-service" component={SocAsService} exact />
+        <Route path="/va-as-service" component={VaAsService} exact />
+
+
+
+
 
         {/*Solution Section Route Declaration Start */}
         <Route path="/solutions" component={SolutionBody} exact />

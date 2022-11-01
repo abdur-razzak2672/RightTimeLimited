@@ -1070,12 +1070,12 @@ a:visited {
 }
 
 .main-menu__list>li+li {
-  margin-left: 11px;
+  margin-left: 7px;
 }
 
 @media (min-width: 1270px) {
   .main-menu__list>li+li {
-    margin-left: 15px;
+    margin-left: 11px;
   }
 }
 
@@ -1181,6 +1181,7 @@ a:visited {
   display: block;
   padding: 7px 20px;
   text-decoration: none;
+  font-size: 14px;
 
 }
 
@@ -1437,6 +1438,14 @@ a{
     font-size: 12px;
   }
 }
+@media (max-width: 1395px) {
+  .main-menu__cta {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+  }
+}
+
 
 .main-menu__cta b {
   letter-spacing: 0;
