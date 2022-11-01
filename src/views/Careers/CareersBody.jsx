@@ -8,7 +8,7 @@ function CareersBody() {
           style={{ backgroundImage: `url('https://www.krg.ca/en-CA/assets/Careers-new.jpg')` }}></div>
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
-            <li><a href="{{ url('/') }}">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li>Careers</li>
           </ul>
           <h2 className="page-header__title">Careers</h2>
@@ -42,12 +42,12 @@ function CareersBody() {
               </li>
               <li className="card2">
                 <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/Performance.svg" alt="" /></a>
-                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Performance bonus</a></h3>
+                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="/">Performance bonus</a></h3>
             
               </li>
               <li className="card2">
                 <a className="circleImage mt-4" href="/"><img className="  text-center" src="/assets/images/career/Childcare.svg" alt="" /></a>
-                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="">Childcare facilities
+                <h3 style={{fontSize:"25px"}} className="text-center  my-4" ><a className="text-light" href="/">Childcare facilities
 </a></h3>
             
               </li>

@@ -38,7 +38,7 @@ function ServiceBody() {
                                     <div className=" col-lg-2 col-md-3 col-sm-6 borderReidus uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="far fa-newspaper fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="far fa-newspaper fa-3x"></i></span>
@@ -51,7 +51,7 @@ function ServiceBody() {
                                     <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-ribbon fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-ribbon fa-3x"></i></span>
@@ -66,7 +66,7 @@ function ServiceBody() {
                                     <div  className=" col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fab fa-joomla fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fab fa-joomla fa-3x"></i></span>
@@ -80,7 +80,7 @@ function ServiceBody() {
                                     <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="far fa-comment-dots fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="far fa-comment-dots fa-3x"></i></span>
@@ -94,7 +94,7 @@ function ServiceBody() {
                                     <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                         <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-cogs fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-cogs fa-3x"></i></span>
@@ -108,7 +108,7 @@ function ServiceBody() {
                                     <div className="borderReidus col-lg-2 col-md-3 col-sm-6 uk-visible-toggle mt-3" tabindex="-1">
                                         <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                         <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-code fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-code fa-3x"></i></span>
@@ -124,7 +124,7 @@ function ServiceBody() {
                                     <div className=" col-lg-2 col-md-3 col-sm-6 borderReidus uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="far fa-newspaper fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="far fa-newspaper fa-3x"></i></span>
@@ -137,7 +137,7 @@ function ServiceBody() {
                                     <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-ribbon fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-ribbon fa-3x"></i></span>
@@ -152,7 +152,7 @@ function ServiceBody() {
                                     <div  className=" col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fab fa-joomla fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fab fa-joomla fa-3x"></i></span>
@@ -166,7 +166,7 @@ function ServiceBody() {
                                     <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="far fa-comment-dots fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="far fa-comment-dots fa-3x"></i></span>
@@ -180,7 +180,7 @@ function ServiceBody() {
                                     <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
                                         <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                         <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-cogs fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-cogs fa-3x"></i></span>
@@ -194,7 +194,7 @@ function ServiceBody() {
                                     <div className="borderReidus col-lg-2 col-md-3 col-sm-6 uk-visible-toggle mt-3" tabindex="-1">
                                         <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
                                         <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-code fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-code fa-3x"></i></span>
@@ -211,7 +211,7 @@ function ServiceBody() {
                                 <div className="uk-visible-toggle" tabindex="-1">
                                         <div className="uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-cogs fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-cogs fa-3x"></i></span>
@@ -225,9 +225,9 @@ function ServiceBody() {
                                                 <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
                                                     <div className="uk-navbar-center uk-navbar-item">
                                                         <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="#" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
+                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
                                                         </ul>
                                                     </div>
                                                 </nav>
@@ -237,7 +237,7 @@ function ServiceBody() {
                                     <div className="uk-visible-toggle" tabindex="-1">
                                         <div className="uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-server fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-server fa-3x"></i></span>
@@ -251,9 +251,9 @@ function ServiceBody() {
                                                 <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
                                                     <div className="uk-navbar-center uk-navbar-item">
                                                         <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="#" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
+                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
                                                         </ul>
                                                     </div>
                                                 </nav>
@@ -263,7 +263,7 @@ function ServiceBody() {
                                     <div className="uk-visible-toggle" tabindex="-1">
                                         <div className="uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-film fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-film fa-3x"></i></span>
@@ -277,9 +277,9 @@ function ServiceBody() {
                                                 <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
                                                     <div className="uk-navbar-center uk-navbar-item">
                                                         <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="#" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
+                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
                                                         </ul>
                                                     </div>
                                                 </nav>
@@ -289,7 +289,7 @@ function ServiceBody() {
                                     <div className="uk-visible-toggle" tabindex="-1">
                                         <div className="uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-cogs fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-cogs fa-3x"></i></span>
@@ -303,9 +303,9 @@ function ServiceBody() {
                                                 <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
                                                     <div className="uk-navbar-center uk-navbar-item">
                                                         <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="#" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
+                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
                                                         </ul>
                                                     </div>
                                                 </nav>
@@ -315,7 +315,7 @@ function ServiceBody() {
                                     <div className="uk-visible-toggle" tabindex="-1">
                                         <div className="uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fab fa-joomla fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fab fa-joomla fa-3x"></i></span>
@@ -329,9 +329,9 @@ function ServiceBody() {
                                                 <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
                                                     <div className="uk-navbar-center uk-navbar-item">
                                                         <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="#" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
+                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
                                                         </ul>
                                                     </div>
                                                 </nav>
@@ -341,7 +341,7 @@ function ServiceBody() {
                                     <div className="uk-visible-toggle" tabindex="-1">
                                         <div className="uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-code fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-code fa-3x"></i></span>
@@ -355,9 +355,9 @@ function ServiceBody() {
                                                 <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
                                                     <div className="uk-navbar-center uk-navbar-item">
                                                         <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="#" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
+                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
                                                         </ul>
                                                     </div>
                                                 </nav>
@@ -367,7 +367,7 @@ function ServiceBody() {
                                     <div className="uk-visible-toggle" tabindex="-1">
                                         <div className="uk-margin uk-card uk-card-default uk-card-hover">
                                             <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="#"></a>
+                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
                                                 <div className="uk-flex uk-flex-center">
                                                     <span className="uk-icon default"><i className="fas fa-server fa-3x"></i></span>
                                                     <span className="uk-icon hover"><i className="fas fa-server fa-3x"></i></span>
@@ -381,9 +381,9 @@ function ServiceBody() {
                                                 <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
                                                     <div className="uk-navbar-center uk-navbar-item">
                                                         <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="#" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="#" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
+                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
+                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
                                                         </ul>
                                                     </div>
                                                 </nav>
