@@ -55,7 +55,6 @@ function ProjectManagement() {
           </div>
         </div>
       </section>
-
       <section id="benefit" className="section-padding--bottom text-center">
         <div className="container">
           <div className="section-title text-center">

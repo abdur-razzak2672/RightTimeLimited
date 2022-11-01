@@ -262,9 +262,6 @@ function Header({ show,setShow }) {
                       <a  className="mt-3" href="/information-security-graded">
                         Information Security Graded Audit
                       </a>
-                      <a className="mt-3"  href="/swift-csp">
-                        Swift Csp Indpended Assessment
-                      </a>
                       <a className="mt-3"  href="/dc-drs-auditing">
                         DC & DRS Auditing
                       </a>
@@ -290,6 +287,9 @@ function Header({ show,setShow }) {
                       <a  className="mt-3"   href="/software-quality">
                       Software Quality Assurance & Testing
                         </a>
+                        <a className="mt-3"  href="/swift-csp">
+                        Swift Csp Indpended Assessment
+                      </a>
 
 
                   </Col>
@@ -385,11 +385,7 @@ function Header({ show,setShow }) {
                         Information Security Graded Audit
                       </a>
                     </li>
-                    <li>
-                      <a href="/swift-csp">
-                        Swift Csp Indpended Assessment
-                      </a>
-                    </li>
+              
                     <li>
                       <a href="/dc-drs-auditing">
                         DC & DRS Auditing
@@ -419,8 +415,11 @@ function Header({ show,setShow }) {
                       <a  href="/software-quality">
                       Software Quality Assurance & Testing
                         </a>
-
+                      <a href="/swift-csp">
+                        Swift Csp Indpended Assessment
+                      </a>
                     </li>
+                     
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
@@ -451,6 +450,97 @@ function Header({ show,setShow }) {
                       </a>
                     </li>
                   </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="dropdown serviceNav2">
+              <a href="/managed-service" class="dropbtn1">Managed Services</a>
+              <div  style ={{  minWidth: "400px",left:"-100px",height:"400px"}} class="dropdown-content">
+                <Container className="mt-2">
+                  <Row>
+                    <Col>
+                     
+                    <a className="mt-3" href="/soc-as-service">
+                  SOC As A Service
+                  </a>
+                  
+                  <a  className="mt-3"  href="/cloud-app">
+                  Cloud App Monitoring as a Service
+                  </a>
+                 
+                  <a  className="mt-3" href="/mdr-as-service">
+                  MDR As Service (Managed End Point Detection and Response)
+                  </a>
+               
+                  <a className="mt-3"  href="/managed-nextgen">
+                  Managed NextGen Firewall as a service                  </a>
+                 
+                  <a className="mt-3"  href="/va-as-service">
+                  Vulnerability Assessment (VA) as a Service
+                  </a>
+                 
+                  <a href="/pt-as-service">
+                  Penetration Testing (PT) as a Service
+                  </a>
+                
+                  <a  className="mt-3" href="/dam-as-service">
+                  DAM (Database Auditing & Management) as a Service
+                  </a>
+                 
+                  <a  className="mt-3" href="/pm-as-service">
+                  Patch Management as a Service
+                  </a>
+                  </Col>
+                </Row>
+              </Container>
+                    
+
+              </div>
+            </li>
+
+
+            <li className="menu-item-has-children servicNav">
+              <a href="/managed-services">Managed Services</a>
+              <ul>
+                <li>
+                  <a href="/soc-as-service">
+                  SOC As A Service
+                  </a>
+                </li>
+                <li>
+                  <a href="/cloud-app">
+                  Cloud App Monitoring as a Service
+                  </a>
+                </li>
+                <li>
+                  <a href="/mdr-as-service">
+                  MDR As Service (Managed End Point Detection and Response)
+                  </a>
+                </li>
+                <li>
+                  <a href="/managed-nextgen">
+                  Managed NextGen Firewall as a service                  </a>
+                </li>
+                <li>
+                  <a href="/va-as-service">
+                  Vulnerability Assessment (VA) as a Service
+                  </a>
+                </li>
+                <li>
+                  <a href="/pt-as-service">
+                  Penetration Testing (PT) as a Service
+                  </a>
+                </li>
+                <li>
+                  <a href="/dam-as-service">
+                  DAM (Database Auditing & Management) as a Service
+                  </a>
+                </li>
+                <li>
+                  <a href="/pm-as-service">
+                  Patch Management as a Service
+                  </a>
                 </li>
               </ul>
             </li>
