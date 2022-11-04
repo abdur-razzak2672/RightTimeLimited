@@ -3618,6 +3618,7 @@ a:visited {
   padding-top: 60px;
   padding-bottom: 70px;
 }
+ 
 
 @media (min-width: 768px) {
   .page-header {
@@ -3639,6 +3640,8 @@ a:visited {
   z-index: 1;
 }
 
+ 
+
 .page-header__bg {
   position: absolute;
   background-repeat: no-repeat;
@@ -3650,6 +3653,11 @@ a:visited {
   background-color: var(--cretech-black, #12062c);
   mix-blend-mode: luminosity;
   opacity: .7;
+}
+.headerind{
+  background-color: var(--cretech-black, #12062c);
+
+
 }
 
 .page-header .container {
@@ -3738,6 +3746,11 @@ a:visited {
 @media (min-width: 992px) {
   .page-header__title {
       font-size: 38px;
+  }
+  .headerind{
+    background-color: var(--cretech-black, #12062c);
+  
+  
   }
 }
 
