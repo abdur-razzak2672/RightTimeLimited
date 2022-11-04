@@ -1,5 +1,7 @@
 .wrapper1 {
-  height: -100px;
+  height: 500px;
+  background-color: var(--cretech-black, #12062c);
+
      
   }
   .wrapper1 li {

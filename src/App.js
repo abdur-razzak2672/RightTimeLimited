@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import CookieConsent from "react-cookie-consent";
+import { CookieBanner } from '@keepist/react-gdpr-cookie-banner';
+
 // Header Section Imported Start
 import Header from "./components/Header";
 // Header Section Imported End
@@ -257,8 +259,27 @@ function App() {
       </div>
   <Header show = {show} setShow={setShow}/>
       <div>
+{/* 
+      <div>
+    <CookieBanner
+    className="react-cookie-law-accept-selection-btn"
+    styles={{
+      dialog: { backgroundColor: 'gray',height:"30vh", margin:"100px 500px" },
+      button:{color:"white",backgroundColor:"blue",padding:"2px", width:"120px",borderRadius:"5px",marginRight:"20px"},
+      optionLabel:{color:"black",paddingLeft:"20px",marginTop:"-100px"}
+      // container:{margin:"100px"}
+     }}
+      message=" We use cookies to enhance your user experience. By continuing to browse, you hereby agree to the use of cookies."
+      onAcceptPreferences = {() => { 
+       }}
+      onAcceptStatistics = {() => {
+        }}
+      onAcceptMarketing = {() => {
+       }}
+    />
+  </div> */}
 
-        <CookieConsent
+         <CookieConsent
           location="bottom"
           buttonclassNamees="rounded-pill"
           
@@ -270,7 +291,8 @@ function App() {
 
         >
          We use cookies to enhance your user experience. By continuing to browse, you hereby agree to the use of cookies. To know more; visit our <a href="/">Privacy Policy</a> & <a href="/">Cookies Policy.</a>  
-        </CookieConsent>
+        </CookieConsent>  
+     
 
         {/*Dashboard Section Route Declaration start */}
         <Route path="/" component={Dashboard} exact />
