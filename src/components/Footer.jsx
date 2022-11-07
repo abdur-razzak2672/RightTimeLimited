@@ -134,29 +134,21 @@ function Footer({ setShow, show }) {
                 <h3 className="footer-widget__title">Quick Links</h3>
                 <ul className="footer-widget__contact">
                   <li>
-                    <a href="/">Providing Security</a>
+                    <a href="/pci-dss-payment">PCI DSS Certification</a>
                   </li>
                   <li>
-                    <a href="/">Telecomunications</a>
+                    <a href="/iso-international">ISO Certification</a>
                   </li>
                   <li>
-                    <a href="/">Solution Pertners</a>
+                    <a href="/swift-csp">SWIFT CSP Assesment</a>
                   </li>
                   <li>
-                    <a href="/">Smart Conntact</a>
+                    <a href="/vulnerability-assessment">VAPT Services</a>
                   </li>
                   <li>
-                    <a href="/">One To One Training</a>
+                    <a href="/digital-forensics">Digital Forensics</a>
                   </li>
-                  <li>
-                    <a href="/">Web Application</a>
-                  </li>
-                  <li>
-                    <a href="/">One To One Training</a>
-                  </li>
-                  <li>
-                    <a href="/">Web Application</a>
-                  </li>
+                 
 
                 </ul>
               </div>
@@ -168,31 +160,25 @@ function Footer({ setShow, show }) {
                 <ul className="footer-widget__contact">
                   <li>
 
-                    <a href="/blogs">Show Our All Blogs</a>
+                    <a href="/consultation">Consultation</a>
                   </li>
                   <li>
 
-                    <a href="/blog-details">Show Blog Details</a>
+                    <a href="/auditing">Auditing</a>
                   </li>
                   <li>
 
-                    <a href="/">Information System Audit</a>
+                    <a href="/security-testing">Security Testing</a>
+                  </li>
+                  
+                  
+                  <li>
+
+                    <a href="/certification">Certification</a>
                   </li>
                   <li>
 
-                    <a href="/">Swift Cyber Security</a>
-                  </li>
-                  <li>
-
-                    <a href="/">Security Testing</a>
-                  </li>
-                  <li>
-
-                    <a href="/">Information System Audit</a>
-                  </li>
-                  <li>
-
-                    <a href="/">Swift Cyber Security</a>
+                    <a href="/managed-service">Managed Services</a>
                   </li>
                   <li className="mt-3">
 
@@ -204,7 +190,7 @@ function Footer({ setShow, show }) {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="footer-widget footer-widget--contact text-center">
+              <div className="footer-widget footer-widget--contact ">
                 <h3 className="footer-widget__title">People Presence</h3>
                 <ul className="footer-widget__contact">
                   <li>
@@ -219,15 +205,15 @@ function Footer({ setShow, show }) {
 
                   </li>
                 </ul>
-                <ul className="footer-widget__social mx-3 mt-3 ">
-                  <li className="mx-4"><a href="/">< img src="assets/images/footer/9001.png" width="130%" alt="" /></a></li>
+                <ul className="footer-widget__social mx-2 mt-2 ">
+                  {/* <li className="mx-4"><a href="/">< img src="assets/images/footer/9001.png" width="130%" alt="" /></a></li>
                   <li className="mx-4"><a href="/">< img src="assets/images/footer/14001.png" width="130%" alt="" /></a></li>
 
-                  <li className="mx-4"><a href="/">< img src="assets/images/footer/27001.png" width="130%" alt="" /></a></li>
+                  <li className="mx-4"><a href="/">< img src="assets/images/footer/27001.png" width="130%" alt="" /></a></li> */}
 
-
+                    <img src="assets/images/footer/xyz.png" width="92%" alt="" />
                 </ul>
-                <h6 className="mt-4 text-center">An ISO Certified Company</h6>
+                <h6 className="mt-2 text-light mx-1">We are ISO 27001, 1400, 9001 Certified</h6>
               </div>
             </div>
 
