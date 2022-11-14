@@ -225,39 +225,39 @@ function Header({ show,setShow }) {
                       <a  style={{fontWeight:"bold"}} href="/consultation">Consultation</a>
   
                       <a href="/information-security-Special">
-                        Information Security-Specially Cyber Security Consulting
+                      <i class="fas fa-caret-right"> </i>     Information Security-Specially Cyber Security Consulting
                       </a>
                       <a className="mt-3" href="/project-management">
-                        Project Management
+                      <i class="fas fa-caret-right"> </i>      Project Management
                       </a>
                       <a  className="mt-3" href="/providing-security">
-                        Providing Security
+                      <i class="fas fa-caret-right"> </i>     Providing Security
                       </a>
                       <a  className="mt-3" href="/consultation-on-shaping">
-                        Consultation on Shaping the DC & DRS
+                      <i class="fas fa-caret-right"> </i>     Consultation on Shaping the DC & DRS
                       </a>
                       <a className="mt-3" href="/swift-cyber-security">
-                        Swift Cyber Security Consulting
+                      <i class="fas fa-caret-right"> </i>     Swift Cyber Security Consulting
                       </a>
                       <a className="mt-3" href="/technical-documentation ">
-                        Technical Documentation on ICT
+                      <i class="fas fa-caret-right"> </i>     Technical Documentation on ICT
                       </a>
 
                     </Col>
 
                   <Col style={{borderRight:"1px solid #6f42c1"}}>
-                  <a  style={{fontWeight:"bold"}} href="/auditing">Auditing</a>
+                  <a  style={{fontWeight:"bold"}} href="/auditing"> Auditing</a>
                    <a  className="mt-3" href="/information-system">
-                        Information System Audit
+                        <i class="fas fa-caret-right"> </i> Information System Audit
                       </a>
                       <a  className="mt-3" href="/information-technology">
-                        Information Technology Audit
+                      <i class="fas fa-caret-right"> </i> Information Technology Audit
                       </a>
                       <a  className="mt-3" href="/information-security-graded">
-                        Information Security Graded Audit
+                      <i class="fas fa-caret-right"> </i>   Information Security Graded Audit
                       </a>
                       <a className="mt-3"  href="/dc-drs-auditing">
-                        DC & DRS Auditing
+                      <i class="fas fa-caret-right"> </i>  DC & DRS Auditing
                       </a>
 
                   </Col>
@@ -268,21 +268,21 @@ function Header({ show,setShow }) {
  
                 
                       <a className="mt-3"   href="/vulnerability-assessment">
-                        Vulnerability Assessment & Presentation Testing Services
+                      <i class="fas fa-caret-right"> </i>   Vulnerability Assessment & Presentation Testing Services
                       </a>
                  
                       <a  className="mt-3"  href="/digital-forensics">
-                        Digital Forensics
+                      <i class="fas fa-caret-right"> </i>    Digital Forensics
                       </a>
                    
                       <a  className="mt-3"   href="/code-review">
-                        Code Review
+                      <i class="fas fa-caret-right"> </i>     Code Review
                       </a>
                       <a  className="mt-3"   href="/software-quality">
-                      Software Quality Assurance & Testing
+                      <i class="fas fa-caret-right"> </i>   Software Quality Assurance & Testing
                         </a>
                         <a className="mt-3"  href="/swift-csp">
-                        Swift Csp Indpended Assessment
+                        <i class="fas fa-caret-right"> </i>   Swift Csp Indpended Assessment
                       </a>
 
 
@@ -292,19 +292,19 @@ function Header({ show,setShow }) {
                   <a  style={{fontWeight:"bold"}} href="/certification">Certification</a>
                  
                       <a  className="mt-3" href="/pci-dss-payment">
-                        Payment Card Industry Data Security Standards
+                      <i class="fas fa-caret-right"> </i>     Payment Card Industry Data Security Standards
                       </a>
                    
                       <a  className="mt-3" href="/iso-international">
-                        International Organization for Standardization-ISO
+                      <i class="fas fa-caret-right"> </i>     International Organization for Standardization-ISO
                       </a>
                  
                       <a className="mt-3"  href="/cmmi">
-                        CMMI
+                      <i class="fas fa-caret-right"> </i>   Capability Maturity Model Integration (CMMI)
                       </a>
 
                       <a  className="mt-3" href="/tia-for-data-center">
-                        TIA 942 for Data Center
+                      <i class="fas fa-caret-right"> </i>    TIA 942 for Data Center
                       </a>
 
                   </Col>
@@ -427,7 +427,7 @@ function Header({ show,setShow }) {
                     </li>
                     <li>
                       <a href="/cmmi">
-                        CMMI
+                      Capability Maturity Model Integration (CMMI)
                       </a>
                     </li>
                    
@@ -630,7 +630,7 @@ function Header({ show,setShow }) {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.swift.com/">BULK SMS</a>
+                      <a href="https://www.swift.com/">SMS Services</a>
                     </li>
                      
                   </ul>
