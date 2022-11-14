@@ -22,12 +22,15 @@ function ContactUs() {
       <section className="contact-one section-padding--top section-padding--bottom">
         <div className=" ">
           <div className="row">
-            <div className="col-lg-7">
-              <section className="container">
-                <div className="wrapper">
-                  <svg width="100%" height="100%" viewBox="0 0 1568 774" fill="none" >
+            <div className="col-lg-7">                            
+
+              <section className="container">                             
+
+                <div className="wrapper"> 
+          
+                  <svg className='ttt' width="100%" height="100%" viewBox="0 0 1568 774" fill="none" >                            
                     <g id="Map Animation Svg" clip-path="url(#clip0)">
-                      <g id="Map">
+                      <g id="Map">bb
                         <g id="Group 1123">
                           <g id="Group 1122">
                             <path id="Path 1752" d="M776.303 305.957C778.17 305.699 777.912 297.917 777.203 297.849C776.494 297.781 776.303 299.069 774.503 300.167C772.703 301.265 774.518 306.201 776.303 305.957Z" fill="url(#paint0_linear)" />
@@ -185,11 +188,7 @@ function ContactUs() {
                         </svg>
                         <svg width="110" height="84" x="253px" y="248px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <g id="HackTag">
-                            <g id="Group 1131">
-                              <g id="Group" filter="url(#filter0_d)">
-                                <path id="Union 1" d="M45.828 58.7911H11.668C10.3419 58.7911 9.07012 58.2643 8.13243 57.3266C7.19475 56.3889 6.66797 55.1172 6.66797 53.7911V8.50708C6.66797 7.181 7.19475 5.90923 8.13243 4.97155C9.07012 4.03386 10.3419 3.50708 11.668 3.50708L98.415 3.50708C99.0716 3.50708 99.7218 3.63641 100.328 3.88768C100.935 4.13896 101.486 4.50725 101.951 4.97155C102.415 5.43584 102.783 5.98704 103.034 6.59366C103.286 7.20029 103.415 7.85047 103.415 8.50708V53.7911C103.415 54.4477 103.286 55.0979 103.034 55.7045C102.783 56.3111 102.415 56.8623 101.951 57.3266C101.486 57.7909 100.935 58.1592 100.328 58.4105C99.7218 58.6618 99.0716 58.7911 98.415 58.7911H64.255L55.041 74.9161L45.828 58.7911Z" fill="white" />
-                              </g>
-                            </g>
+                             <h1 className='razzak'>razzak</h1>
                           </g>
                           <defs>
                             <filter id="filter0_d" x="0.667969" y="0.50708" width="108.747" height="83.409" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
