@@ -221,8 +221,8 @@ function Header({ show,setShow }) {
               <div class="  dropdown-content">
                 <Container className="mt-4">
                   <Row>
-                    <Col style={{borderRight:"1px solid #6f42c1"}}>
-                      <a  style={{fontWeight:"bold"}} href="/consultation">Consultation</a>
+                    <Col className="consultation" style={{borderRight:"1px solid #6f42c1"}}>
+                      <a className="text-dark"  style={{fontWeight:"bold",color:"black"}} href="/consultation">Consultation</a>
   
                       <a href="/information-security-Special">
                       <i class="fas fa-caret-right"> </i>     Information Security-Specially Cyber Security Consulting
@@ -245,8 +245,8 @@ function Header({ show,setShow }) {
 
                     </Col>
 
-                  <Col style={{borderRight:"1px solid #6f42c1"}}>
-                  <a  style={{fontWeight:"bold"}} href="/auditing"> Auditing</a>
+                  <Col className="consultation" style={{borderRight:"1px solid #6f42c1"}}>
+                  <a className="text-dark" style={{fontWeight:"bold"}} href="/auditing"> Auditing</a>
                    <a  className="mt-3" href="/information-system">
                         <i class="fas fa-caret-right"> </i> Information System Audit
                       </a>
@@ -262,9 +262,9 @@ function Header({ show,setShow }) {
 
                   </Col>
 
-                  <Col style={{borderRight:"1px solid #6f42c1"}}>
+                  <Col className="consultation" style={{borderRight:"1px solid #6f42c1"}}>
                   
-                  <a  style={{fontWeight:"bold"}} href="/security-testing">Security Testing</a>
+                  <a className="text-dark" style={{fontWeight:"bold"}} href="/security-testing">Security Testing</a>
  
                 
                       <a className="mt-3"   href="/vulnerability-assessment">
@@ -288,8 +288,8 @@ function Header({ show,setShow }) {
 
                   </Col>
 
-                  <Col>
-                  <a  style={{fontWeight:"bold"}} href="/certification">Certification</a>
+                  <Col className="consultation">
+                  <a className="text-dark" style={{fontWeight:"bold"}} href="/certification">Certification</a>
                  
                       <a  className="mt-3" href="/pci-dss-payment">
                       <i class="fas fa-caret-right"> </i>     Payment Card Industry Data Security Standards

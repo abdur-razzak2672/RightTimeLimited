@@ -211,7 +211,7 @@ function Footer({ setShow, show }) {
 
                   <li className="mx-4"><a href="/">< img src="assets/images/footer/27001.png" width="130%" alt="" /></a></li> */}
 
-                    <img src="assets/images/footer/xyz.png" width="92%" alt="" />
+                    <img src="assets/images/footer/iso.png" width="92%" alt="" />
                 </ul>
                 <h6 className="mt-2 text-light mx-1">We are ISO 27001, 1400, 9001 Certified</h6>
               </div>
