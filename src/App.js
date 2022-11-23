@@ -8,7 +8,8 @@ import Header from "./components/Header";
 // Header Section Imported End
 
 // Dashboard Section Imported Start
-import Dashboard from "./dashboard/Dashboard";
+
+const Dashboard = React.lazy(() => import("./dashboard/Dashboard"));
 // Dashboard Section Imported End
 
 // About Section Imported Start
@@ -135,7 +136,7 @@ import Footer from "./components/Footer";
 import Blogs from "./views/blogs/Blogs";
 import BlogDetails from "./views/blogs/BlogDetails";
 
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import blogs from "./views/blogs/Blogs";
 
 function App() {
@@ -151,286 +152,260 @@ function App() {
 
   return (
     <Router>
-       <div className="custom-cursor__cursor"></div>
-  <div className="custom-cursor__cursor-two"></div>
-  <div className="preloader">
+      <div className="custom-cursor__cursor"></div>
+      <div className="custom-cursor__cursor-two"></div>
+      {/* <div className="preloader">
     <div className="preloader__circle"></div>
-  </div>
-  <div className="page-wrapper">
-  <div className="topbar">
-        <div className="container-fluid">
-          <p className="topbar__text">Welcome to Right Time Limited</p>
-          {
-            show === '1' ?
-              <img className="m-2" width = "30px" src = "assets/images/flag/bd.png" alt=""/>
-            
-            :show==='2'?
-              <img className="m-2" width = "30px" src = "assets/images/flag/usa.png" alt=""/>
-            :show==='3'?
-              <img className="m-2" width = "30px" src = "assets/images/flag/aus.png" alt=""/>
-              :<img className="m-2" width = "30px" src = "assets/images/flag/de.png" alt=""/>
-           
-          }
-         
+      </div> */}
+      <div className="page-wrapper">
+        <div className="topbar">
+          <div className="container-fluid">
+            <p className="topbar__text">Welcome to Right Time Limited</p>
+            {
+              show === '1' ?
+                <img className="m-2" width="30px" src="assets/images/flag/bd.png" alt="" />
 
-          <ul className="topbar__info"> 
-          <li><marquee>together we make the world happier</marquee></li>
+                : show === '2' ?
+                  <img className="m-2" width="30px" src="assets/images/flag/usa.png" alt="" />
+                  : show === '3' ?
+                    <img className="m-2" width="30px" src="assets/images/flag/aus.png" alt="" />
+                    : <img className="m-2" width="30px" src="assets/images/flag/de.png" alt="" />
 
-          {
-            show === '1' ?(
-            <>
-                <li>
-                <i className="fa fa-envelope"></i>
-                <a href="/">info@righttime.biz</a>
-              </li>
+            }
+
+
+            <ul className="topbar__info">
+              <li><marquee>together we make the world happier</marquee></li>
+
+              {
+                show === '1' ? (
+                  <>
+                    <li>
+                      <i className="fa fa-envelope"></i>
+                      <a href="/">info@righttime.biz</a>
+                    </li>
+                    <li>
+                      <i className="fa fa-map-marker"></i>
+                      Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar, Tejgaon
+                    </li>
+                  </>
+
+                )
+
+                  : show === '2' ?
+                    <>
+                      <li>
+                        <i className="fa fa-envelope"></i>
+                        <a href="mailto:info@righttime.biz">coo.usa@righttime.biz</a>
+                      </li>
+                      <li>
+                        <i className="fa fa-map-marker"></i>
+                        14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
+                      </li>
+                    </>
+                    : show === '3' ?
+                      <>
+                        <li>
+                          <i className="fa fa-envelope"></i>
+                          <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
+                        </li>
+                        <li>
+                          <i className="fa fa-map-marker"></i>
+                          11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
+                        </li>
+                      </>
+                      :
+                      <>
+                        <li>
+                          <i className="fa fa-envelope"></i>
+                          <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
+                        </li>
+                        <li>
+                          <i className="fa fa-map-marker"></i>
+                          Hausmann str-1.44139,Dortmund. Germany
+                        </li>
+                      </>
+
+
+              }
+
               <li>
-                <i className="fa fa-map-marker"></i>
-                Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar, Tejgaon
-              </li>
-            </>
-               
-            )
-          
-            :show==='2'?
-            <>
-                <li>
-                <i className="fa fa-envelope"></i>
-                <a href="mailto:info@righttime.biz">coo.usa@righttime.biz</a>
-            </li>
-            <li>
-                <i className="fa fa-map-marker"></i>
-                14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
-            </li>
-            </>
-            :show==='3'?
-              <>
-                  <li>
-                    <i className="fa fa-envelope"></i>
-                    <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
-                </li>
-                <li>
-                    <i className="fa fa-map-marker"></i>
-                    11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
-                </li>
-              </>
-            :
-            <>
-                <li>
-                    <i className="fa fa-envelope"></i>
-                    <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
-                </li>
-                <li>
-                    <i className="fa fa-map-marker"></i>
-                    Hausmann str-1.44139,Dortmund. Germany
-                </li>
-            </>
-            
-           
-          }
+                <div className="dropdown">
+                  <div className="dropbtn">
 
-            <li>
-              <div className="dropdown">
-                <div className="dropbtn">
-                  {/* Countrie
-                  <i
-                    className="fa fa-solid fa-square-caret-down"
-                    style={{ paddingTop: "10px" }}
-                  ></i> */}
+                  </div>
+
+                  <select className="topbar text-light"
+                    onChange={(event) => {
+                      setShow(event.target.value);
+                    }}
+                  >
+                    <option onClick={showCountry} value="1"><a href="/">Bangladesh</a></option>
+                    <option onClick={showCountry} value="2"><a href="/">USA</a></option>
+                    <option onClick={showCountry} value="3"><a href="/">Australia</a></option>
+                    <option onClick={showCountry} value="4"><a href="/">Germany</a></option>
+                  </select>
                 </div>
-                {/* <select className="dropdown-content">
-                  <option>USA</option>
-                  <a href="/">Australia</a>
-                  <a href="/">Germany</a>
-                </select> */}
-                    <select className="topbar text-light"
-                onChange={(event) => {
-                  setShow(event.target.value);
-                }}
-                >
-                <option onClick={showCountry} value="1"><a href="/">Bangladesh</a></option>
-                <option onClick={showCountry}value="2"><a href="/">USA</a></option>
-                <option onClick={showCountry}value="3"><a href="/">Australia</a></option>
-                <option onClick={showCountry} value="4"><a href="/">Germany</a></option>
-               </select>               
-              </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
+        <Header show={show} setShow={setShow} />
+        <div>
+
+
+          <CookieConsent
+            location="bottom"
+            buttonclassNamees="rounded-pill"
+
+            buttonText="Accepted Cookies"
+            cookieName="myAwesomeCookieName2"
+            style={{ background: "#2B373B" }}
+            buttonStyle={{ color: "#4e503b", fontSize: "13px", borderReidus: "60px", textAlign: "center", alignItem: "center", marginRight: "150px" }}
+            expires={350}
+
+          >
+            We use cookies to enhance your user experience. By continuing to browse, you hereby agree to the use of cookies. To know more; visit our <a href="/">Privacy Policy</a> & <a href="/">Cookies Policy.</a>
+          </CookieConsent>
+
+
+          {/*Dashboard Section Route Declaration start */}
+          <Route path="/" component={Dashboard} exact />
+          {/*Dashboard Section Route Declaration end */}
+
+          {/*AboutUs Section Route Declaration start */}
+          <Route path="/about-us" component={AboutUs} exact />
+          {/*AboutUs Section Route Declaration end */}
+
+          {/*Industries Section Route Declaration start */}
+          <Route path="/industries" component={IndustriesBody} exact />
+          <Route path="/bank-nbfi" component={BankNbfi} exact />
+          <Route path="/telecomunication" component={Telecomunication} exact />
+          <Route path="/payment-card" component={PaymentCard} exact />
+          <Route path="/educational-institutions" component={Educational} exact />
+          <Route path="/ecommerce-retail" component={EcommerceReatail} exact />
+          <Route path="/health-care" component={HealthCare} exact />
+          {/*Industries Section Route Declaration End */}
+
+          {/*PArtner Section Route Declaration Start */}
+          <Route path="/partners" component={PartnerBody} exact />
+          <Route path="/service-partners" component={ServicePartner} exact />
+          <Route path="/solution-partners" component={SolutionPartner} exact />
+          <Route path="/association-partners" component={Association} exact />
+          {/*Partner Section Route Declaration End */}
+
+          {/*Services Section Route Declaration Start */}
+          {/* Consultation */}
+          <Route path="/services" component={ServiceBody} exact />
+          <Route path="/consultation" component={ConsultationBody} exact />
+          <Route path="/consultation-on-shaping" component={ConsultationOnShaping} exact />
+          <Route path="/information-security-Special" component={InformationSecuritySpecial} exact />
+          <Route path="/project-management" component={ProjectManagement} exact />
+          <Route path="/providing-security" component={ProvidingSecurity} exact />
+          <Route path="/swift-cyber-security" component={SwiftCyberSecurity} exact />
+          <Route path="/technical-documentation" component={TechnicalDoccumentation} exact />
+          {/* Auditing */}
+          <Route path="/auditing" component={AuditingBody} exact />
+          <Route path="/dc-drs-auditing" component={DcDrsAuditing} exact />
+          <Route path="/information-security-graded" component={InformationSecurityGraded} exact />
+          <Route path="/information-technology" component={InformationTechnology} exact />
+          <Route path="/information-system" component={InformatonSystem} exact />
+          <Route path="/swift-csp" component={SwiftCsp} exact />
+          {/* Security Testing */}
+          <Route path="/security-testing" component={SecuirityTesting} exact />
+          <Route path="/code-review" component={CodeReview} exact />
+          <Route path="/digital-forensics" component={DigitalForensics} exact />
+          <Route path="/vulnerability-assessment" component={VulnerabilityAssesment} exact />
+          <Route path="/software-quality" component={SoftwareQuality} exact />
+          {/* Certification */}
+          <Route path="/certification" component={CertificationBody} exact />
+          <Route path="/cmmi" component={Cmmi} exact />
+          <Route path="/iso-international" component={IsoInternational} exact />
+          <Route path="/tia-for-data-center" component={TiaForDataCenter} exact />
+          <Route path="/pci-dss-payment" component={PciDssPayment} exact />
+          {/*Services Section Route Declaration End */}
+
+          {/* Managed Service Section Route Declaration Start*/}
+          <Route path="/managed-service" component={ManagedServiceBody} exact />
+          <Route path="/cloud-app" component={CloudeApp} exact />
+          <Route path="/dam-as-service" component={DamAsService} exact />
+          <Route path="/managed-nextgen" component={ManagedNextgen} exact />
+          <Route path="/mdr-as-service" component={MdrAsService} exact />
+          <Route path="/pm-as-service" component={PmAsService} exact />
+          <Route path="/pt-as-service" component={PtAsServices} exact />
+          <Route path="/soc-as-service" component={SocAsService} exact />
+          <Route path="/va-as-service" component={VaAsService} exact />
+
+
+
+
+
+          {/*Solution Section Route Declaration Start */}
+          <Route path="/solutions" component={SolutionBody} exact />
+          <Route path="/acunetix" component={Acunetix} exact />
+          <Route path="/bulk-sms" component={BulkSms} exact />
+          <Route path="/burp-suite" component={BurpSuite} exact />
+          <Route path="/core-impact" component={CoreImpact} exact />
+          <Route path="/firewall" component={FireWall} exact />
+          <Route path="/netsparker" component={NetSparker} exact />
+          <Route path="/siem" component={Siem} exact />
+          <Route path="/smart-contact" component={SmartContact} exact />
+          {/*Solution Section Route Declaration End */}
+
+          {/*Training Section Route Declaration Start */}
+          {/* Assessment */}
+          <Route path="/training" component={TrainingBody} exact />
+          <Route path="/assesment" component={AssessmentBody} exact />
+          <Route path="/certified-ethical-hacker" component={CertifiedEthicalHacker} exact />
+          <Route path="/certified-penetration" component={CertifiedPenetration} exact />
+          <Route path="/computer-hacking" component={ComputerHacking} exact />
+          <Route path="/giac-penetration" component={GiacPenetration} exact />
+          <Route path="/giac-web-application" component={GiacWebApplication} exact />
+          <Route path="/open-source" component={OpenSource} exact />
+          {/*Management */}
+          <Route path="/management" component={ManagementBody} exact />
+          <Route path="/certified-disaster" component={CertifiedDisaster} exact />
+          <Route path="/certified-incident-handler" component={CertifiedIncidentHandler} exact />
+          <Route path="/certified-information-system" component={CertifiedInformationSystem} exact />
+          <Route path="/certified-information-security" component={CertifiedInformationSecurity} exact />
+          <Route path="/certified-information-system-security" component={CertifiedInformationSystemSecurity} exact />
+          <Route path="/certified-soc-analyst" component={CertifiedSocAnalyst} exact />
+          <Route path="/certified-threat" component={CertifiedThreat} exact />
+          <Route path="/giac-certified-project" component={GiacCertifiedProject} exact />
+          {/*Customized */}
+          <Route path="/customized" component={CustomizedBody} exact />
+          <Route path="/advance-corporate" component={AdvanceCorporate} exact />
+          <Route path="/basic-corporate" component={BasisCorporate} exact />
+          <Route path="/intermidiate-corporate" component={IntermidiateCorporate} exact />
+          <Route path="/one-to-one-training" component={OneToOneTraining} exact />
+          {/*Trainig Section Route Declaration End */}
+
+          {/*Careers Section Route Declaration start */}
+          <Route path="/careers" component={CareersBody} exact />
+          <Route path="/view-job" component={ViewJob} exact />
+          <Route path="/contact" component={StartProject} exact />
+
+          {/*Careers Section Route Declaration End */}
+
+          {/*Contact Section Route Declaration start */}
+          <Route path="/contact-us" component={ContactUs} exact />
+          {/*Contact Section Route Declaration End */}
+
+          {/*Blog Section Route Declaration start */}
+          <Route path="/blogs" component={blogs} exact />
+          <Route path="/blog-details" component={BlogDetails} exact />
+
+
+
+        </div>
+        {/* Footer Section Route Declaration */}
+        <Footer show={show} setShow={setShow} />
+        <a href="javascript:void(0);" data-target="html" className="scroll-to-target scroll-to-top">
+          <i className="fa fa-angle-up"></i>
+        </a>
       </div>
-  <Header show = {show} setShow={setShow}/>
-      <div>
-{/* 
-      <div>
-    <CookieBanner
-    className="react-cookie-law-accept-selection-btn"
-    styles={{
-      dialog: { backgroundColor: 'gray',height:"30vh", margin:"100px 500px" },
-      button:{color:"white",backgroundColor:"blue",padding:"2px", width:"120px",borderRadius:"5px",marginRight:"20px"},
-      optionLabel:{color:"black",paddingLeft:"20px",marginTop:"-100px"}
-      // container:{margin:"100px"}
-     }}
-      message=" We use cookies to enhance your user experience. By continuing to browse, you hereby agree to the use of cookies."
-      onAcceptPreferences = {() => { 
-       }}
-      onAcceptStatistics = {() => {
-        }}
-      onAcceptMarketing = {() => {
-       }}
-    />
-  </div> */}
-
-         <CookieConsent
-          location="bottom"
-          buttonclassNamees="rounded-pill"
-          
-          buttonText="Accepted Cookies"
-          cookieName="myAwesomeCookieName2"
-          style={{ background: "#2B373B" }}
-          buttonStyle={{ color: "#4e503b", fontSize: "13px",borderReidus:"60px", textAlign: "center", alignItem:"center" ,marginRight:"150px" }}
-          expires={350}
-
-        >
-         We use cookies to enhance your user experience. By continuing to browse, you hereby agree to the use of cookies. To know more; visit our <a href="/">Privacy Policy</a> & <a href="/">Cookies Policy.</a>  
-        </CookieConsent>  
-     
-
-        {/*Dashboard Section Route Declaration start */}
-        <Route path="/" component={Dashboard} exact />
-        {/*Dashboard Section Route Declaration end */}
-
-        {/*AboutUs Section Route Declaration start */}
-        <Route path="/about-us" component={AboutUs} exact />
-         {/*AboutUs Section Route Declaration end */}
-
-        {/*Industries Section Route Declaration start */}
-        <Route path="/industries" component={IndustriesBody} exact />
-        <Route path="/bank-nbfi" component={BankNbfi} exact />
-        <Route path="/telecomunication" component={Telecomunication} exact />
-        <Route path="/payment-card" component={PaymentCard} exact />
-        <Route path="/educational-institutions" component={Educational} exact />
-        <Route path="/ecommerce-retail" component={EcommerceReatail} exact />
-        <Route path="/health-care" component={HealthCare} exact />
-        {/*Industries Section Route Declaration End */}
-
-        {/*PArtner Section Route Declaration Start */}
-        <Route path="/partners" component={PartnerBody} exact />
-        <Route path="/service-partners" component={ServicePartner} exact />
-        <Route path="/solution-partners" component={SolutionPartner} exact />
-        <Route path="/association-partners" component={Association} exact />
-         {/*Partner Section Route Declaration End */}
-
-        {/*Services Section Route Declaration Start */}
-        {/* Consultation */}
-        <Route path="/services" component={ServiceBody} exact />
-        <Route path="/consultation" component={ConsultationBody} exact />
-        <Route path="/consultation-on-shaping" component={ConsultationOnShaping} exact />
-        <Route path="/information-security-Special" component={InformationSecuritySpecial} exact />
-        <Route path="/project-management" component={ProjectManagement} exact />
-        <Route path="/providing-security" component={ProvidingSecurity} exact />
-        <Route path="/swift-cyber-security" component={SwiftCyberSecurity} exact />
-        <Route path="/technical-documentation" component={TechnicalDoccumentation} exact />
-         {/* Auditing */}
-        <Route path="/auditing" component={AuditingBody} exact />
-        <Route path="/dc-drs-auditing" component={DcDrsAuditing} exact />
-        <Route path="/information-security-graded" component={InformationSecurityGraded} exact />
-        <Route path="/information-technology" component={InformationTechnology} exact />
-        <Route path="/information-system" component={InformatonSystem} exact />
-        <Route path="/swift-csp" component={SwiftCsp} exact />
-        {/* Security Testing */}
-        <Route path="/security-testing" component={SecuirityTesting} exact />
-        <Route path="/code-review" component={CodeReview} exact />
-        <Route path="/digital-forensics" component={DigitalForensics} exact />
-        <Route path="/vulnerability-assessment" component={VulnerabilityAssesment} exact />
-        <Route path="/software-quality" component={SoftwareQuality} exact />
-        {/* Certification */}
-        <Route path="/certification" component={CertificationBody} exact />
-        <Route path="/cmmi" component={Cmmi} exact />
-        <Route path="/iso-international" component={IsoInternational} exact />
-        <Route path="/tia-for-data-center" component={TiaForDataCenter} exact />
-        <Route path="/pci-dss-payment" component={PciDssPayment} exact />
-        {/*Services Section Route Declaration End */}
-
-        {/* Managed Service Section Route Declaration Start*/}
-        <Route path="/managed-service" component={ManagedServiceBody} exact />
-        <Route path="/cloud-app" component={CloudeApp} exact />
-        <Route path="/dam-as-service" component={DamAsService} exact />
-        <Route path="/managed-nextgen" component={ManagedNextgen} exact />
-         <Route path="/mdr-as-service" component={MdrAsService} exact />
-        <Route path="/pm-as-service" component={PmAsService} exact />
-        <Route path="/pt-as-service" component={PtAsServices} exact />
-        <Route path="/soc-as-service" component={SocAsService} exact />
-        <Route path="/va-as-service" component={VaAsService} exact />
 
 
-
-
-
-        {/*Solution Section Route Declaration Start */}
-        <Route path="/solutions" component={SolutionBody} exact />
-        <Route path="/acunetix" component={Acunetix} exact />
-        <Route path="/bulk-sms" component={BulkSms} exact />
-        <Route path="/burp-suite" component={BurpSuite} exact />
-        <Route path="/core-impact" component={CoreImpact} exact />
-        <Route path="/firewall" component={FireWall} exact />
-        <Route path="/netsparker" component={NetSparker} exact />
-        <Route path="/siem" component={Siem} exact />
-        <Route path="/smart-contact" component={SmartContact} exact />
-        {/*Solution Section Route Declaration End */}
-
-        {/*Training Section Route Declaration Start */}
-        {/* Assessment */}
-        <Route path="/training" component={TrainingBody} exact />
-        <Route path="/assesment" component={AssessmentBody} exact />
-        <Route path="/certified-ethical-hacker" component={CertifiedEthicalHacker} exact />
-        <Route path="/certified-penetration" component={CertifiedPenetration} exact />
-        <Route path="/computer-hacking" component={ComputerHacking} exact />
-        <Route path="/giac-penetration" component={GiacPenetration} exact />
-        <Route path="/giac-web-application" component={GiacWebApplication} exact />
-        <Route path="/open-source" component={OpenSource} exact />
-        {/*Management */}
-        <Route path="/management" component={ManagementBody} exact />
-        <Route path="/certified-disaster" component={CertifiedDisaster} exact />
-        <Route path="/certified-incident-handler" component={CertifiedIncidentHandler} exact />
-        <Route path="/certified-information-system" component={CertifiedInformationSystem} exact />
-        <Route path="/certified-information-security" component={CertifiedInformationSecurity} exact />
-        <Route path="/certified-information-system-security" component={CertifiedInformationSystemSecurity} exact />
-        <Route path="/certified-soc-analyst" component={CertifiedSocAnalyst} exact />
-        <Route path="/certified-threat" component={CertifiedThreat} exact />
-        <Route path="/giac-certified-project" component={GiacCertifiedProject} exact />
-        {/*Customized */}
-        <Route path="/customized" component={CustomizedBody} exact />
-        <Route path="/advance-corporate" component={AdvanceCorporate} exact />
-        <Route path="/basic-corporate" component={BasisCorporate} exact />
-        <Route path="/intermidiate-corporate" component={IntermidiateCorporate} exact />
-        <Route path="/one-to-one-training" component={OneToOneTraining} exact />
-        {/*Trainig Section Route Declaration End */}
-
-        {/*Careers Section Route Declaration start */}
-        <Route path="/careers" component={CareersBody} exact />
-        <Route path="/view-job" component={ViewJob} exact />
-        <Route path="/contact" component={StartProject} exact />
-
-        {/*Careers Section Route Declaration End */}
-
-        {/*Contact Section Route Declaration start */}
-        <Route path="/contact-us" component={ContactUs} exact />
-        {/*Contact Section Route Declaration End */}
-
-        {/*Blog Section Route Declaration start */}
-        <Route path="/blogs" component={blogs} exact />
-        <Route path="/blog-details" component={BlogDetails} exact />
-
-      
-
-      </div>
-      {/* Footer Section Route Declaration */}
-       <Footer show = {show} setShow={setShow}/>
-<a href="javascript:void(0);" data-target="html" className="scroll-to-target scroll-to-top">
-        <i className="fa fa-angle-up"></i>
-      </a>
-  </div>
-      
-      
     </Router>
   );
 }
