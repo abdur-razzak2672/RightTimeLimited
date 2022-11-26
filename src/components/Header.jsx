@@ -222,9 +222,9 @@ function Header({ show,setShow }) {
                 <Container className="mt-4">
                   <Row>
                     <Col className="consultation" style={{borderRight:"1px solid #6f42c1"}}>
-                      <a className="text-dark"  style={{fontWeight:"bold",color:"black"}} href="/consultation">Consultation</a>
+                      <a style={{fontWeight:"bold",color:""}} href="/consultation">Consultation</a>
   
-                      <a href="/information-security-Special">
+                      <a className="mt-3" href="/information-security-Special">
                       <i class="fas fa-caret-right"> </i>     Information Security-Specially Cyber Security Consulting
                       </a>
                       <a className="mt-3" href="/project-management">
@@ -541,15 +541,15 @@ function Header({ show,setShow }) {
                 <Container className="mt-4">
                   <Row>
                     <Col style={{borderRight:"1px solid #6f42c1"}}>
-                    <a  style={{fontWeight:"bold"}} href="/service-partners">Security Assessment (VA & Tools)</a>
+                    <a  style={{fontWeight:"bold"}} href="/siem">Security Assessment (VA & Tools)</a>
  
-                      <a className="mt-3" href="https://www.eccouncil.org/">Burp Suite</a>
+                      <a className="mt-3" href="/burp-suite">Burp Suite</a>
                  
-                      <a className="mt-3"  href="https://home.pearsonvue.com/">Acunetix</a>
+                      <a className="mt-3"  href="/acunetix">Acunetix</a>
                     
-                      <a className="mt-3"  href="https://pecb.com/en">Tenable (multiple solutions)</a>
+                      <a className="mt-3"  href="/netsparker">Tenable (multiple solutions)</a>
                    
-                      <a className="mt-3"  href="https://arscert.com/certification/">Core Impact</a>
+                      <a className="mt-3"  href="/core-impact">Core Impact</a>
                    
                     
 
@@ -560,23 +560,23 @@ function Header({ show,setShow }) {
                   <Col>
                   <a  style={{fontWeight:"bold"}} href="/association-partners">Cyber Security Visibility & management Solutions</a>
                  
-                  <a className="mt-3"  href="http://cca.gov.bd/site/office_head/5891f732-8e0f-40b0-9f85-1cb867657bfd/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4">
+                  <a className="mt-3"  href="/siem">
                   SIEM
                       </a>
                     
-                      <a className="mt-3"  href="https://www.pcisecuritystandards.org/">
+                      <a className="mt-3"  href="/firewall">
                       Firewall
                       </a>
                   
-                      <a className="mt-3"  href="https://www.worldbank.org/en/home">
+                      <a className="mt-3"  href="/smart-contact">
                       Log Management
                       </a>
                
-                      <a className="mt-3"  href="https://www.swift.com/">Patch management </a>
+                      <a className="mt-3"  href="/smart-contact">Patch management </a>
                 
-                      <a className="mt-3"  href="https://basis.org.bd/">Smart Contact</a>
+                      <a className="mt-3"  href="/smart-contact">Smart Contact</a>
                   
-                      <a className="mt-3"  href="https://e-cab.net/">BULK SMS</a>
+                      <a className="mt-3"  href="/bulk-sms">BULK SMS</a>
                   </Col>
                 </Row>
               </Container>
