@@ -362,7 +362,10 @@ function App() {
         <Route path="/va-as-service" component={VaAsService} exact />
 
 
-      {/*Solution Section Route Declaration Start */}
+
+
+
+        {/*Solution Section Route Declaration Start */}
         <Route path="/solutions" component={SolutionBody} exact />
         <Route path="/acunetix" component={Acunetix} exact />
         <Route path="/bulk-sms" component={BulkSms} exact />
@@ -372,13 +375,10 @@ function App() {
         <Route path="/netsparker" component={NetSparker} exact />
         <Route path="/siem" component={Siem} exact />
         <Route path="/smart-contact" component={SmartContact} exact />
-
-
         {/*Solution Section Route Declaration End */}
+
         {/*Training Section Route Declaration Start */}
         {/* Assessment */}
- 
- 
         <Route path="/training" component={TrainingBody} exact />
         <Route path="/assesment" component={AssessmentBody} exact />
         <Route path="/certified-ethical-hacker" component={CertifiedEthicalHacker} exact />
