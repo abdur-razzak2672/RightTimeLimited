@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import CookieConsent from "react-cookie-consent";
-import { CookieBanner } from '@keepist/react-gdpr-cookie-banner';
-
+ 
 // Header Section Imported Start
 import Header from "./components/Header";
 // Header Section Imported End
@@ -132,8 +131,7 @@ import Footer from "./components/Footer";
 //Footer Section Imported End
 
 // blog Section Imported Start
-import Blogs from "./views/blogs/Blogs";
-import BlogDetails from "./views/blogs/BlogDetails";
+ import BlogDetails from "./views/blogs/BlogDetails";
 
 import React,{useState} from 'react'
 import blogs from "./views/blogs/Blogs";
@@ -151,7 +149,7 @@ function App() {
 
   return (
     <Router>
-       <div className="custom-cursor__cursor"></div>
+   <div className="custom-cursor__cursor"></div>
   <div className="custom-cursor__cursor-two"></div>
   <div className="preloader">
     <div className="preloader__circle"></div>

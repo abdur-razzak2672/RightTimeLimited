@@ -7,6 +7,7 @@
    width: 100%;
   height: 250px;
   z-index: 1;
+
  }
 
  @media screen and (max-width: 580px) {
@@ -20,31 +21,30 @@
 #card2,
 #card3 {
   width: 90%;
-  height: 100%;
-   background-color: #e0dedc;
+  height: 200px;
+   background-color: #fffcf9;
    transform-style: preserve-3d;
-  transition: all 0.8s linear;
+   transition: all 0.8s linear;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #card:hover {
   transform: rotateY(180deg);
   box-shadow: -5px 5px 15px rgba(204, 164, 104, 0.3);
-  background-color: #ec483b;
+  background-color: #b90a0a;
 }
 
 #card2:hover {
   transform: rotateY(-180deg);
   box-shadow: -5px 5px 15px rgba(204, 164, 104, 0.3);
-  background-color: #ec483b;
+  background-color: #b90a0a;
 
 }
 
 #card3:hover {
   transform: rotateX(180deg);
-  box-shadow: -5px 5px 15px rgba(204, 164, 104, 0.3);
-  background-color: #ec483b;
-
+   background-color: #b90a0a;
+ 
 }
 #card3 .back {
   transform: rotateX(-180deg);
@@ -64,11 +64,11 @@
   padding: 10px;
   text-align: center;
   opacity: 0.7;
-  background: #f9f3e4;
+  background: #f7f5f3;
 }
 
 .date {
-  color: #d0b2af;
+  color: #79130a;
 }
 
 
@@ -92,7 +92,7 @@
 .uk-card-default.uk-card-hover:hover {
   background: linear-gradient(to bottom, #f5f5f5 0%, #ececec 100%) !important;
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1) !important;
-  border-top: 5px solid #ec483b;
+  border-top: 5px solid #990a00;
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
@@ -137,7 +137,7 @@
 /* Card Icon Hover */
 .uk-card-default.uk-card-hover:hover span.hover {
   display: inherit;
-  color: #ec483b;
+  color: #a2150b;
 }
 
 .uk-card-default.uk-card-hover:hover span.default {
