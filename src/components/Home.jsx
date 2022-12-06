@@ -1,6 +1,5 @@
 import React from "react";
-import "./assets/vendors/owl-carousel/assets/owl.carousel.min.css";
-function Home() {
+ function Home() {
   return (
     <div >
       <div className="slider-one">

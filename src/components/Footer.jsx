@@ -213,7 +213,7 @@ function Footer({ setShow, show }) {
 
                     <img src="assets/images/footer/iso.png" width="92%" alt="" />
                 </ul>
-                <h6 className="mt-2 text-light mx-1">We are ISO 27001, 1400, 9001 Certified</h6>
+                <h6 style={{fontSize:"10px"}}  className="mt-2  text-light mx-1">WE ARE ISO 27001,ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
               </div>
             </div>
 
