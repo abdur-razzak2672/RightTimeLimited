@@ -76,8 +76,9 @@ function About() {
                     </div>
                   </div>
                   <a
+                  style={{width:"200px"}}
                     href="https://www.linkedin.com/in/mohammad-tohidur-rahman-bhuiyan-a8805a6/"
-                    className="thm-btn about-four__btn"
+                    className="thm-btn about-four__btn "
                   >
                     <span>Learn More</span>
                   </a>

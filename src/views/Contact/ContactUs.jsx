@@ -1,10 +1,9 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import Modal from 'react-bootstrap/Modal';
-import Col from 'react-bootstrap/Col';
+ import Form from 'react-bootstrap/Form';
+ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import './contact.css'
+import { countryList } from './data';
 function ContactUs() {
   return (
     <div>
@@ -860,20 +859,46 @@ function ContactUs() {
           </Row>
 
           <Row className="">
+
                                                 
-            <Form.Group as={Col} controlId="formGridPassword">
-            <Form.Label >Phone No</Form.Label>
-            <Form.Control type="text" placeholder="Enter Phone No" />
-            </Form.Group>
+              <Form.Group className="mb-1 " controlId="formGridAddress1">
+          <Form.Label className ="">Phone Number</Form.Label>
+            <span className="d-flex">
+                <Form.Select style={{width:"130px"}} defaultValue="Choose...">
+                    <option>code</option>
+                     {countryList.map((country, key) => (
+                    <option key={key} title="" value={country.mobileCode}>
+                        {country.mobileCode}
+                    </option>
+                    ))}
+
+                </Form.Select>
+                  <Form.Control style={{marginLeft:"10px"}}   type = "text" placeholder="phone" />
+
+            </span>
+        </Form.Group>
+
+
             <Form.Group as={Col} controlId="formGridEmail">
             <Form.Label >Company</Form.Label>
             <Form.Control type="text" placeholder="Enter Company Name" />
             </Form.Group>
-          </Row>
-          <Form.Group as={Col} controlId="formGridPassword">
+
+
+            <Form.Group as={Col} controlId="formGridPassword">
             <Form.Label >Country</Form.Label>
-            <Form.Control type="text" placeholder="Enter County Name" />
+            <Form.Select   defaultValue="Choose...">
+                    <option>Select Country </option>
+                    {countryList.map((country, key) => (
+                    <option key={key} title="" value={country.name}>
+                        {country.name}
+                    </option>
+                    ))}
+                </Form.Select>
           </Form.Group>
+          </Row>
+
+         
           <Form.Group className="mt-3" as={Col} controlId="formGridEmail">
             <Form.Select aria-label="Default select example">
               <option>How Did You About Us ?</option>

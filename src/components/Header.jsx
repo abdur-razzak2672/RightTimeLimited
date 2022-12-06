@@ -701,7 +701,7 @@ function Header({ show,setShow }) {
                 <Container className="mt-4">
                   <Row>
                     <Col style={{borderRight:"1px solid #6f42c1"}}>
-                      <a  style={{fontWeight:"bold"}} href="/assesment">Assesment</a>
+                      <a  style={{fontWeight:"bold"}} href="/assesment">Assessment</a>
 
                       <a className="mt-3"  href="/certified-ethical-hacker">
                         Certified Ethical Hacker (CEH)
@@ -709,6 +709,10 @@ function Header({ show,setShow }) {
                      
                       <a className="mt-3"  href="/certified-penetration">
                         Certified Penetration Testing Professional(CPENT)
+                      </a>
+
+                      <a  className="mt-2" href="/certified-information-system">
+                        Certified Information Systems Auditor(CISA)
                       </a>
                     
                       <a className="mt-3"  href="/computer-hacking">
@@ -747,9 +751,7 @@ function Header({ show,setShow }) {
                         Certified Threat Intelligence Analyst(CTIA)
                       </a>
                    
-                      <a  className="mt-2" href="/certified-information-system">
-                        Certified Information Systems Auditor(CISA)
-                      </a>
+                     
                     
                       <a  className="mt-2" href="/certified-information-security">
                         Certified Information Security Manager(CISM)
@@ -808,7 +810,7 @@ function Header({ show,setShow }) {
               <a href="/training">Training</a>
               <ul>
                 <li className="menu-item-has-children">
-                  <a href="/assessment">
+                  <a href="/assesment">
                     Assessment
                   </a>
                   <ul>
@@ -820,6 +822,11 @@ function Header({ show,setShow }) {
                     <li>
                       <a href="/certified-penetration">
                         Certified Penetration Testing Professional(CPENT)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/certified-information-system">
+                        Certified Information Systems Auditor(CISA)
                       </a>
                     </li>
                     <li>
@@ -870,11 +877,7 @@ function Header({ show,setShow }) {
                         Certified Threat Intelligence Analyst(CTIA)
                       </a>
                     </li>
-                    <li>
-                      <a href="/certified-information-system">
-                        Certified Information Systems Auditor(CISA)
-                      </a>
-                    </li>
+                    
                     <li>
                       <a href="/certified-information-security">
                         Certified Information Security Manager(CISM)
