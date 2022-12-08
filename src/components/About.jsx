@@ -58,14 +58,14 @@ function About() {
                     <div className="about-four__author__content">
                       <p style={{ lineHeight: "13px", fontSize: "13px" }}>
                         {" "}
-                        <i>
+                      
                           We are already living in a cyber society. We shouldn’t
                           ask our customers to make a tradeoff between privacy
                           and security. We need to offer them the best of both.
                           Ultimately, protecting customer’s data protects our
                           business.We are working together to protect your
                           business.
-                        </i>
+                         
                       </p>
                       <h3 className="about-four__author__title">
                         Mohammad Tohidur Rahman Bhuiyan, PhD

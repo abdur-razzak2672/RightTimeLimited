@@ -444,4 +444,18 @@
         }
         });
         });
- 
+
+		
+
+		$('.steps-sampling').on('click','a', function(){
+			$(this).addClass('active').siblings().removeClass('active');
+		 });
+		 
+		 //on first time load set the home menu item active
+		 $(".steps-sampling a#link1").addClass("active");
+		 
+		 //on click remove active class from all li's and add it to the clicked li
+		 $("a").click(function(){
+			$("a").removeClass("active");
+			 $(this).addClass("active");
+		 });
