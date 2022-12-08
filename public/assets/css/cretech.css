@@ -811,7 +811,7 @@ a:visited {
 .topbar__text {
   margin: 0;
   font-size: 13px;
-  font-weight: 500;
+   font-weight: 500;
   color: var(--cretech-text-light, #a39eae);
 }
 
@@ -1106,9 +1106,10 @@ a:visited {
   padding: 0;
   list-style: none;
   border-radius: 15px;
+  color: #ffff;
   position: absolute;
   min-width: 220px;
-  background-image: linear-gradient(55deg, var(--cretech-secondary, #9c2ede) 0%, var(--cretech-primary, #f99d1c) 100%);
+  background-color: #12062c;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 500ms ease;
@@ -1140,7 +1141,7 @@ a:visited {
 
 .main-menu__list>li>ul>li>a {
   text-transform: uppercase;
-  color: black;
+  color: #ffff;
   font-weight: 500;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -1151,7 +1152,8 @@ a:visited {
 }
 
 .main-menu__list>li>ul>li>a:hover {
-  color: #fff;
+  color: #313a4c;
+  
 }
 
 .main-menu__list>li>ul>li>ul {
@@ -3020,7 +3022,7 @@ a{
 
 @media (min-width: 1200px) {
   .slider-one__title {
-    font-size: 84px;
+    font-size: 50px;
   }
 }
 
@@ -8770,3 +8772,9 @@ button {
   
 }
 
+
+
+.active {
+  color: orange !important;
+  font-weight:bold;
+}
