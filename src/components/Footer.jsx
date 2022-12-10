@@ -194,27 +194,26 @@ function Footer({ setShow, show }) {
                 <h3 className="footer-widget__title">People Presence</h3>
                 <ul className="footer-widget__contact">
                   <li>
-                    <a onClick={() => setShow("1")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }} className="m-2  " width="40%" src="assets/images/flag/bd.png" alt="" /></a>
-                    <a onClick={() => setShow("4")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }} className="m-2  " width="40%" src="assets/images/flag/de.png" alt="" /></a>
+                    <a onClick={() => setShow("1")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }}   width="47%" src="assets/images/flag/bd.png" alt="" /></a>
+                    <a onClick={() => setShow("4")} href="javascript:void(0)"><img style={{ border: "1px solid gray",marginLeft:"15px" }} width="47%" src="assets/images/flag/de.png" alt="" /></a>
 
                   </li>
 
-                  <li>
-                    <a onClick={() => setShow("2")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }} className="m-2  " width="40%" src="assets/images/flag/usa.png" alt="" /></a>
-                    <a onClick={() => setShow("3")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }} className="m-2  " width="40%" src="assets/images/flag/aus.png" alt="" /></a>
+                  <li className="mt-2">
+                    <a onClick={() => setShow("2")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }}  width="47%" src="assets/images/flag/usa.png" alt="" /></a>
+                    <a onClick={() => setShow("3")} href="javascript:void(0)"><img style={{ border: "1px solid gray" ,marginLeft:"15px"}}  width="47%" src="assets/images/flag/aus.png" alt="" /></a>
+
+                  </li>
+
+                  <li className="mt-2">
+                  <img src="assets/images/footer/iso.png" width="100%" alt="" />
+                  <h6 style={{fontSize:"10px"}}  className="mt-2 text-light">WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
+
 
                   </li>
                 </ul>
-                <ul className="footer-widget__social mx-2 mt-2 ">
-                  {/* <li className="mx-4"><a href="/">< img src="assets/images/footer/9001.png" width="130%" alt="" /></a></li>
-                  <li className="mx-4"><a href="/">< img src="assets/images/footer/14001.png" width="130%" alt="" /></a></li>
-
-                  <li className="mx-4"><a href="/">< img src="assets/images/footer/27001.png" width="130%" alt="" /></a></li> */}
-
-                    <img src="assets/images/footer/iso.png" width="92%" alt="" />
-                </ul>
-                <h6 style={{fontSize:"10px"}}  className="mt-2  text-light mx-1">WE ARE ISO 27001,ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
-              </div>
+           
+               </div>
             </div>
 
 

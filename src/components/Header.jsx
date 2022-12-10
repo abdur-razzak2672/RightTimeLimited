@@ -25,7 +25,7 @@ function Header({ show,setShow }) {
           <ul className="main-menu__list steps-sampling">
 
           <li className="menu-item-has-children">
-            <a id="link1" className="active" href="/">Company</a>  
+            <a id="link1" href="/">Company</a>  
               <ul>
                 <li>
                   <Link to="/about-us">About Us</Link>
@@ -52,21 +52,21 @@ function Header({ show,setShow }) {
               <Link to="/industries">Industries</Link>
               <ul>
                 <li>
-                  <Link to="/bank-nbfi">FIs Bank & NBFI</Link>
+                  <Link to="/bank-nbfi">FIs - Bank & NBFI</Link>
                 </li>
                 <li>
                   <Link to="/telecomunication">
-                    Telecommunications
+                  Mobile & Telecommunications
                   </Link>
                 </li>
                 <li>
                   <Link to="payment-card">
-                    Payment Card Industry
+                  Payment Gateways and Payment Processor
                   </Link>
                 </li>
                 <li>
                   <Link to="/educational-institutions">
-                    Educational Institutions
+                  Educational Institutions
                   </Link>
                 </li>
                 <li>
@@ -75,11 +75,19 @@ function Header({ show,setShow }) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/health-care">ITES Corporates</Link>
+                  <Link to="/ecommerce-retail">
+                  Insurance
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/ecommerce-retail">
+                  IT and BPO Services
+                  </Link>
                 </li>
                 <li>
                   <Link to="/health-care">Health Care</Link>
                 </li>
+                
               </ul>
             </li>
 
@@ -96,16 +104,16 @@ function Header({ show,setShow }) {
                       <a style={{fontWeight:"bold",color:"orange"}} href="/consultation">Consultation</a>
   
                       <a className="mt-3" href="/information-security-Special">
-                      <i className="fas fa-caret-right"> </i>Information Security & Cyber Security Consulting
+                      <i className="fas fa-caret-right"> </i> Information Security & Cyber Security Consulting
                       </a>
                       <a className="mt-3" href="/consultation-on-shaping">
-                      <i className="fas fa-caret-right"> </i>Consultation on Shaping up DC & DRS
+                      <i className="fas fa-caret-right"> </i> Consultation on Shaping up DC & DRS
                       </a>
                       <a className="mt-3" href="/swift-cyber-security">
-                      <i className="fas fa-caret-right"> </i>     Swift Cyber Security Consulting
+                      <i className="fas fa-caret-right"> </i> Swift Cyber Security Consulting
                       </a>
                       <a  className="mt-3" href="/providing-security">
-                      <i className="fas fa-caret-right"> </i>Technical Documentation On ITES
+                      <i className="fas fa-caret-right"> </i> Technical Documentation On ITES
                       </a>
                       
                     </Col>
@@ -153,7 +161,7 @@ function Header({ show,setShow }) {
 
                   </Col>
 
-                  <Col className="consultation"  style={{borderRight:"1px solid #6f42c1"}}>
+                  <Col lg={3} className="consultation"  style={{borderRight:"1px solid #6f42c1"}}>
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/certification">Certification</a>
                  
                       <a  className="mt-3" href="/pci-dss-payment">
@@ -161,11 +169,11 @@ function Header({ show,setShow }) {
                       </a>
                    
                       <a  className="mt-3" href="/iso-international">
-                      <i className="fas fa-caret-right"> </i>ISO 27001, ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001, ISO 14001 etc.
+                      <i className="fas fa-caret-right"> </i> ISO 27001, ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001, ISO 14001 etc.
                       </a>
                  
                       <a className="mt-3"  href="/cmmi">
-                      <i className="fas fa-caret-right"> </i>CMMI (Capability Maturity Model Integration)
+                      <i className="fas fa-caret-right"> </i> CMMI (Capability Maturity Model Integration)
 
                       </a>
 
@@ -186,15 +194,15 @@ function Header({ show,setShow }) {
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/managed-service">Managed Services</a>
                  
                       <a  className="mt-3" href="/pci-dss-payment">
-                      <i className="fas fa-caret-right"> </i>SOC as A Service
+                      <i className="fas fa-caret-right"> </i> SOC as A Service
                       </a>
                    
                       <a  className="mt-3" href="/iso-international">
-                      <i className="fas fa-caret-right"> </i>Cloud App Monitoring as A Service
+                      <i className="fas fa-caret-right"> </i> Cloud App Monitoring as A Service
                       </a>
                  
                       <a className="mt-3"  href="/cmmi">
-                      <i className="fas fa-caret-right"> </i>MDR as A Service (Managed End Point Detection and Response)
+                      <i className="fas fa-caret-right"> </i> MDR as A Service (Managed End Point Detection and Response)
 
                       </a>
 
@@ -203,7 +211,7 @@ function Header({ show,setShow }) {
                       </a>
 
                       <a  className="mt-3" href="/tia-for-data-center">
-                      <i className="fas fa-caret-right"> </i>Vulnerability Assessment (VA) As A Service 
+                      <i className="fas fa-caret-right"> </i> Vulnerability Assessment (VA) As A Service 
 
                       </a>
 
@@ -458,7 +466,7 @@ function Header({ show,setShow }) {
  
             <li className="dropdown serviceNav2 steps-sampling">
               <Link to="/training" className="dropbtn1z">Training</Link>
-              <div style={{left:"-380px",minWidth:"1000px",height:"580px"}} className=" dropdown-content">
+              <div style={{left:"-380px",minWidth:"1000px",height:"530px"}} className=" dropdown-content">
                 <Container className="mt-4">
                   <Row>
                     <Col style={{borderRight:"1px solid #6f42c1"}}>
@@ -580,12 +588,9 @@ function Header({ show,setShow }) {
                       <i className="fas fa-caret-right "> </i> Certified Disaster 
 
                       </a>
-                  
-                       
-
+ 
                   </Col>
-
-                  
+   
                 </Row>
               </Container>
                     
@@ -742,7 +747,7 @@ function Header({ show,setShow }) {
 
                     </Col>
 
-                  <Col style={{borderRight:"1px solid #6f42c1"}}>
+                  <Col>
                   
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/solution-partners">Solution Partner</a>
                    <a className="mt-3"  href="https://www.invicti.com/">INVICTI</a>
