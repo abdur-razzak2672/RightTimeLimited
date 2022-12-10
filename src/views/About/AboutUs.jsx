@@ -51,7 +51,7 @@ function AboutUs() {
                   ISO Consultation & Certification, SWIFT Consultation &
                   Auditing, PCI DSS Gap Assessment, Remediation Consultation,
                   Auditing & Certification. Conducting Security Assessment e.g.
-                  VA & PT, Forensic (with the use of multiple world class
+                  VA & PT, Forensic (with the use of multiple world className
                   Automated & Manual tools). As the first empaneled Security
                   Assessor firm we are serving for more than 13 years..
                 </div>
@@ -83,7 +83,7 @@ function AboutUs() {
                         Chairman
                       </strong>
                     </h2>
-                    <div className="mc-content">
+                    <div className="mc-content" style={{height:"320px"}} >
                       <div className="img-container">
                       <img
                          className = "img-responsive"
@@ -92,16 +92,16 @@ function AboutUs() {
                         />
                         
                        </div>
-                      <div className="mc-description">Chairman of the company.</div>
+                      <div className="mc-description mt-3">Chairman of the company.</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
                     </a>
                     <div className="mc-footer">
-                      <a className="fa fa-fw fa-facebook"></a>
-                      <a className="fa fa-fw fa-twitter"></a>
-                      <a className="fa fa-fw fa-linkedin"></a>
-                      <a className="fa fa-fw fa-google-plus"></a>
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
                 </div>
@@ -114,7 +114,7 @@ function AboutUs() {
                         MD & CEO and Lead Assessor
                       </strong>
                     </h2>
-                    <div className="mc-content">
+                    <div className="mc-content" style={{height:"320px"}} >
                       <div className="img-container">
                          <img
                          className = "img-responsive"
@@ -122,18 +122,18 @@ function AboutUs() {
                           alt=""
                         />
                       </div>
-                      <div className="mc-description">
+                      <div className="mc-description mt-3">
                         <p>MD & CEO and Lead Assessor of the company</p>
                       </div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
                     </a>
-                    <div className="mc-footer">
-                      <a className="fa fa-fw fa-facebook"></a>
-                      <a className="fa fa-fw fa-twitter"></a>
-                      <a className="fa fa-fw fa-linkedin"></a>
-                      <a className="fa fa-fw fa-google-plus"></a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
                 </div>
@@ -146,7 +146,7 @@ function AboutUs() {
                         Chief Operating Officer
                       </strong>
                     </h2>
-                    <div className="mc-content">
+                    <div className="mc-content" style={{height:"320px"}} >
                       <div className="img-container">
                       <img
                          className = "img-responsive"
@@ -155,18 +155,18 @@ function AboutUs() {
                         />
                          
                       </div>
-                      <div className="mc-description">
+                      <div className="mc-description mt-3">
                         Chief Operating Officer of the company
                       </div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
                     </a>
-                    <div className="mc-footer">
-                      <a className="fa fa-fw fa-facebook"></a>
-                      <a className="fa fa-fw fa-twitter"></a>
-                      <a className="fa fa-fw fa-linkedin"></a>
-                      <a className="fa fa-fw fa-google-plus"></a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
                 </div>
@@ -180,7 +180,7 @@ function AboutUs() {
                         Country Head, USA
                       </strong>
                     </h2>
-                    <div className="mc-content">
+                    <div className="mc-content" style={{height:"320px"}} >
                       <div className="img-container">
                         
                         <img
@@ -189,16 +189,16 @@ function AboutUs() {
                           alt=""
                         />
                       </div>
-                      <div className="mc-description">Country Head, USA</div>
+                      <div className="mc-description mt-3">Country Head, USA</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
                     </a>
-                    <div className="mc-footer">
-                      <a className="fa fa-fw fa-facebook"></a>
-                      <a className="fa fa-fw fa-twitter"></a>
-                      <a className="fa fa-fw fa-linkedin"></a>
-                      <a className="fa fa-fw fa-google-plus"></a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
                 </div>
@@ -211,7 +211,7 @@ function AboutUs() {
                         Country Head, Germany
                       </strong>
                     </h2>
-                    <div className="mc-content">
+                    <div className="mc-content" style={{height:"320px"}} >
                       <div className="img-container">
                          <img
                          className = "img-responsive"
@@ -219,16 +219,16 @@ function AboutUs() {
                           alt=""
                         />
                       </div>
-                      <div className="mc-description">Country Head, Germany</div>
+                      <div className="mc-description mt-3">Country Head, Germany</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
                     </a>
-                    <div className="mc-footer">
-                      <a className="fa fa-fw fa-facebook"></a>
-                      <a className="fa fa-fw fa-twitter"></a>
-                      <a className="fa fa-fw fa-linkedin"></a>
-                      <a className="fa fa-fw fa-google-plus"></a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
                 </div>
@@ -241,7 +241,7 @@ function AboutUs() {
                         Country Head, Australia
                       </strong>
                     </h2>
-                    <div className="mc-content">
+                    <div className="mc-content" style={{height:"320px"}} >
                       <div className="img-container">
                          <img
                          className = "img-responsive"
@@ -249,16 +249,16 @@ function AboutUs() {
                           alt=""
                         />
                       </div>
-                      <div className="mc-description">Country Head, Australia</div>
+                      <div className="mc-description mt-3">Country Head, Australia</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
                     </a>
-                    <div className="mc-footer">
-                      <a className="fa fa-fw fa-facebook"></a>
-                      <a className="fa fa-fw fa-twitter"></a>
-                      <a className="fa fa-fw fa-linkedin"></a>
-                      <a className="fa fa-fw fa-google-plus"></a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
                 </div>

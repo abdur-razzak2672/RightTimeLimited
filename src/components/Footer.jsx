@@ -233,13 +233,18 @@ function Footer({ setShow, show }) {
 
 
       </div>
-      <div className="footer-bottom">
-        <div className="container">
-          <p>
+      <div className="footer-bottom row">
+        <div className="col-md-4 p-4 px-5 mx-5">
+          <img width="120px" src="assets/images/footer/ssl.png" alt=""/>
+          </div>
+          <div className ="col-lg-7 mt-4 ">
+          <p className="mx-5">
             &copy; All Copyright <span className="dynamic-year"></span> by Right
             Time Limited
           </p>
-        </div>
+          </div>
+          
+        
       </div>
     </div>
   );

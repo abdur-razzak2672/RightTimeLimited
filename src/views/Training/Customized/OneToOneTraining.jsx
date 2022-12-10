@@ -50,21 +50,49 @@ function OneToOneTraining() {
           </div>
         </div>
       </section><br /><br />
-        <div className ="container">
-          <div className="itmButton">
-            <div class="container1">
-
-              <a href="javascript:void(0)" onClick={() => setTabIndex(1)} className="p-2">Course Highlight</a>
-              <a href="javascript:void(0)" onClick={() => setTabIndex(2)}className="p-2">How to Prepare</a>
-              <a href="javascript:void(0)" onClick={() => setTabIndex(3)}className="p-2">Schedule</a>
-              <a href="javascript:void(0)"onClick={() => setTabIndex(4)} className="p-2 w-100">Price</a>
-              <a href="javascript:void(0)"onClick={() => setTabIndex(5)} className="p-2">Information</a>
-              <a href="javascript:void(0)"onClick={() => setTabIndex(6)} className="p-2 w-100">Registration</a>
+        <div className ="container ">
+          <div>
+            <div>
+              <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
+                  <li className="nav-item">
+                    <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
+                      <i className="bi-list-check nav-icon"></i>Course Highlight
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" onClick={() => setTabIndex(2)} href="javascript:void(0)" >
+                      <i className="bi-file-arrow-up nav-icon"></i> How to Prepare
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" onClick={() => setTabIndex(3)} href="javascript:void(0)" >
+                      <i className="bi-sort-numeric-down nav-icon"></i> Schedule
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" onClick={() => setTabIndex(4)} href="javascript:void(0)" >
+                      <i className="bi-sort-numeric-down nav-icon"></i> Price
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
+                      <i className="bi-sort-numeric-down nav-icon"></i> Information
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" onClick={() => setTabIndex(6)} href="javascript:void(0)" >
+                      <i className="bi-sort-numeric-down nav-icon"></i> Registration
+                    </a>
+                  </li>
+                  
+                </ul>
 
             </div>
         </div>        
         </div>
-        <section className="mt-5">
+
+
+        <section className="mt-1">
           <div className="container">
 
           {
