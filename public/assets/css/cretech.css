@@ -4300,10 +4300,8 @@ a{
 }
 
 .footer-bottom {
-  text-align: center;
-  background-color: var(--cretech-bg-black, #0d0421);
-  padding-top: 20px;
-  padding-bottom: 20px;
+   background-color: var(--cretech-bg-black, #0d0421);
+ 
 }
 
 .footer-bottom p {

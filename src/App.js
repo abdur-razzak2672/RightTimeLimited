@@ -132,9 +132,12 @@ import Footer from "./components/Footer";
 
 // blog Section Imported Start
  import BlogDetails from "./views/blogs/BlogDetails";
-
 import React,{useState} from 'react'
 import blogs from "./views/blogs/Blogs";
+
+
+// Account Section Imported Start
+import Login from "./views/Accounts/Login";
 
 function App() {
   const [show, setShow] = useState("1");
@@ -172,7 +175,7 @@ function App() {
          
 
           <ul className="topbar__info"> 
-          <li><marquee>together we make the world happier</marquee></li>
+          <li><marquee style={{color:"orange"}}>together we make the world happier</marquee></li>
 
           {
             show === '1' ?(
@@ -225,7 +228,7 @@ function App() {
             
            
           }
-         <a className="px-3" href="https://pciworkspace.pcissc.org/s/login/"> <li className="px-3 text-light" style={{border:"1px solid lightgray"}}>Login</li></a>
+         <a className="px-3" href="/login"> <li className="px-3 text-light" style={{border:"1px solid lightgray"}}>Login</li></a>
 
             <li>
               <div className="dropdown">
@@ -418,6 +421,10 @@ function App() {
         {/*Blog Section Route Declaration start */}
         <Route path="/blogs" component={blogs} exact />
         <Route path="/blog-details" component={BlogDetails} exact />
+
+           {/*account Section Route Declaration start */}
+           <Route path="/login" component={Login} exact />
+
 
       
 
