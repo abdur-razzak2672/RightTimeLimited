@@ -179,7 +179,10 @@ function ContactUs() {
                         </g>
                       </g>
 
-                      <g id="Mark">
+
+             
+                       <g id="Mark">  
+
                         <svg className="pulse hovertext" data-hover="Hello, this is the tooltip" x="263px" y="258px" width="100px" height="100px" viewBox="0 0 100 100">
                           <circle className="pulse-disk" cx="50" cy="50" r="6" />
                           <circle className="pulse-circle" cx="50" cy="50" r="4" stroke-width="2" />
@@ -201,9 +204,12 @@ function ContactUs() {
                             </filter>
                           </defs>
                         </svg>
-
-
                       </g>
+ 
+                     
+
+
+
                       <g id="Mark_2">
                         <svg className="pulse" x="675px" y="180px" width="100px" height="100px" viewBox="0 0 100 100">
                           <circle className="pulse-disk" cx="50" cy="50" r="6" />
@@ -901,10 +907,12 @@ function ContactUs() {
          
           <Form.Group className="mt-3" as={Col} controlId="formGridEmail">
             <Form.Select aria-label="Default select example">
-              <option>How Did You About Us ?</option>
+              <option>How Did You hear About Us ?</option>
               <option value="1">Facebook</option>
               <option value="2">twitter</option>
               <option value="3">LinkedIn</option>
+              <option value="3">Instragram</option>
+
 
 
             </Form.Select>
@@ -925,10 +933,8 @@ function ContactUs() {
           </div>
         </div>
       </section>
-      <section className="google-map google-map--contact">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-          className="google-map__one" allowfullscreen></iframe>
+      <section className=" ">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9005.04280800251!2d90.38968022808672!3d23.750711392505888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9f23cc80b29%3A0x32a4288b0ac82b75!2sRight%20Time%20Limited!5e0!3m2!1sen!2sbd!4v1670778271260!5m2!1sen!2sbd" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       </section>
 

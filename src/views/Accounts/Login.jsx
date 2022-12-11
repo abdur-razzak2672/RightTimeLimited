@@ -2,7 +2,7 @@ import React from 'react'
 import './login.css'
 function Login() {
   return (
-    <div style={{backgroundColor:"#b6b8bb"}}>
+    <div  className='bgImg'>
         <div class=" flex-r container pt-5">
     <div class="flex-r login-wrapper">
       <div class="login-text">
@@ -22,9 +22,9 @@ function Login() {
 
         <form class="flex-c">
           <div class="input-box">
-            <span class="label">E-mail</span>
+            <span class="label">Username</span>
             <div class=" flex-r input">
-              <input type="text" placeholder="name@abc.com"/>
+              <input type="text" placeholder="user name"/>
               <i class="fas fa-user"></i>
             </div>
           </div>
@@ -38,12 +38,12 @@ function Login() {
           </div>
           <button style={{backgroundColor:"orange"}} className='btn  text-light w-100'>Login</button>
            <span class="extra-line">
-            <span>Forgot your password?</span>
+            <span className='text-light'>Forgot your password?</span>
            </span>
-           <div className='d-flex px-5 mx-5 justify-content-center'>
-           <select className='p-2 rounded' style={{width:"120px"}}>
-            <option value="1">Empoyee</option>
-            <option value="2">Staff</option>
+           <div className='d-flex px-5 mx-3 justify-content-center'>
+           <select className='p-2 rounded' style={{width:"210px"}}>
+            <option value="1">Right Time Customer</option>
+            <option value="2">Right Time Empoyee</option>
           </select>
         
 
@@ -53,8 +53,8 @@ function Login() {
 
 
           <span class="extra-line">
-            <span>Are you an employee?</span>
-            <a href="#">Login Here</a>
+            <span className='text-light'>Are you an employee ?</span>
+            <a href="#"> Login Here</a>
           </span>
         </form>
 

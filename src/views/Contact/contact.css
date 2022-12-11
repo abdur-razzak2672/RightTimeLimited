@@ -1,8 +1,13 @@
  
-  
+ .mapItem{
+  z-index: 1000;
+  position: relative; 
+ }
   svg:nth-child(1) .pulse-disk {
     fill: #ff3c64;
   }
+
+ 
   
   svg:nth-child(1) .pulse-circle,
   svg:nth-child(1) .pulse-circle-2 {
