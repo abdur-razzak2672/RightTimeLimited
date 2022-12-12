@@ -1,10 +1,19 @@
-import React from 'react'
+import React,{useState} from 'react'
  import Form from 'react-bootstrap/Form';
  import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import './contact.css'
 import { countryList } from './data';
 function ContactUs() {
+  const [company, setCompany] = useState('1');
+
+
+  const handleChange = event => {
+    setCompany(event.target.value);
+  };
+
+  console.log("DSgvfd",company)
+
   return (
     <div>
       <div className="page-header">
@@ -844,23 +853,32 @@ function ContactUs() {
             <Row className="">
                                            
             <Form.Group as={Col} controlId="formGridPassword">
-            <Form.Label >First Name</Form.Label>
-            <Form.Control type="text" placeholder="First Name" />
+            <Form.Label >Full Name</Form.Label>
+            <Form.Control type="text" placeholder="Full Name" />
             </Form.Group>
             <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label >Last Name</Form.Label>
-            <Form.Control type="text" placeholder="Last Name" />
+            <Form.Label >Email Name</Form.Label>
+            <Form.Control type="email" placeholder="email" />
             </Form.Group>
               </Row>
               <Row className="">
               
-              <Form.Group as={Col} controlId="formGridPassword">
-              <Form.Label >Title</Form.Label>
-              <Form.Control type="text" placeholder="Title" />
-              </Form.Group>
+              <Form.Group  as={Col} controlId="formGridEmail">
+              <Form.Label >Company or individual</Form.Label>
+
+            <Form.Select   onChange={handleChange}
+              aria-label="Default select example">
+              <option value="1">Company </option>
+              <option value="2">Individual</option>
+ 
+
+            </Form.Select>
+          </Form.Group>
+
+
               <Form.Group as={Col} controlId="formGridEmail">
-              <Form.Label >Email</Form.Label>
-              <Form.Control type="email" placeholder="Ex@gmail.com" />
+              <Form.Label >Enter Details</Form.Label>
+              <Form.Control    disabled = {company === '2'} type="text" placeholder="" />
               </Form.Group>
           </Row>
 
@@ -879,27 +897,49 @@ function ContactUs() {
                     ))}
 
                 </Form.Select>
-                  <Form.Control style={{marginLeft:"10px"}}   type = "text" placeholder="phone" />
+                 <Form.Control style={{marginLeft:"10px"}}   type = "text" placeholder="phone" />
+                 <Form.Group className='mx-2' as={Col} controlId="formGridPassword">
 
-            </span>
-        </Form.Group>
-
-
-            <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label >Company</Form.Label>
-            <Form.Control type="text" placeholder="Enter Company Name" />
-            </Form.Group>
-
-
-            <Form.Group as={Col} controlId="formGridPassword">
-            <Form.Label >Country</Form.Label>
-            <Form.Select   defaultValue="Choose...">
+                  
+             <Form.Select   defaultValue="Choose...">
                     <option>Select Country </option>
                     {countryList.map((country, key) => (
                     <option key={key} title="" value={country.name}>
                         {country.name}
                     </option>
                     ))}
+                </Form.Select>
+          </Form.Group>
+
+            </span>
+        </Form.Group>
+
+
+        <Form.Group   as={Col} controlId="formGridEmail">
+        <Form.Label >Interested In</Form.Label>
+            <Form.Select aria-label="Default select example">
+              <option>Choose</option>
+              <option value="1">Option</option>
+              <option value="2">Option</option>
+              <option value="3">Option</option>
+              <option value="3">Option</option>
+
+
+
+            </Form.Select>
+          </Form.Group>
+
+
+            <Form.Group as={Col} controlId="formGridPassword">
+            <Form.Label >Budget</Form.Label>
+            <Form.Select   defaultValue="Choose...">
+                    <option>Choose Budget</option>
+                    <option>$0-$100</option>
+                    <option>$1001-$5000</option>
+                    <option>$5001-$10000</option>
+                    <option>$10001-$50000</option>
+ 
+                    
                 </Form.Select>
           </Form.Group>
           </Row>
