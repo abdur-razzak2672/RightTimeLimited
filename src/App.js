@@ -154,9 +154,7 @@ function App() {
     <Router>
    <div className="custom-cursor__cursor"></div>
   <div className="custom-cursor__cursor-two"></div>
-  <div className="preloader">
-    <div className="preloader__circle"></div>
-  </div>
+  
   <div className="page-wrapper">
   <div className="topbar">
         <div className="container-fluid">
