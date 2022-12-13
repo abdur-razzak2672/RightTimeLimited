@@ -876,9 +876,9 @@ function ContactUs() {
           </Form.Group>
 
 
-              <Form.Group as={Col} controlId="formGridEmail">
-              <Form.Label >Enter Details</Form.Label>
-              <Form.Control    disabled = {company === '2'} type="text" placeholder="" />
+              <Form.Group  as={Col} controlId="formGridEmail">
+              <Form.Label disabled = {company === '2'} >Company Name</Form.Label>
+              <Form.Control disabled = {company === '2'}    type="text" placeholder="" />
               </Form.Group>
           </Row>
 
@@ -935,9 +935,12 @@ function ContactUs() {
             <Form.Select   defaultValue="Choose...">
                     <option>Choose Budget</option>
                     <option>$0-$100</option>
-                    <option>$1001-$5000</option>
-                    <option>$5001-$10000</option>
-                    <option>$10001-$50000</option>
+                    <option>$101-$1000</option>
+                    <option>$1001-$10000</option>
+                    <option>$10001-$20000</option>
+                    <option>$20001-$50000</option>
+                    <option>$50001- more</option>
+
  
                     
                 </Form.Select>

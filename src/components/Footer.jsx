@@ -191,7 +191,7 @@ function Footer({ setShow, show }) {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--contact ">
-                <h3 className="footer-widget__title">People Presence</h3>
+                <h3 className="footer-widget__title">Our Presence</h3>
                 <ul className="footer-widget__contact">
                   <li>
                     <a onClick={() => setShow("1")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }}   width="47%" src="assets/images/flag/bd.png" alt="" /></a>
@@ -207,7 +207,7 @@ function Footer({ setShow, show }) {
 
                   <li className="mt-2">
                   <img src="assets/images/footer/iso.png" width="100%" alt="" />
-                  <h6 style={{fontSize:"10px"}}  className="mt-2 text-light">WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
+                  <h6 style={{fontSize:"10.7px",width:"100%"}}  className="mt-2 text-light">WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
 
 
                   </li>
