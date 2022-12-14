@@ -14,6 +14,114 @@ function ContactUs() {
 
   console.log("DSgvfd",company)
 
+  const individualOptions = [
+  "Lead Auditor (ISO 9001, ISO 27001, ISO 20000, ISO 22301 etc.)" ,
+ " Lead Implementer (ISO 9001, ISO 27001, ISO 20000, ISO 22301 etc.)",
+"  Certified Penetration Testing Professional (CPENT)",
+"  Offensive Security Certified Professional (OSCP)",
+"	Certified Information system Auditor (CISA)",
+"	GIAC Penetration Testing (GPEN)",
+"	Training on HIPAA",
+"	Training on GDPR",
+"	Training on SWIFT CSP Independent Assessment (based on latest CSCF)",
+"	Training on Data Center (Basic, Intermediate & Advance)",
+"	GIAC Web Application Penetration Testing (GWAPT)",
+"	Certified Ethical hacker (CEH-312-50)",
+"	EC-Council Certified Incident Handler (ECIH-212-89)",
+"	Certified SOC Analyst (CSA)",
+"	PCI DSS Certification- ISA & PCIP",
+"	Certified Threat Intelligent Analyst (CTIA)",
+"	Certified Information security Manager (CISM)",
+"	Certified Information System Security Professional (CISSP)",
+	"GIAC Certified Project Manager (GCPM)",
+"	Open-Source Intelligence (OSINT) ",
+"	Certified Secure Computer User (CSCU-112-12)",
+"	Network Security Fundamentals (FNS)",
+"	Information Security Fundamentals (FIS)",
+"	Computer Forensic Fundamentals (CFF)",
+"	Certified Network Defense (CND-312-38)",
+"	EC-Council Disaster Recovery Professional (EDRP-312-76)",
+"	Securing Windows Infrastructure (CAST-616)",
+"	Advance Network Defense (CAST-614)",
+"	EC-Council Certified Secure Programmer JAVA (ECSP-312-94) ",
+"	EC-Council Certified Secure Programmer .Net (ECSP-312-93)",
+"	Advanced Penetration testing (CAST-611)",
+"	Licensed Penetration Tester (LPT-412-79)",
+"	EC-Council Certified Security Analyst (ECSA-412-79) ",
+"	Hacking and Hardening Your Corporate Web Application (CAST-613)",
+"	Computer Hacking Forensic Investigator (CHFI-312-49)",
+"	Advanced Mobile Forensics And security (CAST-612)",
+"	Certified Chief Information Security Officer (CCISO)",
+
+    
+  
+  ];
+
+
+
+  const companyOptions = [
+    "Consultation",
+     "Information Security & Cyber Security Consulting",
+   "	Project Management ",
+     "Consultation on Shaping up DC & DRS",
+     "Swift Cyber Security Consulting ",
+   "	Technical Documentation On ITES",
+   
+   " Auditing ",
+     "Information System Audit ",
+     "Information Technology Audit ",
+   "	Information Security Graded Audit" ,
+   "	DC & DRS Auditing",
+   
+    "Security Testing ",
+   "	Vulnerability Assessment & Presentation Testing Services ",
+   "	Digital Forensics ",
+   "	Code Review ",
+   "	Software Quality Assurance & Testing ",
+   "	Swift CSP Independent Assessment",
+   
+   " Certification ",
+   "	PCI DSS Certification",
+   "	ISO 27001, ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001, ISO 14001 etc.",
+   "	CMMI (Capability Maturity Model Integration) ",
+   "	Tia 942 For Data Center",
+   "	GDPR Assessment",
+   "	HIPAA Assessment",
+   
+   " Managed Service",
+   "	SOC as A Service",
+   "	Cloud App Monitoring as A Service",
+   "	MDR as A Service (Managed End Point Detection and Response)",
+   "	Managed Nextgen Firewall as A Service ",
+   "	Vulnerability Assessment (VA) As A Service ",
+     "Penetration Testing (PT) As A Service ",
+   "  DAM (Database Auditing & Management) as A Service",
+   
+   
+   
+   
+   " Cyber Security Management & Visibility solutions",
+   "	SIEM",
+   "	Firewall (Especially Next Gen)",
+   "	Log Management",
+     "Patch management",
+     "Privilege Access Management (PAM)",
+   
+    "Security assessment (VA & PT) Tools",
+     "Burp Suite",
+   "	Net Sparker",
+     "Tenable All Product",
+   "	Nessus Professional",
+   "	Acunetix",
+   "	Core Impact",
+   "	Cobalt Strike",
+   
+     
+     
+         
+       
+       ];
+
   return (
     <div>
       <div className="page-header">
@@ -916,17 +1024,42 @@ function ContactUs() {
 
 
         <Form.Group   as={Col} controlId="formGridEmail">
-        <Form.Label >Interested In</Form.Label>
+
+        {company === '2'?(
+          <>
+           <Form.Label >Interested In</Form.Label>
             <Form.Select aria-label="Default select example">
-              <option>Choose</option>
-              <option value="1">Option</option>
-              <option value="2">Option</option>
-              <option value="3">Option</option>
-              <option value="3">Option</option>
+            <option>Please choose one option</option>
+                    {individualOptions.map((option, index) => {
+                        return <option key={index} >
+                            {option}
+                        </option>
+                    })}
 
 
 
             </Form.Select>
+          </>
+        ):(
+          <>
+          <>
+           <Form.Label >Interested In</Form.Label>
+            <Form.Select aria-label="Default select example">
+            <option>Please choose one option</option>
+                    {companyOptions.map((option, index) => {
+                        return <option key={index} >
+                            {option}
+                        </option>
+                    })}
+
+
+
+            </Form.Select>
+          </>
+          
+          </>
+        )} 
+       
           </Form.Group>
 
 
@@ -939,7 +1072,7 @@ function ContactUs() {
                     <option>$1001-$10000</option>
                     <option>$10001-$20000</option>
                     <option>$20001-$50000</option>
-                    <option>$50001- more</option>
+                    <option>$50001- onWord</option>
 
  
                     

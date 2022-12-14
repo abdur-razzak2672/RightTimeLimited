@@ -1750,3 +1750,13 @@ export const countryList = [
       mobileCode: '+263',
     },
   ];
+
+  export const company = [
+    {
+      name: 'Afghanistan',
+      code: 'AF',
+      timezone: 'Afghanistan Standard Time',
+      utc: 'UTC+04:30',
+      mobileCode: '+93',
+    },
+  ]
