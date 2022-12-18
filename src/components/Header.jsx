@@ -37,7 +37,7 @@ function Header({ show,setShow }) {
                 </li>
                 <li>
                   <Link to="about-us">
-                  Leadership Team
+                   Team
                   </Link>
                 </li>
               </ul>
@@ -55,22 +55,22 @@ function Header({ show,setShow }) {
                   <Link to="/bank-nbfi">FIs - Bank & NBFI</Link>
                 </li>
                 <li>
-                  <Link to="/telecomunication">
+                  <Link style={{lineHeight:"1.2"}}  to="/telecomunication">
                   Mobile & Telecommunications
                   </Link>
                 </li>
                 <li>
-                  <Link to="payment-card">
+                  <Link  style={{lineHeight:"1.2"}}  to="payment-card">
                   Payment Gateways and Payment Processor
                   </Link>
                 </li>
                 <li>
-                  <Link to="/educational-institutions">
+                  <Link style={{lineHeight:"1.2"}}   to="/educational-institutions">
                   Educational Institutions
                   </Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-retail">
+                  <Link style={{lineHeight:"1.2"}}   to="/ecommerce-retail">
                   E-Commence & Retail Merchants
                   </Link>
                 </li>
@@ -103,16 +103,16 @@ function Header({ show,setShow }) {
                     <Col className="consultation" style={{borderRight:"1px solid #6f42c1"}}>
                       <a style={{fontWeight:"bold",color:"orange"}} href="/consultation">Consultation</a>
   
-                      <a className="mt-3" href="/information-security-Special">
+                      <a style={{lineHeight:"1.2"}}   className="mt-3" href="/information-security-Special">
                       <i className="fas fa-caret-right"> </i> Information Security & Cyber Security Consulting
                       </a>
-                      <a className="mt-3" href="/consultation-on-shaping">
+                      <a style={{lineHeight:"1.2"}}   className="mt-3" href="/consultation-on-shaping">
                       <i className="fas fa-caret-right"> </i> Consultation on Shaping up DC & DRS
                       </a>
-                      <a className="mt-3" href="/swift-cyber-security">
+                      <a style={{lineHeight:"1.2"}}   className="mt-3" href="/swift-cyber-security">
                       <i className="fas fa-caret-right"> </i> Swift Cyber Security Consulting
                       </a>
-                      <a  className="mt-3" href="/providing-security">
+                      <a style={{lineHeight:"1.2"}}    className="mt-3" href="/providing-security">
                       <i className="fas fa-caret-right"> </i> Technical Documentation On ITES
                       </a>
                       
@@ -120,16 +120,16 @@ function Header({ show,setShow }) {
 
                   <Col className="consultation" style={{borderRight:"1px solid #6f42c1"}}>
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/auditing"> Auditing</a>
-                   <a  className="mt-3" href="/information-system">
+                   <a style={{lineHeight:"1.2"}}    className="mt-3" href="/information-system">
                         <i className="fas fa-caret-right"> </i> Information System Audit
                       </a>
-                      <a  className="mt-3" href="/information-technology">
+                      <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/information-technology">
                       <i className="fas fa-caret-right"> </i> Information Technology Audit
                       </a>
-                      <a  className="mt-3" href="/information-security-graded">
+                      <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/information-security-graded">
                       <i className="fas fa-caret-right"> </i>   Information Security Graded Audit
                       </a>
-                      <a className="mt-3"  href="/dc-drs-auditing">
+                      <a style={{lineHeight:"1.2"}}   className="mt-3"  href="/dc-drs-auditing">
                       <i className="fas fa-caret-right"> </i>  DC & DRS Auditing
                       </a>
 
@@ -140,7 +140,7 @@ function Header({ show,setShow }) {
                   <a   style={{fontWeight:"bold",color:"orange"}}href="/security-testing">Security Testing</a>
  
                 
-                      <a className="mt-3"   href="/vulnerability-assessment">
+                      <a style={{lineHeight:"1.2"}} className="mt-3"   href="/vulnerability-assessment">
                       <i className="fas fa-caret-right"> </i>   Vulnerability Assessment & Presentation Testing Services
                       </a>
                  
@@ -151,10 +151,10 @@ function Header({ show,setShow }) {
                       <a  className="mt-3"   href="/code-review">
                       <i className="fas fa-caret-right"> </i>     Code Review
                       </a>
-                      <a  className="mt-3"   href="/software-quality">
+                      <a  style={{lineHeight:"1.2"}}   className="mt-3"   href="/software-quality">
                       <i className="fas fa-caret-right"> </i>   Software Quality Assurance & Testing
                         </a>
-                        <a className="mt-3"  href="/swift-csp">
+                        <a  style={{lineHeight:"1.2"}}  className="mt-3"  href="/swift-csp">
                         <i className="fas fa-caret-right"> </i>  Swift CSP Independent Assessment
                       </a>
 
@@ -164,20 +164,20 @@ function Header({ show,setShow }) {
                   <Col lg={3} className="consultation"  style={{borderRight:"1px solid #6f42c1"}}>
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/certification">Certification</a>
                  
-                      <a  className="mt-3" href="/pci-dss-payment">
+                      <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/pci-dss-payment">
                       <i className="fas fa-caret-right"> </i> PCI DSS Certification
                       </a>
                    
-                      <a  className="mt-3" href="/iso-international">
+                      <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/iso-international">
                       <i className="fas fa-caret-right"> </i> ISO 27001, ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001, ISO 14001 etc.
                       </a>
                  
-                      <a className="mt-3"  href="/cmmi">
+                      <a  style={{lineHeight:"1.2"}}  className="mt-3"  href="/cmmi">
                       <i className="fas fa-caret-right"> </i> CMMI (Capability Maturity Model Integration)
 
                       </a>
 
-                      <a  className="mt-3" href="/tia-for-data-center">
+                      <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/tia-for-data-center">
                       <i className="fas fa-caret-right"> </i>    Tia 942 For Data Center
                       </a>
 
@@ -197,20 +197,20 @@ function Header({ show,setShow }) {
                       <i className="fas fa-caret-right"> </i> SOC as A Service
                       </a>
                    
-                      <a  className="mt-3" href="/iso-international">
+                      <a   style={{lineHeight:"1.2"}}  className="mt-3" href="/iso-international">
                       <i className="fas fa-caret-right"> </i> Cloud App Monitoring as A Service
                       </a>
                  
-                      <a className="mt-3"  href="/cmmi">
+                      <a style={{lineHeight:"1.2"}}   className="mt-3"  href="/cmmi">
                       <i className="fas fa-caret-right"> </i> MDR as A Service (Managed End Point Detection and Response)
 
                       </a>
 
-                      <a  className="mt-3" href="/tia-for-data-center">
+                      <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/tia-for-data-center">
                       <i className="fas fa-caret-right"> </i>    Managed Nextgen Firewall as A Service
                       </a>
 
-                      <a  className="mt-3" href="/tia-for-data-center">
+                      <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/tia-for-data-center">
                       <i className="fas fa-caret-right"> </i> Vulnerability Assessment (VA) As A Service 
 
                       </a>
@@ -232,7 +232,7 @@ function Header({ show,setShow }) {
 
                   <ul>
                     <li>
-                      <Link to="/information-security-Special">
+                      <Link style={{lineHeight:"1.2"}}   to="/information-security-Special">
                         Information Security-Specially Cyber Security Consulting
                       </Link>
                     </li>
@@ -247,7 +247,7 @@ function Header({ show,setShow }) {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/consultation-on-shaping">
+                      <Link style={{lineHeight:"1.2"}}   to="/consultation-on-shaping">
                         Consultation on Shaping the DC & DRS
                       </Link>
                     </li>
@@ -273,12 +273,12 @@ function Header({ show,setShow }) {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/information-technology">
+                      <Link style={{lineHeight:"1.2"}}   to="/information-technology">
                         Information Technology Audit
                       </Link>
                     </li>
                     <li>
-                      <Link to="/information-security-graded">
+                      <Link style={{lineHeight:"1.2"}}   to="/information-security-graded">
                         Information Security Graded Audit
                       </Link>
                     </li>
@@ -296,7 +296,7 @@ function Header({ show,setShow }) {
                   </Link>
                   <ul>
                     <li>
-                      <Link to="/vulnerability-assessment">
+                      <Link  style={{lineHeight:"1.2"}}  to="/vulnerability-assessment">
                         Vulnerability Assessment & Presentation Testing Services
                       </Link>
                     </li>
@@ -309,10 +309,10 @@ function Header({ show,setShow }) {
                       <Link to="/code-review">
                         Code Review
                       </Link>
-                      <a  href="/software-quality">
+                      <a  style={{lineHeight:"1.2"}}   href="/software-quality">
                       Software Quality Assurance & Testing
                         </a>
-                      <Link to="/swift-csp">
+                      <Link style={{lineHeight:"1.2"}}   to="/swift-csp">
                         Swift Csp Indpended Assessment
                       </Link>
                     </li>
@@ -326,17 +326,17 @@ function Header({ show,setShow }) {
                   <ul>
                     <li>
                     
-                      <Link to="/pci-dss-payment">
+                      <Link  style={{lineHeight:"1.2"}}  to="/pci-dss-payment">
                         Payment Card Industry Data Security Standards
                       </Link>
                     </li>
                     <li>
-                      <Link to="/iso-international">
+                      <Link style={{lineHeight:"1.2"}}   to="/iso-international">
                         International Organization for Standardization-ISO
                       </Link>
                     </li>
                     <li>
-                      <Link to="/cmmi">
+                      <Link style={{lineHeight:"1.2"}}   to="/cmmi">
                       Capability Maturity Model Integration (CMMI)
                       </Link>
                     </li>
@@ -359,12 +359,12 @@ function Header({ show,setShow }) {
                 <Container className="mt-4">
                   <Row>
                     <Col style={{borderRight:"1px solid #6f42c1"}}>
-                    <a  style={{fontWeight:"bold" }}href="/siem">Security assessment (VA & PT) Tools</a>
+                    <a  style={{fontWeight:"bold",color:"orange",lineHeight:"1.2" }}href="/siem">Security assessment (VA & PT) Tools</a>
  
                       <a className="mt-3" href="/burp-suite">Burp Suite</a>
                       <a className="mt-3"  href="/acunetix">Net Sparker</a>
 
-                                       <a className="mt-3"  href="/netsparker">Tenable (multiple solutions)</a>
+                                       <a  style={{lineHeight:"1.2"}}  className="mt-3"  href="/netsparker">Tenable (multiple solutions)</a>
 
                       <a className="mt-3"  href="/acunetix">Acunetix</a>
                     
@@ -378,7 +378,7 @@ function Header({ show,setShow }) {
                   
 
                   <Col>
-                  <a  style={{fontWeight:"bold"}}href="/association-partners">Cyber Security Management & Visibility solutions</a>
+                  <a  style={{fontWeight:"bold",color:"orange",lineHeight:"1.2"}}href="/association-partners">Cyber Security Management & Visibility solutions</a>
                  
                   <a className="mt-3"  href="/siem">
                   SIEM
@@ -395,7 +395,7 @@ function Header({ show,setShow }) {
                
                       <a className="mt-3"  href="/smart-contact">Patch management </a>
                 
-                      <a className="mt-3"  href="/smart-contact">Privilege Access Management (PAM)t</a>
+                      <a className="mt-3" style={{lineHeight:"1.2"}}    href="/smart-contact">Privilege Access Management (PAM)t</a>
                   
                    </Col>
                 </Row>
@@ -406,7 +406,7 @@ function Header({ show,setShow }) {
             </li>
             
             <li className="servicNav">
-              <Link to="/Solution">Security Assessment (VA & Tools)</Link>
+              <Link  style={{lineHeight:"1.2"}}  to="/Solution">Security Assessment (VA & Tools)</Link>
               <ul>
                 <li>
                   <Link to="/service-partners">Burp Suite</Link>
@@ -426,7 +426,7 @@ function Header({ show,setShow }) {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/association-partners">Cyber Security Visibility & management Solutions</Link>
+                  <Link style={{lineHeight:"1.2"}}   to="/association-partners">Cyber Security Visibility & management Solutions</Link>
                   <ul>
                   <li>
                       <Link to="https://sckcerts.com/">SIEM</Link>
@@ -541,54 +541,62 @@ function Header({ show,setShow }) {
                   <Col >
                   
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/Customized">RightTime Customized</a>
- 
-                
+    
                       <a  className="mt-3"  href="/basic-corporate">
-                        Basic (Corporate)
+                      Foundation track (Corporate)
                       </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
+
+                      <a  className="mt-3"  href="/basic-corporate">
+                    Network Defense and Operations (Corporate)
+                      </a>
+
+                      <a  className="mt-3"  href="/basic-corporate">
+                       Software Security (Corporate)
+                      </a>
+
+                      <a  className="mt-3"  href="/basic-corporate">
+                      Vulnerability Assessment & Penetration Testing (VA & PT)- (Corporate)
+                      </a>
+
+                      <a  className="mt-3"  href="/basic-corporate">
+                   Cyber Forensic - (Corporate)
+                      </a>
+                      <a  className="mt-3"  href="/basic-corporate">
+                     Governance - (Corporate)
+                      </a>
+
+
+
+
+                      {/* <a className=" mx-3"  href="/basic-corporate">
+                      <i className="fas fa-caret-right "> </i> Basic
+
+                      </a>
+                      <a className=" mx-4"  href="/basic-corporate">
+                       Certified Secure Computer User (CSCU-112-12)
 
                       </a>
                       <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
+                      <i className="fas fa-caret-right "> </i> Intermediate
+                      </a>
+                      <a className=" mx-4"  href="/basic-corporate">
+                      Security Fundamentals (FNS)
 
                       </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
+                      <a style={{lineHeight:"1.2"}}   className=" mx-4"  href="/basic-corporate">
+                      Information Security Fundamentals (FIS)
+
                       </a>
+                     
 
                     <a className="mt-3"   href="/intermidiate-corporate">
-                        Intermediate (Corporate)
+                    <i className="fas fa-caret-right "></i>  Advance
                       </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
+                      <a className=" mx-4"  style={{lineHeight:"1.2"}}   href="/basic-corporate">
+                    Computer Forensic Fundamentals (CFF)
 
                       </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
-
-                      </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
-
-                      </a>
-                      <a className="mt-3"   href="/advance-corporate">
-                        Advance (Corporate)
-                      </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
-
-                      </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
-
-                      </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Certified Disaster 
-
-                      </a>
- 
+                       */}
                   </Col>
    
                 </Row>
@@ -614,37 +622,37 @@ function Header({ show,setShow }) {
                   </Link>
                   <ul>
                     <li>
-                      <Link to="/certified-ethical-hacker">
+                      <Link style={{lineHeight:"1.2"}}   to="/certified-ethical-hacker">
                         Certified Ethical Hacker (CEH)
                       </Link>
                     </li>
                     <li>
-                      <Link to="/certified-penetration">
+                      <Link  style={{lineHeight:"1.2"}}  to="/certified-penetration">
                         Certified Penetration Testing Professional(CPENT)
                       </Link>
                     </li>
                     <li>
-                      <Link to="/certified-information-system">
+                      <Link style={{lineHeight:"1.2"}}   to="/certified-information-system">
                         Certified Information Systems Auditor(CISA)
                       </Link>
                     </li>
                     <li>
-                      <Link to="/computer-hacking">
+                      <Link style={{lineHeight:"1.2"}}   to="/computer-hacking">
                         Computer Hacking Forensic Investigator(CHFI)
                       </Link>
                     </li>
                     <li>
-                      <Link to="/open-source">
+                      <Link style={{lineHeight:"1.2"}}   to="/open-source">
                         Open Source Intelligence(OSINT)
                       </Link>
                     </li>
                     <li>
-                      <Link to="/giac-penetration">
+                      <Link  style={{lineHeight:"1.2"}}  to="/giac-penetration">
                         GIAC Penetration Tester(GPEN)
                       </Link>
                     </li>
                     <li>
-                      <Link to="/giac-web-application">
+                      <Link style={{lineHeight:"1.2"}}   to="/giac-web-application">
                         GIAC Web Application Penetration Tester(GWAPT)
                       </Link>
                     </li>
@@ -672,18 +680,18 @@ function Header({ show,setShow }) {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/certified-threat">
+                      <Link style={{lineHeight:"1.2"}}   to="/certified-threat">
                         Certified Threat Intelligence Analyst(CTIA)
                       </Link>
                     </li>
                     
                     <li>
-                      <Link to="/certified-information-security">
+                      <Link style={{lineHeight:"1.2"}}   to="/certified-information-security">
                         Certified Information Security Manager(CISM)
                       </Link>
                     </li>
                     <li>
-                      <Link to="/certified-information-system-security">
+                      <Link  style={{lineHeight:"1.2"}}  to="/certified-information-system-security">
                         Certified Information Systems Security
                         Professional(CISSP)
                       </Link>
