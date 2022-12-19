@@ -31,117 +31,220 @@ function Team() {
 
   return (
     <div>
-      <div className='container mt-4'>
-      <h3 className="blog-card-one__title blog-details__title" style={{color:"#17224d"}} >Top Management</h3>
+       <section className="section-padding--bottom section-padding--top">
+        <div className="container">
+        <h3 className="blog-card-one__title blog-details__title" style={{color:"#17224d"}} >Top Management</h3>
 
 
-        <Row className='mt-4'>
-          <Col className='d-flex justify-content-center' lg={4} md={4} sm={6} xs={12}>
-            <div>
-               <img
-                style={{width:"350px"}}
-              className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-25-796.jpg"
-              alt=""
-            />
-            <a href='javascript:void(0)' onClick={handleShow}>
-                  <p className='teamTitle '>Sahaly Yasmin Bhuiyan <i class=" mx-3 fa-solid fa-arrow-right"></i></p>
-                   <p className='desig'>Chairman</p>
-            </a>
-            
-            </div>
-         
-          </Col>
-          <Col className='d-flex justify-content-center' lg={4} md={4} sm={6} xs={12}>
-            <div>
-               <img
-                style={{width:"350px"}}
-              className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
-              alt=""
-            />
-            <a href='javascript:void(0)' onClick={handleShow1}>
-                  <p className='teamTitle '>Dr. Mohammad Tohidur Rahman Bhuiyan<i class=" mx-3 fa-solid fa-arrow-right"></i></p>
-                   <p className='desig'>MD & CEO</p>
-            </a>
-            
-            </div>
-         
-          </Col>
-          <Col className='d-flex justify-content-center' lg={4} md={4} sm={6} xs={12}>
-            <div>
-               <img
-                style={{width:"350px"}}
-              className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
-              alt=""
-            />
-            <a href='javascript:void(0)' onClick={handleShow2}>
-                  <p className='teamTitle '>Dr. Touhid Bhuyan<i class=" mx-3 fa-solid fa-arrow-right"></i></p>
-                   <p className='desig'>Director, Stategic Planning And Development</p>
-            </a>
-            
-            </div>
-         
-          </Col>
-          <Col className='d-flex justify-content-center' lg={4} md={4} sm={6} xs={12}>
-            <div>
-               <img
-                style={{width:"350px"}}
-              className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-49-21-996.jpg"
-              alt=""
-            />
-            <a href='javascript:void(0)' onClick={handleShow3}>
-                  <p className='teamTitle '>Arshad Mahmud<i class=" mx-3 fa-solid fa-arrow-right"></i></p>
-                   <p className='desig'>COO</p>
-            </a>
-            
-            </div>
-         
-          </Col>
-          <Col className='d-flex justify-content-center' lg={4} md={4} sm={6} xs={12}>
-            <div>
-               <img
-                style={{width:"350px"}}
-              className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
-              alt=""
-            />
-            <a href='javascript:void(0)' onClick={handleShow4}>
-                  <p className='teamTitle '>Md. Shamin Al Mamun <i class=" mx-3 fa-solid fa-arrow-right"></i></p>
-                   <p className='desig'>Chief Technology Officer (CTO)</p>
-            </a>
-            
-            </div>
-         
-          </Col>
-          <Col className='d-flex justify-content-center' lg={4} md={4} sm={6} xs={12}>
-            <div>
-               <img
-               style={{width:"350px"}}
-              className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
-            
-              alt=""
-            />
-            <a href='javascript:void(0)' onClick={handleShow5}>
-                  <p className='teamTitle '>Mohammad Ziaul Haque<i class=" mx-3 fa-solid fa-arrow-right"></i></p>
-                   <p className='desig'>Chief Financial Officer (CFO)</p>
-            </a>
-            
-            </div>
-         
-          </Col>
-           
+          <div className="body1">
+            <section className="container">
+              <div className="row active-with-click grid">
+                <div className="grid-item">
+                  <article className="material-card Red">
+                    <a onClick={handleShow} href='javascript:void(0)'>
+                       <h2 className="h21 text-light">
+                      <span>Sahaly Yasmin Bhuiyan</span>
+                      <strong>
+                        Chairman
+                      </strong>
+                     </h2>
+                    </a>
+                   
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                      <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/Picsart_22-09-17_12-48-25-796.jpg"
+                          alt=""
+                        />
+                        
+                       </div>
+                      <div className="mc-description mt-3">Chairman of the company.</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                    <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+                <div className="grid-item">
+                  <article className="material-card Pink">
+                  <a onClick={handleShow1} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Mohammad Tohidur Rahman Bhuiyan</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        MD & CEO and Lead Assessor
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                         <img
+                         className = "img-responsive"
+                         src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
+                         alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">
+                        <p>MD & CEO and Lead Assessor of the company</p>
+                      </div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+                <div className="grid-item">
+                  <article className="material-card Purple">
+                  <a onClick={handleShow2} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Arshad Mahmud</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        Chief Operating Officer
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                      <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/Picsart_22-09-17_12-49-21-996.jpg"
+                          alt=""
+                        />
+                         
+                      </div>
+                      <div className="mc-description mt-3">
+                        Chief Operating Officer of the company
+                      </div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
 
-          
-
-        </Row>
-
-
-
-      </div>
+                <div className="grid-item">
+                  <article className="material-card Deep-Purple">
+                  <a onClick={handleShow3} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Rashed Sarwar</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        Country Head, USA
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                        
+                        <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/Picsart_22-09-17_12-50-14-322.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">Country Head, USA</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+                <div className="grid-item">
+                  <article className="material-card Indigo">
+                  <a onClick={handleShow4} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Ms. Melinda</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        Country Head, Germany
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                         <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/Picsart_22-09-17_12-49-43-090.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">Country Head, Germany</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+                <div className="grid-item">
+                  <article className="material-card Blue">
+                  <a onClick={handleShow5} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Dr. Mahfuz Ashraf</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        Country Head, Australia
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                         <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/Picsart_22-09-17_12-49-58-327.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">Country Head, Australia</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+ 
  
       <Modal   size="lg" show={show} onHide={handleClose}>
         <Modal.Body  className=" rounded-3">
@@ -225,8 +328,9 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-25-796.jpg"
-              alt=""
+              src= "/assets/images/team/Picsart_22-09-17_12-49-21-996.jpg"
+
+               alt=""
             />
 
             </Col>
@@ -261,7 +365,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-25-796.jpg"
+              src= "/assets/images/team/Picsart_22-09-17_12-50-14-322.jpg"
               alt=""
             />
 
@@ -294,7 +398,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-25-796.jpg"
+              src= "/assets/images/team/Picsart_22-09-17_12-49-43-090.jpg"
               alt=""
             />
 
@@ -327,7 +431,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-25-796.jpg"
+              src= "/assets/images/team/Picsart_22-09-17_12-49-58-327.jpg"
               alt=""
             />
 

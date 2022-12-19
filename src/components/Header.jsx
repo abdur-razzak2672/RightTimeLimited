@@ -555,14 +555,14 @@ function Header({ show,setShow }) {
                       </a>
 
                       <a  className="mt-3"  href="/basic-corporate">
-                      Vulnerability Assessment & Penetration Testing (VA & PT)- 
+                      Vulnerability Assessment & Penetration Testing (VA & PT)
                       </a>
 
                       <a  className="mt-3"  href="/basic-corporate">
-                   Cyber Forensic - 
+                   Cyber Forensic
                       </a>
                       <a  className="mt-3"  href="/basic-corporate">
-                     Governance - 
+                     Governance
                       </a>
 
 
