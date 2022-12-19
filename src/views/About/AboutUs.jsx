@@ -118,8 +118,8 @@ function AboutUs() {
                       <div className="img-container">
                          <img
                          className = "img-responsive"
-                          src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
-                          alt=""
+                         src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
+                         alt=""
                         />
                       </div>
                       <div className="mc-description mt-3">

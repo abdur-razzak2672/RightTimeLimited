@@ -36,7 +36,7 @@ function Header({ show,setShow }) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="about-us">
+                  <Link to="/team">
                    Team
                   </Link>
                 </li>
@@ -543,26 +543,26 @@ function Header({ show,setShow }) {
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/Customized">RightTime Customized</a>
     
                       <a  className="mt-3"  href="/basic-corporate">
-                      Foundation track (Corporate)
+                      Foundation track 
                       </a>
 
                       <a  className="mt-3"  href="/basic-corporate">
-                    Network Defense and Operations (Corporate)
+                    Network Defense and Operations 
                       </a>
 
                       <a  className="mt-3"  href="/basic-corporate">
-                       Software Security (Corporate)
+                       Software Security 
                       </a>
 
                       <a  className="mt-3"  href="/basic-corporate">
-                      Vulnerability Assessment & Penetration Testing (VA & PT)- (Corporate)
+                      Vulnerability Assessment & Penetration Testing (VA & PT)- 
                       </a>
 
                       <a  className="mt-3"  href="/basic-corporate">
-                   Cyber Forensic - (Corporate)
+                   Cyber Forensic - 
                       </a>
                       <a  className="mt-3"  href="/basic-corporate">
-                     Governance - (Corporate)
+                     Governance - 
                       </a>
 
 
@@ -711,17 +711,17 @@ function Header({ show,setShow }) {
                   <ul>
                     <li>
                       <Link to="/basic-corporate">
-                        Basic (Corporate)
+                        Basic 
                       </Link>
                     </li>
                     <li>
                       <Link to="/advance-corporate">
-                        Advance (Corporate)
+                        Advance 
                       </Link>
                     </li>
                     <li>
                       <Link to="/intermidiate-corporate">
-                        Intermediate (Corporate)
+                        Intermediate 
                       </Link>
                     </li>
                     <li>
