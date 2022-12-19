@@ -36,7 +36,7 @@ function Header({ show,setShow }) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="about-us">
+                  <Link to="/team">
                    Team
                   </Link>
                 </li>

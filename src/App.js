@@ -135,6 +135,9 @@ import Footer from "./components/Footer";
 import React,{useState} from 'react'
 import blogs from "./views/blogs/Blogs";
 
+// Team section imported
+import Team from "./views/Company/team/Team";
+ 
 
 // Account Section Imported Start
 import Login from "./views/Accounts/Login";
@@ -419,6 +422,10 @@ function App() {
         {/*Blog Section Route Declaration start */}
         <Route path="/blogs" component={blogs} exact />
         <Route path="/blog-details" component={BlogDetails} exact />
+
+        {/* Team section route declaration start */}
+        <Route path="/team" component={Team} exact />
+
 
            {/*account Section Route Declaration start */}
            <Route path="/login" component={Login} exact />

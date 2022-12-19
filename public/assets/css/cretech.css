@@ -8779,3 +8779,15 @@ button {
   margin: 0 15px;
   font-size: 4em;
 }
+
+/* team */
+.teamTitle{
+  color: #17224d;
+  font-weight: bold;
+}
+
+.desig{
+  line-height: 0;
+  color: #000000;
+}
+ 
