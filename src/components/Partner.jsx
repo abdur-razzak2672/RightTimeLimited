@@ -47,9 +47,9 @@ function Partner() {
 					}
 				}}'
             >
-              <div className="item">
+              {/* <div className="item">
                 <img src="assets/images/partners/ec.png" alt="" />
-              </div>
+              </div> */}
               <div className="item">
                 <img src="assets/images/partners/pv.png" alt="" />
               </div>
