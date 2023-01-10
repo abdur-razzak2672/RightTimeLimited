@@ -104,16 +104,16 @@ function Header({ show,setShow }) {
                       <a style={{fontWeight:"bold",color:"orange"}} href="/consultation">Consultation</a>
   
                       <a style={{lineHeight:"1.2"}}   className="mt-3" href="/information-security-Special">
-                      <i className="fas fa-caret-right"> </i> Information Security & Cyber Security Consulting
+                      <i   className="fas fa-circle iconStyle "> </i> Information Security & Cyber Security Consulting
                       </a>
                       <a style={{lineHeight:"1.2"}}   className="mt-3" href="/consultation-on-shaping">
-                      <i className="fas fa-caret-right"> </i> Consultation on Shaping up DC & DRS
+                      <i   className="fas fa-circle iconStyle "> </i> Consultation on Shaping up DC & DRS
                       </a>
                       <a style={{lineHeight:"1.2"}}   className="mt-3" href="/swift-cyber-security">
-                      <i className="fas fa-caret-right"> </i> Swift Cyber Security Consulting
+                      <i   className="fas fa-circle iconStyle "> </i> Swift Cyber Security Consulting
                       </a>
                       <a style={{lineHeight:"1.2"}}    className="mt-3" href="/providing-security">
-                      <i className="fas fa-caret-right"> </i> Technical Documentation On ITES
+                      <i   className="fas fa-circle iconStyle "> </i> Technical Documentation On ITES
                       </a>
                       
                     </Col>
@@ -121,16 +121,16 @@ function Header({ show,setShow }) {
                   <Col className="consultation" style={{borderRight:"1px solid #6f42c1"}}>
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/auditing"> Auditing</a>
                    <a style={{lineHeight:"1.2"}}    className="mt-3" href="/information-system">
-                        <i className="fas fa-caret-right"> </i> Information System Audit
+                        <i   className="fas fa-circle iconStyle "> </i> Information System Audit
                       </a>
                       <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/information-technology">
-                      <i className="fas fa-caret-right"> </i> Information Technology Audit
+                      <i   className="fas fa-circle iconStyle "> </i> Information Technology Audit
                       </a>
                       <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/information-security-graded">
-                      <i className="fas fa-caret-right"> </i>   Information Security Graded Audit
+                      <i   className="fas fa-circle iconStyle "> </i>   Information Security Graded Audit
                       </a>
                       <a style={{lineHeight:"1.2"}}   className="mt-3"  href="/dc-drs-auditing">
-                      <i className="fas fa-caret-right"> </i>  DC & DRS Auditing
+                      <i   className="fas fa-circle iconStyle "> </i>  DC & DRS Auditing
                       </a>
 
                   </Col>
@@ -141,21 +141,21 @@ function Header({ show,setShow }) {
  
                 
                       <a style={{lineHeight:"1.2"}} className="mt-3"   href="/vulnerability-assessment">
-                      <i className="fas fa-caret-right"> </i>   Vulnerability Assessment & Presentation Testing Services
+                      <i   className="fas fa-circle iconStyle "> </i>   Vulnerability Assessment & Presentation Testing Services
                       </a>
                  
                       <a  className="mt-3"  href="/digital-forensics">
-                      <i className="fas fa-caret-right"> </i>    Digital Forensics
+                      <i   className="fas fa-circle iconStyle "> </i>    Digital Forensics
                       </a>
                    
                       <a  className="mt-3"   href="/code-review">
-                      <i className="fas fa-caret-right"> </i>     Code Review
+                      <i   className="fas fa-circle iconStyle "> </i>     Code Review
                       </a>
                       <a  style={{lineHeight:"1.2"}}   className="mt-3"   href="/software-quality">
-                      <i className="fas fa-caret-right"> </i>   Software Quality Assurance & Testing
+                      <i   className="fas fa-circle iconStyle "> </i>   Software Quality Assurance & Testing
                         </a>
                         <a  style={{lineHeight:"1.2"}}  className="mt-3"  href="/swift-csp">
-                        <i className="fas fa-caret-right"> </i>  Swift CSP Independent Assessment
+                        <i   className="fas fa-circle iconStyle "> </i>  Swift CSP Independent Assessment
                       </a>
 
 
@@ -165,27 +165,27 @@ function Header({ show,setShow }) {
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/certification">Certification</a>
                  
                       <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/pci-dss-payment">
-                      <i className="fas fa-caret-right"> </i> PCI DSS Certification
+                      <i   className="fas fa-circle iconStyle "> </i> PCI DSS Certification
                       </a>
                    
                       <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/iso-international">
-                      <i className="fas fa-caret-right"> </i> ISO 27001, ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001, ISO 14001 etc.
+                      <i   className="fas fa-circle iconStyle "> </i> ISO 27001, ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001, ISO 14001 etc.
                       </a>
                  
                       <a  style={{lineHeight:"1.2"}}  className="mt-3"  href="/cmmi">
-                      <i className="fas fa-caret-right"> </i> CMMI (Capability Maturity Model Integration)
+                      <i   className="fas fa-circle iconStyle "> </i> CMMI (Capability Maturity Model Integration)
 
                       </a>
 
                       <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/tia-for-data-center">
-                      <i className="fas fa-caret-right"> </i>    Tia 942 For Data Center
+                      <i   className="fas fa-circle iconStyle "> </i>    Tia 942 For Data Center
                       </a>
 
                       <a  className="mt-3" href="/tia-for-data-center">
-                      <i className="fas fa-caret-right"> </i>    GDPR Assessment
+                      <i   className="fas fa-circle iconStyle "> </i>    GDPR Assessment
                       </a>
                       <a  className="mt-3" href="/tia-for-data-center">
-                      <i className="fas fa-caret-right"> </i>   HIPAA Assessment
+                      <i   className="fas fa-circle iconStyle "> </i>   HIPAA Assessment
                       </a>
 
                   </Col>
@@ -194,24 +194,24 @@ function Header({ show,setShow }) {
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/managed-service">Managed Services</a>
                  
                       <a  className="mt-3" href="/pci-dss-payment">
-                      <i className="fas fa-caret-right"> </i> SOC as A Service
+                      <i   className="fas fa-circle iconStyle "> </i> SOC as A Service
                       </a>
                    
                       <a   style={{lineHeight:"1.2"}}  className="mt-3" href="/iso-international">
-                      <i className="fas fa-caret-right"> </i> Cloud App Monitoring as A Service
+                      <i   className="fas fa-circle iconStyle "> </i> Cloud App Monitoring as A Service
                       </a>
                  
                       <a style={{lineHeight:"1.2"}}   className="mt-3"  href="/cmmi">
-                      <i className="fas fa-caret-right"> </i> MDR as A Service (Managed End Point Detection and Response)
+                      <i   className="fas fa-circle iconStyle "> </i> MDR as A Service (Managed End Point Detection and Response)
 
                       </a>
 
                       <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/tia-for-data-center">
-                      <i className="fas fa-caret-right"> </i>    Managed Nextgen Firewall as A Service
+                      <i   className="fas fa-circle iconStyle "> </i>   Managed Nextgen Firewall as A Service
                       </a>
 
                       <a  style={{lineHeight:"1.2"}}   className="mt-3" href="/tia-for-data-center">
-                      <i className="fas fa-caret-right"> </i> Vulnerability Assessment (VA) As A Service 
+                      <i   className="fas fa-circle iconStyle "> </i>  Vulnerability Assessment (VA) As A Service 
 
                       </a>
 
@@ -472,27 +472,24 @@ function Header({ show,setShow }) {
                     <Col style={{borderRight:"1px solid #6f42c1"}}>
                       <a  style={{fontWeight:"bold",color:"orange"}}href="/assesment">Assessment</a>
                       <a className="mt-3"  href="/certified-ethical-hacker">
-                      Certified Penetration Testing Professional (CPENT)
+                      Penetration Testing Professional (Custom)
                       </a>
                       <a className="mt-3"  href="/certified-ethical-hacker">
-                      Offensive Security Certified Professional (OSCP)
-
+                      Certified Information system Auditor (CISA)
                       </a>
                       <a className="mt-3"  href="/certified-ethical-hacker">
-                       Certified Information system Auditor (CISA)
-
+                      Computer Hacking Forensic Investigation (Custom)
                       </a>
                       <a className="mt-3"  href="/certified-ethical-hacker">
-                      Computer Hacking Forensic Investigator (CHFI)
-
+                      Web Application Penetration Testing (Custom)
                       </a>
-                      <a className="mt-3"  href="/giac-penetration">
+                      {/* <a className="mt-3"  href="/giac-penetration">
                       GIAC Penetration Testing (GPEN)
 
                       </a>
                       <a className="mt-3"  href="/giac-web-application">
                       GIAC Web Application Penetration Testing (GWAPT)
-                      </a>
+                      </a> */}
  
 
                     </Col>
@@ -500,41 +497,40 @@ function Header({ show,setShow }) {
                   <Col  style={{borderRight:"1px solid #6f42c1"}}>
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/management">Management</a>
                   <a className="mt-3"  href="/certified-ethical-hacker">
-                        Certified Ethical Hacker (CEH)
-                      </a>
-                  <a className="mt-2"  href="/certified-disaster">
-                        Certified Disaster 
-                      </a>
+                  Practical Ethical Hacking (Custom)                      </a>
+                 
                    
                       <a   className="mt-2"  href="/certified-incident-handler">
-                      Certified Incident Handler (ECIH)
+                      Disaster Recovery Professional (Custom)
+
                       </a>
                    
                       <a  className="mt-2" href="/certified-soc-analyst">
-                        Certified SOC Analyst(CSA)
+                      Incident Handler (Custom)
                       </a>
                     
                       <a className="mt-2"  href="/certified-threat">
-                        Certified Threat Intelligence Analyst(CTIA)
+                      Cyber Security Analyst (Custom)
                       </a>
                    
                      
                     
                       <a  className="mt-2" href="/certified-information-security">
-                        Certified Information Security Manager(CISM)
+                      Threat Intelligent Analyst (Custom)
                       </a>
                     
                       <a className="mt-2"  href="/certified-information-system-security">
-                        Certified Information Systems Security
-                        Professional(CISSP)
+                      Certified Information security Manager (CISM)
                       </a>
                     
                       <a  className="mt-2" href="/giac-certified-project">
-                        GIAC Certified Project Manager (GCPM)
+                      Certified Information System Security Professional (CISSP)
                       </a>
                       <a  className="mt-2" href="/giac-certified-project">
-                      Open Source Intelligence (OSINT) 
-                      </a>
+                      GIAC Certified Project Manager (GCPM) </a>
+
+                      <a  className="mt-2" href="/giac-certified-project">
+                      Open-Source Intelligence (OSINT)  </a>
 
                   </Col>
 

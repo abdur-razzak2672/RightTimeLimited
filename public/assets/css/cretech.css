@@ -8790,4 +8790,8 @@ button {
   line-height: 0;
   color: #000000;
 }
- 
+
+.iconStyle{
+ font-size:10px;
+ color:gray ;
+}
