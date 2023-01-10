@@ -527,6 +527,8 @@ function Header({ show,setShow }) {
                       Certified Information System Security Professional (CISSP)
                       </a>
                       <a  className="mt-2" href="/giac-certified-project">
+                      GIAC Certified  Incident Handler (GCIH) </a>
+                      <a  className="mt-2" href="/giac-certified-project">
                       GIAC Certified Project Manager (GCPM) </a>
 
                       <a  className="mt-2" href="/giac-certified-project">
