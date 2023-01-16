@@ -1,7 +1,7 @@
 import React,{ useState} from 'react'
 import { Button,Col,Form,Modal, Row } from 'react-bootstrap';
 
-function Team() {
+function TopManagement() {
   const [show, setShow] = useState(false);
 
   const [show1, setShow1] = useState(false);
@@ -54,7 +54,7 @@ function Team() {
                       <div className="img-container">
                       <img
                          className = "img-responsive"
-                          src= "/assets/images/team/Picsart_22-09-17_12-48-25-796.jpg"
+                          src= "/assets/images/team/Sahaly Yasmin Bhuiyan.jpg"
                           alt=""
                         />
                         
@@ -87,7 +87,7 @@ function Team() {
                       <div className="img-container">
                          <img
                          className = "img-responsive"
-                         src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
+                         src= "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"
                          alt=""
                         />
                       </div>
@@ -110,10 +110,10 @@ function Team() {
                   <article className="material-card Purple">
                   <a onClick={handleShow2} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
-                      <span>Arshad Mahmud</span>
+                      <span>Dr. Touuhid Bhuiyan</span>
                       <strong>
                         <i className="fa fa-fw fa-star"></i>
-                        Chief Operating Officer
+                        DIRECTOR, STRATEGIC PLANNING AND DEVELOPMENT
                       </strong>
                     </h2>
                     </a>
@@ -121,13 +121,13 @@ function Team() {
                       <div className="img-container">
                       <img
                          className = "img-responsive"
-                          src= "/assets/images/team/Picsart_22-09-17_12-49-21-996.jpg"
+                          src= "/assets/images/team/Photo1.jpeg"
                           alt=""
                         />
                          
                       </div>
                       <div className="mc-description mt-3">
-                        Chief Operating Officer of the company
+                      DIRECTOR, STRATEGIC PLANNING AND DEVELOPMENT
                       </div>
                     </div>
                     <a className="mc-btn-action">
@@ -146,10 +146,10 @@ function Team() {
                   <article className="material-card Deep-Purple">
                   <a onClick={handleShow3} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
-                      <span>Rashed Sarwar</span>
+                      <span>Arshad Mahmud</span>
                       <strong>
                         <i className="fa fa-fw fa-star"></i>
-                        Country Head, USA
+                       COO
                       </strong>
                     </h2>
                     </a>
@@ -158,11 +158,11 @@ function Team() {
                         
                         <img
                          className = "img-responsive"
-                          src= "/assets/images/team/Picsart_22-09-17_12-50-14-322.jpg"
+                          src= "/assets/images/team/Arshad -PP (New).jpeg"
                           alt=""
                         />
                       </div>
-                      <div className="mc-description mt-3">Country Head, USA</div>
+                      <div className="mc-description mt-3">COO</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
@@ -179,10 +179,10 @@ function Team() {
                   <article className="material-card Indigo">
                   <a onClick={handleShow4} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
-                      <span>Ms. Melinda</span>
+                      <span>Md. Shamim Al Mamun</span>
                       <strong>
                         <i className="fa fa-fw fa-star"></i>
-                        Country Head, Germany
+                        CHIEF TECHNOLOGY OFFICER (CTO)
                       </strong>
                     </h2>
                     </a>
@@ -190,11 +190,11 @@ function Team() {
                       <div className="img-container">
                          <img
                          className = "img-responsive"
-                          src= "/assets/images/team/Picsart_22-09-17_12-49-43-090.jpg"
+                          src= "/assets/images/team/Shamim-PP.jpeg"
                           alt=""
                         />
                       </div>
-                      <div className="mc-description mt-3">Country Head, Germany</div>
+                      <div className="mc-description mt-3">CHIEF TECHNOLOGY OFFICER (CTO)</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
@@ -211,10 +211,10 @@ function Team() {
                   <article className="material-card Blue">
                   <a onClick={handleShow5} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
-                      <span>Dr. Mahfuz Ashraf</span>
+                      <span>Mohammad Ziaul Haque</span>
                       <strong>
                         <i className="fa fa-fw fa-star"></i>
-                        Country Head, Australia
+                        CHIEF FINANCIAL OFFICER (CFO)
                       </strong>
                     </h2>
                     </a>
@@ -222,11 +222,11 @@ function Team() {
                       <div className="img-container">
                          <img
                          className = "img-responsive"
-                          src= "/assets/images/team/Picsart_22-09-17_12-49-58-327.jpg"
+                          src= "/assets/images/team/Picsart_22-09-17_12-4s9-58-327.jpg"
                           alt=""
                         />
                       </div>
-                      <div className="mc-description mt-3">Country Head, Australia</div>
+                      <div className="mc-description mt-3">CHIEF FINANCIAL OFFICER (CFO)</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
@@ -244,6 +244,9 @@ function Team() {
           </div>
         </div>
       </section>
+
+
+
  
  
       <Modal   size="lg" show={show} onHide={handleClose}>
@@ -262,7 +265,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-25-796.jpg"
+              src= "/assets/images/team/Sahaly Yasmin Bhuiyan.jpg"
               alt=""
             />
 
@@ -295,7 +298,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-48-53-762.jpg"
+              src= "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"
               alt=""
             />
 
@@ -328,7 +331,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-49-21-996.jpg"
+              src= "/assets/images/team/Photo1.jpeg"
 
                alt=""
             />
@@ -365,7 +368,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-50-14-322.jpg"
+              src= "/assets/images/team/Arshad -PP (New).jpeg"
               alt=""
             />
 
@@ -398,7 +401,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-49-43-090.jpg"
+              src= "/assets/images/team/Shamim-PP.jpeg"
               alt=""
             />
 
@@ -431,7 +434,7 @@ function Team() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Picsart_22-09-17_12-49-58-327.jpg"
+              src= "/assets/images/team/Picsart_22-09-17_12-49s-58-327.jpg"
               alt=""
             />
 
@@ -451,4 +454,4 @@ function Team() {
   )
 }
 
-export default Team
+export default TopManagement

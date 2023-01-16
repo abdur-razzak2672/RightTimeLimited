@@ -1,5 +1,7 @@
 import React,{ useState} from 'react'
 import  TopManagement from './TopManagement'
+import TechTeam from './TechTeam';
+import RegionalLeader from './RegionalLeader';
 function Team() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -24,6 +26,8 @@ function Team() {
       </div>
 
       <TopManagement/>
+      <TechTeam/>
+      <RegionalLeader/>
 
 
 
