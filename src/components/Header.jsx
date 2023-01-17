@@ -838,21 +838,21 @@ function Header({ show,setShow }) {
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/solution-partners">Solution Partner</a>
                    <a className="mt-3"  href="https://www.invicti.com/">INVICTI</a>
                       <a className="mx-3" href="https://www.invicti.com/">
-                         <i className="fas fa-caret-right "> </i> Net Sparker
+                      <i   className="fas fa-circle iconStyle "> </i>  Net Sparker
 
                       </a>
                       <a className="mx-3" href="https://www.invicti.com/">
-                         <i className="fas fa-caret-right "> </i>Acunetix etc.
+                      <i   className="fas fa-circle iconStyle "> </i> Acunetix etc.
                       </a>
 
 
                       <a className="mt-3"  href="https://www.invicti.com/">Tenable</a>
                       <a className="mx-3" href="https://www.invicti.com/">
-                         <i className="fas fa-caret-right "> </i> Nessus Pro
+                      <i   className="fas fa-circle iconStyle "> </i>  Nessus Pro
 
                       </a>
                       <a className="mx-3" href="https://www.invicti.com/">
-                         <i className="fas fa-caret-right "> </i>All Tenable Products
+                      <i   className="fas fa-circle iconStyle "> </i> All Tenable Products
                       </a>
 
  
@@ -861,7 +861,7 @@ function Header({ show,setShow }) {
                       </a>
 
                       <a className="mx-3" href="https://www.invicti.com/">
-                         <i className="fas fa-caret-right "> </i> Core Impact
+                      <i   className="fas fa-circle iconStyle "> </i>   Core Impact
                       </a>
                   
                       <a className="mt-3"  href="https://portswigger.net/burp">SCK & ARS (ISO)</a>

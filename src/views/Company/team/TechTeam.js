@@ -162,7 +162,8 @@ function TechTeam() {
                           alt=""
                         />
                       </div>
-                      <div className="mc-description mt-3">COO</div>
+                      <div className="mc-description mt-3">     SECURITY ANALYST
+</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
