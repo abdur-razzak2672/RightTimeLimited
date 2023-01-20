@@ -466,7 +466,7 @@ function Header({ show,setShow }) {
  
             <li className="dropdown serviceNav2 steps-sampling">
               <Link to="/training" className="dropbtn1z">Training</Link>
-              <div style={{left:"-380px",minWidth:"1000px",height:"530px"}} className=" dropdown-content">
+              <div style={{left:"-500px",minWidth:"1000px",height:"530px"}} className=" dropdown-content">
                 <Container className="mt-4">
                   <Row>
                     <Col style={{borderRight:"1px solid #6f42c1"}}>
@@ -545,7 +545,7 @@ function Header({ show,setShow }) {
     
                       <a  className="mt-3 divClass"  href="/basic-corporate">
                       Foundation track - (Corporate) <i className="fas fa-caret-right "></i>
-                           <span> 
+                           <span className="AnchorHide"> 
                               <a href='/service'>Basic</a>
                                 <a href="/" className="mx-3">  <i   className="fas fa-circle iconStyle "> </i> Certified Secure Computer User (CSCU-112-12)</a>
                               
@@ -562,7 +562,7 @@ function Header({ show,setShow }) {
 
                       <a  className="mt-3 divClass"  href="/basic-corporate">
                     Network Defense and Operations - (Corporate)<i className="fas fa-caret-right "></i>
-                           <span> 
+                           <span className="AnchorHide"> 
                               <a href='/service'>Basic</a>
                                 <a href="/" className="mx-3">  <i   className="fas fa-circle iconStyle "> </i> Certified Network Defense (CND-312-38)</a>
                               
@@ -580,7 +580,7 @@ function Header({ show,setShow }) {
 
                       <a  className="mt-3 divClass"  href="/basic-corporate">
                        Software Security - (Corporate) <i className="fas fa-caret-right "></i>
-                           <span> 
+                           <span className="AnchorHide"> 
                               <a href='/service'>Basic</a>
                                 <a href="/" className="mx-3">  <i   className="fas fa-circle iconStyle "> </i> Certified Secure Computer User (CSCU-112-12)</a>
                               
@@ -598,7 +598,7 @@ function Header({ show,setShow }) {
 
                       <a  className="mt-3 divClass"  href="/basic-corporate">
                       Vulnerability Assessment & Penetration Testing (VA & PT) - (Corporate)  <i className="fas fa-caret-right "></i>
-                           <span> 
+                           <span className="AnchorHide"> 
                               <a href='/service'>Basic</a>
                                 <a href="/" className="mx-3">  <i   className="fas fa-circle iconStyle "> </i> 	Certified Ethical hacker (CEH-312-50)</a>
                                 <a href="/" className="mx-3">  <i   className="fas fa-circle iconStyle "> </i> 	Certified Network Defense (CND-312-38)</a>
@@ -618,7 +618,7 @@ function Header({ show,setShow }) {
 
                       <a  className="mt-3 divClass"  href="/basic-corporate">
                    Cyber Forensic - (Corporate) <i className="fas fa-caret-right "></i>
-                           <span> 
+                           <span className="AnchorHide"> 
                               <a href='/service'>Basic</a>
                                 <a href="/" className="mx-3">  <i   className="fas fa-circle iconStyle "> </i> 	Certified Ethical hacker (CEH-312-50)</a>
                                 <a href="/" className="mx-3">  <i   className="fas fa-circle iconStyle "> </i>  Certified Network Defense (CND-312-38)</a>
@@ -634,8 +634,8 @@ function Header({ show,setShow }) {
                               </span>
                       </a>
                       <a  className="mt-3 divClass"  href="/basic-corporate">
-                     Governance - (Corporate) <i className="fas fa-caret-right "></i>
-                           <span> 
+                                  Governance - (Corporate) <i className="fas fa-caret-right "></i>
+                           <span className="AnchorHide"> 
                               <a href='/service'> Certified Chief Information Security Officer (CCISO)</a>
                                 
                               </span>

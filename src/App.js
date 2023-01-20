@@ -119,7 +119,7 @@ import OneToOneTraining from "./views/Training/Customized/OneToOneTraining";
 //Careers Section Imported Start
 import CareersBody from "./views/Careers/CareersBody";
 import ViewJob from "./views/Careers/ViewJob";
-import StartProject from "./views/Careers/StartProject";
+import ApplyJob from "./views/Careers/ApplyJob";
 //Careers Section Imported End
 
 //Contact Section Imported Start
@@ -411,7 +411,7 @@ function App() {
         {/*Careers Section Route Declaration start */}
         <Route path="/careers" component={CareersBody} exact />
         <Route path="/view-job" component={ViewJob} exact />
-        <Route path="/contact" component={StartProject} exact />
+        <Route path="/apply-job" component={ApplyJob} exact />
 
         {/*Careers Section Route Declaration End */}
 
