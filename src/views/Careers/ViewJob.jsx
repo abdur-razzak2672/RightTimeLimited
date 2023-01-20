@@ -211,7 +211,7 @@ function ViewJob() {
           <div className="section-title text-center pt-5">
              <h2 className="section-title__title text-light mt-5">ReadyTo Build Successfull Tech Product </h2>
              <h4 className ="mt-3">We are eager to listen to your digital vision and work together to make this a success. Just fill in this form and we’ll get back to you within 24 business hours</h4>
-             <a href="/contact" className=" mt-5 thm-btn cta-two__btn rounded-5">
+                   <a href="/contact" className=" mt-5 thm-btn cta-two__btn rounded-5">
                     <span>Start a Project <i className="mx-3 fas fa-arrow-right"></i></span> 
                   </a>
 
