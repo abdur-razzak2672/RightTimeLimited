@@ -120,6 +120,7 @@ import OneToOneTraining from "./views/Training/Customized/OneToOneTraining";
 import CareersBody from "./views/Careers/CareersBody";
 import ViewJob from "./views/Careers/ViewJob";
 import ApplyJob from "./views/Careers/ApplyJob";
+import AllJob from "./views/Careers/AllJob";
 //Careers Section Imported End
 
 //Contact Section Imported Start
@@ -412,6 +413,8 @@ function App() {
         <Route path="/careers" component={CareersBody} exact />
         <Route path="/view-job" component={ViewJob} exact />
         <Route path="/apply-job" component={ApplyJob} exact />
+        <Route path="/All-job" component={AllJob} exact />
+
 
         {/*Careers Section Route Declaration End */}
 

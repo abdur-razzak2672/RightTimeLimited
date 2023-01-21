@@ -13,7 +13,7 @@ function CareersBody() {
         <h2 className="page-header__title">Career </h2>
 
           <h2 className="page-header__title"> Innovate, win and grow your career here. </h2>
-          <a href="/apply-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
+          <a href="/all-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
                     <span>Apply Now<i className="mx-3 fas fa-arrow-right"></i></span> 
                   </a>
         </div>
@@ -27,7 +27,7 @@ function CareersBody() {
               <h3>For every individual in this organization, everything we do is focused on customer delight</h3>
               <p>Whether you’re a people success advisor, software developer or sales professional, everything you do connects back to the customer, helping them grow their businesses and win in their markets. Every interaction makes an impression.</p>
               <p>We’re looking for team members that want to innovate, win and grow with us. We share ideas, innovate together and support each other personally and professionally.  Working collaboratively with customers, partners and each other, we achieve a common goal of exceeding customer expectations. </p>
-              <a href="/apply-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
+              <a href="/all-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
                     <span>Apply Now<i className="mx-3 fas fa-arrow-right"></i></span> 
                   </a>
 
@@ -145,7 +145,7 @@ function CareersBody() {
         </div>
 
         <p className='text-center mt-4'>Bottomline Technologies is an Equal Opportunity and Affirmative Action Employer participating in the Employment Verification (E-Verify) program.</p>
-
+all-job
 
 
 
@@ -161,7 +161,7 @@ function CareersBody() {
             <h2 className='text-info'>Right Time</h2>
               <h3>Come work with us</h3>
 
-              <a href="/apply-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
+              <a href="/all-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
                     <span>Apply Now<i className="mx-3 fas fa-arrow-right"></i></span> 
                   </a>
                

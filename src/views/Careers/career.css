@@ -83,4 +83,15 @@
 
 /* Additional demo display styles */
 
+
+.cardItem{
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  padding: 12px;
+}
+ 
+.hoverable :hover{
+  background-color: rgb(52, 52, 171);
+  color: #fff !important;
+}
  
