@@ -53,7 +53,7 @@ function Header({ show,setShow }) {
                 <Container className="mt-4">
                   <Row>
                     <Col style={{borderRight:"1px solid #6f42c1"}}>
-                      <a  style={{fontWeight:"bold",color:"orange"}}href="/about-us">News & Events</a>
+                      <a  style={{fontWeight:"bold",color:"orange"}}href="/about-us">About Right Time</a>
                       <a className="mt-3"  href="/team">
                        Team
                       </a>
