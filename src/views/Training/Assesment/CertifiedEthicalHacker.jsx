@@ -12,9 +12,11 @@ function CertifiedEthicalHacker() {
     <ul className="thm-breadcrumb list-unstyled">
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/services') }}">Training</a></li>
-            <li>Ethical Hacker</li>
+            <li><a href="{{ url('/services') }}">Management</a></li>
+
+            <li>Practical Ethical Hacking (Custom)</li>
         </ul>
-        <h2 className="page-header__title">Certified Ethical Hacker</h2>
+        <h2 className="page-header__title">Practical Ethical Hacking (Custom)</h2>
     </div> 
 </div> 
 <section className="section-padding--bottom section-padding--top">

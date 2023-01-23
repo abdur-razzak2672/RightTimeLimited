@@ -25,8 +25,8 @@ function Header({ show,setShow }) {
           <ul className="main-menu__list steps-sampling">
 
           <li className="menu-item-has-children">
-            <a id="link1" href="/">Company</a>  
-              <ul>
+            <a id="link1" href="/">Home</a>  
+              {/* <ul>
                 <li>
                   <Link to="/about-us">About Us</Link>
                 </li>
@@ -40,8 +40,93 @@ function Header({ show,setShow }) {
                    Team
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
+
+
+
+
+
+            <li className="dropdown serviceNav2 steps-sampling">
+              <Link to="/training" className="dropbtn1z">About Us</Link>
+              <div style={{left:"-200px",minWidth:"700px",height:"330px"}} className=" dropdown-content">
+                <Container className="mt-4">
+                  <Row>
+                    <Col style={{borderRight:"1px solid #6f42c1"}}>
+                      <a  style={{fontWeight:"bold",color:"orange"}}href="/about-us">News & Events</a>
+                      <a className="mt-3"  href="/team">
+                       Team
+                      </a>
+                      <a className="mt-3"  href="/careers">
+                      Careers
+                      </a>
+                      <a className="mt-3"  href="/certified-ethical-hacker">
+                      	Mission statement
+                      </a>
+                      <a className="mt-3"  href="/contact-us">
+                       	Contact (Get in Touch)
+                      </a>
+           
+                    </Col>
+
+                  <Col  style={{borderRight:"1px solid #6f42c1"}}>
+                  <a  style={{fontWeight:"bold",color:"orange"}}href="/management">News & Events</a>
+                  <a className="mt-3"  href="/certified-ethical-hacker">
+                  	Press Release              </a>
+                 
+                   
+                      <a   className="mt-2"  href="/certified-incident-handler">
+                      	Publications
+
+                      </a>
+                   
+                      <a  className="mt-2" href="/certified-soc-analyst">
+                     Events
+                      </a>
+                    
+                      <a className="mt-2"  href="/certified-threat">
+                      	Picture Gallery
+                      </a>
+                   
+                     
+                    
+                       
+
+                  </Col>
+
+                  <Col >
+                  
+                  <a  style={{fontWeight:"bold",color:"orange"}}href="/Customized">Resources & Partners</a>
+
+                  <a className="mt-3"  href="/association-partners">
+                  Association
+                      </a>
+                      <a className="mt-3"  href="/partners">
+                       	Partner                      </a>
+                      <a className="mt-3"  href="/certified-threat">
+                      	Download Center
+                      </a>
+
+
+
+
+                           
+     
+
+
+ 
+                  </Col>
+   
+                </Row>
+              </Container>
+                    
+
+              </div>
+            </li>
+
+
+
+
 
 
   
@@ -49,7 +134,7 @@ function Header({ show,setShow }) {
 
 
             <li className="menu-item-has-children">
-              <Link to="/industries">Industries</Link>
+              <Link to="/industries">Industry Coverage</Link>
               <ul>
                 <li>
                   <Link to="/bank-nbfi">FIs - Bank & NBFI</Link>
@@ -96,7 +181,7 @@ function Header({ show,setShow }) {
             
 
             <li className="dropdown serviceNav2 steps-sampling">
-              <Link to="/services" className="dropbtn1">Services</Link>
+              <Link to="/services" className="dropbtn1"> Services</Link>
               <div className="dropdown-content">
                 <Container className="mt-4">
                   <Row>
@@ -354,7 +439,7 @@ function Header({ show,setShow }) {
             
 
             <li className="dropdown serviceNav2 steps-sampling">
-              <Link to="/solutions" className="dropbtn1">Solutions</Link>
+              <Link to="/solutions" className="dropbtn1"> Solutions</Link>
               <div  style ={{  minWidth: "600px",left:"-280px",height:"400px"}} className="dropdown-content">
                 <Container className="mt-4">
                   <Row>
@@ -926,8 +1011,8 @@ function Header({ show,setShow }) {
             </li>
 
 
-        <li className="menu-item-has-children">
-        <Link to="/association-partners">Association</Link>  
+        {/* <li className="menu-item-has-children">
+        <Link to="/blogs">Cyber Blog</Link>  
               <ul>
                 <li>
                   <Link to="https://portswigger.net/burp">CCA, Ministry of ICT (First and 2022)</Link>
@@ -972,9 +1057,9 @@ function Header({ show,setShow }) {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
-
+{/* 
             <li className="menu-item-has-children">
             <Link to="/blogs">Resources</Link>  
               <ul>
@@ -1014,10 +1099,18 @@ function Header({ show,setShow }) {
                   Useful Links  </Link>
                 </li>
               </ul>
+            </li> */}
+
+<li>
+              <Link to="/blogs"> 	Cyber Blog</Link>
             </li>
+             <li>
+              <Link to="/contact-us">Contact Us</Link>
+            </li>
+            
 
             <li>
-              <Link to="/contact-us">Contact Us</Link>
+              <Link to="/incident"> Incident</Link>
             </li>
           </ul>
 

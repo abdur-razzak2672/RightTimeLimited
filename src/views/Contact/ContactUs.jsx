@@ -132,12 +132,13 @@ function ContactUs() {
             <li><a href="index.html">Home</a></li>
             <li>Contact</li>
           </ul>
-          <h2 className="page-header__title">Contact</h2>
+          <h2 className="page-header__title">Contact (Get in Touch)</h2>
         </div>
       </div>
       <section className="contact-one section-padding--top section-padding--bottom">
         <div className=" ">
-          <div className="row">
+          <h2 className='text-center '>Contact (Get in Touch)</h2>
+          <div className="row mt-5">
             <div className="col-lg-7">                            
 
               <section className="container">                             
