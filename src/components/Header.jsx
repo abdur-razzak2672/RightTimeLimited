@@ -1110,7 +1110,7 @@ function Header({ show,setShow }) {
             
 
             <li>
-              <Link to="/incident"> Incident</Link>
+              <Link to="/incident"> Incident !</Link>
             </li>
           </ul>
 
