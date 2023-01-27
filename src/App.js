@@ -142,6 +142,7 @@ import Team from "./views/Company/team/Team";
 
 // Account Section Imported Start
 import Login from "./views/Accounts/Login";
+import LoginBody from "./views/Accounts/LoginBody";
 
 function App() {
   const [show, setShow] = useState("1");
@@ -230,7 +231,7 @@ function App() {
             
            
           }
-         <a className="px-3" href="/login"> <li className="px-3 text-light  " style={{border:"1px solid gray"}}>Login (Customer + Employee)</li></a>
+         <a className="px-3" href="/login-body"> <li className="px-3 text-light  " style={{border:"1px solid gray"}}>Login (Customer + Employee)</li></a>
 
             <li>
               <div className="dropdown">
@@ -432,6 +433,8 @@ function App() {
 
            {/*account Section Route Declaration start */}
            <Route path="/login" component={Login} exact />
+           <Route path="/login-body" component={LoginBody} exact />
+
 
 
       

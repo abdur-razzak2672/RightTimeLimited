@@ -24,9 +24,15 @@ function AllJob() {
             <div className='text-center mt-5 d-flex justify-content-center'>
                 <select style={{fontSize:"22px"}} className='border-0'>
                     <option value="1">Department</option>
-                    <option value="1">SQA</option>
-                    <option value="1">software Engineer</option>
-                    <option value="1">Web Developer</option>
+                    <option value="1">IS/IT security Consultation</option>
+                    <option value="1">Management</option>
+                    <option value="1">HR & Admin</option>                
+                    <option value="1">Accounts & Finance</option>
+                    <option value="1">Sales & Marketing</option>
+                    <option value="1">Common Service Department</option>
+                    <option value="1">IS/IT Security Assessment & Audit</option>
+                    <option value="1">Skill development</option>
+                    <option value="1">Research and development (R & D)</option>
                 </select>
 
                 <select style={{fontSize:"22px"}} className='border-0 mx-5'>
@@ -34,6 +40,7 @@ function AllJob() {
                     <option value="1">USA</option>
                     <option value="1">Jarmany</option>
                     <option value="1">Australiar</option>
+    
                 </select>
  
             </div>
@@ -43,7 +50,7 @@ function AllJob() {
             <a className='hoverable '  href='/view-job'>   
             <div className='cardItem'>
                 
-                <h2 >Accounts Payable Associate</h2>
+                <h2 >IS/IT security Consultation</h2>
                 <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
                 <p className='text-info'>Finance & Legal</p>    
             </div>
@@ -52,7 +59,7 @@ function AllJob() {
               <a className='hoverable '  href='/view-job'>   
             <div className='cardItem mt-4'>
                 
-                <h2 >Accounts Receivable Representative</h2>
+                <h2 >Management</h2>
                 <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
                 <p className='text-info'>Finance & Legal</p>    
             </div>
@@ -61,7 +68,7 @@ function AllJob() {
               <a className='hoverable '  href='/view-job'>   
             <div className='cardItem mt-4'>
                 
-                <h2 >Director of Finance</h2>
+                <h2 >HR & Admin</h2>
                 <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
                 <p className='text-info'>Finance & Legal</p>    
             </div>
@@ -70,7 +77,7 @@ function AllJob() {
               <a className='hoverable '  href='/view-job'>   
             <div className='cardItem mt-4'>
                 
-                <h2 >Junior Revenue Accountant</h2>
+                <h2 >Accounts & Finance</h2>
                 <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
                 <p className='text-info'>Finance & Legal</p>    
             </div>
@@ -78,16 +85,7 @@ function AllJob() {
               <a className='hoverable '  href='/view-job'>   
             <div className='cardItem mt-4'>
                 
-                <h2 >Legal Associate</h2>
-                <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
-                <p className='text-info'>Finance & Legal</p>    
-            </div>
-              </a>
-
-              <a className='hoverable '  href='/view-job'>   
-            <div className='cardItem mt-4'>
-                
-                <h2 >Senior Finance Associate</h2>
+                <h2 >Sales & Marketing</h2>
                 <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
                 <p className='text-info'>Finance & Legal</p>    
             </div>
@@ -96,7 +94,7 @@ function AllJob() {
               <a className='hoverable '  href='/view-job'>   
             <div className='cardItem mt-4'>
                 
-                <h2 >Marketing Database and Reporting Analyst</h2>
+                <h2 >Common Service Department</h2>
                 <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
                 <p className='text-info'>Finance & Legal</p>    
             </div>
@@ -105,7 +103,7 @@ function AllJob() {
               <a className='hoverable '  href='/view-job'>   
             <div className='cardItem mt-4'>
                 
-                <h2 >Senior Manager Marketing Fraud and Financial Crime</h2>
+                <h2 >IS/IT Security Assessment & Audit</h2>
                 <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
                 <p className='text-info'>Finance & Legal</p>    
             </div>
@@ -114,7 +112,16 @@ function AllJob() {
               <a className='hoverable '  href='/view-job'>   
             <div className='cardItem mt-4'>
                 
-                <h2 clas>Accounts Payable Associate</h2>
+                <h2 >Skill development</h2>
+                <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
+                <p className='text-info'>Finance & Legal</p>    
+            </div>
+              </a>
+
+              <a className='hoverable '  href='/view-job'>   
+            <div className='cardItem mt-4'>
+                
+                <h2 clas>Research and development (R & D)</h2>
                 <p className='my-3' style={{borderBottom:"1px solid lightgray"}}></p>
                 <p className='text-info'>Finance & Legal</p>    
             </div>
