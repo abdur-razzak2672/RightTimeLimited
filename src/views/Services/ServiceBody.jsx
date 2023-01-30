@@ -1,6 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './services.css'
+import Consultation from './ServicesBody/Consultation';
+import BenitsConpany from './ServicesBody/BenitsConpany'
+import Testing from './ServicesBody/Testing';
+import Auditing from './ServicesBody/Auditing';
 function ServiceBody() {
+    const [tabIndex, setTabIndex] = useState(1);
     return (
         <div>
             <div className="page-header">
@@ -25,382 +30,84 @@ function ServiceBody() {
                 style={{ backgroundImage: `url('/assets/images/shapes/service-four-bg-1-1.png')` }}>
 
                 <section className="section-padding--bottom text-center">
-                    <div className="container">
-                        <div className="section-title text-center">
-                            <p className="section-title__text">Company Benefits</p>
-                            <h2 className="section-title__title">We Provide Best Information Security <br /> Service and Solution For 13 Years</h2>
+                    <BenitsConpany/>
+                    
+                </section>
+
+
+                <section  className="container">
+
+                    <div className='row'>
+                        <div className='col-md-4 '>
+                           <div className=' servicesItem'  >
+                           <a  onClick={() => setTabIndex(1)} href='#javascript void(0)'>Consultation</a>  
+                      
+                           </div>
+                           <div className='servicesItem'  >
+                           <a onClick={() => setTabIndex(2)}  href='#javascript void(0)'>Consultation</a> 
+                      
+                           </div>
+                           <div className=' servicesItem'  >
+                           <a onClick={() => setTabIndex(3)}  href='#javascript void(0)'>Consultation</a> 
+                      
+                           </div>
+
+
 
                         </div>
 
-                         <div className="uk-section uk-section-default">
-                            <div className="uk-container">
-                                <div className="row col-xs-6 uk-margin uk-grid-match uk-grid-collapse uk-child-width-1-4@l uk-text-center" uk-grid>
-                                    <div className=" col-lg-2 col-md-3 col-sm-6 borderReidus uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="far fa-newspaper fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="far fa-newspaper fa-3x"></i></span>
-                                                </div>
-                                                <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-ribbon fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-ribbon fa-3x"></i></span>
-                                                </div>
-                                                 <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
 
-                                            </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div  className=" col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fab fa-joomla fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fab fa-joomla fa-3x"></i></span>
-                                                </div>
-                                                <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                             </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="far fa-comment-dots fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="far fa-comment-dots fa-3x"></i></span>
-                                                </div>
-                                                 <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                             </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                        <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-cogs fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-cogs fa-3x"></i></span>
-                                                </div>
-                                                 <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                             </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div className="borderReidus col-lg-2 col-md-3 col-sm-6 uk-visible-toggle mt-3" tabindex="-1">
-                                        <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                        <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-code fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-code fa-3x"></i></span>
-                                                </div>
-                                                 <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                             </div>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row col-xs-6 uk-margin uk-grid-match uk-grid-collapse uk-child-width-1-4@l uk-text-center" uk-grid>
-                                    <div className=" col-lg-2 col-md-3 col-sm-6 borderReidus uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="far fa-newspaper fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="far fa-newspaper fa-3x"></i></span>
-                                                </div>
-                                                <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-ribbon fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-ribbon fa-3x"></i></span>
-                                                </div>
-                                                 <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
+                        <div className='col-md-4'>
 
-                                            </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div  className=" col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fab fa-joomla fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fab fa-joomla fa-3x"></i></span>
-                                                </div>
-                                                <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                             </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="far fa-comment-dots fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="far fa-comment-dots fa-3x"></i></span>
-                                                </div>
-                                                 <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                             </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-2 col-md-3 col-sm-6 uk-visible-toggle  mt-3" tabindex="-1">
-                                        <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                        <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-cogs fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-cogs fa-3x"></i></span>
-                                                </div>
-                                                 <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                             </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div className="borderReidus col-lg-2 col-md-3 col-sm-6 uk-visible-toggle mt-3" tabindex="-1">
-                                        <div className="borderReidus uk-margin uk-card uk-card-default uk-card-hover">
-                                        <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-code fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-code fa-3x"></i></span>
-                                                </div>
-                                                 <h5 className="uk-card-title uk-margin mt-5">Enterprice <br/>Networking <br/>Testing</h5>
-                                                <h6>...............</h6>
-                                             </div>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
+                            <div>
+
+                            {
+                            tabIndex === 1 && (
+                             <Consultation/>
                                 
-                                {/* <div className="row">
-                                <div className="uk-visible-toggle" tabindex="-1">
-                                        <div className="uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-cogs fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-cogs fa-3x"></i></span>
-                                                </div>
-                                                <h3 className="uk-card-title uk-margin">Framework</h3>
-                                            </div>
-                                            <div className="uk-card-footer default">
-                                                <p>Framework for developing</p>
-                                            </div>
-                                            <div className="uk-card-footer uk-hidden-hover">
-                                                <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                                                    <div className="uk-navbar-center uk-navbar-item">
-                                                        <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="uk-visible-toggle" tabindex="-1">
-                                        <div className="uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-server fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-server fa-3x"></i></span>
-                                                </div>
-                                                <h3 className="uk-card-title uk-margin">Host</h3>
-                                            </div>
-                                            <div className="uk-card-footer default">
-                                                <p>Web hosting service</p>
-                                            </div>
-                                            <div className="uk-card-footer uk-hidden-hover">
-                                                <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                                                    <div className="uk-navbar-center uk-navbar-item">
-                                                        <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="uk-visible-toggle" tabindex="-1">
-                                        <div className="uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-film fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-film fa-3x"></i></span>
-                                                </div>
-                                                <h3 className="uk-card-title uk-margin">Movie</h3>
-                                            </div>
-                                            <div className="uk-card-footer default">
-                                                <p>Online movie service</p>
-                                            </div>
-                                            <div className="uk-card-footer uk-hidden-hover">
-                                                <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                                                    <div className="uk-navbar-center uk-navbar-item">
-                                                        <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="uk-visible-toggle" tabindex="-1">
-                                        <div className="uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-cogs fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-cogs fa-3x"></i></span>
-                                                </div>
-                                                <h3 className="uk-card-title uk-margin">Framework</h3>
-                                            </div>
-                                            <div className="uk-card-footer default">
-                                                <p>Framework for developing</p>
-                                            </div>
-                                            <div className="uk-card-footer uk-hidden-hover">
-                                                <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                                                    <div className="uk-navbar-center uk-navbar-item">
-                                                        <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="uk-visible-toggle" tabindex="-1">
-                                        <div className="uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fab fa-joomla fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fab fa-joomla fa-3x"></i></span>
-                                                </div>
-                                                <h3 className="uk-card-title uk-margin">CMS</h3>
-                                            </div>
-                                            <div className="uk-card-footer default">
-                                                <p>Content Management System</p>
-                                            </div>
-                                            <div className="uk-card-footer uk-hidden-hover">
-                                                <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                                                    <div className="uk-navbar-center uk-navbar-item">
-                                                        <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="uk-visible-toggle" tabindex="-1">
-                                        <div className="uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-code fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-code fa-3x"></i></span>
-                                                </div>
-                                                <h3 className="uk-card-title uk-margin">Developer</h3>
-                                            </div>
-                                            <div className="uk-card-footer default">
-                                                <p>Developing</p>
-                                            </div>
-                                            <div className="uk-card-footer uk-hidden-hover">
-                                                <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                                                    <div className="uk-navbar-center uk-navbar-item">
-                                                        <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="uk-visible-toggle" tabindex="-1">
-                                        <div className="uk-margin uk-card uk-card-default uk-card-hover">
-                                            <div className="uk-card-body">
-                                                <a className="uk-link-reset uk-position-cover" href="/career"></a>
-                                                <div className="uk-flex uk-flex-center">
-                                                    <span className="uk-icon default"><i className="fas fa-server fa-3x"></i></span>
-                                                    <span className="uk-icon hover"><i className="fas fa-server fa-3x"></i></span>
-                                                </div>
-                                                <h3 className="uk-card-title uk-margin">Host</h3>
-                                            </div>
-                                            <div className="uk-card-footer default">
-                                                <p>Web hosting service</p>
-                                            </div>
-                                            <div className="uk-card-footer uk-hidden-hover">
-                                                <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                                                    <div className="uk-navbar-center uk-navbar-item">
-                                                        <ul className="uk-navbar-nav">
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="46"><span className="uk-icon uk-margin-small-right"><i className="far fa-eye"></i></span>Hits</a></li>
-                                                            <li><a className="tooltip-top" href="/career" data-tooltip="81"><span className="uk-icon uk-margin-small-right"><i className="fas fa-archive"></i></span>Websites</a></li>
-                                                            <li className="uk-padding-remove"><a className="tooltip-top" href="/career" data-tooltip="Social"><span className="uk-icon uk-margin-small-right"><i className="fas fa-share-alt"></i></span>Share</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div> */}
+                            
+                            )
+                            }
+                            {
+                            tabIndex === 2 && (
+                             <Auditing/>
+                                
+                            
+                            )
+                            }
+                            {
+                            tabIndex === 3 && (
+                             <Testing/>
+                                
+                            
+                            )
+                            }
+                                                    
                             </div>
+
                         </div>
+
+                        
+
 
                     </div>
+
+
+
                 </section>
 
 
 
-                <div className="container">
+
+
+
+
+
+
+
+
+
+                <div  className="container">
                     <div className="section-title text-center">
                         <p className="section-title__text">Popular Services</p>
                         <h2 className="section-title__title">We Provide Our Client Best <br />Information Security Solution & Services</h2>

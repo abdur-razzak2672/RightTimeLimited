@@ -209,3 +209,31 @@
  }
  }
  
+
+.servicesItem{
+  padding: 15px;
+  width: 100%;
+    margin-bottom: 12px;
+ 
+}
+
+.servicesItem a:hover{
+  padding: 15px;
+  color: #ffff;
+  
+   background-color: #79130a;
+
+}
+
+.servicesItem a:focus{  
+   background-color: #79130a;
+   color: #ffff;
+
+
+}
+ .servicesItem a{
+ color: black;
+ text-decoration: none;
+ padding: 15px;
+ 
+ }
