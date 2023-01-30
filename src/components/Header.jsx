@@ -897,7 +897,7 @@ function Header({ show,setShow }) {
               </ul>
             </li>
 
-            <li className="dropdown serviceNav2">
+            {/* <li className="dropdown serviceNav2">
               <Link to="/partners" className="dropbtn1">Partners</Link>
               <div  style ={{  minWidth: "600px",left:"-280px",height:"500px"}} className="dropdown-content">
                 <Container className="mt-4">
@@ -961,7 +961,7 @@ function Header({ show,setShow }) {
                     
 
               </div>
-            </li>
+            </li>  
 
             <li className="servicNav steps-sampling">
               <Link to="/partners">Partners</Link>
@@ -1008,7 +1008,7 @@ function Header({ show,setShow }) {
                 </li>
                  
               </ul>
-            </li>
+            </li>*/}
 
 
         {/* <li className="menu-item-has-children">
