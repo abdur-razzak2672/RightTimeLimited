@@ -148,11 +148,11 @@ function App() {
   const [show, setShow] = useState("1");
 
 
-  function showCountry(e) {
-    const num = e.target.value;
-    console.log(num);
-    setShow([...show, num]);
-  }
+  // function showCountry(e) {
+  //   const num = e.target.value;
+  //   console.log(num);
+  //   setShow([...show, num]);
+  // }
 
 
   return (
@@ -252,10 +252,10 @@ function App() {
                   setShow(event.target.value);
                 }}
                 >
-                <option onClick={showCountry} value="1"><a href="/">Bangladesh</a></option>
-                <option onClick={showCountry}value="2"><a href="/">USA</a></option>
-                <option onClick={showCountry}value="3"><a href="/">Australia</a></option>
-                <option onClick={showCountry} value="4"><a href="/">Germany</a></option>
+                <option   value="1"><a href="/">Bangladesh</a></option>
+                <option  value="2"><a href="/">USA</a></option>
+                <option  value="3"><a href="/">Australia</a></option>
+                <option  value="4"><a href="/">Germany</a></option>
                </select>               
               </div>
             </li>
