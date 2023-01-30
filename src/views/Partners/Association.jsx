@@ -16,15 +16,15 @@ function Association() {
         <div className="container">
             <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="/">Home</a></li>
-                <li>Partners</li>
+                <li>Association</li>
             </ul>
-            <h2 className="page-header__title">Partners</h2>
+            <h2 className="page-header__title">Association</h2>
         </div>
     </div>
     <section className="section-padding--bottom text-center mt-5">
         <div className="container">
             <div className="section-title text-center">
-                <h2 className="">Services Partner</h2>
+                <h2 className="">Association</h2>
 
             </div>
             <div className="row gutter box text-center col-xs-6">
