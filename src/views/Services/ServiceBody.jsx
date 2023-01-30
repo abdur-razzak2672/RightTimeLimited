@@ -36,19 +36,24 @@ function ServiceBody() {
 
 
                 <section  className="container">
+                    <h1 className='text-center'>Consultation</h1>
 
-                    <div className='row'>
-                        <div className='col-md-4 '>
+                    <div className='row mt-4'>
+                        <div className='col-md-5 '>
                            <div className=' servicesItem'  >
-                           <a  onClick={() => setTabIndex(1)} href='#javascript void(0)'>Consultation</a>  
+                           <a className=' active focus'  onClick={() => setTabIndex(1)} href='#javascript void(0)'> Information Security & Cyber Security Consulting</a>  
                       
                            </div>
                            <div className='servicesItem'  >
-                           <a onClick={() => setTabIndex(2)}  href='#javascript void(0)'>Consultation</a> 
+                           <a onClick={() => setTabIndex(2)}  href='#javascript void(0)'> Consultation on Shaping up DC & DRS</a> 
                       
                            </div>
                            <div className=' servicesItem'  >
-                           <a onClick={() => setTabIndex(3)}  href='#javascript void(0)'>Consultation</a> 
+                           <a onClick={() => setTabIndex(3)}  href='#javascript void(0)'> Swift Cyber Security Consulting</a> 
+                      
+                           </div>
+                           <div className=' servicesItem'  >
+                           <a onClick={() => setTabIndex(4)}  href='#javascript void(0)'> Technical Documentation On ITES</a> 
                       
                            </div>
 
@@ -57,7 +62,7 @@ function ServiceBody() {
                         </div>
 
 
-                        <div className='col-md-4'>
+                        <div className='col-md-7'>
 
                             <div>
 

@@ -224,6 +224,12 @@
    background-color: #79130a;
 
 }
+.servicesItem a:active{  
+  background-color: #79130a;
+  color: #ffff;
+
+
+}
 
 .servicesItem a:focus{  
    background-color: #79130a;
