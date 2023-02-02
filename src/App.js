@@ -12,6 +12,7 @@ import Dashboard from "./dashboard/Dashboard";
 
 // About Section Imported Start
 import AboutUs from "./views/About/AboutUs";
+import MissionStatement from "./views/About/MissionStatement";
 // About Section Imported Start
 
 // Industris Section Imported Start
@@ -305,6 +306,8 @@ function App() {
 
         {/*AboutUs Section Route Declaration start */}
         <Route path="/about-us" component={AboutUs} exact />
+        <Route path="/mission-statement" component={MissionStatement} exact />
+
          {/*AboutUs Section Route Declaration end */}
 
         {/*Industries Section Route Declaration start */}

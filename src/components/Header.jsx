@@ -44,7 +44,7 @@ function Header({ show, setShow }) {
             </li>
 
             <li className="dropdown serviceNav2 steps-sampling">
-              <Link to="/training" className="dropbtn1z">
+              <Link to="/about-us" className="dropbtn1z">
                 About Us
               </Link>
               <div
@@ -66,7 +66,7 @@ function Header({ show, setShow }) {
                       <a className="mt-3" href="/careers">
                         Careers
                       </a>
-                      <a className="mt-3" href="/certified-ethical-hacker">
+                      <a className="mt-3" href="/mission-statement">
                         Mission statement
                       </a>
                       <a className="mt-3" href="/contact-us">
@@ -81,19 +81,19 @@ function Header({ show, setShow }) {
                       >
                         News & Events
                       </a>
-                      <a className="mt-3" href="/certified-ethical-hacker">
+                      <a className="mt-3" href="/">
                         Press Release{" "}
                       </a>
 
-                      <a className="mt-2" href="/certified-incident-handler">
+                      <a className="mt-2" href="/">
                         Publications
                       </a>
 
-                      <a className="mt-2" href="/certified-soc-analyst">
+                      <a className="mt-2" href="/">
                         Events
                       </a>
 
-                      <a className="mt-2" href="/certified-threat">
+                      <a className="mt-2" href="/">
                         Picture Gallery
                       </a>
                     </Col>

@@ -6,8 +6,7 @@ function AboutUs() {
       <div className="page-header">
         <div
           className="page-header__bg"
-           style={{backgroundImage: `url('../images/resources/aboutbg1.png')`}}
-
+          style={{ backgroundImage: `url('../images/resources/aboutbg1.png')` }}
         ></div>
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
@@ -30,7 +29,6 @@ function AboutUs() {
                   data-wow-duration="1500ms"
                   alt=""
                 />
-                
               </div>
             </div>
             <div className="col-lg-6">
@@ -61,24 +59,48 @@ function AboutUs() {
         </div>
       </section>
 
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 text-center p-2">
+              <img src="/assets/images/about/icon1.png" alt=""/>
+              <h3 className="text-dark">Our Mission</h3>
+              <p className="mx-5" >Right Time Limited (“RightTime”, short form) started its journey in the year 2009. It’s purely an Information Security Consultation.</p>
 
-      
+            </div>
+            <div className="col-lg-4 text-center p-2">
+              <img src="/assets/images/about/icon1.png" alt=""/>
+              <h3 className="text-dark">Our Vission</h3>
+              <p className="mx-5" >Right Time Limited (“RightTime”, short form) started its journey in the year 2009. It’s purely an Information Security Consultation.</p>
+
+            </div>
+
+            <div className="col-lg-4 text-center p-2">
+              <img src="/assets/images/about/icon1.png" alt=""/>
+              <h3 className="text-dark">Our Goals</h3>
+              <p className="mx-5" >Right Time Limited (“RightTime”, short form) started its journey in the year 2009. It’s purely an Information Security Consultation.</p>
+
+            </div>
 
 
-       
+          </div>
+        </div>
+      </section>
 
-      <section className="black-bg section-padding-lg--top section-padding-lg--bottom cta-two">
+      <section className="black-bg section-padding-lg--top section-padding-lg--bottom cta-two mt-5">
         <div
           className="cta-two__bg jarallax"
           data-jarallax
           data-speed="0.2"
           data-imgPosition="50% 0%"
-          style={{backgroundImage: `url('/assets/images/background/s4.jpeg')`}}
+          style={{
+            backgroundImage: `url('/assets/images/background/s4.jpeg')`,
+          }}
         ></div>
         <div className="container">
           <div className="cta-two__inner">
             <h3 className="cta-two__title">
-              Better Information Security Services And Solutions At Your 
+              Better Information Security Services And Solutions At Your
               <span>Fingertips</span>
             </h3>
             <a href="/" className="thm-btn cta-two__btn">
@@ -89,9 +111,9 @@ function AboutUs() {
       </section>
       <section
         className="section-padding--bottom section-padding--top testimonials-two background-repeat-no background-position-top-center"
-         style={{backgroundImage: `url('/assets/images/shapes/testi-bg-1-1.png')`}}
-
-        
+        style={{
+          backgroundImage: `url('/assets/images/shapes/testi-bg-1-1.png')`,
+        }}
       >
         <div className="container">
           <div className="row gutter-y-60">
@@ -113,10 +135,7 @@ function AboutUs() {
                   Pellentesque gravida lectus vitae nisi luctus, Finibus aliquet
                   ligula ultrices.
                 </div>
-                <a
-                  href="/"
-                  className="thm-btn testimonials-two__content__btn"
-                >
+                <a href="/" className="thm-btn testimonials-two__content__btn">
                   <span>View All feedbacks</span>
                 </a>
               </div>
@@ -128,10 +147,9 @@ function AboutUs() {
                     <div className="testimonials-one-card">
                       <div className="testimonials-one-card__image">
                         <img
-                          src= "/assets/images/resources/testi-1-1.jpg"
+                          src="/assets/images/resources/testi-1-1.jpg"
                           alt=""
                         />
-                        
                       </div>
                       <div className="testimonials-one-card__content">
                         <div className="testimonials-one-card__text">
