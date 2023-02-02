@@ -37,8 +37,8 @@ function About() {
                     Leading Information Security Company
                   </h2>
                 </div>
-                <div className="about-five__text">
-                  Right Time Limited (“RightTime”, short form) started its
+                <div>
+                  <p>Right Time Limited (“RightTime”, short form) started its
                   journey in the year 2009. It’s purely an Information Security
                   Consultation, Assessment/Audit Service & Solutions Provider.
                   With all related International Standards and Association, we
@@ -49,14 +49,26 @@ function About() {
                   Auditing & Certification. Conducting Security Assessment e.g.
                   VA & PT, Forensic (with the use of multiple world className
                   Automated & Manual tools). As the first empaneled Security
-                  Assessor firm we are serving for more than 13 years.
+                  Assessor firm we are serving for more than 13 years.</p>
                 </div>
 
                 <div className="about-four__meta">
                   <div className="about-four__author">
-                    <img src="assets/images/team/ceo.jpg" alt="" />
-                    <div className="about-four__author__content">
-                      <p style={{ lineHeight: "13px", fontSize: "13px" }}>
+                    
+                      <div className="row">
+                      <div className="col-md-4">
+                      <img width="100%" src="assets/images/team/Sahaly Yasmin Bhuiyan.jpg" alt="" />
+                      <a
+                  style={{width:"170px"}}
+                    href="/"
+                    className="thm-btn about-four__btn "
+                  >
+                    <span>Learn More</span>
+                  </a>
+                      </div>
+
+                      <div style={{paddingRight:"12px"}} className="col-md-8 ">
+                      <p>
                         {" "}
                       
                           We are already living in a cyber society. We shouldn’t
@@ -68,20 +80,16 @@ function About() {
                          
                       </p>
                       <h3 className="about-four__author__title">
-                        Mohammad Tohidur Rahman Bhuiyan, PhD
+                       Ms. Sahaly Yasmin Bhuiyan
                       </h3>
                       <div className="about-four__author__designation">
-                        MD & CEO
+                       Chairman
+                      </div>
                       </div>
                     </div>
-                  </div>
-                  <a
-                  style={{width:"200px"}}
-                    href="https://www.linkedin.com/in/mohammad-tohidur-rahman-bhuiyan-a8805a6/"
-                    className="thm-btn about-four__btn "
-                  >
-                    <span>Learn More</span>
-                  </a>
+
+                   </div>
+                   
                 </div>
               </div>
             </div>
