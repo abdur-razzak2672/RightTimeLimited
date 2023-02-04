@@ -1,6 +1,10 @@
-import React from "react";
+import React,{useState} from "react";
+import { Button,Col,Form,Modal, Row } from 'react-bootstrap';
 
 function About() {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div>
       <section className="section-padding--bottom section-padding--top about-five">
@@ -33,7 +37,7 @@ function About() {
               <div className="about-five__content">
                 <div className="section-title ">
                   <p className="section-title__text">About Company</p>
-                  <h2 className="section-title__title">
+                  <h2 className="header">
                     Leading Information Security Company
                   </h2>
                 </div>
@@ -60,10 +64,10 @@ function About() {
                       <img width="100%" src="assets/images/team/Sahaly Yasmin Bhuiyan.jpg" alt="" />
                       <a
                   style={{width:"170px"}}
-                    href="/"
+                  onClick={handleShow} href='javascript:void(0)'
                     className="thm-btn about-four__btn "
                   >
-                    <span>Learn More</span>
+                    <span className="text-light">Learn More</span>
                   </a>
                       </div>
 
@@ -96,6 +100,41 @@ function About() {
           </div>
         </div>
       </section>
+
+
+      <Modal   size="lg" show={show} onHide={handleClose}>
+        <Modal.Body  className=" rounded-3">
+          <h5 className='teamTitle'>Sahaly Yasmin Bhuiyan</h5>
+           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
+
+           <Row>
+            <Col md={8}>
+              <p className='teamDetails'>
+              Ms. Sahaly Yasmin Bhuiyan comes with 13+ Years of wide-ranging and sound knowledge in the domain of Information System Security, Governance, Compliance, Enterprise as well as ICT Risk Management, PCI DSS Compliance Validation Services SWIFT Cyber Security Consultation and SWIFT CSP Assessment, Information System/Information Technology and Cyber Security Assessment/Auditing, etc.
+              </p>
+ 
+            </Col>
+
+            <Col md={4}>
+            <img
+              className = "img-responsive"
+              src= "/assets/images/team/Sahaly Yasmin Bhuiyan.jpg"
+              alt=""
+            />
+
+            </Col>
+            <p>Being a Security Auditor and Process Auditor, she earned a lot of real-world experience working with more than 450+ Companies across the globe. She collaborates with Strategic Teams, Leadership Teams, Management Teams, and Operations Teams. She understands the business challenges, organization goals, problems with execution, working methods, social variances, etc. She oversees the Quality Assurance Team and serves as a core security assessor in addition to serving as the company’s Chairman.</p>
+            <p>Sahaly has certifications in PCI QSA, PCIP, CDCP, Lead Auditor - ISO 9001(QMS), ITIL, and SWIFT.</p>
+           </Row>
+
+
+
+           
+          
+        </Modal.Body>
+       
+      </Modal>
+
     </div>
   );
 }

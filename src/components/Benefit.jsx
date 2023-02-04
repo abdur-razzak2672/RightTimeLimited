@@ -26,7 +26,7 @@ function Benefit() {
               <div className="about-three__content">
                 <div className="section-title ">
                   <p className="section-title__text">Company Benefits</p>
-                  <h2 className="section-title__title">
+                  <h2 className="header">
                     Why You Should Choose Our Services
                   </h2>
                 </div>

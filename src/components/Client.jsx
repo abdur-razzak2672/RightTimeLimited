@@ -15,19 +15,13 @@ function Client() {
               <div className="testimonials-two__content">
                 <div className="section-title ">
                   <p className="section-title__text">Our clients</p>
-                  <h2 className="section-title__title">
+                  <h2 className="header">
                     We Are Trusted Worldwide Peoples
                   </h2>
                 </div>
                 <div className="testimonials-two__content__text">
-                  Sed ut perspiciatis unde omnis natus error sit voluptatem
-                  accusa ntium doloremque laudantium totam rem aperiamea queipsa
-                  quae abillo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo.
-                </div>
-                <div className="testimonials-two__content__text">
-                  Pellentesque gravida lectus vitae nisi luctus, Finibus aliquet
-                  ligula ultrices.
+                  <p>We assist customer for nursing their Information Technology Enabled Services (ITES) through adopting collective methods, technologies, and processes to help protect the confidentiality, integrity, and availability, Authenticity and reliability of computer systems, networks and data, against cyber-attacks or unauthorized access.</p>
+                  
                 </div>
                 <a
                   href="/"

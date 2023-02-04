@@ -19,7 +19,7 @@ function TrainingBody() {
         <section className="section-padding--bottom   mt-5">
           <div className="container">
             <div className="section-title  ">
-              <h2 className="section-title__title text-center">PCI SSC Training & Qualification Programs</h2>
+              <h2 className="header text-center">PCI SSC Training & Qualification Programs</h2>
             </div>
             <ul className="card-wrapper">
               <li className="card">
@@ -93,7 +93,7 @@ function TrainingBody() {
         <section className="section-padding--bottom text-center mt-5">
           <div className="container">
             <div className="section-title text-center">
-              <h2 className="section-title__title">Meet Our Trainers</h2>
+              <h2 className="header">Meet Our Trainers</h2>
 
             </div>
             <div className="owl-carousel  thm-owl__carousel thm-owl__carousel--with-shadow service-four__carousel"

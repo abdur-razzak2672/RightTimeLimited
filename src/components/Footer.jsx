@@ -148,6 +148,12 @@ function Footer({ setShow, show }) {
                   <li>
                     <a href="/digital-forensics">Digital Forensics</a>
                   </li>
+
+                  <li className="mt-2">
+                  <a style={{backgroundColor:"#9c2ede"}} href="/contact-us" className="mt-3 p-2  rounded-5">
+                    <span className="text-light">Subscrib Now<i className="mx-3 fas fa-arrow-right"></i></span> 
+                  </a>
+                  </li>
                  
 
                 </ul>
@@ -155,34 +161,33 @@ function Footer({ setShow, show }) {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--newsletter">
-                <h3 className="footer-widget__title">Services</h3>
+                <h3 className="footer-widget__title">Offering</h3>
 
                 <ul className="footer-widget__contact">
                   <li>
 
-                    <a href="/consultation">Consultation</a>
+                    <a href="/services">Services</a>
                   </li>
                   <li>
 
-                    <a href="/auditing">Auditing</a>
+                    <a href="/solution">Solution</a>
                   </li>
                   <li>
 
-                    <a href="/security-testing">Security Testing</a>
+                    <a href="/training">Training</a>
                   </li>
                   
                   
                   <li>
 
-                    <a href="/certification">Certification</a>
+                    <a href="/incident">Incident</a>
                   </li>
-                  <li>
+                 
 
-                    <a href="/managed-service">Managed Services</a>
-                  </li>
-                  <li className="mt-3">
-
-                    <a className="text-bold text-light footer-widget__title" href="/blogs">Blogs</a>
+                  <li className="mt-5">
+                  <a style={{backgroundColor:"#9c2ede"}} href="/all-job" className="mt-3 p-2  rounded-5">
+                    <span className="text-light">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span> 
+                  </a>
                   </li>
 
                 </ul>
@@ -220,14 +225,17 @@ function Footer({ setShow, show }) {
           </div>
 
           <br />
-          <div class="container" style={{ paddingLeft: "40%", marginBottom: "-60px" }}>
-            <ul class="footer-widget__social">
-              <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="/"><i class="fab fa-pinterest-p"></i></a></li>
-              <li><a href="/"><i class="fab fa-instagram"></i></a></li>
+           
+
+        </div>
+
+        <div>
+        <ul class="footer-widget__social">
+              <li><a style={{backgroundColor:"#2ea9f3"}} href="/"><i class="fab fa-twitter"></i></a></li>
+              <li><a style={{backgroundColor:"#008def"}} href="/"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a style={{backgroundColor:"#d9387a"}} href="/"><i class="fab fa-pinterest-p"></i></a></li>
+              <li><a style={{backgroundColor:"#eb733b"}} href="/"><i class="fab fa-instagram"></i></a></li>
             </ul>
-          </div>
 
         </div>
 

@@ -85,7 +85,7 @@ function ServiceBody() {
         <div className="container">
           <div className="section-title text-center">
             <p className="section-title__text">Popular Services</p>
-            <h2 className="section-title__title">
+            <h2 className="header">
               We Provide Our Client Best <br />
               Information Security Solution & Services
             </h2>
@@ -469,7 +469,7 @@ function ServiceBody() {
         <div className="container">
           <div className="section-title text-center">
             <p className="section-title__text">Company Benefits</p>
-            <h2 className="section-title__title">
+            <h2 className="header">
               We Provide Best Information Security <br /> Service and Solution
               For 13 Years
             </h2>
@@ -546,7 +546,7 @@ function ServiceBody() {
               <p className="section-title__text">
                 Need Any Technology Solution
               </p>
-              <h2 className="section-title__title section-title__title--light">
+              <h2 className="header header--light">
                 Let’s Work Togather on Project
               </h2>
             </div>

@@ -12,8 +12,8 @@ function Solution() {
             <div className="cta-one__circle"></div>
             <div className="section-title ">
               <p className="section-title__text">Need Any Technology Solution</p>
-              <h2 className="section-title__title section-title__title--light">
-                Let’s Work Togather on Project
+              <h2 className="header header--light">
+                Let’s work togather for better services
               </h2>
             </div>
             <a href="/contact-us" className="thm-btn thm-btn--light cta-one__btn">

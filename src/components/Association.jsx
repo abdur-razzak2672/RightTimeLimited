@@ -5,7 +5,7 @@ function Association() {
     <div>
       <section className="section-padding--top section-padding--bottom about-one-associate">
         <div className="section-title text-center">
-          <h2 className="section-title__title">OUR ASSOCIATIONS</h2>
+          <h2 className="header">OUR ASSOCIATIONS</h2>
         </div>
         <div className="client-carousel client-carousel--two">
           <div className="container">

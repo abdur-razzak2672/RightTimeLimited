@@ -16,7 +16,7 @@ function SeviceCommon() {
         <div className="container">
           <div className="section-title text-center">
             <p className="section-title__text">Company Benefits</p>
-            <h2 className="section-title__title">We Provide Best Information Security <br /> Service and Solution For 13 Years</h2>
+            <h2 className="header">We Provide Best Information Security <br /> Service and Solution For 13 Years</h2>
 
           </div>
           <div className="row   text-center col-xs-6">
@@ -221,7 +221,7 @@ function SeviceCommon() {
       <section id="question" className="section-padding--bottom text-center">
         <div className="container">
           <div className="section-title text-center">
-            <h2 className="section-title__title">Frequently Asked Questions</h2>
+            <h2 className="header">Frequently Asked Questions</h2>
             <div className="expanedItem mt-5 mb-5">
               <div className=" expaneditems1">
                 <Accordion className="shadaow">

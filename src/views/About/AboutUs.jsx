@@ -35,7 +35,7 @@ function AboutUs() {
               <div className="about-four__content">
                 <div className="section-title ">
                   <p className="section-title__text">About Company</p>
-                  <h2 className="section-title__title">
+                  <h2 className="header">
                     Leading Information Security Company
                   </h2>
                 </div>
@@ -121,7 +121,7 @@ function AboutUs() {
               <div className="testimonials-two__content">
                 <div className="section-title ">
                   <p className="section-title__text">Our clients</p>
-                  <h2 className="section-title__title">
+                  <h2 className="header">
                     We Are Trusted Worldwide Peoples
                   </h2>
                 </div>

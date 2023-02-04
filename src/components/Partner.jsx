@@ -5,7 +5,7 @@ function Partner() {
     <div>
       <section className="section-padding--top section-padding--bottom about-one">
         <div className="section-title text-center">
-          <h2 className="section-title__title">OUR PARTNERS</h2>
+          <h2 className="header">OUR PARTNERS</h2>
         </div>
         <div className="client-carousel  client-carousel--two">
           <div className="container">

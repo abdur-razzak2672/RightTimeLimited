@@ -12,9 +12,8 @@ function Information() {
         <br />
         <div className="container">
           <div className="section-title text-center">
-            <h2 className="section-title__title">
-              We Provide Our Client Best <br />
-              Information Security Services
+            <h2 className="header">
+            Some of our valued customers
             </h2>
           </div>
           <div className="client-carousel client-carousel--two">

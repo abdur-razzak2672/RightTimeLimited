@@ -23,7 +23,7 @@ function IndustriusBody() {
                     <div style={{backgorundColor:"red"}} className="wrapper1 headerind  "> 
 
                     <p className="section-title__text  ">Our Focus Industries</p>
-                         <h2 className="section-title__title text-light">Industries We Specialized We</h2>
+                         <h2 className="header text-light">Industries We Specialized We</h2>
                         <ul className="img-grid mt-5 cardHieght ">                        
 
                         <li style={{width:"180px"}} className ="m-2 rounded border ">
