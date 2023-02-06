@@ -145,6 +145,10 @@ import Team from "./views/Company/team/Team";
 import Login from "./views/Accounts/Login";
 import LoginBody from "./views/Accounts/LoginBody";
 
+//Incident Section Imported Start
+ 
+import IncidentBody from "./views/incident/IncidentBody";
+
 function App() {
   const [show, setShow] = useState("1");
 
@@ -434,9 +438,17 @@ function App() {
         <Route path="/team" component={Team} exact />
 
 
-           {/*account Section Route Declaration start */}
-           <Route path="/login" component={Login} exact />
-           <Route path="/login-body" component={LoginBody} exact />
+        {/*account Section Route Declaration start */}
+        <Route path="/login" component={Login} exact />
+        <Route path="/login-body" component={LoginBody} exact />
+
+        {/*account Section Route Declaration End */}
+
+        {/*Incident Section Route Declaration */}
+        <Route path="/incident" component={IncidentBody} exact />
+
+
+
 
 
 
