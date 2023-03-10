@@ -86,7 +86,7 @@ function IncidentBody() {
           <p>2. Fastest possible detection and isolation of the attacker</p>
           <p>
             3.Comprehensive damage analysis by security experts from our{" "}
-            <a href="/swis">Swiss Cyber Defence Center</a>
+            <a href="/cyber-defense-center">Right Time Limited</a>
           </p>
           <p>
             4. Compliance with the obligation to report a security incident
