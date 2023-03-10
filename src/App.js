@@ -149,6 +149,16 @@ import LoginBody from "./views/Accounts/LoginBody";
  
 import IncidentBody from "./views/incident/IncidentBody";
 
+
+// cyber Defence Section Imported Start
+import CyberDefenseCenter from "./views/incident/CyberDefenseCenter";
+ import CyberDefenseServices from "./views/incident/CyberDefenseServices";
+ import DefenceCenter from "./views/incident/DefenceCenter";
+ import Services from "./views/incident/Services";
+
+
+
+
 function App() {
   const [show, setShow] = useState("1");
 
@@ -446,6 +456,13 @@ function App() {
 
         {/*Incident Section Route Declaration */}
         <Route path="/incident" component={IncidentBody} exact />
+        <Route path="/cyber-defense-center" component={CyberDefenseCenter} exact />
+        <Route path="/cyber-defense-services" component={CyberDefenseServices} exact />
+
+        <Route path="/defense-center" component={DefenceCenter} exact />
+
+        <Route path="/cyber-services" component={Services} exact />
+
 
 
 
