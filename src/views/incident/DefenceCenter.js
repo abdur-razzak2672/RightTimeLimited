@@ -23,7 +23,7 @@ function DefenceCenter() {
 
             <Link to="/cyber-services" className="text-light mx-3">Services</Link>
                <Link to="/cyber-defense-services" className="text-light mx-3">Cyber defense services  </Link>
-               <Link to="/defense-center" className="text-light mx-3"> Defense center</Link>
+               <Link to="/cyber-defense-center" className="text-light mx-3">Cyber Defense center</Link>
 
           
 
