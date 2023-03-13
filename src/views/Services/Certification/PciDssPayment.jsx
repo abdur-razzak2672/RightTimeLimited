@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import SeviceCommon from "../SeviceCommon";
-import { Accordion } from "react-bootstrap";
-
+import Accordion from 'react-bootstrap/Accordion';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 function PciDssPayment() {
   const [tabIndex, setTabIndex] = useState(1);
 
@@ -2177,8 +2177,118 @@ function PciDssPayment() {
             </div>
           </div>
         </section>
-      </div>
-    </div>
+
+
+        <section class="section-padding--bottom text-center">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2 class="section-title__title">Related Updates</h2>
+            <div class="col-md-12 text-center mt-5">
+               <button type="button" onClick={() => setTabIndex(14)} class="btn btn-dark m-3">Case Studies</button>
+              <button type="button" onClick={() => setTabIndex(15)} class="btn btn-warning m-3">Downloads</button>
+              <button type="button" onClick={() => setTabIndex(1)} class="btn btn-success m-3">Blogs</button>
+
+
+            </div>
+            <div class="mt-2">
+            {
+          tabIndex === 1 && (
+            <div class="row mt-5">
+               <div class ="col-md-4 text-center d-flex">
+               <Card>
+               <img className="" src="/assets/images/resources/1.jpeg" alt="" />
+                <Card.Body>
+                  <Card.Title className="text-dark">Card Title</Card.Title>
+                  <Card.Text className="text-dark" >
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="warning">Read More</Button>
+                </Card.Body>
+              </Card>
+               </div>
+               <div class ="col-md-4 text-center d-flex">
+               <Card>
+               <img className="" src="/assets/images/resources/1.jpeg" alt="" />
+                <Card.Body>
+                  <Card.Title className="text-dark">Card Title</Card.Title>
+                  <Card.Text className="text-dark">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="warning">Read More</Button>
+                </Card.Body>
+              </Card>
+               </div>
+               <div class ="col-md-4 text-center d-flex">
+               <Card>
+               <img className="" src="/assets/images/resources/1.jpeg" alt="" />
+                <Card.Body>
+                  <Card.Title className="text-dark">Card Title</Card.Title>
+                  <Card.Text className="text-dark">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="warning">Read More</Button>
+                </Card.Body>
+              </Card>
+               </div>
+
+            </div>
+           
+            // <h3>Frequently Asked Questions</h3>
+            // <p>Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources</p>
+           
+          )
+        }
+        {
+          tabIndex === 14 && (
+            <div className="d-flex justify-content-center  ">
+               <Card style={{width:"300px"}}>
+               <img className="" src="/assets/images/resources/1.jpeg" alt="" />
+                <Card.Body>
+                  <Card.Title className="text-dark">Card Title</Card.Title>
+                  <Card.Text className="text-dark">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="warning">Read More</Button>
+                </Card.Body>
+              </Card>
+            </div>
+          )
+        }
+         {
+          tabIndex === 15 && (
+            <div>
+               <div className="d-flex justify-content-center  ">
+               <Card style={{width:"300px"}}>
+               <img className="" src="/assets/images/resources/1.jpeg" alt="" />
+                <Card.Body>
+                  <Card.Title className="text-dark">Card Title</Card.Title>
+                  <Card.Text className="text-dark">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="warning">Read More</Button>
+                </Card.Body>
+              </Card>
+            </div>
+            </div>
+          )
+        }
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+     </div>
+  
+ 
+</div>
+
+       
   );
 }
 
