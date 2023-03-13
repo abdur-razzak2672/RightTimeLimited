@@ -50,9 +50,7 @@
   --cretech-gray-rgb: 249, 246, 255;
   --cretech-border: #e1dbec;
 }
-a{
-  text-decoration: none;
-}
+ 
 /***********************
 * Animations
 ***********************/
@@ -244,7 +242,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+/* a {
   color: var(--cretech-primary, #f99d1c);
 }
 
@@ -253,7 +251,7 @@ a:hover,
 a:focus,
 a:visited {
   text-decoration: none;
-}
+} */
 
 .page-wrapper {
   position: relative;

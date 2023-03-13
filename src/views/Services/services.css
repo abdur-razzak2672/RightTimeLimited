@@ -213,27 +213,31 @@
 .servicesItem{
   padding: 15px;
   width: 100%;
-    margin-bottom: 12px;
+  margin-bottom: 12px;
+  background-color: rgb(217, 217, 217)
  
 }
 
-.servicesItem a:hover{
+.servicesItem:hover{
   padding: 15px;
-  color: #ffff;
+  color: black !important;
   
-   background-color: #79130a;
+   background-color: #af44b7;
 
 }
-.servicesItem a:active{  
-  background-color: #79130a;
-  color: #ffff;
+.servicesItem:active{  
+  background-color:  orange;
+  ;
+  color:black !important;
 
 
 }
 
-.servicesItem a:focus{  
-   background-color: #79130a;
-   color: #ffff;
+.servicesItem:focus{  
+   background-color: orange;
+   color: black !important;
+   width: 100%;
+
 
 
 }
