@@ -69,6 +69,9 @@ function Header({ show, setShow }) {
                       <a className="mt-3" href="/mission-statement">
                         Mission statement
                       </a>
+                      <a className="mt-3" href="/mission-statement">
+                       Testimonials
+                      </a>
                       <a className="mt-3" href="/contact-us">
                         Contact (Get in Touch)
                       </a>
@@ -94,7 +97,7 @@ function Header({ show, setShow }) {
                       </a>
 
                       <a className="mt-2" href="/">
-                        Picture Gallery
+                      	Picture Galleries
                       </a>
                     </Col>
 
@@ -103,7 +106,7 @@ function Header({ show, setShow }) {
                         style={{ fontWeight: "bold", color: "orange" }}
                         href="/Customized"
                       >
-                        Resources & Partners
+                       Associations & Partners
                       </a>
 
                     
@@ -112,7 +115,7 @@ function Header({ show, setShow }) {
                          <i className="fas fa-caret-right  mx-3"></i>
                         <span style={{ left: "200px"}} className="AnchorHide">
                           <Link to="https://portswigger.net/burp">
-                            CCA, Ministry of ICT
+                          CCA, Ministry of ICT (First and 2022)
                           </Link>
 
                           <Link to="https://portswigger.net/burp">
@@ -120,7 +123,7 @@ function Header({ show, setShow }) {
                           </Link>
 
                           <Link to="https://portswigger.net/burp">
-                            World Bank Groups (WBGs)
+                            World Bank Groups  
                           </Link>
 
                           <Link to="https://portswigger.net/burp">SWIFT</Link>
@@ -168,6 +171,14 @@ function Header({ show, setShow }) {
                       </a>
 
 
+                      <a className="mt-3"  href="https://www.invicti.com/"> Port Swigger</a>
+                     
+                      <a className="mx-3" href="/burp-suite">
+                         <i className="fas fa-caret-right "> </i>-	Burp Suite
+                      </a>
+
+
+
                       <a className="mt-3"  href="https://www.invicti.com/">Tenable</a>
                       <a className="mx-3" href="https://www.invicti.com/">
                          <i className="fas fa-caret-right "> </i> Nessus Pro
@@ -185,10 +196,14 @@ function Header({ show, setShow }) {
                       <a className="mx-3" href="https://www.invicti.com/">
                          <i className="fas fa-caret-right "> </i> Core Impact
                       </a>
-                  
-                      <a className="mt-3"  href="https://portswigger.net/burp">SCK & ARS (ISO)</a>
-                      <a className="mt-3"  href="https://portswigger.net/burp">ACNABIN (CA Firm for Financial Control)</a>
 
+                      <a className="mt-3"  href="https://www.invicti.com/"> Safe Aeon</a>
+                      <a className="mx-3" href="https://www.invicti.com/">
+                         <i className="fas fa-caret-right "> </i> Managed service
+
+                      </a>
+                  
+                      
 
                   </Col>
 
@@ -197,9 +212,7 @@ function Header({ show, setShow }) {
                         </span>
                       </a>
                       
-                      <a className="mt-3" href="/certified-threat">
-                        Download Center
-                      </a>
+                    
                     </Col>
                   </Row>
                 </Container>
@@ -244,6 +257,9 @@ function Header({ show, setShow }) {
                 <li>
                   <Link to="/health-care">Health Care</Link>
                 </li>
+                <li>
+                  <Link to="/power-sector"> Power Sector</Link>
+                </li>
               </ul>
             </li>
 
@@ -274,6 +290,15 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Information Security & Cyber Security Consulting
                       </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/consultation-on-shaping"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>{" "}
+                        Project Management 
+                      </a>
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
@@ -290,6 +315,8 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i> Swift
                         Cyber Security Consulting
                       </a>
+                      
+
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
@@ -297,6 +324,45 @@ function Header({ show, setShow }) {
                       >
                         <i className="fas fa-circle iconStyle "> </i> Technical
                         Documentation On ITES
+                      </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/providing-security"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>  Zero Trust Architecture
+                      </a>
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/providing-security"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> 	Risk & Security Management
+                      </a>
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/providing-security"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Industry 4.0
+                      </a>
+
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/pci-dss-payment"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> PCI DSS
+                      </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/providing-security"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>  	Standards - ISO & CMMI
                       </a>
                     </Col>
 
@@ -390,6 +456,14 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i> Swift CSP
                         Independent Assessment
                       </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/swift-csp"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>  Breach Attack Simulation
+                      </a>
                     </Col>
 
                     <Col
@@ -418,10 +492,18 @@ function Header({ show, setShow }) {
                         className="mt-3"
                         href="/iso-international"
                       >
+                        <i className="fas fa-circle iconStyle "> </i> 	ISO Certification
+                      </a>
+
+                      {/* <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/iso-international"
+                      >
                         <i className="fas fa-circle iconStyle "> </i> ISO 27001,
                         ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001,
                         ISO 14001 etc.
-                      </a>
+                      </a> */}
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -449,6 +531,14 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i> HIPAA
                         Assessment
                       </a>
+
+                      <a className="mt-3" href="/tia-for-data-center">
+                        <i className="fas fa-circle iconStyle "> </i>  SOC1 Audit & Certification
+                      </a>
+
+                      <a className="mt-3" href="/tia-for-data-center">
+                        <i className="fas fa-circle iconStyle "> </i> SOC2 Audit & Certification
+                      </a>
                     </Col>
 
                     <Col className="consultation">
@@ -463,6 +553,8 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i> SOC as A
                         Service
                       </a>
+
+                      
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -497,7 +589,14 @@ function Header({ show, setShow }) {
                         href="/tia-for-data-center"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                        Vulnerability Assessment (VA) As A Service
+                        	Vulnerability Assessment (VA) As A Service Penetration Testing (PT) As A Service DAM (Database Auditing & Management) as A Service                      </a>
+                    
+                          <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/tia-for-data-center"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> 	Attach Surface Management
                       </a>
                     </Col>
                   </Row>
@@ -698,11 +797,8 @@ function Header({ show, setShow }) {
                       <a className="mt-3" href="/firewall">
                         Firewall (Especially Next Gen)
                       </a>
-                      <a className="mt-3" href="/smart-contact">
-                        Log Management
-                      </a>
-                      Association
-                      <a className="mt-3" href="/smart-contact">
+                     
+                       <a className="mt-3" href="/smart-contact">
                         Patch management{" "}
                       </a>
                       <a
@@ -710,7 +806,7 @@ function Header({ show, setShow }) {
                         style={{ lineHeight: "1.2" }}
                         href="/smart-contact"
                       >
-                        Privilege Access Management (PAM)t
+                        Privilege Access Management (PAM)
                       </a>
                     </Col>
                   </Row>
@@ -895,7 +991,7 @@ function Header({ show, setShow }) {
                           <a href="/" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
-                            Information Security Fundamentals (FIS)
+                            	Network Security Fundamentals (FNS)
                           </a>
                           <a href="/" className="mx-3">
                             {" "}
@@ -1454,9 +1550,50 @@ function Header({ show, setShow }) {
               </ul>
             </li> */}
 
-            <li>
-              <Link to="/blogs"> Cyber Blog</Link>
+          <li className="menu-item-has-children">
+              <Link to="/industries">Resources</Link>
+              <ul>
+                <li>
+                  <Link to="/blogs">	Blogs</Link>
+                </li>
+                <li>
+                  <Link style={{ lineHeight: "1.2" }} to="/Case Studies">
+                 Case Studies
+                  </Link>
+                </li>
+                <li>
+                  <Link style={{ lineHeight: "1.2" }} to=" Checklists">
+                  Checklists
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    style={{ lineHeight: "1.2" }}
+                    to="/  	WhitePapers"
+                  >
+                    	WhitePapers
+                  </Link>
+                </li>
+                <li>
+                  <Link style={{ lineHeight: "1.2" }} to="/ 	Infographics">
+                  	Infographics
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/ 	DataSheets"> 	DataSheets</Link>
+                </li>
+                <li>
+                  <Link to="/ecommerce-retail"> 	Webinars</Link>
+                </li>
+                <li>
+                  <Link to="/health-care">Health Care</Link>
+                </li>
+                <li>
+                  <Link to="/power-sector"> Power Sector</Link>
+                </li>
+              </ul>
             </li>
+
             <li>
               <Link to="/contact-us">Contact Us</Link>
             </li>

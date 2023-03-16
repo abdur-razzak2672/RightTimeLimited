@@ -18,7 +18,7 @@ function Login() {
             <h4 className='mt-3 mx-2 text-light'>Right Time User Login</h4>
 
         </div>
-        <p className='text-light'>Task Forces, SIGs & Boards.</p>
+        <p className='text-light'>Customer, Employee, Guest Login.</p>
 
         <form class="flex-c">
           <div class="input-box">
@@ -53,7 +53,7 @@ function Login() {
 
 
           <span class="extra-line">
-            <span className='text-light'>Are you an employee ?</span>
+            <span className='text-light'>Guest, Please Sign Up ,</span>
             <a href="#"> Login Here</a>
           </span>
         </form>
