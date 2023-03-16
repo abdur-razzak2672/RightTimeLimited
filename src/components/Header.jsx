@@ -596,7 +596,7 @@ function Header({ show, setShow }) {
                         className="mt-3"
                         href="/tia-for-data-center"
                       >
-                        <i className="fas fa-circle iconStyle "> </i> 	Attach Surface Management
+                        <i className="fas fa-circle iconStyle "> </i> 	Attack Surface Management
                       </a>
                     </Col>
                   </Row>
@@ -1585,9 +1585,9 @@ function Header({ show, setShow }) {
                 <li>
                   <Link to="/ecommerce-retail"> 	Webinars</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/health-care">Health Care</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link to="/power-sector"> Power Sector</Link>
                 </li>
