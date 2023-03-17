@@ -4,9 +4,9 @@
 
 .dropdown-content {
   display: none;
-  left: -400px;
+  left: -500px;
   background-color: #12062c;
-  min-width: 1350px;
+  min-width: 1400px;
   height: 550px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1000;
@@ -40,5 +40,150 @@
   color: #313a4c;
 
  }
+
+
+ /* vertical line */
  
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+ .demo-body{
+  height: 470px;
+  }
+  
+  .line-wrapper{
+      background: #af44b7;
+      width: 2px;
+      height: 100%;
+      position: relative;
+   }
+   
+   .line-wrapper .word{
+      position: absolute;
+      background: #af44b7;
+      color: white;
+      text-orientation: upright;
+      writing-mode: vertical-rl;
+      top: 50%;
+      font-weight: 800;
+      transform: translate(52%,-50%);
+      right: 50%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 13px;
+    }
+    
+  .line-wrapper .word.vertical{
+     writing-mode: tb-rl;
+  }
+
+
+
+  
+ .demo-body1{
+  height: 150px;
+  }
+  
+  .line-wrapper1{
+      background: orange;
+      width: 2px;
+      height: 100%;
+      position: relative;
+   }
+   
+   .line-wrapper1 .word1{
+      position: absolute;
+      background: orange;
+      color: white;
+      text-orientation: upright;
+      writing-mode: vertical-rl;
+      top: 50%;
+      font-weight: 800;
+      transform: translate(52%,-50%);
+      right: 50%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 13px;
+    }
+    
+  .line-wrapper1 .word1.vertical{
+     writing-mode: tb-rl;
+  }
+
+
+  .demo-body2{
+    height: 150px;
+    }
+    
+    .line-wrapper2{
+        background: #12062c;
+        width: 2px;
+        height: 100%;
+        position: relative;
+     }
+     
+     .line-wrapper2 .word2{
+        position: absolute;
+        background: #12062c;
+        color: white;
+        text-orientation: upright;
+        writing-mode: vertical-rl;
+        top: 50%;
+        font-weight: 800;
+        transform: translate(52%,-50%);
+        right: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 13px;
+      }
+      
+    .line-wrapper2 .word2.vertical{
+       writing-mode: tb-rl;
+    }
+   
+
+
+
+    .demo-body3{
+      height: 100px;
+      }
+      .line-wrapper3{
+          background: #c3112f;
+          width: 2px;
+          height: 100%;
+          position: relative;
+       }
+       
+       .line-wrapper3 .word3{
+          position: absolute;
+          background: #c3112f;
+          color: white;
+          text-orientation: upright;
+          writing-mode: vertical-rl;
+          top: 50%;
+          font-weight: 800;
+          transform: translate(52%,-50%);
+          right: 50%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-size: 13px;
+        }
+        
+      .line-wrapper3 .word3.vertical{
+         writing-mode: tb-rl;
+      }
+     
  

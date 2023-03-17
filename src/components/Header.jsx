@@ -271,7 +271,7 @@ function Header({ show, setShow }) {
               <div className="dropdown-content">
                 <Container className="mt-4">
                   <Row>
-                    <Col
+                    <Col md={3} 
                       className="consultation"
                       style={{ borderRight: "1px solid #6f42c1" }}
                     >
@@ -366,7 +366,7 @@ function Header({ show, setShow }) {
                       </a>
                     </Col>
 
-                    <Col
+                    <Col md={2} 
                       className="consultation"
                       style={{ borderRight: "1px solid #6f42c1" }}
                     >
@@ -411,7 +411,7 @@ function Header({ show, setShow }) {
                       </a>
                     </Col>
 
-                    <Col
+                    <Col md={2} 
                       className="consultation"
                       style={{ borderRight: "1px solid #6f42c1" }}
                     >
@@ -467,7 +467,7 @@ function Header({ show, setShow }) {
                     </Col>
 
                     <Col
-                      lg={3}
+                      md={2}
                       className="consultation"
                       style={{ borderRight: "1px solid #6f42c1" }}
                     >
@@ -541,7 +541,7 @@ function Header({ show, setShow }) {
                       </a>
                     </Col>
 
-                    <Col className="consultation">
+                    <Col md={3}  className="consultation">
                       <a
                         style={{ fontWeight: "bold", color: "orange" }}
                         href="/managed-service"
@@ -589,9 +589,33 @@ function Header({ show, setShow }) {
                         href="/tia-for-data-center"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                        	Vulnerability Assessment (VA) As A Service Penetration Testing (PT) As A Service DAM (Database Auditing & Management) as A Service                      </a>
-                    
+                        	Vulnerability Assessment (VA) As A Service </a>
+
                           <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/tia-for-data-center"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>{" "}
+                      	Penetration Testing (PT) as a Service  </a>
+
+                        <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/tia-for-data-center"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>{" "}
+                      	 	DAM (Database Auditing & Management) as a Service </a>
+
+                           <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/tia-for-data-center"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>{" "}
+                       Risk Management </a>
+                    
+                         <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
                         href="/tia-for-data-center"
@@ -1588,9 +1612,7 @@ function Header({ show, setShow }) {
                 {/* <li>
                   <Link to="/health-care">Health Care</Link>
                 </li> */}
-                <li>
-                  <Link to="/power-sector"> Power Sector</Link>
-                </li>
+               
               </ul>
             </li>
 
