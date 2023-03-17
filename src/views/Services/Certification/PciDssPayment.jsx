@@ -7,9 +7,8 @@ import Offer from "../../../components/pcidss/Offer";
 
 import { OfferData } from "../../../components/pcidss/OfferData";
 function PciDssPayment() {
-  const [tabIndex, setTabIndex] = useState(1);
+  const [tabIndex, setTabIndex] = useState(0);
   const [tabIndex1, setTabIndex1] = useState(16);
-
 
   console.log("offer", OfferData);
 
@@ -93,16 +92,7 @@ function PciDssPayment() {
                     card transactions and protect cardholders against misuse of
                     their personal information.
                   </p>
-                  <p className="text-dark">
-                    Web application security testing as per the OWASP Top 10
-                    list, helps to identify many unattended issues related to
-                    programming, file access and configuration etc which may
-                    turn out to be vulnerabilities, causing a potential impact
-                    on the organization. Regular assessments as such help
-                    safeguard the application from any unauthorized access which
-                    can cause an impact on the organization both in reputation
-                    and resources.
-                  </p>
+
                   <p className="text-dark">
                     PCI DSS applies to all entities involved in payment card
                     transactions —including merchant, acquirer bank, credit card
@@ -171,28 +161,70 @@ function PciDssPayment() {
               Assessor as per its Level.
             </p>
             <Row className="mt-4">
-              <Col style={{ overflowX: "scroll", height: "70vh" }} md={4}>
+              <Col md={4}>
+                <div className="d-flex justify-content-between">
+                  <div >
+                    <div class="demo-body">
+                      <div class="line-wrapper">
+                        <div class="word">PHASE1</div>
+                      </div>
+                    </div><br/>
 
-                {OfferData.map((item, index) =>( 
-                    <div className=" servicesItem">
-                      <a
-                      key={index}
-                        style={{ textDecoration: "none" }}
-                        className="text-dark   focus"
-                        onClick={() => setTabIndex(index)}
-                        href="#javascript void(0)"
-                      >
-                        <img src="/assets/images/services/initial.png" alt="" /> 
-                        {item.title}
-                      </a>
+                    <div class="demo-body1">
+                      <div class="line-wrapper1">
+                        <div class="word1">PHASE2</div>
+                      </div>
+
+                      
+                    </div><br/>
+
+                    <div class="demo-body2">
+                      <div class="line-wrapper2">
+                        <div class="word2">PHASE3</div>
+                      </div>
+
+                      
+                    </div><br/>
+
+                    <div class="demo-body3">
+                      <div class="line-wrapper3">
+                        <div class="word3">PHASE4</div>
+                      </div>
+
+                      
                     </div>
-                ))}
- 
-               
+
+
+
+                  </div>
+                  <div>
+                    {OfferData.map((item, index) => (
+                      <div className=" servicesItem">
+                        <a
+                          key={index}
+                          style={{ textDecoration: "none" }}
+                          className="text-dark   focus"
+                          onClick={() => setTabIndex(index)}
+                          href="#javascript void(0)"
+                        >
+                          <img
+                            src="/assets/images/services/initial.png"
+                            alt=""
+                          />
+                          {item.title}
+                        </a>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </Col>
 
               <Col md={8}>
-                <div>{tabIndex === tabIndex && <Offer id={tabIndex} data={OfferData} />}</div>
+                <div>
+                  {tabIndex === tabIndex && (
+                    <Offer id={tabIndex} data={OfferData} />
+                  )}
+                </div>
               </Col>
             </Row>
           </div>
@@ -210,30 +242,43 @@ function PciDssPayment() {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                      Who should comply with PCI DSS Certification?
+                        Who should comply with PCI DSS Certification?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                      The PCI DSS is an information security standard for organizations that process, transmits, and store credit card details. This would typically include merchants, processors, acquirers, issuers, and service providers dealing with sensitive cardholder data. View a quick 5 mins video on this topic
+                        The PCI DSS is an information security standard for
+                        organizations that process, transmits, and store credit
+                        card details. This would typically include merchants,
+                        processors, acquirers, issuers, and service providers
+                        dealing with sensitive cardholder data. View a quick 5
+                        mins video on this topic
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion className="shadaow">
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                      How much will a PCI DSS Audit cost you?
+                        How much will a PCI DSS Audit cost you?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                      PCI DSS Audit cost for an average-sized company starts at $12000. Pricing for a PCI DSS audit depends on several factors, including your type of organization, the number of annual transactions, payment applications, physical locations, whether first time or recertification and other additional services as well.
+                        PCI DSS Audit cost for an average-sized company starts
+                        at $12000. Pricing for a PCI DSS audit depends on
+                        several factors, including your type of organization,
+                        the number of annual transactions, payment applications,
+                        physical locations, whether first time or
+                        recertification and other additional services as well.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion className="mt-3">
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                      How long would it take to complete a PCI DSS Audit?
+                        How long would it take to complete a PCI DSS Audit?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                      On average it takes 4-6 weeks to complete an end-to-end PCI DSS Audit. However, the timeline greatly depends on the time taken for implementing the remediation suggested in the gap analysis
+                        On average it takes 4-6 weeks to complete an end-to-end
+                        PCI DSS Audit. However, the timeline greatly depends on
+                        the time taken for implementing the remediation
+                        suggested in the gap analysis
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -243,20 +288,26 @@ function PciDssPayment() {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                      What will you get after a PCI DSS Audit is complete?
+                        What will you get after a PCI DSS Audit is complete?
                       </Accordion.Header>
-                      <Accordion.Body  className="expanedText">
-                      You will receive Audit reports (ROC/SAQ, AOC) documenting the details on how networks and physical environments are protected against threats. You will even get a PCI DSS Certificate of Compliance on successful completion of the audit, demonstrating your commitment to Industry Standard Compliance.
+                      <Accordion.Body className="expanedText">
+                        You will receive Audit reports (ROC/SAQ, AOC)
+                        documenting the details on how networks and physical
+                        environments are protected against threats. You will
+                        even get a PCI DSS Certificate of Compliance on
+                        successful completion of the audit, demonstrating your
+                        commitment to Industry Standard Compliance.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                      What is the validity of a PCI DSS Certification?
+                        What is the validity of a PCI DSS Certification?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                      PCI DSS Certification is only valid for a year or 12 months from the date of issue
+                        PCI DSS Certification is only valid for a year or 12
+                        months from the date of issue
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -264,10 +315,13 @@ function PciDssPayment() {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                      How often do you need to conduct a PCI DSS Audit?
+                        How often do you need to conduct a PCI DSS Audit?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                      As per the Industry standard requirement, a PCI DSS Audit must be performed annually, or when significant changes are introduced that may impact systems and network in an environment.
+                        As per the Industry standard requirement, a PCI DSS
+                        Audit must be performed annually, or when significant
+                        changes are introduced that may impact systems and
+                        network in an environment.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -419,7 +473,11 @@ function PciDssPayment() {
               </div>
             </div>
           </div>
-        </section><br/><br/><br/><br/>
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   );

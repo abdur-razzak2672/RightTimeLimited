@@ -30,27 +30,31 @@ function Offer({ data, id }) {
         <div>
           <h5 className="header">Overview</h5>
           <p className="text-dark">
-            We will understand your business and the scope of the project. We
-            will also understand the business requirements and the business
-            objectives. We will understand the business processes and the
-            business environment. We will also understand the business
-            constraints and the business risks.
+          Our consultants work with you to identify all system components included in or connected to the Cardholder Data Environment, and the flows of payment card data through these, including cardholder and sensitive authentication data
           </p>
+
+          <p className="text-dark">
+          To achieve this understanding efficiently, we will provide you with our PCI DSS Dataflow Questionnaire and Analysis document, to be completed for each payment system, automated business process and/or manual process involving payment card data, preparing our consultants for the on-site assessment.          </p>
+       
+          <p className="text-dark">
+          We will then interview key staff members, and perform a detailed analysis of the systems used for processing, transmitting or storing cardholder data (CHD) and sensitive authentication data (SAD)   </p>
+          <p className="text-dark">
+          A comprehensive report will then highlight our investigation, including card data flow diagrams for each payment card application and a detailed description of the people, processes and technology in scope for the organisations PCI DSS compliance</p>
         </div>
 
         <div>
           <h5 className="header">Key Benefits</h5>
           <p className="text-dark">
-            1 . We will understand your business and the scope of the project.{" "}
+            1 . Reduce the time to achieve PCI DSS certification.
           </p>
-          <p className="text-dark">2 . We will understand your business </p>
+          <p className="text-dark">2 . Demonstrate a greater Return-on-Investment (ROI) through efficient use of resources </p>
 
-          <p className="text-dark">3 . the scope of the project. </p>
+          <p className="text-dark">3 . Establish the critical foundation for PCI Remediation Planning.</p>
           <p className="text-dark">
-            4 . We will understand your business and the scope of the project.{" "}
+            4 . Reduced cost and complexity by implementing only required controls.{" "}
           </p>
           <p className="text-dark">
-            5 . We will understand scope of the project.{" "}
+            5 .Assurance that all card holder data is identified and protected.
           </p>
         </div>
 
@@ -59,6 +63,46 @@ function Offer({ data, id }) {
             <p className="text-dark">PCI DSS is a complex requirement that has an impact on most areas of the business, not just the technical or IT focused locations. Therefore, it is important to make sure that any methodology that is used to service the program has been tried and tested. The approach that Right Time Limited adopts for the PCI DSS program of works is as follows:</p>
           <img width="100%" src="/assets/images/services/network.png" alt="pci-dss-methology" />
           <p className="text-dark ">The above picture is an outline of the total process and the drive through compliance. </p>
+            
+
+          <table>
+              <tr>
+                <th>Phase  </th>
+                <th>Resources</th>
+               </tr>
+              <tr>
+                <td>Phase – I</td>
+                <td>Assessment</td>
+
+               
+
+               </tr>
+            
+              
+              <tr>
+              <td>Phase – II</td>
+
+                <td>Remediation</td>
+
+               </tr>
+
+               <tr>
+              <td>Phase – III</td>
+
+                <td>Certify</td>
+
+               </tr>
+
+               <tr>
+              <td>Phase – IV</td>
+
+                <td>Maintain</td>
+
+               </tr>
+            </table>
+            
+            
+            
             <p className="text-dark">We propose to offer following PCI DSS Compliance Consultation and Audit Services for The Organization over the period of 1 year and subsequent year, if requested, in following phases: </p>
            <h4 className="header">Project Plan: PCI DSS Compliance Validation Services/ Consultation (CVS)</h4>
            <p className="text-dark">PCI DSS Compliance Validation Services/ Consultation (CVS) consist of Project Initiation and four Compliance Validation Phases, and to ensure comprehensive and efficient service, the Client must fulfill their obligations within each phase before progressing to subsequent phases. Failure to do so may require an addendum to this contract that will include additional charges for any time or materials above and beyond those agreed in agreement.</p>
@@ -108,8 +152,87 @@ function Offer({ data, id }) {
            <p className="text-dark"><span className="header">Project Milestone:</span> Remediation Tracking Spreadsheet (RTS), or ROC </p>
 
  
+           <p className="text-dark"><i className="fas fa-box"></i>  Additional onsite validation (as necessary/required)</p>
+           
+           <p className="text-dark"><i className="fas fa-box"></i>  ROC completion and submission to RightTime Quality Assurance (QA) Team</p>
+          
+           <p className="text-dark"><span className="header">Project Milestone:</span> ROC submission to QA </p>
+
+           <p className="text-dark"><i className="fas fa-box"></i>  	ROC review and submission (as required)</p>
+           <p className="text-dark"><span className="header">Project Milestone:</span> Final ROC</p>
 
  
+
+           <h5 className="header">Compliance Validation Services (CVS) Phase IV: Performed by Remote Validation Services Consultant / Managing Consultant (MC)/ onsite PCI Consultant(s).</h5>
+           <div className="mt-4" style={{lineHeight:"2px"}}>
+           <p className="text-dark "><i className="fas fa-box"></i> PCI Maintenance assistance and Advisory Service</p>
+          <p className="text-dark mx-2"> 	o	Clarification support and access to PCI security Expert by e-mail &/or phone</p>
+          <p className="text-dark mx-2"> 	o	Ongoing PCI expert remote advisory services during maintenance period</p>
+          <p className="text-dark"><i className="fas fa-box"></i>  Perform PCI DSS Mandatory Scanning</p>
+          <p className="text-dark mx-2">o 	Automated Quarterly ASV Scans with PCI Approved Scanning Vendor solution</p>
+          <p className="text-dark mx-2 px-2">  o	Up to XX Static External Facing IP Addresses</p>
+           </div>       
+       <p className="text-dark">
+             PCI DSS certification requirements are dependent on the level of the service providers as determined by their acquirer or the payment brands and is summarized below. Merchants and Services providers should contact their acquirer or the payment brands to identify their specific validation and reporting requirements.
+        </p>
+
+        <table className="mt-5" style= {{width:"100%"}}>
+          <tr>
+            <th>Service Providers</th>
+            <th>Level 1</th> 
+            <th>Level 2</th>
+            <th>Level 3 and Level 4</th>
+
+          </tr>
+          <tr>
+            <td>PCI Assessment Type</td>
+            <td>Annual Onsite Assessment</td>
+            <td>Annual Self-Assessment</td>
+            <td>Payment Brand or Acquirer Defines What is Required</td>
+
+          </tr>
+
+          <tr>
+            <td>Reporting</td>
+            <td>ROC and Quarterly ASV Scan</td>
+            <td>SAQ and Quarterly ASV Scan</td>
+            <td>Payment Brand or Acquirer Defines What is Required</td>
+
+          </tr>
+          
+        </table>
+
+
+        <table className="mt-5" style= {{width:"100%"}}>
+          <tr>
+            <th>Merchants</th>
+            <th>Level 1</th> 
+            <th>Level 2</th>
+            <th>Level 3 (American Express)</th>
+
+          </tr>
+          <tr>
+            <td>PCI Assessment Type</td>
+            <td>Annual Onsite Assessment</td>
+            <td>Annual Self-Assessment</td>
+            <td>Annual Self-Assessment</td>
+
+          </tr>
+
+          <tr>
+            <td>Reporting</td>
+            <td>ROC and Quarterly ASV Scan</td>
+            <td>SAQ and Quarterly ASV Scan</td>
+            <td>SAQ and Quarterly ASV Scan</td>
+
+          </tr>
+          
+        </table>
+
+
+
+
+
           
           
           
