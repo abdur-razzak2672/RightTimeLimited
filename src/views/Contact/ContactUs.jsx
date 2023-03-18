@@ -74,7 +74,7 @@ function ContactUs() {
    "	DC & DRS Auditing",
    
     "Security Testing ",
-   "	Vulnerability Assessment & Presentation Testing Services ",
+   "	Vulnerability Assessment & Penetration  Testing Services ",
    "	Digital Forensics ",
    "	Code Review ",
    "	Software Quality Assurance & Testing ",

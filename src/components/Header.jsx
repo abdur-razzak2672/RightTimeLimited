@@ -428,7 +428,7 @@ function Header({ show, setShow }) {
                         href="/vulnerability-assessment"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                        Vulnerability Assessment & Presentation Testing Services
+                        Vulnerability Assessment & Penetration  Testing Services
                       </a>
 
                       <a className="mt-3" href="/digital-forensics">
@@ -708,7 +708,7 @@ function Header({ show, setShow }) {
                         style={{ lineHeight: "1.2" }}
                         to="/vulnerability-assessment"
                       >
-                        Vulnerability Assessment & Presentation Testing Services
+                        Vulnerability Assessment & Penetration Testing Services
                       </Link>
                     </li>
                     <li>

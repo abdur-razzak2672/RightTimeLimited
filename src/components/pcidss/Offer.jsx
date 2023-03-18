@@ -9,9 +9,9 @@ function Offer({ data, id }) {
         <p className="text-dark">{data[id].description}</p>
         <p style={{ borderBottom: "2px solid lightgray" }}></p>
         <div className="text-center">
-          <h4 className="header">Fast Track Your PCI DSS Compliance</h4>
+          <h4 className="header">Fast Track Your  {data[id].header} Compliance</h4>
           <p className="text-dark">
-            Request an initial PCI DSS Compliance Program consultation.
+            Request an initial  {data[id].header} Compliance Program consultation.
           </p>
 
           <button
