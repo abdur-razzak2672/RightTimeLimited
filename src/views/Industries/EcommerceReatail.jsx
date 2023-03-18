@@ -17,9 +17,9 @@ function EcommerceReatail() {
         <div className="container">
             <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="/">Home</a></li>
-                <li>eCommerce & Retail Merchants</li>
+                <li> 	E-Commence & Retail Merchants</li>
             </ul>
-            <h2 className="page-header__title">eCommerce & Retail Merchants</h2> 
+            <h2 className="page-header__title"> 	E-Commence & Retail Merchants</h2> 
         </div> 
     </div> 
 

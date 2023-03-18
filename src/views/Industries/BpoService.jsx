@@ -3,24 +3,23 @@ import IndustriesNav from './IndustriesNav'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-function Telecomunication() {
+function BpoService() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   return (
-    
     <div>
-     <div className="page-header">
+        <div className="page-header">
         <div className="page-header__bg"
-             style={{backgroundImage: `url('assets/images/background/tele.png')` }}></div>
-    
+             style={{backgroundImage: `url('/assets/images/background/ecom.png')`}}></div>
+   
         <div className="container">
             <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="/">Home</a></li>
-                <li> 	Mobile & Telecommunications</li>
+                <li>  IT and BPO Services</li>
             </ul>
-            <h2 className="page-header__title"> 	Mobile & Telecommunications</h2> 
+            <h2 className="page-header__title">  IT and BPO Services</h2> 
         </div> 
     </div> 
 
@@ -30,39 +29,34 @@ function Telecomunication() {
                 <div className="col-lg-8">
 
 
-                    <h3 className="blog-card-one__title blog-details__title" style={{color:"orange"}}> 	Mobile & Telecommunications</h3>
+                    <h3 className="blog-card-one__title blog-details__title" style={{ color: "orange" }}  >Data Security and BPO Industry</h3>
                     <div className="blog-details__content">
-                        <p>Telecom companies have long been a high value target for cybercriminals and nation state actors because they maintain and operate critical
-                        communications infrastructure which is used to transmit and store large amounts of private and sensitive data.
-                        Nation state actors are increasingly targeting telecommunications providers, their infrastructure and
-                        their operations in order to establish covert surveillance over infiltrated networks and allow them to operate undetected over the long term.
-                        Over the last few years we have seen highly sophisticated actors infiltrate telecom providers in order to conduct surveillance of phone lines,
-                        mobile data and IM/video calls, such attacks are difficult to detect and remediate.</p>
- <p>Some of the largest intelligence coups in history have been the result of the compromise of telecommunications systems.
- For as long as messages have been passed between people, whether in writing or orally, knowledge of their content by third parties has been a goal of nation-states and bad actors. </p>
+                        <p>Data security is an ever present concern in the BPO industry. The nature of the industry involves continuous exchange of confidential information with offshore parties. Such information includes, but isn’t limited to, financial, medical and personal information. Furthermore, there are questions about how the data is collected, stored and utilized</p>
+                        <p>Such concerns are embodied by security and privacy regulations like PCI, HIPAA, GLBA, SOX and others. As a result, organizations are mandated to enforce strict data security regulations on their outsourcing partner</p>
+                        <p>Successful implementation of data security controls offers competitive advantage to the business and the BPO. On the other hand, failing to do so makes them liable for data breaches by their outsourcing partner</p>
 
-<p>Manipulating communication processes, by injecting false information or degrading the speed and quality of traffic, has also been ubiquitous over time. Being the first to know — or better yet, to know something when your opponent or competitor doesn’t know you know — is a distinct advantage to protecting sensitive information.
-</p>
-                    <br/>
 
-                    <h4 style={{color:"orange"}}>Why Choose Right Time Limited?</h4>
-<p>Right Time Limited aims to support telecom companies in countering the threats facing the industry.
-Due our vast experience working within telecom sector, we have unique insight about the vulnerabilities and how they may be exploited.
-We can leverage our cyber security expertise to identify gaps in the security architecture.
-Additionally, our Application Security and Penetration testing services can help telecoms create secure applications and infrastructure resilient to penetration.</p>
+
+
+                        <br/>
+                        <h4 style={{ color: "orange" }} >How RightTime Assist?</h4>
+                        <p>We, at Panacea InfoSec, bring vast experience and technical expertise in designing and implementing ISMS in the BPO and IT/ITES industry. Additionally, we provide consultation on PCI, HIPAA, ISO standards compliance. Lastly, we understand the unique challenges faced by companies and their outsourcing partners. Our services ensure that you stay compliant and your customers secure.</p>
+                         
 
                     <br/>
 
-                    </div> 
+                    </div>
                     <br/>
                     <Button style={{backgroundColor:"#fd7e14"}} onClick={handleShow}>Contact Us</Button>
 
-                </div> 
+
+                </div>
                 <div className="col-lg-4">
                     <div className="sidebar">
                         <div className="sidebar__item sidebar__item--category">
                             <IndustriesNav/>
-                         </div>
+                      
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,10 +104,15 @@ Additionally, our Application Security and Penetration testing services can help
           
         </Modal.Body>
        
-      </Modal><br/><br/>
+      </Modal>
+<br/>
+    <br/>
+    <br/>
       
     </div>
   )
 }
 
-export default Telecomunication
+ 
+
+export default BpoService

@@ -249,10 +249,10 @@ function Header({ show, setShow }) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-retail">Insurance</Link>
+                  <Link to="/insurance">Insurance</Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-retail">IT and BPO Services</Link>
+                  <Link to="/bpo-service">IT and BPO Services</Link>
                 </li>
                 <li>
                   <Link to="/health-care">Health Care</Link>
