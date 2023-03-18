@@ -3,24 +3,23 @@ import IndustriesNav from './IndustriesNav'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-function Telecomunication() {
+function Insurance() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   return (
-    
     <div>
-     <div className="page-header">
+        <div className="page-header">
         <div className="page-header__bg"
-             style={{backgroundImage: `url('assets/images/background/tele.png')` }}></div>
-    
+             style={{backgroundImage: `url('/assets/images/background/ecom.png')`}}></div>
+   
         <div className="container">
             <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="/">Home</a></li>
-                <li> 	Mobile & Telecommunications</li>
+                <li> 	Insurance</li>
             </ul>
-            <h2 className="page-header__title"> 	Mobile & Telecommunications</h2> 
+            <h2 className="page-header__title">  	Insurance</h2> 
         </div> 
     </div> 
 
@@ -30,39 +29,37 @@ function Telecomunication() {
                 <div className="col-lg-8">
 
 
-                    <h3 className="blog-card-one__title blog-details__title" style={{color:"orange"}}> 	Mobile & Telecommunications</h3>
+                    <h3 className="blog-card-one__title blog-details__title" style={{ color: "orange" }}  > 	A Lucrative Target</h3>
                     <div className="blog-details__content">
-                        <p>Telecom companies have long been a high value target for cybercriminals and nation state actors because they maintain and operate critical
-                        communications infrastructure which is used to transmit and store large amounts of private and sensitive data.
-                        Nation state actors are increasingly targeting telecommunications providers, their infrastructure and
-                        their operations in order to establish covert surveillance over infiltrated networks and allow them to operate undetected over the long term.
-                        Over the last few years we have seen highly sophisticated actors infiltrate telecom providers in order to conduct surveillance of phone lines,
-                        mobile data and IM/video calls, such attacks are difficult to detect and remediate.</p>
- <p>Some of the largest intelligence coups in history have been the result of the compromise of telecommunications systems.
- For as long as messages have been passed between people, whether in writing or orally, knowledge of their content by third parties has been a goal of nation-states and bad actors. </p>
+                        <p>The insurance industry deals in vast amounts of confidential information about customers. Databases store information about credit cards, health insurance, among others. As a result, insurance companies are potential targets for attacks by cyber criminals. A security breach can be extremely damaging for insurance companies. Consequences can be negative press, loss of customer trust, and even decrease in business profits. Simultaneously, breaches can leave the customers open to identity theft, fraudulent payments & other attacks. Considering this, it is crucial that Cyber Security in Insurance industry not be ignored.</p>
+                        <p>However, new regulations mandate insurers to maintain customer data in secure environments. Furthermore, insurers must be able to demonstrate compliance to security standards. Failing this, insurers can be fined high penalties for non-compliance.</p>
+ 
 
-<p>Manipulating communication processes, by injecting false information or degrading the speed and quality of traffic, has also been ubiquitous over time. Being the first to know — or better yet, to know something when your opponent or competitor doesn’t know you know — is a distinct advantage to protecting sensitive information.
-</p>
-                    <br/>
 
-                    <h4 style={{color:"orange"}}>Why Choose Right Time Limited?</h4>
-<p>Right Time Limited aims to support telecom companies in countering the threats facing the industry.
-Due our vast experience working within telecom sector, we have unique insight about the vulnerabilities and how they may be exploited.
-We can leverage our cyber security expertise to identify gaps in the security architecture.
-Additionally, our Application Security and Penetration testing services can help telecoms create secure applications and infrastructure resilient to penetration.</p>
+
+                        <br/>
+                        <h4 style={{ color: "orange" }} >Who Should be Prepared?</h4>
+                        <p>Insurers could be a merchant or a financial institution. In either case, they accept and store payment and other details for insurance policy premiums. Regardless, each of these types has to comply as per specific PCI and ISMS Compliance standards.</p>
+                         
+                        <br/>
+                        <h4 style={{ color: "orange" }} >How Can Panacea Help?</h4>
+                        <p>Panacea InfoSec, bring years of experience in implementing PCI and Information Security standards in a variety of industries. We can guide insurers in achieving total compliance to PCI DSS and ISMS. Additionally, we can ensure implementation of cyber security in insurance workflows. Thereby, providing a secure environment and applications for clients.</p>
+                         
 
                     <br/>
 
-                    </div> 
+                    </div>
                     <br/>
                     <Button style={{backgroundColor:"#fd7e14"}} onClick={handleShow}>Contact Us</Button>
 
-                </div> 
+
+                </div>
                 <div className="col-lg-4">
                     <div className="sidebar">
                         <div className="sidebar__item sidebar__item--category">
                             <IndustriesNav/>
-                         </div>
+                      
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,10 +107,16 @@ Additionally, our Application Security and Penetration testing services can help
           
         </Modal.Body>
        
-      </Modal><br/><br/>
+      </Modal>
+<br/>
+    <br/>
+    <br/>
       
     </div>
   )
 }
 
-export default Telecomunication
+ 
+
+ 
+export default Insurance

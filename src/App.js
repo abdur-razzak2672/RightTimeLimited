@@ -22,6 +22,10 @@ import Telecomunication from "./views/Industries/Telecomunication";
 import PaymentCard from "./views/Industries/PaymentCard";
 import Educational from "./views/Industries/Educational";
 import EcommerceReatail from "./views/Industries/EcommerceReatail";
+import Insurance from "./views/Industries/Insurance";
+import BpoService from "./views/Industries/BpoService";
+import PowerSector from "./views/Industries/PowerSector";
+
 import HealthCare from "./views/Industries/HealthCare";
 // Industris Section Imported End
 
@@ -332,6 +336,11 @@ function App() {
         <Route path="/educational-institutions" component={Educational} exact />
         <Route path="/ecommerce-retail" component={EcommerceReatail} exact />
         <Route path="/health-care" component={HealthCare} exact />
+        <Route path="/insurance" component={Insurance} exact />
+        <Route path="/bpo-service" component={BpoService} exact />
+        <Route path="/power-sector" component={PowerSector} exact />
+
+         
         {/*Industries Section Route Declaration End */}
 
         {/*PArtner Section Route Declaration Start */}
