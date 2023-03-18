@@ -36,20 +36,18 @@
 
 #card:hover {
   transform: rotateY(180deg);
-  box-shadow: -5px 5px 15px rgba(204, 164, 104, 0.3);
-  background-color: #b90a0a;
+   background-color: #b90a0a !important;
 }
 
 #card2:hover {
   transform: rotateY(-180deg);
-  box-shadow: -5px 5px 15px rgba(204, 164, 104, 0.3);
-  background-color: #b90a0a;
+   background-color: #b90a0a;
 
 }
 
 #card3:hover {
   transform: rotateX(180deg);
-   background-color: #b90a0a;
+   background-color: #b90a0a !important;
  
 }
 #card3 .back {
@@ -61,9 +59,13 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+ 
 }
 
 .back {
+  background-color: #b90a0a !important;
+  color: white !important;
+
   display: block;
   transform: rotateY(180deg);
   box-sizing: border-box;
@@ -232,12 +234,27 @@
 
 }
 .servicesItem:active{  
-  background-color:  orange;
+  background-color:  #af44b7;
+  color:white !important;
   ;
   color:black !important;
 
 
 }
+
+
+/* .vaptActive .active{
+  background-color: orange !important;
+  color: white !important;
+  width: 100%;
+} */
+
+.vaptActive Button:focus{
+  background-color: orange !important;
+  color: white !important;
+ }
+
+ 
 
 .servicesItem:focus{  
    background-color: orange;
