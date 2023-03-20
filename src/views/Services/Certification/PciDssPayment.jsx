@@ -3,9 +3,9 @@ import { Col, Row } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Offer from "../../../components/pcidss/Offer";
+import Offer from "../../../components/services/pcidss/Offer";
 
-import { OfferData } from "../../../components/pcidss/OfferData";
+import { OfferData } from "../../../components/services/pcidss/OfferData";
 function PciDssPayment() {
   const [tabIndex, setTabIndex] = useState(0);
   const [tabIndex1, setTabIndex1] = useState(16);
