@@ -464,6 +464,13 @@ function Header({ show, setShow }) {
                       >
                         <i className="fas fa-circle iconStyle "> </i>  Breach Attack Simulation
                       </a>
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Security Posture Assessment
+                      </a>
                     </Col>
 
                     <Col
