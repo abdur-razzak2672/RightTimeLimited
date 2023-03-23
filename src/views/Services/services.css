@@ -4,7 +4,7 @@
  }
 
 #card-container {
-   width: 100%;
+  width: 100%;
   height: 250px;
   z-index: 1;
 
@@ -218,7 +218,7 @@
  }
  
 
-.servicesItem{
+.servicesItem a{
   padding: 15px;
   width: 100%;
   margin-bottom: 12px;
@@ -226,21 +226,22 @@
  
 }
 
-.servicesItem:hover{
+.servicesItem a:hover{
   padding: 15px;
-  color: black !important;
+  color: white !important;
   
-   background-color: #af44b7;
+  background-color: #540859 !important;
 
 }
-.servicesItem:active{  
-  background-color:  #af44b7;
+.servicesItem a:focus{  
+  background-color: #540859 !important;
   color:white !important;
   ;
-  color:black !important;
-
+ 
 
 }
+ 
+
 
 
 /* .vaptActive .active{
@@ -286,6 +287,6 @@
 
  .cont2{
   background-color: #540859 !important;
-  margin: 5px;
+  margin: 3px;
   border: none;
  }

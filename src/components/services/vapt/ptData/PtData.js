@@ -292,3 +292,62 @@ export const PtData = {
 
     ]
 }
+
+
+
+
+export const PtOfferCard = [
+    {
+        id: 1,
+        title: 'Pre-engagement Activities (including Scope Definition)',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+    {
+        id: 2,
+        title: 'Reconnaissance /OSINT/Information gathering',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+
+    {
+        id: 3,
+        title: 'Threat modeling  ',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+    {
+        id: 4,
+        title: 'Vulnerability Analysis ',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+    {
+        id: 5,
+        title: 'Exploitation (Gaining Access) ',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+    {
+        id: 6,
+        title: ' Post-exploitation (maintaining Access), Analysis & Recommendation',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+    {
+        id: 7,
+        title: 'Clearing Tracks ',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+    {
+        id: 8,
+        title: 'Comprehensive Reporting ',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+    {
+        id: 9,
+        title: 'Resolution Phase ',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+    {
+        id: 10,
+        title: ' Re-Testing Phase',
+        description: 'Perform an initial study of business to understand your card processes, the environment  ',
+    },
+  
+]
+    

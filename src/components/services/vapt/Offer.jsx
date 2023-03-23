@@ -1,6 +1,6 @@
 import React from "react";
 
-function Offer({ data, id }) {
+function Offer({ data, id,Offercard }) {
   console.log("data", data);
   return (
     <div>
@@ -55,160 +55,41 @@ function Offer({ data, id }) {
           <h5 className="header">Our Methology</h5>
             <p className="text-dark">VAPT is a complex requirement that has an impact on most areas of the business, not just the technical or IT focused locations. Therefore, it is important to make sure that any methodology that is used to service the program has been tried and tested. The approach that Right Time Limited adopts for the VAPT program of works is as follows:</p>
           
+
+
+
+
             <div className="row   text-center col-xs-6">
-            <div className=" col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/1.png" width="30%" alt=''/>
-                    <h6 className=' mt-3 p-2 text-dark'> Pre-engagement Activities (including Scope Definition)</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">
-                      Evaluating business process and environment to understand the in-scope elements</p>
 
-                  </div>
-                </div>
-              </div>
 
-            </div>
-            <div className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/2.png" width="30%" alt=''/>                    
-                    <h6 className=' mt-3 p-2 text-dark'>  	Reconnaissance<br/>/OSINT/Information gathering</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">
-                      Finalize the scope elements and prepare the requirement documentation</p>
+                {Offercard.map((card, index) =>(
+                   <div key={index} className="  col-md-4 col-sm-6 rounded ">
+                   <div id="card-container">
+                     <div className="text-center rounded" id="card3">
+                       <div className="front face text-center pt-3">
+                         <img src="assets/images/services/cardicon/2.png" width="30%" alt=''/>                    
+                         <h6 className=' mt-3 p-2 text-dark'>{card.title}</h6>
+                       </div>
+                       <div className="back face">
+                         <p className="artist mt-4">
+                           {card.description}</p>
+     
+                       </div>
+                     </div>
+                   </div> 
+                 </div>
 
-                  </div>
-                </div>
-              </div>
 
-              
-
-            </div>
-
-            <div className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/2.png" width="30%" alt=''/>                    
-                    <h6 className='mt-3 p-2 text-dark'> Threat modeling and Vulnerability Identification & Analysis</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">
-                    Identify the potential challenges that might arise during requirement implementation</p>
-
-                  </div>
-                </div>
-              </div>
-
-              
-
-            </div>
-             
-            <div style={{marginTop:"-80px"}} className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-4">
-                    <img src="assets/images/services/cardicon/1.png" width="30%" alt=''/>
-                    <h6 className='mt-3 p-2 text-dark'> 	Exploitation (Gaining Access)</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">
-                      Identify the potential challenges that might arise during requirement implementation</p>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div style={{marginTop:"-80px"}} className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-
-                    <img src="assets/images/services/cardicon/5.png" width="30%" alt=''/>                   
-                     <h6 className='mt-3 p-2 text-dark'> Post-exploitation (maintaining Access), Analysis & Recommendation</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">Data Flow Assessment
-                      Conducting thorough systems analysis to evaluate data flow and possible leakages</p>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div style={{marginTop:"-80px"}} className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/6.png" width="30%" alt=''/>                   
-                     <h6 className='mt-3 p-2 text-dark'> 	Clearing Tracks</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">
-                      Assist you with list of policy and procedure to help you in validation or evidence collection</p>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div  style={{marginTop:"-80px"}} className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/7.png" width="30%" alt='' />                   
-                     <h6 className='mt-3 p-2 text-dark'> 	Comprehensive Reporting</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">
-                      Assist you with list of policy and procedure to help you in validation or evidence collection</p>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div  style={{marginTop:"-80px"}} className=" col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/8.png" width="30%" alt=''/>                    
-                    <h6 className='mt-3 p-2 text-dark'>8.	Resolution Phase</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">
-                      Conduct awareness sessions for your Team and personnel involved in the scope</p>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div  style={{marginTop:"-80px"}} className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/9.png" width="30%" alt=''/>                    
-                    <h6 className='mt-3 p-2 text-dark'> 	Re-Testing Phase</h6>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">Scans And Testing
-                      Identify critical vulnerabilities in your system with a robust testing approach</p>
-
-                  </div>
-                </div>
-              </div>
-       
+                )) }
+            
             
 
-            </div>
+
+
+            
+            
+
+            
            </div>
           
           

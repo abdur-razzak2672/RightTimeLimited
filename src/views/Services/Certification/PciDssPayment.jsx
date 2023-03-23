@@ -9,8 +9,19 @@ import { OfferData } from "../../../components/services/pcidss/OfferData";
 function PciDssPayment() {
   const [tabIndex, setTabIndex] = useState(0);
   const [tabIndex1, setTabIndex1] = useState(16);
-  const [tabIndex2, setTabIndex2] = useState(0);
-  const [tabIndex3, setTabIndex3] = useState(0);
+  const [tabIndex2, setTabIndex2] = useState(201);
+  const [tabIndex3, setTabIndex3] = useState(301);
+
+
+
+  const [style, setStyle] = useState("cont2");
+  const [style2, setStyle2] = useState("cont");
+
+
+
+  const [style3, setStyle3] = useState("cont");
+  const [style4, setStyle4] = useState("cont2");
+  const [style5, setStyle5] = useState("cont");
 
   console.log("offer", OfferData);
 
@@ -163,43 +174,76 @@ function PciDssPayment() {
               Assessor as per its Level.
             </p>
 
-            <div className="d-flex justify-content-center  vaptActive mt-5">
+            <div className="d-flex justify-content-center    mt-5">
               <Button
-                style={{ backgroundColor: "#a235d2" }}
-                onClick={() => setTabIndex2(201)}
-                className="m-1 p-3  border-0    "
+                onClick={() => (setTabIndex2(201),    setStyle3("cont"),
+                setStyle4("cont2"),setStyle5("cont"),
+                setStyle("cont2"),
+                setStyle2("cont"),
+                setTabIndex3(301)
+                
+                )}
+               className={style4}
               >
                 PCI DSS Consultation
               </Button>
               <Button
-                style={{ backgroundColor: "#a235d2" }}
-                onClick={() => setTabIndex2(202)}
-                className="m-1 border-0"
+             onClick={() =>(setTabIndex2(202) ,setStyle4("cont"),
+             setStyle3("cont2"),setStyle5("cont"),
+
+             setStyle("cont2"),
+             setStyle2("cont"),
+             setTabIndex3(301)
+
+             
+             )}
+             className={style3}
+
+    
               >
                 PCI DSS Certification
               </Button>
               <Button
-                style={{ backgroundColor: "#a235d2" }}
-                onClick={() => setTabIndex2(203)}
-                className="m-1 border-0"
+                 onClick={() =>(setTabIndex2(203) ,setStyle4("cont"),
+                 setStyle3("cont"),setStyle5("cont2"),
+                 setStyle("cont2"),
+                 setStyle2("cont"),
+                 setTabIndex3(301)
+
+                 )}
+                 className={style5}
               >
-                PCI DSS Certification
+                PCI DSS Consultation & Certification
               </Button>
             </div>
 
             {tabIndex2 === 201 && (
-              <div className="d-flex mt-4 justify-content-center vaptActive">
+              <div className="d-flex mt-4 justify-content-center  ">
                 <Button
-                  style={{ backgroundColor: "#a235d2" }}
-                  onClick={() => setTabIndex3(301)}
-                  className="m-1 p-3  border-0    "
+                  onClick={() =>(
+                    setTabIndex3(301),
+                   
+                      setStyle2("cont"),
+                     setStyle("cont2")
+
+
+                  ) }
+                  className={style}
                 >
                   Consultation (Initial)
                 </Button>
                 <Button
-                  style={{ backgroundColor: "#a235d2" }}
-                  onClick={() => setTabIndex3(302)}
-                  className="m-1 p-3 border-0"
+                   onClick={() =>(
+                    setTabIndex3(302),
+                     setStyle("cont"),
+                    setStyle2("cont2") 
+                   
+
+
+
+
+                  )}
+                  className={style2}
                 >
                   Consultation (Re-Certification)
                 </Button>
@@ -207,16 +251,34 @@ function PciDssPayment() {
             )}
 
             {tabIndex2 === 202 && (
-              <div className="d-flex mt-4 justify-content-center vaptActive">
+              <div className="d-flex mt-4 justify-content-center  ">
                 <Button
-                  style={{ backgroundColor: "#a235d2" }}
-                  className="m-1 p-3  border-0    "
+                  onClick={() =>(
+                    setTabIndex3(301),
+                     setStyle5("cont"),
+                    setStyle3("cont"),
+                    setStyle4("cont2"),
+                      setStyle2("cont"),
+                     setStyle("cont2")
+
+
+                  ) }
+                  className={style}
                 >
                   Consultation (Initial)
                 </Button>
                 <Button
-                  style={{ backgroundColor: "#a235d2" }}
-                  className="m-1 p-3 border-0"
+                   onClick={() =>(
+                    setTabIndex3(302),
+                     setStyle("cont"),
+                    setStyle2("cont2") 
+                   
+
+
+
+
+                  )}
+                  className={style2}
                 >
                   Consultation (Re-Certification)
                 </Button>
@@ -224,20 +286,36 @@ function PciDssPayment() {
             )}
 
             {tabIndex2 === 203 && (
-              <div className="d-flex mt-4 justify-content-center vaptActive">
-                <Button
-                  style={{ backgroundColor: "#a235d2" }}
-                  className="m-1 p-3  border-0    "
-                >
-                  Consultation (Initial)
-                </Button>
-                <Button
-                  style={{ backgroundColor: "#a235d2" }}
-                  className="m-1 p-3 border-0"
-                >
-                  Consultation (Re-Certification)
-                </Button>
-              </div>
+              <div className="d-flex mt-4 justify-content-center  ">
+              <Button
+                onClick={() =>(
+                  setTabIndex3(301),
+                 
+                    setStyle2("cont"),
+                   setStyle("cont2")
+
+
+                ) }
+                className={style}
+              >
+                Consultation (Initial)
+              </Button>
+              <Button
+                 onClick={() =>(
+                  setTabIndex3(302),
+                   setStyle("cont"),
+                  setStyle2("cont2") 
+                  
+
+
+
+
+                )}
+                className={style2}
+              >
+                Consultation (Re-Certification)
+              </Button>
+            </div>
             )}
 
             {tabIndex3 === 301 && (
@@ -320,8 +398,7 @@ function PciDssPayment() {
                     </div>
                   </div>
                   <div
-                    style={{ marginTop: "-80px" }}
-                    className="  col-md-4 col-sm-6 rounded "
+                     className="  col-md-4 col-sm-6 rounded "
                   >
                     <div id="card-container">
                       <div className="text-center rounded" id="card3">
@@ -343,8 +420,7 @@ function PciDssPayment() {
                     </div>
                   </div>
                   <div
-                    style={{ marginTop: "-80px" }}
-                    className="  col-md-4 col-sm-6 rounded "
+                     className="  col-md-4 col-sm-6 rounded "
                   >
                     <div id="card-container">
                       <div className="text-center rounded" id="card3">
@@ -368,8 +444,7 @@ function PciDssPayment() {
                     </div>
                   </div>
                   <div
-                    style={{ marginTop: "-80px" }}
-                    className="  col-md-4 col-sm-6 rounded "
+                     className="  col-md-4 col-sm-6 rounded "
                   >
                     <div id="card-container">
                       <div className="text-center rounded" id="card3">
