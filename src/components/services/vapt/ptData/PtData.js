@@ -17,6 +17,112 @@ export const PtData = {
             header:"VAPT"
         },
 
+        {
+            id: 3,
+            title: ' 	Wireless Penetration Testing ',
+            description: ' Wireless communications are services that allow data to move in and out of networks and must be protected from unauthorized access and data exfiltration. Wireless penetration testing is used to identify risks associated with wireless networks and evaluate weaknesses such as',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 4,
+            title: ' External Penetration Test ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 5,
+            title: ' Internal Penetration Test',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id:6,
+            title: 'Physical Penetration Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 7,
+            title: ' Social Engineering Penetration Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 8,
+            title: ' Critical Systems ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 9,
+            title: ' Client-Side Penetration Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 10,
+            title: ' Mobile App Penetration Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 11,
+            title: ' API Penetration Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 12,
+            title: ' Testing Segmentation Controls ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 13,
+            title: ' IoT Penetration Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 14,
+            title: ' SCADA Penetration Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 15,
+            title: ' Red Team Penetration Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 16,
+            title: ' Open-Source Intelligence (OSINT) Assessment ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 16,
+            title: ' Testing ',
+            description: '   ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        
     ],
 
      pt_approach:[
@@ -35,13 +141,41 @@ export const PtData = {
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
         },
+        {
+            id: 3,
+            title: '  	Application-Layer and Network-Layer Testing',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 4,
+            title: '  	Authentication',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 5,
+            title: ' 	PA-DSS Compliant Applications (in case of PT supports for PCI DSS)',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 6,
+            title: '  	PA-DSS Compliant Applications (in case of PT supports for PCI DSS)',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
 
     ],
 
     pt_service:[
         {
             id: 1,
-            title: ' Manual penetration testing ',
+            title: ' 	Separate Testing Environment',
             description: 'Manual penetration testing is extensive and systematic. It is usually performed by a contractor or security consultancy, who agree on a specific testing scope with the client. Within that scope, an ethical hacker searches for vulnerabilities, attempts to breach the organization’s systems, and prepares a detailed report showing what they discovered and suggesting remediations.',
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
@@ -54,6 +188,107 @@ export const PtData = {
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
         },
+
+
+        {
+            id: 3,
+            title: ' Commercial- Grade Exploits ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 4,
+            title: ' Vulnerability Scan Validation ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 5,
+            title: ' Port Scanning ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 6,
+            title: ' Configuration and Services ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 7,
+            title: ' Perimeter Defense – Network Penetration Test (internal and external) ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 8,
+            title: ' Host & device Testing ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 9,
+            title: ' Application Penetration Testing ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 10,
+            title: ' Client-Side Testing of End Users and Endpoint ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 11,
+            title: ' Identity Discovery & Password Cracking ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 12,
+            title: 'Wireless Network Penetration Test  ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 13,
+            title: ' Database ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 14,
+            title: '  Mobile Device Penetration Test and Surveillance Camera Attacks',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id:  15,
+            title: ' Cloud Penetration Testing ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+        {
+            id: 16,
+            title: ' Web Application Penetration Test ',
+            description: ' ',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+        },
+
 
     ]
 }

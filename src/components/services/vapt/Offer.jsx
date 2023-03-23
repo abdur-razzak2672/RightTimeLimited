@@ -61,7 +61,7 @@ function Offer({ data, id }) {
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
                     <img src="assets/images/services/cardicon/1.png" width="30%" alt=''/>
-                    <h5 className=' mt-3 p-2 text-dark'>Business Understanding</h5>
+                    <h6 className=' mt-3 p-2 text-dark'> Pre-engagement Activities (including Scope Definition)</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">
@@ -77,7 +77,7 @@ function Offer({ data, id }) {
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
                     <img src="assets/images/services/cardicon/2.png" width="30%" alt=''/>                    
-                    <h5 className='mt-3 p-2 text-dark'>Scope Finalization</h5>
+                    <h6 className=' mt-3 p-2 text-dark'>  	Reconnaissance<br/>/OSINT/Information gathering</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">
@@ -96,7 +96,7 @@ function Offer({ data, id }) {
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
                     <img src="assets/images/services/cardicon/2.png" width="30%" alt=''/>                    
-                    <h5 className='mt-3 p-2 text-dark'>Readiness Assesment</h5>
+                    <h6 className='mt-3 p-2 text-dark'> Threat modeling and Vulnerability Identification & Analysis</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">
@@ -115,7 +115,7 @@ function Offer({ data, id }) {
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-4">
                     <img src="assets/images/services/cardicon/1.png" width="30%" alt=''/>
-                    <h5 className='mt-3 p-2 text-dark'>Risk Assesment</h5>
+                    <h6 className='mt-3 p-2 text-dark'> 	Exploitation (Gaining Access)</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">
@@ -132,7 +132,7 @@ function Offer({ data, id }) {
                   <div className="front face text-center pt-3">
 
                     <img src="assets/images/services/cardicon/5.png" width="30%" alt=''/>                   
-                     <h5 className='mt-3 p-2 text-dark'>Data Flow Assesment</h5>
+                     <h6 className='mt-3 p-2 text-dark'> Post-exploitation (maintaining Access), Analysis & Recommendation</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">Data Flow Assessment
@@ -148,7 +148,7 @@ function Offer({ data, id }) {
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
                     <img src="assets/images/services/cardicon/6.png" width="30%" alt=''/>                   
-                     <h5 className='mt-3 p-2 text-dark'>Doccumentation Support</h5>
+                     <h6 className='mt-3 p-2 text-dark'> 	Clearing Tracks</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">
@@ -164,7 +164,7 @@ function Offer({ data, id }) {
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
                     <img src="assets/images/services/cardicon/7.png" width="30%" alt='' />                   
-                     <h5 className='mt-3 p-2 text-dark'>Remidiation Support</h5>
+                     <h6 className='mt-3 p-2 text-dark'> 	Comprehensive Reporting</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">
@@ -180,7 +180,7 @@ function Offer({ data, id }) {
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
                     <img src="assets/images/services/cardicon/8.png" width="30%" alt=''/>                    
-                    <h5 className='mt-3 p-2 text-dark'>Awareness Training</h5>
+                    <h6 className='mt-3 p-2 text-dark'>8.	Resolution Phase</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">
@@ -196,7 +196,7 @@ function Offer({ data, id }) {
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
                     <img src="assets/images/services/cardicon/9.png" width="30%" alt=''/>                    
-                    <h5 className='mt-3 p-2 text-dark'>Scan And Testing</h5>
+                    <h6 className='mt-3 p-2 text-dark'> 	Re-Testing Phase</h6>
                   </div>
                   <div className="back face">
                     <p className="artist mt-4">Scans And Testing
@@ -209,55 +209,7 @@ function Offer({ data, id }) {
             
 
             </div>
-            <div  style={{marginTop:"-80px"}} className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/10.png" width="30%" alt=''/>                    
-                    <h5 className='mt-3 p-2 text-dark'>Evidence And Reveiw</h5>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4">Evidence Review
-                      Review of the evidence collected to assess their maturity, in line with the compliance</p>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div  style={{marginTop:"-80px"}} className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/11.png" width="30%" alt=''/>
-                    <h5 className='mt-3 p-2 text-dark'>Final Assesment And Attestation</h5>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4"> Attestation
-                      Post successful assessment, we get you attested for compliance with our audit team</p>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div  style={{marginTop:"-80px"}} className="  col-md-4 col-sm-6 rounded ">
-              <div id="card-container">
-                <div className="text-center rounded" id="card3">
-                  <div className="front face text-center pt-3">
-                    <img src="assets/images/services/cardicon/12.png" width="30%" alt=''/>
-                    <h5 className='mt-3 p-2 text-dark'>Contineuos Compliance</h5>
-                  </div>
-                  <div className="back face">
-                    <p className="artist mt-4"> Attestation
-                      Post successful assessment, we get you attested for compliance with our audit team</p>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
+           </div>
           
           
            <p className="text-dark ">The above picture is an outline of the total process and the drive through compliance. </p>
