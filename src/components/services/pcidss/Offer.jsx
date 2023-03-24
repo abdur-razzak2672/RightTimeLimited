@@ -5,8 +5,8 @@ function Offer({ data, id }) {
   return (
     <div>
       <div>
-        <h3 className="header">{data[id].title}</h3>
-        <p className="text-dark">{data[id].description}</p>
+        {/* <h3 className="header">{data[id].title}</h3>
+        <p className="text-dark">{data[id].description}</p> */}
         <p style={{ borderBottom: "2px solid lightgray" }}></p>
         <div className="text-center">
           <h4 className="header">Fast Track Your  {data[id].header} Compliance</h4>

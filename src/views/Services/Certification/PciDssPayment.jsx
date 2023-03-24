@@ -6,18 +6,16 @@ import Card from "react-bootstrap/Card";
 import Offer from "../../../components/services/pcidss/Offer";
 
 import { OfferData } from "../../../components/services/pcidss/OfferData";
+import OfferPhaseInitial from "../../../components/services/pcidss/OfferPhaseInitial";
+import OfferRe from "../../../components/services/pcidss/OfferRe";
 function PciDssPayment() {
   const [tabIndex, setTabIndex] = useState(0);
   const [tabIndex1, setTabIndex1] = useState(16);
   const [tabIndex2, setTabIndex2] = useState(201);
   const [tabIndex3, setTabIndex3] = useState(301);
 
-
-
   const [style, setStyle] = useState("cont2");
   const [style2, setStyle2] = useState("cont");
-
-
 
   const [style3, setStyle3] = useState("cont");
   const [style4, setStyle4] = useState("cont2");
@@ -176,42 +174,44 @@ function PciDssPayment() {
 
             <div className="d-flex justify-content-center    mt-5">
               <Button
-                onClick={() => (setTabIndex2(201),    setStyle3("cont"),
-                setStyle4("cont2"),setStyle5("cont"),
-                setStyle("cont2"),
-                setStyle2("cont"),
-                setTabIndex3(301)
-                
+                onClick={() => (
+                  setTabIndex2(201),
+                  setStyle3("cont"),
+                  setStyle4("cont2"),
+                  setStyle5("cont"),
+                  setStyle("cont2"),
+                  setStyle2("cont"),
+                  setTabIndex3(301)
                 )}
-               className={style4}
+                className={style4}
               >
                 PCI DSS Consultation
               </Button>
               <Button
-             onClick={() =>(setTabIndex2(202) ,setStyle4("cont"),
-             setStyle3("cont2"),setStyle5("cont"),
-
-             setStyle("cont2"),
-             setStyle2("cont"),
-             setTabIndex3(301)
-
-             
-             )}
-             className={style3}
-
-    
+                onClick={() => (
+                  setTabIndex2(202),
+                  setStyle4("cont"),
+                  setStyle3("cont2"),
+                  setStyle5("cont"),
+                  setStyle("cont2"),
+                  setStyle2("cont"),
+                  setTabIndex3(301)
+                )}
+                className={style3}
               >
                 PCI DSS Certification
               </Button>
               <Button
-                 onClick={() =>(setTabIndex2(203) ,setStyle4("cont"),
-                 setStyle3("cont"),setStyle5("cont2"),
-                 setStyle("cont2"),
-                 setStyle2("cont"),
-                 setTabIndex3(301)
-
-                 )}
-                 className={style5}
+                onClick={() => (
+                  setTabIndex2(203),
+                  setStyle4("cont"),
+                  setStyle3("cont"),
+                  setStyle5("cont2"),
+                  setStyle("cont2"),
+                  setStyle2("cont"),
+                  setTabIndex3(301)
+                )}
+                className={style5}
               >
                 PCI DSS Consultation & Certification
               </Button>
@@ -220,28 +220,16 @@ function PciDssPayment() {
             {tabIndex2 === 201 && (
               <div className="d-flex mt-4 justify-content-center  ">
                 <Button
-                  onClick={() =>(
-                    setTabIndex3(301),
-                   
-                      setStyle2("cont"),
-                     setStyle("cont2")
-
-
-                  ) }
+                  onClick={() => (
+                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
+                  )}
                   className={style}
                 >
                   Consultation (Initial)
                 </Button>
                 <Button
-                   onClick={() =>(
-                    setTabIndex3(302),
-                     setStyle("cont"),
-                    setStyle2("cont2") 
-                   
-
-
-
-
+                  onClick={() => (
+                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
                   )}
                   className={style2}
                 >
@@ -253,28 +241,16 @@ function PciDssPayment() {
             {tabIndex2 === 202 && (
               <div className="d-flex mt-4 justify-content-center  ">
                 <Button
-                  onClick={() =>(
-                    setTabIndex3(301),
-                    
-                      setStyle2("cont"),
-                     setStyle("cont2")
-
-
-                  ) }
+                  onClick={() => (
+                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
+                  )}
                   className={style}
                 >
                   Consultation (Initial)
                 </Button>
                 <Button
-                   onClick={() =>(
-                    setTabIndex3(302),
-                     setStyle("cont"),
-                    setStyle2("cont2") 
-                   
-
-
-
-
+                  onClick={() => (
+                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
                   )}
                   className={style2}
                 >
@@ -285,342 +261,42 @@ function PciDssPayment() {
 
             {tabIndex2 === 203 && (
               <div className="d-flex mt-4 justify-content-center  ">
-              <Button
-                onClick={() =>(
-                  setTabIndex3(301),
-                 
-                    setStyle2("cont"),
-                   setStyle("cont2")
-
-
-                ) }
-                className={style}
-              >
-                Consultation (Initial)
-              </Button>
-              <Button
-                 onClick={() =>(
-                  setTabIndex3(302),
-                   setStyle("cont"),
-                  setStyle2("cont2") 
-                  
-
-
-
-
-                )}
-                className={style2}
-              >
-                Consultation (Re-Certification)
-              </Button>
-            </div>
+                <Button
+                  onClick={() => (
+                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
+                  )}
+                  className={style}
+                >
+                  Consultation (Initial)
+                </Button>
+                <Button
+                  onClick={() => (
+                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
+                  )}
+                  className={style2}
+                >
+                  Consultation (Re-Certification)
+                </Button>
+              </div>
             )}
 
-            {tabIndex3 === 301 && (
+
+
+
+            {tabIndex3 === 301?(
               <>
-                <div>
-                  <h5
-                    style={{ backgroundColor: "#12062c" }}
-                    className="  text-light p-2  mt-4 text-center"
-                  >
-                    PHASE I
-                  </h5>
-                </div>
-
-                <div className="row   text-center col-xs-6">
-                  <div className=" col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/1.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className=" mt-3 p-2 text-dark">
-                            Business Understanding
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Evaluating business process and environment to
-                            understand the in-scope elements
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="  col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/2.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Scope Finalization
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Finalize the scope elements and prepare the
-                            requirement documentation
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="  col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/2.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Readiness Assesment
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Identify the potential challenges that might arise
-                            during requirement implementation
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                     className="  col-md-4 col-sm-6 rounded "
-                  >
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-4">
-                          <img
-                            src="assets/images/services/cardicon/1.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">Risk Assesment</h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Identify the potential challenges that might arise
-                            during requirement implementation
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                     className="  col-md-4 col-sm-6 rounded "
-                  >
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/5.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Data Flow Assesment
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Data Flow Assessment Conducting thorough systems
-                            analysis to evaluate data flow and possible leakages
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                     className="  col-md-4 col-sm-6 rounded "
-                  >
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/6.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Doccumentation Support
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Assist you with list of policy and procedure to help
-                            you in validation or evidence collection
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h5
-                      style={{ backgroundColor: "#12062c" }}
-                      className="  text-light p-2  text-center"
-                    >
-                      PHASE II
-                    </h5>
-                  </div>
-                  <div className="  col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/7.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Remidiation Support
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Assist you with list of policy and procedure to help
-                            you in validation or evidence collection
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className=" col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/8.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Awareness Training
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Conduct awareness sessions for your Team and
-                            personnel involved in the scope
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="  col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/9.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Scan And Testing
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Scans And Testing Identify critical vulnerabilities
-                            in your system with a robust testing approach
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h5
-                      style={{ backgroundColor: "#12062c" }}
-                      className="  text-light p-2  text-center"
-                    >
-                      PHASE III
-                    </h5>
-                  </div>
-                  <div className="  col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/10.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Evidence And Reveiw
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            Evidence Review Review of the evidence collected to
-                            assess their maturity, in line with the compliance
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="  col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/11.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Final Assesment And Attestation
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            {" "}
-                            Attestation Post successful assessment, we get you
-                            attested for compliance with our audit team
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="  col-md-4 col-sm-6 rounded ">
-                    <div id="card-container">
-                      <div className="text-center rounded" id="card3">
-                        <div className="front face text-center pt-3">
-                          <img
-                            src="assets/images/services/cardicon/12.png"
-                            width="30%"
-                            alt=""
-                          />
-                          <h5 className="mt-3 p-2 text-dark">
-                            Contineuos Compliance
-                          </h5>
-                        </div>
-                        <div className="back face">
-                          <p className="artist mt-4">
-                            {" "}
-                            Attestation Post successful assessment, we get you
-                            attested for compliance with our audit team
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <OfferPhaseInitial />
               </>
+            ):(
+              <OfferRe/>
+
+
             )}
+
+
+
+
+
 
             <Row className="mt-4">
               {/* <Col md={4}>
