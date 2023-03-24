@@ -255,9 +255,7 @@ function PciDssPayment() {
                 <Button
                   onClick={() =>(
                     setTabIndex3(301),
-                     setStyle5("cont"),
-                    setStyle3("cont"),
-                    setStyle4("cont2"),
+                    
                       setStyle2("cont"),
                      setStyle("cont2")
 

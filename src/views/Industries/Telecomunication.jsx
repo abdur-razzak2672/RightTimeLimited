@@ -26,7 +26,15 @@ function Telecomunication() {
 
     <section className="section-padding--bottom section-padding--top">
         <div className="container">
+         
             <div className="row">
+            <div className="col-lg-4">
+                    <div className="sidebar">
+                        <div className="">
+                            <IndustriesNav/>
+                         </div>
+                    </div>
+                </div>
                 <div className="col-lg-8">
 
 
@@ -58,13 +66,7 @@ Additionally, our Application Security and Penetration testing services can help
                     <Button style={{backgroundColor:"#fd7e14"}} onClick={handleShow}>Contact Us</Button>
 
                 </div> 
-                <div className="col-lg-4">
-                    <div className="sidebar">
-                        <div className="sidebar__item sidebar__item--category">
-                            <IndustriesNav/>
-                         </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>

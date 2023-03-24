@@ -26,6 +26,15 @@ function BankNbfi() {
     <section className="section-padding--bottom section-padding--top">
         <div className="container">
         <div className="row">
+
+        <div className="col-lg-4">
+                    <div className="sidebar">
+                        <div  >
+                            <IndustriesNav/>
+                            
+                        </div>
+                    </div>
+                </div>
                 <div className="col-lg-8">
                     <h3 className="blog-card-one__title blog-details__title" style={{color:"orange"}} > Bank and NBFI</h3>
                     <div className="blog-details__content">
@@ -45,14 +54,7 @@ function BankNbfi() {
                     </div><br/>
                     <Button style={{backgroundColor:"#fd7e14"}} onClick={handleShow}>Contact Us</Button>
                 </div>
-                <div className="col-lg-4">
-                    <div className="sidebar">
-                        <div className="sidebar__item sidebar__item--category">
-                            <IndustriesNav/>
-                            
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>

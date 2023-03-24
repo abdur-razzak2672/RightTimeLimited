@@ -26,6 +26,14 @@ function Educational() {
       <section className="section-padding--bottom section-padding--top">
         <div className="container">
           <div className="row">
+          <div className="col-lg-4">
+              <div className="sidebar">
+                <div className=" ">
+                  <IndustriesNav />
+
+                </div>
+              </div>
+            </div>
             <div className="col-lg-8">
 
 
@@ -53,14 +61,7 @@ function Educational() {
 
 
             </div>
-            <div className="col-lg-4">
-              <div className="sidebar">
-                <div className="sidebar__item sidebar__item--category">
-                  <IndustriesNav />
-
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
