@@ -72,14 +72,14 @@ function IndustriusBody() {
                                 </a>
                             </li>
                             <li style={{width:"180px"}} className ="m-2 rounded border ">
-                                <a href="/payment-card" className="overlay-container" >
+                                <a href="/bpo-service" className="overlay-container" >
                                 <img src="assets/images/Industries/pci.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>It & BPO Services</p>
                                 </a>
                             </li>
                              
                             <li style={{width:"180px"}} className ="m-2 rounded border ">
-                                <a href="/telecomunication">
+                                <a href="/power-sector">
                                 <img src="assets/images/Industries/telecommunication.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Power Sector</p>
                                 </a>

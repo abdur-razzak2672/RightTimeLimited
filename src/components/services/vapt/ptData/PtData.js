@@ -4,7 +4,7 @@ export const PtData = {
         {
             id: 1,
             title: ' 	Network Penetration Testing',
-            description: 'Network penetration testing finds and exploits the most exposed vulnerabilities in network infrastructure such as servers, firewalls, and switches. This type of testing can help protect your business from common network-based attacks, such as.',
+            description: 'Network penetration testing finds and exploits the most exposed vulnerabilities in network infrastructure such as servers, firewalls, and switches. This type of testing can help protect your business from common network-based attacks, such as:  Firewall misconfiguration and firewall bypass  IPS/IDS evasion  Router attacks  DNS-level attacks  Zone transfer attacks  Switching or routing-based attacks  SSH attacks  Proxy server attacks  Attacks on unnecessary open ports  Database attacks  Man-in-the-middle (MitM) attacks  FTP/SMTP-based attacks',
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
 
@@ -12,7 +12,7 @@ export const PtData = {
         {
             id: 2,
             title: ' 	Web Application Penetration Testing ',
-            description: ' It is common for an environment to host a web application that was not specifically coded for the organization such as commercial, off-the-shelf web-mail interfaces, document-sharing tools, file-transfer services, network-device administrative interfaces, etc. In these instances, the web application does not typically need an application-layer penetration test as the entity is not responsible for the source code of this type of software. Instead, the tester should perform a network-layer test and ensure the software was implemented, configured, and is currently being maintained in a secure manner (disabling or uninstalling unused services, blocking unused ports, applying ',
+            description: ' It is common for an environment to host a web application that was not specifically coded for the organization such as commercial, off-the-shelf web-mail interfaces, document-sharing tools, file-transfer services, network-device administrative interfaces, etc. In these instances, the web application does not typically need an application-layer penetration test as the entity is not responsible for the source code of this type of software. Instead, the tester should perform a network-layer test and ensure the software was implemented, configured, and is currently being maintained in a secure manner (disabling or uninstalling unused services, blocking unused ports, applying current updates, etc.). Web application penetration testing is used to find vulnerabilities in web-based applications. It uses a three-step process:  Reconnaissance—discovering information about web servers, operating systems, services, resources, and more used by the web application  Discovery—finding vulnerabilities in the web applications and planning attack vectors to be used in the penetration test.  Attack/exploitation—exploiting a vulnerability to gain unauthorized access to the application or its data. Penetration testing of web applications can identify security vulnerabilities in databases, source code, and backend networks of web-based applications. It can not only identify vulnerabilities but also help prioritize them and provide solutions to mitigate them ',
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
         },
@@ -20,21 +20,21 @@ export const PtData = {
         {
             id: 3,
             title: ' 	Wireless Penetration Testing ',
-            description: ' Wireless communications are services that allow data to move in and out of networks and must be protected from unauthorized access and data exfiltration. Wireless penetration testing is used to identify risks associated with wireless networks and evaluate weaknesses such as',
+            description: ' Wireless communications are services that allow data to move in and out of networks and must be protected from unauthorized access and data exfiltration. Wireless penetration testing is used to identify risks associated with wireless networks and evaluate weaknesses such as:  Deauthentication attacks  Misconfiguration of wireless routers  Session reuse  Unauthorized wireless devices',
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
         },
         {
             id: 4,
             title: ' External Penetration Test ',
-            description: '   ',
+            description: ' An external penetration test researches and attempts to exploit vulnerabilities that could be performed by an external user without proper access and permissions. The scope of an external penetration test is the exposed external perimeter of the Business Data Environment/CDE and critical systems connected or accessible to public network infrastructures. It should assess any unique access to the scope from the public networks, including services that have access restricted to individual external IP addresses. Testing must include both application-layer and network-layer assessments. External penetration tests also include remote access vectors such as dial-up and VPN connections. External penetration testing consists of testing vulnerabilities to review the chances of being attacked by any remote attacker. By exploiting the found vulnerabilities it identifies the information being exposed to outsiders. The main objective of this test is to simulate an attack on the internal network by mimicking the actions of an actual threat actor. This type of penetration testing attempts to find and exploit vulnerabilities of a system to steal or compromise the organization‘s information. As a result, the test will show whether the implemented security measures are enough to secure an organization and to assess its capability to defend against any external attack. On average, an external penetration test will take 2-3 weeks to complete. However, this depends on the complexity of the system, the size of the network, and the goals of the test itself. Examples of external penetration tests include:  Configuration & Deployment Management Testing  Identity Management Testing  Authentication Testing  Authorization Testing  Session Management Testing, Input Validation Testing  Testing for weak Cryptography  Business Logic Testing  Client-Side Testing  Testing for Error Handling. Testing methodologies include:  Footprinting  Checking for public information and other information leakages.  System Scanning/Port Scanning/Service Scanning for vulnerabilities  Manual testing identified vulnerabilities.  IDS/IPS Testing  Password Strength Testing Popular tools used in external penetration tests are:  Nessus  Metasploit  Burp Suite Pro  Dirbuster/Dirb/GoBuster  Nikto  Sqlmap  Recon-ng  Nmap  Hydra  GHDB  theHarvester  ',
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
         },
         {
             id: 5,
-            title: ' Internal Penetration Test',
-            description: '   ',
+            title: ' Internal Penetration Test'  ,
+            description:'Once those vulnerabilities are identified, testers exploit them to discover the impact of an attack and show the weakness/entry points to the organization. Internal penetration testing is not just limited to exploiting internal network vulnerabilities, but it also includes privilege escalation, malware spreading, man in the middle attacks (MITM), credential stealing, monitoring, information leakage or any other malicious activity.',
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
         },
@@ -48,14 +48,14 @@ export const PtData = {
         {
             id: 7,
             title: ' Social Engineering Penetration Testing ',
-            description: '   ',
+            description: ' If a threat actor has physical access to a server room or other sensitive facility, they can potentially compromise the entire network, which can have devastating effects on business, customers, and partnerships. Physical penetration testing can help secure an organization‘s physical assets from threats such as social engineering, tailgating, and badge cloning. For example, a physical pentest can assess whether attackers can gain unauthorized access to a server room. This access can serve as a point of entry into the corporate network.  ',
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
         },
         {
             id: 8,
             title: ' Critical Systems ',
-            description: '   ',
+            description: '  When it comes to security, users are often considered the weakest link of the security chain, and are a common target for attackers. Social engineering penetration testing focuses people and processes in the organization and the security vulnerabilities associated with them. It is performed by ethical hackers who attempt social engineering attacks which are commonly experienced in the workplace, such as phishing, USB dropping, and spoofing. ',
             image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
             header:"VAPT"
         },
