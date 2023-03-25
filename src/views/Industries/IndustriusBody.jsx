@@ -20,9 +20,9 @@ function IndustriusBody() {
 
                 <div className=" "> 
 
-                    <div style={{backgorundColor:"red"}} className="wrapper1 headerind  "> 
+                    <div style={{backgorundColor:"red",height:"650px"}} className="wrapper1 headerind  "> 
 
-                    <p className="section-title__text  ">Our Focus Industries</p>
+                    <p className="section-title__text    ">Our Focus Industries</p>
                          <h2 className="header text-light">Industries We Specialized We</h2>
                         <ul className="img-grid mt-5 cardHieght ">                        
 
@@ -61,6 +61,27 @@ function IndustriusBody() {
                                 <a href="/telecomunication">
                                 <img src="assets/images/Industries/telecommunication.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
                                 <p>Telecommunication</p>
+                                </a>
+                            </li>
+
+
+                            <li style={{width:"180px"}} className ="m-2 rounded border ">
+                                <a href="/health-care" className="overlay-container" >
+                                <img src="assets/images/Industries/healthcare.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
+                                <p>insurance</p>
+                                </a>
+                            </li>
+                            <li style={{width:"180px"}} className ="m-2 rounded border ">
+                                <a href="/payment-card" className="overlay-container" >
+                                <img src="assets/images/Industries/pci.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
+                                <p>It & BPO Services</p>
+                                </a>
+                            </li>
+                             
+                            <li style={{width:"180px"}} className ="m-2 rounded border ">
+                                <a href="/telecomunication">
+                                <img src="assets/images/Industries/telecommunication.png" alt="Image capture goes here 01" className="overlay-img rounded-2" width ="60%" />
+                                <p>Power Sector</p>
                                 </a>
                             </li>
                             {/* <li style={{width:"200px"}} className ="m-2 rounded border ">
