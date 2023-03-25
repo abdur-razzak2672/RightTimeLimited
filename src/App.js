@@ -47,6 +47,7 @@ import ProjectManagement from "./views/Services/Consultation/ProjectManagement";
 import ProvidingSecurity from "./views/Services/Consultation/ProvidingSecurity";
 import SwiftCyberSecurity from "./views/Services/Consultation/SwiftCyberSecurity";
 import TechnicalDoccumentation from "./views/Services/Consultation/TechnicalDoccumentation";
+import PciDss from "./views/Services/Consultation/PciDss";
 //auditing
 import AuditingBody from "./views/Services/Auditing/AuditingBody";
 import DcDrsAuditing from "./views/Services/Auditing/DcDrsAuditing";
@@ -360,6 +361,8 @@ function App() {
         <Route path="/providing-security" component={ProvidingSecurity} exact />
         <Route path="/swift-cyber-security" component={SwiftCyberSecurity} exact />
         <Route path="/technical-documentation" component={TechnicalDoccumentation} exact />
+        <Route path="/pci-dss-consultation" component={PciDss} exact />
+
          {/* Auditing */}
         <Route path="/auditing" component={AuditingBody} exact />
         <Route path="/dc-drs-auditing" component={DcDrsAuditing} exact />

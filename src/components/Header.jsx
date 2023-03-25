@@ -294,6 +294,14 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
+                        href="/pci-dss-consultation"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> PCI DSS
+                      </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
                         href="/consultation-on-shaping"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
@@ -349,12 +357,14 @@ function Header({ show, setShow }) {
                       </a>
 
 
+                   
+
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/pci-dss-payment"
+                        href="/providing-security"
                       >
-                        <i className="fas fa-circle iconStyle "> </i> PCI DSS
+                        <i className="fas fa-circle iconStyle "> </i>  	Standards - ISO 
                       </a>
 
                       <a
@@ -362,7 +372,7 @@ function Header({ show, setShow }) {
                         className="mt-3"
                         href="/providing-security"
                       >
-                        <i className="fas fa-circle iconStyle "> </i>  	Standards - ISO & CMMI
+                        <i className="fas fa-circle iconStyle "> </i>  CMMI
                       </a>
                     </Col>
 
