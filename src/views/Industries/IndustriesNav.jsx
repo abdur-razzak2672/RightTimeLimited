@@ -7,7 +7,7 @@ function IndustriesNav() {
       <h2 className="header mt-1 mx-2">Industries</h2>
 
       <div>
-        <div className=" mt-4  servicesItem">
+        <div className=" mt-4  servicesItem1">
           <Link
             style={{ textDecoration: "none" }}
             className="text-dark    focus"

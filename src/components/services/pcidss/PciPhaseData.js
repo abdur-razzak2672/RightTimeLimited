@@ -129,6 +129,8 @@ export const pciPhase1 = {
       "assets/images/services/cardicon/12.png",
       header: "PCI DSS",
       message: "out of scope",
+      action :"X"
+
     },
 
     {
