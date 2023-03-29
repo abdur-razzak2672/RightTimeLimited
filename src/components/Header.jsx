@@ -288,7 +288,16 @@ function Header({ show, setShow }) {
                         href="/information-security-Special"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                        Information Security & Cyber Security Consulting
+                        Information Security  
+                      </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/information-security-Special"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>{" "}
+                         Cyber Security  
                       </a>
 
                       <a
@@ -297,6 +306,31 @@ function Header({ show, setShow }) {
                         href="/pci-dss-consultation"
                       >
                         <i className="fas fa-circle iconStyle "> </i> PCI DSS
+                      </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/swift-cyber-security"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Swift
+                        Cyber Security Consulting
+                      </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/providing-security"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>  	Standards - ISO 
+                      </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/providing-security"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Standards -  CMMI
                       </a>
 
                       <a
@@ -315,14 +349,7 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Consultation on Shaping up DC & DRS
                       </a>
-                      <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
-                        href="/swift-cyber-security"
-                      >
-                        <i className="fas fa-circle iconStyle "> </i> Swift
-                        Cyber Security Consulting
-                      </a>
+                   
                       
 
                       <a
@@ -339,15 +366,17 @@ function Header({ show, setShow }) {
                         className="mt-3"
                         href="/providing-security"
                       >
-                        <i className="fas fa-circle iconStyle "> </i>  Zero Trust Architecture
+                        <i className="fas fa-circle iconStyle "> </i> 	Risk & Security Management
                       </a>
+
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
                         href="/providing-security"
                       >
-                        <i className="fas fa-circle iconStyle "> </i> 	Risk & Security Management
+                        <i className="fas fa-circle iconStyle "> </i>  Zero Trust Architecture
                       </a>
+                     
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
@@ -359,21 +388,9 @@ function Header({ show, setShow }) {
 
                    
 
-                      <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
-                        href="/providing-security"
-                      >
-                        <i className="fas fa-circle iconStyle "> </i>  	Standards - ISO 
-                      </a>
+                      
 
-                      <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
-                        href="/providing-security"
-                      >
-                        <i className="fas fa-circle iconStyle "> </i>  CMMI
-                      </a>
+                       
                     </Col>
 
                     <Col md={2} 
@@ -441,15 +458,15 @@ function Header({ show, setShow }) {
                         Vulnerability Assessment & Penetration  Testing Services
                       </a>
 
-                      <a className="mt-3" href="/digital-forensics">
-                        <i className="fas fa-circle iconStyle "> </i> Digital
-                        Forensics
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/swift-csp"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Swift CSP
+                        Independent Assessment
                       </a>
 
-                      <a className="mt-3" href="/code-review">
-                        <i className="fas fa-circle iconStyle "> </i> Code
-                        Review
-                      </a>
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
@@ -458,13 +475,9 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i> Software
                         Quality Assurance & Testing
                       </a>
-                      <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
-                        href="/swift-csp"
-                      >
-                        <i className="fas fa-circle iconStyle "> </i> Swift CSP
-                        Independent Assessment
+                      <a className="mt-3" href="/code-review">
+                        <i className="fas fa-circle iconStyle "> </i> Code
+                        Review
                       </a>
 
                       <a
@@ -481,6 +494,16 @@ function Header({ show, setShow }) {
                       >
                         <i className="fas fa-circle iconStyle "> </i> Security Posture Assessment
                       </a>
+
+                      <a className="mt-3" href="/digital-forensics">
+                        <i className="fas fa-circle iconStyle "> </i> Digital
+                        Forensics
+                      </a>
+
+                       
+                    
+
+                     
                     </Col>
 
                     <Col
@@ -624,13 +647,7 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                       	 	DAM (Database Auditing & Management) as a Service </a>
 
-                           <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
-                        href="/tia-for-data-center"
-                      >
-                        <i className="fas fa-circle iconStyle "> </i>{" "}
-                       Risk Management </a>
+                        
                     
                          <a
                         style={{ lineHeight: "1.2" }}
