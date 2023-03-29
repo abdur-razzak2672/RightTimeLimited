@@ -57,6 +57,16 @@ export const VaData = {
             header:"VAPT"
 
         },
+
+             
+        {
+            id: 7,
+            title: 'Comprehensive Vulnerability Assessment  ',
+            description: 'Combines all of the components together',
+            image: 'https://www.technovus.com/wp-content/uploads/2019/10/PCI-DSS-Compliance.jpg',
+            header:"VAPT"
+
+        },
         
        
     ],
