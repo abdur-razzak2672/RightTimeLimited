@@ -3,12 +3,9 @@ import { Col, Row } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Offer from "./Offer";
-import { pciPhase1 } from "./PciPhaseData";
-import { OfferData } from "./OfferData";
-import OfferPhaseInitial from "./OfferPhaseInitial";
-import OfferRe from "./OfferRe";
-function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
+import { SwiftOfferData } from "./OfferCard";
+
+function SwiftParents({ tab1, tab2, tab3, tab4, title }) {
   const [tabIndex, setTabIndex] = useState(0);
   const [tabIndex1, setTabIndex1] = useState(16);
   const [tabIndex2, setTabIndex2] = useState(tab1);
@@ -19,9 +16,6 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
 
   const [style3, setStyle3] = useState(tab3);
   const [style4, setStyle4] = useState(tab4);
-  const [style5, setStyle5] = useState(tab5);
-
-  console.log("offer", pciPhase1);
 
   return (
     <div>
@@ -30,49 +24,33 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
           <div
             className="page-header__bg"
             style={{
-              backgroundImage: `url('https://www.groundlabs.com/wp-content/uploads/2019/03/PCI-DSS-Compliance.png')`,
+              backgroundImage: `url('https://www.atlantafed.org/-/media/images/gallery/cybersecurity/040-swift-logo/hero.jpg')`,
             }}
           ></div>
           <div className="container">
-            <ul className="thm-breadcrumb list-unstyled">
-              <li>
-                <a href="{{ url('/') }}">Home</a>
-              </li>
-              <li>
-                <a href="{{ url('/services') }}">Services</a>
-              </li>
-              <li>
-                <a href="{{ url('/services/standard-implementation-certification') }}">
-                  Standard Implementation & Certification
-                </a>
-              </li>
-              <li>Payment Card Industry Data Security Standards</li>
-            </ul>
-            <h2 className="page-header__title">
-              Payment Card Industry Data Security Standards
-            </h2>
+            <h2 className="page-header__title">{title}</h2>
+            <h2 className="page-header__title"></h2>
           </div>
         </div>
         <div className=" text-center service-topbar">
           <div className="container d-flex justify-content-between">
             <div style={{ color: "white" }} className="">
-              <a className="text-light" href="#offer">
-                What We Offer
-              </a>
-            </div>
-            <div className="">
-              <a className="text-light" href="#faq">
+              <a className="text-light" href="#header">
                 FAQ
               </a>
             </div>
             <div className="">
-              <a className="text-light" href="#resourse">
-                Resource
+              <a className="text-light" href="#benefit">
+                Benefit
+              </a>
+            </div>
+            <div className="">
+              <a className="text-light" href="#question">
+                Ask Question
               </a>
             </div>
           </div>
         </div>
-
         <section id="header" className="  pt-5 ">
           <div className="container">
             <div className="section-title">
@@ -86,57 +64,58 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
                 Payment eco-system as a Merchant, Processers, or providing any
                 services to these companies can also fall target for this kind
                 of cyberattacks. To mitigate these risks, the Payment card
-                Industry Security Standards Council (PCI SSC), USA has
+                Industry Security Standards Council (Swift SSC), USA has
                 formulated plentiful controls across several security standards
                 to keep companies and consumers protected.
               </p>
               <div className="row">
-                <div className="col-md-7">
+                <div className="col-md-12">
                   <p className="text-dark">
-                    PCI DSS (Payment card Industry Data Security Standard)
-                    compliance is one of the strictest and most desired security
-                    standards in the industry today. It is a widely accepted
-                    global standard recommended by the major Card brands like
-                    Visa, Mastercard, American Express, JCB, Discovery. PCI DSS
-                    standard is consisting of set of policies and procedures
-                    intended to optimize the security of debit, credit and cash
-                    card transactions and protect cardholders against misuse of
-                    their personal information.
+                    Swift Cyber Security (Payment card Industry Data Security
+                    Standard) compliance is one of the strictest and most
+                    desired security standards in the industry today. It is a
+                    widely accepted global standard recommended by the major
+                    Card brands like Visa, Mastercard, American Express, JCB,
+                    Discovery. Swift Cyber Security standard is consisting of
+                    set of policies and procedures intended to optimize the
+                    security of debit, credit and cash card transactions and
+                    protect cardholders against misuse of their personal
+                    information.
                   </p>
 
                   <p className="text-dark">
-                    PCI DSS applies to all entities involved in payment card
-                    transactions —including merchant, acquirer bank, credit card
-                    processor, payment card brand (such as Mastercard, VISA,
-                    JCB, American Express, Discover, UnionPay, Rupay etc.)
-                    debit, credit or ATM cards issuer, financial institution,
-                    Independent Sales Organization (ISO), or an agent, and
-                    service providers, as well as all other entities that store,
-                    process or transmit cardholder data (CHD) and/or sensitive
-                    authentication data (SAD).
+                    Swift Cyber Security applies to all entities involved in
+                    payment card transactions —including merchant, acquirer
+                    bank, credit card processor, payment card brand (such as
+                    Mastercard, VISA, JCB, American Express, Discover, UnionPay,
+                    Rupay etc.) debit, credit or ATM cards issuer, financial
+                    institution, Independent Sales Organization (ISO), or an
+                    agent, and service providers, as well as all other entities
+                    that store, process or transmit cardholder data (CHD) and/or
+                    sensitive authentication data (SAD).
                   </p>
                 </div>
-                <div className="col-md-5">
+                <div className="col-md-12">
                   <img
                     className="w-100"
-                    src="/assets/images/services/pcidss.png"
+                    src="/assets/images/services/swift.png"
                     alt=""
                   />
                 </div>
               </div>
               <p className="text-dark">
-                Mostly all payment card brands enforcing PCI DSS Compliance at
-                minimum annual basis as per the Levels determined by the various
-                security programs. Organization needs to Implement 12 core
-                functional requirements spread across 6 Control Objectives
-                (domains) from PCI DSS Standard to ensure their Card Holder Data
-                Environment is secured.
+                Mostly all payment card brands enforcing Swift Cyber Security
+                Compliance at minimum annual basis as per the Levels determined
+                by the various security programs. Organization needs to
+                Implement 12 core functional requirements spread across 6
+                Control Objectives (domains) from Swift Cyber Security Standard
+                to ensure their Card Holder Data Environment is secured.
               </p>
               <p className="text-dark">
-                Service Providers and Merchants can report their PCI DSS
-                Compliance either Filling the applicable Onsite Assessment or
-                Self-Assessment Questionnaire (SAQ’s) by a Qualified Security
-                Assessor as per its Level.
+                Service Providers and Merchants can report their Swift Cyber
+                Security Compliance either Filling the applicable Onsite
+                Assessment or Self-Assessment Questionnaire (SAQ’s) by a
+                Qualified Security Assessor as per its Level.
               </p>
             </div>
           </div>
@@ -153,23 +132,23 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
             <h2 className="header text-center">Our Offer</h2>
             <p className="text-dark mt-4">
               Since 2013, “Right Time Limited” has been operating as an assessor
-              accredited by the PCI Security Standards Council (PCI SSC), USA in
-              PCI DSS Standards of the Payment Card Industry. We are the first
-              Bangladesh Based PCI QSA (Payment Card Industry qualified Security
-              Assessor firm. Our PCI experts contribute their knowhow to more
-              than 100 companies worldwide by providing consulting and
-              assessments.
+              accredited by the Swift Security Standards Council (Swift SSC),
+              USA in Swift Cyber Security Standards of the Payment Card
+              Industry. We are the first Bangladesh Based Swift QSA (Payment
+              Card Industry qualified Security Assessor firm. Our Swift experts
+              contribute their knowhow to more than 100 companies worldwide by
+              providing consulting and assessments.
             </p>
             <p className="text-dark">
               As one of the Special Interest Group (SIG), we also support the
-              PCI Security Standards Council with our knowledge from hundreds of
-              PCI projects.
+              Swift Security Standards Council with our knowledge from hundreds
+              of Swift projects.
             </p>
             <p className="text-dark">
-              Service Providers and Merchants can report their PCI DSS
-              Compliance either Filling the applicable Onsite Assessment or
-              Self-Assessment Questionnaire (SAQ’s) by a Qualified Security
-              Assessor as per its Level.
+              Service Providers and Merchants can report their Swift Cyber
+              Security Compliance either Filling the applicable Onsite
+              Assessment or Self-Assessment Questionnaire (SAQ’s) by a Qualified
+              Security Assessor as per its Level.
             </p>
 
             <div className="d-flex justify-content-center    mt-5">
@@ -178,178 +157,73 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
                   setTabIndex2(201),
                   setStyle3("cont"),
                   setStyle4("cont2"),
-                  setStyle5("cont"),
                   setStyle("cont2"),
                   setStyle2("cont"),
                   setTabIndex3(301)
                 )}
                 className={style4}
               >
-                PCI DSS Consultation
+                Swift Cyber Security Consulting{" "}
               </Button>
               <Button
                 onClick={() => (
                   setTabIndex2(202),
                   setStyle4("cont"),
                   setStyle3("cont2"),
-                  setStyle5("cont"),
                   setStyle("cont2"),
                   setStyle2("cont"),
                   setTabIndex3(301)
                 )}
                 className={style3}
               >
-                PCI DSS Certification
-              </Button>
-              <Button
-                onClick={() => (
-                  setTabIndex2(203),
-                  setStyle4("cont"),
-                  setStyle3("cont"),
-                  setStyle5("cont2"),
-                  setStyle("cont2"),
-                  setStyle2("cont"),
-                  setTabIndex3(301)
-                )}
-                className={style5}
-              >
-                PCI DSS Consultation & Certification
+                Swift CSP Independent Assessment{" "}
               </Button>
             </div>
-
             {tabIndex2 === 201 && (
-              <div className="d-flex mt-1 justify-content-center  ">
-                <Button
-                  onClick={() => (
-                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
-                  )}
-                  className={style}
-                >
-                  Consultation (Initial)
-                </Button>
-                <Button
-                  onClick={() => (
-                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
-                  )}
-                  className={style2}
-                >
-                  Consultation (Re-Certification)
-                </Button>
-              </div>
-            )}
+            <section>
+              <div>
+                <h4 className="header text-center mt-3">Audit Approach</h4>
 
-            {tabIndex2 === 202 && (
-              <div className="d-flex mt-1 justify-content-center  ">
-                <Button
-                  onClick={() => (
-                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
-                  )}
-                  className={style}
-                >
-                  Certification (Initial)
-                </Button>
-                <Button
-                  onClick={() => (
-                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
-                  )}
-                  className={style2}
-                >
-                  Certification (Re-Certification)
-                </Button>
-              </div>
-            )}
-
-            {tabIndex2 === 203 && (
-              <div className="d-flex mt-1 justify-content-center  ">
-                <Button
-                  onClick={() => (
-                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
-                  )}
-                  className={style}
-                >
-                   Consultation & Certification (Initial)
-                </Button>
-                <Button
-                  onClick={() => (
-                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
-                  )}
-                  className={style2}
-                >
-                   Consultation & Certification (Re-Certification)
-                </Button>
-              </div>
-            )}
-
-
-
-
-            {tabIndex3 === 301?(
-              <>
-                <OfferPhaseInitial data={pciPhase1} />
-              </>
-            ):(
-              <OfferRe data={pciPhase1.phase4}/>
-
-
-            )}
-
-
-
-
-
-
-            <Row className="mt-4">
-              {/* <Col md={4}>
-                <div className="d-flex justify-content-between">
-                  <div>
-                    <div class="demo-body">
-                      <div class="line-wrapper">
-                        <div class="word">PHASE1</div>
-                      </div>
+                <div className="row mt-4  text-center col-xs-6">
+            {SwiftOfferData.map((card, index) => (
+              <div key={index} className="  col-md-3 col-sm-6 rounded ">
+                <div id="card-container">
+                  <div className="text-center rounded" id="card3">
+                    <div className="front face text-center pt-3">
+                      <img
+                       
+                        src={card.image}
+                        width="30%"
+                        alt=""
+                      />
+                      <h6 className=" mt-3 p-2 text-dark">{card.title}</h6>
                     </div>
-                    <br />
-
-                    <div class="demo-body1">
-                      <div class="line-wrapper1">
-                        <div class="word1">PHASE2</div>
-                      </div>
+                    <div className="back face">
+                      <p className="artist mt-4">{card.description}</p>
                     </div>
-                    <br />
-
-                    <div class="demo-body2">
-                      <div class="line-wrapper2">
-                        <div class="word2">PHASE3</div>
-                      </div>
-                    </div>
-                    <br />
-
-                    <div class="demo-body3">
-                      <div class="line-wrapper3">
-                        <div class="word3">PHASE4</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    {OfferData.map((item, index) => (
-                      <div className=" servicesItem">
-                        <a
-                          key={index}
-                          style={{ textDecoration: "none" }}
-                          className="text-dark   focus"
-                          onClick={() => setTabIndex(index)}
-                          href="#javascript void(0)"
-                        >
-                          <img
-                            src="/assets/images/services/initial.png"
-                            alt=""
-                          />
-                          {item.title}
-                        </a>
-                      </div>
-                    ))}
                   </div>
                 </div>
-              </Col> */}
+              </div>
+            ))}
+          </div>
+              </div>
+
+              
+            </section>
+            )}
+
+
+
+            {tabIndex2 === 202 && (
+              <div className="d-flex mt-4 justify-content-center  ">
+               <h4 className="text-dark">"Coming Soon"</h4>
+              </div>
+            )}
+
+           
+
+            {/* <Row className="mt-4">
+               
 
               <Col md={12}>
                 <div>
@@ -358,7 +232,7 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
                   )}
                 </div>
               </Col>
-            </Row>
+            </Row> */}
           </div>
         </section>
 
@@ -374,43 +248,46 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        Who should comply with PCI DSS Certification?
+                        Who should comply with Swift Cyber Security
+                        Certification?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        The PCI DSS is an information security standard for
-                        organizations that process, transmits, and store credit
-                        card details. This would typically include merchants,
-                        processors, acquirers, issuers, and service providers
-                        dealing with sensitive cardholder data. View a quick 5
-                        mins video on this topic
+                        The Swift Cyber Security is an information security
+                        standard for organizations that process, transmits, and
+                        store credit card details. This would typically include
+                        merchants, processors, acquirers, issuers, and service
+                        providers dealing with sensitive cardholder data. View a
+                        quick 5 mins video on this topic
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion className="shadaow">
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        How much will a PCI DSS Audit cost you?
+                        How much will a Swift Cyber Security Audit cost you?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        PCI DSS Audit cost for an average-sized company starts
-                        at $12000. Pricing for a PCI DSS audit depends on
-                        several factors, including your type of organization,
-                        the number of annual transactions, payment applications,
-                        physical locations, whether first time or
-                        recertification and other additional services as well.
+                        Swift Cyber Security Audit cost for an average-sized
+                        company starts at $12000. Pricing for a Swift Cyber
+                        Security audit depends on several factors, including
+                        your type of organization, the number of annual
+                        transactions, payment applications, physical locations,
+                        whether first time or recertification and other
+                        additional services as well.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion className="mt-3">
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        How long would it take to complete a PCI DSS Audit?
+                        How long would it take to complete a Swift Cyber
+                        Security Audit?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
                         On average it takes 4-6 weeks to complete an end-to-end
-                        PCI DSS Audit. However, the timeline greatly depends on
-                        the time taken for implementing the remediation
-                        suggested in the gap analysis
+                        Swift Cyber Security Audit. However, the timeline
+                        greatly depends on the time taken for implementing the
+                        remediation suggested in the gap analysis
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -420,26 +297,29 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        What will you get after a PCI DSS Audit is complete?
+                        What will you get after a Swift Cyber Security Audit is
+                        complete?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
                         You will receive Audit reports (ROC/SAQ, AOC)
                         documenting the details on how networks and physical
                         environments are protected against threats. You will
-                        even get a PCI DSS Certificate of Compliance on
-                        successful completion of the audit, demonstrating your
-                        commitment to Industry Standard Compliance.
+                        even get a Swift Cyber Security Certificate of
+                        Compliance on successful completion of the audit,
+                        demonstrating your commitment to Industry Standard
+                        Compliance.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        What is the validity of a PCI DSS Certification?
+                        What is the validity of a Swift Cyber Security
+                        Certification?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        PCI DSS Certification is only valid for a year or 12
-                        months from the date of issue
+                        Swift Cyber Security Certification is only valid for a
+                        year or 12 months from the date of issue
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -447,13 +327,14 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        How often do you need to conduct a PCI DSS Audit?
+                        How often do you need to conduct a Swift Cyber Security
+                        Audit?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        As per the Industry standard requirement, a PCI DSS
-                        Audit must be performed annually, or when significant
-                        changes are introduced that may impact systems and
-                        network in an environment.
+                        As per the Industry standard requirement, a Swift Cyber
+                        Security Audit must be performed annually, or when
+                        significant changes are introduced that may impact
+                        systems and network in an environment.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -615,4 +496,4 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
   );
 }
 
-export default PciDssPrents;
+export default SwiftParents;

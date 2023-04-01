@@ -54,13 +54,14 @@ import DcDrsAuditing from "./views/Services/Auditing/DcDrsAuditing";
 import InformationSecurityGraded from "./views/Services/Auditing/InformationSecurityGraded";
 import InformationTechnology from "./views/Services/Auditing/InformationTechnology";
 import InformatonSystem from "./views/Services/Auditing/InformatonSystem";
-import SwiftCsp from "./views/Services/Auditing/SwiftCsp";
-//Security testing
+ //Security testing
 import SecuirityTesting from "./views/Services/SecuirityTesting/SecurityTesting";
 import CodeReview from "./views/Services/SecuirityTesting/CodeReview";
 import DigitalForensics from "./views/Services/SecuirityTesting/DigitalForensics";
 import VulnerabilityAssesment from "./views/Services/SecuirityTesting/VulnerabilityAssesment";
 import SoftwareQuality from "./views/Services/SecuirityTesting/SoftwareQuality";
+ import SwiftCsp from "./views/Services/SecuirityTesting/SwiftCsp";
+
 //certification
 import CertificationBody from "./views/Services/Certification/CertificationBody";
 import Cmmi from "./views/Services/Certification/Cmmi";
