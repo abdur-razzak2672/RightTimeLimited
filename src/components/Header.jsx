@@ -1,4 +1,4 @@
-import React from "react";
+s   import React from "react";
 import "./serviceStyle.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -288,17 +288,10 @@ function Header({ show, setShow }) {
                         href="/information-security-Special"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                        Information Security  
+                        Information Security  & Cyber Security 
                       </a>
 
-                      <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
-                        href="/information-security-Special"
-                      >
-                        <i className="fas fa-circle iconStyle "> </i>{" "}
-                         Cyber Security  
-                      </a>
+                    
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -332,6 +325,7 @@ function Header({ show, setShow }) {
                       >
                         <i className="fas fa-circle iconStyle "> </i> Standards -  CMMI
                       </a>
+                      
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -361,13 +355,7 @@ function Header({ show, setShow }) {
                         Documentation On ITES
                       </a>
 
-                      <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
-                        href="/providing-security"
-                      >
-                        <i className="fas fa-circle iconStyle "> </i> 	Risk & Security Management
-                      </a>
+                  
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -383,6 +371,21 @@ function Header({ show, setShow }) {
                         href="/providing-security"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Industry 4.0
+                      </a>
+
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Six Sigma Consultation
+                      </a>
+                      <a
+                        style={{ lineHeight: "1.2" }}
+                        className="mt-3"
+                        href="/"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Lean  Consultation
                       </a>
 
 
@@ -435,6 +438,14 @@ function Header({ show, setShow }) {
                       >
                         <i className="fas fa-circle iconStyle "> </i> DC & DRS
                         Auditing
+                      </a>
+
+                      <a className="mt-3" href="/tia-for-data-center">
+                        <i className="fas fa-circle iconStyle "> </i>  SOC1 Audi 
+                      </a>
+
+                      <a className="mt-3" href="/tia-for-data-center">
+                        <i className="fas fa-circle iconStyle "> </i> SOC2 Audit 
                       </a>
                     </Col>
 
@@ -565,20 +576,14 @@ function Header({ show, setShow }) {
 
                       <a className="mt-3" href="/tia-for-data-center">
                         <i className="fas fa-circle iconStyle "> </i> GDPR
-                        Assessment
+                        Certification
                       </a>
                       <a className="mt-3" href="/tia-for-data-center">
                         <i className="fas fa-circle iconStyle "> </i> HIPAA
-                        Assessment
+                        Certification
                       </a>
 
-                      <a className="mt-3" href="/tia-for-data-center">
-                        <i className="fas fa-circle iconStyle "> </i>  SOC1 Audit & Certification
-                      </a>
-
-                      <a className="mt-3" href="/tia-for-data-center">
-                        <i className="fas fa-circle iconStyle "> </i> SOC2 Audit & Certification
-                      </a>
+                     
                     </Col>
 
                     <Col md={3}  className="consultation">
