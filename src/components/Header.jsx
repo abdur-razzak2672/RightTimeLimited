@@ -26,21 +26,7 @@ function Header({ show, setShow }) {
               <a id="link1" href="/">
                 Home
               </a>
-              {/* <ul>
-                <li>
-                  <Link to="/about-us">About Us</Link>
-                </li>
-                <li>
-                  <Link to="/careers">
-                    Careers
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/team">
-                   Team
-                  </Link>
-                </li>
-              </ul> */}
+             
             </li>
 
             <li className="dropdown serviceNav2 steps-sampling">
@@ -441,7 +427,7 @@ function Header({ show, setShow }) {
                       </a>
 
                       <a className="mt-3" href="/tia-for-data-center">
-                        <i className="fas fa-circle iconStyle "> </i>  SOC1 Audi 
+                        <i className="fas fa-circle iconStyle "> </i>  SOC1 Audit 
                       </a>
 
                       <a className="mt-3" href="/tia-for-data-center">
