@@ -301,7 +301,7 @@ function Header({ show, setShow }) {
                         className="mt-3"
                         href="/providing-security"
                       >
-                        <i className="fas fa-circle iconStyle "> </i>  	Standards - ISO 
+                        <i className="fas fa-circle iconStyle "> </i>   ISO  Consultation
                       </a>
 
                       <a
@@ -309,7 +309,7 @@ function Header({ show, setShow }) {
                         className="mt-3"
                         href="/providing-security"
                       >
-                        <i className="fas fa-circle iconStyle "> </i> Standards -  CMMI
+                        <i className="fas fa-circle iconStyle "> </i>    CMMI Consultation
                       </a>
                       
 

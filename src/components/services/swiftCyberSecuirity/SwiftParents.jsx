@@ -180,44 +180,45 @@ function SwiftParents({ tab1, tab2, tab3, tab4, title }) {
               </Button>
             </div>
             {tabIndex2 === 201 && (
-            <section>
-              <div>
-                <h4 className="header text-center mt-3">Audit Approach</h4>
-
-                <div className="row mt-4  text-center col-xs-6">
-            {SwiftOfferData.map((card, index) => (
-              <div key={index} className="  col-md-3 col-sm-6 rounded ">
-                <div id="card-container">
-                  <div className="text-center rounded" id="card3">
-                    <div className="front face text-center pt-3">
-                      <img
-                       
-                        src={card.image}
-                        width="30%"
-                        alt=""
-                      />
-                      <h6 className=" mt-3 p-2 text-dark">{card.title}</h6>
-                    </div>
-                    <div className="back face">
-                      <p className="artist mt-4">{card.description}</p>
-                    </div>
-                  </div>
-                </div>
+            <div className="d-flex mt-4 justify-content-center  ">
+               <h4 className="text-dark">"Coming Soon"</h4>
               </div>
-            ))}
-          </div>
-              </div>
-
-              
-            </section>
             )}
 
 
 
             {tabIndex2 === 202 && (
-              <div className="d-flex mt-4 justify-content-center  ">
-               <h4 className="text-dark">"Coming Soon"</h4>
-              </div>
+               <section>
+               <div>
+                 <h4 className="header text-center mt-3">Audit Approach</h4>
+ 
+                 <div className="row mt-4  text-center col-xs-6">
+             {SwiftOfferData.map((card, index) => (
+               <div key={index} className="  col-md-3 col-sm-6 rounded ">
+                 <div id="card-container">
+                   <div className="text-center rounded" id="card3">
+                     <div className="front face text-center pt-3">
+                       <img
+                        
+                         src={card.image}
+                         width="30%"
+                         alt=""
+                       />
+                       <h6 className=" mt-3 p-2 text-dark">{card.title}</h6>
+                     </div>
+                     <div className="back face">
+                       <p className="artist mt-4">{card.description}</p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             ))}
+           </div>
+               </div>
+ 
+               
+             </section>
+              
             )}
 
            
@@ -248,46 +249,31 @@ function SwiftParents({ tab1, tab2, tab3, tab4, title }) {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        Who should comply with Swift Cyber Security
-                        Certification?
+                      What Is The SWIFT CSP?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        The Swift Cyber Security is an information security
-                        standard for organizations that process, transmits, and
-                        store credit card details. This would typically include
-                        merchants, processors, acquirers, issuers, and service
-                        providers dealing with sensitive cardholder data. View a
-                        quick 5 mins video on this topic
+                      SWIFT's customer security programme (CSP) aims to prevent and detect fraudulent activity through a set of mandatory security controls, community-wide information sharing initiatives and enhanced security features on their products.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion className="shadaow">
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        How much will a Swift Cyber Security Audit cost you?
-                      </Accordion.Header>
+                      What Form Does The SWIFT Required Independent Assessment Need To Take?                      </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        Swift Cyber Security Audit cost for an average-sized
-                        company starts at $12000. Pricing for a Swift Cyber
-                        Security audit depends on several factors, including
-                        your type of organization, the number of annual
-                        transactions, payment applications, physical locations,
-                        whether first time or recertification and other
-                        additional services as well.
+                      There are two forms in which a SWIFT customer can gain an independent assessment 
+An internal assessment : The internal audit needs to be carried out as per the internal audit function of the customer and independent from the function submitting the attestation.
+An external assessment : An external audit can be carried out by QRC, an assessment against the CSP controls.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion className="mt-3">
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        How long would it take to complete a Swift Cyber
-                        Security Audit?
+                      What If You Attest Non-Compliance For SWIFT?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        On average it takes 4-6 weeks to complete an end-to-end
-                        Swift Cyber Security Audit. However, the timeline
-                        greatly depends on the time taken for implementing the
-                        remediation suggested in the gap analysis
+                      SWIFT reports all cases of non-compliance and where members have not verified to local regulators. 
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -297,29 +283,20 @@ function SwiftParents({ tab1, tab2, tab3, tab4, title }) {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        What will you get after a Swift Cyber Security Audit is
-                        complete?
+                      When Is The Deadline For SWIFT CSP Compliance?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        You will receive Audit reports (ROC/SAQ, AOC)
-                        documenting the details on how networks and physical
-                        environments are protected against threats. You will
-                        even get a Swift Cyber Security Certificate of
-                        Compliance on successful completion of the audit,
-                        demonstrating your commitment to Industry Standard
-                        Compliance.
+                            SWIFT CSP requires one to submit a self-attestation on an annual basis by 31 December. An independent assessment is required alongside a customers attestations from 31 December 2020 onwards.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        What is the validity of a Swift Cyber Security
-                        Certification?
+                      What Are The SWIFT CSCF V2020 Controls ?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        Swift Cyber Security Certification is only valid for a
-                        year or 12 months from the date of issue
+                      SWIFT’s CSCF V2020 comprises 3 Objectives, 8 Principles & 31 Controls (21 Mandatory & 10 Optional). SWIFT mandatory controls focussed on securing your environment, knowing and limiting access
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -327,14 +304,10 @@ function SwiftParents({ tab1, tab2, tab3, tab4, title }) {
                   <Accordion>
                     <Accordion.Item className="my-3" eventKey="1">
                       <Accordion.Header>
-                        How often do you need to conduct a Swift Cyber Security
-                        Audit?
+                      What If I Suspect My Organisation Has Been Targeted Or Breached?
                       </Accordion.Header>
                       <Accordion.Body className="expanedText">
-                        As per the Industry standard requirement, a Swift Cyber
-                        Security Audit must be performed annually, or when
-                        significant changes are introduced that may impact
-                        systems and network in an environment.
+                      In any circumstances, it is necessary to share all relevant information and let SWIFT know there is a problem as soon as possible, in order to protect other organisations in the network.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
