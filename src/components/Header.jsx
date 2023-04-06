@@ -556,7 +556,7 @@ function Header({ show, setShow }) {
                         className="mt-3"
                         href="/tia-for-data-center"
                       >
-                        <i className="fas fa-circle iconStyle "> </i> Tia 942
+                        <i className="fas fa-circle iconStyle "> </i> TIA 942
                         For Data Center
                       </a>
 

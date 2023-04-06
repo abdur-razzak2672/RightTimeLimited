@@ -24,24 +24,34 @@ function IsoInternational() {
   }
 
   const individualOptions = [
-  "(ISO 9001" ,
-  "ISO 27001",
-  "ISO 20000",
-  "ISO 22301",
- 
- 
+  "ISO 9001 LA" ,
+  "ISO 9001 LI" ,
 
-    
-  
+  "ISO 27001 LA",
+  "ISO 27001 LI",
+
+  "ISO 20000LA",
+  "ISO 20000LI",
+
+  "ISO 22301 La",
+  "ISO 22301 LI",
+  "StandardsISO 9001 Certification ",
+  "ISO 22000 & HACCP  ",
+  "ISO 14001 Certification ",
+  "Integrated Management System (IMS)  ",
+  "ISO 13485 Certification",
+  "MDSAF",
+ 
   ];
 
 
 
   const companyOptions = [
-    "(ISO 9001" ,
-    "ISO 27001",
-    "ISO 20000",
-    "ISO 22301",
+    " Gap Assessment on your existing system  ",
+    " Develop and establish a new system from scratch if you do not have any existing system  ",
+    " Internal audit on your system if your system is already certified  ",
+    " Ongoing maintenance of your existing system  ",
+ 
    
      
      
@@ -145,7 +155,7 @@ function IsoInternational() {
 
             <div>
               <Row>
-                <Col  className='mt-2'  md={3} >
+                <Col  className='mt-2'  md={3} sm={3} >
                 <div style={{position:"absolute" ,top:"2100px", marginTop:"30px",textAlign:"right",left:"0px",width:"470px"}}>
                   <h6 style={{cursor:"pointer",color:"blue"}} onClick={handleChangeRouter}  className='header iso '>StandardsISO 9001 Certification</h6>
                   <p >ISO 9001 supports effective management of your business and help you meet customers’ requirements and continually ...</p>
@@ -169,15 +179,14 @@ function IsoInternational() {
  
                 </Col>
 
-                <Col className='mt-2'  md={6} >
+                <Col className='mt-2'  md={6} sm={6} >
                 <img style={{ left:"0",top:"0"}} className='w-100' src='/assets/images/services/iso/map.jpeg' alt='' />
 
                   
                   </Col>
 
-                  <Col className='mt-2'  md={3}  >
-                  <Col  className='mt-2'  md={3} >
-                <div style={{position:"absolute" ,marginTop:"330px", left:"1050px" ,width:"400px"}}>
+                  <Col className='mt-2'  md={3}  sm={3} >
+                 <div style={{position:"absolute" ,marginTop:"330px", left:"1050px" ,width:"400px"}}>
                   <h6 onClick={handleChangeRouter}   style={{cursor:"pointer",color:"#00853c"}}    className='header '>ISO 14001 Certification</h6>
                   <p >ISO 14001 is a management system that enables organisations to meet their environmental obligations and ...</p>
                   </div>
@@ -197,15 +206,14 @@ function IsoInternational() {
                   
 
                   <div style={{position:"absolute" ,marginTop:"860px", left:"940px" ,width:"400px"}}>
-                  <h6 onClick={handleChangeRouter}   style={{cursor:"pointer",color:"#b11188"}}    className='header '>AS 5377</h6>
-                  <p >AS 5377 supports a safe and environmentally sound collection, storage, transport and treatment of end-of-life ...</p>
+                  <h6 onClick={handleChangeRouter}   style={{cursor:"pointer",color:"#b11188"}}    className='header '>MDSAF</h6>
+                  <p >MDSAF supports a safe and environmentally sound collection, storage, transport and treatment of end-of-life ...</p>
                   </div>
  
                 </Col>
 
                   
-                  </Col>
-              </Row>
+               </Row>
             </div>
 
 
