@@ -281,6 +281,8 @@ function TechTeam() {
                         
                         <img
                          className = "img-responsive"
+                         src= "/assets/images/team/mehedi.jpg"
+
 m                          alt=""
                         />
                       </div>
@@ -527,6 +529,8 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
             <Col md={4}>
             <img
               className = "img-responsive"
+              src= "/assets/images/team/mehedi.jpg"
+
                alt=""
             />
 
