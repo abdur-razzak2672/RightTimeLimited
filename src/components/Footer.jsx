@@ -59,19 +59,17 @@ function Footer({ setShow, show }) {
                         <ul className="footer-widget__contact">
                           <li>
                             <i className="fa fa-phone"></i>
-                            <a className="m-3" href="tel:+18187790442"> (+1) 818 779 0442,</a>
+                            <a className="m-3" href="tel:+18187790442"> +1510 298 6114</a>
                           </li>
-                          <li>
-                            <i className="fa fa-phone"></i>
-                            <a className="m-3" href="tel:+18188625708"> (+1) 818 862 5708,</a>
-                          </li>
+                        
                           <li>
                             <i className="fa fa-envelope"></i>
-                            <a className="m-3" href="mailto:coo.usa@righttime.biz">coo.usa@righttime.biz</a>
+                            <a className="m-3" href="mailto:coo.usa@righttime.biz">  coo.usa@righttime.biz</a>
                           </li>
                           <li>
                             <i className="fa fa-map-marker-alt"></i>
-                            <p className="m-3">14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401</p>
+                            <p className="m-3"> 5669 N Fresno St, Apt 232
+Fresno, CA 93710</p>
                           </li>
                         </ul>
                       </>
