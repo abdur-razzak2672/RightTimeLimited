@@ -9,6 +9,10 @@ function TechTeam() {
   const [show3, setShow3] = useState(false);
   const [show4, setShow4] = useState(false);
   const [show5, setShow5] = useState(false);
+  const [show6, setShow6] = useState(false);
+  const [show7, setShow7] = useState(false);
+  const [show8, setShow8] = useState(false);
+
   
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -22,6 +26,15 @@ function TechTeam() {
   const handleShow4 = () => setShow4(true);
   const handleClose5 = () => setShow5(false);
   const handleShow5 = () => setShow5(true);
+
+  const handleClose6 = () => setShow6(false);
+  const handleShow6 = () => setShow6(true);
+
+  const handleClose7 = () => setShow7(false);
+  const handleShow7 = () => setShow7(true);
+
+  const handleClose8 = () => setShow8(false);
+  const handleShow8 = () => setShow8(true);
 
  
 
@@ -38,7 +51,7 @@ function TechTeam() {
 
           <div className="body1">
             <section className="container">
-              <div className="row active-with-click grid">
+              <div className="row active-with-click py-5 grid">
                 <div className="grid-item">
                   <article className="material-card Red">
                     <a onClick={handleShow} href='javascript:void(0)'>
@@ -142,7 +155,7 @@ function TechTeam() {
                   </article>
                 </div>
 
-                <div className="grid-item">
+                <div className="grid-item ">
                   <article className="material-card Deep-Purple">
                   <a onClick={handleShow3} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
@@ -176,6 +189,117 @@ function TechTeam() {
                     </div>
                   </article>
                 </div>
+
+
+
+                <div className="grid-item ">
+                  <article className="material-card Deep-Purple">
+                  <a onClick={handleShow6} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Md. Sakim Hossain</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        SECURITY ANALYST
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                        
+                        <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/Sakim.jpeg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">   SECURITY ANALYST
+</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+
+
+                <div className="grid-item ">
+                  <article className="material-card Deep-Purple">
+                  <a onClick={handleShow7} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Md. Abdur Razzak</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        SOFTWARE ENGINEER
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                        
+                        <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/razzak.jpeg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">  SOFTWARE ENGINEER
+
+</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+
+
+                
+                <div className="grid-item ">
+                  <article className="material-card Deep-Purple">
+                  <a onClick={handleShow8} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Md Mahadi Hasan Heart</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        SECURITY ANALYST                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                        
+                        <img
+                         className = "img-responsive"
+m                          alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">  SECURITY ANALYST
+
+</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+                 
                  
               </div>
             </section>
@@ -317,6 +441,110 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
         </Modal.Body>
        
       </Modal>
+
+
+      
+     
+
+
+
+      <Modal   size="lg" show={show6} onHide={handleClose6}>
+        <Modal.Body  className=" rounded-3">
+          <h5 className='teamTitle'>Md. Sakim Hossain</h5>
+           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
+
+           <Row>
+            <Col md={8}>
+              <p className='teamDetails'>SECURITY ANALYST</p>
+                
+            </Col>
+
+            <Col md={4}>
+            <img
+              className = "img-responsive"
+              src= "/assets/images/team/Sakim.jpeg"
+              alt=""
+            />
+
+            </Col>
+        
+           </Row>
+
+
+
+           
+          
+        </Modal.Body>
+       
+      </Modal>
+
+
+
+
+      <Modal   size="lg" show={show7} onHide={handleClose7}>
+        <Modal.Body  className=" rounded-3">
+          <h5 className='teamTitle'>Md. Abdur Razzak</h5>
+           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
+
+           <Row>
+            <Col md={8}>
+              <p className='teamDetails'>SOFTWARE ENGINEER</p>
+                
+            </Col>
+
+            <Col md={4}>
+            <img
+              className = "img-responsive"
+              src= "/assets/images/team/razzak.jpeg"
+              alt=""
+            />
+
+            </Col>
+        
+           </Row>
+
+
+
+           
+          
+        </Modal.Body>
+       
+      </Modal>
+
+
+      <Modal   size="lg" show={show8} onHide={handleClose8}>
+        <Modal.Body  className=" rounded-3">
+          <h5 className='teamTitle'>MD Mahadi Hasan Heart</h5>
+           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
+
+           <Row>
+            <Col md={8}>
+              <p className='teamDetails'>SECURITY ANALYST</p>
+             
+              
+            </Col>
+
+            <Col md={4}>
+            <img
+              className = "img-responsive"
+               alt=""
+            />
+
+            </Col>
+        
+           </Row>
+
+
+
+           
+          
+        </Modal.Body>
+       
+      </Modal>
+
+
+
+
 
 
       
