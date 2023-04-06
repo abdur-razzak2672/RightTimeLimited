@@ -68,6 +68,7 @@ import Cmmi from "./views/Services/Certification/Cmmi";
 import IsoInternational from "./views/Services/Certification/IsoInternational";
 import TiaForDataCenter from "./views/Services/Certification/TiaForDataCenter";
 import PciDssPayment from "./views/Services/Certification/PciDssPayment";
+import IsoStandard from "./components/services/iso/IsoStandard";
 //Service Section Imported End
 
 //Managed Service Section Imported Start
@@ -383,6 +384,8 @@ Fresno, CA 93710   </li>
         <Route path="/iso-international" component={IsoInternational} exact />
         <Route path="/tia-for-data-center" component={TiaForDataCenter} exact />
         <Route path="/pci-dss-payment" component={PciDssPayment} exact />
+        <Route path="/iso-standard" component={IsoStandard} exact />
+
         {/*Services Section Route Declaration End */}
 
         {/* Managed Service Section Route Declaration Start*/}
