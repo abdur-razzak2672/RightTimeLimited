@@ -9,7 +9,8 @@ function TopManagement() {
   const [show3, setShow3] = useState(false);
   const [show4, setShow4] = useState(false);
   const [show5, setShow5] = useState(false);
-  
+  const [show6, setShow6] = useState(false);
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const handleClose1 = () => setShow1(false);
@@ -23,7 +24,9 @@ function TopManagement() {
   const handleClose5 = () => setShow5(false);
   const handleShow5 = () => setShow5(true);
 
- 
+  const handleShow6 = () => setShow6(true);
+  const handleClose6 = () => setShow6(false);
+
 
 
 
@@ -144,6 +147,43 @@ function TopManagement() {
 
                 <div className="grid-item">
                   <article className="material-card Deep-Purple">
+                  <a onClick={handleShow6} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Md. Rokanuzzaman</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        Chief Information Officer (CIO)
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                        
+                        <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/Rokanuzzaman.jpeg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">Chief Information Officer (CIO)</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+
+
+                
+
+                <div className="grid-item">
+                  <article className="material-card Deep-Purple">
                   <a onClick={handleShow3} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
                       <span>Arshad Mahmud</span>
@@ -175,6 +215,8 @@ function TopManagement() {
                     </div>
                   </article>
                 </div>
+
+
                 <div className="grid-item">
                   <article className="material-card Indigo">
                   <a onClick={handleShow4} href='javascript:void(0)'>
@@ -348,6 +390,39 @@ function TopManagement() {
         </Modal.Body>
        
       </Modal>
+
+
+      <Modal   size="lg" show={show6} onHide={handleClose6}>
+        <Modal.Body  className=" rounded-3">
+          <h5 className='teamTitle'>Md. Rokanuzzaman</h5>
+           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
+
+           <Row>
+            <Col md={8}>
+              <p className='teamDetails'>
+              Chief Information Officer (CIO)   </p>
+               
+            </Col>
+
+            <Col md={4}>
+            <img
+              className = "img-responsive"
+              src= "/assets/images/team/Rokanuzzaman.jpeg"
+              alt=""
+            />
+
+            </Col>
+           
+           </Row>
+
+
+
+           
+          
+        </Modal.Body>
+       
+      </Modal>
+
 
 
       <Modal   size="lg" show={show3} onHide={handleClose3}>

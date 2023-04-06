@@ -220,12 +220,12 @@ function App() {
             <>
                 <li>
                 <i className="fa fa-envelope"></i>
-                <a href="mailto:info@righttime.biz">coo.usa@righttime.biz</a>
+                <a href="mailto:info@righttime.biz"> coo.usa@righttime.biz</a>
             </li>
             <li>
                 <i className="fa fa-map-marker"></i>
-                14108 Hamlin Street, Unit # 7, Van Nuys, CA-91401
-            </li>
+                5669 N Fresno St, Apt 232
+Fresno, CA 93710   </li>
             </>
             :show==='3'?
               <>
