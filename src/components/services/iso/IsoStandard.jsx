@@ -1,12 +1,9 @@
 import React,{useState} from 'react'
-import SeviceCommon from '../SeviceCommon'
-import { Col, Row ,Form, Button} from 'react-bootstrap'
+ import { Col, Row ,Form, Button} from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel';
-import { countryList } from '../../Contact/data';
-import { useHistory } from 'react-router-dom';
-
- 
-function IsoInternational() {
+import { countryList } from '../../../views/Contact/data';
+  
+function IsoStandard() {
 
   const [company, setCompany] = useState('1');
 
@@ -17,19 +14,44 @@ function IsoInternational() {
 
   console.log("DSgvfd",company)
 
-  const history = useHistory();
-
-  const handleChangeRouter = () => {
-    history.push('/iso-standard'); // replace 'your-page-url' with the actual URL of the page you want to navigate to
-  }
-
   const individualOptions = [
-  "(ISO 9001" ,
-  "ISO 27001",
-  "ISO 20000",
-  "ISO 22301",
- 
- 
+  "Lead Auditor (ISO 9001, ISO 27001, ISO 20000, ISO 22301 etc.)" ,
+ " Lead Implementer (ISO 9001, ISO 27001, ISO 20000, ISO 22301 etc.)",
+"  Certified Penetration Testing Professional (CPENT)",
+"  Offensive Security Certified Professional (OSCP)",
+"	Certified Information system Auditor (CISA)",
+"	GIAC Penetration Testing (GPEN)",
+"	Training on HIPAA",
+"	Training on GDPR",
+"	Training on SWIFT CSP Independent Assessment (based on latest CSCF)",
+"	Training on Data Center (Basic, Intermediate & Advance)",
+"	GIAC Web Application Penetration Testing (GWAPT)",
+"	Certified Ethical hacker (CEH-312-50)",
+"	EC-Council Certified Incident Handler (ECIH-212-89)",
+"	Certified SOC Analyst (CSA)",
+"	PCI DSS Certification- ISA & PCIP",
+"	Certified Threat Intelligent Analyst (CTIA)",
+"	Certified Information security Manager (CISM)",
+"	Certified Information System Security Professional (CISSP)",
+	"GIAC Certified Project Manager (GCPM)",
+"	Open-Source Intelligence (OSINT) ",
+"	Certified Secure Computer User (CSCU-112-12)",
+"	Network Security Fundamentals (FNS)",
+"	Information Security Fundamentals (FIS)",
+"	Computer Forensic Fundamentals (CFF)",
+"	Certified Network Defense (CND-312-38)",
+"	EC-Council Disaster Recovery Professional (EDRP-312-76)",
+"	Securing Windows Infrastructure (CAST-616)",
+"	Advance Network Defense (CAST-614)",
+"	EC-Council Certified Secure Programmer JAVA (ECSP-312-94) ",
+"	EC-Council Certified Secure Programmer .Net (ECSP-312-93)",
+"	Advanced Penetration testing (CAST-611)",
+"	Licensed Penetration Tester (LPT-412-79)",
+"	EC-Council Certified Security Analyst (ECSA-412-79) ",
+"	Hacking and Hardening Your Corporate Web Application (CAST-613)",
+"	Computer Hacking Forensic Investigator (CHFI-312-49)",
+"	Advanced Mobile Forensics And security (CAST-612)",
+"	Certified Chief Information Security Officer (CCISO)",
 
     
   
@@ -38,10 +60,61 @@ function IsoInternational() {
 
 
   const companyOptions = [
-    "(ISO 9001" ,
-    "ISO 27001",
-    "ISO 20000",
-    "ISO 22301",
+    "Consultation",
+     "Information Security & Cyber Security Consulting",
+   "	Project Management ",
+     "Consultation on Shaping up DC & DRS",
+     "Swift Cyber Security Consulting ",
+   "	Technical Documentation On ITES",
+   
+   " Auditing ",
+     "Information System Audit ",
+     "Information Technology Audit ",
+   "	Information Security Graded Audit" ,
+   "	DC & DRS Auditing",
+   
+    "Security Testing ",
+   "	Vulnerability Assessment & Penetration  Testing Services ",
+   "	Digital Forensics ",
+   "	Code Review ",
+   "	Software Quality Assurance & Testing ",
+   "	Swift CSP Independent Assessment",
+   
+   " Certification ",
+   "	PCI DSS Certification",
+   "	ISO 27001, ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001, ISO 14001 etc.",
+   "	CMMI (Capability Maturity Model Integration) ",
+   "	Tia 942 For Data Center",
+   "	GDPR Assessment",
+   "	HIPAA Assessment",
+   
+   " Managed Service",
+   "	SOC as A Service",
+   "	Cloud App Monitoring as A Service",
+   "	MDR as A Service (Managed End Point Detection and Response)",
+   "	Managed Nextgen Firewall as A Service ",
+   "	Vulnerability Assessment (VA) As A Service ",
+     "Penetration Testing (PT) As A Service ",
+   "  DAM (Database Auditing & Management) as A Service",
+   
+   
+   
+   
+   " Cyber Security Management & Visibility solutions",
+   "	SIEM",
+   "	Firewall (Especially Next Gen)",
+   "	Log Management",
+     "Patch management",
+     "Privilege Access Management (PAM)",
+   
+    "Security assessment (VA & PT) Tools",
+     "Burp Suite",
+   "	Net Sparker",
+     "Tenable All Product",
+   "	Nessus Professional",
+   "	Acunetix",
+   "	Core Impact",
+   "	Cobalt Strike",
    
      
      
@@ -49,8 +122,6 @@ function IsoInternational() {
        
        ];
 
-
-    
   return (
     <div>
       <div>
@@ -61,15 +132,14 @@ function IsoInternational() {
             <ul className="thm-breadcrumb list-unstyled">
               <li><a href="{{ url('/') }}">Home</a></li>
               <li><a href="{{ url('/services') }}">Services</a></li>
-              <li><a href="{{ url('/services/standard-implementation-certification') }}">Standard Implementation & Certification</a></li>
-              <li>International Organization for Standardization-ISO</li>
+               <li>ISO 14001 Certification</li>
             </ul>
-            <h2 className="page-header__title">International Organization for Standardization-ISO</h2>
+            <h2 className="page-header__title">ISO 14001 Certification</h2>
           </div>
         </div>
         <div className=' text-center service-topbar'>
        <div className="container d-flex justify-content-between">
-       <div style={{  color: "white" }} className=''>
+       {/* <div style={{  color: "white" }} className=''>
           <a className='text-light'href='#header'>FAQ</a>
         </div>
         <div className=''>
@@ -77,7 +147,7 @@ function IsoInternational() {
         </div>
         <div className=''>
           <a className='text-light' href='#question'>Ask Question</a>
-        </div>
+        </div> */}
        </div>
       </div>
 
@@ -85,7 +155,7 @@ function IsoInternational() {
 
         <div style={{backgroundColor:"#555555"}}>
           <div className=' py-5 pt-5 container text-light text-center'>
-            <h2 className="text-center">Why ISO Standards?</h2>
+            <h2 className="text-center">ISO 14001 Environmental Management System Certification</h2>
             <p>Management System Standards are strategic tools and guidelines to help the organisation tackle some of the challenges of today’s competitive business. They ensure that business operations and processes are as efficient as possible, enhance productivity and help organisations access new markets.</p>
              <p>ISO Consulting Services is serving its clients with the most common ISO management system or other standards, including ISO 9001, ISO 14001, ISO 45001 & upgrade from AS 4801, ISO 27001, ISO 13485,  HACCP, ISO 22000,  AS/NZS 5377, and Integrated Management System (IMS), helping organisations develop their business, improving their management system, enhancing productivity and efficiency and maintaining a safe workplace environment.</p>
          
@@ -94,122 +164,61 @@ function IsoInternational() {
 
         </div>
 
+
+        <div>
+            <div className='container my-5'>
+                <Row>
+                    <Col md={6} sm={12}>
+                        <h3 className="text-dark">What is ISO 14001 accreditation?</h3>
+                        <p className='text-dark'> ISO 14001 is a management system that provides a framework to detect, evaluate, control, monitor and manage their environmental impacts in a holistic manner. It enables organisations to meet their environmental obligations. </p>
+
+                        <p className='text-dark'> ISO 14001 is recognised all over the world. Every major country has “Green Quotas” to identify and meet, and this certification often opens up opportunities for businesses that achieve the certification. </p>
+                        <p className='text-dark'> The ISO 14001 standard provides an extensive foundation for helping companies handle environmental risks and establish and incorporate an environmental management strategy in order to become environmentally sustainable.</p>
+                
+
+                    </Col>
+
+                    <Col md={6} sm={12}>
+                        <img  width="80%"   src='/assets/images/services/iso/iso.jpg' alt='' />
+                    </Col>
+                </Row>
+
+
+                <Row className='mt-5'>
+                    
+
+                    <Col md={6} sm={12}>
+                        <img  width="80%"   src='/assets/images/services/iso/second.webp' alt='' />
+                    </Col>
+
+                    <Col md={6} sm={12}>
+                        <h3 className="text-dark">Benefit of ISO 14001 Certification?</h3>
+                        <p className='text-dark'> The application of an ISO 14001 certification to your business operations can improve business impacts on the environment, and enable organisations to access new markets and business opportunities. Some ISO 14001 advantages include: </p>
+
+                        <p className='text-dark'>1.Operating more environmental-friendly   </p>
+                        <p className='text-dark'>2. Reduced waste and energy consumption </p>
+                        <p className='text-dark'>3.Reduced costs for emissions, waste handling and disposal  </p>
+                        <p className='text-dark'>4. Reduced risk of legal non-compliances </p>
+                        <p className='text-dark'>5.Reduced insurance premiums and enforcement fines  </p>
+                        <p className='text-dark'>6.  Win bigger tenders and enter new markets</p>
+                        <p className='text-dark'>7.  Identifying and managing environmental aspects and impacts</p>
+                        <p className='text-dark'>8.  Boost the trust of stakeholders (such as customers, employees, suppliers)</p>
+                 
+
+                    </Col>
+                </Row>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
         <div className='container  '>
-            <div className='text-center'>
-            <h2 className='header mt-4'>The Benefits of ISO Standards</h2>
-
-            <Row>
-              <Col className='mt-2' md={4} sm={6}>
-                <img className='w-100' src='/assets/images/services/iso/img1.webp' alt='' />
-                <h4 className='header my-2'>Cost Savings</h4>
-                <p>
-                Management system Standards optimise operations and therefore improve the effectiveness and efficiency of processes.
-                </p>
-              </Col>
-              <Col className='mt-2'  md={4} sm={6}>
-                <img className='w-100' src='/assets/images/services/iso/img2.webp' alt='' />
-                <h4 className='header  my-2'>Customer Satisfaction</h4>
-                <p>
-                Management system Standards help improve the quality of services and products and consequently increase customer satisfaction.                </p>
-              </Col>
-              <Col className='mt-2'  md={4} sm={6}>
-                <img className='w-100' src='/assets/images/services/iso/img3.webp' alt='' />
-                <h4 className='header  my-2'>Access to New Markets</h4>
-                <p>
-                Management system Standards help organisations go beyond the barriers in the business and open up new markets.                </p>
-              </Col>
-              <Col className='mt-2'  md={4} sm={6}>
-                <img className='w-100' src='/assets/images/services/iso/img4.webp' alt='' />
-                <h4 className='header  my-2'>Enhanced Market Share</h4>
-                <p>
-                Management system Standards help organisations increase productivity, efficiency and competitive advantage.  </p>            </Col>
-
-
-              <Col className='mt-2'  md={4} sm={6}>
-                <img className='w-100' src='/assets/images/services/iso/img5.webp' alt='' />
-                <h4 className='header  my-2'>Environmental Benefits</h4>
-                <p>Management system Standards help improve impacts on the environment and enhance interested parties satisfaction.</p>
-                 </Col>
-
-              <Col className='mt-2'  md={4} sm={6}>
-                <img className='w-100' src='/assets/images/services/iso/img6.webp' alt='' />
-                <h4 className='header  my-2'>Economic Benefits</h4>
-                <p>
-                Management system Standards create value for the organisations and quantify their benefits for companies of various industries.</p>  </Col>
-            </Row>
-
-
-
-            </div>
-
-
-            <div>
-              <Row>
-                <Col  className='mt-2'  md={3} >
-                <div style={{position:"absolute" ,top:"2100px", marginTop:"30px",textAlign:"right",left:"0px",width:"470px"}}>
-                  <h6 style={{cursor:"pointer",color:"blue"}} onClick={handleChangeRouter}  className='header iso '>StandardsISO 9001 Certification</h6>
-                  <p >ISO 9001 supports effective management of your business and help you meet customers’ requirements and continually ...</p>
-                  </div>
-
-
-                  <div style={{position:"absolute" ,top:"2290px", marginTop:"30px",textAlign:"right",left:"30px",width:"470px"}}>
-                  <h6  onClick={handleChangeRouter}  style={{cursor:"pointer",color:"red"}}   className='header '>ISO 45001 Certification</h6>
-                  <p >ISO 45001 documents the minimum requirements for a health and safety management system and can ...</p>
-                  </div>
-
-                  <div style={{position:"absolute" ,top:"2470px", marginTop:"30px",textAlign:"right",left:"70px",width:"470px"}}>
-                  <h6 onClick={handleChangeRouter}  style={{cursor:"pointer",color:"#7e76cc"}}   className='header '>ISO 27001 Certification</h6>
-                  <p >ISO 27001 supports effective Information Security Management of your business and help you meet the requirements for ...</p>
-                  </div>
-
-                  <div style={{position:"absolute" ,top:"2650px", marginTop:"30px",textAlign:"right",left:"  110px",width:"470px"}}>
-                  <h6 onClick={handleChangeRouter}  style={{cursor:"pointer",color:"#88b615"}}   className='header '>ISO 22000 & HACCP</h6>
-                  <p >ISO 2000 / HACCP supports an effective food safety management system to demonstrate your ability to control food safety hazards ...</p>
-                  </div>
- 
-                </Col>
-
-                <Col className='mt-2'  md={6} >
-                <img style={{ left:"0",top:"0"}} className='w-100' src='/assets/images/services/iso/map.jpeg' alt='' />
-
-                  
-                  </Col>
-
-                  <Col className='mt-2'  md={3}  >
-                  <Col  className='mt-2'  md={3} >
-                <div style={{position:"absolute" ,marginTop:"330px", left:"1050px" ,width:"400px"}}>
-                  <h6 onClick={handleChangeRouter}   style={{cursor:"pointer",color:"#00853c"}}    className='header '>ISO 14001 Certification</h6>
-                  <p >ISO 14001 is a management system that enables organisations to meet their environmental obligations and ...</p>
-                  </div>
-
-
-                  <div style={{position:"absolute" ,marginTop:"510px", left:"1020px" ,width:"400px"}}>
-                  <h6 onClick={handleChangeRouter}   style={{cursor:"pointer",color:"#c3a60d"}}    className='header '>Integrated Management System (IMS)</h6>
-                  <p >This system is a management system that integrates the organisation’s QMS, EMS and OHSMS processes as one unique framework ...</p>
-                  </div>
-
-
-                  <div style={{position:"absolute" ,marginTop:"690px", left:"980px" ,width:"400px"}}>
-                  <h6 onClick={handleChangeRouter}   style={{cursor:"pointer",color:"#1bacc1"}}    className='header '>ISO 13485 Certification</h6>
-                  <p >ISO 13485 helps the organisation involved in one or more stages of the life-cycle of a medical device to establish a quality ...</p>
-                  </div>
-
-                  
-
-                  <div style={{position:"absolute" ,marginTop:"860px", left:"940px" ,width:"400px"}}>
-                  <h6 onClick={handleChangeRouter}   style={{cursor:"pointer",color:"#b11188"}}    className='header '>AS 5377</h6>
-                  <p >AS 5377 supports a safe and environmentally sound collection, storage, transport and treatment of end-of-life ...</p>
-                  </div>
- 
-                </Col>
-
-                  
-                  </Col>
-              </Row>
-            </div>
-
-
- 
 
           </div>
 
@@ -484,4 +493,4 @@ function IsoInternational() {
   )
 }
 
-export default IsoInternational
+export default IsoStandard
