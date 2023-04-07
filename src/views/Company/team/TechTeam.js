@@ -304,10 +304,10 @@ function TechTeam() {
                       <i className="fa fa-bars"></i>
                     </a>
                       <div className="mc-footer">
-                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
-                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
-                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
-                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                      <a href="https://www.facebook.com/razzak2672" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="https://www.linkedin.com/in/abdur-razzak-b404a71b3" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="https://www.linkedin.com/in/abdur-razzak-b404a71b3" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="https://www.instagram.com/abdur.razzak72/" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
                 </div>
@@ -572,7 +572,7 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
       <Modal   size="lg" show={show7} onHide={handleClose7}>
         <Modal.Body  className=" rounded-3">
           <h5 className='teamTitle'>Md. Abdur Razzak</h5>
-           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
+          <a href='https://www.linkedin.com/in/abdur-razzak-b404a71b3'> <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i></a>
 
            <Row>
             <Col md={8}>
