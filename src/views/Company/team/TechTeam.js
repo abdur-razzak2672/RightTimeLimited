@@ -3,6 +3,7 @@ import { Button,Col,Form,Modal, Row } from 'react-bootstrap';
 
 function TechTeam() {
   const [show, setShow] = useState(false);
+ 
 
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
@@ -12,8 +13,11 @@ function TechTeam() {
   const [show6, setShow6] = useState(false);
   const [show7, setShow7] = useState(false);
   const [show8, setShow8] = useState(false);
+  const [show9, setShow9] = useState(false);
+  const [show10, setShow10] = useState(false);
 
-  
+
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const handleClose1 = () => setShow1(false);
@@ -36,6 +40,14 @@ function TechTeam() {
   const handleClose8 = () => setShow8(false);
   const handleShow8 = () => setShow8(true);
 
+  
+  const handleClose9 = () => setShow9(false);
+  const handleShow9 = () => setShow9(true);
+
+  const handleClose10 = () => setShow10(false);
+  const handleShow10 = () => setShow10(true);
+
+
  
 
 
@@ -52,6 +64,42 @@ function TechTeam() {
           <div className="body1">
             <section className="container">
               <div className="row active-with-click py-5 grid">
+
+              <div className="grid-item">
+                  <article className="material-card Pink">
+                  <a onClick={handleShow9} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Mohammad Tohidur Rahman Bhuiyan</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        Lead Security Practitioner and MD & CEO
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                         <img
+                         className = "img-responsive"
+                         src= "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"
+                         alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">
+                        <p>Lead Security Practitioner and MD & CEO</p>
+                      </div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+              
                 <div className="grid-item">
                   <article className="material-card Red">
                     <a onClick={handleShow} href='javascript:void(0)'>
@@ -244,7 +292,7 @@ function TechTeam() {
                         
                         <img
                          className = "img-responsive"
-                          src= "/assets/images/team/razzak.jpeg"
+                          src= "/assets/images/team/razzak1.jpeg"
                           alt=""
                         />
                       </div>
@@ -263,6 +311,44 @@ function TechTeam() {
                     </div>
                   </article>
                 </div>
+
+
+                <div className="grid-item ">
+                  <article className="material-card Deep-Purple">
+                  <a onClick={handleShow10} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Sadrin Rahman Bhuiyan Piya</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        SECURITY ANALYST 
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                        
+                        <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/sadrin.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="mc-description mt-3">  SECURITY ANALYST 
+
+</div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+
 
 
                 
@@ -310,7 +396,7 @@ m                          alt=""
       </section>
 
 
-
+ 
  
  
       <Modal   size="lg" show={show} onHide={handleClose}>
@@ -491,18 +577,30 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
            <Row>
             <Col md={8}>
               <p className='teamDetails'>SOFTWARE ENGINEER</p>
-                
+              <p className='teamDetails'>
+               Abdur Razzak is a talented Software Engineer with expertise in full stack development using JavaScript frameworks such as React.js and Next.js, as well as Python frameworks like Django.        </p>
+             
+               <p className='teamDetails'>As a full stack developer, Md. Abdur Razzak is proficient in both front-end and back-end development, allowing him to create dynamic and responsive web applications that are both user-friendly and highly functional.His skills in React.js and Next.js enable him to create modern and complex web applications with ease. He is able to build reusable components and optimize web applications for performance and speed.
+
+</p>
+ 
+ 
+
             </Col>
 
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/razzak.jpeg"
+              src= "/assets/images/team/razzak1.jpeg"
               alt=""
             />
 
             </Col>
-        
+
+            
+<p className='teamDetails'> Additionally,  Abdur Razzak's proficiency in Django allows him to build robust back-end systems that power the web applications he develops. He is able to create RESTful APIs, handle database management, and implement complex business logic.</p>
+<p className='teamDetails'>Overall,   Abdur Razzak's skills as a full stack developer make him a valuable asset to any software development team. His ability to work with a variety of programming languages and frameworks makes him adaptable and versatile in his approach to development. </p>
+         
            </Row>
 
 
@@ -545,6 +643,77 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
         </Modal.Body>
        
       </Modal>
+
+
+      <Modal   size="lg" show={show10} onHide={handleClose10}>
+        <Modal.Body  className=" rounded-3">
+          <h5 className='teamTitle'>Sadrin Rahman Bhuiyan Piya</h5>
+           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
+
+           <Row>
+            <Col md={8}>
+              <p className='teamDetails'>SECURITY ANALYST</p>
+             
+              
+            </Col>
+
+            <Col md={4}>
+            <img
+              className = "img-responsive"
+              src= "/assets/images/team/sadrin.jpg"
+
+               alt=""
+            />
+
+            </Col>
+        
+           </Row>
+
+
+
+           
+          
+        </Modal.Body>
+       
+      </Modal>
+
+
+
+      
+      <Modal   size="lg" show={show9} onHide={handleClose9}>
+        <Modal.Body  className=" rounded-3">
+          <h5 className='teamTitle'>Dr. Mohammad Tohidur Rahman Bhuiyan</h5>
+           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
+
+           <Row>
+            <Col md={8}>
+              <p className='teamDetails'>
+              Dr. Mohammad Tohidur Rahman Bhuiyan comes with 31+ Years of wide-ranging and adequate acumen in the domain of Information System Security, Governance, Compliance, Enterprise as well as ICT Risk Management, PCI DSS Compliance Validation Services SWIFT Cyber Security Consultation and SWIFT CSP Assessment, ITES Project Handling, Preparatory Consultation for various ISO/ BS Certification, Information System/Information Technology and Cyber Security Assessment/Auditing and Technical Documentation (end to end), etc.              </p>
+ 
+            </Col>
+
+            <Col md={4}>
+            <img
+              className = "img-responsive"
+              src= "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"
+              alt=""
+            />
+
+            </Col>
+            <p>He is a visionary, and convergent thinker. Being a Security Auditor and Process Auditor, he earned a lot of real-world experience working with more than 600+ Companies across the globe. He collaborates with Leadership teams, Management teams, and Operations teams and understands the business challenges, organization goals , problems with execution , working methods, social variances, etc.</p>
+            <p>Tohid has certifications in PCI QSA, PCIP, CISA, CGEIT, Lead Auditor (ISO 27001 & ISO 9001), BCP & DRP, A+, CDCP, ITIL, Cyber Security & Cyber Forensic, CEH, MCSD, PRINCE2, Acunetix  (VA & PT Tools), CEI (Certified Instructor, EC-Council), SWIFT.</p>
+           </Row>
+
+
+
+           
+          
+        </Modal.Body>
+       
+      </Modal>
+
+
+
 
 
 
