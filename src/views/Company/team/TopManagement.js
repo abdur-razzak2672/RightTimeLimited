@@ -75,45 +75,12 @@ function TopManagement() {
                     </div>
                   </article>
                 </div>
-                <div className="grid-item">
-                  <article className="material-card Pink">
-                  <a onClick={handleShow1} href='javascript:void(0)'>
-                    <h2 className="h21 text-light">
-                      <span>Mohammad Tohidur Rahman Bhuiyan</span>
-                      <strong>
-                        <i className="fa fa-fw fa-star"></i>
-                        MD & CEO and Lead Assessor
-                      </strong>
-                    </h2>
-                    </a>
-                    <div className="mc-content" style={{height:"320px"}} >
-                      <div className="img-container">
-                         <img
-                         className = "img-responsive"
-                         src= "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"
-                         alt=""
-                        />
-                      </div>
-                      <div className="mc-description mt-3">
-                        <p>MD & CEO and Lead Assessor of the company</p>
-                      </div>
-                    </div>
-                    <a className="mc-btn-action">
-                      <i className="fa fa-bars"></i>
-                    </a>
-                      <div className="mc-footer">
-                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
-                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
-                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
-                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
-                    </div>
-                  </article>
-                </div>
+                
                 <div className="grid-item">
                   <article className="material-card Purple">
                   <a onClick={handleShow2} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
-                      <span>Dr. Touuhid Bhuiyan</span>
+                      <span>Dr. Touhid Bhuiyan</span>
                       <strong>
                         <i className="fa fa-fw fa-star"></i>
                         DIRECTOR, STRATEGIC PLANNING AND DEVELOPMENT
@@ -253,7 +220,7 @@ function TopManagement() {
                   <article className="material-card Blue">
                   <a onClick={handleShow5} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
-                      <span>Mohammad Ziaul Haque</span>
+                      <span>Mohammed Ziaur Rahman Khan</span>
                       <strong>
                         <i className="fa fa-fw fa-star"></i>
                         CHIEF FINANCIAL OFFICER (CFO)
@@ -324,39 +291,7 @@ function TopManagement() {
        
       </Modal>
 
-
-      <Modal   size="lg" show={show1} onHide={handleClose1}>
-        <Modal.Body  className=" rounded-3">
-          <h5 className='teamTitle'>Dr. Mohammad Tohidur Rahman Bhuiyan</h5>
-           <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
-
-           <Row>
-            <Col md={8}>
-              <p className='teamDetails'>
-              Dr. Mohammad Tohidur Rahman Bhuiyan comes with 31+ Years of wide-ranging and adequate acumen in the domain of Information System Security, Governance, Compliance, Enterprise as well as ICT Risk Management, PCI DSS Compliance Validation Services SWIFT Cyber Security Consultation and SWIFT CSP Assessment, ITES Project Handling, Preparatory Consultation for various ISO/ BS Certification, Information System/Information Technology and Cyber Security Assessment/Auditing and Technical Documentation (end to end), etc.              </p>
  
-            </Col>
-
-            <Col md={4}>
-            <img
-              className = "img-responsive"
-              src= "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"
-              alt=""
-            />
-
-            </Col>
-            <p>He is a visionary, and convergent thinker. Being a Security Auditor and Process Auditor, he earned a lot of real-world experience working with more than 600+ Companies across the globe. He collaborates with Leadership teams, Management teams, and Operations teams and understands the business challenges, organization goals , problems with execution , working methods, social variances, etc.</p>
-            <p>Tohid has certifications in PCI QSA, PCIP, CISA, CGEIT, Lead Auditor (ISO 27001 & ISO 9001), BCP & DRP, A+, CDCP, ITIL, Cyber Security & Cyber Forensic, CEH, MCSD, PRINCE2, Acunetix  (VA & PT Tools), CEI (Certified Instructor, EC-Council), SWIFT.</p>
-           </Row>
-
-
-
-           
-          
-        </Modal.Body>
-       
-      </Modal>
-
 
       <Modal   size="lg" show={show2} onHide={handleClose2}>
         <Modal.Body  className=" rounded-3">
@@ -496,7 +431,7 @@ function TopManagement() {
 
       <Modal   size="lg" show={show5} onHide={handleClose5}>
         <Modal.Body  className=" rounded-3">
-          <h5 className='teamTitle'>MOHAMMAD ZIAUL HAQUE</h5>
+          <h5 className='teamTitle'>Mohammed Ziaur Rahman Khan</h5>
            <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
 
            <Row>
