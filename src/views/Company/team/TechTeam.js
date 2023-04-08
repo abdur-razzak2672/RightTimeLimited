@@ -328,7 +328,7 @@ function TechTeam() {
                       <div className="img-container">
                         
                         <img
-                         className = "img-responsive"
+                         className ="img-responsive"
                           src= "/assets/images/team/sadrin.jpg"
                           alt=""
                         />

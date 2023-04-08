@@ -13,6 +13,11 @@ import Dashboard from "./dashboard/Dashboard";
 // About Section Imported Start
 import AboutUs from "./views/About/AboutUs";
 import MissionStatement from "./views/About/MissionStatement";
+import Testmonial from "./views/About/Rtl/Testmonial";
+import Events from "./views/About/news-event/Events";
+import PictureGallaries from "./views/About/news-event/PictureGallaries";
+import Publication from "./views/About/news-event/Publication";
+import PressRelased from "./views/About/news-event/PressRelased";
 // About Section Imported Start
 
 // Industris Section Imported Start
@@ -328,6 +333,12 @@ Fresno, CA 93710   </li>
         {/*AboutUs Section Route Declaration start */}
         <Route path="/about-us" component={AboutUs} exact />
         <Route path="/mission-statement" component={MissionStatement} exact />
+        <Route path="/testmonial" component={Testmonial} exact />
+        <Route path="/events" component={Events} exact />
+        <Route path="/publication" component={Publication} exact />
+        <Route path="/press-release" component={PressRelased} exact />
+        <Route path="/picture-gallery" component={PictureGallaries} exact />
+
 
          {/*AboutUs Section Route Declaration end */}
 
