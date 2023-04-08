@@ -24,8 +24,7 @@ function IsoInternational() {
   }
 
   const individualOptions = [
-  "ISO 9001 LA" ,
-  "ISO 9001 LI" ,
+ 
 
   "ISO 27001 LA",
   "ISO 27001 LI",
@@ -33,14 +32,26 @@ function IsoInternational() {
   "ISO 20000LA",
   "ISO 20000LI",
 
-  "ISO 22301 La",
+  "ISO 22301 LA",
   "ISO 22301 LI",
-  "StandardsISO 9001 Certification ",
-  "ISO 22000 & HACCP  ",
-  "ISO 14001 Certification ",
-  "Integrated Management System (IMS)  ",
-  "ISO 13485 Certification",
-  "MDSAF",
+  "StandardsISO 9001 Certification LA",
+  "StandardsISO 9001 Certification LI",
+
+  "ISO 22000 & HACCP LA ",
+  "ISO 22000 & HACCP LI ",
+
+  "ISO 14001 Certification LA ",
+  "ISO 14001 Certification LI ",
+
+  "Integrated Management System (IMS) LA ",
+  "Integrated Management System (IMS) LI ",
+
+  "ISO 13485 Certification LA",
+  "ISO 13485 Certification LI",
+
+  "MDSAF LA",
+  "MDSAF LI",
+
  
   ];
 
