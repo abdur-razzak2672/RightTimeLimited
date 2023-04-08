@@ -30,7 +30,7 @@ function BankNbfi() {
         <div className="col-lg-4">
                     <div className="sidebar">
                         <div  >
-                            <IndustriesNav/>
+                            <IndustriesNav title="bank"/>
                             
                         </div>
                     </div>
