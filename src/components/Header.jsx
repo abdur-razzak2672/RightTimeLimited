@@ -55,7 +55,7 @@ function Header({ show, setShow }) {
                       <a className="mt-3" href="/mission-statement">
                         Mission statement
                       </a>
-                      <a className="mt-3" href="/mission-statement">
+                      <a className="mt-3" href="/testmonial">
                        Testimonials
                       </a>
                       <a className="mt-3" href="/contact-us">
@@ -66,23 +66,23 @@ function Header({ show, setShow }) {
                     <Col style={{ borderRight: "1px solid #6f42c1" }}>
                       <a
                         style={{ fontWeight: "bold", color: "orange" }}
-                        href="/management"
+                        href="/events"
                       >
                         News & Events
                       </a>
-                      <a className="mt-3" href="/">
+                      <a className="mt-3" href="/press-release">
                         Press Release{" "}
                       </a>
 
-                      <a className="mt-2" href="/">
+                      <a className="mt-2" href="/publication">
                         Publications
                       </a>
 
-                      <a className="mt-2" href="/">
+                      <a className="mt-2" href="/events">
                         Events
                       </a>
 
-                      <a className="mt-2" href="/">
+                      <a className="mt-2" href="/picture-gallery">
                       	Picture Galleries
                       </a>
                     </Col>
@@ -90,7 +90,7 @@ function Header({ show, setShow }) {
                     <Col>
                       <a
                         style={{ fontWeight: "bold", color: "orange" }}
-                        href="/Customized"
+                        href="/association-partners"
                       >
                        Associations & Partners
                       </a>
@@ -100,9 +100,9 @@ function Header({ show, setShow }) {
                       Association
                          <i className="fas fa-caret-right  mx-3"></i>
                         <span style={{ left: "200px"}} className="AnchorHide">
-                          <Link to="https://portswigger.net/burp">
+                          <a href="https://portswigger.net/burp">
                           CCA, Ministry of ICT (First and 2022)
-                          </Link>
+                          </a>
 
                           <Link to="https://portswigger.net/burp">
                             PCI SSC, USA
