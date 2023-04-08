@@ -29,7 +29,7 @@ function PowerSector() {
           <div className="col-lg-4">
               <div className="sidebar">
                 <div className=" ">
-                  <IndustriesNav />
+                  <IndustriesNav title="power" />
 
                 </div>
               </div>

@@ -29,7 +29,7 @@ function HealthCare() {
           <div className="col-lg-4">
               <div className="sidebar">
                 <div className=" ">
-                  <IndustriesNav />
+                  <IndustriesNav title="health" />
 
                 </div>
               </div>

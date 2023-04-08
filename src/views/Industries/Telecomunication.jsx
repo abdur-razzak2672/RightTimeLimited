@@ -31,7 +31,7 @@ function Telecomunication() {
             <div className="col-lg-4">
                     <div className="sidebar">
                         <div className="">
-                            <IndustriesNav/>
+                            <IndustriesNav title="telecommunications"/>
                          </div>
                     </div>
                 </div>
