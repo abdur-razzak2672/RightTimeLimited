@@ -36,20 +36,11 @@ function IndustriusBody() {
 
             <p className="text-light mt-4">
               {" "}
-              At our IT Security firm, we provide security solutions to
-              businesses operating in a wide range of industries. Our team of
-              experts has extensive knowledge and experience in designing and
-              implementing customized security solutions to meet the specific
-              needs of each industry.{" "}
+              At our IT Security firm, we provide security solutions to businesses operating in a wide range of industries. Our team of experts has extensive knowledge and experience in designing and implementing customized security solutions to meet the specific needs of each industry.
             </p>
             <p className="text-light">
               {" "}
-              We cover a variety of industries, including finance, healthcare,
-              manufacturing, retail, and technology. Our solutions are tailored
-              to address the unique challenges faced by businesses in each
-              industry and are designed to protect against a range of
-              cybersecurity threats, such as data breaches, malware, phishing,
-              and ransomware attacks.
+              We cover a variety of industries, including finance, healthcare, manufacturing, retail, and technology. Our solutions are tailored to address the unique challenges faced by businesses in each industry and are designed to protect against a range of cybersecurity threats, such as data breaches, malware, phishing, and ransomware attacks.
             </p>
             <p className="text-light">
               Our approach is based on a deep understanding of the
@@ -60,12 +51,7 @@ function IndustriusBody() {
             </p>
             <p className="text-light">
               {" "}
-              At our IT Security firm, we are committed to providing our clients
-              with the highest level of security and service. We pride ourselves
-              on our ability to stay ahead of the latest threats and emerging
-              trends in the cybersecurity landscape, enabling us to deliver
-              innovative and effective solutions that help our clients achieve
-              their security goals.
+              At our IT Security firm, we are committed to providing our clients with the highest level of security and service. We pride ourselves on our ability to stay ahead of the latest threats and emerging trends in the cybersecurity landscape, enabling us to deliver innovative and effective solutions that help our clients achieve their security goals.
             </p>
             <ul className="img-grid mt-5 text-center cardHieght ">
               <li style={{ width: "180px" }} className="m-2 rounded border ">

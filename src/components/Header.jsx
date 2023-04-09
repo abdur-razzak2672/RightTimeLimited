@@ -489,7 +489,7 @@ function Header({ show, setShow }) {
                         className="mt-3"
                         href="/"
                       >
-                        <i className="fas fa-circle iconStyle "> </i> Security Posture Assessment
+                        <i className="fas fa-circle iconStyle "> </i>Cyber Security Posture assessment
                       </a>
 
                       <a className="mt-3" href="/digital-forensics">
