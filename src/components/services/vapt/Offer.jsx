@@ -227,8 +227,18 @@ function Offer({ data, va, pt, id, Offercard }) {
 
           <img width="100%" src="/assets/images/services/rtl.png" alt="" />
 
-          <h5 className="header pt-3 text-info">Right Time Also Provides:</h5>
+          {
+            va==="va" && (
+
+              <>
+                  <h5 className="header pt-3 text-info">Right Time Also Provides:</h5>
           <img width="100%" src="/assets/images/services/vartl.png" alt="" />
+              
+              </>
+            )
+          }
+
+       
         </div>
       </div>
     </div>

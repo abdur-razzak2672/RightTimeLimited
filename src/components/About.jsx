@@ -10,7 +10,7 @@ function About() {
       <section className="section-padding--bottom section-padding--top about-five">
         <div className="container">
           <div className="row gutter-y-60">
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div className="about-five__images">
                 <div className="about-five__images__shape"></div>
                 <img
@@ -33,7 +33,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <div className="about-five__content">
                 <div className="section-title ">
                   <p className="section-title__text">About Company</p>
@@ -61,11 +61,11 @@ function About() {
                     
                       <div className="row">
                       <div className="col-md-4">
-                      <img width="100%" src="assets/images/team/Sahaly Yasmin Bhuiyan.jpg" alt="" />
+                      <img width="100%" src="assets/images/team/mam.jpg" alt="" />
                       <a
-                  style={{width:"170px"}}
+                  style={{width:"205px"}}
                   onClick={handleShow} href='javascript:void(0)'
-                    className="thm-btn about-four__btn "
+                    className="thm-btn about-four__btn mt-2"
                   >
                     <span className="text-light">Learn More</span>
                   </a>
@@ -73,14 +73,13 @@ function About() {
 
                       <div style={{paddingRight:"12px"}} className="col-md-8 ">
                       <p>
-                        {" "}
-                      
-                          We are already living in a cyber society. We shouldn’t
-                          ask our customers to make a tradeoff between privacy
-                          and security. We need to offer them the best of both.
-                          Ultimately, protecting customer’s data protects our
-                          business.We are working together to protect your
-                          business.
+                        {" "}      
+                          I am proud to serve as the Chairman of our cyber security consulting and assessment/audit firm, “Right Time Limited”. Our team of experts is dedicated to providing you with the highest quality of service and customized solutions to secure your organization's data and assets from cyber threats.
+
+Our comprehensive approach includes a thorough assessment and audit process, which enables us to identify vulnerabilities and threats, develop customized strategies, and implement practical solutions to mitigate risks. We are committed to delivering excellence in service, and our team is equipped with the latest technology and expertise to provide a range of services, including network security, application security, cloud security, and risk management.
+
+Thank you for choosing our firm as your trusted partner in cyber security. We remain committed to delivering results and look forward to serving you in the years to come.
+
                          
                       </p>
                       <h3 className="about-four__author__title">
@@ -110,21 +109,24 @@ function About() {
            <Row>
             <Col md={8}>
               <p className='teamDetails'>
-              Ms. Sahaly Yasmin Bhuiyan comes with 13+ Years of wide-ranging and sound knowledge in the domain of Information System Security, Governance, Compliance, Enterprise as well as ICT Risk Management, PCI DSS Compliance Validation Services SWIFT Cyber Security Consultation and SWIFT CSP Assessment, Information System/Information Technology and Cyber Security Assessment/Auditing, etc.
-              </p>
+              It gives me great pleasure to address you as the Chairman of our esteemed cyber security consulting and assessment/audit firm, “Right Time Limited”. I am proud to say that we have been at the forefront of the industry, providing innovative solutions to meet the ever-changing cyber security landscape.       Our team of experts is committed to providing you with the highest quality of service and ensuring that your organization's data and assets remain secure from cyber threats.        </p>
  
             </Col>
 
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Sahaly Yasmin Bhuiyan.jpg"
+              src= "/assets/images/team/mam.jpg"
               alt=""
             />
 
             </Col>
-            <p>Being a Security Auditor and Process Auditor, she earned a lot of real-world experience working with more than 450+ Companies across the globe. She collaborates with Strategic Teams, Leadership Teams, Management Teams, and Operations Teams. She understands the business challenges, organization goals, problems with execution, working methods, social variances, etc. She oversees the Quality Assurance Team and serves as a core security assessor in addition to serving as the company’s Chairman.</p>
-            <p>Sahaly has certifications in PCI QSA, PCIP, CDCP, Lead Auditor - ISO 9001(QMS), ITIL, and SWIFT.</p>
+            <p> We take great pride in our approach, which is centered on a comprehensive assessment and audit process, designed to identify vulnerabilities and threats, develop customized strategies, and implement practical solutions to mitigate risks.</p>
+            <p>Over the years, we have developed a reputation for excellence, and our clients have come to rely on us for their cyber security needs. We believe that this is a testament to the quality of our services, our commitment to excellence, and our ability to deliver results.
+
+At our firm, we understand that cyber security is not a one-size-fits-all solution. That is why we work closely with each client to develop customized solutions that are tailored to their specific needs. Our team of experts is equipped with the latest technology and expertise to provide you with a range of services, including network security, application security, cloud security, and risk management.
+</p>
+<p>Thank you for choosing our firm as your trusted partner in cyber security. We remain committed to delivering excellence in service, and we look forward to continuing to serve you in the years to come.</p>
            </Row>
 
 
