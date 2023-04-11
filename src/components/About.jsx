@@ -74,12 +74,7 @@ function About() {
                       <div style={{paddingRight:"12px"}} className="col-md-8 ">
                       <p>
                         {" "}      
-                          I am proud to serve as the Chairman of our cyber security consulting and assessment/audit firm, “Right Time Limited”. Our team of experts is dedicated to providing you with the highest quality of service and customized solutions to secure your organization's data and assets from cyber threats.
-
-Our comprehensive approach includes a thorough assessment and audit process, which enables us to identify vulnerabilities and threats, develop customized strategies, and implement practical solutions to mitigate risks. We are committed to delivering excellence in service, and our team is equipped with the latest technology and expertise to provide a range of services, including network security, application security, cloud security, and risk management.
-
-Thank you for choosing our firm as your trusted partner in cyber security. We remain committed to delivering results and look forward to serving you in the years to come.
-
+                        I am proud to serve as the Chairman of “Right Time Limited” (RightTime, short firm)- cyber security consulting and assessment/audit firm. Our team of experts is dedicated to providing you with the highest quality of service and customized solutions to secure your organization's data and assets from cyber threats. Our comprehensive approach includes a thorough assessment and audit process, which enables us to identify vulnerabilities and threats, develop customized strategies, and implement practical solutions to mitigate risks. We are committed to delivering excellence in service, and our team is equipped with the latest technology and expertise to provide a range of services, including network security, application security, cloud security, and risk management. Wish, you will choose “Right Time Limited” as your trusted partner in Cyber Security Effort. We remain committed to delivering results and look forward to serving you in the years to come.
                          
                       </p>
                       <h3 className="about-four__author__title">

@@ -12,7 +12,7 @@ function Benefit() {
         </div>
         <div className="container">
           <div className="row gutter-y-60">
-            <div className="col-lg-6">
+            <div style={{marginTop:"200px"}} className="col-lg-6  ">
               <div className="about-three__image">
                 <img
                   src="/assets/images/resources/rt1.png"
@@ -42,7 +42,7 @@ function Benefit() {
                     <div className="about-three__list__content">
                       <h3 className="about-three__list__title">
                         <a href="/">
-                          Cloud Based Services
+                        Quality Service
                         </a>
                       </h3>
                       <p className="about-three__list__text">
@@ -57,17 +57,52 @@ function Benefit() {
                     </div>
                     <div className="about-three__list__content">
                       <h3 className="about-three__list__title">
-                        <a href="/">Expert Team Members</a>
+                        <a href="/">Expert Team</a>
                       </h3>
                       <p className="about-three__list__text">
                         Services address a range of simply free text application
                         and infrastructure needs.
                       </p>
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
+
+
+
+                 
+                    </div>
+                  </li>
+
+
+
+                  <li className="about-three__list__item">
+                    <div className="about-three__list__icon">
+                      <i className="icon-cloud"></i>
+                    </div>
+                    <div className="about-three__list__content">
+                      <h3 className="about-three__list__title">
+                        <a href="/">
+                        Excellent Support                      </a>
+                      </h3>
+                      <p className="about-three__list__text">
+                        Services address a range of simply free text application
+                        and infrastructure needs.
+                      </p>
+                    </div>
+                  </li>
+                  <li className="about-three__list__item">
+                    <div className="about-three__list__icon">
+                      <i className="icon-group"></i>
+                    </div>
+                    <div className="about-three__list__content">
+                      <h3 className="about-three__list__title">
+                        <a href="/">Sound Management</a>
+                      </h3>
+                      <p className="about-three__list__text">
+                        Services address a range of simply free text application
+                        and infrastructure needs.
+                      </p>
+
+
+
+                 
                     </div>
                   </li>
                 </ul>
@@ -76,6 +111,7 @@ function Benefit() {
           </div>
         </div>
       </section>
+      <br/><br/><br/> 
     </div>
   );
 }

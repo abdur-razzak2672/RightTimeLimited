@@ -46,15 +46,16 @@ function Header({ show, setShow }) {
                       >
                         About Right Time
                       </a>
+                      <a className="mt-3" href="/mission-statement">
+                        Mission statement
+                      </a>
                       <a className="mt-3" href="/team">
                         Team
                       </a>
                       <a className="mt-3" href="/careers">
                         Careers
                       </a>
-                      <a className="mt-3" href="/mission-statement">
-                        Mission statement
-                      </a>
+                      
                       <a className="mt-3" href="/testmonial">
                        Testimonials
                       </a>
