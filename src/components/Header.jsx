@@ -207,7 +207,7 @@ function Header({ show, setShow }) {
             </li>
 
             <li className="menu-item-has-children">
-              <Link to="/industries">Industry Coverage</Link>
+              <a href="/industries">Industry Coverage</a>
               <ul>
                 <li>
                   <Link to="/bank-nbfi">FIs - Bank & NBFI</Link>

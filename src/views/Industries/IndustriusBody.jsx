@@ -1,6 +1,12 @@
 import React from "react";
 import IndustriesNav from "./IndustriesNav";
 import "./industries.css";
+import Service from "../../components/Service";
+import Association from "../../components/Association";
+import Partner from "../../components/Partner";
+import Information from "../../components/Information";
+import Benefit from "../../components/Benefit";
+
 function IndustriusBody() {
   return (
     <div>
@@ -165,12 +171,13 @@ function IndustriusBody() {
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+    
+        <Service/>
+        <Association />
+        <Partner />
+        <Information />
+        <Benefit />
+       <br />
         <br />
         <br />
         <br />
