@@ -1,5 +1,7 @@
 import React from "react";
 import './about.css'
+ import Association from "../../components/Association";
+import Partner from "../../components/Partner";
 function AboutUs() {
   return (
     <div>
@@ -109,6 +111,140 @@ function AboutUs() {
           </div>
         </div>
       </section>  
+
+      <Association />
+        <Partner />
+
+        <section>
+
+
+        <div className="   ">
+          <div
+            style={{ backgorundColor: "red", height: "100%" }}
+            className="wrapper1 headerind  "
+          >
+            <div className="container">
+            <p className="section-title__text  text-center pt-5  ">
+              Our Focus Industries
+            </p>
+            <h2 className="header text-center text-light">
+              Industries We Specialize In
+            </h2>
+
+           
+            <ul className="img-grid mt-5 text-center cardHieght ">
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/bank-nbfi" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/bank&nbfi.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>Banking</p>
+                </a>
+              </li>
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/ecommerce-retail" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/ecommerce.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>Ecommerce</p>
+                </a>
+              </li>
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a
+                  href="/educational-institutions"
+                  className="overlay-container"
+                >
+                  <img
+                    src="assets/images/Industries/education.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>Education</p>
+                </a>
+              </li>
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/health-care" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/healthcare.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>Health Care</p>
+                </a>
+              </li>
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/payment-card" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/pci.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>PCI</p>
+                </a>
+              </li>
+
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/telecomunication">
+                  <img
+                    src="assets/images/Industries/telecommunication.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>Telecommunication</p>
+                </a>
+              </li>
+
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/health-care" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/insurance .png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>insurance</p>
+                </a>
+              </li>
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/bpo-service" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/bpo.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>It & BPO Services</p>
+                </a>
+              </li>
+
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/power-sector">
+                  <img
+                    src="assets/images/Industries/power.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>Power Sector</p>
+                </a>
+              </li>
+         
+            </ul>
+
+            </div>
+          </div>
+        </div>
+        </section>
     
       <br />
       <br />
