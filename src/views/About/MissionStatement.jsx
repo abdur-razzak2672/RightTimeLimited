@@ -24,7 +24,7 @@ function MissionStatement() {
       <section>
         <div className="container">
           <h1 className="text-dark mt-5 text-center">OUR MISSION STATEMENT</h1>
-          <p>
+          <p className="text-dark">
             Cyber security is a challenge every day. Therefore, it is crucial to
             continuously support and protect our customers with new, innovative
             solutions and reliable services. Our vision, mission and corporate

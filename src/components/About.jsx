@@ -7,7 +7,7 @@ function About() {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <section className="section-padding--bottom section-padding--top about-five">
+      <section className="  section-padding--top about-five">
         <div className="container">
           <div className="row gutter-y-60">
             <div className="col-lg-5">
@@ -74,10 +74,8 @@ function About() {
                       <div style={{paddingRight:"12px"}} className="col-md-8 ">
                       <p>
                         {" "}      
-                        I am proud to serve as the Chairman of “Right Time Limited” (RightTime, short firm)- cyber security consulting and assessment/audit firm. Our team of experts is dedicated to providing you with the highest quality of service and customized solutions to secure your organization's data and assets from cyber threats. Our comprehensive approach includes a thorough assessment and audit process, which enables us to identify vulnerabilities and threats, develop customized strategies, and implement practical solutions to mitigate risks. We are committed to delivering excellence in service, and our team is equipped with the latest technology and expertise to provide a range of services, including network security, application security, cloud security, and risk management. Wish, you will choose “Right Time Limited” as your trusted partner in Cyber Security Effort. We remain committed to delivering results and look forward to serving you in the years to come.
-                         
-                      </p>
-                      <h3 className="about-four__author__title">
+                        I am proud to serve as the Chairman of “Right Time Limited” (RightTime, short firm)- cyber security consulting and assessment/audit firm. Our team of experts is dedicated to providing you with the highest quality of service and customized solutions to secure your organization's data and assets from cyber threats. Wish, you will choose “Right Time Limited” as your trusted partner in Cyber Security Effort.                      </p>
+                      <h3 className="about-four__author__title mt-4">
                        Ms. Sahaly Yasmin Bhuiyan
                       </h3>
                       <div className="about-four__author__designation">
