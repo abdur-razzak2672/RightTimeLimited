@@ -52,25 +52,7 @@ function Client() {
                       </div>
                       <div className="testimonials-one-card__content">
                         <div className="testimonials-one-card__text">
-                          Information Security Management System (ISMS) i.e. ISO
-                          27001 Certification of Al-Arafah Islami Bank Limited
-                          and Lead Auditor Training & Certification for related
-                          professional. It was fantastic working with “Right
-                          Time Limited” (RightTime, short form) an Information
-                          Technology (IT) Security Service Provider- for
-                          achieving the ISO 27001 Certification of Al-Arafah
-                          Islami Bank Limited. Its team of experts was
-                          incredibly knowledgeable and helpful throughout the
-                          entire process. They provided guidance and support
-                          every step of the way, and we were able to achieve the
-                          certification in a timely and efficient manner. Thanks
-                          to their expertise and dedication, we have improved
-                          our information security posture and gained a
-                          competitive edge in our industry. We highly recommend
-                          “Right Time Limited” to any organization seeking to
-                          achieve the ISO 27001 certification as well as
-                          International Professional Lead Auditor Certification
-                          for related Professional(s).
+                        Al-Arafah Islami Bank Limited has achieved the ISO 27001 certification with the help of Right Time Limited (RightTime), an Information Technology (IT) Security Service Provider. RightTime's team of experts provided guidance and support throughout the entire process, enabling the bank to achieve certification in a timely and efficient manner. We highly recommend RightTime to any organization seeking to achieve ISO 27001 certification. <span  ><a style={{color:"orange"}} href="/testmonial">Read More...</a></span>
                           <h3 className="testimonials-one-card__title">
                             Syed Masodul Bari
                           </h3>
@@ -97,30 +79,7 @@ function Client() {
                         </div>
                         <div className="testimonials-one-card__content">
                           <div className="testimonials-one-card__text">
-                            Payment Card Industry Data Security standard (PCI
-                            DSS) Certification of NRB Bank Limited and Skill
-                            Development Training for related professional. Our
-                            organization recently completed the end-to-end
-                            Training and Consultation offered by “Right Time
-                            Limited” (RightTime, short form), an IT Security
-                            firm to achieve certification on Payment Card
-                            Industry Data Security Standard (PCI DSS) by PCI
-                            SSC, USA for the NRB Bank Limited. We were
-                            thoroughly impressed with RightTime's knowledgeable
-                            and experienced team, who guided us through the
-                            training and certification process from start to
-                            finish. Thanks to their comprehensive training
-                            program and hands-on approach, we felt confident
-                            applying the PCI DSS standard to our organization's
-                            payment card data security practices. We appreciate
-                            their emphasis on practical solutions and real-world
-                            scenarios, which helped us understand the
-                            complexities of PCI DSS and how to implement it
-                            effectively. Overall, we highly recommend “Right
-                            Time Limited” for their end-to-end Training and
-                            Consultation services on PCI DSS certification.
-                            Their expertise, dedication, and commitment to their
-                            clients' success are truly unmatched."
+                          NRB Bank Limited has achieved certification on Payment Card Industry Data Security Standard (PCI DSS) with the help of Right Time Limited (RightTime)-first Bangladesh Based PCI QSA firm by PCI SSC, USA (Since 2013). We highly recommend RightTime for their expertise, and commitment to their clients' success in achieving PCI DSS certification.<span><a style={{color:"orange"}} href="/testmonial"> Read More...</a></span>
                           </div>
                           <h3 className="testimonials-one-card__title">
                             Abu Md. Sabbir Hassan Chowdhury{" "}
