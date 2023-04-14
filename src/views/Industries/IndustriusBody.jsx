@@ -175,51 +175,136 @@ function IndustriusBody() {
         <Service/>
         <Association />
         <Partner />
-        <Information />
-        <Benefit />
+        <Information />\
+
+
+
+  <section
+        className="section-padding--top service-four gray-bg section-padding-lg--bottom section-has-bottom-margin background-repeat-no background-position-top-right"
+        style={{
+          backgroundImage: `url('assets/images/shapes/service-four-bg-1-1.png')`,
+        }}
+      >
+        <div className="container"> 
+          <div className="container">
+                    <div className="section-title text-center">
+                        <p className="section-title__text">Company Benefits</p>
+                        <h2 className="header">  Why You Should Choose Our Services</h2>
+                        <p className="text-dark">
+                  Choose Infetech to have custom software solutions for your
+                  business with the most reasonable price.
+                </p>
+
+                    </div>
+                    <div className="owl-carousel  thm-owl__carousel thm-owl__carousel--with-shadow service-four__carousel"
+                        data-owl-options='{"loop": true,
+				"autoplay": true,
+				"autoplayTimeout": 3000,
+				"nav": false,
+				"navText": ["<span className=\"fa fa-angle-left\"></span>","<span className=\"fa fa-angle-right\"></span>"],
+				"dots": true,
+				"margin": 0,
+                "items": 1,
+				"smartSpeed": 700,
+				"responsive": {
+					"0": {
+						"margin": 0,
+						"items": 1
+					},
+					"576": {
+						"margin": 30,
+						"items": 2
+					},
+					"768": {
+						"margin": 30,
+						"items": 3
+					},
+					"992": {
+						"margin": 30,
+						"items": 4
+					},
+					"1200": {
+						"margin": 30,
+						"items": 4
+					}
+				}}'>
+                        <div className="item">
+                            <div style={{ height :"300px" }}  className="service-card-three">
+                                <div className="service-card-three__icon  ">
+                                <i className="icon-cloud  "></i>
+                                </div>
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="/consultation">     Quality Service
+
+                                        <br /></a></h3>
+                                    <p className="text-warning"> Services address a range of simply free text application
+                        and infrastructure needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div style={{ height :"300px" }}  className="service-card-three">
+                                <div className="service-card-three__icon  ">
+                                <i className="icon-group"></i>
+                                </div>
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="/consultation">    Expert Team
+
+                                        <br /></a></h3>
+                                    <p className="text-warning"> Services address a range of simply free text application
+                        and infrastructure needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div style={{ height :"300px" }}  className="service-card-three">
+                                <div className="service-card-three__icon  ">
+                                <i className="icon-cloud  "></i>
+                                </div>
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="/consultation">    Excellent Support  
+                                        <br /></a></h3>
+                                    <p className="text-warning"> Services address a range of simply free text application
+                        and infrastructure needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div style={{ height :"300px" }}  className="service-card-three">
+                                <div className="service-card-three__icon  ">
+                                <i className="icon-group"></i>
+                                </div>
+                                <div className="service-card-three__content">
+                                    <h3 className="service-card-three__title"><a href="/consultation">  Sound Management
+                                        <br /></a></h3>
+                                    <p className="text-warning"> Services address a range of simply free text application
+                        and infrastructure needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                       
+
+
+                    </div>
+                    </div>
+        </div>
+      </section>
+ 
+
+
+
        <br />
         <br />
         <br />
         <br />
       </section>
-
-      {/* <section className="section-padding--bottom section-padding--top">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-8">
-
-
-                            <h3 className="blog-card-one__title blog-details__title" style={{ color: "orange" }}> List of industries that we cover - </h3>
-                            <div className="blog-details__content">
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-
-                            </div>
-
-
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="sidebar">
-                                <div className="sidebar__item sidebar__item--category">
-                                    <IndustriesNav />
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section><br /><br />
-            <br />
-            <br />
-            <br /> */}
+ 
     </div>
   );
 }
