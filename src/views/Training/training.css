@@ -39,8 +39,7 @@
 }
 .card img {
   display: block;
-  width: 250px;
-  margin-left: 25px;
+ 
    
 
 }
@@ -55,9 +54,10 @@
       background:rgb(42, 64, 71)
 }
 .circleImage1 img{
-      width: 65%;
+      width: 55%;
+      margin-left: 23%;
       height: 55%;
-      margin-top: 20%;
+      margin-top: 23%;
       align-items:center;
       text-align: center;
 }
@@ -98,8 +98,7 @@
 
 .card a{
   text-decoration: none;
-   margin: 0 1rem;
-  transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
   color: black;
 }
 

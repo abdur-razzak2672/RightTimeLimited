@@ -167,6 +167,49 @@ import CyberDefenseCenter from "./views/incident/CyberDefenseCenter";
  import CyberDefenseServices from "./views/incident/CyberDefenseServices";
  import DefenceCenter from "./views/incident/DefenceCenter";
  import Services from "./views/incident/Services";
+import AssociationBody from "./views/Association/AssociationBody";
+
+
+
+//  Association Section Imported End
+import Basis from "./views/Association/Basis";
+import Bcs from "./views/Association/Bcs";
+import Cca from "./views/Association/Cca";
+import Pci from "./views/Association/Pci";
+import Swift from "./views/Association/Swift";
+import WorlBank from "./views/Association/WorlBank";
+
+//  Association Section Imported End
+
+
+//Service Partners Section Imported Start
+import Acnabin from "./views/Partners/ServicePertner/Acnabin";
+import EcCouncil from "./views/Partners/ServicePertner/EcCouncil";
+import PersonView from "./views/Partners/ServicePertner/PersonView";
+import Pecb from "./views/Partners/ServicePertner/Pecb";
+import Sck from "./views/Partners/ServicePertner/Sck";
+
+
+// Service Partners Section Imported End
+
+// Solution Partners Section Imported Start
+
+import Alltenable from "./views/Partners/SolutionPartner/Alltenable";
+import BurpSuit from "./views/Partners/SolutionPartner/BurpSuit";
+// import CoreImpact from "./views/Partners/SolutionPartner/CoreImpact";
+import HelpSystem from "./views/Partners/SolutionPartner/HelpSystem";
+import Invicti from "./views/Partners/SolutionPartner/Invicti";
+import ManageService from "./views/Partners/SolutionPartner/ManageService";
+import Nessus from "./views/Partners/SolutionPartner/Nessus";
+// import NetSparker from "./views/Partners/SolutionPartner/NetSparker";
+import PortSwigger from "./views/Partners/SolutionPartner/PortSwigger";
+import SafeAen from "./views/Partners/SolutionPartner/SafeAen";
+import Tenable from "./views/Partners/SolutionPartner/Tenable";
+import Ecab from "./views/Association/Ecab";
+ 
+
+ 
+
 
 
 
@@ -340,6 +383,50 @@ Fresno, CA 93710   </li>
         <Route path="/picture-gallery" component={PictureGallaries} exact />
 
 
+        {/* Association  Section Route Declaration start   */}
+        <Route path="/Basis" component={Basis} exact />
+        <Route path="/Bcs" component={Bcs} exact />
+        <Route path="/Cca" component={Cca} exact />
+         <Route path="/Ecab" component={Ecab} exact />
+        <Route path="/Pci" component={Pci} exact />
+        <Route path="/Swift" component={Swift} exact />
+        <Route path="/WorlBank" component={WorlBank} exact />
+
+        {/* Association  Section Route Declaration End   */}
+
+        {/* Service Partner  Section Route Declaration start  */}
+
+        <Route path="/Acnabin" component={Acnabin} exact />
+        <Route path="/EcCouncil" component={EcCouncil} exact />
+        <Route path="/Pecb" component={Pecb} exact />
+        <Route path="/PersonView" component={PersonView} exact />
+        <Route path="/Sck" component={Sck} exact />
+
+        {/* Service Partner  Section Route Declaration End  */}
+        {/* Slution Partner  Section Route Declaration start  */}
+
+
+
+        <Route path="/Alltenable" component={Alltenable} exact />
+        <Route path="/BurpSuit" component={BurpSuit} exact />
+        <Route path="/HelpSystem" component={HelpSystem} exact />
+        <Route path="/Invicti" component={Invicti} exact />
+        <Route path="/ManageService" component={ManageService} exact />
+        <Route path="/Nessus" component={Nessus} exact />
+        <Route path="/PortSwigger" component={PortSwigger} exact />
+        <Route path="/SafeAen" component={SafeAen} exact />
+        <Route path="/Tenable" component={Tenable} exact />
+      
+
+
+
+
+
+
+
+
+
+
          {/*AboutUs Section Route Declaration end */}
 
         {/*Industries Section Route Declaration start */}
@@ -362,6 +449,8 @@ Fresno, CA 93710   </li>
         <Route path="/service-partners" component={ServicePartner} exact />
         <Route path="/solution-partners" component={SolutionPartner} exact />
         <Route path="/association-partners" component={Association} exact />
+        <Route path="/association-body" component={AssociationBody} exact />
+
          {/*Partner Section Route Declaration End */}
 
         {/*Services Section Route Declaration Start */}

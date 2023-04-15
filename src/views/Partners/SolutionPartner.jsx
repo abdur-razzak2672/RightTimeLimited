@@ -25,7 +25,7 @@ function SolutionPartner() {
     <section className="section-padding--bottom text-center mt-5">
         <div className="container">
             <div className="section-title text-center">
-                <h2 className="">Services Partner</h2>
+                <h2 className="">Solution Partner</h2>
 
             </div>
             <div className="row gutter box text-center col-xs-6">

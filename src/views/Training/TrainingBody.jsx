@@ -13,7 +13,7 @@ function TrainingBody() {
           </div>
         </div>
         <div className="container mt-5">
-          <h5>The PCI Security Standards Council operates programs to train, test, and qualify organizations and individuals who assess and validate compliance, in order to help merchants successfully implement PCI standards and solutions. The Council also qualifies payment hardware and software so that merchants select and implement approved solutions for securing payment data and systems.</h5>
+          <p className='text-dark'>The PCI Security Standards Council operates programs to train, test, and qualify organizations and individuals who assess and validate compliance, in order to help merchants successfully implement PCI standards and solutions. The Council also qualifies payment hardware and software so that merchants select and implement approved solutions for securing payment data and systems.</p>
 
         </div>
         <section className="section-padding--bottom   mt-5">
@@ -23,63 +23,46 @@ function TrainingBody() {
             </div>
             <ul className="card-wrapper">
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon1.webp" alt="" /></a>
-                <h2 className="text-center" ><a href="/training">Secure Software</a></h2>
-                <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
-                <a href="/" className="">Download Course Description</a>
-                <a href="/" className="">More Information</a>
+              <a className="circleImage1 mt-4" href="/assesment"><img src="/assets/images/training/Icon1.webp" alt="" /></a>
+                <h3 className="text-center header" ><a href="/assesment">Aessessment</a></h3>
+                 <div className='mx-2' style={{alignItems:"start"}}>
+                 <p className='text-dark  '>Acquire specific tools to help your clients with their PCI DSS compliance</p>
 
-
-
-              </li>
-              <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon2.webp" alt="" /></a>
-                <h2 className="text-center" ><a href="/training">Secure  Software</a></h2>
-                <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
-                <a href="/training" >Download Course Description</a>
-                <a href="/training" className="">More Information</a>
-              </li>
-
-              <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon3.webp" alt="" /></a>
-                <h2 className="text-center" ><a href="/training">Secure Software</a></h2>
-                <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
-                <a href="/training" className="">Download Course Description</a>
-                <a href="/training" className="">More Information</a>
-
+                <a  className="text-warning" href="/assesment" >Download Course Description</a><br/>
+                <a href="/assesment"  className="text-warning">More Information</a>
+                  
+                </div>
+ 
 
 
               </li>
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon4.webp" alt="" /></a>
-                <h2 className="text-center" ><a href="/training">Secure Software</a></h2>
-                <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
-                <a href="/training" className="">Download Course Description</a>
-                <a href="/training" className="">More Information</a>
+              <a className="circleImage1  mt-4" href="/management"><img src="/assets/images/training/Icon2.webp" alt="" /></a>
+              <h3 className="text-center header" ><a href="/management">Management</a></h3>
+                 <div className='mx-2' style={{alignItems:"start"}}>
+                 <p className='text-dark  '>Acquire specific tools to help your clients with their PCI DSS compliance</p>
 
-
-
+                <a  className="text-warning" href="/management" >Download Course Description</a><br/>
+                <a  className="text-warning" href="/management"  >More Information</a>
+                  
+                </div>
               </li>
+
               <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon5.webp" alt="" /></a>
-                <h2 className="text-center" ><a href="/training">Secure Software</a></h2>
-                <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
-                <a href="/training" className="">Download Course Description</a>
-                <a href="/training" className="">More Information</a>
+              <a className="circleImage1 mt-4" href="/Customized"><img src="/assets/images/training/Icon3.webp" alt="" /></a>
+              <h3 className="text-center header" ><a href="/Customized">RightTime Customized</a></h3>
+                 <div className='mx-2' style={{alignItems:"start"}}>
+                 <p className='text-dark  '>Acquire specific tools to help your clients with their PCI DSS compliance</p>
+
+                <a href="/Customized"  className="text-warning">Download Course Description</a><br/>
+                <a href="/Customized" className="text-warning">More Information</a>
+                  
+                </div>
 
 
 
               </li>
-              <li className="card">
-              <a className="circleImage1 mt-4" href="/"><img src="/assets/images/training/Icon6.webp" alt="" /></a>
-                <h2 className="text-center" ><a href="/training">Secure Software</a></h2>
-                <p>Acquire specific tools to help your clients with their PCI DSS compliance</p>
-                <a href="/training" className="">Download Course Description</a>
-                <a href="/training" className="">More Information</a>
-
-
-
-              </li>
+             
 
 
             </ul>
@@ -130,7 +113,7 @@ function TrainingBody() {
 				}}'>
               <div  className="item">
                 <div className="card">
-                <a className="circleImage2 mt-4" href="/"><img style={{width:"65%"}} src="/assets/images/career/computer.png" alt="" /></a>
+                <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/sakim.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation"> Marc Bayerkohler
                       <br /></a></h4>
@@ -141,7 +124,7 @@ function TrainingBody() {
               </div>
               <div  className="item">
               <div className="card">
-              <a className="circleImage2 mt-4" href="/"><img  style={{width:"65%"}} src="/assets/images/career/computer.png" alt="" /></a>
+              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/razzak1.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
                   <h4 className="pt-3"><a href="/consultation"> Marc Bayerkohler
                       <br /></a></h4>
@@ -152,7 +135,7 @@ function TrainingBody() {
               </div>
               <div  className="item">
               <div className="card">
-              <a className="circleImage2 mt-4" href="/"><img  style={{width:"65%"}} src="/assets/images/career/computer.png" alt="" /></a>
+              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/sadrin.jpg" alt="" /></a>
                   <div className="service-card-three__content">
                   <h4 className="pt-3"><a href="/consultation"> Marc Bayerkohler
                       <br /></a></h4>
@@ -170,12 +153,12 @@ function TrainingBody() {
         <section className="section-padding--bottom section-padding--top">
           <div className="container">
             <div className="row">
-              <div className="col-lg-8">
+              <div className="col-lg-12">
 
 
-                <h3 className="blog-card-one__title blog-details__title">Security Training</h3>
+                <h3 className="blog-card-one__title blog-details__title text-center">Security Training</h3>
                 <div className="blog-details__content">
-                  <p>At RightTime, we believe very strongly on training so that common mistakes which can open doors for
+                  <p className='text-dark mt-4'>At RightTime, we believe very strongly on training so that common mistakes which can open doors for
                     vulnerabilities for the organizations can be eliminated. The purpose of providing good training is
                     also to make sure our customers follow the best industry practices while performing any IT task.
                     We provide training/ seminars to IT professionals and employees with access to sensitive information
@@ -215,14 +198,7 @@ function TrainingBody() {
 
 
               </div>
-              <div className="col-lg-4">
-                <div className="sidebar">
-                  <div className="sidebar__item sidebar__item--category">
-                    <TrainingNav />
-
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </section><br /><br /><br />
