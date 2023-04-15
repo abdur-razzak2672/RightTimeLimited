@@ -308,7 +308,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/providing-security"
+                        href="/cmmi"
                       >
                         <i className="fas fa-circle iconStyle "> </i>    CMMI Consultation
                       </a>
@@ -317,7 +317,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/consultation-on-shaping"
+                        href="/project-management"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Project Management 
@@ -336,7 +336,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/providing-security"
+                        href="/technical-documentation"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Technical
                         Documentation On ITES
@@ -347,7 +347,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/providing-security"
+                        href="/zero-trust"
                       >
                         <i className="fas fa-circle iconStyle "> </i>  Zero Trust Architecture
                       </a>
@@ -355,7 +355,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/providing-security"
+                        href="/industry-4.0"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Industry 4.0
                       </a>
@@ -363,14 +363,14 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/"
+                        href="/Six-sigma"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Six Sigma Consultation
                       </a>
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/"
+                        href="/Lean-Consultation"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Lean  Consultation
                       </a>
@@ -427,11 +427,11 @@ function Header({ show, setShow }) {
                         Auditing
                       </a>
 
-                      <a className="mt-3" href="/tia-for-data-center">
+                      <a className="mt-3" href="/soc-1">
                         <i className="fas fa-circle iconStyle "> </i>  SOC1 Audit 
                       </a>
 
-                      <a className="mt-3" href="/tia-for-data-center">
+                      <a className="mt-3" href="/soc-2">
                         <i className="fas fa-circle iconStyle "> </i> SOC2 Audit 
                       </a>
                     </Col>
@@ -481,14 +481,14 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/swift-csp"
+                        href="/breach-attack"
                       >
                         <i className="fas fa-circle iconStyle "> </i>  Breach Attack Simulation
                       </a>
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/"
+                        href="/poster-assessment"
                       >
                         <i className="fas fa-circle iconStyle "> </i>Cyber Security Posture assessment
                       </a>
@@ -561,11 +561,11 @@ function Header({ show, setShow }) {
                         For Data Center
                       </a>
 
-                      <a className="mt-3" href="/tia-for-data-center">
+                      <a className="mt-3" href="/gdpr-certification">
                         <i className="fas fa-circle iconStyle "> </i> GDPR
                         Certification
                       </a>
-                      <a className="mt-3" href="/tia-for-data-center">
+                      <a className="mt-3" href="/hippa-certification">
                         <i className="fas fa-circle iconStyle "> </i> HIPAA
                         Certification
                       </a>
@@ -581,7 +581,7 @@ function Header({ show, setShow }) {
                         Managed Services
                       </a>
 
-                      <a className="mt-3" href="/pci-dss-payment">
+                      <a className="mt-3" href="/soc-as-service">
                         <i className="fas fa-circle iconStyle "> </i> SOC as A
                         Service
                       </a>
@@ -591,7 +591,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/iso-international"
+                        href="/cloud-app"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Cloud App
                         Monitoring as A Service
@@ -600,7 +600,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/cmmi"
+                        href="/mdr-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i> MDR as A
                         Service (Managed End Point Detection and Response)
@@ -609,7 +609,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/tia-for-data-center"
+                        href="/managed-nextgen"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Managed
                         Nextgen Firewall as A Service
@@ -618,7 +618,7 @@ function Header({ show, setShow }) {
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/tia-for-data-center"
+                        href="/va-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         	Vulnerability Assessment (VA) As A Service </a>
@@ -626,7 +626,7 @@ function Header({ show, setShow }) {
                           <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/tia-for-data-center"
+                        href="/pt-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                       	Penetration Testing (PT) as a Service  </a>
@@ -634,7 +634,7 @@ function Header({ show, setShow }) {
                         <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/tia-for-data-center"
+                        href="/dam-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                       	 	DAM (Database Auditing & Management) as a Service </a>
@@ -644,7 +644,7 @@ function Header({ show, setShow }) {
                          <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/tia-for-data-center"
+                        href="/Attact-surface"
                       >
                         <i className="fas fa-circle iconStyle "> </i> 	Attack Surface Management
                       </a>

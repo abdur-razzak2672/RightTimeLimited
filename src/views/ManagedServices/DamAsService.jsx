@@ -12,9 +12,9 @@ function DamAsService() {
     <ul className="thm-breadcrumb list-unstyled">
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/services') }}">Services</a></li>
-            <li>Standard Implementation & Certification</li>
+            <li>	DAM (Database Auditing & Management) as a Service</li>
         </ul>
-        <h2 className="page-header__title">Standard Implementation & Certification</h2>
+        <h2 className="page-header__title">  	DAM (Database Auditing & Management) as a Service</h2>
     </div> 
 </div> 
 <div className=' text-center service-topbar'>

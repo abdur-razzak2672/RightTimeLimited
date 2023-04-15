@@ -59,6 +59,10 @@ import DcDrsAuditing from "./views/Services/Auditing/DcDrsAuditing";
 import InformationSecurityGraded from "./views/Services/Auditing/InformationSecurityGraded";
 import InformationTechnology from "./views/Services/Auditing/InformationTechnology";
 import InformatonSystem from "./views/Services/Auditing/InformatonSystem";
+import Soc1Audit from "./views/Services/Auditing/Soc1Audit";
+import Soc2Audit from "./views/Services/Auditing/Soc2Audit";
+ 
+
  //Security testing
 import SecuirityTesting from "./views/Services/SecuirityTesting/SecurityTesting";
 import CodeReview from "./views/Services/SecuirityTesting/CodeReview";
@@ -66,7 +70,8 @@ import DigitalForensics from "./views/Services/SecuirityTesting/DigitalForensics
 import VulnerabilityAssesment from "./views/Services/SecuirityTesting/VulnerabilityAssesment";
 import SoftwareQuality from "./views/Services/SecuirityTesting/SoftwareQuality";
  import SwiftCsp from "./views/Services/SecuirityTesting/SwiftCsp";
-
+ import PosterAssessment from "./views/Services/SecuirityTesting/PosterAssessment";
+ import BreachAttack from "./views/Services/SecuirityTesting/BreachAttack";
 //certification
 import CertificationBody from "./views/Services/Certification/CertificationBody";
 import Cmmi from "./views/Services/Certification/Cmmi";
@@ -74,6 +79,8 @@ import IsoInternational from "./views/Services/Certification/IsoInternational";
 import TiaForDataCenter from "./views/Services/Certification/TiaForDataCenter";
 import PciDssPayment from "./views/Services/Certification/PciDssPayment";
 import IsoStandard from "./components/services/iso/IsoStandard";
+import GDPRCertification from "./views/Services/Certification/GDPRCertification";
+import HippaCertification from "./views/Services/Certification/HippaCertification";
 //Service Section Imported End
 
 //Managed Service Section Imported Start
@@ -206,6 +213,10 @@ import PortSwigger from "./views/Partners/SolutionPartner/PortSwigger";
 import SafeAen from "./views/Partners/SolutionPartner/SafeAen";
 import Tenable from "./views/Partners/SolutionPartner/Tenable";
 import Ecab from "./views/Association/Ecab";
+import Industry4 from "./views/Services/Consultation/Industry4.0";
+import LeanConsultation from "./views/Services/Consultation/LeanConsultation";
+import SixSigma from "./views/Services/Consultation/SixSigma";
+import ZeroTrust from "./views/Services/Consultation/ZeroTrust";
  
 
  
@@ -464,6 +475,13 @@ Fresno, CA 93710   </li>
         <Route path="/swift-cyber-security" component={SwiftCyberSecurity} exact />
         <Route path="/technical-documentation" component={TechnicalDoccumentation} exact />
         <Route path="/pci-dss-consultation" component={PciDss} exact />
+        <Route path="/Lean-Consultation" component={LeanConsultation} exact />
+        <Route path="/Six-sigma" component={SixSigma} exact />
+        <Route path="/industry-4.0" component={Industry4} exact />
+
+
+
+
 
          {/* Auditing */}
         <Route path="/auditing" component={AuditingBody} exact />
@@ -472,12 +490,18 @@ Fresno, CA 93710   </li>
         <Route path="/information-technology" component={InformationTechnology} exact />
         <Route path="/information-system" component={InformatonSystem} exact />
         <Route path="/swift-csp" component={SwiftCsp} exact />
+        <Route path="/soc-1" component={Soc1Audit} exact />
+        <Route path="/soc-2" component={Soc2Audit} exact />
+
         {/* Security Testing */}
         <Route path="/security-testing" component={SecuirityTesting} exact />
         <Route path="/code-review" component={CodeReview} exact />
         <Route path="/digital-forensics" component={DigitalForensics} exact />
         <Route path="/vulnerability-assessment" component={VulnerabilityAssesment} exact />
         <Route path="/software-quality" component={SoftwareQuality} exact />
+        <Route path="/breach-attack" component={BreachAttack} exact />
+        <Route path="/poster-assessment" component={PosterAssessment} exact />
+
         {/* Certification */}
         <Route path="/certification" component={CertificationBody} exact />
         <Route path="/cmmi" component={Cmmi} exact />
@@ -485,6 +509,9 @@ Fresno, CA 93710   </li>
         <Route path="/tia-for-data-center" component={TiaForDataCenter} exact />
         <Route path="/pci-dss-payment" component={PciDssPayment} exact />
         <Route path="/iso-standard" component={IsoStandard} exact />
+        <Route path="/gdpr-certification" component={GDPRCertification} exact />
+        <Route path="/hippa-certification" component={HippaCertification} exact />
+
 
         {/*Services Section Route Declaration End */}
 
@@ -494,7 +521,7 @@ Fresno, CA 93710   </li>
         <Route path="/dam-as-service" component={DamAsService} exact />
         <Route path="/managed-nextgen" component={ManagedNextgen} exact />
          <Route path="/mdr-as-service" component={MdrAsService} exact />
-        <Route path="/pm-as-service" component={PmAsService} exact />
+        <Route path="/Attact-surface" component={PmAsService} exact />
         <Route path="/pt-as-service" component={PtAsServices} exact />
         <Route path="/soc-as-service" component={SocAsService} exact />
         <Route path="/va-as-service" component={VaAsService} exact />

@@ -12,9 +12,11 @@ function MdrAsService() {
     <ul className="thm-breadcrumb list-unstyled">
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/services') }}">Services</a></li>
-            <li>Standard Implementation & Certification</li>
+            <li> MDR as A
+                        Service (Managed End Point Detection and Response)</li>
         </ul>
-        <h2 className="page-header__title">Standard Implementation & Certification</h2>
+        <h2 className="page-header__title"> MDR as A
+                        Service (Managed End Point Detection and Response)</h2>
     </div> 
 </div> 
 <div className=' text-center service-topbar'>
