@@ -518,7 +518,7 @@ function ServiceBody() {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-card-two gray-bg">
                 <h3 className="service-card-two__title">
-                  <a href="about.html">Management</a>
+                  <a href="about.html">Sound Management</a>
                 </h3>
 
                 <p style={{height:"230px"}} className="service-card-two__text">

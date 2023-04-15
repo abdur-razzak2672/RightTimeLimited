@@ -157,52 +157,7 @@ function Service() {
         </div>
       </section>
 
-      <section className="funfact-one">
-        <div className="container">
-          <div
-            className="funfact-one__inner wow fadeInUp background-size-cover"
-            data-wow-duration="1500ms"
-            style={{
-              backgroundImage: `url('assets/images/shapes/funfact-one-bg.png')`,
-            }}
-          >
-            <ul className="funfact-one__list">
-              <li className="funfact-one__list__item">
-                <h3 className="funfact-one__list__title count-box">
-                  <span data-stop="255" data-speed="2500" className="count-text">
-                    00
-                  </span>
-                </h3>
-                <p className="funfact-one__list__text">Business Interogation</p>
-              </li>
-              <li className="funfact-one__list__item">
-                <h3 className="funfact-one__list__title count-box">
-                  <span data-stop="325" data-speed="2500" className="count-text">
-                    00
-                  </span>
-                </h3>
-                <p className="funfact-one__list__text">Strategies Planned</p>
-              </li>
-              <li className="funfact-one__list__item">
-                <h3 className="funfact-one__list__title count-box">
-                  <span data-stop="569" data-speed="2500" className="count-text">
-                    00
-                  </span>
-                </h3>
-                <p className="funfact-one__list__text">Projects Relased</p>
-              </li>
-              <li className="funfact-one__list__item">
-                <h3 className="funfact-one__list__title count-box">
-                  <span data-stop="769" data-speed="2500" className="count-text">
-                    00
-                  </span>
-                </h3>
-                <p className="funfact-one__list__text">Satisfied Clients </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+     
     </div>
   );
 }

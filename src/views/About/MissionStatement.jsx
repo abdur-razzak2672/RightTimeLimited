@@ -1,5 +1,7 @@
 import React from "react";
 import { Accordion, Col, Row } from "react-bootstrap";
+import Service from "../../components/Service";
+import Benifits from "../../components/Benifits";
 function MissionStatement() {
   return (
     <div>
@@ -240,6 +242,9 @@ Lead Implementer: ISO 27001 & ISO 9001
           </div>
         </div>
       </section>
+
+      <Service/>
+      <Benifits/>
       <br /> <br /> <br /> <br />
     </div>
   );

@@ -97,29 +97,29 @@ function Header({ show, setShow }) {
                       </a>
 
                     
-                      <a className="mt-3  divClass" href="/association-partners">
+                      <a className="mt-3  divClass" href="/association-body">
                       Association
                          <i className="fas fa-caret-right  mx-3"></i>
                         <span style={{ left: "200px"}} className="AnchorHide">
-                          <a href="https://portswigger.net/burp">
+                          <a href="/Cca">
                           CCA, Ministry of ICT (First and 2022)
                           </a>
 
-                          <Link to="https://portswigger.net/burp">
+                          <Link to="/Pci">
                             PCI SSC, USA
                           </Link>
 
-                          <Link to="https://portswigger.net/burp">
+                          <Link to="/WorlBank">
                             World Bank Groups  
                           </Link>
 
-                          <Link to="https://portswigger.net/burp">SWIFT</Link>
+                          <Link to="/Swift">SWIFT</Link>
 
-                          <Link to="https://portswigger.net/burp">BASIS</Link>
+                          <Link to="/Basis">BASIS</Link>
 
-                          <Link to="https://portswigger.net/burp">E-Cab</Link>
+                          <Link to="/Ecab">E-Cab</Link>
 
-                          <Link to="https://portswigger.net/burp">BCS</Link>
+                          <Link to="/Bcs">BCS</Link>
                         </span>
                       </a>
 
@@ -132,60 +132,60 @@ function Header({ show, setShow }) {
                     <Col style={{borderRight:"1px solid #6f42c1"}}>
                     <a  style={{fontWeight:"bold",color:"orange"}}href="/service-partners">Service Partner</a>
  
-                      <a className="mt-3" href="https://www.eccouncil.org/">EC-Council (Security Training Partner)</a>
+                      <a className="mt-3" href="/EcCouncil">EC-Council (Security Training Partner)</a>
                  
-                      <a className="mt-3"  href="https://home.pearsonvue.com/">Pearson Vue (Exam testing Center)</a>
+                      <a className="mt-3"  href="/PersonView">Pearson Vue (Exam testing Center)</a>
                     
-                      <a className="mt-3"  href="https://pecb.com/en">PECB (ISO)</a>
+                      <a className="mt-3"  href="/Pecb">PECB (ISO)</a>
                    
                     
-                      <a className="mt-3"  href="https://sckcerts.com/">SCK & ARS (ISO)</a>
+                      <a className="mt-3"  href="/Sck">SCK & ARS (ISO)</a>
                    
-                      <a className="mt-3"  href="https://www.acnabin.com/">ACNABIN (CA Firm for Financial Control)</a>
+                      <a className="mt-3"  href="/Acnabin">ACNABIN (CA Firm for Financial Control)</a>
 
                     </Col>
 
                   <Col>
                   
                   <a  style={{fontWeight:"bold",color:"orange"}}href="/solution-partners">Solution Partner</a>
-                   <a className="mt-3"  href="https://www.invicti.com/">INVICTI</a>
-                      <a className="mx-3" href="https://www.invicti.com/">
+                   <a className="mt-3"  href="/Invicti">INVICTI</a>
+                      <a className="mx-3" href="/netsparker">
                          <i className="fas fa-caret-right "> </i> Net Sparker
 
                       </a>
-                      <a className="mx-3" href="https://www.invicti.com/">
+                      <a className="mx-3" href="/acunetix">
                          <i className="fas fa-caret-right "> </i>Acunetix etc.
                       </a>
 
 
-                      <a className="mt-3"  href="https://www.invicti.com/"> Port Swigger</a>
+                      <a className="mt-3"  href="/PortSwigger"> Port Swigger</a>
                      
-                      <a className="mx-3" href="/burp-suite">
+                      <a className="mx-3" href="/BurpSuit">
                          <i className="fas fa-caret-right "> </i>-	Burp Suite
                       </a>
 
 
 
-                      <a className="mt-3"  href="https://www.invicti.com/">Tenable</a>
-                      <a className="mx-3" href="https://www.invicti.com/">
+                      <a className="mt-3"  href="/Tenable">Tenable</a>
+                      <a className="mx-3" href="/Nessus">
                          <i className="fas fa-caret-right "> </i> Nessus Pro
 
                       </a>
-                      <a className="mx-3" href="https://www.invicti.com/">
+                      <a className="mx-3" href="/Alltenable">
                          <i className="fas fa-caret-right "> </i>All Tenable Products
                       </a>
 
  
-                      <a className="mt-3"  href="https://www.coresecurity.com/products/core-impact">
+                      <a className="mt-3"  href="/HelpSystem">
                          HelpSystems
                       </a>
 
-                      <a className="mx-3" href="https://www.invicti.com/">
+                      <a className="mx-3" href="/core-impact">
                          <i className="fas fa-caret-right "> </i> Core Impact
                       </a>
 
-                      <a className="mt-3"  href="https://www.invicti.com/"> Safe Aeon</a>
-                      <a className="mx-3" href="https://www.invicti.com/">
+                      <a className="mt-3"  href="/SafeAen"> Safe Aeon</a>
+                      <a className="mx-3" href="/ManageService">
                          <i className="fas fa-caret-right "> </i> Managed service
 
                       </a>

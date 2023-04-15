@@ -175,7 +175,7 @@ function IndustriusBody() {
         <Service/>
         <Association />
         <Partner />
-        <Information />\
+        <Information />
 
 
 

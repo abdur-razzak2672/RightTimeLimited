@@ -2,7 +2,7 @@ import React, { useState } from 'react'
  import Service from '../../components/Service';
 import Information from '../../components/Information';
 import Benifits from '../../components/Benifits';
-function PartnerBody() {
+function AssociationBody() {
     const [show, setShow] = useState(false);
     const [show1, setShow1] = useState(false);
     const [show2, setShow2] = useState(false);
@@ -16,15 +16,15 @@ function PartnerBody() {
         <div className="container">
             <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="/">Home</a></li>
-                <li>Partner  </li>
+                <li>Association  </li>
             </ul>
-            <h2 className="page-header__title">Partner  </h2>
+            <h2 className="page-header__title">Association  </h2>
         </div>
     </div>
     <section className="  text-center mt-5">
         <div className="container">
             <div className="section-title text-center">
-            <h1 className="text-dark mt-5 text-center">Partner </h1>
+            <h1 className="text-dark mt-5 text-center">Association </h1>
           <p className="text-dark">
             Cyber security is a challenge every day. Therefore, it is crucial to
             continuously support and protect our customers with new, innovative
@@ -46,21 +46,31 @@ function PartnerBody() {
             <div className="container">
             
             <ul className="img-grid mt-5 text-center cardHieght py-4 ">
-             
               <li style={{ width: "180px" }} className="m-2 rounded border ">
-                <a href="/service-partners" className="overlay-container">
+                <a href="/Cca" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/bank&nbfi.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>CCA</p>
+                </a>
+              </li>
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/Pci" className="overlay-container">
                   <img
                     src="assets/images/Industries/ecommerce.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>Service Partner</p>
+                  <p>PCI SSC USA</p>
                 </a>
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a
-                  href="/solution-partners"
+                  href="/WorlBank"
                   className="overlay-container"
                 >
                   <img
@@ -69,10 +79,58 @@ function PartnerBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>Solution Partner</p>
+                  <p>World Bank Group</p>
                 </a>
               </li>
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/Swift" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/healthcare.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>SWIFT</p>
+                </a>
+              </li>
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/Basis" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/pci.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>BASIS</p>
+                </a>
+              </li>
+
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/Ecab">
+                  <img
+                    src="assets/images/Industries/telecommunication.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>E-CAB</p>
+                </a>
+              </li>
+
               
+              <li style={{ width: "180px" }} className="m-2 rounded border ">
+                <a href="/Bcs" className="overlay-container">
+                  <img
+                    src="assets/images/Industries/bpo.png"
+                    alt="Image capture goes here 01"
+                    className="overlay-img rounded-2"
+                    width="60%"
+                  />
+                  <p>BCS</p>
+                </a>
+              </li>
+
+             
             </ul>
 
             </div>
@@ -97,4 +155,4 @@ function PartnerBody() {
   )
 }
 
-export default PartnerBody
+export default AssociationBody
