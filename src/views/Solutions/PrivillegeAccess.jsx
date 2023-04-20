@@ -1,11 +1,11 @@
 import React from 'react'
  import Allpage from '../../components/all-page/Allpage'
 
-function SmartContact() {
+function PrivillegeAccess() {
   return (
-    <Allpage data="Patch Management"/>
+    <Allpage data="Privillege Access"/>
  
   )
 }
 
-export default SmartContact
+export default PrivillegeAccess

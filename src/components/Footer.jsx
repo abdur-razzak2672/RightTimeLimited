@@ -148,7 +148,7 @@ Fresno, CA 93710</p>
                   </li>
 
                   <li className="mt-2">
-                  <a style={{backgroundColor:"#9c2ede"}} href="/contact-us" className="mt-3 p-2  rounded-5">
+                  <a style={{backgroundColor:"#9c2ede",fontSize:"15px"}} href="/contact-us" className="mt-3 p-2  rounded-5">
                     <span className="text-light">Subscrib Now<i className="mx-3 fas fa-arrow-right"></i></span> 
                   </a>
                   </li>
@@ -177,14 +177,13 @@ Fresno, CA 93710</p>
                   
                   
                   <li>
-
                     <a href="/incident">Incident</a>
                   </li>
                  
 
                   <li className="mt-5">
-                  <a style={{backgroundColor:"#9c2ede"}} href="/all-job" className="mt-3 p-2  rounded-5">
-                    <span className="text-light">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span> 
+                  <a style={{backgroundColor:"#9c2ede",fontSize:"15px"}} href="/all-job" className="mt-3 p-2  rounded-5">
+                    <span className="text-light text-center">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span> 
                   </a>
                   </li>
 

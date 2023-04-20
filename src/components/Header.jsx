@@ -809,14 +809,14 @@ function Header({ show, setShow }) {
                       <a className="mt-3" href="/burp-suite">
                         Burp Suite
                       </a>
-                      <a className="mt-3" href="/acunetix">
+                      <a className="mt-3" href="/netsparker">
                         Net Sparker
                       </a>
 
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
-                        href="/netsparker"
+                        href="/Tenable"
                       >
                         Tenable (multiple solutions)
                       </a>
@@ -848,13 +848,13 @@ function Header({ show, setShow }) {
                         Firewall (Especially Next Gen)
                       </a>
                      
-                       <a className="mt-3" href="/smart-contact">
+                       <a className="mt-3" href="/patch-management">
                         Patch management{" "}
                       </a>
                       <a
                         className="mt-3"
                         style={{ lineHeight: "1.2" }}
-                        href="/smart-contact"
+                        href="/privilege-access "
                       >
                         Privilege Access Management (PAM)
                       </a>
@@ -944,16 +944,16 @@ function Header({ show, setShow }) {
                       >
                         Assessment
                       </a>
-                      <a className="mt-3" href="/certified-ethical-hacker">
+                      <a className="mt-3" href="/penetration-testing">
                         Penetration Testing Professional (Custom)
                       </a>
-                      <a className="mt-3" href="/certified-ethical-hacker">
+                      <a className="mt-3" href="/certified-information">
                         Certified Information system Auditor (CISA)
                       </a>
-                      <a className="mt-3" href="/certified-ethical-hacker">
+                      <a className="mt-3" href="/computer-hacking">
                         Computer Hacking Forensic Investigation (Custom)
                       </a>
-                      <a className="mt-3" href="/certified-ethical-hacker">
+                      <a className="mt-3" href="/penetration-testing">
                         Web Application Penetration Testing (Custom)
                       </a>
                       {/* <a className="mt-3"  href="/giac-penetration">
@@ -972,48 +972,48 @@ function Header({ show, setShow }) {
                       >
                         Management
                       </a>
-                      <a className="mt-3" href="/certified-ethical-hacker">
+                      <a className="mt-3" href="/practical-hacker">
                         Practical Ethical Hacking (Custom){" "}
                       </a>
 
-                      <a className="mt-2" href="/certified-incident-handler">
+                      <a className="mt-2" href="/certified-disaster">
                         Disaster Recovery Professional (Custom)
                       </a>
 
-                      <a className="mt-2" href="/certified-soc-analyst">
+                      <a className="mt-2" href="/certified-incident-handler">
                         Incident Handler (Custom)
                       </a>
 
-                      <a className="mt-2" href="/certified-threat">
+                      <a className="mt-2" href="/certified-soc-analyst">
                         Cyber Security Analyst (Custom)
                       </a>
 
                       <a
                         className="mt-2"
-                        href="/certified-information-security"
+                        href="/certified-threat"
                       >
                         Threat Intelligent Analyst (Custom)
                       </a>
 
                       <a
                         className="mt-2"
-                        href="/certified-information-system-security"
+                        href="/certified-information-security"
                       >
                         Certified Information security Manager (CISM)
                       </a>
 
-                      <a className="mt-2" href="/giac-certified-project">
+                      <a className="mt-2" href="/certified-information-system-security">
                         Certified Information System Security Professional
                         (CISSP)
                       </a>
-                      <a className="mt-2" href="/giac-certified-project">
+                      <a className="mt-2" href="/giac-certified-incident">
                         GIAC Certified Incident Handler (GCIH){" "}
                       </a>
                       <a className="mt-2" href="/giac-certified-project">
                         GIAC Certified Project Manager (GCPM){" "}
                       </a>
 
-                      <a className="mt-2" href="/giac-certified-project">
+                      <a className="mt-2" href="/open-source">
                         Open-Source Intelligence (OSINT){" "}
                       </a>
                     </Col>
@@ -1030,27 +1030,27 @@ function Header({ show, setShow }) {
                         Foundation track - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
                         <span className="AnchorHide">
-                          <a href="/service">Basic</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Basic</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Secure Computer User (CSCU-112-12)
                           </a>
 
-                          <a href="/service">Intermediate</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporateservice">Intermediate</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             	Network Security Fundamentals (FNS)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Information Security Fundamentals (FIS)
                           </a>
 
-                          <a href="/service"> Advance</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate"> Advance</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Computer Forensic Fundamentals (CFF)
@@ -1062,33 +1062,33 @@ function Header({ show, setShow }) {
                         Network Defense and Operations - (Corporate)
                         <i className="fas fa-caret-right "></i>
                         <span className="AnchorHide">
-                          <a href="/service">Basic</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Basic</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Network Defense (CND-312-38)
                           </a>
 
-                          <a href="/service">Intermediate</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Intermediate</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Disaster Recovery Professional
                             (EDRP-312-76)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Incident Handler (ECIH-212-89)
                           </a>
 
-                          <a href="/service"> Advance</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate"> Advance</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Securing Windows Infrastructure (CAST-616)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Advance Network Defense (CAST-614)
@@ -1100,34 +1100,34 @@ function Header({ show, setShow }) {
                         Software Security - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
                         <span className="AnchorHide">
-                          <a href="/service">Basic</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Basic</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Secure Computer User (CSCU-112-12)
                           </a>
 
-                          <a href="/service">Intermediate</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Intermediate</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Secure Programmer JAVA
                             (ECSP-312-94){" "}
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Secure Programmer .Net
                             (ECSP-312-93)
                           </a>
 
-                          <a href="/service"> Advance</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate"> Advance</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Advanced Penetration testing (CAST-611)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Securing Windows Infrastructure (CAST-616)
@@ -1139,43 +1139,43 @@ function Header({ show, setShow }) {
                         Vulnerability Assessment & Penetration Testing (VA & PT)
                         - (Corporate) <i className="fas fa-caret-right "></i>
                         <span className="AnchorHide">
-                          <a href="/service">Basic</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Basic</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Ethical hacker (CEH-312-50)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Network Defense (CND-312-38)
                           </a>
 
-                          <a href="/service">Intermediate</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Intermediate</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Licensed Penetration Tester (LPT-412-79)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Security Analyst (ECSA-412-79){" "}
                           </a>
 
-                          <a href="/service"> Advance</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate"> Advance</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Advanced Penetration testing (CAST-611)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Hacking and Hardening Your Corporate Web Application
                             (CAST-613)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Securing Windows Infrastructure (CAST-616)
@@ -1187,32 +1187,32 @@ function Header({ show, setShow }) {
                         Cyber Forensic - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
                         <span className="AnchorHide">
-                          <a href="/service">Basic</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Basic</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Ethical hacker (CEH-312-50)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Network Defense (CND-312-38)
                           </a>
 
-                          <a href="/service">Intermediate</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate">Intermediate</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Incident Handler (ECIH-212-89)
                           </a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Computer Hacking Forensic Investigator (CHFI-312-49)
                           </a>
 
-                          <a href="/service"> Advance</a>
-                          <a href="/" className="mx-3">
+                          <a href="/basic-corporate"> Advance</a>
+                          <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Advanced Mobile Forensics And security (CAST-612)
@@ -1223,7 +1223,7 @@ function Header({ show, setShow }) {
                         Governance - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
                         <span className="AnchorHide">
-                          <a href="/service">
+                          <a href="/basic-corporate">
                             {" "}
                             Certified Chief Information Security Officer (CCISO)
                           </a>
@@ -1607,33 +1607,33 @@ function Header({ show, setShow }) {
                   <Link to="/blogs">	Blogs</Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to="/Case Studies">
+                  <Link style={{ lineHeight: "1.2" }} to="/case-studies">
                  Case Studies
                   </Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to=" Checklists">
+                  <Link style={{ lineHeight: "1.2" }} to="/Checklists">
                   Checklists
                   </Link>
                 </li>
                 <li>
                   <Link
                     style={{ lineHeight: "1.2" }}
-                    to="/  	WhitePapers"
+                    to="/WhitePapers"
                   >
                     	WhitePapers
                   </Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to="/ 	Infographics">
+                  <Link style={{ lineHeight: "1.2" }} to="/Infographics">
                   	Infographics
                   </Link>
                 </li>
                 <li>
-                  <Link to="/ 	DataSheets"> 	DataSheets</Link>
+                  <Link to="/DataSheets"> 	DataSheets</Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-retail"> 	Webinars</Link>
+                  <Link to="/Webinars"> 	Webinars</Link>
                 </li>
                 {/* <li>
                   <Link to="/health-care">Health Care</Link>
