@@ -25,7 +25,7 @@ function ComputerHacking() {
           <div className="col-lg-8">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Assessment</h3>
+                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Computer Hacking Forensic Investigator(CHFI)</h3>
                 <div className="blog-details__content">
                     <p>
                     The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.

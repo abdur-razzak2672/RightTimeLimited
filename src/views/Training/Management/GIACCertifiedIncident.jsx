@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-
-
-function CertifiedInformationSystem() {
+ function GIACCertifiedIncident() {
   const [tabIndex, setTabIndex] = useState(1);
 
   return (
@@ -15,7 +13,7 @@ function CertifiedInformationSystem() {
           <li><a href="{{ url('/services/security-training') }}">Training</a></li>
           <li>Management</li>
         </ul>
-        <h2 className="page-header__title">Certified Information System Security Professional (CISSP)</h2>
+        <h2 className="page-header__title">GIAC Certified Incident</h2>
       </div>
     </div>
     <section className="section-padding--bottom section-padding--top">
@@ -24,7 +22,7 @@ function CertifiedInformationSystem() {
           <div className="col-lg-8">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Information System Security Professional (CISSP)</h3>
+                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">GIACCertifiedIncident</h3>
                 <div className="blog-details__content">
                     <p>
                     The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
@@ -326,4 +324,5 @@ function CertifiedInformationSystem() {
   )
 }
 
-export default CertifiedInformationSystem
+ 
+export default GIACCertifiedIncident

@@ -112,13 +112,13 @@ import SmartContact from "./views/Solutions/SmartContact";
 import TrainingBody from "./views/Training/TrainingBody";
 //Assessment
 import AssessmentBody from "./views/Training/Assesment/AssessmentBody";
-import CertifiedEthicalHacker from "./views/Training/Assesment/CertifiedEthicalHacker";
-import CertifiedPenetration from "./views/Training/Assesment/CertifiedPenetration";
+import PenetrationTesting from "./views/Training/Assesment/PenetrationTesting";
+ import CertifiedPenetration from "./views/Training/Assesment/CertifiedPenetration";
 import ComputerHacking from "./views/Training/Assesment/ComputerHacking";
 import GiacPenetration from "./views/Training/Assesment/GiacPenetration";
 import GiacWebApplication from "./views/Training/Assesment/GiacWebApplication";
-import OpenSource from "./views/Training/Assesment/OpenSource";
-//Management
+import CertifiedInformation from "./views/Training/Assesment/CertifiedInformation";
+ //Management
 import ManagementBody from "./views/Training/Management/ManagementBody";
 import CertifiedDisaster from "./views/Training/Management/CertifiedDisaster";
 import CertifiedIncidentHandler from "./views/Training/Management/CertifiedIncidentHandler";
@@ -152,9 +152,9 @@ import Footer from "./components/Footer";
 //Footer Section Imported End
 
 // blog Section Imported Start
- import BlogDetails from "./views/blogs/BlogDetails";
+ import BlogDetails from "./views/resource/BlogDetails";
 import React,{useState} from 'react'
-import blogs from "./views/blogs/Blogs";
+import blogs from "./views/resource/Blogs";
 
 // Team section imported
 import Team from "./views/Company/team/Team";
@@ -217,6 +217,20 @@ import Industry4 from "./views/Services/Consultation/Industry4.0";
 import LeanConsultation from "./views/Services/Consultation/LeanConsultation";
 import SixSigma from "./views/Services/Consultation/SixSigma";
 import ZeroTrust from "./views/Services/Consultation/ZeroTrust";
+import PrivillegeAccess from "./views/Solutions/PrivillegeAccess";
+import GIACCertifiedIncident from "./views/Training/Management/GIACCertifiedIncident";
+import PracticalEthicalHacker from "./views/Training/Management/PracticalEthicalHacker";
+import OpenSource from "./views/Training/Management/OpenSource";
+
+
+import CaseStudies from "./views/resource/CaseStudies";
+import CheckList from "./views/resource/CheckList";
+ import Webinar from "./views/resource/Webinars";
+import DataSheet from "./views/resource/DataSheet";
+import WhitePapers from "./views/resource/WhitePapers";
+import Infographics from "./views/resource/Infographics";
+
+
  
 
  
@@ -526,10 +540,6 @@ Fresno, CA 93710   </li>
         <Route path="/soc-as-service" component={SocAsService} exact />
         <Route path="/va-as-service" component={VaAsService} exact />
 
-
-
-
-
         {/*Solution Section Route Declaration Start */}
         <Route path="/solutions" component={SolutionBody} exact />
         <Route path="/acunetix" component={Acunetix} exact />
@@ -539,19 +549,20 @@ Fresno, CA 93710   </li>
         <Route path="/firewall" component={FireWall} exact />
         <Route path="/netsparker" component={NetSparker} exact />
         <Route path="/siem" component={Siem} exact />
-        <Route path="/smart-contact" component={SmartContact} exact />
+        <Route path="/patch-management" component={SmartContact} exact />
+        <Route path="/privilege-access" component={PrivillegeAccess} exact />
         {/*Solution Section Route Declaration End */}
 
         {/*Training Section Route Declaration Start */}
         {/* Assessment */}
         <Route path="/training" component={TrainingBody} exact />
         <Route path="/assesment" component={AssessmentBody} exact />
-        <Route path="/certified-ethical-hacker" component={CertifiedEthicalHacker} exact />
+        <Route path="/penetration-testing" component={PenetrationTesting} exact />
         <Route path="/certified-penetration" component={CertifiedPenetration} exact />
         <Route path="/computer-hacking" component={ComputerHacking} exact />
         <Route path="/giac-penetration" component={GiacPenetration} exact />
         <Route path="/giac-web-application" component={GiacWebApplication} exact />
-        <Route path="/open-source" component={OpenSource} exact />
+        <Route path="/certified-information" component={CertifiedInformation} exact />
         {/*Management */}
         <Route path="/management" component={ManagementBody} exact />
         <Route path="/certified-disaster" component={CertifiedDisaster} exact />
@@ -562,6 +573,11 @@ Fresno, CA 93710   </li>
         <Route path="/certified-soc-analyst" component={CertifiedSocAnalyst} exact />
         <Route path="/certified-threat" component={CertifiedThreat} exact />
         <Route path="/giac-certified-project" component={GiacCertifiedProject} exact />
+        <Route path="/giac-certified-incident" component={GIACCertifiedIncident} exact />
+
+        <Route path="/practical-hacker" component={PracticalEthicalHacker} exact />
+        <Route path="/open-source" component={OpenSource} exact />
+
         {/*Customized */}
         <Route path="/customized" component={CustomizedBody} exact />
         <Route path="/advance-corporate" component={AdvanceCorporate} exact />
@@ -585,7 +601,15 @@ Fresno, CA 93710   </li>
 
         {/*Blog Section Route Declaration start */}
         <Route path="/blogs" component={blogs} exact />
-        <Route path="/blog-details" component={BlogDetails} exact />
+        <Route path="/blogs" component={BlogDetails} exact />
+        <Route path="/case-studies" component={CaseStudies} exact />
+        <Route path="/CheckLists" component={CheckList} exact />
+        <Route path="/DataSheets" component={DataSheet} exact />
+        <Route path="/Webinars" component={Webinar} exact />
+        <Route path="/Infographics" component={Infographics} exact />
+        <Route path="/WhitePapers" component={WhitePapers} exact />
+ 
+
 
         {/* Team section route declaration start */}
         <Route path="/team" component={Team} exact />

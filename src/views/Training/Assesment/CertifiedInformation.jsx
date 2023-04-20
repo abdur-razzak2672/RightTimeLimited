@@ -1,30 +1,30 @@
 import React, { useState } from 'react'
 
-
-function CertifiedInformationSystem() {
+function CertifiedInformation() {
   const [tabIndex, setTabIndex] = useState(1);
 
   return (
     <div>
     <div className="page-header">
-      <div className="page-header__bg"
-        style={{ backgroundImage: `url('/assets/images/background/page-header-bg-1-1.jpg')` }}></div>
-      <div className="container">
-        <ul className="thm-breadcrumb list-unstyled">
-          <li><a href="{{ url('/') }}">Home</a></li>
-          <li><a href="{{ url('/services/security-training') }}">Training</a></li>
-          <li>Management</li>
-        </ul>
-        <h2 className="page-header__title">Certified Information System Security Professional (CISSP)</h2>
-      </div>
-    </div>
-    <section className="section-padding--bottom section-padding--top">
+  <div className="page-header__bg"
+       style={{ backgroundImage: `url('frontend/assets/images/background/osint.png')` }}></div>
+  <div className="container">
+  <ul className="thm-breadcrumb list-unstyled">
+                <li><a href="{{ url('/') }}">Home</a></li>
+                <li><a href="{{ url('/services/security-training') }}">Security Training</a></li>
+                <li><a href="{{ url('/services/security-training/assessment') }}">Assessment</a></li>
+                <li>Certified Information system Auditor (CISA)</li>
+            </ul>
+            <h2 className="page-header__title">Certified Information system Auditor (CISA)</h2>
+  </div> 
+</div> 
+<section className="section-padding--bottom section-padding--top">
         <div className="container">
           <div className="row">
           <div className="col-lg-8">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Information System Security Professional (CISSP)</h3>
+                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Information system Auditor (CISA)</h3>
                 <div className="blog-details__content">
                     <p>
                     The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
@@ -326,4 +326,4 @@ function CertifiedInformationSystem() {
   )
 }
 
-export default CertifiedInformationSystem
+export default CertifiedInformation
