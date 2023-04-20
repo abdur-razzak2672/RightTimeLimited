@@ -492,6 +492,8 @@ Fresno, CA 93710   </li>
         <Route path="/Lean-Consultation" component={LeanConsultation} exact />
         <Route path="/Six-sigma" component={SixSigma} exact />
         <Route path="/industry-4.0" component={Industry4} exact />
+        <Route path="/zero-trust" component={ZeroTrust} exact />
+
 
 
 
