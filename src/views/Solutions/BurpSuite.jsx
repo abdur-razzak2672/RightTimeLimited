@@ -4,7 +4,7 @@ import Allpage from '../../components/all-page/Allpage'
 
 function BurpSuite() {
   return (
-    <Allpage data="Burpe Suite"/>
+    <Allpage data="Burp Suite (web PT)"/>
     
   )
 }

@@ -12,9 +12,9 @@ function InformationSecuritySpecial() {
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/services') }}">Services</a></li>
             <li><a href="{{ url('/services/consultation') }}">Consultation</a></li>
-            <li>Information Security-Specially Cyber Security Consulting</li>
+            <li>Information Security & Cyber Security</li>
           </ul>
-          <h2 className="page-header__title">Information Security Consulting</h2>
+          <h2 className="page-header__title">Information Security & Cyber Security</h2>
         </div>
       </div>
       <div className=' text-center service-topbar'>

@@ -229,6 +229,8 @@ import CheckList from "./views/resource/CheckList";
 import DataSheet from "./views/resource/DataSheet";
 import WhitePapers from "./views/resource/WhitePapers";
 import Infographics from "./views/resource/Infographics";
+import SecuirityAssessment from "./views/Solutions/SecuirityAssessment";
+import SecuirityManagement from "./views/Solutions/SecuirityManagement";
 
 
  
@@ -553,6 +555,12 @@ Fresno, CA 93710   </li>
         <Route path="/siem" component={Siem} exact />
         <Route path="/patch-management" component={SmartContact} exact />
         <Route path="/privilege-access" component={PrivillegeAccess} exact />
+        <Route path="/secuirity-assessment" component={SecuirityAssessment} exact />
+        <Route path="/secuirity-management" component={SecuirityManagement} exact />
+
+
+
+
         {/*Solution Section Route Declaration End */}
 
         {/*Training Section Route Declaration Start */}

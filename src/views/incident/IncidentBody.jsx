@@ -49,7 +49,7 @@ function IncidentBody() {
         </div>
       </section>
 
-      <section style={{ backgroundColor: "#12062c" }} className="mt-5  ">
+      {/* <section style={{ backgroundColor: "#12062c" }} className="mt-5  ">
         <div className="d-flex justify-content-center p-5">
           <div className="row">
             <div className="col-md-6 text-light">
@@ -66,7 +66,10 @@ function IncidentBody() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <div>
+        <img width="100%" src="/assets/images/incident/incident.jpg" alt="" />
+      </div>
 
       <section className="d-flex justify-content-center">
         <div>
@@ -86,17 +89,18 @@ function IncidentBody() {
           <p>2. Fastest possible detection and isolation of the attacker</p>
           <p>
             3.Comprehensive damage analysis by security experts from our{" "}
-            <a href="/cyber-defense-center">Right Time Limited</a>
+            <a className="text-warning" href="/cyber-defense-center">*Right Time Limited</a>
           </p>
           <p>
             4. Compliance with the obligation to report a security incident
             within 72 hours according to GDPR
           </p>
           <a
-            href="#"
+            href="cyber-defense-center"
             className="mt-1 my-5 thm-btn cta-two__btn rounded-5 text-center"
+            style={{float:"right"}}
           >
-            <span>Incident Response Retainer</span>
+            <span>Cyber defense Center</span>
           </a>{" "}
         </div>
       </section>

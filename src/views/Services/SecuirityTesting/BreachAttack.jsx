@@ -11,10 +11,10 @@ function BreachAttack() {
     <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('/services') }}">Services</a></li>
-                <li><a href="{{ url('/services/security-assessment-testing') }}">Breach Attack</a></li>
+                <li><a href="{{ url('/services/security-assessment-testing') }}">Breach Attack Simulation</a></li>
                 <li>Brea chAttack</li>
             </ul>
-            <h2 className="page-header__title">Breach Attack</h2>
+            <h2 className="page-header__title">Breach Attack Simulation</h2>
     </div> 
 </div> 
 <div className=' text-center service-topbar'>

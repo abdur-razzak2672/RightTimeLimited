@@ -11,7 +11,7 @@ function CodeReview() {
     <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('/services') }}">Services</a></li>
-                <li><a href="{{ url('/services/security-assessment-testing') }}">Security Assessment & Testing</a></li>
+                <li><a href="{{ url('/services/security-assessment-testing') }}">Code Review</a></li>
                 <li>Code Review</li>
             </ul>
             <h2 className="page-header__title">Code Review</h2>

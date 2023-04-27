@@ -3,7 +3,7 @@ import React from 'react'
 
 function PrivillegeAccess() {
   return (
-    <Allpage data="Privillege Access"/>
+    <Allpage data="PAM (Privilege Access Management)"/>
  
   )
 }

@@ -166,7 +166,7 @@ function Header({ show, setShow }) {
 
 
 
-                      <a className="mt-3"  href="/Tenable">Tenable</a>
+                      <a className="mt-3"  href="/Tenable">Tenable (VA Management)”</a>
                       <a className="mx-3" href="/Nessus">
                          <i className="fas fa-caret-right "> </i> Nessus Pro
 
@@ -801,16 +801,15 @@ function Header({ show, setShow }) {
                           color: "orange",
                           lineHeight: "1.2",
                         }}
-                        href="/siem"
+                        href="/secuirity-assessment"
                       >
                         Security assessment (VA & PT) Tools
                       </a>
 
                       <a className="mt-3" href="/burp-suite">
-                        Burp Suite
-                      </a>
+                      Burp Suite (web PT)                  </a>
                       <a className="mt-3" href="/netsparker">
-                        Net Sparker
+                      Net Sparker (web assessment)
                       </a>
 
                       <a
@@ -822,11 +821,11 @@ function Header({ show, setShow }) {
                       </a>
 
                       <a className="mt-3" href="/acunetix">
-                        Acunetix
+                      Acunetix (web VA & PT)
                       </a>
 
                       <a className="mt-3" href="/core-impact">
-                        Core Impact
+                      Core Impact (PT) 
                       </a>
                     </Col>
 
@@ -837,7 +836,7 @@ function Header({ show, setShow }) {
                           color: "orange",
                           lineHeight: "1.2",
                         }}
-                        href="/association-partners"
+                        href="/secuirity-management"
                       >
                         Cyber Security Management & Visibility solutions
                       </a>
@@ -845,7 +844,7 @@ function Header({ show, setShow }) {
                         SIEM
                       </a>
                       <a className="mt-3" href="/firewall">
-                        Firewall (Especially Next Gen)
+                        Firewall 
                       </a>
                      
                        <a className="mt-3" href="/patch-management">
@@ -856,7 +855,7 @@ function Header({ show, setShow }) {
                         style={{ lineHeight: "1.2" }}
                         href="/privilege-access "
                       >
-                        Privilege Access Management (PAM)
+                         PAM
                       </a>
                     </Col>
                   </Row>
@@ -870,7 +869,7 @@ function Header({ show, setShow }) {
               </Link>
               <ul>
                 <li>
-                  <Link to="/service-partners">Burp Suite</Link>
+                  <Link to="/service-partners">Burp Suite (web PT)</Link>
                   <ul>
                     <li>
                       <Link to="https://www.eccouncil.org/">Acunetix</Link>
@@ -885,7 +884,7 @@ function Header({ show, setShow }) {
                     </li>
                     <li>
                       <Link to="https://arscert.com/certification/">
-                        Core Impact
+                      Core Impact (PT) 
                       </Link>
                     </li>
                   </ul>
@@ -1007,7 +1006,8 @@ function Header({ show, setShow }) {
                         (CISSP)
                       </a>
                       <a className="mt-2" href="/giac-certified-incident">
-                        GIAC Certified Incident Handler (GCIH){" "}
+                      GIAC Certified Incident Handler
+(GCIH)
                       </a>
                       <a className="mt-2" href="/giac-certified-project">
                         GIAC Certified Project Manager (GCPM){" "}
