@@ -3,7 +3,7 @@ import Allpage from '../../../components/all-page/Allpage'
 
 function PressRelased() {
   return (
-    <Allpage data="Press-Released"/>
+    <Allpage data="Press Release"/>
    )
 }
 

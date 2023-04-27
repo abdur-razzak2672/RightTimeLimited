@@ -4,7 +4,7 @@ import Allpage from '../../components/all-page/Allpage'
 
 function CoreImpact() {
   return (
-    <Allpage data="Core Impact"/>
+    <Allpage data="Core Impact (PT)"/>
   )
 }
 

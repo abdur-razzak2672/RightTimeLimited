@@ -3,7 +3,7 @@ import Allpage from '../../../components/all-page/Allpage'
 
 function Events() {
   return (
-    <Allpage data="Events"/>
+    <Allpage data="News & events"/>
 
    )
 }

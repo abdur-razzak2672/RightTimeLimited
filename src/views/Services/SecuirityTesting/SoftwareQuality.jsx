@@ -12,7 +12,7 @@ function SoftwareQuality() {
            <li><a href="{{ url('/services') }}">Software Testing</a></li>
            <li>Software Quality Assurance & Testing</li>
        </ul>
-       <h2 className="page-header__title">Security Assessment & Testing</h2> 
+       <h2 className="page-header__title">Software Quality Assurance & Testing</h2> 
    </div> 
 </div> 
 <div className=' text-center service-topbar'>

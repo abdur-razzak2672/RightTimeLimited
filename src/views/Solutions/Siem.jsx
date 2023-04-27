@@ -13,7 +13,7 @@ function Siem() {
               <li><a href="{{ url('/services') }}">Services</a></li>
               <li>Solutions</li>
           </ul>
-          <h2 className="page-header__title">Siem</h2>
+          <h2 className="page-header__title">SIEM (Security information and event management)</h2>
        </div>
     </div>
 
@@ -23,7 +23,7 @@ function Siem() {
         <div className="col-lg-8">
 
 
-<h3 className="blog-card-one__title blog-details__title">Siem</h3>
+<h3 className="blog-card-one__title blog-details__title">SIEM (Security information and event management)</h3>
 <div className="blog-details__content">
   <p>Our solutions are designed to help you achieve your business goals. We provide a wide range of solutions that are tailored to meet your business needs. We have a team of experts who are ready to help you achieve your business goals.</p>
 </div>

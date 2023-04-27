@@ -11,9 +11,9 @@ function ZeroTrust() {
           <ul className="thm-breadcrumb list-unstyled">
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/services') }}">Services</a></li>
-            <li>Zero Trust</li>
+            <li>Zero Trust Architecture</li>
           </ul>
-          <h2 className="page-header__title">Zero Trust</h2>
+          <h2 className="page-header__title">Zero Trust Architecture</h2>
         </div>
 
       </div>

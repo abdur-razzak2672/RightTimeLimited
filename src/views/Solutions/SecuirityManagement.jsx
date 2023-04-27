@@ -2,10 +2,10 @@ import React from 'react'
 import SolutionNav from './SolutionNav'
 import Allpage from '../../components/all-page/Allpage'
 
-function NetSparker() {
+function SecuirityManagement() {
   return (
-    <Allpage  data="Net Sparker (web assessment)"/>
+   <Allpage data="Cyber Security Management & Visibility solutions"/>
   )
 }
 
-export default NetSparker
+export default SecuirityManagement
