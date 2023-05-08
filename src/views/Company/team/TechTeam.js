@@ -167,41 +167,7 @@ function TechTeam() {
                     </div>
                   </article>
                 </div>
-                <div className="grid-item">
-                  <article className="material-card Purple">
-                  <a onClick={handleShow2} href='javascript:void(0)'>
-                    <h2 className="h21 text-light">
-                      <span>Md. Mahmudul Hasan</span>
-                      <strong>
-                        <i className="fa fa-fw fa-star"></i>
-                        SECURITY ANALYST
-                      </strong>
-                    </h2>
-                    </a>
-                    <div className="mc-content" style={{height:"320px"}} >
-                      <div className="img-container">
-                      <img
-                         className = "img-responsive"
-                          src= "/assets/images/team/Photdo1.jpeg"
-                          alt=""
-                        />
-                         
-                      </div>
-                      <div className="mc-description mt-3">
-                      SECURITY ANALYST
-                      </div>
-                    </div>
-                    <a className="mc-btn-action">
-                      <i className="fa fa-bars"></i>
-                    </a>
-                      <div className="mc-footer">
-                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
-                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
-                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
-                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
-                    </div>
-                  </article>
-                </div>
+                
 
                 <div className="grid-item ">
                   <article className="material-card Deep-Purple">
@@ -240,6 +206,9 @@ function TechTeam() {
 
 
 
+                
+
+
                 <div className="grid-item ">
                   <article className="material-card Deep-Purple">
                   <a onClick={handleShow6} href='javascript:void(0)'>
@@ -274,6 +243,44 @@ function TechTeam() {
                     </div>
                   </article>
                 </div>
+
+
+                <div className="grid-item">
+                  <article className="material-card Purple">
+                  <a onClick={handleShow2} href='javascript:void(0)'>
+                    <h2 className="h21 text-light">
+                      <span>Rayhan Kanak</span>
+                      <strong>
+                        <i className="fa fa-fw fa-star"></i>
+                        SECURITY ANALYST
+                      </strong>
+                    </h2>
+                    </a>
+                    <div className="mc-content" style={{height:"320px"}} >
+                      <div className="img-container">
+                      <img
+                         className = "img-responsive"
+                          src= "/assets/images/team/Photdo1.jpeg"
+                          alt=""
+                        />
+                         
+                      </div>
+                      <div className="mc-description mt-3">
+                      SECURITY ANALYST
+                      </div>
+                    </div>
+                    <a className="mc-btn-action">
+                      <i className="fa fa-bars"></i>
+                    </a>
+                      <div className="mc-footer">
+                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
+                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
+                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
+                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
+                    </div>
+                  </article>
+                </div>
+
 
 
                 <div className="grid-item ">
@@ -467,13 +474,14 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
 
       <Modal   size="lg" show={show2} onHide={handleClose2}>
         <Modal.Body  className=" rounded-3">
-          <h5 className='teamTitle'>MD. MAHMUDUL HASAN</h5>
+          <h5 className='teamTitle'>Rayhan Kanak</h5>
            <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
 
            <Row>
             <Col md={8}>
               <p className='teamDetails'>
-              Mahmud is a Network professional 10+ years’ experience in Vendor, Telecommunication, IT Network and Security and ISP. Expertise in IT/Data network planning, design, implementation and troubleshoot. A remarkable experience of working in IP/Data/MPBN/IT Network Operation, design, planning and implementation in different projects. He joined Right Time Limited as Senior Security Analyst.</p> 
+              I am dedicated to protecting my clients' systems and data from potential threats. Having gained over 4 years of experience in this field, I have honed my abilities in Vulnerability Assessment & Penetration Testing (VA & PT), SWIFT CSP Assessment and the detection and response to security incidents.</p> 
+            <p>Working closely with senior analysts in my current position, I assist in designing and executing efficient security measures to avert cyber-attacks. My skillset includes proficiency in a range of security tools and technologies such as Nessus, Nmap, and Wireshark. Additionally, I keep myself updated with the latest industry trends and security threats.</p>
             </Col>
 
             <Col md={4}>
@@ -485,10 +493,9 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
             />
 
             </Col>
-            <p>Mahmud participated in various workshop, seminar and events nationally and internationally. He became First Runner-Up of the Cisco SAARC NetRiders Skills Competition, 2008 in Bangalore, India. Holds Vendor Certification on CCNP, CCIP, CCNA Security, ITIL Foundation and RHCE. Did Professional Training on CISSP, CEHv9, CCNP, CCNA, RHCE, SCSA and ITIL Foundation. </p>
-            </Row>
+            <p>I am dedicated to continually improving my knowledge and abilities. I hold certifications in SWIFT Cyber Security Assessment & Consultation and Certified Ethical Hacker (CEH). Besides, pursuing further official recognition in CompTIA Security+ and IS/IT Security Assessment to strengthen my expertise. I thrive in a challenging, fast-paced environment and actively seek out new opportunities to contribute to my team's and customers' success.</p>
 
-
+</Row>
 
            
           
@@ -543,8 +550,8 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>SECURITY ANALYST</p>
-                
+              <p className='teamDetails'>As an Information System Security Analyst at "Right Time Limited" Information Security Services, I am dedicated to protecting my clients' systems and data from cyber threats. With more than 3 years of experience, I have gained expertise in conducting vulnerability assessments, analyzing network traffic, and responding to security incidents.</p>
+                <p>Collaborating with senior analysts, I play a crucial role in developing and implementing effective security measures that mitigate risks and ensure compliance with industry standards. I am proficient in a range of security tools and technologies, such as Nessus, Nmap, and Wireshark, and keep myself updated on the latest trends and threats in the industry.</p>
             </Col>
 
             <Col md={4}>
@@ -555,6 +562,9 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
             />
 
             </Col>
+
+            <p>In my quest for professional growth, I am pursuing relevant certifications such as ISMS, PCI DSS, LPT, OSCP, and Practical Hacking (ethical) to enhance my knowledge and skills. I thrive in fast-paced, challenging environments and am always eager to take on new responsibilities to contribute to the success of my team and clients. My passion for information security and commitment to continuous learning make me a valuable asset to any organization.</p>
+            
         
            </Row>
 
@@ -619,8 +629,10 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>SECURITY ANALYST</p>
-             
+              <p className='teamDetails'>
+As a Security Analyst at “Right Time Limited” Information Security Services, I am passionate about safeguarding my clients' systems and data. With 3+ years of experience in the field, I have developed expertise in conducting vulnerability assessments, analyzing network traffic, and identifying and responding to security incidents.
+</p>
+             <p>In my current role, I work closely with senior analysts to develop and implement effective security measures to prevent cyber threats. I am proficient in a variety of security tools and technologies, including Nessus, Nmap, and Wireshark, and stay up-to-date with the latest trends and threats in the industry.</p>
               
             </Col>
 
@@ -633,6 +645,7 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
             />
 
             </Col>
+            <p>I am committed to continuous learning and development, and beside being SWIFT Cyber Security professional, pursuing relevant certifications such as CompTIA Security+ and Practical Hacking (ethical) to further enhance my skills and knowledge. I thrive in a fast-paced, challenging environment and am always eager to take on new responsibilities and contribute to the success of my team and clients.</p>
         
            </Row>
 
@@ -652,9 +665,9 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>SECURITY ANALYST</p>
+              <p className='teamDetails'>As a Junior ICT Security Analyst at Right Time Limited, sadrin Rahman Bhuiyan Piya has a passion for ensuring the confidentiality, integrity, and availability of its clients' systems and data. With 4 years+ of experience in the field, she has developed expertise in threat analysis, vulnerability assessment, and incident response.</p>
              
-              
+              <p>In her current role, she works closely with Senior Analysts to identify potential security risks and implement appropriate controls to prevent or mitigate attacks. She has experience in monitoring and analyzing network traffic, detecting and responding to security incidents, and conducting security assessments and audits.</p>
             </Col>
 
             <Col md={4}>
@@ -666,6 +679,7 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
             />
 
             </Col>
+            <p>She is proficient in a variety of security tools and technologies, including Core Impact, Tenable, Burp Suite, using custom code/script, and stay up-to-date with the latest trends and threats in the industry. She is also committed to continuous learning and development, and is working towards obtaining relevant certifications such as cyber–Security Official Recognition i.e. SWIFT & PCI Professional.</p>
         
            </Row>
 

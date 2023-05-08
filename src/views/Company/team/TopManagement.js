@@ -335,8 +335,8 @@ function TopManagement() {
            <Row>
             <Col md={8}>
               <p className='teamDetails'>
-              Chief Information Officer (CIO)   </p>
-               
+              As an experienced ICT Cyber Security Professional with over 15 years of experience, I am dedicated to developing effective cyber security strategies that minimize risks and ensure compliance with industry standards. Currently serving as CIO of “Right Time Limited”, the leading ICT Security firm, I have a proven track record of implementing successful cyber security solutions that protect organizations from cyber threats.  </p>
+               <p>My expertise spans across various aspects of cyber security, including network security, vulnerability assessment, penetration testing, and incident response. I have led teams of cyber security experts and provided guidance to executive leadership on complex security issues, ensuring business operations are not disrupted by cyber-attacks.</p>
             </Col>
 
             <Col md={4}>
@@ -347,7 +347,8 @@ function TopManagement() {
             />
 
             </Col>
-           
+           <p>In addition to my technical skills, I am also a thought leader in the industry. I regularly speak at conferences and contribute to leading publications on topics related to cyber security. My key certifications include CISA, PMP, CEH, MCSE, MCDBA, and MCP. I hold a master's degree in Business Administration with PGD in ICT.</p>
+           <p>With 12 years of experience in market operations and good administrative and managerial duties, I have a solid foundation in managing complex projects and leading teams. I am proficient in developing comprehensive technical documentation covering regulatory, legal, and standard bodies. Additionally, I have over 10 years of experience in Management Information Systems (MIS), specializing in network analysis, design, implementation, and data migration in heterogeneous operating environments.</p>
            </Row>
 
 
@@ -404,7 +405,7 @@ function TopManagement() {
            <Row>
             <Col md={8}>
               <p className='teamDetails'>
-              Shamim is responsible for developing, managing, and executing our top-tier Security Consultation and Security Assessment service for our clients. He is also in charge of the Right Time Limited IT Security and IT-GRC Platform and other related product lines.                 </p>
+              Mamun has over 18 years of experience in various ICT roles across multiple organizations. His successful track record includes leading ICT projects in software, web, and mobile applications, as well as carrying out information systems audits, security assessments, and software quality assurance in various industries. In addition, he has extensive experience in developing enforceable policies, including information security policies, business continuity policies, and technical documents. He has collaborated on local and international projects with teams from the Czech Republic, Norway, Japan, the Middle East, and the USA. He earned a lot of real-world experience from working with Leadership, Management, and Operations teams to understand business challenges, goals, and execution issues.        </p>
  
             </Col>
 
@@ -416,8 +417,8 @@ function TopManagement() {
             />
 
             </Col>
-            <p>He has wide-range of experience both locally and internationally throughout the whole technology stack, including product architecture, design, development, and operations. He plays a significant role to the development of Solutions as well as to the management of IT operations, customer service (particularly in the field of cyber security) for Right Time Limited. He has around 15+ years of experience taken as a whole, 10 years of which are in Security Assessment [mostly Vulnerability Assessment & Penetration Testing (VA & PT)].</p>
-            <p>He has a Bachelor’s degree in Computer Science and engineering (CSE). Besides, he is a CISA, MCP, Acunetix, and SWIFT certified professional.</p>
+            <p>Mamun is a visionary, and divergent thinker. He is a CISA (Certified Information Systems Auditor), SWIFT Certified Professional, ACP (Acunetix Certified Professional), and MCP (Microsoft Certified Professional) certified individual. He has professional training in information security, audit & forensics, and Cisco networking.</p>
+            <p>Mamun holds a Bachelor's degree in Computer Science & Engineering and is particularly interested in Operations and Management, Information Security & Forensics, IT/IS auditing, and ICT Development. He is committed to keeping abreast of the most recent developments in the industry and is constantly seeking opportunities to work with other experts.”</p>
            </Row>
 
 
