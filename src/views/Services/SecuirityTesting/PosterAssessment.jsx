@@ -53,7 +53,7 @@ function PosterAssessment() {
 
           <div className='d-flex justify-content-center '>
             <div style={{width:"50%"}}>
-            <Carousel>
+            <Carousel indicators={false}>
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
@@ -137,7 +137,7 @@ function PosterAssessment() {
 
           <div className='d-flex justify-content-center mt-5 '>
             <div style={{width:"50%"}}>
-            <Carousel>
+            <Carousel indicators={false}>
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
