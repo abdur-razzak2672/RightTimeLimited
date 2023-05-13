@@ -335,8 +335,8 @@ function TopManagement() {
            <Row>
             <Col md={8}>
               <p className='teamDetails'>
-              As an experienced ICT Cyber Security Professional with over 15 years of experience, I am dedicated to developing effective cyber security strategies that minimize risks and ensure compliance with industry standards. Currently serving as CIO of “Right Time Limited”, the leading ICT Security firm, I have a proven track record of implementing successful cyber security solutions that protect organizations from cyber threats.  </p>
-               <p>My expertise spans across various aspects of cyber security, including network security, vulnerability assessment, penetration testing, and incident response. I have led teams of cyber security experts and provided guidance to executive leadership on complex security issues, ensuring business operations are not disrupted by cyber-attacks.</p>
+              Rokanuzzaman is  an experienced ICT Cyber Security Professional with over 15 years of experience. He is  dedicated to developing effective cyber security strategies that minimize risks and ensure compliance with industry standards. Currently, he is serving as CIO of “Right Time Limited”, the leading ICT Security firm. He   has a proven track record of implementing successful cyber security solutions that protect organizations from cyber threats.  </p>
+               <p>His expertise spans across various aspects of cyber security, including network security, vulnerability assessment, penetration testing, and incident response. He   has led teams of cyber security experts and provided guidance to executive leadership on complex security issues and ensureduninterrupted business operations. </p>
             </Col>
 
             <Col md={4}>
@@ -347,8 +347,8 @@ function TopManagement() {
             />
 
             </Col>
-           <p>In addition to my technical skills, I am also a thought leader in the industry. I regularly speak at conferences and contribute to leading publications on topics related to cyber security. My key certifications include CISA, PMP, CEH, MCSE, MCDBA, and MCP. I hold a master's degree in Business Administration with PGD in ICT.</p>
-           <p>With 12 years of experience in market operations and good administrative and managerial duties, I have a solid foundation in managing complex projects and leading teams. I am proficient in developing comprehensive technical documentation covering regulatory, legal, and standard bodies. Additionally, I have over 10 years of experience in Management Information Systems (MIS), specializing in network analysis, design, implementation, and data migration in heterogeneous operating environments.</p>
+           <p>In addition to his technical skills, he is also a thought leader in the industry. He regularly speaks at conferences and contributes to leading publications on topics related to cyber security.  His key certifications include CISA, PMP, CEH, MCSE, MCDBA, and MCP. He holds a master's degree in Business Administration with PGD in ICT.</p>
+           <p>With 12 years of experience in market operations and good administrative and managerial duties, he has a solid foundation in managing complex projects and leading teams. He is also proficient in developing comprehensive technical documentation covering regulatory, legal, and standard bodies. Additionally, he has over 10 years of experience in Management Information Systems (MIS), specializing in network analysis, design, implementation, and data migration in heterogeneous operating environments.</p>
            </Row>
 
 

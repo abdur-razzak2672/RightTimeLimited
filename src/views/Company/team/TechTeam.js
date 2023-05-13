@@ -480,10 +480,8 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>
-              I am dedicated to protecting my clients' systems and data from potential threats. Having gained over 4 years of experience in this field, I have honed my abilities in Vulnerability Assessment & Penetration Testing (VA & PT), SWIFT CSP Assessment and the detection and response to security incidents.</p> 
-            <p>Working closely with senior analysts in my current position, I assist in designing and executing efficient security measures to avert cyber-attacks. My skillset includes proficiency in a range of security tools and technologies such as Nessus, Nmap, and Wireshark. Additionally, I keep myself updated with the latest industry trends and security threats.</p>
-            </Col>
+              <p className='teamDetails'>Rayhan is a dedicated individual who is engaged in protecting our clients' systems and data from potential threats. Having gained over 4 years of experience in the  field of cyber security, he has honed his abilities in Vulnerability Assessment & Penetration Testing (VA & PT), SWIFT CSP Assessment, and the detection and response to security incidents.</p>
+<p>Working closely with senior analysts in his current position, he assists in designing and executing efficient security measures to avert cyber-attacks. His skillset includes proficiency in a range of security tools and technologies such as Nessus, Nmap, and Wireshark. Additionally, he kept himself updated with the latest industry trends and security threats.</p>            </Col>
 
             <Col md={4}>
             <img
@@ -494,8 +492,7 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
             />
 
             </Col>
-            <p>I am dedicated to continually improving my knowledge and abilities. I hold certifications in SWIFT Cyber Security Assessment & Consultation and Certified Ethical Hacker (CEH). Besides, pursuing further official recognition in CompTIA Security+ and IS/IT Security Assessment to strengthen my expertise. I thrive in a challenging, fast-paced environment and actively seek out new opportunities to contribute to my team's and customers' success.</p>
-
+ <p>He is dedicated to continually improving his knowledge and abilities. He holds certifications in SWIFT Cyber Security Assessment & Consultation and Certified Ethical Hacker (CEH). Besides, he is pursuing further official recognition in CompTIA Security+ and IS/IT Security Assessment to strengthen his expertise. He thrives in a challenging, fast-paced environment and actively seeks out new opportunities to contribute to his team's and customers' success.</p>
 </Row>
 
            
@@ -551,8 +548,8 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>As an Information System Security Analyst at "Right Time Limited" Information Security Services, I am dedicated to protecting my clients' systems and data from cyber threats. With more than 3 years of experience, I have gained expertise in conducting vulnerability assessments, analyzing network traffic, and responding to security incidents.</p>
-                <p>Collaborating with senior analysts, I play a crucial role in developing and implementing effective security measures that mitigate risks and ensure compliance with industry standards. I am proficient in a range of security tools and technologies, such as Nessus, Nmap, and Wireshark, and keep myself updated on the latest trends and threats in the industry.</p>
+              <p className='teamDetails'>As an Information System Security Analyst at "Right Time Limited" Information Security Services,  he  is dedicated to protecting our clients' systems and data from cyber threats. With more than 3 years of experience, he has gained expertise in conducting vulnerability assessments, analyzing network traffic, and responding to security incidents.</p>
+                <p>Collaborating with senior analysts, he plays a crucial role in developing and implementing effective security measures that mitigate risks and ensure compliance with industry standards. He is proficient in a range of security tools and technologies, such as Nessus, Nmap, and Wireshark, and keep himself updated on the latest trends and threats in the industry.</p>
             </Col>
 
             <Col md={4}>
@@ -564,7 +561,7 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
 
             </Col>
 
-            <p>In my quest for professional growth, I am pursuing relevant certifications such as ISMS, PCI DSS, LPT, OSCP, and Practical Hacking (ethical) to enhance my knowledge and skills. I thrive in fast-paced, challenging environments and am always eager to take on new responsibilities to contribute to the success of my team and clients. My passion for information security and commitment to continuous learning make me a valuable asset to any organization.</p>
+            <p>In  his quest for professional growth, he is pursuing relevant certifications such as ISMS, PCI DSS, LPT, OSCP, and Practical Hacking (ethical) to enhance his knowledge and skills. He thrives in fast-paced, challenging environments and is always eager to take on new responsibilities to contribute to the success of his team and clients. His passion for information security and commitment to continuous learning makes him, a valuable asset to our organization.</p>
             
         
            </Row>
@@ -631,10 +628,8 @@ She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, s
            <Row>
             <Col md={8}>
               <p className='teamDetails'>
-As a Security Analyst at “Right Time Limited” Information Security Services, I am passionate about safeguarding my clients' systems and data. With 3+ years of experience in the field, I have developed expertise in conducting vulnerability assessments, analyzing network traffic, and identifying and responding to security incidents.
-</p>
-             <p>In my current role, I work closely with senior analysts to develop and implement effective security measures to prevent cyber threats. I am proficient in a variety of security tools and technologies, including Nessus, Nmap, and Wireshark, and stay up-to-date with the latest trends and threats in the industry.</p>
-              
+              As a Security Analyst at “Right Time Limited” Information Security Services, Mahadi is  passionate about safeguarding our clients' systems and data. With 3+ years of experience in the field of cyber security, he has developed expertise in conducting vulnerability assessments, analyzing network traffic, and identifying and responding to security incidents.</p>
+<p>In his current role, He is working closely with senior analysts to develop and implement effective security measures to prevent cyber threats. He is proficient in a variety of security tools and technologies, including Nessus, Nmap, and Wireshark, and stay up-to-date with the latest trends and threats in the industry.</p>              
             </Col>
 
             <Col md={4}>
@@ -646,8 +641,7 @@ As a Security Analyst at “Right Time Limited” Information Security Services,
             />
 
             </Col>
-            <p>I am committed to continuous learning and development, and beside being SWIFT Cyber Security professional, pursuing relevant certifications such as CompTIA Security+ and Practical Hacking (ethical) to further enhance my skills and knowledge. I thrive in a fast-paced, challenging environment and am always eager to take on new responsibilities and contribute to the success of my team and clients.</p>
-        
+ <p>He is committed to continuous learning and development, and besides being SWIFT Cyber Security professional, pursuing relevant certifications such as CompTIA Security+ and Practical Hacking (ethical) to further enhance his skills and knowledge. He thrives in a fast-paced, challenging environment, and is always eager to take on new responsibilities and contribute to the success of his team and clients.</p>        
            </Row>
 
 
