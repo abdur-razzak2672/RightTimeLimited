@@ -67,6 +67,7 @@ function TechnicalDoccumentation() {
                     className="d-block w-100"
                     src="assets/images/background/11.png"
                     alt="Third slide"
+
                   />
                   <Carousel.Caption>
                     <h3>Manage User Privileges</h3>
@@ -85,7 +86,6 @@ function TechnicalDoccumentation() {
       <div className="py-4" style={{backgroundColor:"orange"}}>
         <h1 className="text-center text-light">Policy Management Features</h1>
       </div>
-
       <section id="header" className="section-padding--bottom pt-5 ">
         <div className="container">
 
