@@ -13,7 +13,125 @@ function TrainingBody() {
           </div>
         </div>
         <div className="container mt-5">
-          <p className='text-dark'>The PCI Security Standards Council operates programs to train, test, and qualify organizations and individuals who assess and validate compliance, in order to help merchants successfully implement PCI standards and solutions. The Council also qualifies payment hardware and software so that merchants select and implement approved solutions for securing payment data and systems.</p>
+
+
+        <img id='prelC' src="/images/c.svg" width="100" height="100" alt="loading" />
+
+<div class="main">
+
+     <div class="custom-wrapper pure-g container" id="menu">
+        <div class="pure-u-1-4">
+            <div class="pure-menu">
+                <a href="index.html" class="pure-menu-heading custom-brand"><img alt="home" width='120'
+                        class="masthead-brand"  src='/assets/images/images-removebg-preview.png'/></a>
+            </div>
+        </div>
+        <div class="pure-u-1-2">
+            <div class="pure-menu pure-menu-horizontal custom-can-transform menu-main menu-large">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a href="heatmap.html" class="pure-menu-link ">Interactive map</a>
+                    </li>
+                    <li class="pure-menu-item"><a href="pathway.html" class="pure-menu-link active">Career
+                            pathway</a>
+                        <li class="pure-menu-item"><a href="training.html" class="pure-menu-link">Education and Training Providers</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pure-u-1-4" style={{textAlign: "right"}}>
+            <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item" style={{borderRight: "2px solid #F5F7F9"}}><a href="index.html#aboutit" class="pure-menu-link menu-large">About</a></li>
+
+                    <li class="pure-menu-item pure-menu-has-children">
+                        <a href="#" id="menuLink1" class="pure-menu-link menu-icon"><img width="21" height="21"
+                                src='images/menu.svg' alt="menu"/></a>
+                        <ul class="pure-menu-children">
+                            <li class="pure-menu-item">
+                                <a href="heatmap.html" class="pure-menu-link menu-small">Interactive map</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="pathway.html" class="pure-menu-link menu-small">Career pathway</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="training.html" class="pure-menu-link menu-small">Education and Training Providers</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="index.html#aboutit" class="pure-menu-link menu-small">About</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="index.html#whoIsThis" class="pure-menu-link">Who this tool is for</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="index.html#partners" class="pure-menu-link">Project partners</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="index.html#usefulLinks" class="pure-menu-link">Links</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class='clear'></div>
+    <div id='con' class="container wrapper">
+        <br/>
+        <div class="pure-g">
+            <div class="pure-u-1-1 buttons" style={{margin: "0, auto",textAlign: "center"}}>
+                <a href="pathway.html" class="pure-button">Roles</a>
+                <a href="certifications.html" class="pure-button pure-button-primary ml-1">Skills and Certifications</a>
+            </div>
+        </div>
+        <br/>
+
+        <div class="pure-g">
+            <div class="pure-u-1-1" style={{margin: "0, auto",textAlign: "center"}}>
+                <div class="intro">
+                    <p>Select a certification, job title or skill to see how they relate to each other. <button class="pure-button" id="gotit">Got it</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="map-key-1" class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <div class="circle" style={{backgroundColor:"#408AE1"}}></div> Entry level
+                </li>
+                <li class="pure-menu-item">
+                    <div class="circle" style={{backgroundColor:"#B871AD"}}></div> Mid-level
+                </li>
+                <li class="pure-menu-item">
+                    <div class="circle" style={{backgroundColor:"#7FE2C6"}}></div> Advanced
+                </li>
+            </ul>
+        </div>
+        <br/>
+        <div style={{fontSize:"30px"}} id="sankey"></div>
+        <div style={{fontSize:"30px"}} class='clear'></div>
+        <br/><br/>
+     </div>
+
+    <div style={{fontSize:"30px"}} class='scrollUpWrapper'>
+        <div  style={{fontSize:"30px"}} class='scrollUp'></div>
+    </div>
+
+    <div style={{fontSize:"30px"}} class='clear'></div>
+
+   
+
+</div>
+
+
+
+
+
+
+
+
+
+          <p className='text-dark mt-5'>The PCI Security Standards Council operates programs to train, test, and qualify organizations and individuals who assess and validate compliance, in order to help merchants successfully implement PCI standards and solutions. The Council also qualifies payment hardware and software so that merchants select and implement approved solutions for securing payment data and systems.</p>
 
         </div>
         <section className="section-padding--bottom   mt-5">
