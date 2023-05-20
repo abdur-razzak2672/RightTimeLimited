@@ -284,9 +284,9 @@ function App() {
                 <i className="fa fa-envelope"></i>
                 <a href="/">info@righttime.biz</a>
               </li>
-              <li>
-                <i className="fa fa-map-marker"></i>
-                Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar, Tejgaon
+              <li className="liveLocation">
+                <span><i className="fa fa-map-marker"></i>
+                Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar, Tejgaon</span>
               </li>
             </>
                
@@ -298,7 +298,7 @@ function App() {
                 <i className="fa fa-envelope"></i>
                 <a href="mailto:info@righttime.biz"> coo.usa@righttime.biz</a>
             </li>
-            <li>
+            <li className="liveLocation">
                 <i className="fa fa-map-marker"></i>
                 5669 N Fresno St, Apt 232
 Fresno, CA 93710   </li>
@@ -309,14 +309,14 @@ Fresno, CA 93710   </li>
                     <i className="fa fa-envelope"></i>
                     <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
                 </li>
-                <li>
+                <li className="liveLocation">
                     <i className="fa fa-map-marker"></i>
                     11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
                 </li>
               </>
             :
             <>
-                <li>
+                <li className="liveLocation">
                     <i className="fa fa-envelope"></i>
                     <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
                 </li>

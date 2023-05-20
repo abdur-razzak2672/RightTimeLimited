@@ -31,16 +31,19 @@ function RegionalLeader() {
 
   return (
     <div>
-       <section className="section-padding--bottom section-padding--top">
+       <section className="section-padding--top">
         <div className="container">
         <h3 className="blog-card-one__title blog-details__title" style={{color:"#17224d",marginTop:"-100px"}} >Regional Leaders</h3>
 
 
           <div className="body1">
-            <section className="container">
-              <div className="row active-with-click grid">
-                <div className="grid-item">
-                  <article className="material-card Red">
+            <section style={{ paddingBottom: "80px" }}  className="container">
+              <div className="">
+
+              <Row>
+
+          <Col md={4} sm={6} xs={12} >
+          <article className="material-card mt-5 Red">
                     <a onClick={handleShow} href='javascript:void(0)'>
                        <h2 className="h21 text-light">
                       <span>Rashed</span>
@@ -54,7 +57,7 @@ function RegionalLeader() {
                       <div className="img-container">
                       <img
                          className = "img-responsive"
-                          src= "/assets/images/team/Kamruwn Nahar.jpg"
+                          src= "/assets/images/team/user.jpg"
                           alt=""
                         />
                         
@@ -71,9 +74,10 @@ function RegionalLeader() {
                       <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
-                </div>
-                <div className="grid-item">
-                  <article className="material-card Pink">
+
+          </Col>
+          <Col md={4} sm={6} xs={12} >
+          <article className="material-card mt-5 Pink">
                   <a onClick={handleShow1} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
                       <span>Linda</span>
@@ -87,7 +91,7 @@ function RegionalLeader() {
                       <div className="img-container">
                          <img
                          className = "img-responsive"
-                         src= "/assets/images/team/Tinene.jpg"
+                         src= "/assets/images/team/user.jpg"
                          alt=""
                         />
                       </div>
@@ -105,9 +109,10 @@ function RegionalLeader() {
                       <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
-                </div>
-                <div className="grid-item">
-                  <article className="material-card Purple">
+
+          </Col>
+          <Col md={4} sm={6} xs={12} >
+          <article className="material-card mt-5 Purple">
                   <a onClick={handleShow2} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
                       <span>Rahim</span>
@@ -121,8 +126,8 @@ function RegionalLeader() {
                       <div className="img-container">
                       <img
                          className = "img-responsive"
-                          src= "/assets/images/team/Photdo1.jpeg"
-                          alt=""
+                         src= "/assets/images/team/user.jpg"
+                         alt=""
                         />
                          
                       </div>
@@ -140,7 +145,13 @@ function RegionalLeader() {
                       <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
                     </div>
                   </article>
-                </div>
+
+          </Col>
+          </Row>
+
+
+
+                
 
                 
                  
@@ -169,7 +180,7 @@ function RegionalLeader() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Sahaly Yasmwin Bhuiyan.jpg"
+              src= "/assets/images/team/user.jpg"
               alt=""
             />
 
@@ -202,7 +213,7 @@ function RegionalLeader() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Mohammad Tohidur Rahsman Bhuieyan.jpg"
+              src= "/assets/images/team/user.jpg"
               alt=""
             />
 
@@ -236,7 +247,7 @@ Miss Melinda has extensive experience developing, inculcating, and implementing 
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/Pshoto1.jpeg"
+              src= "/assets/images/team/user.jpg"
 
                alt=""
             />

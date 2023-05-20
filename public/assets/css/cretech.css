@@ -1048,11 +1048,30 @@ a:visited {
   margin-left: 7px;
 }
 
+@media (max-width: 1370px) {
+  .liveLocation span{
+    display: none;
+   }
+
+ 
+}
+
+
 @media (min-width: 1270px) {
   .main-menu__list>li+li {
-    margin-left: 21px;
+    margin-left: 15px;
+    
   }
+  
+
+ 
 }
+
+
+
+ 
+
+ 
 
 .main-menu__list>li>a {
   color: var(--cretech-text, #797582);
