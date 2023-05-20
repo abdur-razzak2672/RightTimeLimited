@@ -201,10 +201,78 @@ Enhanced in-app document editing adds powerful editing capabilities and streamli
 </Col>
       </Row>
 
+
+      <section className="section-padding--top about-one">
+        <div className="section-title text-center">
+          <h2 className="header">Some of Our Valued Customers-RightTime Extended Its Hands For Technical Documentation</h2>
+        </div>
+        <div className="client-carousel  client-carousel--two">
+          <div className="container">
+            <div
+              className="owl-carousel thm-owl__carousel"
+              data-owl-options='{"loop": true,
+				"autoplay": true,
+				"autoplayTimeout": 5000,
+				"autoplayHoverPause": true,
+				"nav": true,
+ 				"dots": false,
+				"margin": 30,
+                "items": 2,
+				"smartSpeed": 700,
+				"responsive": {
+					"0": {
+						"margin": 30,
+						"items": 2
+					},
+					"375": {
+						"margin": 30,
+						"items": 2
+					},
+					"575": {
+						"margin": 30,
+						"items": 3
+					},
+					"767": {
+						"margin": 50,
+						"items": 4
+					},
+					"991": {
+						"margin": 40,
+						"items": 5
+					},
+					"1199": {
+						"margin": 80,
+						"items": 5
+					}
+				}}'
+            >
+              {/* <div className="item">
+                <img src="assets/images/partners/ec.png" alt="" />
+              </div> */}
+              <div className="item">
+                <img src="assets/images/partners/pv.png" alt="" />
+              </div>
+              <div className="item">
+                <img src="assets/images/partners/acnabin.png" alt="" />
+              </div>
+              <div className="item">
+                <img src="assets/images/partners/pecb-logo.png" alt="" />
+              </div>
+              <div className="item">
+                <img src="assets/images/partners/sck.png" alt="" />
+              </div>
+              <div className="item">
+                <img src="assets/images/partners/ars.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       
 
-      <Row className="mt-5">
-        <Col md={3} sm="6">
+       {/*   <Row className="mt-5">
+     <Col md={3} sm="6">
           <img width="100%" src="assets/images/services/1.png" alt="" />
 
 
@@ -224,7 +292,7 @@ Enhanced in-app document editing adds powerful editing capabilities and streamli
 
 
         </Col>
-      </Row>
+      </Row> */}
 
 
 
