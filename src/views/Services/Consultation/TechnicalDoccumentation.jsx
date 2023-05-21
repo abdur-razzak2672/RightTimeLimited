@@ -210,7 +210,7 @@ Enhanced in-app document editing adds powerful editing capabilities and streamli
 
         <Row>
   {data.map((item, index) => (
-    <Col className="mt-4" md={3} sm={2} xs={2} key={index}>
+    <Col className="mt-4" md={2} sm={2} xs={2} key={index}>
       <Card className="text-center">
         <div className="card-image">
           <Card.Img variant="top" src={item?.logo} />
