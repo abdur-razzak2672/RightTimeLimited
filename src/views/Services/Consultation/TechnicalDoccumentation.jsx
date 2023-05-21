@@ -1,6 +1,7 @@
 import React from "react";
-import { Carousel, Col, Row } from "react-bootstrap";
+import { Card, Carousel, Col, Row } from "react-bootstrap";
 import SeviceCommon from "../SeviceCommon";
+import { data } from "./data";
 function TechnicalDoccumentation() {
   return (
     <div>
@@ -206,67 +207,22 @@ Enhanced in-app document editing adds powerful editing capabilities and streamli
         <div className="section-title text-center">
           <h2 className="header">Some of Our Valued Customers-RightTime Extended Its Hands For Technical Documentation</h2>
         </div>
-        <div className="client-carousel  client-carousel--two">
-          <div className="container">
-            <div
-              className="owl-carousel thm-owl__carousel"
-              data-owl-options='{"loop": true,
-				"autoplay": true,
-				"autoplayTimeout": 5000,
-				"autoplayHoverPause": true,
-				"nav": true,
- 				"dots": false,
-				"margin": 30,
-                "items": 2,
-				"smartSpeed": 700,
-				"responsive": {
-					"0": {
-						"margin": 30,
-						"items": 2
-					},
-					"375": {
-						"margin": 30,
-						"items": 2
-					},
-					"575": {
-						"margin": 30,
-						"items": 3
-					},
-					"767": {
-						"margin": 50,
-						"items": 4
-					},
-					"991": {
-						"margin": 40,
-						"items": 5
-					},
-					"1199": {
-						"margin": 80,
-						"items": 5
-					}
-				}}'
-            >
-              {/* <div className="item">
-                <img src="assets/images/partners/ec.png" alt="" />
-              </div> */}
-              <div className="item">
-                <img src="assets/images/partners/pv.png" alt="" />
-              </div>
-              <div className="item">
-                <img src="assets/images/partners/acnabin.png" alt="" />
-              </div>
-              <div className="item">
-                <img src="assets/images/partners/pecb-logo.png" alt="" />
-              </div>
-              <div className="item">
-                <img src="assets/images/partners/sck.png" alt="" />
-              </div>
-              <div className="item">
-                <img src="assets/images/partners/ars.png" alt="" />
-              </div>
-            </div>
-          </div>
+
+        <Row>
+  {data.map((item, index) => (
+    <Col className="mt-4" md={3} sm={2} xs={2} key={index}>
+      <Card className="text-center">
+        <div className="card-image">
+          <Card.Img variant="top" src={item?.logo} />
         </div>
+      </Card>
+    </Col>
+  ))}
+</Row>
+
+
+       
+        
       </section>
 
       
