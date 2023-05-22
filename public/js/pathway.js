@@ -7,7 +7,7 @@ var currentEl = null,
     currentData = null,
     currentI = null,
     cirlceSizeAttr = "job_openings";
-if ("widget" != (globalmode = d3.select("body").classed("widget") ? "widget" : "standard") && (document.getElementById("year").innerHTML = (new Date).getFullYear()), navigator.userAgent.match(/(Android|Blackberry|iPhone|iPod|iPad)/i)) {
+if ("widget" != (globalmode = d3.select("body").classed("widget") ? "widget" : "standard") &&   navigator.userAgent.match(/(Android|Blackberry|iPhone|iPod|iPad)/i)) {
     $("body").addClass("mobile-device"), $("body").removeClass("desktop-device");
     var windowHeight = $(window).height()
 }
@@ -419,7 +419,7 @@ function fillFutureSkill(e, t) {
     }))
 }
 var causes, colors, margin, width, height, x, barSvg;
-queue().defer(d3.csv, basefile + "data/career_pathway_links_data.csv").defer(d3.csv, basefile + "data/career_pathway_jobs_data.csv").defer(d3.csv, basefile + "data/areas_subcategories_ksa_updated.csv").defer(d3.json, "/api").defer(d3.tsv, basefile + "data/master_ksa_task.tsv").defer(d3.csv, basefile + "data/career_pathway_skill_proj.csv").await(ready);
+queue().defer(d3.csv, basefile + "data/career_pathway_links_data.csv").defer(d3.csv, basefile + "data/career_pathway_jobs_data.csv").defer(d3.csv, basefile + "data/areas_subcategories_ksa_updated.csv").defer(d3.json, "data/api.js").defer(d3.tsv, basefile + "data/master_ksa_task.tsv").defer(d3.csv, basefile + "data/career_pathway_skill_proj.csv").await(ready);
 var barHeight = 45;
 
 function drawStackedBar() {
