@@ -4,7 +4,7 @@ function Pathway() {
     return (
         <div>
 
-            <img id='prelC' src="images/c.svg"></img>
+            {/* <img id='prelC' src="images/c.svg"></img> */}
 
             <div class="modal fade" id="embedModal" tabindex="-1" role="dialog" aria-labelledby="embedModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
