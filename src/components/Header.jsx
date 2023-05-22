@@ -927,9 +927,9 @@ function Header({ show, setShow }) {
             </li>
 
             <li className="dropdown serviceNav2 steps-sampling">
-              <Link to="/training" className="dropbtn1z">
+              <a href="/training" className="dropbtn1z">
                 Training
-              </Link>
+              </a>
               <div
                 style={{ left: "-500px", minWidth: "1000px", height: "530px" }}
                 className=" dropdown-content"
@@ -1266,7 +1266,7 @@ function Header({ show, setShow }) {
             </li>
 
             <li className="menu-item-has-children servicNav">
-              <Link to="/training">Training</Link>
+              <a href="/training">Training</a>
               <ul>
                 <li className="menu-item-has-children">
                   <Link to="/assesment">Assessment</Link>

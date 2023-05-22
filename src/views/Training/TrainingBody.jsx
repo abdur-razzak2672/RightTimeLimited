@@ -15,7 +15,7 @@ function TrainingBody() {
         <div className="container mt-5">
 
 
-        <img id='prelC' src="/images/c.svg" width="100" height="100" alt="loading" />
+        {/* <img id='prelC' src="/images/c.svg" width="100" height="100" alt="loading" /> */}
 
 <div class="main">
 
@@ -31,7 +31,7 @@ function TrainingBody() {
                 <ul class="pure-menu-list">
                     <li class="pure-menu-item"><a href="heatmap.html" class="pure-menu-link ">Interactive map</a>
                     </li>
-                    <li class="pure-menu-item"><a href="pathway.html" class="pure-menu-link active">Career
+                    <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link active">Career
                             pathway</a>
                         <li class="pure-menu-item"><a href="training.html" class="pure-menu-link">Education and Training Providers</a></li>
                     </li>
@@ -41,7 +41,7 @@ function TrainingBody() {
         <div class="pure-u-1-4" style={{textAlign: "right"}}>
             <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item" style={{borderRight: "2px solid #F5F7F9"}}><a href="index.html#aboutit" class="pure-menu-link menu-large">About</a></li>
+                    <li class="pure-menu-item" style={{borderRight: "2px solid #F5F7F9"}}><a href="/about-us" class="pure-menu-link menu-large">About</a></li>
 
                     <li class="pure-menu-item pure-menu-has-children">
                         <a href="#" id="menuLink1" class="pure-menu-link menu-icon"><img width="21" height="21"
@@ -51,13 +51,13 @@ function TrainingBody() {
                                 <a href="heatmap.html" class="pure-menu-link menu-small">Interactive map</a>
                             </li>
                             <li class="pure-menu-item">
-                                <a href="pathway.html" class="pure-menu-link menu-small">Career pathway</a>
+                                <a href="pathway" class="pure-menu-link menu-small">Career pathway</a>
                             </li>
                             <li class="pure-menu-item">
                                 <a href="training.html" class="pure-menu-link menu-small">Education and Training Providers</a>
                             </li>
                             <li class="pure-menu-item">
-                                <a href="index.html#aboutit" class="pure-menu-link menu-small">About</a>
+                                <a href="/about-us" class="pure-menu-link menu-small">About</a>
                             </li>
                             <li class="pure-menu-item">
                                 <a href="index.html#whoIsThis" class="pure-menu-link">Who this tool is for</a>
@@ -80,8 +80,8 @@ function TrainingBody() {
         <br/>
         <div class="pure-g">
             <div class="pure-u-1-1 buttons" style={{margin: "0, auto",textAlign: "center"}}>
-                <a href="pathway.html" class="pure-button">Roles</a>
-                <a href="certifications.html" class="pure-button pure-button-primary ml-1">Skills and Certifications</a>
+                <a href="pathway" class="pure-button">Roles</a>
+                <a href="training" class="pure-button pure-button-primary ml-1">Skills and Certifications</a>
             </div>
         </div>
         <br/>
@@ -118,9 +118,6 @@ function TrainingBody() {
     </div>
 
     <div style={{fontSize:"30px"}} class='clear'></div>
-
-   
-
 </div>
 
 
