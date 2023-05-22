@@ -231,6 +231,7 @@ import WhitePapers from "./views/resource/WhitePapers";
 import Infographics from "./views/resource/Infographics";
 import SecuirityAssessment from "./views/Solutions/SecuirityAssessment";
 import SecuirityManagement from "./views/Solutions/SecuirityManagement";
+import Pathway from "./views/Training/Pathway";
 
 
  
@@ -566,6 +567,9 @@ Fresno, CA 93710   </li>
         {/*Training Section Route Declaration Start */}
         {/* Assessment */}
         <Route path="/training" component={TrainingBody} exact />
+        <Route path="/pathway" component={Pathway} exact />
+
+
         <Route path="/assesment" component={AssessmentBody} exact />
         <Route path="/penetration-testing" component={PenetrationTesting} exact />
         <Route path="/certified-penetration" component={CertifiedPenetration} exact />
