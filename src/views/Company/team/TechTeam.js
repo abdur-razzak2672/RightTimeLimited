@@ -266,7 +266,7 @@ function TechTeam() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src= "/assets/images/team/user.jpg"
+                            src= "/assets/images/team/kanak.jpeg"
                             alt=""
                           />
 
@@ -343,7 +343,7 @@ function TechTeam() {
 
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/sadrin.jpg"
+                            src="/assets/images/team/sadrin1.jpg"
                             alt=""
                           />
                         </div>
@@ -497,7 +497,7 @@ function TechTeam() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src= "/assets/images/team/user.jpg"
+                src= "/assets/images/team/kanak.jpeg"
 
                 alt=""
               />
@@ -679,7 +679,7 @@ function TechTeam() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/sadrin.jpg"
+                src="/assets/images/team/sadrin1.jpg"
 
                 alt=""
               />
