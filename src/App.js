@@ -247,6 +247,8 @@ function App() {
   const show = localStorage.getItem("location");
  if(!show){
   localStorage.setItem("location", "1");
+  window.location.reload();
+
 
   } 
   // const [show, setShow] = useState(location);
