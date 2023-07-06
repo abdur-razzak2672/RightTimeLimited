@@ -256,11 +256,11 @@ Fresno, CA 93710</p>
 
       </div>
       <div className="footer-bottom row">
-        <div className="col-md-4 p-4 px-5 mx-5">
+        <div className="col-md-4 p-4  mx-4">
           <img width="120px" src="assets/images/footer/ssl.png" alt=""/>
           </div>
           <div className ="col-lg-7 mt-4 ">
-          <p className="mx-5">
+          <p className="mx-4">
             &copy; All Copyright <span className="dynamic-year"></span> by Right
             Time Limited
           </p>
