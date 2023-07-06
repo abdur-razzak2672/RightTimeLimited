@@ -931,7 +931,7 @@ function Header({ show, setShow }) {
                 Training
               </a>
               <div
-                style={{ left: "-500px", minWidth: "1000px", height: "530px" }}
+                style={{ left: "-630px", minWidth: "1000px", height: "530px" }}
                 className=" dropdown-content"
               >
                 <Container className="mt-4">

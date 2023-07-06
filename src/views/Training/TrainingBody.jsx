@@ -228,33 +228,33 @@ function TrainingBody() {
 				}}'>
               <div  className="item">
                 <div className="card">
-                <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Arshad -PP (New).jpeg" alt="" /></a>
+                <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Photo1.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
-                    <h4 className="pt-3"><a href="/consultation"> Arshad Mahmud
+                    <h4 className="pt-3"><a href="/consultation"> Dr. Touhid Bhuiyan
                       <br /></a></h4>
-                    <p>COO</p>
+                    <p>DIRECTOR, STRATEGIC PLANNING AND DEVELOPMENT</p>
                     <a href="/team" className="">More Information</a>
                   </div>
                 </div>
               </div>
               <div  className="item">
               <div className="card">
-              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Kamrun Nahar.jpg" alt="" /></a>
+              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Shamim-PP.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
-                  <h4 className="pt-3"><a href="/consultation"> Kamrun Nahar
+                  <h4 className="pt-3"><a href="/consultation">Md. Shamim Al Mamun
                       <br /></a></h4>
-                    <p>A                            QC & DOCUMENT WRITER</p>
+                    <p>CHIEF TECHNOLOGY OFFICER (CTO)</p>
                     <a href="/team" className="">More Information</a>
                   </div>
                 </div>
               </div>
               <div  className="item">
               <div className="card">
-              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Tinne.jpg" alt="" /></a>
+              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg" alt="" /></a>
                   <div className="service-card-three__content">
-                  <h4 className="pt-3"><a href="/consultation"> Farzana Yeasmin Tinne
+                  <h4 className="pt-3"><a href="/consultation"> Mohammad Tohidur Rahman Bhuiyan
                       <br /></a></h4>
-                    <p> SECURITY ANALYST</p>
+                    <p>Lead Security Practitioner and MD & CEO</p>
                     <a href="/team" className="">More Information</a>
                   </div>
                 </div>
@@ -262,76 +262,20 @@ function TrainingBody() {
 
               <div  className="item">
               <div className="card">
-              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Sazzad-PP.jpeg" alt="" /></a>
+              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Rokanuzzaman.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
-                  <h4 className="pt-3"><a href="/consultation">Md. Sazzad Hossain
+                  <h4 className="pt-3"><a href="/consultation">Md. Rokanuzzaman
                       <br /></a></h4>
-                    <p> SECURITY ANALYST</p>
+                    <p>Chief Information Officer (CIO)</p>
                     <a href="/team" className="">More Information</a>
                   </div>
                 </div>
               </div> 
-
-              <div  className="item">
-              <div className="card">
-              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/Sakim.jpeg" alt="" /></a>
-                  <div className="service-card-three__content">
-                  <h4 className="pt-3"><a href="/consultation">Md. Sakim Hossain
-                      <br /></a></h4>
-                    <p> SECURITY ANALYST</p>
-                    <a href="/team" className="">More Information</a>
-                  </div>
-                </div>
-              </div> 
-
-              <div  className="item">
-              <div className="card">
-              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/kanak.jpeg" alt="" /></a>
-                  <div className="service-card-three__content">
-                  <h4 className="pt-3"><a href="/consultation"> Rayhan Kanak
-                      <br /></a></h4>
-                    <p> SECURITY ANALYST</p>
-                    <a href="/team" className="">More Information</a>
-                  </div>
-                </div>
-              </div> 
-
-              <div  className="item">
-              <div className="card">
-              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/razzak1.jpeg" alt="" /></a>
-                  <div className="service-card-three__content">
-                  <h4 className="pt-3"><a href="/consultation">Md. Abdur Razzak
-                      <br /></a></h4>
-                    <p> SOFTWARE ENGINEER</p>
-                    <a href="/team" className="">More Information</a>
-                  </div>
-                </div>
-              </div> 
-
-              <div  className="item">
-              <div className="card">
-              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/sadrin1.jpg" alt="" /></a>
-                  <div className="service-card-three__content">
-                  <h4 className="pt-3"><a href="/consultation"> Sadrin Rahman Bhuiyan Piya
-                      <br /></a></h4>
-                    <p>  SECURITY ANALYST</p>
-                    <a href="/team" className="">More Information</a>
-                  </div>
-                </div>
-              </div> 
-              <div  className="item">
-              <div className="card">
-              <a className=" mt-4 rounded-4" href="/"><img className='rounded-5'  style={{width:"100%",height:"170px"}} src="/assets/images/team/mehedi.jpg" alt="" /></a>
-                  <div className="service-card-three__content">
-                  <h4 className="pt-3"><a href="/consultation">Md Mahadi Hasan Heart
-                      <br /></a></h4>
-                    <p>  SECURITY ANALYST</p>
-                    <a href="/team" className="">More Information</a>
-                  </div>
-                </div>
-              </div> 
-
               </div>
+
+              
+
+               
               
           </div>
         </section>
