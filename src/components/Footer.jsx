@@ -1,16 +1,33 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 
-function Footer({ setShow, show }) {
+function Footer({ show }) {
 
   console.log("Footer", show);
+
+  const handleLocationbd = () => {
+    localStorage.setItem("location", "1")
+    window.location.reload();
+  }
+  const handleLocationusa = () => {
+    localStorage.setItem("location", "2")
+    window.location.reload();
+  }
+  const handleLocationaus= () => {
+    localStorage.setItem("location", "3")
+    window.location.reload();
+  }
+  const handleLocationgar= () => {
+    localStorage.setItem("location", "4")
+    window.location.reload();
+  }
 
 
 
   return (
     <div>
       <div className="footer-main section-padding--bottom footer-main--top-padding section-padding--top">
-        <div className="mx-5 px-5"  >
+        <div className=" px-5"  >
           <div className="row gutter-y-30">
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--about">
@@ -116,7 +133,7 @@ Fresno, CA 93710</p>
                             </li>
                             <li>
                               <i className="fa fa-map-marker-alt"></i>
-                              <p> Hausmann str-1.44139, <br />Dortmund. Germany</p>
+                              <p className="m-3"> Hausmann str-1.44139, <br />Dortmund. Germany</p>
                             </li>
                           </ul>
                         </>
@@ -196,20 +213,20 @@ Fresno, CA 93710</p>
                 <h3 className="footer-widget__title">Our Presence</h3>
                 <ul className="footer-widget__contact">
                   <li>
-                    <a onClick={() => setShow("1")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }}   width="47%" src="assets/images/flag/bd.png" alt="" /></a>
-                    <a onClick={() => setShow("4")} href="javascript:void(0)"><img style={{ border: "1px solid gray",marginLeft:"15px" }} width="47%" src="assets/images/flag/de.png" alt="" /></a>
+                    <a className="mx-1"  onClick={handleLocationbd} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }}   width="46%" src="assets/images/flag/bd.png" alt="" /></a>
+                    <a className="mx-1"  onClick={handleLocationgar} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray"  }} width="46%" src="assets/images/flag/de.png" alt="" /></a>
 
                   </li>
 
-                  <li className="mt-2">
-                    <a onClick={() => setShow("2")} href="javascript:void(0)"><img style={{ border: "1px solid gray" }}  width="47%" src="assets/images/flag/usa.png" alt="" /></a>
-                    <a onClick={() => setShow("3")} href="javascript:void(0)"><img style={{ border: "1px solid gray" ,marginLeft:"15px"}}  width="47%" src="assets/images/flag/aus.png" alt="" /></a>
+                  <li  >
+                    <a className="mx-1" onClick={handleLocationusa} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }}  width="46%" src="assets/images/flag/usa.png" alt="" /></a>
+                    <a  className="mx-1" onClick={handleLocationaus} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray"  }}  width="46%" src="assets/images/flag/aus.png" alt="" /></a>
 
                   </li>
 
-                  <li className="mt-2">
-                  <img src="assets/images/footer/iso.png" width="100%" alt="" />
-                  <h6 style={{fontSize:"10.7px",width:"100%"}}  className="mt-2 text-light">WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
+                  <li className="mt-2 mx-1">
+                  <img src="assets/images/footer/iso.png" width="98%" alt="" />
+                  <h6 style={{fontSize:"9px",width:"100%"}}  className="mt-2 text-light">WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
 
 
                   </li>

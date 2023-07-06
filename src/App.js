@@ -242,8 +242,20 @@ import Pathway from "./views/Training/Pathway";
 
 
 
-function App() {
-  const [show, setShow] = useState("1");
+function App() {   
+ 
+  const show = localStorage.getItem("location");
+ if(!show){
+  localStorage.setItem("location", "1");
+
+  } 
+  // const [show, setShow] = useState(location);
+
+  const handleLocationChange = (e) => {
+    localStorage.setItem("location", e.target.value);
+    window.location.reload();
+    };
+
 
 
   // function showCountry(e) {
@@ -260,8 +272,9 @@ function App() {
   
   <div className="page-wrapper">
   <div className="topbar">
-        <div className="container-fluid">
-          <p className="topbar__text">Welcome to Right Time Limited</p>
+        <div className="d-flex mx-2 py-2 ">
+          <div className="d-flex">
+          <p style={{fontSize:"11px"}} className="topbar__text pt-1">Welcome to Right Time Limited</p>
           {
             show === '1' ?
               <img className="m-2" width = "30px" src = "assets/images/flag/bd.png" alt=""/>
@@ -273,10 +286,11 @@ function App() {
               :<img className="m-2" width = "30px" src = "assets/images/flag/de.png" alt=""/>
            
           }
+          </div>
          
 
           <ul className="topbar__info"> 
-          <li><marquee style={{color:"orange"}}>together we make the world happier</marquee></li>
+          <li><marquee style={{color:"orange",width:"125px"}}>together we make the world happier</marquee></li>
 
           {
             show === '1' ?(
@@ -300,9 +314,11 @@ function App() {
                 <a href="mailto:info@righttime.biz"> coo.usa@righttime.biz</a>
             </li>
             <li className="liveLocation">
-                <i className="fa fa-map-marker"></i>
-                5669 N Fresno St, Apt 232
-Fresno, CA 93710   </li>
+            <span><i className="fa fa-map-marker"></i>5669 N Fresno St, Apt 232
+Fresno, CA 93710  
+                 </span>
+              </li>
+                
             </>
             :show==='3'?
               <>
@@ -311,25 +327,29 @@ Fresno, CA 93710   </li>
                     <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
                 </li>
                 <li className="liveLocation">
-                    <i className="fa fa-map-marker"></i>
-                    11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
+                <span ><i className="fa fa-map-marker"></i>  11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
+
+                 </span>
+                   
                 </li>
               </>
             :
             <>
-                <li className="liveLocation">
+                <li>
                     <i className="fa fa-envelope"></i>
                     <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
                 </li>
-                <li>
-                    <i className="fa fa-map-marker"></i>
-                    Hausmann str-1.44139,Dortmund. Germany
+                <li className="liveLocation">
+                <span><i className="fa fa-map-marker"></i>  Hausmann str-1.44139,Dortmund. Germany
+
+</span>
+                   
                 </li>
             </>
             
            
           }
-         <a className="px-3" href="/login-body"> <li className="px-3 text-light  " style={{border:"1px solid gray"}}>Login (Customer + Employee)</li></a>
+         <a className="px-2" href="/login-body"> <li className="px-2 text-light  " style={{border:"1px solid gray"}}>Login (Customer + Employee)</li></a>
 
             <li>
               <div className="dropdown">
@@ -345,10 +365,10 @@ Fresno, CA 93710   </li>
                   <a href="/">Australia</a>
                   <a href="/">Germany</a>
                 </select> */}
-                    <select className="topbar text-light"
-                onChange={(event) => {
-                  setShow(event.target.value);
-                }}
+                    <select className="topbar py-1 text-light"
+                    value={show}
+                    onChange={handleLocationChange}
+                 
                 >
                 <option   value="1"><a href="/">Bangladesh</a></option>
                 <option  value="2"><a href="/">USA</a></option>
@@ -360,7 +380,7 @@ Fresno, CA 93710   </li>
           </ul>
         </div>
       </div>
-  <Header show = {show} setShow={setShow}/>
+  <Header show = {show} />
       <div>
 {/* 
       <div>
@@ -654,7 +674,7 @@ Fresno, CA 93710   </li>
 
       </div>
       {/* Footer Section Route Declaration */}
-       <Footer show = {show} setShow={setShow}/>
+       <Footer show = {show} />
 <a href="javascript:void(0);" data-target="html" className="scroll-to-target scroll-to-top">
         <i className="fa fa-angle-up"></i>
       </a>
