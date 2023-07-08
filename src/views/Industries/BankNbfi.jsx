@@ -52,7 +52,9 @@ function BankNbfi() {
                             In addition, we provide consulting services for implementation of PCI DSS, PCI 3DS, SWIFT, and ISO standards.
                             Over the years we have worked closely with leading financial institutions to develop effective and long-term information security management systems. </p>
                     </div><br/>
-                    <Button style={{backgroundColor:"#fd7e14"}} onClick={handleShow}>Contact Us</Button>
+             <a href = "contact-us">       <Button style={{backgroundColor:"#fd7e14"}} >Contact Us</Button></a>
+
+
                 </div>
                 
             </div>

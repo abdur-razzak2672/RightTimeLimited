@@ -58,7 +58,9 @@ How can Right Time Limited Help?
                 </p>
               </div>
               <br/>
-                    <Button style={{backgroundColor:"#fd7e14"}} onClick={handleShow}>Contact Us</Button>
+             <a href = "contact-us">       <Button style={{backgroundColor:"#fd7e14"}} >Contact Us</Button></a>
+
+
 
 
             </div>
