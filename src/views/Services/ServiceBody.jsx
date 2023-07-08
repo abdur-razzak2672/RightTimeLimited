@@ -27,13 +27,20 @@ function ServiceBody() {
         </div>
       </div>
 
+     
+
       <section
-        className="section-padding--top service-four gray-bg section-padding-lg--bottom section-has-bottom-margin background-repeat-no background-position-top-right"
+        className="  service-four gray-bg section-padding-lg--bottom section-has-bottom-margin background-repeat-no background-position-top-right"
         style={{
           backgroundImage: `url('/assets/images/shapes/service-four-bg-1-1.png')`,
         }}
       >
-        <section className="section-padding--bottom text-center">
+         <div>
+        <div className="container pt-4">
+          <p className="text-dark">“Right Time Limited” (RightTime) is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks. With industry insights, RightTime identify weaknesses, conduct thorough security testing, and provide certification guidance. Its managed services include 24/7 monitoring, incident response, and continuous security improvements. Its objective is to be a trusted partner, helping clients navigate cybersecurity challenges, minimize risks, and cultivate robust security resilience. </p>
+          </div>
+      </div>
+        <section className="section-padding--bottom mt-3 text-center">
           <BenitsConpany />
         </section>
 

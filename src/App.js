@@ -637,7 +637,7 @@ Fresno, CA 93710
 
         {/*Blog Section Route Declaration start */}
         <Route path="/blogs" component={blogs} exact />
-        <Route path="/blogs" component={BlogDetails} exact />
+        <Route path="/blog-details" component={BlogDetails} exact />
         <Route path="/case-studies" component={CaseStudies} exact />
         <Route path="/CheckLists" component={CheckList} exact />
         <Route path="/DataSheets" component={DataSheet} exact />

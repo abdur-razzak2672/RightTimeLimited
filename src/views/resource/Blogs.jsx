@@ -19,8 +19,11 @@ function blogs() {
 		</div> 
 
 
-		<section class="section-padding--top section-padding--bottom">
+		<section class="mt-3 section-padding--bottom">
 			<div class="container">
+				<p className="text-dark">
+				Right Time Limited's blog section offers insightful articles on a variety of topics related to cybersecurity, IT management, and industry trends. These blogs provide readers with up-to-date information, expert opinions, and practical tips to enhance their understanding of key issues and make informed decisions.
+				</p>
 				<div class="row gutter-y-30">
 					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
 						data-wow-delay="000ms">
@@ -34,12 +37,12 @@ function blogs() {
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div>
-									<a href="/blog" class="blog-card-one__category">Designer</a>
+									<a href="/blog-details" class="blog-card-one__category">Designer</a>
 								
 								</div>
-								<h3 class="blog-card-one__title"><a href="/blog">Web design done Delightful
+								<h3 class="blog-card-one__title"><a href="/blog-details">Web design done Delightful
 										Visualization Examples</a></h3>
-								<a href="/blog" class="blog-card-one__more">
+								<a href="/blog-details" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a>
@@ -58,12 +61,12 @@ function blogs() {
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div>
-									<a href="/blog" class="blog-card-one__category">Graphic</a>
+									<a href="/blog-details" class="blog-card-one__category">Graphic</a>
 								
 								</div>
-								<h3 class="blog-card-one__title"><a href="/blog">Technology Support Allows
+								<h3 class="blog-card-one__title"><a href="/blog-details">Technology Support Allows
 										Erie non-profit to Serve</a></h3>
-								<a href="/blog" class="blog-card-one__more">
+								<a href="/blog-details" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a>
@@ -82,12 +85,12 @@ function blogs() {
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div>
-									<a href="/blog" class="blog-card-one__category">SEO</a>
+									<a href="/blog-details" class="blog-card-one__category">SEO</a>
 								
 								</div>
-								<h3 class="blog-card-one__title"><a href="/blog">Software Makes Your Profit
+								<h3 class="blog-card-one__title"><a href="/blog-details">Software Makes Your Profit
 										Double if You Scale Properly</a></h3>
-								<a href="/blog" class="blog-card-one__more">
+								<a href="/blog-details" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a>
@@ -106,11 +109,11 @@ function blogs() {
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div> 
-									<a href="/blog" class="blog-card-one__category">Designer</a>
+									<a href="/blog-details" class="blog-card-one__category">Designer</a>
  								</div> 
-								<h3 class="blog-card-one__title"><a href="/blog">Bring to the table win-win
+								<h3 class="blog-card-one__title"><a href="/blog-details">Bring to the table win-win
 										survival strategies to </a></h3>
-								<a href="/blog" class="blog-card-one__more">
+								<a href="/blog-details" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a> 
@@ -129,12 +132,12 @@ function blogs() {
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div> 
-									<a href="/blog" class="blog-card-one__category">Graphic</a>
+									<a href="/blog-details" class="blog-card-one__category">Graphic</a>
 								 
 								</div> 
-								<h3 class="blog-card-one__title"><a href="/blog">Capitalize on low hanging
+								<h3 class="blog-card-one__title"><a href="/blog-details">Capitalize on low hanging
 										fruit to identify a ballpark </a></h3>
-								<a href="/blog" class="blog-card-one__more">
+								<a href="/blog-details" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a> 
@@ -153,11 +156,11 @@ function blogs() {
 										<i class="fa fa-calendar-alt" aria-hidden="true"></i>
 										July, 25, 2022
 									</div> 
-									<a href="/blog" class="blog-card-one__category">SEO</a>
+									<a href="/blog-details" class="blog-card-one__category">SEO</a>
  								</div> 
-								<h3 class="blog-card-one__title"><a href="/blog">User generated content in
+								<h3 class="blog-card-one__title"><a href="/blog-details">User generated content in
 										real-time will have multiple </a></h3>
-								<a href="/blog" class="blog-card-one__more">
+								<a href="/blog-details" class="blog-card-one__more">
 									Read More
 									<i class="fa fa-arrow-right"></i>
 								</a> 
