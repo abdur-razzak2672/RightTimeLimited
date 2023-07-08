@@ -10,19 +10,25 @@ function TrainingBody() {
             style={{ backgroundImage: `url('/assets/images/background/training.png')` }}></div>
           <div className="container">
 
+ 
           </div>
         </div>
+
         <div className="container mt-5">
+        <p className='text-dark'>“Right Time Limited” (RightTime) training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>
+
 
 
         {/* <img id='prelC' src="/images/c.svg" width="100" height="100" alt="loading" /> */}
+
+        <h6 className='header my-3'>ICT Professional(s) will be benefited with our Track choosing mind-map. </h6>
 
 <div class="main">
 
      <div class="custom-wrapper pure-g container" id="menu">
         <div class="pure-u-1-4">
             <div class="pure-menu">
-                <a href="index.html" class="pure-menu-heading custom-brand"><img alt="home" width='120'
+                <a href="index.html" class="pure-menu-heading custom-brand"><img alt="home" width='80px'
                         class="masthead-brand"  src='/assets/images/images-removebg-preview.png'/></a>
             </div>
         </div>
@@ -128,7 +134,7 @@ function TrainingBody() {
 
 
 
-          <p className='text-dark mt-5'>The PCI Security Standards Council operates programs to train, test, and qualify organizations and individuals who assess and validate compliance, in order to help merchants successfully implement PCI standards and solutions. The Council also qualifies payment hardware and software so that merchants select and implement approved solutions for securing payment data and systems.</p>
+          {/* <p className='text-dark mt-5'>The PCI Security Standards Council operates programs to train, test, and qualify organizations and individuals who assess and validate compliance, in order to help merchants successfully implement PCI standards and solutions. The Council also qualifies payment hardware and software so that merchants select and implement approved solutions for securing payment data and systems.</p> */}
 
         </div>
         <section className="section-padding--bottom   mt-5">
@@ -139,9 +145,9 @@ function TrainingBody() {
             <ul className="card-wrapper">
               <li className="card">
               <a className="circleImage1 mt-4" href="/assesment"><img src="/assets/images/training/Icon1.webp" alt="" /></a>
-                <h3 className="text-center header" ><a href="/assesment">Aessessment</a></h3>
+                <h3 className="text-center header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>Acquire specific tools to help your clients with their PCI DSS compliance</p>
+                 <p className='text-dark  '>“Right Time Limited” (RightTime) offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
 
                 <a  className="text-warning" href="/assesment" >Download Course Description</a><br/>
                 <a href="/assesment"  className="text-warning">More Information</a>
@@ -153,9 +159,9 @@ function TrainingBody() {
               </li>
               <li className="card">
               <a className="circleImage1  mt-4" href="/management"><img src="/assets/images/training/Icon2.webp" alt="" /></a>
-              <h3 className="text-center header" ><a href="/management">Management</a></h3>
+              <h3 className="text-center header" ><a href="/management"> Training (ICT Management)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>Acquire specific tools to help your clients with their PCI DSS compliance</p>
+                 <p className='text-dark  '>“Right Time Limited” (RightTime) provides training programs that focus on ICT management principles and practices. </p>
 
                 <a  className="text-warning" href="/management" >Download Course Description</a><br/>
                 <a  className="text-warning" href="/management"  >More Information</a>
@@ -165,9 +171,9 @@ function TrainingBody() {
 
               <li className="card">
               <a className="circleImage1 mt-4" href="/Customized"><img src="/assets/images/training/Icon3.webp" alt="" /></a>
-              <h3 className="text-center header" ><a href="/Customized">RightTime Customized</a></h3>
+              <h3 className="text-center header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>Acquire specific tools to help your clients with their PCI DSS compliance</p>
+                 <p className='text-dark  '>“Right Time Limited” (RightTime) offers customized training solutions tailored to the specific needs of organizations</p>
 
                 <a href="/Customized"  className="text-warning">Download Course Description</a><br/>
                 <a href="/Customized" className="text-warning">More Information</a>
@@ -282,7 +288,7 @@ function TrainingBody() {
 
 
 
-        <section className="section-padding--bottom section-padding--top">
+        {/* <section className="section-padding--bottom section-padding--top">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -333,7 +339,7 @@ function TrainingBody() {
               
             </div>
           </div>
-        </section><br /><br /><br />
+        </section>*/}<br /><br /><br /> 
       </div>
     </div>
   )

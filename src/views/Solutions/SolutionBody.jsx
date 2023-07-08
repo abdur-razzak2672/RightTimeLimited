@@ -1,5 +1,7 @@
 import React from 'react'
 import SolutionNav from './SolutionNav'
+ 
+import BenitsConpany from '../Services/ServicesBody/BenitsConpany'
 function SolutionBody() {
   return (
     <div>
@@ -17,29 +19,23 @@ function SolutionBody() {
          </div>
       </div>
 
-      <section className="section-padding--bottom section-padding--top">
+      <section className="section-padding--bottom  mt-3">
         <div className="container">
-          <div className="row">
-          <div className="col-lg-8">
-
-
-<h3 className="blog-card-one__title blog-details__title">Solutions</h3>
-<div className="blog-details__content">
-    <p>Our solutions are designed to help you achieve your business goals. We provide a wide range of solutions that are tailored to meet your business needs. We have a team of experts who are ready to help you achieve your business goals.</p>
-</div>
-
-
-            </div>
-            <div className="col-lg-4">
-              <div className="sidebar">
-                <div className="sidebar__item sidebar__item--category">
-                  <SolutionNav />
-                  
-                </div>
-              </div>
-            </div>
+        <div className="container pt-4">
+          <p className="text-dark">Right Time Limited's Security Solutions encompass powerful Security Assessment (VA & PT) Tools and Cybersecurity Management & Visibility Solutions. By leveraging these offerings, It empowers organizations to proactively assess their security posture, address vulnerabilities, and effectively manage their cybersecurity environment.</p>
           </div>
-        </div>
+          <section className="section-padding--bottom mt-3 text-center">
+
+
+         </section>
+          
+
+
+          </div>
+          
+
+
+ 
       </section><br /><br /><br />
     </div>
     </div>
