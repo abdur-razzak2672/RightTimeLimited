@@ -232,6 +232,7 @@ import Infographics from "./views/resource/Infographics";
 import SecuirityAssessment from "./views/Solutions/SecuirityAssessment";
 import SecuirityManagement from "./views/Solutions/SecuirityManagement";
 import Pathway from "./views/Training/Pathway";
+import ResourchBody from "./views/resource/ResouceBody";
 
 
  
@@ -636,6 +637,8 @@ Fresno, CA 93710
         {/*Contact Section Route Declaration End */}
 
         {/*Blog Section Route Declaration start */}
+        <Route path="/resources" component={ResourchBody} exact />
+
         <Route path="/blogs" component={blogs} exact />
         <Route path="/blog-details" component={BlogDetails} exact />
         <Route path="/case-studies" component={CaseStudies} exact />

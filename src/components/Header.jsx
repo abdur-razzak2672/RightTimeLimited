@@ -1601,7 +1601,7 @@ function Header({ show, setShow }) {
             </li> */}
 
           <li className="menu-item-has-children">
-              <Link to="/industries">Resources</Link>
+              <Link to="/resources">Resources</Link>
               <ul>
                 <li>
                   <Link to="/blogs">	Blogs</Link>
