@@ -1,7 +1,126 @@
-import React from 'react'
-import TrainingNav from './TrainingNav'
+import React,{useState} from 'react'
+ import Form from 'react-bootstrap/Form';
+ import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import { countryList } from '../Contact/data';
 import './training.css'
 function TrainingBody() {
+  const [company, setCompany] = useState('1');
+
+
+  const handleChange = event => {
+    setCompany(event.target.value);
+  };
+
+  console.log("DSgvfd",company)
+
+  const individualOptions = [
+  "Lead Auditor (ISO 9001, ISO 27001, ISO 20000, ISO 22301 etc.)" ,
+ " Lead Implementer (ISO 9001, ISO 27001, ISO 20000, ISO 22301 etc.)",
+"  Certified Penetration Testing Professional (CPENT)",
+"  Offensive Security Certified Professional (OSCP)",
+"	Certified Information system Auditor (CISA)",
+"	GIAC Penetration Testing (GPEN)",
+"	Training on HIPAA",
+"	Training on GDPR",
+"	Training on SWIFT CSP Independent Assessment (based on latest CSCF)",
+"	Training on Data Center (Basic, Intermediate & Advance)",
+"	GIAC Web Application Penetration Testing (GWAPT)",
+"	Certified Ethical hacker (CEH-312-50)",
+"	EC-Council Certified Incident Handler (ECIH-212-89)",
+"	Certified SOC Analyst (CSA)",
+"	PCI DSS Certification- ISA & PCIP",
+"	Certified Threat Intelligent Analyst (CTIA)",
+"	Certified Information security Manager (CISM)",
+"	Certified Information System Security Professional (CISSP)",
+	"GIAC Certified Project Manager (GCPM)",
+"	Open-Source Intelligence (OSINT) ",
+"	Certified Secure Computer User (CSCU-112-12)",
+"	Network Security Fundamentals (FNS)",
+"	Information Security Fundamentals (FIS)",
+"	Computer Forensic Fundamentals (CFF)",
+"	Certified Network Defense (CND-312-38)",
+"	EC-Council Disaster Recovery Professional (EDRP-312-76)",
+"	Securing Windows Infrastructure (CAST-616)",
+"	Advance Network Defense (CAST-614)",
+"	EC-Council Certified Secure Programmer JAVA (ECSP-312-94) ",
+"	EC-Council Certified Secure Programmer .Net (ECSP-312-93)",
+"	Advanced Penetration testing (CAST-611)",
+"	Licensed Penetration Tester (LPT-412-79)",
+"	EC-Council Certified Security Analyst (ECSA-412-79) ",
+"	Hacking and Hardening Your Corporate Web Application (CAST-613)",
+"	Computer Hacking Forensic Investigator (CHFI-312-49)",
+"	Advanced Mobile Forensics And security (CAST-612)",
+"	Certified Chief Information Security Officer (CCISO)",
+
+    
+  
+  ];
+
+
+
+  const companyOptions = [
+    "Consultation",
+     "Information Security & Cyber Security Consulting",
+   "	Project Management ",
+     "Consultation on Shaping up DC & DRS",
+     "Swift Cyber Security Consulting ",
+   "	Technical Documentation On ITES",
+   
+   " Auditing ",
+     "Information System Audit ",
+     "Information Technology Audit ",
+   "	Information Security Graded Audit" ,
+   "	DC & DRS Auditing",
+   
+    "Security Testing ",
+   "	Vulnerability Assessment & Penetration  Testing Services ",
+   "	Digital Forensics ",
+   "	Code Review ",
+   "	Software Quality Assurance & Testing ",
+   "	Swift CSP Independent Assessment",
+   
+   " Certification ",
+   "	PCI DSS Certification",
+   "	ISO 27001, ISO 9001, ISO 20000-1, ISO 22301, ISO 13485, ISO 5001, ISO 14001 etc.",
+   "	CMMI (Capability Maturity Model Integration) ",
+   "	Tia 942 For Data Center",
+   "	GDPR Assessment",
+   "	HIPAA Assessment",
+   
+   " Managed Service",
+   "	SOC as A Service",
+   "	Cloud App Monitoring as A Service",
+   "	MDR as A Service (Managed End Point Detection and Response)",
+   "	Managed Nextgen Firewall as A Service ",
+   "	Vulnerability Assessment (VA) As A Service ",
+     "Penetration Testing (PT) As A Service ",
+   "  DAM (Database Auditing & Management) as A Service",
+   
+   
+   
+   
+   " Cyber Security Management & Visibility solutions",
+   "	SIEM",
+   "	Firewall (Especially Next Gen)",
+   "	Log Management",
+     "Patch management",
+     "Privilege Access Management (PAM)",
+   
+    "Security assessment (VA & PT) Tools",
+     "Burp Suite",
+   "	Net Sparker",
+     "Tenable All Product",
+   "	Nessus Professional",
+   "	Acunetix",
+   "	Core Impact",
+   "	Cobalt Strike",
+   
+     
+     
+         
+       
+       ];
   return (
     <div>
       <div>
@@ -285,6 +404,173 @@ function TrainingBody() {
               
           </div>
         </section>
+
+        <div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                </div>
+                <h3 className='text-dark text-center my-5'>Contact Us</h3>
+                <Form>
+
+<Row className="">
+                               
+<Form.Group as={Col} controlId="formGridPassword">
+<Form.Label >Full Name</Form.Label>
+<Form.Control type="text" placeholder="Full Name" />
+</Form.Group>
+<Form.Group as={Col} controlId="formGridEmail">
+<Form.Label >Email Name</Form.Label>
+<Form.Control type="email" placeholder="email" />
+</Form.Group>
+  </Row>
+  <Row className="">
+  
+  <Form.Group  as={Col} controlId="formGridEmail">
+  <Form.Label >Company or individual</Form.Label>
+
+<Form.Select   onChange={handleChange}
+  aria-label="Default select example">
+  <option value="1">Company </option>
+  <option value="2">Individual</option>
+
+
+</Form.Select>
+</Form.Group>
+
+
+  <Form.Group  as={Col} controlId="formGridEmail">
+  <Form.Label disabled = {company === '2'} >Company Name</Form.Label>
+  <Form.Control disabled = {company === '2'}    type="text" placeholder="" />
+  </Form.Group>
+</Row>
+
+<Row className="">
+
+                                    
+  <Form.Group className="mb-1 " controlId="formGridAddress1">
+<Form.Label className ="">Phone Number</Form.Label>
+<span className="d-flex">
+    <Form.Select style={{width:"130px"}} defaultValue="Choose...">
+        <option>code</option>
+         {countryList.map((country, key) => (
+        <option key={key} title="" value={country.mobileCode}>
+            {country.mobileCode}
+        </option>
+        ))}
+
+    </Form.Select>
+     <Form.Control style={{marginLeft:"10px"}}   type = "text" placeholder="phone" />
+     <Form.Group className='mx-2' as={Col} controlId="formGridPassword">
+
+      
+ <Form.Select   defaultValue="Choose...">
+        <option>Select Country </option>
+        {countryList.map((country, key) => (
+        <option key={key} title="" value={country.name}>
+            {country.name}
+        </option>
+        ))}
+    </Form.Select>
+</Form.Group>
+
+</span>
+</Form.Group>
+
+
+<Form.Group   as={Col} controlId="formGridEmail">
+
+{company === '2'?(
+<>
+<Form.Label >Interested In</Form.Label>
+<Form.Select aria-label="Default select example">
+<option>Please choose one option</option>
+        {individualOptions.map((option, index) => {
+            return <option key={index} >
+                {option}
+            </option>
+        })}
+
+
+
+</Form.Select>
+</>
+):(
+<>
+<>
+<Form.Label >Interested In</Form.Label>
+<Form.Select aria-label="Default select example">
+<option>Please choose one option</option>
+        {companyOptions.map((option, index) => {
+            return <option key={index} >
+                {option}
+            </option>
+        })}
+
+
+
+</Form.Select>
+</>
+
+</>
+)} 
+
+</Form.Group>
+
+
+<Form.Group as={Col} controlId="formGridPassword">
+<Form.Label >Budget</Form.Label>
+<Form.Select   defaultValue="Choose...">
+        <option>Choose Budget</option>
+        <option>$0-$100</option>
+        <option>$101-$1000</option>
+        <option>$1001-$10000</option>
+        <option>$10001-$20000</option>
+        <option>$20001-$50000</option>
+        <option>$50001- onWord</option>
+
+
+        
+    </Form.Select>
+</Form.Group>
+</Row>
+
+
+<Form.Group className="mt-3" as={Col} controlId="formGridEmail">
+<label>How Did You hear About Us?</label>
+<Form.Select aria-label="Default select example">
+  
+  <option value="1">Search Engine</option>
+  <option value="2">LinkedIn</option>
+
+  <option value="3">Facebook</option>
+  <option value="4">Twitter</option>
+  <option value="5">Blog</option>
+  <option value="6">Email</option>
+  <option value="7">Referral</option>
+  <option value="8">Other</option>
+
+
+
+
+
+</Form.Select>
+</Form.Group>
+<Form.Group className="mb-3" controlId="formGridAddress2">
+  <Form.Label>Message</Form.Label>
+  <Form.Control as="textarea" rows={2} placeholder=" Enter your Message here..." />
+</Form.Group>
+
+<a href="/career" className="mt-1 my-5 thm-btn cta-two__btn rounded-5 w-25 text-center">
+<span>Send Message </span>
+</a>
+
+</Form>
+          </div>
+          </div>
+
+                
+        </div>
 
 
 

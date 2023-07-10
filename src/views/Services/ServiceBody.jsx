@@ -4,7 +4,7 @@ import Consultation from "./ServicesBody/Consultation";
 import BenitsConpany from "./ServicesBody/BenitsConpany";
 import Testing from "./ServicesBody/Testing";
 import Auditing from "./ServicesBody/Auditing";
-function ServiceBody() {
+ function ServiceBody() {
   const [tabIndex, setTabIndex] = useState(1);
   return (
     <div>
@@ -44,50 +44,7 @@ function ServiceBody() {
           <BenitsConpany />
         </section>
 
-        <section className="container">
-          <h1 className="text-center">Consultation</h1>
-
-          <div className="row mt-4">
-            <div className="col-md-5 ">
-              <div className=" servicesItem">
-                <a
-                  className=" active focus"
-                  onClick={() => setTabIndex(1)}
-                  href="#javascript void(0)"
-                >
-                  {" "}
-                  Information Security & Cyber Security Consulting
-                </a>
-              </div>
-              <div className="servicesItem">
-                <a onClick={() => setTabIndex(2)} href="#javascript void(0)">
-                  {" "}
-                  Consultation on Shaping up DC & DRS
-                </a>
-              </div>
-              <div className=" servicesItem">
-                <a onClick={() => setTabIndex(3)} href="#javascript void(0)">
-                  {" "}
-                  Swift Cyber Security Consulting
-                </a>
-              </div>
-              <div className=" servicesItem">
-                <a onClick={() => setTabIndex(4)} href="#javascript void(0)">
-                  {" "}
-                  Technical Documentation On ITES
-                </a>
-              </div>
-            </div>
-
-            <div className="col-md-7">
-              <div>
-                {tabIndex === 1 && <Consultation />}
-                {tabIndex === 2 && <Auditing />}
-                {tabIndex === 3 && <Testing />}
-              </div>
-            </div>
-          </div>
-        </section>
+         
 
         <div className="container">
           <div className="section-title text-center">

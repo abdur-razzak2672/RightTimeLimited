@@ -123,13 +123,14 @@
 /* Card Body */
 .uk-card-body {
   padding: 20px 20px !important;
+ 
 }
 
 /* Desktop and bigger */
 @media (min-width: 1200px) {
   .uk-card-body {
     padding: 20px 20px !important;
-  }
+   }
 }
 
 /* Card Title */
@@ -227,15 +228,18 @@
  }
  }
  
-
+a{
+  text-decoration: none;
+  color: black;
+}
 
  .servicesItem1 a{
   border-right: 8px solid orangered;
   padding: 10px;
   width: 100%;
   margin-bottom: 8px;
-  background-color: rgb(217, 217, 217)
- 
+  background-color: rgb(217, 217, 217);
+  
 }
 
 .servicesItem1 a:hover{
@@ -278,6 +282,16 @@
   background-color: #540859 !important;
 
 }
+
+.servicesItemtit a{
+  padding: 15px;
+  color: white !important;
+  
+  background-color: #540859 !important;
+
+}
+
+
 .servicesItem a:focus{  
   background-color: #540859 !important;
   color:white !important;
