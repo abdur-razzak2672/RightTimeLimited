@@ -50,6 +50,7 @@ import { data } from './data';
 
     <section className="container mt-5">
     <h1 className="text-center">{data[tabIndex]?.title}</h1>
+    <p>{data[tabIndex]?.description}</p>
 
               <div className="row mt-4">
                   <div className="col-md-5 ">
