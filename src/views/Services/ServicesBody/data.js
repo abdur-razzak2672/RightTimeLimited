@@ -2,6 +2,7 @@ export const data = [
     {
         id: 1,
         title: 'Consultation',
+        description: 'Web application security testing is performed to identify the vulnerabilities in a web application. With the increasing adaptation of web technologies across several areas, web applications have become a very viable attack surface if left with an untailored security outlook. Hence, assessments like web application security help the developers remediate vulnerabilities that are found during the process thereby and enhance the overall security of the web application.',
         logo : 'far fa-newspaper fa-3x',
         subTitle:[
             {
@@ -70,6 +71,7 @@ export const data = [
       {
         id: 2,
         title: 'Auditing',
+        description: 'Web application security testing as per the OWASP Top 10 list, helps to identify many unattended issues related to programming, file access and configuration etc which may turn out to be vulnerabilities, causing a potential impact on the organization. Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources.  ',
         logo : ' fas fa-ribbon fa-3x',
         subTitle: [
             {
@@ -111,6 +113,8 @@ export const data = [
       {
         id: 3,
         title: ' Secuirity Testing',
+        description: ' Web application security testing as per the OWASP Top 10 list, helps to identify many unattended issues related to programming, file access and configuration etc which may turn out to be vulnerabilities, causing a potential impact on the organization. Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources. ',
+
         logo : ' far fa-comment-dots fa-3x',
 
         subTitle: [
@@ -156,6 +160,8 @@ export const data = [
       {
         id: 4,
         title: 'Certification',
+        description: 'Web application security testing as per the OWASP Top 10 list, helps to identify many unattended issues related to programming, file access and configuration etc which may turn out to be vulnerabilities, causing a potential impact on the organization. Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources.  ',
+
         logo : ' fas fa-cogs fa-3x',
         subTitle: [
             {
@@ -195,6 +201,8 @@ export const data = [
       {
         id: 5,
         title: 'Managed Services',
+        description: ' Web application security testing as per the OWASP Top 10 list, helps to identify many unattended issues related to programming, file access and configuration etc which may turn out to be vulnerabilities, causing a potential impact on the organization. Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources. ',
+
         logo : 'fas fa-code fa-3x ',
         subTitle: [
             {
