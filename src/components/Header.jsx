@@ -4,12 +4,25 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
-function Header({ show, setShow }) {
+function Header() {
+
+  const show = localStorage.getItem("location");
+  if (!show) {
+    localStorage.setItem("location", "1");
+    window.location.reload();
+
+
+  }
   console.log("fdgf", show);
+
+  const handleLocationChange = (e) => {
+    localStorage.setItem("location", e.target.value);
+    window.location.reload();
+  };
   return (
     <div>
       <nav className="main-menu sticky-header">
-        <div className="container-fluid">
+        <div className="container-fluid  ">
           <div className="main-menu__logo">
             <a href="/">
               <img
@@ -21,13 +34,257 @@ function Header({ show, setShow }) {
             </a>
           </div>
 
-          <ul className="main-menu__list steps-sampling">
+          <ul className="main-menu__list steps-sampling text-light">
             <li className="menu-item-has-children">
               <a id="link1" href="/">
                 Home
               </a>
-             
+
             </li>
+
+
+
+            <li className="menu-item-has-children servicNav steps-sampling">
+              <Link to="/about-us" className="dropbtn1z">
+                About Us
+              </Link>
+              <ul>
+                <li className="menu-item-has-children">
+                  <a
+
+                    href="/about-us"
+                  >
+                    About Right Time
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="/mission-statement">
+                        Mission statement
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/team">
+                        Team
+                      </a>                    </li>
+                    <li>
+                      <a href="/careers">
+                        Careers
+                      </a>                    </li>
+                    <li>
+                      <a href="/testmonial">
+                        Testimonials
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="/contact-us">
+                        Contact (Get in Touch)
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li className="menu-item-has-children">
+                  <a
+
+                    href="/events"
+                  >
+                    News & Events
+                  </a>                  <ul>
+                    <li>
+                      <a href="/press-release">
+                        Press Release{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/publication">
+                        Publications
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/events">
+                        Events
+                      </a>
+                    </li>
+
+                    <li><a href="/picture-gallery">
+                      Picture Galleries
+                    </a>
+                    </li>
+                  </ul>
+                </li>
+
+
+                <li className="menu-item-has-children servicNav steps-sampling">
+                  <a
+
+                    href="/association-partners"
+                  >
+                    Associations & Partners
+                  </a>
+                  <ul>
+                    <li className="menu-item-has-children">
+                      <a className="" href="/association-body">
+                        Association
+                      </a>
+                      <ul>
+                        <li>
+                        <a className="text-light"  href="/Cca">
+                            CCA, Ministry of ICT (First and 2022)
+                          </a>
+                        </li>
+                        <li>
+                        <Link className="text-light"  to="/Pci">
+                            PCI SSC, USA
+                          </Link>                   </li>
+                        <li>
+                        <Link className="text-light"  to="/WorlBank">
+                            World Bank Groups
+                          </Link>                  </li>
+                        <li>
+                        <Link className="text-light"  to="/Swift">SWIFT</Link>
+
+                        </li>
+
+                        <li>
+                        <Link className="text-light"  to="/Basis">BASIS</Link>
+
+                        </li>
+                        <li>
+                        <Link className="text-light"  to="/Ecab">E-Cab</Link>
+
+                        </li>
+                        <li>
+                        <Link className="text-light"  to="/Bcs">BCS</Link>
+
+                        </li>
+                      </ul>
+                    </li>
+
+
+                  </ul>
+
+
+                  <ul>
+                    <li className="menu-item-has-children">
+                    <a className="text-light" href="/partners">
+                        Partner
+                      </a>
+
+                      <ul>
+                    <li className="menu-item-has-children">
+                    <a className="text-light"  href="/service-partners">Service Partner</a>
+                      <ul>
+                        <li>
+                        <a className="text-light"href="/EcCouncil">EC-Council (Security Training Partner)</a>
+
+                        </li>
+                        <li>
+                        <a className="text-light" href="/PersonView">Pearson Vue (Exam testing Center)</a>
+                   </li>
+                        <li>
+                        <a className="text-light" href="/Pecb">PECB (ISO)</a>
+                  </li>
+                        <li>
+                        <a className="text-light" href="/Sck">SCK & ARS (ISO)</a>
+
+                        </li>
+
+                        <li>
+                        <a className="text-light" href="/Acnabin">ACNABIN (CA Firm for Financial Control)</a>
+
+                        </li>
+     
+                       
+                      </ul>
+                    </li>
+
+                    <li className="menu-item-has-children">
+                    <a  className="text-light" href="/solution-partners">Solution Partner</a>
+
+                      <ul>
+                        <li>
+                        <a className="text-light" href="/Invicti">INVICTI</a>
+
+                        </li>
+                        <li>
+                        <a className="mx-3 text-light" href="/netsparker">
+                                <i className="fas fa-caret-right "> </i> Net Sparker
+
+                              </a>                  </li>
+                        <li>
+                        <a className="mx-3 text-light" href="/acunetix">
+                                <i className="fas fa-caret-right "> </i>Acunetix etc.
+                              </a>                 </li>
+                        <li>
+                        <a className="text-light" href="/PortSwigger"> Port Swigger</a>
+
+                        </li>
+
+                        <li>
+                        <a className="mx-3 text-light" href="/BurpSuit">
+                                <i className="fas fa-caret-right "> </i>-	Burp Suite
+                              </a>
+                        </li>
+                        <li>
+                        <a className="text-light" href="/Tenable">Tenable (VA Management)”</a>
+
+                        </li>
+                        <li>
+                        <a className="mx-3 text-light" href="/Alltenable">
+                                <i className="fas fa-caret-right "> </i>All Tenable Products
+                              </a>
+                        </li>
+
+                        <li>
+                        <a className="text-light" href="/HelpSystem">
+                                HelpSystems
+                              </a>
+
+                        </li>
+
+                        <li>
+                        <a className="mx-3 text-light" href="/core-impact">
+                                <i className="fas fa-caret-right "> </i> Core Impact
+                              </a>
+                        </li>
+
+                        <li>
+                        <a className="text-light" href="/SafeAen"> Safe Aeon</a>
+
+                        </li>
+
+                        <li>
+                        <a className="mx-3 text-light" href="/ManageService">
+                                <i className="fas fa-caret-right "> </i> Managed service
+
+                              </a>
+                        </li>
+                      </ul>
+                    </li>
+
+
+                  </ul>
+
+                      
+                      
+                    </li>
+
+
+                  </ul>
+
+
+
+
+                </li>
+
+
+
+              </ul>
+            </li>
+
+
+
 
             <li className="dropdown serviceNav2 steps-sampling">
               <Link to="/about-us" className="dropbtn1z">
@@ -39,7 +296,7 @@ function Header({ show, setShow }) {
               >
                 <Container className="mt-4">
                   <Row>
-                    <Col style={{ borderRight: "1px solid #6f42c1" }}>
+                    <Col className="" style={{ borderRight: "1px solid #6f42c1" }}>
                       <a
                         style={{ fontWeight: "bold", color: "orange" }}
                         href="/about-us"
@@ -55,9 +312,9 @@ function Header({ show, setShow }) {
                       <a className="mt-3" href="/careers">
                         Careers
                       </a>
-                      
+
                       <a className="mt-3" href="/testmonial">
-                       Testimonials
+                        Testimonials
                       </a>
                       <a className="mt-3" href="/contact-us">
                         Contact (Get in Touch)
@@ -84,7 +341,7 @@ function Header({ show, setShow }) {
                       </a>
 
                       <a className="mt-2" href="/picture-gallery">
-                      	Picture Galleries
+                        Picture Galleries
                       </a>
                     </Col>
 
@@ -93,16 +350,16 @@ function Header({ show, setShow }) {
                         style={{ fontWeight: "bold", color: "orange" }}
                         href="/association-partners"
                       >
-                       Associations & Partners
+                        Associations & Partners
                       </a>
 
-                    
+
                       <a className="mt-3  divClass" href="/association-body">
-                      Association
-                         <i className="fas fa-caret-right  mx-3"></i>
-                        <span style={{ left: "200px"}} className="AnchorHide">
+                        Association
+                        <i className="fas fa-caret-right  mx-3"></i>
+                        <span style={{ left: "200px" }} className="AnchorHide">
                           <a href="/Cca">
-                          CCA, Ministry of ICT (First and 2022)
+                            CCA, Ministry of ICT (First and 2022)
                           </a>
 
                           <Link to="/Pci">
@@ -110,7 +367,7 @@ function Header({ show, setShow }) {
                           </Link>
 
                           <Link to="/WorlBank">
-                            World Bank Groups  
+                            World Bank Groups
                           </Link>
 
                           <Link to="/Swift">SWIFT</Link>
@@ -125,81 +382,81 @@ function Header({ show, setShow }) {
 
 
                       <a className="mt-3  divClass" href="/partners">
-                      Partner
-                         <i className="fas fa-caret-right  mx-3"></i>
-                        <span style={{ left: "200px",width:"500px"}} className="AnchorHide">
-                        <Row>
-                    <Col style={{borderRight:"1px solid #6f42c1"}}>
-                    <a  style={{fontWeight:"bold",color:"orange"}}href="/service-partners">Service Partner</a>
- 
-                      <a className="mt-3" href="/EcCouncil">EC-Council (Security Training Partner)</a>
-                 
-                      <a className="mt-3"  href="/PersonView">Pearson Vue (Exam testing Center)</a>
-                    
-                      <a className="mt-3"  href="/Pecb">PECB (ISO)</a>
-                   
-                    
-                      <a className="mt-3"  href="/Sck">SCK & ARS (ISO)</a>
-                   
-                      <a className="mt-3"  href="/Acnabin">ACNABIN (CA Firm for Financial Control)</a>
+                        Partner
+                        <i className="fas fa-caret-right  mx-3"></i>
+                        <span style={{ left: "200px", width: "500px" }} className="AnchorHide">
+                          <Row>
+                            <Col style={{ borderRight: "1px solid #6f42c1" }}>
+                              <a style={{ fontWeight: "bold", color: "orange" }} href="/service-partners">Service Partner</a>
 
-                    </Col>
+                              <a className="mt-3" href="/EcCouncil">EC-Council (Security Training Partner)</a>
 
-                  <Col>
-                  
-                  <a  style={{fontWeight:"bold",color:"orange"}}href="/solution-partners">Solution Partner</a>
-                   <a className="mt-3"  href="/Invicti">INVICTI</a>
-                      <a className="mx-3" href="/netsparker">
-                         <i className="fas fa-caret-right "> </i> Net Sparker
+                              <a className="mt-3" href="/PersonView">Pearson Vue (Exam testing Center)</a>
 
-                      </a>
-                      <a className="mx-3" href="/acunetix">
-                         <i className="fas fa-caret-right "> </i>Acunetix etc.
-                      </a>
+                              <a className="mt-3" href="/Pecb">PECB (ISO)</a>
 
 
-                      <a className="mt-3"  href="/PortSwigger"> Port Swigger</a>
-                     
-                      <a className="mx-3" href="/BurpSuit">
-                         <i className="fas fa-caret-right "> </i>-	Burp Suite
-                      </a>
+                              <a className="mt-3" href="/Sck">SCK & ARS (ISO)</a>
+
+                              <a className="mt-3" href="/Acnabin">ACNABIN (CA Firm for Financial Control)</a>
+
+                            </Col>
+
+                            <Col>
+
+                              <a style={{ fontWeight: "bold", color: "orange" }} href="/solution-partners">Solution Partner</a>
+                              <a className="mt-3" href="/Invicti">INVICTI</a>
+                              <a className="mx-3" href="/netsparker">
+                                <i className="fas fa-caret-right "> </i> Net Sparker
+
+                              </a>
+                              <a className="mx-3" href="/acunetix">
+                                <i className="fas fa-caret-right "> </i>Acunetix etc.
+                              </a>
+
+
+                              <a className="mt-3" href="/PortSwigger"> Port Swigger</a>
+
+                              <a className="mx-3" href="/BurpSuit">
+                                <i className="fas fa-caret-right "> </i>-	Burp Suite
+                              </a>
 
 
 
-                      <a className="mt-3"  href="/Tenable">Tenable (VA Management)”</a>
-                      <a className="mx-3" href="/Nessus">
-                         <i className="fas fa-caret-right "> </i> Nessus Pro
+                              <a className="mt-3" href="/Tenable">Tenable (VA Management)”</a>
+                              <a className="mx-3" href="/Nessus">
+                                <i className="fas fa-caret-right "> </i> Nessus Pro
 
-                      </a>
-                      <a className="mx-3" href="/Alltenable">
-                         <i className="fas fa-caret-right "> </i>All Tenable Products
-                      </a>
+                              </a>
+                              <a className="mx-3" href="/Alltenable">
+                                <i className="fas fa-caret-right "> </i>All Tenable Products
+                              </a>
 
- 
-                      <a className="mt-3"  href="/HelpSystem">
-                         HelpSystems
-                      </a>
 
-                      <a className="mx-3" href="/core-impact">
-                         <i className="fas fa-caret-right "> </i> Core Impact
-                      </a>
+                              <a className="mt-3" href="/HelpSystem">
+                                HelpSystems
+                              </a>
 
-                      <a className="mt-3"  href="/SafeAen"> Safe Aeon</a>
-                      <a className="mx-3" href="/ManageService">
-                         <i className="fas fa-caret-right "> </i> Managed service
+                              <a className="mx-3" href="/core-impact">
+                                <i className="fas fa-caret-right "> </i> Core Impact
+                              </a>
 
-                      </a>
-                  
-                      
+                              <a className="mt-3" href="/SafeAen"> Safe Aeon</a>
+                              <a className="mx-3" href="/ManageService">
+                                <i className="fas fa-caret-right "> </i> Managed service
 
-                  </Col>
+                              </a>
 
-                  
-                </Row>
+
+
+                            </Col>
+
+
+                          </Row>
                         </span>
                       </a>
-                      
-                    
+
+
                     </Col>
                   </Row>
                 </Container>
@@ -213,12 +470,12 @@ function Header({ show, setShow }) {
                   <Link to="/bank-nbfi">FIs - Bank & NBFI</Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to="/telecomunication">
+                  <Link className=" lineHght" to="/telecomunication">
                     Mobile & Telecommunications
                   </Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to="payment-card">
+                  <Link className=" lineHght" to="payment-card">
                     Payment Gateways and Payment Processor
                   </Link>
                 </li>
@@ -231,7 +488,7 @@ function Header({ show, setShow }) {
                   </Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to="/ecommerce-retail">
+                  <Link className=" lineHght" to="/ecommerce-retail">
                     E-Commence & Retail Merchants
                   </Link>
                 </li>
@@ -258,7 +515,7 @@ function Header({ show, setShow }) {
               <div className="dropdown-content">
                 <Container className="mt-4">
                   <Row>
-                    <Col md={3} 
+                    <Col md={3}
                       className="consultation"
                       style={{ borderRight: "1px solid #6f42c1" }}
                     >
@@ -275,10 +532,10 @@ function Header({ show, setShow }) {
                         href="/information-security-Special"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                        Information Security  & Cyber Security 
+                        Information Security  & Cyber Security
                       </a>
 
-                    
+
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -312,7 +569,7 @@ function Header({ show, setShow }) {
                       >
                         <i className="fas fa-circle iconStyle "> </i>    CMMI Consultation
                       </a>
-                      
+
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -320,7 +577,7 @@ function Header({ show, setShow }) {
                         href="/project-management"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                        Project Management 
+                        Project Management
                       </a>
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -330,8 +587,8 @@ function Header({ show, setShow }) {
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Consultation on Shaping up DC & DRS
                       </a>
-                   
-                      
+
+
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -342,7 +599,7 @@ function Header({ show, setShow }) {
                         Documentation On ITES
                       </a>
 
-                  
+
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -351,7 +608,7 @@ function Header({ show, setShow }) {
                       >
                         <i className="fas fa-circle iconStyle "> </i>  Zero Trust Architecture
                       </a>
-                     
+
                       <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
@@ -376,14 +633,14 @@ function Header({ show, setShow }) {
                       </a>
 
 
-                   
 
-                      
 
-                       
+
+
+
                     </Col>
 
-                    <Col md={2} 
+                    <Col md={2}
                       className="consultation"
                       style={{ borderRight: "1px solid #6f42c1" }}
                     >
@@ -428,15 +685,15 @@ function Header({ show, setShow }) {
                       </a>
 
                       <a className="mt-3" href="/soc-1">
-                        <i className="fas fa-circle iconStyle "> </i>  SOC1 Audit 
+                        <i className="fas fa-circle iconStyle "> </i>  SOC1 Audit
                       </a>
 
                       <a className="mt-3" href="/soc-2">
-                        <i className="fas fa-circle iconStyle "> </i> SOC2 Audit 
+                        <i className="fas fa-circle iconStyle "> </i> SOC2 Audit
                       </a>
                     </Col>
 
-                    <Col md={2} 
+                    <Col md={2}
                       className="consultation"
                       style={{ borderRight: "1px solid #6f42c1" }}
                     >
@@ -498,10 +755,10 @@ function Header({ show, setShow }) {
                         Forensics
                       </a>
 
-                       
-                    
 
-                     
+
+
+
                     </Col>
 
                     <Col
@@ -570,10 +827,10 @@ function Header({ show, setShow }) {
                         Certification
                       </a>
 
-                     
+
                     </Col>
 
-                    <Col md={3}  className="consultation">
+                    <Col md={3} className="consultation">
                       <a
                         style={{ fontWeight: "bold", color: "orange" }}
                         href="/managed-service"
@@ -586,7 +843,7 @@ function Header({ show, setShow }) {
                         Service
                       </a>
 
-                      
+
 
                       <a
                         style={{ lineHeight: "1.2" }}
@@ -621,27 +878,27 @@ function Header({ show, setShow }) {
                         href="/va-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                        	Vulnerability Assessment (VA) As A Service </a>
+                        Vulnerability Assessment (VA) As A Service </a>
 
-                          <a
+                      <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
                         href="/pt-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                      	Penetration Testing (PT) as a Service  </a>
+                        Penetration Testing (PT) as a Service  </a>
 
-                        <a
+                      <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
                         href="/dam-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
-                      	 	DAM (Database Auditing & Management) as a Service </a>
+                        DAM (Database Auditing & Management) as a Service </a>
 
-                        
-                    
-                         <a
+
+
+                      <a
                         style={{ lineHeight: "1.2" }}
                         className="mt-3"
                         href="/Attact-surface"
@@ -742,10 +999,10 @@ function Header({ show, setShow }) {
                     </li>
                     <li>
                       <Link to="/code-review">Code Review</Link>
-                      <a style={{ lineHeight: "1.2" }} href="/software-quality">
+                      <a className=" lineHght" href="/software-quality">
                         Software Quality Assurance & Testing
                       </a>
-                      <Link style={{ lineHeight: "1.2" }} to="/swift-csp">
+                      <Link className=" lineHght" to="/swift-csp">
                         Swift Csp Indpended Assessment
                       </Link>
                     </li>
@@ -755,7 +1012,7 @@ function Header({ show, setShow }) {
                   <Link to="/certification">Certification</Link>
                   <ul>
                     <li>
-                      <Link style={{ lineHeight: "1.2" }} to="/pci-dss-payment">
+                      <Link className=" lineHght" to="/pci-dss-payment">
                         Payment Card Industry Data Security Standards
                       </Link>
                     </li>
@@ -768,7 +1025,7 @@ function Header({ show, setShow }) {
                       </Link>
                     </li>
                     <li>
-                      <Link style={{ lineHeight: "1.2" }} to="/cmmi">
+                      <Link className=" lineHght" to="/cmmi">
                         Capability Maturity Model Integration (CMMI)
                       </Link>
                     </li>
@@ -807,9 +1064,9 @@ function Header({ show, setShow }) {
                       </a>
 
                       <a className="mt-3" href="/burp-suite">
-                      Burp Suite (web PT)                  </a>
+                        Burp Suite (web PT)                  </a>
                       <a className="mt-3" href="/netsparker">
-                      Net Sparker (web assessment)
+                        Net Sparker (web assessment)
                       </a>
 
                       <a
@@ -821,11 +1078,11 @@ function Header({ show, setShow }) {
                       </a>
 
                       <a className="mt-3" href="/acunetix">
-                      Acunetix (web VA & PT)
+                        Acunetix (web VA & PT)
                       </a>
 
                       <a className="mt-3" href="/core-impact">
-                      Core Impact (PT) 
+                        Core Impact (PT)
                       </a>
                     </Col>
 
@@ -840,22 +1097,29 @@ function Header({ show, setShow }) {
                       >
                         Cyber Security Management & Visibility solutions
                       </a>
-                      <a className="mt-3" href="/siem">
-                        SIEM
+                      <a className="mt-3" href="/digital-asset">
+                      Digital Asset Protection
                       </a>
-                      <a className="mt-3" href="/firewall">
-                        Firewall 
+                      <a className="mt-3" href="/network-application">
+                      Data, Network & Application Management
                       </a>
-                     
-                       <a className="mt-3" href="/patch-management">
-                        Patch management{" "}
+
+                      <a className="mt-3" href="/digital-transformation">
+                      Digital Transformation Solutions
                       </a>
                       <a
                         className="mt-3"
                         style={{ lineHeight: "1.2" }}
-                        href="/privilege-access "
+                        href="/work-from-home "
                       >
-                         PAM
+                      Work From Home Solutions
+                      </a>
+                      <a
+                        className="mt-3"
+                        style={{ lineHeight: "1.2" }}
+                        href="/stack-for-alm"
+                      >
+                      Dx Stack for ALM & Infrastructure
                       </a>
                     </Col>
                   </Row>
@@ -864,7 +1128,7 @@ function Header({ show, setShow }) {
             </li>
 
             <li className="servicNav">
-              <Link style={{ lineHeight: "1.2" }} to="/Solution">
+              <Link className=" lineHght" to="/Solution">
                 Security Assessment (VA & Tools)
               </Link>
               <ul>
@@ -884,7 +1148,7 @@ function Header({ show, setShow }) {
                     </li>
                     <li>
                       <Link to="https://arscert.com/certification/">
-                      Core Impact (PT) 
+                        Core Impact (PT)
                       </Link>
                     </li>
                   </ul>
@@ -1006,8 +1270,8 @@ function Header({ show, setShow }) {
                         (CISSP)
                       </a>
                       <a className="mt-2" href="/giac-certified-incident">
-                      GIAC Certified Incident Handler
-(GCIH)
+                        GIAC Certified Incident Handler
+                        (GCIH)
                       </a>
                       <a className="mt-2" href="/giac-certified-project">
                         GIAC Certified Project Manager (GCPM){" "}
@@ -1041,7 +1305,7 @@ function Header({ show, setShow }) {
                           <a href="/basic-corporate" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
-                            	Network Security Fundamentals (FNS)
+                            Network Security Fundamentals (FNS)
                           </a>
                           <a href="/basic-corporate" className="mx-3">
                             {" "}
@@ -1304,7 +1568,7 @@ function Header({ show, setShow }) {
                       </Link>
                     </li>
                     <li>
-                      <Link style={{ lineHeight: "1.2" }} to="/open-source">
+                      <Link className=" lineHght" to="/open-source">
                         Open Source Intelligence(OSINT)
                       </Link>
                     </li>
@@ -1600,20 +1864,20 @@ function Header({ show, setShow }) {
               </ul>
             </li> */}
 
-          <li className="menu-item-has-children">
+            <li className="menu-item-has-children">
               <Link to="/resources">Resources</Link>
               <ul>
                 <li>
                   <Link to="/blogs">	Blogs</Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to="/case-studies">
-                 Case Studies
+                  <Link className=" lineHght" to="/case-studies">
+                    Case Studies
                   </Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to="/Checklists">
-                  Checklists
+                  <Link className=" lineHght" to="/Checklists">
+                    Checklists
                   </Link>
                 </li>
                 <li>
@@ -1621,12 +1885,12 @@ function Header({ show, setShow }) {
                     style={{ lineHeight: "1.2" }}
                     to="/WhitePapers"
                   >
-                    	WhitePapers
+                    WhitePapers
                   </Link>
                 </li>
                 <li>
-                  <Link style={{ lineHeight: "1.2" }} to="/Infographics">
-                  	Infographics
+                  <Link className=" lineHght" to="/Infographics">
+                    Infographics
                   </Link>
                 </li>
                 <li>
@@ -1638,7 +1902,7 @@ function Header({ show, setShow }) {
                 {/* <li>
                   <Link to="/health-care">Health Care</Link>
                 </li> */}
-               
+
               </ul>
             </li>
 
@@ -1691,16 +1955,10 @@ function Header({ show, setShow }) {
                   </span>
                 </>
               )}
-
-              {/* <!-- /.main-menu__cta__text --> */}
             </Link>
-            {/* <!-- /.main-menu__cta --> */}
           </div>
-          {/* <!-- /.main-menu__right --> */}
         </div>
-        {/* <!-- /.container-fluid --> */}
       </nav>
-      {/* <!-- /.main-menu --> */}
 
       <div className="mobile-nav__wrapper">
         <div className="mobile-nav__overlay mobile-nav__toggler"></div>
@@ -1724,15 +1982,14 @@ function Header({ show, setShow }) {
           <div className="mobile-nav__container"></div>
 
           <ul className="mobile-mobile-nav__country">
-            <h5>Select Country</h5>
+            <h5 className="text-light">Select Country</h5>
             {/* <li><Link to="/"><img src="/assets/images/flag/usa.png" width="40px"/></Link></li>
           <li><Link to="/"><img src="/assets/images/flag/aus.png" width="40px"/></Link></li>
           <li><Link to="/"><img src="/assets/images/flag/de.png" width="40px"/></Link></li>  */}
             <select
               className="mobileTopbar text-light"
-              onChange={(event) => {
-                setShow(event.target.value);
-              }}
+              value={show}
+              onChange={handleLocationChange}
             >
               <option value="1">
                 <Link to="/">BD</Link>
@@ -1749,7 +2006,7 @@ function Header({ show, setShow }) {
             </select>
           </ul>
 
-          <ul className="mobile-nav__contact list-unstyled">
+          <ul className="mobile-nav__contact list-unstyled text-light">
             {show === "1" ? (
               <>
                 <li>
@@ -1782,7 +2039,7 @@ function Header({ show, setShow }) {
                 <li>
                   <i className="fa fa-map-marker"></i>
                   5669 N Fresno St, Apt 232
-Fresno, CA 93710      </li>
+                  Fresno, CA 93710      </li>
               </>
             ) : show === "3" ? (
               <>
@@ -1812,27 +2069,11 @@ Fresno, CA 93710      </li>
               </>
             )}
           </ul>
-          <ul className="mobile-nav__social">
-            <li>
-              <Link to="/">
-                <i className="fab fa-twitter"></i>
-              </Link>
-            </li>
-            <li>
-              <Link to="/">
-                <i className="fab fa-facebook-f"></i>
-              </Link>
-            </li>
-            <li>
-              <Link to="/">
-                <i className="fab fa-pinterest-p"></i>
-              </Link>
-            </li>
-            <li>
-              <Link to="/">
-                <i className="fab fa-instagram"></i>
-              </Link>
-            </li>
+          <ul className="mobile-nav__social mx-4">
+            <li><a style={{ backgroundColor: "#2ea9f3" }} href="/"><i class="fab fa-twitter"></i></a></li>
+            <li><a style={{ backgroundColor: "#008def" }} href="/"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a style={{ backgroundColor: "#d9387a" }} href="/"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a style={{ backgroundColor: "#eb733b" }} href="/"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
