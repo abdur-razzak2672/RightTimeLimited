@@ -21,7 +21,7 @@ function Solution() {
             </a>
           </div>
         </div>
-      </section>
+      </section><br/><br/>
     </div>
   );
 }

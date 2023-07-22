@@ -25,12 +25,12 @@ function Footer({ show }) {
 
 
   return (
-    <div>
-      <div className="footer-main section-padding--bottom footer-main--top-padding section-padding--top">
+    <div  >
+      <div className="footer-main section-padding--bottom footer-main--top-padding ">
         <div className=" px-5"  >
-          <div className="row gutter-y-30">
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="footer-widget footer-widget--about">
+          <div  className="row footitem gutter-y-30"> 
+            <div className="col-lg-3 col-md-6 col-sm-12"> 
+              <div className="footer-widget footer-widget--about"> 
                 {/* <a href="/" className="footer-widget__logo">
                   <img
                     src="/assets/images/images-removebg-preview.png"
@@ -47,20 +47,20 @@ function Footer({ show }) {
 
                       <ul className="footer-widget__contact">
                         <li>
-                          <i className="fa fa-phone"></i>
-                          <a className="m-3" href="/"> +88 02550 12235,</a>
+                          <i className="fa fa-phone  "></i>
+                          <a className="mx-4" href="/"> +88 02550 12235,</a>
                         </li>
                         <li>
                           <i className="fa fa-phone"></i>
-                          <a className="m-3" href="/"> +88 01318 013300,</a>
+                          <a className="mx-4" href="/"> +88 01318 013300,</a>
                         </li>
                         <li>
                           <i className="fa fa-envelope"></i>
-                          <a className="m-3" href="/">info@righttime.biz</a>
+                          <a className="mx-4" href="/">info@righttime.biz</a>
                         </li>
                         <li>
                           <i className="fa fa-map-marker-alt"></i>
-                          <p className="m-3"> Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar,
+                          <p className="mx-4"> Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar,
                             Tejgaon Post Code: 1215 <br />
                             Dhaka, Bangladesh</p>
                         </li>
@@ -76,16 +76,16 @@ function Footer({ show }) {
                         <ul className="footer-widget__contact">
                           <li>
                             <i className="fa fa-phone"></i>
-                            <a className="m-3" href="tel:+18187790442"> +1510 298 6114</a>
+                            <a className="mx-4"href="tel:+18187790442"> +1510 298 6114</a>
                           </li>
                         
                           <li>
                             <i className="fa fa-envelope"></i>
-                            <a className="m-3" href="mailto:coo.usa@righttime.biz">  coo.usa@righttime.biz</a>
+                            <a className="mx-4" href="mailto:coo.usa@righttime.biz">  coo.usa@righttime.biz</a>
                           </li>
                           <li>
                             <i className="fa fa-map-marker-alt"></i>
-                            <p className="m-3"> 5669 N Fresno St, Apt 232
+                            <p className="mx-4"> 5669 N Fresno St, Apt 232
 Fresno, CA 93710</p>
                           </li>
                         </ul>
@@ -97,19 +97,19 @@ Fresno, CA 93710</p>
                           <ul className="footer-widget__contact">
                             <li>
                               <i className="fa fa-phone"></i>
-                              <a className="m-3" href="tel:+61490517545"> (+61) 490517545,</a>
+                              <a className="mx-4" href="tel:+61490517545"> (+61) 490517545,</a>
                             </li>
                             <li>
                               <i className="fa-solid fa-fax"></i>
-                              <a className="m-3" href="tel:+61490517545"> (+61) 490517545,</a>
+                              <a className="mx-4" href="tel:+61490517545"> (+61) 490517545,</a>
                             </li>
                             <li>
                               <i className="fa fa-envelope"></i>
-                              <a className="m-3" href="mailto:coo.au@righttime.biz">coo.au@righttime.biz</a>
+                              <a className="mx-4" href="mailto:coo.au@righttime.biz">coo.au@righttime.biz</a>
                             </li>
                             <li>
                               <i className="fa fa-map-marker-alt"></i>
-                              <p className="m-3">11 Dahlia St. Quakers Hill,NSW 2763<br />
+                              <p className="mx-4">11 Dahlia St. Quakers Hill,NSW 2763 
                                 Sydney,Australia.</p>
                             </li>
                           </ul>
@@ -121,19 +121,19 @@ Fresno, CA 93710</p>
                           <ul className="footer-widget__contact">
                             <li>
                               <i className="fa fa-phone"></i>
-                              <a className="m-3" href="tel:+492311377672"> (+49) 2311377672,</a>
+                              <a className="mx-4" href="tel:+492311377672"> (+49) 2311377672,</a>
                             </li>
                             <li>
                               <i className="fa-solid fa-fax"></i>
-                              <a className="m-3" href="">(+49) 01624069887</a>
+                              <a className="mx-4" href="">(+49) 01624069887</a>
                             </li>
                             <li>
                               <i className="fa fa-envelope"></i>
-                              <a className="m-3" href="mailto:coo.de@righttime.biz">coo.de@righttime.biz</a>
+                              <a className="mx-4" href="mailto:coo.de@righttime.biz">coo.de@righttime.biz</a>
                             </li>
                             <li>
                               <i className="fa fa-map-marker-alt"></i>
-                              <p className="m-3"> Hausmann str-1.44139, <br />Dortmund. Germany</p>
+                              <p className="mx-4"> Hausmann str-1.44139, <br />Dortmund. Germany</p>
                             </li>
                           </ul>
                         </>
@@ -163,12 +163,12 @@ Fresno, CA 93710</p>
                   <li>
                     <a href="/digital-forensics">Digital Forensics</a>
                   </li>
-
-                  <li className="mt-2">
-                  <a style={{backgroundColor:"#9c2ede",fontSize:"15px"}} href="/contact-us" className="mt-3 p-2  rounded-5">
+                  <li>
+                  <a href="/contact-us" className="mt-3 rounded-5">
                     <span className="text-light">Subscrib Now<i className="mx-3 fas fa-arrow-right"></i></span> 
-                  </a>
-                  </li>
+                  </a>                  </li>
+
+                  
                  
 
                 </ul>
@@ -196,13 +196,13 @@ Fresno, CA 93710</p>
                   <li>
                     <a href="/incident">Incident</a>
                   </li>
+                  <li>
+                  <a href="/all-job" className="mt-3 rounded-5">
+                    <span className="text-light text-center">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span> 
+                  </a>                  </li>
                  
 
-                  <li className="mt-5">
-                  <a style={{backgroundColor:"#9c2ede",fontSize:"15px"}} href="/all-job" className="mt-3 p-2  rounded-5">
-                    <span className="text-light text-center">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span> 
-                  </a>
-                  </li>
+                 
 
                 </ul>
                 <div className="mc-form__response"></div>
@@ -243,7 +243,7 @@ Fresno, CA 93710</p>
 
         </div>
 
-        <div>
+        <div className="social">
         <ul class="footer-widget__social">
               <li><a style={{backgroundColor:"#2ea9f3"}} href="/"><i class="fab fa-twitter"></i></a></li>
               <li><a style={{backgroundColor:"#008def"}} href="/"><i class="fab fa-facebook-f"></i></a></li>
@@ -255,19 +255,36 @@ Fresno, CA 93710</p>
 
 
       </div>
-      <div className="footer-bottom row">
+ 
+        <div className="footer-bottom">
+   
+
+      <div className=" container p-3">
+        <div >
+        <p className="text-center mt-2 ">
+        <img className="mx-2" width="80px" src="assets/images/footer/ssl.png" alt=""/>
+
+            &copy; 2023 All Copyright <span className="dynamic-year"></span> by Right
+            Time Limited
+          </p>
+
+
+        </div>
+      </div> 
+        </div>
+      {/* <div className="footer-bottom row">
         <div className="col-md-4 p-4  mx-4">
-          <img width="120px" src="assets/images/footer/ssl.png" alt=""/>
+          <img width="80px" src="assets/images/footer/ssl.png" alt=""/>
           </div>
           <div className ="col-lg-7 mt-4 ">
-          <p className="mx-4">
+          <p className=" ">
             &copy; All Copyright <span className="dynamic-year"></span> by Right
             Time Limited
           </p>
           </div>
           
         
-      </div>
+      </div> */}
     </div>
   );
 }
