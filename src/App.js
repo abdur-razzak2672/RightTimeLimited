@@ -104,8 +104,13 @@ import BurpSuite from "./views/Solutions/BurpSuite";
 import CoreImpact from "./views/Solutions/CoreImpact";
 import FireWall from "./views/Solutions/FireWall";
 import NetSparker from "./views/Solutions/NetSparker";
-import Siem from "./views/Solutions/Siem";
+import DigitalAsset from "./views/Solutions/DigitalAsset";
 import SmartContact from "./views/Solutions/SmartContact";
+
+import StackforAlm from "./views/Solutions/StackforAlm";
+import NetworkApplication from "./views/Solutions/NetworkApplication";
+import DigitalTransformation from "./views/Solutions/DigitalTransformation";
+import WorkFromHome from "./views/Solutions/WorkFromHome";
 //Solution Section Imported End
 
 //Trainig Section Imported Start
@@ -200,6 +205,8 @@ import Sck from "./views/Partners/ServicePertner/Sck";
 // Service Partners Section Imported End
 
 // Solution Partners Section Imported Start
+
+
 
 import Alltenable from "./views/Partners/SolutionPartner/Alltenable";
 import BurpSuit from "./views/Partners/SolutionPartner/BurpSuit";
@@ -576,11 +583,16 @@ Fresno, CA 93710
         <Route path="/core-impact" component={CoreImpact} exact />
         <Route path="/firewall" component={FireWall} exact />
         <Route path="/netsparker" component={NetSparker} exact />
-        <Route path="/siem" component={Siem} exact />
+        <Route path="/digital-asset" component={DigitalAsset} exact />
         <Route path="/patch-management" component={SmartContact} exact />
         <Route path="/privilege-access" component={PrivillegeAccess} exact />
         <Route path="/secuirity-assessment" component={SecuirityAssessment} exact />
         <Route path="/secuirity-management" component={SecuirityManagement} exact />
+        <Route path="/stack-for-alm" component={StackforAlm} exact />
+        <Route path="/network-application" component={NetworkApplication} exact />
+        <Route path="/digital-transformation" component={DigitalTransformation} exact />
+        <Route path="/work-from-home" component={WorkFromHome} exact />
+        
 
 
 
@@ -680,9 +692,9 @@ Fresno, CA 93710
       </div>
       {/* Footer Section Route Declaration */}
        <Footer show = {show} />
-<a href="javascript:void(0);" data-target="html" className="scroll-to-target scroll-to-top">
+{/* <a href="javascript:void(0);" data-target="html" className="scroll-to-target scroll-to-top">
         <i className="fa fa-angle-up"></i>
-      </a>
+      </a> */}
   </div>
       
       
