@@ -129,33 +129,33 @@ function Header() {
                       </a>
                       <ul>
                         <li>
-                        <a className="text-light"  href="/Cca">
+                          <a className="text-light" href="/Cca">
                             CCA, Ministry of ICT (First and 2022)
                           </a>
                         </li>
                         <li>
-                        <Link className="text-light"  to="/Pci">
+                          <Link className="text-light" to="/Pci">
                             PCI SSC, USA
                           </Link>                   </li>
                         <li>
-                        <Link className="text-light"  to="/WorlBank">
+                          <Link className="text-light" to="/WorlBank">
                             World Bank Groups
                           </Link>                  </li>
                         <li>
-                        <Link className="text-light"  to="/Swift">SWIFT</Link>
+                          <Link className="text-light" to="/Swift">SWIFT</Link>
 
                         </li>
 
                         <li>
-                        <Link className="text-light"  to="/Basis">BASIS</Link>
+                          <Link className="text-light" to="/Basis">BASIS</Link>
 
                         </li>
                         <li>
-                        <Link className="text-light"  to="/Ecab">E-Cab</Link>
+                          <Link className="text-light" to="/Ecab">E-Cab</Link>
 
                         </li>
                         <li>
-                        <Link className="text-light"  to="/Bcs">BCS</Link>
+                          <Link className="text-light" to="/Bcs">BCS</Link>
 
                         </li>
                       </ul>
@@ -167,107 +167,107 @@ function Header() {
 
                   <ul>
                     <li className="menu-item-has-children">
-                    <a className="text-light" href="/partners">
+                      <a className="text-light" href="/partners">
                         Partner
                       </a>
 
                       <ul>
-                    <li className="menu-item-has-children">
-                    <a className="text-light"  href="/service-partners">Service Partner</a>
-                      <ul>
-                        <li>
-                        <a className="text-light"href="/EcCouncil">EC-Council (Security Training Partner)</a>
+                        <li className="menu-item-has-children">
+                          <a className="text-light" href="/service-partners">Service Partner</a>
+                          <ul>
+                            <li>
+                              <a className="text-light" href="/EcCouncil">EC-Council (Security Training Partner)</a>
 
+                            </li>
+                            <li>
+                              <a className="text-light" href="/PersonView">Pearson Vue (Exam testing Center)</a>
+                            </li>
+                            <li>
+                              <a className="text-light" href="/Pecb">PECB (ISO)</a>
+                            </li>
+                            <li>
+                              <a className="text-light" href="/Sck">SCK & ARS (ISO)</a>
+
+                            </li>
+
+                            <li>
+                              <a className="text-light" href="/Acnabin">ACNABIN (CA Firm for Financial Control)</a>
+
+                            </li>
+
+
+                          </ul>
                         </li>
-                        <li>
-                        <a className="text-light" href="/PersonView">Pearson Vue (Exam testing Center)</a>
-                   </li>
-                        <li>
-                        <a className="text-light" href="/Pecb">PECB (ISO)</a>
-                  </li>
-                        <li>
-                        <a className="text-light" href="/Sck">SCK & ARS (ISO)</a>
 
-                        </li>
+                        <li className="menu-item-has-children">
+                          <a className="text-light" href="/solution-partners">Solution Partner</a>
 
-                        <li>
-                        <a className="text-light" href="/Acnabin">ACNABIN (CA Firm for Financial Control)</a>
+                          <ul>
+                            <li>
+                              <a className="text-light" href="/Invicti">INVICTI</a>
 
-                        </li>
-     
-                       
-                      </ul>
-                    </li>
-
-                    <li className="menu-item-has-children">
-                    <a  className="text-light" href="/solution-partners">Solution Partner</a>
-
-                      <ul>
-                        <li>
-                        <a className="text-light" href="/Invicti">INVICTI</a>
-
-                        </li>
-                        <li>
-                        <a className="mx-3 text-light" href="/netsparker">
+                            </li>
+                            <li>
+                              <a className="mx-3 text-light" href="/netsparker">
                                 <i className="fas fa-caret-right "> </i> Net Sparker
 
                               </a>                  </li>
-                        <li>
-                        <a className="mx-3 text-light" href="/acunetix">
+                            <li>
+                              <a className="mx-3 text-light" href="/acunetix">
                                 <i className="fas fa-caret-right "> </i>Acunetix etc.
                               </a>                 </li>
-                        <li>
-                        <a className="text-light" href="/PortSwigger"> Port Swigger</a>
+                            <li>
+                              <a className="text-light" href="/PortSwigger"> Port Swigger</a>
 
-                        </li>
+                            </li>
 
-                        <li>
-                        <a className="mx-3 text-light" href="/BurpSuit">
+                            <li>
+                              <a className="mx-3 text-light" href="/BurpSuit">
                                 <i className="fas fa-caret-right "> </i>-	Burp Suite
                               </a>
-                        </li>
-                        <li>
-                        <a className="text-light" href="/Tenable">Tenable (VA Management)”</a>
+                            </li>
+                            <li>
+                              <a className="text-light" href="/Tenable">Tenable (VA Management)”</a>
 
-                        </li>
-                        <li>
-                        <a className="mx-3 text-light" href="/Alltenable">
+                            </li>
+                            <li>
+                              <a className="mx-3 text-light" href="/Alltenable">
                                 <i className="fas fa-caret-right "> </i>All Tenable Products
                               </a>
-                        </li>
+                            </li>
 
-                        <li>
-                        <a className="text-light" href="/HelpSystem">
+                            <li>
+                              <a className="text-light" href="/HelpSystem">
                                 HelpSystems
                               </a>
 
-                        </li>
+                            </li>
 
-                        <li>
-                        <a className="mx-3 text-light" href="/core-impact">
+                            <li>
+                              <a className="mx-3 text-light" href="/core-impact">
                                 <i className="fas fa-caret-right "> </i> Core Impact
                               </a>
-                        </li>
+                            </li>
 
-                        <li>
-                        <a className="text-light" href="/SafeAen"> Safe Aeon</a>
+                            <li>
+                              <a className="text-light" href="/SafeAen"> Safe Aeon</a>
 
-                        </li>
+                            </li>
 
-                        <li>
-                        <a className="mx-3 text-light" href="/ManageService">
+                            <li>
+                              <a className="mx-3 text-light" href="/ManageService">
                                 <i className="fas fa-caret-right "> </i> Managed service
 
                               </a>
+                            </li>
+                          </ul>
                         </li>
+
+
                       </ul>
-                    </li>
 
 
-                  </ul>
 
-                      
-                      
                     </li>
 
 
@@ -481,7 +481,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    style={{ lineHeight: "1.2" }}
+                    className=" lineHght"
                     to="/educational-institutions"
                   >
                     Educational Institutions
@@ -527,8 +527,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght   mt-3 "
                         href="/information-security-Special"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
@@ -538,16 +537,14 @@ function Header() {
 
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght   mt-3 "
                         href="/pci-dss-consultation"
                       >
                         <i className="fas fa-circle iconStyle "> </i> PCI DSS
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght   mt-3 "
                         href="/swift-cyber-security"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Swift
@@ -555,16 +552,14 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/iso-international"
                       >
                         <i className="fas fa-circle iconStyle "> </i>   ISO  Consultation
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/cmmi"
                       >
                         <i className="fas fa-circle iconStyle "> </i>    CMMI Consultation
@@ -572,16 +567,14 @@ function Header() {
 
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/project-management"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Project Management
                       </a>
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/consultation-on-shaping"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
@@ -591,8 +584,7 @@ function Header() {
 
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/technical-documentation"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Technical
@@ -602,31 +594,27 @@ function Header() {
 
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/zero-trust"
                       >
                         <i className="fas fa-circle iconStyle "> </i>  Zero Trust Architecture
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/industry-4.0"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Industry 4.0
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght   mt-3 "
                         href="/Six-sigma"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Six Sigma Consultation
                       </a>
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/Lean-Consultation"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Lean  Consultation
@@ -652,32 +640,28 @@ function Header() {
                         Auditing
                       </a>
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/information-system"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Information System Audit
                       </a>
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/information-technology"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Information Technology Audit
                       </a>
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght   mt-3 "
                         href="/information-security-graded"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Information Security Graded Audit
                       </a>
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/dc-drs-auditing"
                       >
                         <i className="fas fa-circle iconStyle "> </i> DC & DRS
@@ -705,8 +689,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/vulnerability-assessment"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
@@ -714,8 +697,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/swift-csp"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Swift CSP
@@ -723,8 +705,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght   mt-3 "
                         href="/software-quality"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Software
@@ -736,15 +717,13 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/breach-attack"
                       >
                         <i className="fas fa-circle iconStyle "> </i>  Breach Attack Simulation
                       </a>
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght   mt-3 "
                         href="/poster-assessment"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Cyber Security Posture Assessment
@@ -774,8 +753,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/pci-dss-payment"
                       >
                         <i className="fas fa-circle iconStyle "> </i> PCI DSS
@@ -783,15 +761,14 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/iso-international"
                       >
                         <i className="fas fa-circle iconStyle "> </i> 	ISO Certification
                       </a>
 
                       {/* <a
-                        style={{ lineHeight: "1.2" }}
+                         className=" lineHght" 
                         className="mt-3"
                         href="/iso-international"
                       >
@@ -801,8 +778,7 @@ function Header() {
                       </a> */}
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/cmmi"
                       >
                         <i className="fas fa-circle iconStyle "> </i> CMMI
@@ -810,8 +786,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/tia-for-data-center"
                       >
                         <i className="fas fa-circle iconStyle "> </i> TIA 942
@@ -846,8 +821,7 @@ function Header() {
 
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/cloud-app"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Cloud App
@@ -855,8 +829,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/mdr-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i> MDR as A
@@ -864,8 +837,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/managed-nextgen"
                       >
                         <i className="fas fa-circle iconStyle "> </i> Managed
@@ -873,24 +845,21 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght   mt-3 "
                         href="/va-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Vulnerability Assessment (VA) As A Service </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/pt-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
                         Penetration Testing (PT) as a Service  </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/dam-as-service"
                       >
                         <i className="fas fa-circle iconStyle "> </i>{" "}
@@ -899,8 +868,7 @@ function Header() {
 
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/Attact-surface"
                       >
                         <i className="fas fa-circle iconStyle "> </i> 	Attack Surface Management
@@ -919,36 +887,113 @@ function Header() {
 
                   <ul>
                     <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/information-security-Special"
+                      <a
+                        className=" lineHght   "
+                        href="/information-security-Special"
                       >
-                        Information Security-Specially Cyber Security Consulting
-                      </Link>
+                        Information Security  & Cyber Security
+                      </a>
                     </li>
                     <li>
-                      <Link to="/project-management">Project Management</Link>
-                    </li>
-                    <li>
-                      <Link to="/providing-security">Providing Security</Link>
-                    </li>
-                    <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/consultation-on-shaping"
+                      <a
+                        className=" lineHght    "
+                        href="/pci-dss-consultation"
                       >
-                        Consultation on Shaping the DC & DRS
-                      </Link>
+                        <i className="fas fa-circle iconStyle "> </i> PCI DSS
+                      </a>                    </li>
+                    <li>
+                      <a
+                        className=" lineHght "
+                        href="/swift-cyber-security"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Swift
+                        Cyber Security Consulting
+                      </a>                    </li>
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/iso-international"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>   ISO  Consultation
+                      </a>
                     </li>
                     <li>
-                      <Link to="/swift-cyber-security">
-                        Swift Cyber Security Consulting
-                      </Link>
+                      <a
+                        className=" lineHght  "
+                        href="/cmmi"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>    CMMI Consultation
+                      </a>
                     </li>
                     <li>
-                      <Link to="/technical-documentation ">
-                        Technical Documentation on ICT
-                      </Link>
+                      <a
+                        className=" lineHght   "
+                        href="/project-management"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>{" "}
+                        Project Management
+                      </a>
+                    </li>
+                    <li>
+
+                      <a
+                        className=" lineHght  "
+                        href="/consultation-on-shaping"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>{" "}
+                        Consultation on Shaping up DC & DRS
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/technical-documentation"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Technical
+                        Documentation On ITES
+                      </a>
+
+
+                    </li>
+
+                    <li>
+                      <a
+                        className=" lineHght   "
+                        href="/zero-trust"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>  Zero Trust Architecture
+                      </a>
+
+                    </li>
+
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/industry-4.0"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Industry 4.0
+                      </a>
+
+                    </li>
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/Six-sigma"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Six Sigma Consultation
+                      </a>
+
+                    </li>
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/Lean-Consultation"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Lean  Consultation
+                      </a>
+
+
                     </li>
                   </ul>
                 </li>
@@ -957,13 +1002,17 @@ function Header() {
                   <Link to="Auditing">Auditing</Link>
                   <ul>
                     <li>
-                      <Link to="/information-system">
+                      <a
+                        className=" lineHght  "
+                        href="/information-system"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>{" "}
                         Information System Audit
-                      </Link>
+                      </a>
                     </li>
                     <li>
                       <Link
-                        style={{ lineHeight: "1.2" }}
+                        className=" lineHght"
                         to="/information-technology"
                       >
                         Information Technology Audit
@@ -971,7 +1020,7 @@ function Header() {
                     </li>
                     <li>
                       <Link
-                        style={{ lineHeight: "1.2" }}
+                        className=" lineHght"
                         to="/information-security-graded"
                       >
                         Information Security Graded Audit
@@ -979,8 +1028,13 @@ function Header() {
                     </li>
 
                     <li>
-                      <Link to="/dc-drs-auditing">DC & DRS Auditing</Link>
+                      <a href="/soc-1">
+                        <i className="fas fa-circle iconStyle "> </i>  SOC1 Audit
+                      </a>
                     </li>
+                    <li> <a href="/soc-2">
+                      <i className="fas fa-circle iconStyle "> </i> SOC2 Audit
+                    </a></li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
@@ -988,23 +1042,53 @@ function Header() {
                   <ul>
                     <li>
                       <Link
-                        style={{ lineHeight: "1.2" }}
+                        className=" lineHght"
                         to="/vulnerability-assessment"
                       >
                         Vulnerability Assessment & Penetration Testing Services
                       </Link>
                     </li>
                     <li>
-                      <Link to="/digital-forensics">Digital Forensics</Link>
-                    </li>
+                      <a
+                        className=" lineHght  "
+                        href="/swift-csp"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Swift CSP
+                        Independent Assessment
+                      </a>    </li>
                     <li>
-                      <Link to="/code-review">Code Review</Link>
                       <a className=" lineHght" href="/software-quality">
                         Software Quality Assurance & Testing
                       </a>
-                      <Link className=" lineHght" to="/swift-csp">
-                        Swift Csp Indpended Assessment
-                      </Link>
+
+                    </li>
+                    <li>  <a href="/code-review">
+                      <i className="fas fa-circle iconStyle "> </i> Code
+                      Review
+                    </a></li>
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/breach-attack"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i>  Breach Attack Simulation
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/poster-assessment"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Cyber Security Posture Assessment
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="/digital-forensics">
+                        <i className="fas fa-circle iconStyle "> </i> Digital
+                        Forensics
+                      </a>
                     </li>
                   </ul>
                 </li>
@@ -1012,29 +1096,117 @@ function Header() {
                   <Link to="/certification">Certification</Link>
                   <ul>
                     <li>
-                      <Link className=" lineHght" to="/pci-dss-payment">
-                        Payment Card Industry Data Security Standards
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/iso-international"
+                      <a
+                        className=" lineHght   "
+                        href="/pci-dss-payment"
                       >
-                        International Organization for Standardization-ISO
-                      </Link>
+                        <i className="fas fa-circle iconStyle "> </i> PCI DSS
+                        Certification
+                      </a>
                     </li>
                     <li>
-                      <Link className=" lineHght" to="/cmmi">
-                        Capability Maturity Model Integration (CMMI)
-                      </Link>
+                      <a
+                        className=" lineHght "
+                        href="/iso-international"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> 	ISO Certification
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/cmmi"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> CMMI
+                        (Capability Maturity Model Integration)
+                      </a>
                     </li>
 
                     <li>
-                      <Link to="/tia-for-data-center">
-                        TIA 942 for Data Center
-                      </Link>
+                      <a
+                        className=" lineHght  "
+                        href="/tia-for-data-center"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> TIA 942
+                        For Data Center
+                      </a>
                     </li>
+                    <li>  <a href="/gdpr-certification">
+                      <i className="fas fa-circle iconStyle "> </i> GDPR
+                      Certification
+                    </a> </li>
+                    <li>  <a href="/hippa-certification">
+                      <i className="fas fa-circle iconStyle "> </i> HIPAA
+                      Certification
+                    </a> </li>
+
+                  </ul>
+                </li>
+                <li className="menu-item-has-children">
+                  <a
+
+                    href="/managed-service"
+                  >
+                    Managed Services
+                  </a>                  <ul>
+                    <li>
+                      <a href="/soc-as-service">
+                        <i className="fas fa-circle iconStyle "> </i> SOC as A
+                        Service
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className=" lineHght "
+                        href="/cloud-app"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Cloud App
+                        Monitoring as A Service
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/mdr-as-service"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> MDR as A
+                        Service (Managed End Point Detection and Response)
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        className=" lineHgh  "
+                        href="/managed-nextgen"
+                      >
+                        <i className="fas fa-circle iconStyle "> </i> Managed
+                        Nextgen Firewall as A Service
+                      </a>
+                    </li>
+                    <li> <a
+                      className=" lineHght   "
+                      href="/va-as-service"
+                    >
+                      <i className="fas fa-circle iconStyle "> </i>{" "}
+                      Vulnerability Assessment (VA) As A Service </a> </li>
+                    <li>    <a
+                      className=" lineHght   "
+                      href="/pt-as-service"
+                    >
+                      <i className="fas fa-circle iconStyle "> </i>{" "}
+                      Penetration Testing (PT) as a Service  </a></li>
+                    <li> <a
+                      className=" lineHght "
+                      href="/dam-as-service"
+                    >
+                      <i className="fas fa-circle iconStyle "> </i>{" "}
+                      DAM (Database Auditing & Management) as a Service </a></li>
+                    <li> <a
+                      className=" lineHght  mt-3 "
+                      href="/Attact-surface"
+                    >
+                      <i className="fas fa-circle iconStyle "> </i> 	Attack Surface Management
+                    </a></li>
                   </ul>
                 </li>
               </ul>
@@ -1070,8 +1242,7 @@ function Header() {
                       </a>
 
                       <a
-                        style={{ lineHeight: "1.2" }}
-                        className="mt-3"
+                        className=" lineHght  mt-3 "
                         href="/Tenable"
                       >
                         Tenable (multiple solutions)
@@ -1098,28 +1269,26 @@ function Header() {
                         Cyber Security Management & Visibility solutions
                       </a>
                       <a className="mt-3" href="/digital-asset">
-                      Digital Asset Protection
+                        Digital Asset Protection
                       </a>
                       <a className="mt-3" href="/network-application">
-                      Data, Network & Application Management
+                        Data, Network & Application Management
                       </a>
 
                       <a className="mt-3" href="/digital-transformation">
-                      Digital Transformation Solutions
+                        Digital Transformation Solutions
                       </a>
                       <a
-                        className="mt-3"
-                        style={{ lineHeight: "1.2" }}
+                        className=" lineHght  mt-3 "
                         href="/work-from-home "
                       >
-                      Work From Home Solutions
+                        Work From Home Solutions
                       </a>
                       <a
-                        className="mt-3"
-                        style={{ lineHeight: "1.2" }}
+                        className=" lineHght  mt-3 "
                         href="/stack-for-alm"
                       >
-                      Dx Stack for ALM & Infrastructure
+                        Dx Stack for ALM & Infrastructure
                       </a>
                     </Col>
                   </Row>
@@ -1127,66 +1296,95 @@ function Header() {
               </div>
             </li>
 
-            <li className="servicNav">
-              <Link className=" lineHght" to="/Solution">
-                Security Assessment (VA & Tools)
-              </Link>
-              <ul>
-                <li>
-                  <Link to="/service-partners">Burp Suite (web PT)</Link>
-                  <ul>
-                    <li>
-                      <Link to="https://www.eccouncil.org/">Acunetix</Link>
-                    </li>
-                    <li>
-                      <Link to="https://home.pearsonvue.com/">Netsparker</Link>
-                    </li>
-                    <li>
-                      <Link to="https://pecb.com/en">
-                        Tenable (multiple solutions)
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="https://arscert.com/certification/">
-                        Core Impact (PT)
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link
-                    style={{ lineHeight: "1.2" }}
-                    to="/association-partners"
+            <li className="menu-item-has-children servicNav">
+              <Link to="/solutions" className="dropbtn1">
+                {" "}
+                Solutions
+              </Link>              <ul>
+                <li className="menu-item-has-children">
+                  <a
+
+                    href="/secuirity-assessment"
                   >
-                    Cyber Security Visibility & management Solutions
-                  </Link>
-                  <ul>
+                    Security assessment (VA & PT) Tools
+                  </a>                  <ul>
                     <li>
-                      <Link to="https://sckcerts.com/">SIEM</Link>
+                      <a href="/burp-suite">
+                        Burp Suite (web PT)                  </a>
                     </li>
                     <li>
-                      <Link to="https://www.acnabin.com/">Firewall</Link>
+                      <a href="/netsparker">
+                        Net Sparker (web assessment)
+                      </a>
                     </li>
                     <li>
-                      <Link to="http://cca.gov.bd/site/office_head/5891f732-8e0f-40b0-9f85-1cb867657bfd/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4">
-                        Log Management
-                      </Link>
+
+                      <a
+                        className=" lineHght "
+                        href="/Tenable"
+                      >
+                        Tenable (multiple solutions)
+                      </a>
+
                     </li>
                     <li>
-                      <Link to="https://www.pcisecuritystandards.org/">
-                        Patch management
-                      </Link>
+                      <a href="/acunetix">
+                        Acunetix (web VA & PT)
+                      </a>
                     </li>
                     <li>
-                      <Link to="https://www.worldbank.org/en/home">
-                        Smart Contact
-                      </Link>
+                      <a href="/core-impact">
+                        Core Impact (PT)
+                      </a>
                     </li>
-                    <li>
-                      <Link to="https://www.swift.com/">SMS Services</Link>
-                    </li>
+
                   </ul>
                 </li>
+
+                <li className="menu-item-has-children">
+                  <a
+
+                    href="/secuirity-management"
+                  >
+                    Cyber Security Management & Visibility solutions
+                  </a>                  <ul>
+                    <li>
+                      <a href="/digital-asset">
+                        Digital Asset Protection
+                      </a>                    </li>
+                    <li>
+                      <a href="/network-application">
+                        Data, Network & Application Management
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/digital-transformation">
+                        Digital Transformation Solutions
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className=" lineHght   "
+                        href="/work-from-home "
+                      >
+                        Work From Home Solutions
+                      </a>
+
+                    </li>
+
+                    <li>
+                      <a
+                        className=" lineHght  "
+                        href="/stack-for-alm"
+                      >
+                        Dx Stack for ALM & Infrastructure
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+
+
               </ul>
             </li>
 
@@ -1219,13 +1417,7 @@ function Header() {
                       <a className="mt-3" href="/penetration-testing">
                         Web Application Penetration Testing (Custom)
                       </a>
-                      {/* <a className="mt-3"  href="/giac-penetration">
-                      GIAC Penetration Testing (GPEN)
 
-                      </a>
-                      <a className="mt-3"  href="/giac-web-application">
-                      GIAC Web Application Penetration Testing (GWAPT)
-                      </a> */}
                     </Col>
 
                     <Col style={{ borderRight: "1px solid #6f42c1" }}>
@@ -1494,35 +1686,7 @@ function Header() {
                         </span>
                       </a>
 
-                      {/* <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Basic
 
-                      </a>
-                      <a className=" mx-4"  href="/basic-corporate">
-                       Certified Secure Computer User (CSCU-112-12)
-
-                      </a>
-                      <a className=" mx-3"  href="/basic-corporate">
-                      <i className="fas fa-caret-right "> </i> Intermediate
-                      </a>
-                      <a className=" mx-4"  href="/basic-corporate">
-                      Security Fundamentals (FNS)
-
-                      </a>
-                      <a style={{lineHeight:"1.2"}}   className=" mx-4"  href="/basic-corporate">
-                      Information Security Fundamentals (FIS)
-
-                      </a>
-                     
-
-                    <a className="mt-3"   href="/intermidiate-corporate">
-                    <i className="fas fa-caret-right "></i>  Advance
-                      </a>
-                      <a className=" mx-4"  style={{lineHeight:"1.2"}}   href="/basic-corporate">
-                    Computer Forensic Fundamentals (CFF)
-
-                      </a>
-                       */}
                     </Col>
                   </Row>
                 </Container>
@@ -1536,58 +1700,26 @@ function Header() {
                   <Link to="/assesment">Assessment</Link>
                   <ul>
                     <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/certified-ethical-hacker"
-                      >
-                        Certified Ethical Hacker (CEH)
-                      </Link>
+                      <a href="/penetration-testing">
+                        Penetration Testing Professional (Custom)
+                      </a>
                     </li>
                     <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/certified-penetration"
-                      >
-                        Certified Penetration Testing Professional(CPENT)
-                      </Link>
+                      <a href="/certified-information">
+                        Certified Information system Auditor (CISA)
+                      </a>
                     </li>
                     <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/certified-information-system"
-                      >
-                        Certified Information Systems Auditor(CISA)
-                      </Link>
+                      <a href="/computer-hacking">
+                        Computer Hacking Forensic Investigation (Custom)
+                      </a>
                     </li>
                     <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/computer-hacking"
-                      >
-                        Computer Hacking Forensic Investigator(CHFI)
-                      </Link>
+                      <a href="/penetration-testing">
+                        Web Application Penetration Testing (Custom)
+                      </a>
                     </li>
-                    <li>
-                      <Link className=" lineHght" to="/open-source">
-                        Open Source Intelligence(OSINT)
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/giac-penetration"
-                      >
-                        GIAC Penetration Tester(GPEN)
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/giac-web-application"
-                      >
-                        GIAC Web Application Penetration Tester(GWAPT)
-                      </Link>
-                    </li>
+
                   </ul>
                 </li>
 
@@ -1595,67 +1727,360 @@ function Header() {
                   <Link to="/management">Management</Link>
                   <ul>
                     <li>
-                      <Link to="/certified-disaster">Certified Disaster</Link>
+                      <a href="/practical-hacker">
+                        Practical Ethical Hacking (Custom){" "}
+                      </a>                    </li>
+                    <li>
+                      <a href="/certified-disaster">
+                        Disaster Recovery Professional (Custom)
+                      </a>
                     </li>
                     <li>
-                      <Link to="/certified-incident-handler">
-                        Certified Incident Handler
-                      </Link>
+                      <a href="/certified-incident-handler">
+                        Incident Handler (Custom)
+                      </a>
                     </li>
                     <li>
-                      <Link to="/certified-soc-analyst">
-                        Certified SOC Analyst(CSA)
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/certified-threat"
-                      >
-                        Certified Threat Intelligence Analyst(CTIA)
-                      </Link>
+                      <a href="/certified-soc-analyst">
+                        Cyber Security Analyst (Custom)
+                      </a>
                     </li>
 
                     <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/certified-information-security"
+                      <a
+
+                        href="/certified-threat"
                       >
-                        Certified Information Security Manager(CISM)
-                      </Link>
+                        Threat Intelligent Analyst (Custom)
+                      </a>
                     </li>
                     <li>
-                      <Link
-                        style={{ lineHeight: "1.2" }}
-                        to="/certified-information-system-security"
+                      <a
+                        href="/certified-information-security"
                       >
-                        Certified Information Systems Security
-                        Professional(CISSP)
-                      </Link>
+                        Certified Information security Manager (CISM)
+                      </a>
                     </li>
                     <li>
-                      <Link to="/giac-certified-project">
-                        GIAC Certified Project Manager (GCPM)
-                      </Link>
+                      <a href="/certified-information-system-security">
+                        Certified Information System Security Professional
+                        (CISSP)
+                      </a>
                     </li>
+                    <li>  <a href="/giac-certified-incident">
+                      GIAC Certified Incident Handler
+                      (GCIH)
+                    </a> </li>
+                    <li>  <a href="/giac-certified-project">
+                      GIAC Certified Project Manager (GCPM){" "}
+                    </a> </li>
+                    <li> <a href="/open-source">
+                      Open-Source Intelligence (OSINT){" "}
+                    </a> </li>
                   </ul>
                 </li>
 
                 <li className="menu-item-has-children">
-                  <Link to="customized">Customized</Link>
+                  <a href="customized"> RightTime Customized</a>
                   <ul>
-                    <li>
-                      <Link to="/basic-corporate">Basic</Link>
+                    <li className="menu-item-has-children">
+                      <a href="/basic-corporate"> Foundation track - (Corporate){" "}</a>
+                      <ul>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Basic</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Certified Secure Computer User (CSCU-112-12)
+                          </a>
+                        </li>
+
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Intermediate</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Network Security Fundamentals (FNS)
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a href="/basic-corporate" className="text-light">
+                            {" "}
+                            Information Security Fundamentals (FIS)
+                          </a>
+                        </li>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Advance</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Computer Forensic Fundamentals (CFF)
+
+                          </a>
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      <Link to="/advance-corporate">Advance</Link>
+
+
+                    <li className="menu-item-has-children">
+                      <a href="/basic-corporate"> Network Defense and Operations - (Corporate){" "}</a>
+                      <ul>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Basic</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Certified Network Defense (CND-312-38)
+                          </a>
+                        </li>
+
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Intermediate</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            EC-Council Disaster Recovery Professional
+                            (EDRP-312-76)
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a href="/basic-corporate" className="text-light">
+                            {" "}
+                            EC-Council Certified Incident Handler (ECIH-212-89)
+                          </a>
+                        </li>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Advance</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Securing Windows Infrastructure (CAST-616)
+
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Advance Network Defense (CAST-614)
+                          </a>
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      <Link to="/intermidiate-corporate">Intermediate</Link>
+
+
+
+
+
+
+
+
+
+
+
+                    <li className="menu-item-has-children">
+                      <a href="/basic-corporate">  Software Security - (Corporate){" "}</a>
+                      <ul>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Basic</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Certified Secure Computer User (CSCU-112-12)
+                          </a>
+                        </li>
+
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Intermediate</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            EC-Council Certified Secure Programmer JAVA
+                            (ECSP-312-94){" "}                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a href="/basic-corporate" className="text-light">
+                            {" "}
+                            EC-Council Certified Secure Programmer .Net
+                            (ECSP-312-93)                          </a>
+                        </li>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Advance</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Advanced Penetration testing (CAST-611)
+
+                          </a>
+                        </li>
+
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Securing Windows Infrastructure (CAST-616)
+
+                          </a>
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      <Link to="/one-to-one-training">One to One Training</Link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <li className="menu-item-has-children">
+                      <a href="/basic-corporate">  Vulnerability Assessment & Penetration Testing (VA & PT)
+                        - (Corporate){" "}</a>
+                      <ul>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Basic</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Certified Ethical hacker (CEH-312-50)
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Certified Network Defense (CND-312-38)
+                          </a>
+                        </li>
+
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Intermediate</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Licensed Penetration Tester (LPT-412-79)
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a href="/basic-corporate" className="text-light">
+                            {" "}
+                            EC-Council Certified Security Analyst (ECSA-412-79){" "}
+                          </a>
+                        </li>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Advance</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Advanced Penetration testing (CAST-611)
+
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Hacking and Hardening Your Corporate Web Application
+                            (CAST-613)
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Securing Windows Infrastructure (CAST-616)
+
+                          </a>
+                        </li>
+                      </ul>
                     </li>
+
+
+
+
+
+
+
+
+
+
+                    <li className="menu-item-has-children">
+                      <a href="/basic-corporate">  Cyber Forensic - (Corporate){" "}</a>
+                      <ul>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Basic</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Certified Ethical hacker (CEH-312-50)
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Certified Network Defense (CND-312-38)
+                          </a>
+                        </li>
+
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Intermediate</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            EC-Council Certified Incident Handler (ECIH-212-89)
+                          </a>
+                        </li>
+                        <li className="mx-3">
+                          <a href="/basic-corporate" className="text-light">
+                            {" "}
+                            Computer Hacking Forensic Investigator (CHFI-312-49)
+                          </a>
+                        </li>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">Advance</a>
+                        </li>
+                        <li className="mx-3">
+                          <a className="text-light" href="/basic-corporate">
+                            {" "}
+                            Advanced Mobile Forensics And security (CAST-612)
+
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+
+
+                    <li className="menu-item-has-children">
+                      <a href="/basic-corporate">  Governance - (Corporate){" "}</a>
+                      <ul>
+                        <li>
+                          <a className="text-light" href="/basic-corporate">                            Certified Chief Information Security Officer (CCISO)
+                          </a>
+                        </li>
+
+
+
+                      </ul>
+                    </li>
+
                   </ul>
                 </li>
               </ul>
@@ -1882,7 +2307,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    style={{ lineHeight: "1.2" }}
+                    className=" lineHght"
                     to="/WhitePapers"
                   >
                     WhitePapers
