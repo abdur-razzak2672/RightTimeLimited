@@ -7,6 +7,20 @@ function BenitsConpany() {
   const [tabIndex, setTabIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
 
+  const text = data[tabIndex]?.subTitle[subIndex]?.description;
+
+  // Function to split the text into three portions with specific word limits
+  const divideText = (text) => {
+    const words = text.split(' ');
+    const firstPortion = words.slice(0, 40).join(' ');
+    const secondPortion = words.slice(40, 75).join(' ');
+    const lastPortion = words.slice(75).join(' ');
+
+    return { firstPortion, secondPortion, lastPortion };
+  };
+
+  const { firstPortion, secondPortion, lastPortion } = divideText(text);
+
   return (
     <div className="container">
       <div className="section-title text-center">
@@ -51,7 +65,7 @@ function BenitsConpany() {
         <p>{data[tabIndex]?.description}</p>
 
         <div className="row mt-4">
-          <div className="col-md-5 ">
+          <div className="col-md-4 ">
 
             {
               data[tabIndex]?.subTitle?.map((item, index) => (
@@ -71,15 +85,41 @@ function BenitsConpany() {
 
           </div>
 
-          <div className="col-md-7">
+          <div className="col-md-8">
             <div>
               <h3 className="text-center">{data[tabIndex]?.subTitle[subIndex]?.title}</h3>
-              <p className='text-dark'>{data[tabIndex]?.subTitle[subIndex]?.description}
-              <span>              <a className='text-warning' href={`${data[tabIndex]?.subTitle[subIndex]?.url}`} > More Information...</a>
-</span>
-              
-              </p>
-               <img width="100%" src={data[tabIndex]?.subTitle[subIndex]?.image} alt="" />
+
+              <div   className="row">
+                <span className='text-dark'>
+                  {firstPortion}
+                </span>
+                <div className="col-md-7 ">
+                 
+                    <span className='text-dark w-100'>
+                      {secondPortion}
+                    </span>
+ 
+                </div>
+                <div className="col-md-5">
+                  <img height=" 150px" width="100%" src={data[tabIndex]?.subTitle[subIndex]?.image} alt="" />
+
+
+
+                </div>
+
+                 
+                  <span className='text-dark'>
+                    {lastPortion}  <a className='text-warning' href={`${data[tabIndex]?.subTitle[subIndex]?.url}`} > More Information...</a>
+                  </span>
+ 
+
+              </div>
+
+
+
+              <div>
+
+              </div>
 
             </div>
           </div>
@@ -87,52 +127,8 @@ function BenitsConpany() {
       </section>
 
 
-      {/*    
 
-    <section className="container mt-5">
-          <h1 className="text-center">Consultation</h1>
 
-          <div className="row mt-4">
-            <div className="col-md-5 ">
-              <div className=" servicesItem">
-                <a
-                  className=" active focus"
-                  onClick={() => setTabIndex(1)}
-                  href="#javascript void(0)"
-                >
-                  {" "}
-                  Information Security & Cyber Security Consulting
-                </a>
-              </div>
-              <div className="servicesItem">
-                <a onClick={() => setTabIndex(2)} href="#javascript void(0)">
-                  {" "}
-                  Consultation on Shaping up DC & DRS
-                </a>
-              </div>
-              <div className=" servicesItem">
-                <a onClick={() => setTabIndex(3)} href="#javascript void(0)">
-                  {" "}
-                  Swift Cyber Security Consulting
-                </a>
-              </div>
-              <div className=" servicesItem">
-                <a onClick={() => setTabIndex(4)} href="#javascript void(0)">
-                  {" "}
-                  Technical Documentation On ITES
-                </a>
-              </div>
-            </div>
-
-            <div className="col-md-7">
-              <div>
-                {tabIndex === 1 && <Consultation />}
-                {tabIndex === 2 && <Auditing />}
-                {tabIndex === 3 && <Testing />}
-              </div>
-            </div>
-          </div>
-        </section> */}
 
     </div>
   )

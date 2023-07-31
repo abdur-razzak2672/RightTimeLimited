@@ -52,14 +52,14 @@ export const data = [
                 id: 7,
                 title: 'Consultation on Shaping up DC & DRS  ',
                 description: '"Right Time Limited" provides expert consultation services on shaping up Data Center (DC) and Disaster Recovery Services (DRS) to optimize their effectiveness and efficiency. Our dedicated team of consultants works closely with businesses and organizations to understand their specific DC and DRS requirements. We assess existing infrastructure, processes, and disaster recovery plans to identify areas for improvement and recommend tailored solutions. Our expertise covers data center design, technology selection, scalability, redundancy, and disaster recovery planning. With a focus on resilience and business continuity, we help clients implement robust DC and DRS solutions that align with their unique needs. Through our guidance, organizations can ensure the security and availability of critical data and applications, minimizing downtime and maximizing operational continuity. Partner with "Right Time Limited" to shape up your DC and DRS services, ensuring your infrastructure is ready for any challenge, at the right time.    ',
-                image: 'https://www.pristyncare.com/blog/wp-content/uploads/2023/02/Myomectomy.jpg   ',
+                image: 'https://pubs.acs.org/cms/10.1021/acs.chemrev.6b00504/asset/images/acs.chemrev.6b00504.social.jpeg_v03 ',
                 url: '/consultation-on-shaping    ',
             },
             {
                 id: 8,
                 title: 'Technical Documentation On ITES  ',
                 description: '"Right Time Limited" offers specialized consultation services on composite technical documentation for Information Technology Enabled Services (ITES). Our expert team assists businesses and organizations in creating comprehensive and cohesive technical documentation for their ITES projects. We work closely with clients to understand their specific requirements, processes, and technologies involved in their ITES offerings. Our consultants provide guidance in documenting all aspects of ITES, including system architecture, software design, implementation details, and operational procedures. We ensure that the documentation adheres to industry standards and best practices, facilitating efficient collaboration among teams and seamless project execution. With our support, clients can enhance communication, streamline processes, and improve overall project management for their ITES initiatives. Trust "Right Time Limited" to shape up your composite technical documentation for ITES, empowering your organization to deliver IT-enabled services with precision and excellence    ',
-                image: 'https://blog.bit.ai/wp-content/uploads/2020/06/The-Ultimate-Guide-on-Technical-Documentation-Facebook.png   ',
+                image: 'https://static.helpjuice.com/helpjuice_production/uploads/upload/image/4752/direct/1633713098097-Software%20Documentation%20Tools.jpg ',
                 url: '/technical-documentation    ',
             },
             {
@@ -80,7 +80,7 @@ export const data = [
                 id: 11,
                 title: ' Six Sigma Consultation ',
                 description: '"Right Time Limited" specializes in providing expert Six Sigma Consultation Services, assisting businesses and organizations in adopting Six Sigma methodologies to achieve process improvement and operational excellence. Our dedicated team of consultants works closely with clients to understand their specific challenges and objectives. We guide them through the entire Six Sigma journey, from defining projects to analyzing data, implementing improvements, and measuring results. Through the DMAIC (Define, Measure, Analyze, Improve, Control) approach, we help clients optimize processes, reduce defects, and enhance overall efficiency. Our tailored solutions empower organizations to make data-driven decisions, streamline operations, and achieve higher levels of customer satisfaction. With "Right Time Limited" as your partner, you can drive continuous improvement, minimize waste, and elevate your business performance to new heights using the powerful tools of Six Sigma.    ',
-                image: 'https://www.4cpl.com/ast/uploads/2023/06/Six-Sigma-Blog-Image-scaled.jpg   ',
+                image: 'https://boahengineering.com/wp-content/uploads/2022/12/leanSixSigma-1-639c629cd8a69.jpg ',
                 url: '/Six-sigma    ',
             },
             {
@@ -94,7 +94,7 @@ export const data = [
                 id: 13,
                 title: 'TIA 942 Preparatory Consultation for DC Certification ',
                 description: ' "Right Time Limited" specializes in providing expert Preparatory Consultation Services for TIA 942 Certification of Data Centers. Our dedicated team of consultants works closely with businesses and organizations to ensure their data center infrastructure and practices align with the stringent requirements of TIA 942 standards. We conduct thorough assessments of the data centers design, cabling, redundancy, cooling, and security measures. Based on the evaluation, we offer tailored solutions to address any gaps and optimize the data centers performance, resilience, and scalability. Our guidance empowers clients to implement industry best practices and prepare their data centers for successful TIA 942 Certification. With "Right Time Limited" as your partner, you can confidently navigate the certification process, demonstrating compliance with the highest data center industry standards and ensuring optimal performance to meet your organizations critical data needs.   ',
-                image: 'https://www.kindpng.com/picc/m/113-1130581_lean-consulting-hd-png-download.png   ',
+                image: 'https://i.ytimg.com/vi/4Ewx5I0dyVM/sddefault.jpg   ',
                 url: '#',
             },
 
