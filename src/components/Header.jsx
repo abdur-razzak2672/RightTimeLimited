@@ -621,7 +621,7 @@ function Header() {
                       </a>
                       <a
                         className=" lineHght  mt-3 "
-                        href="/tia"
+                        href="/tia-for-data-center"
                       >
                         <i className="fas fa-circle iconStyle "> </i> TIA 942 Preparatory Consultation for DC Certification
                       </a>
