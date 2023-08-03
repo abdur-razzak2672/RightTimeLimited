@@ -101,7 +101,7 @@ function BenitsConpany() {
  
                 </div>
                 <div className="col-md-5">
-                  <img height=" 150px" width="100%" src={data[tabIndex]?.subTitle[subIndex]?.image} alt="" />
+                  <img height="150px" width="100%" src={data[tabIndex]?.subTitle[subIndex]?.image} alt="" />
 
 
 
