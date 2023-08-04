@@ -306,7 +306,7 @@ export const data = [
                 id: 5,
                 title: ' Vulnerability Assessment (VA) As A Service  ',
                 description: ' "Right Time Limited" offers comprehensive Vulnerability Assessment (VA) as a Service, providing businesses and organizations with proactive cybersecurity solutions. Our specialized team of experts conducts thorough assessments of clients IT infrastructure, networks, applications, and systems to identify potential vulnerabilities and weaknesses. We utilize cutting-edge tools and methodologies to simulate real-world cyberattacks, enabling us to pinpoint areas that require attention. Through our tailored approach, clients receive detailed reports outlining the identified vulnerabilities and recommended mitigation strategies. With "Right Time Limited" as your partner, you can proactively address security risks, bolster your cybersecurity defenses, and prioritize resources effectively to protect your critical data and infrastructure from potential cyber threats. Our Vulnerability Assessment Service empowers organizations to stay ahead of cyber risks, enhance their security posture, and maintain a strong defense in todays dynamic digital landscape. Trust us to deliver reliable and thorough Vulnerability Assessments that equip you with the knowledge needed to safeguard your digital assets and maintain a resilient cybersecurity stance.   ',
-                image: 'https://www.scnsoft.com/blog-pictures/information-security/penetration_testing_vs_vulnerability_assessment-01_1.png   ',
+                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFbpbXp24Hz7Z9kExBgixJFd4CctfrfI1QQ&usqp=CAU  ',
                 url: '/va-as-service    ',
             },
             {
