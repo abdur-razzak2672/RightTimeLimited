@@ -2,6 +2,7 @@ import React from 'react'
 import SeviceCommon from '../Services/SeviceCommon'
 import { Carousel } from 'react-bootstrap'
  import Partner from '../../components/Partner'
+import { data } from './ManagedServiceData'
 
  function ManagedServiceBody() {
   return (
@@ -44,71 +45,29 @@ import { Carousel } from 'react-bootstrap'
             <p className='text-dark text-center'> Right Times 24×7 Security Team work around the clock to monitor, detect, and respond to cyberattacks before they have a chance to impact your business</p>
 
           <div className="row">
-            <div className="col-md-4 mt-4">
-              <div style={{backgroundColor:"#011936",color:"#ffff"}} className="card">
-                <div className="card-body">
-                  <h5 style={{color:"#0cb8e6"}} className="card-title">  Fully Managed SOC-As-A-Service </h5>
-                  <p className="card-text"> <i style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> TurnKey 24x7 Eyes-on-screen-SOC</p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 Security Monitoring and Alerting  </p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> Out-of-the-box support for 300+ log sources</p>
-                    </div>
-              </div>
 
-            </div>
-            <div className="col-md-4 mt-4">
-              <div style={{backgroundColor:"#011936",color:"#ffff"}} className="card">
-                <div className="card-body">
-                  <h5 style={{color:"#0cb8e6"}} className="card-title">  EDR-As-A-Service </h5>
-                   <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> EDR Product license & Deployment </p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 EDR Management & Monitoring </p>
-                    </div>
-              </div>
+            {
+              data?.map((item,index)=>(
+                
+          <div key={index} className="col-md-4 mt-4">
+          <a href={`${item?.url}`} style={{backgroundColor:"#011936",color:"#ffff"}} className="card">
+            <div className="card-body">
+              <h5 style={{color:"#0cb8e6"}} className="card-title">   {item?.title} </h5>
+              <p className="card-text"> <i style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> TurnKey 24x7 Eyes-on-screen-SOC</p>
+              <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 Security Monitoring and Alerting  </p>
+              <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> Out-of-the-box support for 300+ log sources</p>
+                </div>
+          </a>
 
-            </div>
-            <div className="col-md-4 mt-4">
-              <div style={{backgroundColor:"#011936",color:"#ffff"}} className="card">
-                <div className="card-body">
-                  <h5 style={{color:"#0cb8e6"}} className="card-title">  Managed Endpoint Detection & Response </h5>
-                   <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 Managed Endpoint Detection & Response </p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 Active Remediation </p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> Threat Hunting </p>
-                   </div>
-              </div>
 
-            </div>
+        </div>
+
+
+              ))
+            }
+ 
+
             
-            <div className="col-md-4 mt-4">
-              <div style={{backgroundColor:"#011936",color:"#ffff"}} className="card">
-                <div className="card-body">
-                  <h5 style={{color:"#0cb8e6"}} className="card-title">  Fully Managed SOC-As-A-Service </h5>
-                  <p className="card-text"> <i style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> TurnKey 24x7 Eyes-on-screen-SOC</p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 Security Monitoring and Alerting  </p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> Out-of-the-box support for 300+ log sources</p>
-                    </div>
-              </div>
-
-            </div>
-            <div className="col-md-4 mt-4">
-              <div style={{backgroundColor:"#011936",color:"#ffff"}} className="card">
-                <div className="card-body">
-                  <h5 style={{color:"#0cb8e6"}} className="card-title">  EDR-As-A-Service </h5>
-                   <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> EDR Product license & Deployment </p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 EDR Management & Monitoring </p>
-                    </div>
-              </div>
-
-            </div>
-            <div className="col-md-4 mt-4">
-              <div style={{backgroundColor:"#011936",color:"#ffff"}} className="card">
-                <div className="card-body">
-                  <h5 style={{color:"#0cb8e6"}} className="card-title">  Managed Endpoint Detection & Response </h5>
-                   <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 Managed Endpoint Detection & Response </p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> 24x7 Active Remediation </p>
-                  <p className="card-text"> <i  style={{color:"#f58220"}} class="fa fa-check-square" aria-hidden="true"></i> Threat Hunting </p>
-                   </div>
-              </div>
-
-            </div>
           </div>
 
           <div style={{backgroundColor:"#e7705c"}}  className='mt-5 '>

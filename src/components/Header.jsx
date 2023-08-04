@@ -1423,17 +1423,21 @@ function Header() {
                         Assessment
                       </a>
                       <a className="mt-3" href="/penetration-testing">
-                        Penetration Testing Professional (Custom)
+                        Certified Penetration Testing Professional (CPENT)
                       </a>
+                      <a className="mt-3" href="/penetration-testing">
+                     	Offensive Security Certified Professional (OSCP)                      </a>
                       <a className="mt-3" href="/certified-information">
                         Certified Information system Auditor (CISA)
                       </a>
                       <a className="mt-3" href="/computer-hacking">
                         Computer Hacking Forensic Investigation (Custom)
                       </a>
-                      <a className="mt-3" href="/penetration-testing">
-                        Web Application Penetration Testing (Custom)
+                      <a className="mt-2" href="/giac-certified-incident">
+                      GIAC Penetration Testing (GPEN)
                       </a>
+                      <a className="mt-2" href="/giac-certified-project">
+                      GIAC Web Application Penetration Testing (GWAPT)                      </a>
 
                     </Col>
 
@@ -1445,26 +1449,26 @@ function Header() {
                         Management
                       </a>
                       <a className="mt-3" href="/practical-hacker">
-                        Practical Ethical Hacking (Custom){" "}
+                      Certified Ethical Hacking (CEH)
                       </a>
 
                       <a className="mt-2" href="/certified-disaster">
-                        Disaster Recovery Professional (Custom)
+                      Certified Disaster Recovery Professional (EDRP)
                       </a>
 
                       <a className="mt-2" href="/certified-incident-handler">
-                        Incident Handler (Custom)
+                      	Certified Incident Handler (ECIH)
                       </a>
 
                       <a className="mt-2" href="/certified-soc-analyst">
-                        Cyber Security Analyst (Custom)
+                      Certified SOC Analyst (CSA)
                       </a>
 
                       <a
                         className="mt-2"
                         href="/certified-threat"
                       >
-                        Threat Intelligent Analyst (Custom)
+                        Certified Threat Intelligent Analyst (CTIA)
                       </a>
 
                       <a
