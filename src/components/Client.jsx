@@ -52,7 +52,7 @@ function Client() {
                       </div>
                       <div className="testimonials-one-card__content">
                         <div className="testimonials-one-card__text">
-                        Al-Arafah Islami Bank Limited has achieved the ISO 27001 certification with the help of Right Time Limited (RightTime), an Information Technology (IT) Security Service Provider. RightTime's team of experts provided guidance and support throughout the entire process, enabling the bank to achieve certification in a timely and efficient manner. We highly recommend RightTime to any organization seeking to achieve ISO 27001 certification. <span  ><a style={{color:"orange"}} href="/testmonial">Read More...</a></span>
+                        Al-Arafah Islami Bank Limited has achieved the ISO 27001 certification with the help of Right Time Limited  , an Information Technology (IT) Security Service Provider. RightTime's team of experts provided guidance and support throughout the entire process, enabling the bank to achieve certification in a timely and efficient manner. We highly recommend RightTime to any organization seeking to achieve ISO 27001 certification. <span  ><a style={{color:"orange"}} href="/testmonial">Read More...</a></span>
                           <h3 className="testimonials-one-card__title">
                             Syed Masodul Bari
                           </h3>
@@ -79,7 +79,7 @@ function Client() {
                         </div>
                         <div className="testimonials-one-card__content">
                           <div className="testimonials-one-card__text">
-                          NRB Bank Limited has achieved certification on Payment Card Industry Data Security Standard (PCI DSS) with the help of Right Time Limited (RightTime)-first Bangladesh Based PCI QSA firm by PCI SSC, USA (Since 2013). We highly recommend RightTime for their expertise, and commitment to their clients' success in achieving PCI DSS certification.<span><a style={{color:"orange"}} href="/testmonial"> Read More...</a></span>
+                          NRB Bank Limited has achieved certification on Payment Card Industry Data Security Standard (PCI DSS) with the help of Right Time Limited  -first Bangladesh Based PCI QSA firm by PCI SSC, USA (Since 2013). We highly recommend RightTime for their expertise, and commitment to their clients' success in achieving PCI DSS certification.<span><a style={{color:"orange"}} href="/testmonial"> Read More...</a></span>
                           </div>
                           <h3 className="testimonials-one-card__title">
                             Abu Md. Sabbir Hassan Chowdhury{" "}

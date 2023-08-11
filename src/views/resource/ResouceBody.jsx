@@ -25,7 +25,7 @@ function ResourchBody() {
    <section>
      <div className="container mt-5">
        <h2 className="text-center header">Resources </h2>
-       <p className='text-dark'>“Right Time Limited (RightTime) Resources provides a diverse range of content, including blogs, case studies, checklists, white papers, infographics, data sheets, and webinars. These resources serve as valuable references, offering practical insights, expert guidance, and educational materials to help organizations enhance their security posture, stay informed about the latest industry trends, and make informed decisions regarding their cybersecurity and IT management strategies.
+       <p className='text-dark'>“Right Time Limited   Resources provides a diverse range of content, including blogs, case studies, checklists, white papers, infographics, data sheets, and webinars. These resources serve as valuable references, offering practical insights, expert guidance, and educational materials to help organizations enhance their security posture, stay informed about the latest industry trends, and make informed decisions regarding their cybersecurity and IT management strategies.
 </p>
      
     
