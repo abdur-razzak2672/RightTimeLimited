@@ -240,6 +240,8 @@ import SecuirityAssessment from "./views/Solutions/SecuirityAssessment";
 import SecuirityManagement from "./views/Solutions/SecuirityManagement";
 import Pathway from "./views/Training/Pathway";
 import ResourchBody from "./views/resource/ResouceBody";
+import EducationTraining from "./views/Training/EducationTraining";
+import InteractiveMap from "./views/Training/InteractiveMap";
 
 
  
@@ -603,6 +605,8 @@ Fresno, CA 93710
         {/* Assessment */}
         <Route path="/training" component={TrainingBody} exact />
         <Route path="/pathway" component={Pathway} exact />
+        <Route path="/interactive-map" component={InteractiveMap} exact />
+        <Route path="/education-training" component={EducationTraining} exact />
 
 
         <Route path="/assesment" component={AssessmentBody} exact />

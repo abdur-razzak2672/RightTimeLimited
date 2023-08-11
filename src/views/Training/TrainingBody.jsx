@@ -134,13 +134,13 @@ function TrainingBody() {
         </div>
 
         <div className="container mt-5">
-        <p className='text-dark'>“Right Time Limited” (RightTime) training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>
+        <p className='text-dark'>“Right Time Limited”   training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>
 
 
 
         {/* <img id='prelC' src="/images/c.svg" width="100" height="100" alt="loading" /> */}
 
-        <h6 className='header my-3'>ICT Professional(s) will be benefited with our Track choosing mind-map. </h6>
+        <h1 className='text-warning text-center my-5'>ICT Professional(s) will be benefited with our Track choosing mind-map. </h1>
 
 <div class="main">
 
@@ -154,16 +154,16 @@ function TrainingBody() {
         <div class="pure-u-1-2">
             <div class="pure-menu pure-menu-horizontal custom-can-transform menu-main menu-large">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="heatmap.html" class="pure-menu-link ">Interactive map</a>
+                    <li class="pure-menu-item"><a href="/interactive-map" class="pure-menu-link ">Interactive map</a>
                     </li>
                     <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link active">Career
-                            pathway</a>
-                        <li class="pure-menu-item"><a href="training.html" class="pure-menu-link">Education and Training Providers</a></li>
-                    </li>
+                            pathway</a>  </li>
+                        <li class="pure-menu-item"><a href="education-training" class="pure-menu-link">Education and Training Providers</a></li>
+                  
                 </ul>
             </div>
         </div>
-        <div class="pure-u-1-4" style={{textAlign: "right"}}>
+        {/* <div class="pure-u-1-4" style={{textAlign: "right"}}>
             <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
                 <ul class="pure-menu-list">
                     <li class="pure-menu-item" style={{borderRight: "2px solid #F5F7F9"}}><a href="/about-us" class="pure-menu-link menu-large">About</a></li>
@@ -197,7 +197,7 @@ function TrainingBody() {
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> */}
     </div>
 
     <div class='clear'></div>
@@ -259,14 +259,14 @@ function TrainingBody() {
         <section className="section-padding--bottom   mt-5">
           <div className="container">
             <div className="section-title  ">
-              <h2 className="header text-center">PCI SSC Training & Qualification Programs</h2>
+              <h2 className="header text-center">PCI SSC Training & Qualification Programs to Training</h2>
             </div>
             <ul className="card-wrapper">
               <li className="card">
               <a className="circleImage1 mt-4" href="/assesment"><img src="/assets/images/training/Icon1.webp" alt="" /></a>
                 <h3 className="text-center header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>“Right Time Limited” (RightTime) offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
+                 <p className='text-dark  '>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
 
                 <a  className="text-warning" href="/assesment" >Download Course Description</a><br/>
                 <a href="/assesment"  className="text-warning">More Information</a>
@@ -280,7 +280,7 @@ function TrainingBody() {
               <a className="circleImage1  mt-4" href="/management"><img src="/assets/images/training/Icon2.webp" alt="" /></a>
               <h3 className="text-center header" ><a href="/management"> Training (ICT Management)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>“Right Time Limited” (RightTime) provides training programs that focus on ICT management principles and practices. </p>
+                 <p className='text-dark  '>“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
 
                 <a  className="text-warning" href="/management" >Download Course Description</a><br/>
                 <a  className="text-warning" href="/management"  >More Information</a>
@@ -292,7 +292,7 @@ function TrainingBody() {
               <a className="circleImage1 mt-4" href="/Customized"><img src="/assets/images/training/Icon3.webp" alt="" /></a>
               <h3 className="text-center header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>“Right Time Limited” (RightTime) offers customized training solutions tailored to the specific needs of organizations</p>
+                 <p className='text-dark  '>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
 
                 <a href="/Customized"  className="text-warning">Download Course Description</a><br/>
                 <a href="/Customized" className="text-warning">More Information</a>

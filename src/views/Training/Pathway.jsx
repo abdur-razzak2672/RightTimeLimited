@@ -36,50 +36,16 @@ function Pathway() {
         <div class="pure-u-1-2">
             <div class="pure-menu pure-menu-horizontal custom-can-transform menu-main menu-large">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="heatmap.html" class="pure-menu-link ">Interactive map</a>
+                    <li class="pure-menu-item"><a href="interactive-map" class="pure-menu-link ">Interactive map</a>
                     </li>
                     <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link active">Career
-                            pathway</a>
-                        <li class="pure-menu-item"><a href="/training" class="pure-menu-link">Education and Training Providers</a></li>
-                    </li>
+                            pathway</a></li>
+                        <li class="pure-menu-item"><a href="/education-training" class="pure-menu-link">Education and Training Providers</a></li>
+                    
                 </ul>
             </div>
         </div>
-        <div class="pure-u-1-4" style={{textAlign: "right"}}>
-            <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
-                <ul class="pure-menu-list">
-                    <li class="pure-menu-item" style={{borderRight: "2px solid #F5F7F9"}}><a href="/about-us" class="pure-menu-link menu-large">About</a></li>
-
-                    <li class="pure-menu-item pure-menu-has-children">
-                        <a href="#" id="menuLink1" class="pure-menu-link menu-icon"><img width="21" height="21"
-                                src='images/menu.svg' alt="menu"/></a>
-                        <ul class="pure-menu-children">
-                            <li class="pure-menu-item">
-                                <a href="heatmap.html" class="pure-menu-link menu-small">Interactive map</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="/pathway" class="pure-menu-link menu-small">Career pathway</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="/training" class="pure-menu-link menu-small">Education and Training Providers</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="/about-us" class="pure-menu-link menu-small">About</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="index.html#whoIsThis" class="pure-menu-link">Who this tool is for</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="index.html#partners" class="pure-menu-link">Project partners</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="index.html#usefulLinks" class="pure-menu-link">Links</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        
     </div>
             <div class='clear'></div>
             <div id='con' class="container wrapper">

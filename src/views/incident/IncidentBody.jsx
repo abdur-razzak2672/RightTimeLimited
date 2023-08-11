@@ -126,7 +126,7 @@ function IncidentBody() {
       <section className="container">
         <div className=" mt-4">
           <h2 className="header text-center ">REPORT AN INCIDENT</h2>
-          <p className="text-dark">Right Time Limited (RightTime) Incident Services encompass incident response, forensic investigation, threat hunting, incident readiness and planning, incident reporting and analysis, as well as continuous monitoring and threat intelligence. Its comprehensive approach aims to help organizations effectively manage security incidents, minimize damage, and enhance their overall security posture in the face of evolving cyber threats.</p>
+          <p className="text-dark">Right Time Limited   Incident Services encompass incident response, forensic investigation, threat hunting, incident readiness and planning, incident reporting and analysis, as well as continuous monitoring and threat intelligence. Its comprehensive approach aims to help organizations effectively manage security incidents, minimize damage, and enhance their overall security posture in the face of evolving cyber threats.</p>
 
        <div className="row">
         {cards.map((card) => (
