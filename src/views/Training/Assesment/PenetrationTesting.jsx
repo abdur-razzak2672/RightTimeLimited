@@ -12,11 +12,11 @@ function PenetrationTesting() {
     <ul className="thm-breadcrumb list-unstyled">
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/services') }}">Training</a></li>
-            <li><a href="{{ url('/services') }}">Web Application Penetration Testing (Custom)</a></li>
+            <li><a href="{{ url('/services') }}">Certified Penetration Testing Professional (CPENT)</a></li>
 
-            <li>Web Application Penetration Testing (Custom)</li>
+            <li>Certified Penetration Testing Professional (CPENT)</li>
         </ul>
-        <h2 className="page-header__title">Web Application Penetration Testing (Custom)</h2>
+        <h2 className="page-header__title">Certified Penetration Testing Professional (CPENT)</h2>
     </div> 
 </div> 
 <section className="section-padding--bottom section-padding--top">
@@ -25,13 +25,10 @@ function PenetrationTesting() {
           <div className="col-lg-8">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Web Application Penetration Testing (Custom)</h3>
+                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Penetration Testing Professional (CPENT)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+Penetration Testing Professional (PTP) is an advanced-level course designed to equip cybersecurity professionals with the skills and knowledge needed to perform comprehensive penetration tests on networks, systems, and applications. The course focuses on hands-on training and practical exercises to simulate real-world scenarios, making it suitable for penetration testers, ethical hackers, and security professionals seeking to advance their penetration testing capabilities.                     </p>
                 </div>
 
 

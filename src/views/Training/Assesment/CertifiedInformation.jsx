@@ -27,10 +27,8 @@ function CertifiedInformation() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Information system Auditor (CISA)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The Certified Information Systems Auditor (CISA) course is designed to prepare professionals for the role of an information systems auditor and equip them with the knowledge and skills required to assess, control, and audit information systems and technology. The course covers essential topics such as IT governance, risk management, information systems control, and audit processes. Participants will learn how to identify vulnerabilities, ensure compliance with standards and regulations, and provide assurance on the effectiveness of information systems in organizations.                    <br/>
+                     </p>
                 </div>
 
 
@@ -105,10 +103,32 @@ function CertifiedInformation() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    IT Governance and Management:<br/><br/>
+
+Understanding IT governance frameworks and best practices.
+Assessing IT strategies and alignment with business objectives.
+Risk Management and Compliance:<br/><br/>
+
+Identifying and managing IT-related risks.
+Ensuring compliance with relevant laws, regulations, and industry standards.
+Information Systems Control and Assurance:<br/><br/>
+
+Evaluating the effectiveness of information systems controls.
+Performing information systems audits to ensure integrity and confidentiality.
+Business Continuity and Disaster Recovery:<br/><br/>
+
+Assessing business continuity plans and disaster recovery processes.
+Mitigating the impact of potential disruptions to information systems.
+Security and Access Control:<br/><br/>
+
+Evaluating the security measures in place to protect information assets.
+Implementing access controls to safeguard sensitive data.
+Audit Process and Reporting:<br/><br/>
+
+Understanding the auditing process and methodologies.
+Reporting findings and recommendations to stakeholders.
+
+                     </p>
                 </div>
 
 
@@ -140,11 +160,14 @@ function CertifiedInformation() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
+                    Obtain the official course materials provided by the training provider or certification body.
+Review textbooks, study guides, and reference materials related to information systems auditing and control.<br/>
+Attend training courses or workshops conducted by experienced CISA instructors.
+Engage in practice exams and mock tests to assess your knowledge and identify areas for improvement.<br/>
+Join study groups or online forums to discuss concepts and share experiences with fellow aspirants.<br/>
+Gain practical experience through internships or work opportunities in the field of IT auditing.
 
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-
+                  
                      </p>
                 </div>
 
@@ -264,18 +287,20 @@ function CertifiedInformation() {
           tabIndex === 5 && (
             <div>
                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
+          <p>
+          The CISA exam is administered by ISACA, the organization that offers the CISA certification.
+The exam consists of multiple-choice questions and is typically conducted in a proctored environment.
+The duration of the exam is four hours.<br/>
+To pass the exam, candidates need to achieve a minimum score set by ISACA.
+The exam tests candidates' knowledge and understanding of information systems auditing, control, and assurance.<br/>
+Certification:<br/>
 
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
+After passing the CISA exam, candidates can apply for the CISA certification from ISACA.
+To become certified, candidates need to meet specific experience and education requirements set by ISACA.
+Once certified, CISA professionals are required to adhere to ISACA's Code of Professional Ethics and continuing professional education (CPE) requirements to maintain their certification.
+Note: The information provided here is a general overview of the CISA course and exam. For the most accurate and up-to-date information, it is essential to refer to the official ISACA website and materials related to the CISA certification.
 
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
+          </p>
             </div>
           )
         }
