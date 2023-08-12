@@ -25,10 +25,8 @@ function ManagementBody() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Management</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    “Right Time Limited” (RightTime) provides training programs that focus on ICT management principles and practices. These programs equip participants with the necessary skills to effectively manage ICT infrastructure, resources, and processes within an organization. Topics covered may include IT governance, IT service management, IT project management, and IT strategy development. By attending these training programs, participants can improve their ability to align ICT initiatives with business objectives and ensure efficient and secure ICT operations.                    <br/>
+                     </p>
                 </div>
 
 

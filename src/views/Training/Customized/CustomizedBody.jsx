@@ -26,10 +26,8 @@ function CustomizedBody() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">RightTime Customized</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    “Right Time Limited” (RightTime) offers customized training solutions tailored to the specific needs of organizations. These programs are designed in collaboration with clients to address their unique requirements, challenges, and goals. The customized training covers a wide range of ICT topics, including cybersecurity, data privacy, cloud computing, network management, and more. By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.                    <br/>
+                     </p>
                 </div>
 
 
