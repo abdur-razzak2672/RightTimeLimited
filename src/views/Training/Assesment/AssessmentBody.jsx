@@ -27,10 +27,8 @@ function AssessmentBody() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Assessment</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+“Right Time Limited” (RightTime) offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. These programs cover various assessment methodologies, tools, and best practices to evaluate the effectiveness and security of ICT systems. Participants gain insights into identifying vulnerabilities, performing risk assessments, and implementing appropriate controls to mitigate risks in the ICT environment.                    <br/>
+                     </p>
                 </div>
 
 
@@ -50,7 +48,7 @@ function AssessmentBody() {
             </div>
           </div>
         </div>
-      </section><br /><br />
+      </section> 
 
 
         <div className ="container ">

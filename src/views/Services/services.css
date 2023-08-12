@@ -303,11 +303,7 @@ a{
 
 
 
-/* .vaptActive .active{
-  background-color: orange !important;
-  color: white !important;
-  width: 100%;
-} */
+ 
 
 .vaptActive Button:focus{
   background-color: orange !important;
