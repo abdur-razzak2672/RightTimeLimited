@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import { countryList } from '../Contact/data';
 import './training.css'
 function TrainingBody() {
-  const [company, setCompany] = useState('1');
+  const [company, setCompany] = useState('2');
 
 
   const handleChange = event => {
@@ -259,43 +259,40 @@ function TrainingBody() {
         <section className="section-padding--bottom   mt-5">
           <div className="container">
             <div className="section-title  ">
-              <h2 className="header text-center">PCI SSC Training & Qualification Programs to Training</h2>
+              <h2 className="header text-center">Training Programs</h2>
             </div>
             <ul className="card-wrapper">
               <li className="card">
-              <a className="circleImage1 mt-4" href="/assesment"><img src="/assets/images/training/Icon1.webp" alt="" /></a>
+          <img  height="210px"swidth="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ZcolhLT16D6Z7FcYG0dHqRPP9P-J7eWjnA&usqp=CAU" alt="" /> 
                 <h3 className="text-center header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
                  <p className='text-dark  '>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
 
-                <a  className="text-warning" href="/assesment" >Download Course Description</a><br/>
-                <a href="/assesment"  className="text-warning">More Information</a>
+                 <a href="/assesment"  className="header">More Information...</a>
                   
                 </div>
  
 
 
               </li>
-              <li className="card">
-              <a className="circleImage1  mt-4" href="/management"><img src="/assets/images/training/Icon2.webp" alt="" /></a>
+              <li className="card bg-gray">
+               <img  height="210px" width="100%"  src="https://www.esds.co.in/blog/wp-content/uploads/2023/04/How-to-Perform-a-Cybersecurity-Risk-Assessment-in-your-blog-3.jpg" alt="" /> 
               <h3 className="text-center header" ><a href="/management"> Training (ICT Management)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
                  <p className='text-dark  '>“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
 
-                <a  className="text-warning" href="/management" >Download Course Description</a><br/>
-                <a  className="text-warning" href="/management"  >More Information</a>
+                 <a  className="header" href="/management"  >More Information...</a>
                   
                 </div>
               </li>
 
               <li className="card">
-              <a className="circleImage1 mt-4" href="/Customized"><img src="/assets/images/training/Icon3.webp" alt="" /></a>
+              <img  height="210px" width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Ztv2bHwNr9s5xG4jxeMgq65B47PoKT66MfESb2ykUgtKHAM41aa6x7i8l50i51PS9wI&usqp=CAU" alt="" /> 
               <h3 className="text-center header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
                  <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
+                 <p className='text-dark'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
 
-                <a href="/Customized"  className="text-warning">Download Course Description</a><br/>
-                <a href="/Customized" className="text-warning">More Information</a>
+                 <a href="/Customized" className="header">More Information...</a>
                   
                 </div>
 
@@ -431,9 +428,10 @@ function TrainingBody() {
 
 <Form.Select   onChange={handleChange}
   aria-label="Default select example">
-  <option value="1">Company </option>
-  <option value="2">Individual</option>
+      <option value="2">Individual</option>
 
+  <option value="1">Company </option>
+ 
 
 </Form.Select>
 </Form.Group>
