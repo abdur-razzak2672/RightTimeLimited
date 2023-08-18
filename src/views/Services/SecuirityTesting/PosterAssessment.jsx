@@ -131,7 +131,9 @@ function PosterAssessment() {
           <h6 className='header mt-2'>9.Removable Media Controls  </h6>
           <p className='text-dark'> Produce a policy to control all access to removable media. Limit media types and use. Scan all media for malware before importing onto the corporate system. </p>
         
-
+          <h6 className='header mt-2'>10. Home & Mobile Working </h6>
+          <p className='text-dark'> Develop a mobile working policy and train staff to adhere to it. Apply the secure baseline and build to all devices. Protect data both in transit and at rest. </p>
+        
 
 
 
