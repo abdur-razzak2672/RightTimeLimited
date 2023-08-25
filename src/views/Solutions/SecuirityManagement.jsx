@@ -31,8 +31,7 @@ function SecuirityManagement() {
     
      </div>
 
-     <h6 className='text-success mt-5 text-center'>More Information Coming Soon .....</h6>
-       
+        
 
    </section>
    

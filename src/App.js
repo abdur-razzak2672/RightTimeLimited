@@ -242,7 +242,7 @@ import Pathway from "./views/Training/Pathway";
 import ResourchBody from "./views/resource/ResouceBody";
 import EducationTraining from "./views/Training/EducationTraining";
 import InteractiveMap from "./views/Training/InteractiveMap";
-
+import TenableSltn from "./views/Solutions/Tenable";
 
  
 
@@ -594,6 +594,7 @@ Fresno, CA 93710
         <Route path="/network-application" component={NetworkApplication} exact />
         <Route path="/digital-transformation" component={DigitalTransformation} exact />
         <Route path="/work-from-home" component={WorkFromHome} exact />
+        <Route path="/tenable-sltn" component={TenableSltn} exact />
         
 
 

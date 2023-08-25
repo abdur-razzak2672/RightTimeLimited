@@ -1260,9 +1260,9 @@ function Header() {
 
                       <a
                         className=" lineHght  mt-3 "
-                        href="/Tenable"
+                        href="/tenable-sltn"
                       >
-                        Tenable (multiple solutions)
+                        Tenable (Multiple Solutions)
                       </a>
 
                       <a className="mt-3" href="/acunetix">
@@ -1338,9 +1338,9 @@ function Header() {
 
                       <a
                         className=" lineHght "
-                        href="/Tenable"
+                        href="/tenable-sltn"
                       >
-                        Tenable (multiple solutions)
+                        Tenable (Multiple Solutions)
                       </a>
 
                     </li>

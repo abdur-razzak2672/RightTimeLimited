@@ -351,7 +351,7 @@ function TopManagement() {
           <Row>
             <Col md={8}>
               <p className='teamDetails'>
-                Rokanuzzaman is  an experienced ICT Cyber Security Professional with over 15 years of experience. He is  dedicated to developing effective cyber security strategies that minimize risks and ensure compliance with industry standards. Currently, he is serving as CIO of “Right Time Limited”, the leading ICT Security firm. He   has a proven track record of implementing successful cyber security solutions that protect organizations from cyber threats.  </p>
+                Rokanuzzaman is  an experienced ICT Cyber Security Professional with over 15 years of experience. He is  dedicated to developing effective cyber security strategies that minimize risks and ensure compliance with industry standards. He is serving as Chief Information Officer (CIO), "Right Time Limited", the leading ICT Security Service Provider since 2014.. He   has a proven track record of implementing successful cyber security solutions that protect organizations from cyber threats.  </p>
               <p>His expertise spans across various aspects of cyber security, including network security, vulnerability assessment, penetration testing, and incident response. He   has led teams of cyber security experts and provided guidance to executive leadership on complex security issues and ensureduninterrupted business operations. </p>
             </Col>
 
