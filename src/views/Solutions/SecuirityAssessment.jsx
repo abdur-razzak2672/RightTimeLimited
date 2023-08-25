@@ -26,14 +26,16 @@ function SecuirityAssessment() {
    <section>
      <div className="container mt-5">
        <h2 className="text-center header">Security Assessment (VA & PT) Tools</h2>
+
+       <img className='rounded' width="100%" height="500px" src="/assets/images/solutions/sltn1.jpg" alt="img" />
+
        <p className='text-dark'> Right Time Limited   provides advanced Security Assessment tools such as Vulnerability Assessment (VA) and Penetration Testing (PT). These tools are utilized to evaluate the security posture of organizations' systems, networks, and applications. Through Vulnerability Assessment, potential vulnerabilities and weaknesses are identified and assessed. Penetration Testing, on the other hand, involves simulated attacks to uncover vulnerabilities and validate the effectiveness of existing security measures. By leveraging these tools, RightTime helps clients proactively identify and address security gaps, ensuring a robust defense against cyber threats.</p>
  
      
     
      </div>
 
-     <h6 className='text-success mt-5 text-center'>More Information Coming Soon .....</h6>
-       
+        
 
    </section>
    
