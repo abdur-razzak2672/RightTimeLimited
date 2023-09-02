@@ -57,7 +57,7 @@ function RegionalLeader() {
                       <div className="img-container">
                       <img
                          className = "img-responsive"
-                          src= "/assets/images/team/user.jpg"
+                          src= "/assets/images/team/rashed.jpeg"
                           alt=""
                         />
                         
@@ -91,7 +91,7 @@ function RegionalLeader() {
                       <div className="img-container">
                          <img
                          className = "img-responsive"
-                         src= "/assets/images/team/user.jpg"
+                         src= "/assets/images/team/linda.jpeg"
                          alt=""
                         />
                       </div>
@@ -180,7 +180,7 @@ function RegionalLeader() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/user.jpg"
+              src= "/assets/images/team/rashed.jpeg"
               alt=""
             />
 
@@ -213,7 +213,7 @@ function RegionalLeader() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/user.jpg"
+              src= "/assets/images/team/linda.jpeg"
               alt=""
             />
 
