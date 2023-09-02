@@ -136,6 +136,57 @@ function TrainingBody() {
         <div className="container mt-5">
         <p className='text-dark'>“Right Time Limited”   training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>
 
+        <section className="section-padding--bottom   mt-5">
+          <div className="container">
+            <div className="section-title  ">
+              <h2 className="header text-center">Training Programs</h2>
+            </div>
+            <ul className="card-wrapper">
+              <li className="card">
+          <img  height="210px"swidth="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ZcolhLT16D6Z7FcYG0dHqRPP9P-J7eWjnA&usqp=CAU" alt="" /> 
+                <h3 className="text-center header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
+                 <div className='mx-2' style={{alignItems:"start"}}>
+                 <p className='text-dark  '>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
+
+                 <a href="/assesment"  className="header">More Information...</a>
+                  
+                </div>
+ 
+
+
+              </li>
+              <li className="card bg-gray">
+               <img  height="210px" width="100%"  src="https://www.esds.co.in/blog/wp-content/uploads/2023/04/How-to-Perform-a-Cybersecurity-Risk-Assessment-in-your-blog-3.jpg" alt="" /> 
+              <h3 className="text-center header" ><a href="/management"> Training (ICT Management)</a></h3>
+                 <div className='mx-2' style={{alignItems:"start"}}>
+                 <p className='text-dark  '>“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
+
+                 <a  className="header" href="/management"  >More Information...</a>
+                  
+                </div>
+              </li>
+
+              <li className="card">
+              <img  height="210px" width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Ztv2bHwNr9s5xG4jxeMgq65B47PoKT66MfESb2ykUgtKHAM41aa6x7i8l50i51PS9wI&usqp=CAU" alt="" /> 
+              <h3 className="text-center header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
+                 <div className='mx-2' style={{alignItems:"start"}}>
+                 <p className='text-dark'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
+
+                 <a href="/Customized" className="header">More Information...</a>
+                  
+                </div>
+
+
+
+              </li>
+             
+
+
+            </ul>
+
+
+          </div>
+        </section>
 
 
         {/* <img id='prelC' src="/images/c.svg" width="100" height="100" alt="loading" /> */}
@@ -256,58 +307,7 @@ function TrainingBody() {
           {/* <p className='text-dark mt-5'>The PCI Security Standards Council operates programs to train, test, and qualify organizations and individuals who assess and validate compliance, in order to help merchants successfully implement PCI standards and solutions. The Council also qualifies payment hardware and software so that merchants select and implement approved solutions for securing payment data and systems.</p> */}
 
         </div>
-        <section className="section-padding--bottom   mt-5">
-          <div className="container">
-            <div className="section-title  ">
-              <h2 className="header text-center">Training Programs</h2>
-            </div>
-            <ul className="card-wrapper">
-              <li className="card">
-          <img  height="210px"swidth="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ZcolhLT16D6Z7FcYG0dHqRPP9P-J7eWjnA&usqp=CAU" alt="" /> 
-                <h3 className="text-center header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
-                 <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
-
-                 <a href="/assesment"  className="header">More Information...</a>
-                  
-                </div>
- 
-
-
-              </li>
-              <li className="card bg-gray">
-               <img  height="210px" width="100%"  src="https://www.esds.co.in/blog/wp-content/uploads/2023/04/How-to-Perform-a-Cybersecurity-Risk-Assessment-in-your-blog-3.jpg" alt="" /> 
-              <h3 className="text-center header" ><a href="/management"> Training (ICT Management)</a></h3>
-                 <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark  '>“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
-
-                 <a  className="header" href="/management"  >More Information...</a>
-                  
-                </div>
-              </li>
-
-              <li className="card">
-              <img  height="210px" width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Ztv2bHwNr9s5xG4jxeMgq65B47PoKT66MfESb2ykUgtKHAM41aa6x7i8l50i51PS9wI&usqp=CAU" alt="" /> 
-              <h3 className="text-center header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
-                 <div className='mx-2' style={{alignItems:"start"}}>
-                 <p className='text-dark'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
-
-                 <a href="/Customized" className="header">More Information...</a>
-                  
-                </div>
-
-
-
-              </li>
-             
-
-
-            </ul>
-
-
-          </div>
-        </section>
-
+        
 
 
         <section className="section-padding--bottom text-center mt-5">
