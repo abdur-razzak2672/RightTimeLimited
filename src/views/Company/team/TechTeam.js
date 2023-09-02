@@ -343,7 +343,7 @@ function TechTeam() {
 
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/sadrin1.jpg"
+                            src="/assets/images/team/Sadrin1.jpg"
                             alt=""
                           />
                         </div>
@@ -679,7 +679,7 @@ function TechTeam() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/sadrin1.jpg"
+                src="/assets/images/team/Sadrin1.jpg"
 
                 alt=""
               />
