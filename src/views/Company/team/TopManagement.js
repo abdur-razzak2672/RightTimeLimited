@@ -84,7 +84,7 @@ function TopManagement() {
                     <article className="material-card mt-5  Purple">
                       <a onClick={handleShow2} href='javascript:void(0)'>
                         <h2 className="h21 text-light">
-                          <span>Dr. Touhid Bhuiyan</span>
+                          <span>Md Humayun Kabir</span>
                           <strong>
                             <i className="fa fa-fw fa-star"></i>
                             DIRECTOR, STRATEGIC PLANNING AND DEVELOPMENT
@@ -95,7 +95,7 @@ function TopManagement() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/Photo1.jpeg"
+                            src="/assets/images/team/kabir.jpeg"
                             alt=""
                           />
 
@@ -311,28 +311,30 @@ function TopManagement() {
 
       <Modal size="lg" show={show2} onHide={handleClose2}>
         <Modal.Body className=" rounded-3">
-          <h5 className='teamTitle'>Dr. Touhid Bhuiyan</h5>
+          <h5 className='teamTitle'>Md Humayun Kabir</h5>
           <i style={{ fontSize: "40px" }} className="fab fa-linkedin "></i>
 
           <Row>
             <Col md={8}>
               <p className='teamDetails'>
-                Dr. Touhid, with his 30+ years of experience in Multilayered Business Development, Sales, and Marketing of IT Software Solutions and Services Operational, Management to Leadership Levels, having worked with hundreds of Industry Giants and Consulting & Research Organizations, education sector.              </p>
+              Md Humayun Kabir serves as the Director of Strategic Planning & Development at Right Time Limited, a prominent Cyber Security Service Provider. With a rich background in cybersecurity, he plays a pivotal role in shaping the company's strategic direction and fostering its growth in the dynamic field of information security.
+                 </p>
+                 <p>As Director, Mr. Kabir leverages his extensive knowledge and experience to steer the company's strategic initiatives, ensuring that Right Time Limited remains at the forefront of cybersecurity solutions.</p>
 
             </Col>
 
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/Photo1.jpeg"
+                src="/assets/images/team/kabir.jpeg"
 
                 alt=""
               />
 
             </Col>
-            <p>Dr. Touhid, Joined in "Right Time Limited as the Country Director, Australia. He is well known in Bangladesh Government and Private sector as Cyber Security, Cybercrime, and Computer Forensics Analyst. He has more than 30+ years of experience in Computer Network Security, Software Development and with a compact upbringing in Neural Networks, Artificial Intelligence, and Software Development. He has also proven track-records in Research & Development (R&D), His expertise is in Ethical Hacking (Black Box, Gray Box & White Box Penetration Testing), Reverse Engineering in ITES Applications, Network Security Audits, and Software Development. He already had provided security assessments, design, and operational assistance for Mission as well as Business-Critical IT infrastructure for many Domestic and MNC Companies. He worked as a National Cyber Security Consultant – to secure the selected Government online portal, collaborated by UNDP, a2i – ICT Division of Bangladesh Government.</p>
-            <p>Mr. Touhid did his PhD in Information Security, 2011, Queensland University of Technology, Australia, MSc in Computer Science, 2003, The American University in London, U.K and BSc (Hons) in Computing & Information Systems, 1997, University of London, U.K and Advanced Diploma of Cyber Security, Holmesglen TAFE, Australia, 2021. Besides, he is a qualified Information System auditor i.e. CISA by ISACA, CEH and ISO 27001 Lead Auditor. He has been a Cyber Security faculty for the last 15+ years and guest speaker (Cyber Security) at different universities in Bangladesh and abroad and to other Co-Op Banks for Cyber Security.</p>
-          </Row>
+            <p> His leadership is instrumental in developing and implementing forward-thinking strategies that not only safeguard organizations against cyber threats but also enable them to thrive in an increasingly digital landscape. With a commitment to innovation and a comprehensive understanding of the cybersecurity landscape, Mr. Kabir plays a crucial role in driving Right Time Limited's mission to provide cutting-edge solutions that protect and empower businesses in today's interconnected world. </p>
+
+            </Row>
 
 
 

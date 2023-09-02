@@ -344,7 +344,7 @@ function TechTeam() {
                           <img
                             className="img-responsive"
                             src="/assets/images/team/Sadrin1.jpg"
-                            alt=""
+                            alt="sadrin"
                           />
                         </div>
                         <div className="mc-description mt-3">  SECURITY ANALYST
@@ -680,8 +680,7 @@ function TechTeam() {
               <img
                 className="img-responsive"
                 src="/assets/images/team/Sadrin1.jpg"
-
-                alt=""
+                alt="sadrin"
               />
 
             </Col>
