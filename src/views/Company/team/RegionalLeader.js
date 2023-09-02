@@ -48,9 +48,11 @@ function RegionalLeader() {
           <article className="material-card mt-5 Red">
                     <a onClick={handleShow} href='javascript:void(0)'>
                        <h2 className="h21 text-light">
-                      <span>Rashed</span>
+                      <span>MR. RASHED SARWAR</span>
                       <strong>
-                      PRESIDENT, RIGHT TIME LIMITED; USA
+                      COUNTRY DIRECTOR
+RIGHT TIME LIMITED
+USA
                       </strong>
                      </h2>
                     </a>
@@ -64,7 +66,9 @@ function RegionalLeader() {
                         />
                         
                        </div>
-                      <div className="mc-description mt-3"> PRESIDENT, RIGHT TIME LIMITED; USA</div>
+                      <div className="mc-description mt-3"> COUNTRY DIRECTOR
+RIGHT TIME LIMITED
+USA</div>
                     </div>
                     <a className="mc-btn-action">
                       <i className="fa fa-bars"></i>
@@ -82,10 +86,12 @@ function RegionalLeader() {
           <article className="material-card mt-5 Pink">
                   <a onClick={handleShow1} href='javascript:void(0)'>
                     <h2 className="h21 text-light">
-                      <span>Linda</span>
+                      <span>MS. MELINDA S.</span>
                       <strong>
                         <i className="fa fa-fw fa-star"></i>
-                        PRESIDENT, RIGHT TIME LIMITED; GERMANY
+                        COUNTRY DIRECTOR
+RIGHT TIME LIMITED
+GERMANY
                       </strong>
                     </h2>
                     </a>
@@ -98,7 +104,9 @@ function RegionalLeader() {
                         />
                       </div>
                       <div className="mc-description mt-3">
-                        <p>PRESIDENT, RIGHT TIME LIMITED; GERMANY</p>
+                        <p>COUNTRY DIRECTOR
+RIGHT TIME LIMITED
+GERMANY</p>
                       </div>
                     </div>
                     <a className="mc-btn-action">
@@ -117,10 +125,12 @@ function RegionalLeader() {
                     <article className="material-card mt-5  Purple">
                       <a onClick={handleShow12} href='javascript:void(0)'>
                         <h2 className="h21 text-light">
-                          <span>Dr. Touhid Bhuiyan</span>
+                          <span>DR. TOUHID BHUIYAN</span>
                           <strong>
                             <i className="fa fa-fw fa-star"></i>
-                            Country Director
+                            COUNTRY DIRECTOR
+RIGHT TIME LIMITED
+AUSTRALIA
                           </strong>
                         </h2>
                       </a>
@@ -134,8 +144,9 @@ function RegionalLeader() {
 
                         </div>
                         <div className="mc-description mt-3">
-                          Country Director
-                        </div>
+                        COUNTRY DIRECTOR
+RIGHT TIME LIMITED
+AUSTRALIA                        </div>
                       </div>
                       <a className="mc-btn-action">
                         <i className="fa fa-bars"></i>
@@ -148,42 +159,7 @@ function RegionalLeader() {
                       </div>
                     </article>
                   </Col>
-          <Col md={4} sm={6} xs={12} >
-          <article className="material-card mt-5 Purple">
-                  <a onClick={handleShow2} href='javascript:void(0)'>
-                    <h2 className="h21 text-light">
-                      <span>Rahim</span>
-                      <strong>
-                        <i className="fa fa-fw fa-star"></i>
-                        PRESIDENT, RIGHT TIME LIMITED; AUSTRALIA
-                      </strong>
-                    </h2>
-                    </a>
-                    <div className="mc-content" style={{height:"320px"}} >
-                      <div className="img-container">
-                      <img
-                         className = "img-responsive"
-                         src= "/assets/images/team/user.jpg"
-                         alt=""
-                        />
-                         
-                      </div>
-                      <div className="mc-description mt-3">
-                      PRESIDENT, RIGHT TIME LIMITED; AUSTRALIA
-                      </div>
-                    </div>
-                    <a className="mc-btn-action">
-                      <i className="fa fa-bars"></i>
-                    </a>
-                      <div className="mc-footer">
-                      <a href="/facebook" style={{backgroundColor:"#3b5998",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-facebook-f "></a>
-                      <a href="/facebook" style={{backgroundColor:"#00acee",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-twitter"></a>
-                      <a href="/facebook" style={{backgroundColor:"#0A66C2",paddingLeft:"15px",borderRadius:"15px"}} className="fab fa-linkedin"></a>
-                      <a href="/facebook" style={{backgroundColor:" #e95950",paddingLeft:"15px",borderRadius:"12px"}} className="fab fa-instagram"></a>
-                    </div>
-                  </article>
-
-          </Col>
+          
           </Row>
 
 
@@ -204,7 +180,7 @@ function RegionalLeader() {
  
       <Modal   size="lg" show={show} onHide={handleClose}>
         <Modal.Body  className=" rounded-3">
-          <h5 className='teamTitle'>Rashed</h5>
+          <h5 className='teamTitle'>MR. RASHED SARWAR</h5>
            <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
 
            <Row>
@@ -235,7 +211,7 @@ function RegionalLeader() {
       </Modal>
       <Modal size="lg" show={show12} onHide={handleClose12}>
         <Modal.Body className=" rounded-3">
-          <h5 className='teamTitle'>Dr. Touhid Bhuiyan</h5>
+          <h5 className='teamTitle'>DR. TOUHID BHUIYAN</h5>
           <i style={{ fontSize: "40px" }} className="fab fa-linkedin "></i>
 
           <Row>
@@ -270,7 +246,7 @@ function RegionalLeader() {
 
       <Modal   size="lg" show={show1} onHide={handleClose1}>
         <Modal.Body  className=" rounded-3">
-          <h5 className='teamTitle'>Linda</h5>
+          <h5 className='teamTitle'>MS. MELINDA S.</h5>
            <i style={{ fontSize:"40px"}} className="fab fa-linkedin "></i>
 
            <Row>

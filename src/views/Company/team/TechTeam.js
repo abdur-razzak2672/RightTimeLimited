@@ -56,7 +56,7 @@ function TechTeam() {
 
   return (
     <div>
-      <section className=" section-padding--top">
+      <section className="">
         <div className="container">
           <h3 className="blog-card-one__title blog-details__title" style={{ color: "#17224d" }} >Tech Team  </h3>
 
@@ -119,7 +119,7 @@ function TechTeam() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/Kamrun Nahar.jpg"
+                            src="/assets/images/team/kn.jpeg"
                             alt=""
                           />
 
@@ -155,7 +155,7 @@ function TechTeam() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/Tinne.jpg"
+                            src="/assets/images/team/tinni.jpeg"
                             alt=""
                           />
                         </div>
@@ -343,7 +343,7 @@ function TechTeam() {
 
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/Sadrin1.jpg"
+                            src="/assets/images/team/sd.jpeg"
                             alt="sadrin"
                           />
                         </div>
@@ -427,18 +427,18 @@ function TechTeam() {
             <Col md={8}>
               <p className='teamDetails'>
                 Nahar achieved adequate acumen in Quality Control and Document (Technical Document) Writing. having 16+ years of experience in Governance, Risk and Compliance profile in various industries like Banking, Information Technology, Telecom, Airlines, Support services etc.              </p>
+            <p>She is pioneer in providing quality services in Cyber Security, PCI DSS, GDPR, IT Risk, IT Audit, ISO27001, HIPAA, Business continuity, Sarbanes–Oxley Act, Disaster Recovery, Other Technology driven business operation.</p>
 
             </Col>
 
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/Kamrun Nahar.jpg"
+                src="/assets/images/team/kn.jpeg"
                 alt=""
               />
 
             </Col>
-            <p>She is pioneer in providing quality services in Cyber Security, PCI DSS, GDPR, IT Risk, IT Audit, ISO27001, HIPAA, Business continuity, Sarbanes–Oxley Act, Disaster Recovery, Other Technology driven business operation.</p>
             <p>NAHAR HOLDS - SWIFT PRO, ITIL, LEAD AUDITOR- ISO 9001 (QMS), ACUNETIX PRO</p>
           </Row>
 
@@ -465,7 +465,7 @@ function TechTeam() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/Tinne.jpg"
+                src="/assets/images/team/tinni.jpeg"
                 alt=""
               />
 
@@ -679,7 +679,7 @@ function TechTeam() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/Sadrin1.jpg"
+                src="/assets/images/team/sd.jpeg"
                 alt="sadrin"
               />
 
