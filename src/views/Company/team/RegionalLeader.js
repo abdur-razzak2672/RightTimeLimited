@@ -6,6 +6,8 @@ function RegionalLeader() {
 
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
+  const [show12, setShow12] = useState(false);
+
   const [show3, setShow3] = useState(false);
   const [show4, setShow4] = useState(false);
   const [show5, setShow5] = useState(false);
@@ -16,12 +18,12 @@ function RegionalLeader() {
   const handleShow1 = () => setShow1(true);
   const handleClose2 = () => setShow2(false);
   const handleShow2 = () => setShow2(true);
-  const handleClose3 = () => setShow3(false);
+  const handleClose12 = () => setShow12(false);
   const handleShow3 = () => setShow3(true);
   const handleClose4 = () => setShow4(false);
   const handleShow4 = () => setShow4(true);
   const handleClose5 = () => setShow5(false);
-  const handleShow5 = () => setShow5(true);
+  const handleShow12 = () => setShow12(true);
 
  
 
@@ -58,7 +60,7 @@ function RegionalLeader() {
                       <img
                          className = "img-responsive"
                           src= "/assets/images/team/rashed.jpeg"
-                          alt=""
+                          alt="Rashed"
                         />
                         
                        </div>
@@ -91,8 +93,8 @@ function RegionalLeader() {
                       <div className="img-container">
                          <img
                          className = "img-responsive"
-                         src= "/assets/images/team/linda.jpeg"
-                         alt=""
+                         src= "/assets/images/team/linda.jpg"
+                         alt="Linda"
                         />
                       </div>
                       <div className="mc-description mt-3">
@@ -111,6 +113,41 @@ function RegionalLeader() {
                   </article>
 
           </Col>
+          <Col md={4} sm={6} xs={12}>
+                    <article className="material-card mt-5  Purple">
+                      <a onClick={handleShow12} href='javascript:void(0)'>
+                        <h2 className="h21 text-light">
+                          <span>Dr. Touhid Bhuiyan</span>
+                          <strong>
+                            <i className="fa fa-fw fa-star"></i>
+                            Country Director
+                          </strong>
+                        </h2>
+                      </a>
+                      <div className="mc-content" style={{ height: "320px" }} >
+                        <div className="img-container">
+                          <img
+                            className="img-responsive"
+                            src="/assets/images/team/Photo1.jpeg"
+                            alt=""
+                          />
+
+                        </div>
+                        <div className="mc-description mt-3">
+                          Country Director
+                        </div>
+                      </div>
+                      <a className="mc-btn-action">
+                        <i className="fa fa-bars"></i>
+                      </a>
+                      <div className="mc-footer">
+                        <a href="/facebook" style={{ backgroundColor: "#3b5998", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-facebook-f "></a>
+                        <a href="/facebook" style={{ backgroundColor: "#00acee", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-twitter"></a>
+                        <a href="/facebook" style={{ backgroundColor: "#0A66C2", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-linkedin"></a>
+                        <a href="/facebook" style={{ backgroundColor: " #e95950", paddingLeft: "15px", borderRadius: "12px" }} className="fab fa-instagram"></a>
+                      </div>
+                    </article>
+                  </Col>
           <Col md={4} sm={6} xs={12} >
           <article className="material-card mt-5 Purple">
                   <a onClick={handleShow2} href='javascript:void(0)'>
@@ -181,7 +218,7 @@ function RegionalLeader() {
             <img
               className = "img-responsive"
               src= "/assets/images/team/rashed.jpeg"
-              alt=""
+              alt="Rashed"
             />
 
             </Col>
@@ -196,6 +233,39 @@ function RegionalLeader() {
         </Modal.Body>
        
       </Modal>
+      <Modal size="lg" show={show12} onHide={handleClose12}>
+        <Modal.Body className=" rounded-3">
+          <h5 className='teamTitle'>Dr. Touhid Bhuiyan</h5>
+          <i style={{ fontSize: "40px" }} className="fab fa-linkedin "></i>
+
+          <Row>
+            <Col md={8}>
+              <p className='teamDetails'>
+                Dr. Touhid, with his 30+ years of experience in Multilayered Business Development, Sales, and Marketing of IT Software Solutions and Services Operational, Management to Leadership Levels, having worked with hundreds of Industry Giants and Consulting & Research Organizations, education sector.              </p>
+
+            </Col>
+
+            <Col md={4}>
+              <img
+                className="img-responsive"
+                src="/assets/images/team/Photo1.jpeg"
+
+                alt=""
+              />
+
+            </Col>
+            <p>Dr. Touhid, Joined in "Right Time Limited as the Country Director, Australia. He is well known in Bangladesh Government and Private sector as Cyber Security, Cybercrime, and Computer Forensics Analyst. He has more than 30+ years of experience in Computer Network Security, Software Development and with a compact upbringing in Neural Networks, Artificial Intelligence, and Software Development. He has also proven track-records in Research & Development (R&D), His expertise is in Ethical Hacking (Black Box, Gray Box & White Box Penetration Testing), Reverse Engineering in ITES Applications, Network Security Audits, and Software Development. He already had provided security assessments, design, and operational assistance for Mission as well as Business-Critical IT infrastructure for many Domestic and MNC Companies. He worked as a National Cyber Security Consultant – to secure the selected Government online portal, collaborated by UNDP, a2i – ICT Division of Bangladesh Government.</p>
+            <p>Mr. Touhid did his PhD in Information Security, 2011, Queensland University of Technology, Australia, MSc in Computer Science, 2003, The American University in London, U.K and BSc (Hons) in Computing & Information Systems, 1997, University of London, U.K and Advanced Diploma of Cyber Security, Holmesglen TAFE, Australia, 2021. Besides, he is a qualified Information System auditor i.e. CISA by ISACA, CEH and ISO 27001 Lead Auditor. He has been a Cyber Security faculty for the last 15+ years and guest speaker (Cyber Security) at different universities in Bangladesh and abroad and to other Co-Op Banks for Cyber Security.</p>
+          </Row>
+
+
+
+
+
+        </Modal.Body>
+
+      </Modal>
+
 
 
       <Modal   size="lg" show={show1} onHide={handleClose1}>
@@ -213,8 +283,8 @@ function RegionalLeader() {
             <Col md={4}>
             <img
               className = "img-responsive"
-              src= "/assets/images/team/linda.jpeg"
-              alt=""
+              src= "/assets/images/team/linda.jpg"
+              alt="Rashed"
             />
 
             </Col>
