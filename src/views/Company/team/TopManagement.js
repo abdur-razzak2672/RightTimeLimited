@@ -62,7 +62,7 @@ function TopManagement() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/mam.jpg"
+                            src="/assets/images/team/ch1.jpeg"
                             alt=""
                           />
 
@@ -166,7 +166,7 @@ function TopManagement() {
 
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/Arshad -PP (New).jpeg"
+                            src="/assets/images/team/ar.jpeg"
                             alt=""
                           />
                         </div>
@@ -201,7 +201,7 @@ function TopManagement() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/Shamim-PP.jpeg"
+                            src="/assets/images/team/sm.jpeg"
                             alt=""
                           />
                         </div>
@@ -236,7 +236,7 @@ function TopManagement() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src= "/assets/images/team/user.jpg"
+                            src= "/assets/images/team/zia.jpeg"
                             alt=""
                           />
                         </div>
@@ -290,7 +290,7 @@ function TopManagement() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/mam.jpg"
+                src="/assets/images/team/ch1.jpeg"
                 alt=""
               />
 
@@ -397,7 +397,7 @@ function TopManagement() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/Arshad -PP (New).jpeg"
+                src="/assets/images/team/ar.jpeg"
                 alt=""
               />
 
@@ -430,7 +430,7 @@ function TopManagement() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/Shamim-PP.jpeg"
+                src="/assets/images/team/sm.jpeg"
                 alt=""
               />
 
@@ -463,7 +463,7 @@ function TopManagement() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src= "/assets/images/team/user.jpg"
+                src= "/assets/images/team/zia.jpeg"
                 alt=""
               />
 
