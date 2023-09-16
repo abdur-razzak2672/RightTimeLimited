@@ -1,6 +1,7 @@
 import React from 'react'
 import SolutionNav from './SolutionNav'
 import Allpage from '../../components/all-page/Allpage'
+import CommonSecuirityAssesment from './CommonSecuirityAssesment'
 
 function Acunetix() {
   return (
@@ -24,12 +25,20 @@ function Acunetix() {
 
    <section>
      <div className="container mt-5">
-       <h2 className="text-center header">Acunetix (Web VA & PT)</h2>
+      <div className="row">
+        <div className="col-lg-8">
+        <h2 className="text-center header">Acunetix (Web VA & PT)</h2>
 
-       <img className='rounded' width="100%" height=" 400px"   src="/assets/images/solutions/sltn5.png" alt="img" />
+<img className='rounded' width="100%" height=" 400px"   src="/assets/images/solutions/sltn5.png" alt="img" />
 
-       <p className='text-dark'> As a partner of Invicti, "Right Time Limited" provides the powerful security assessment solution, Acunetix, to deliver comprehensive cybersecurity services to their clients. Acunetix is an advanced web vulnerability scanner designed to identify and address potential security weaknesses in web applications and digital assets.</p>
-       <div className='text-dark mt-5'> 
+<p className='text-dark'> As a partner of Invicti, "Right Time Limited" provides the powerful security assessment solution, Acunetix, to deliver comprehensive cybersecurity services to their clients. Acunetix is an advanced web vulnerability scanner designed to identify and address potential security weaknesses in web applications and digital assets.</p>
+
+        </div>
+        <div className='col-lg-4'>
+          <CommonSecuirityAssesment/>
+        </div>
+      </div>
+        <div className='text-dark mt-5'> 
        <h4 className='header mt-5'>Key features and benefits of Acunetix:</h4>
 <p><span className=" header" >Extensive Web Application Scanning: </span>   Acunetix conducts thorough scans of web applications, detecting various security vulnerabilities, including SQL injection, cross-site scripting (XSS), and other critical issues.  </p>
 <p><span className=" header" >  Automated Security Testing:</span>  The tool automates the security testing process, enabling client to efficiently assess their clients' web applications and digital infrastructure for potential vulnerabilities. </p>

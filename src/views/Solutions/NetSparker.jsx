@@ -1,6 +1,7 @@
 import React from 'react'
 import SolutionNav from './SolutionNav'
 import Allpage from '../../components/all-page/Allpage'
+import CommonSecuirityAssesment from './CommonSecuirityAssesment'
 
 function NetSparker() {
   return (
@@ -24,12 +25,19 @@ function NetSparker() {
  
     <section>
       <div className="container mt-5">
-        <h2 className="text-center header">Net Sparker (Web Assessment)</h2>
+        <div className="row">
+          <div className="col-lg-8">
+          <h2 className="text-center header">Net Sparker (Web Assessment)</h2>
  
-        <img className='rounded' width="100%"   src="/assets/images/solutions/sltn3.png" alt="img" />
- 
-        <p className='text-dark'>As a partner of Invicti, "Right Time Limited" offers the powerful security assessment solution, NetSparker, to provide comprehensive cybersecurity services to their clients. NetSparker is an advanced web application security scanner designed to identify and remediate vulnerabilities in web applications and digital assets.</p>
-      
+ <img className='rounded' width="100%"   src="/assets/images/solutions/sltn3.png" alt="img" />
+
+ <p className='text-dark'>As a partner of Invicti, "Right Time Limited" offers the powerful security assessment solution, NetSparker, to provide comprehensive cybersecurity services to their clients. NetSparker is an advanced web application security scanner designed to identify and remediate vulnerabilities in web applications and digital assets.</p>
+
+          </div>
+          <div className='col-lg-4'>
+            <CommonSecuirityAssesment/>
+          </div>
+        </div>
         <div className='text-dark mt-5'> 
         <h4 className='header mt-5'>Key features and benefits of NetSparker:</h4>
  <p><span className=" header" > Thorough Web Application Scanning: </span> NetSparker performs in-depth scans of web applications, identifying common security flaws such as SQL injection, cross-site scripting (XSS), and other vulnerabilities.   </p>
