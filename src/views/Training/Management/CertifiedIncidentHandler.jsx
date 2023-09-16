@@ -28,10 +28,8 @@ function CertifiedIncidentHandler() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Incident Handler (Custom)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The Incident Handler course is designed to equip cybersecurity professionals with the knowledge and skills required to effectively handle and respond to security incidents in an organization. The course focuses on incident detection, analysis, containment, eradication, and recovery. Participants will learn incident handling best practices, tools, and techniques to mitigate the impact of security incidents and protect critical assets.                    <br/>
+                     </p>
                 </div>
 
 
@@ -96,10 +94,37 @@ function CertifiedIncidentHandler() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    Incident Response Fundamentals:<br/>
+
+Understanding the incident response lifecycle and key phases.
+Identifying different types of security incidents and their impact.<br/>
+Incident Detection and Analysis:
+<br/>
+Utilizing various security tools and techniques to detect and analyze incidents.
+Conducting forensics analysis to gather evidence and determine the extent of the incident.<br/>
+Incident Containment and Eradication:<br/>
+
+Implementing measures to contain and prevent the spread of the incident.
+Removing malicious elements from the affected systems.<br/>
+Incident Recovery and Post-Incident Activities:<br/>
+
+Restoring systems and services to normal operations.
+Conducting post-incident analysis and lessons learned.<br/>
+Incident Handling Tools and Technologies:<br/>
+
+Exploring various incident handling tools and technologies, including SIEM, IDS/IPS, and forensics tools.<br/>
+Communication and Coordination:<br/>
+
+Establishing communication channels with relevant stakeholders during an incident.
+Collaborating with internal and external teams, such as legal and law enforcement.<br/>
+Legal and Ethical Considerations:<br/>
+
+Understanding legal and regulatory obligations related to incident handling.
+Addressing ethical considerations in incident response.<br/>
+Incident Handling Documentation:<br/>
+
+Creating detailed incident reports and documentation for analysis and reporting.
+</p>
                 </div>
 
 
@@ -131,10 +156,10 @@ function CertifiedIncidentHandler() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    Acquire foundational knowledge in cybersecurity and IT security concepts.<br/>
+Familiarize yourself with incident response frameworks and best practices (e.g., NIST SP 800-61, ISO/IEC 27035).<br/>
+Stay updated with the latest cybersecurity threats and attack vectors.<br/>
+Gain hands-on experience with incident handling tools and technologies.
 
                      </p>
                 </div>
@@ -254,18 +279,12 @@ function CertifiedIncidentHandler() {
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
-
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
+             <p>The Incident Handler course may or may not include a formal exam, depending on the training provider or certification body.<br/>
+If an exam is included, it typically assesses candidates' understanding of incident handling concepts, techniques, and best practices.<br/>
+The exam may be in multiple-choice format, scenario-based, or require candidates to analyze and respond to simulated incidents.<br/>
+Successful completion of the course and any associated exam may lead to an incident handling professional certification.<br/>
+Note: Specific details about the Incident Handler course, exam format, and prerequisites may vary depending on the training provider or certification organization offering the course. It is essential to check the course syllabus and exam details with the chosen training provider or certification body.
+</p>
             
             </div>
           )

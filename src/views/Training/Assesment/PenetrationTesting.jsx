@@ -32,6 +32,47 @@ function PenetrationTesting() {
 Penetration Testing Professional (PTP) is an advanced-level course designed to equip cybersecurity professionals with the skills and knowledge needed to perform comprehensive penetration tests on networks, systems, and applications. The course focuses on hands-on training and practical exercises to simulate real-world scenarios, making it suitable for penetration testers, ethical hackers, and security professionals seeking to advance their penetration testing capabilities.                     </p>
                 </div>
 
+                <h3 className='mt-3'>
+                  
+Introduction to Penetration Testing:
+
+                </h3>
+                <p>Understanding the importance of penetration testing in identifying security vulnerabilities.
+Learning about the different types of penetration tests and their objectives.<br/>
+Information Gathering and Reconnaissance:<br/>
+
+Gathering intelligence on the target organization, its infrastructure, and employees.
+Conducting passive and active reconnaissance to identify potential attack vectors.<br/>
+Scanning and Enumeration:<br/>
+
+Using various scanning tools to identify open ports, services, and vulnerabilities.
+Enumerating system and network resources to gather additional information.<br/>
+Vulnerability Assessment and Exploitation:<br/>
+
+Identifying and assessing security vulnerabilities in target systems and applications.
+Exploiting identified vulnerabilities to gain unauthorized access.<br/>
+Web Application Penetration Testing:<br/>
+
+Assessing web applications for common vulnerabilities, such as SQL injection, Cross-Site Scripting (XSS), and more.
+Exploiting web application weaknesses to gain control or access sensitive data.<br/>
+Network Penetration Testing:<br/>
+
+Conducting network penetration tests to identify and exploit weaknesses in network infrastructure.
+Exploring techniques for lateral movement and privilege escalation.<br/>
+Post-Exploitation and Persistence:<br/>
+
+Maintaining access and control over compromised systems.
+Evading detection and maintaining persistence to ensure continued access.<br/>
+Wireless and Mobile Application Penetration Testing:<br/>
+
+Evaluating the security of wireless networks and mobile applications.
+Identifying and exploiting vulnerabilities in wireless environments.<br/>
+Report Writing and Documentation:<br/>
+
+Documenting the findings of penetration tests in a clear and concise report.
+Communicating the identified risks and recommended remediation steps to stakeholders.
+</p>
+
 
             </div>
             <div className="col-lg-4 ">
@@ -93,10 +134,11 @@ Penetration Testing Professional (PTP) is an advanced-level course designed to e
 
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
-                    <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
+                    <p> 
+                    Extensive hands-on labs and practical exercises to simulate real-world penetration testing scenarios.                    <br/>
+                    Emphasis on using the latest penetration testing tools and techniques.<br/>
+Guidance from experienced instructors and industry experts.<br/>
+Exposure to a wide range of attack vectors and defense mechanisms.
                     </p>
                 </div>
 
@@ -129,10 +171,10 @@ Penetration Testing Professional (PTP) is an advanced-level course designed to e
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    Acquire fundamental knowledge of networking, operating systems, and cybersecurity concepts.
+Familiarize yourself with common penetration testing tools like Metasploit, Nmap, Burp Suite, etc.<br/>
+Practice on vulnerable virtual machines and labs to gain hands-on experience.<br/>
+Review penetration testing methodologies and best practices.
 
                      </p>
                 </div>
@@ -252,19 +294,14 @@ Penetration Testing Professional (PTP) is an advanced-level course designed to e
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
+              <p>
+              The PTP exam may vary based on the training provider or certification body.<br/>
+Typically, the exam involves performing a practical penetration test on a controlled environment or virtual network.<br/>
+Candidates are assessed on their ability to identify and exploit vulnerabilities and produce a comprehensive report.<br/>
+Successful completion of the exam leads to the Penetration Testing Professional certification, validating the candidate's expertise in penetration testing.<br/>
+Note: Specific details about the Penetration Testing Professional course, exam format, and prerequisites may vary depending on the training provider or certification body offering the course.
 
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
+              </p>
             </div>
           )
         }

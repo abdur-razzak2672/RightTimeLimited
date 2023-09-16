@@ -29,10 +29,7 @@ function CertifiedSocAnalyst() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Cyber Security Analyst (Custom)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The Cyber Security Analyst course is designed to train individuals in the skills and knowledge required to analyze and respond to cybersecurity incidents and threats effectively. The course covers various topics, including threat detection, incident investigation, malware analysis, and vulnerability assessment. Participants will learn how to detect and mitigate security breaches, protect critical assets, and strengthen an organization's overall security posture. </p>
                 </div>
 
 
@@ -97,10 +94,38 @@ function CertifiedSocAnalyst() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    Cybersecurity Fundamentals:<br/>
+Understanding the principles of cybersecurity and common attack vectors.
+Exploring different types of cyber threats and their implications.<br/>
+Security Incident Detection and Analysis:<br/>
+
+Utilizing security tools and technologies to detect and analyze security incidents.
+Conducting forensic analysis to investigate and understand the nature of incidents.<br/>
+Threat Intelligence and Malware Analysis:<br/>
+
+Leveraging threat intelligence to identify and respond to emerging threats.
+Analyzing malware samples to understand their behavior and characteristics.<br/>
+Incident Response and Handling:<br/>
+
+Developing incident response plans and procedures.
+Implementing incident response strategies to mitigate the impact of security incidents.<br/>
+Vulnerability Assessment and Penetration Testing:<br/>
+
+Performing vulnerability assessments to identify weaknesses in systems.
+Understanding the concepts of penetration testing and ethical hacking.<br/>
+Security Monitoring and SIEM:<br/>
+
+Setting up security monitoring mechanisms and using SIEM tools for log analysis.
+Identifying suspicious activities and potential security incidents.<br/>
+Risk Management and Compliance:<br/>
+
+Understanding risk management principles and best practices.
+Complying with cybersecurity regulations and industry standards.<br/>
+Communication and Reporting:<br/>
+
+Communicating security incidents and findings to relevant stakeholders.
+Preparing incident reports and documentation.
+</p>
                 </div>
 
 
@@ -132,10 +157,11 @@ function CertifiedSocAnalyst() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    Build a solid foundation in networking and IT security concepts.<br/>
+Acquire knowledge of cybersecurity principles, protocols, and defense mechanisms.<br/>
+Familiarize yourself with security tools and technologies commonly used in incident analysis and response.
+Develop problem-solving and critical thinking skills.<br/>
+Gain hands-on experience through labs, simulations, and real-world scenarios.
 
                      </p>
                 </div>
@@ -255,19 +281,12 @@ function CertifiedSocAnalyst() {
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
-
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
+               <p>The Cyber Security Analyst course may or may not include a formal exam, depending on the training provider or certification body.
+If an exam is included, it typically assesses candidates' understanding of cybersecurity concepts, incident response, threat analysis, and vulnerability assessment.
+The exam format may vary, ranging from multiple-choice questions to practical assessments requiring incident response and analysis.
+Successful completion of the course and any associated exam may lead to a cybersecurity analyst certification.
+Note: Specific details about the Cyber Security Analyst course, exam format, and prerequisites may vary depending on the training provider or certification organization offering the course. It is essential to check the course syllabus and exam details with the chosen training provider or certification body.
+</p>
             </div>
           )
         }
