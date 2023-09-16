@@ -96,7 +96,7 @@ function TechTeam() {
                       <div className="mc-footer">
                         <a href="/facebook" style={{ backgroundColor: "#3b5998", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-facebook-f "></a>
                         <a href="/facebook" style={{ backgroundColor: "#00acee", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-twitter"></a>
-                        <a href="/facebook" style={{ backgroundColor: "#0A66C2", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-linkedin"></a>
+                        <a href="https://www.linkedin.com/in/righttime-tohid/" style={{ backgroundColor: "#0A66C2", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-linkedin"></a>
                         <a href="/facebook" style={{ backgroundColor: " #e95950", paddingLeft: "15px", borderRadius: "12px" }} className="fab fa-instagram"></a>
                       </div>
                     </article>
@@ -702,7 +702,10 @@ function TechTeam() {
       <Modal size="lg" show={show9} onHide={handleClose9}>
         <Modal.Body className=" rounded-3">
           <h5 className='teamTitle'>Dr. Mohammad Tohidur Rahman Bhuiyan</h5>
+          <a href='https://www.linkedin.com/in/righttime-tohid/'>
           <i style={{ fontSize: "40px" }} className="fab fa-linkedin "></i>
+
+          </a>
 
           <Row>
             <Col md={8}>
