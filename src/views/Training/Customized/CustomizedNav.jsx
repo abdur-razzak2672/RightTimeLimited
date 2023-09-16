@@ -1,16 +1,55 @@
 import React from 'react'
+import Link from 'react-router-dom/Link'
+import { customizedData } from '../trainingData'
 
 function CustomizedNav() {
   return (
-    <div>
-      <h3 className="sidebar__title">Right Time Customized</h3>
-      <ul className="sidebar__category">
-        <li><a href="{{ url('/services/security-training/right-time-customized/basic') }}">Basic (Corporate)</a></li>
-        <li><a href="{{ url('/services/security-training/right-time-customized/advanced') }}">Advance (Corporate)</a></li>
-        <li><a href="{{ url('/services/security-training/right-time-customized/intermediate') }}">Intermediate (Corporate)</a></li>
-        <li><a href="{{ url('/services/security-training/right-time-customized/one-to-one-training') }}">One to One Training</a></li>
-      </ul>
+    <div className=' '>
+    <div className='d-flex justify-content-between'>
+  <div style={{width:"170px"}} className=' servicesItem1'>
+            <Link to="/assesment" >
+            Assesment
+            </Link>
+            </div>
+            <div style={{width:"170px"}} className=' servicesItem1  '>
+ 
+            <Link to="/management"  >
+            Management
+            </Link>
+ 
+         </div>
+        
     </div>
+    <div className='  d-flex justify-content-cenfter'>
+           <div style={{width:"170px"}} className=' servicesItem1  '>
+ 
+ <Link to="/Customized"style={{ backgroundColor:"#540859",color:"white"}}  >
+ Customized
+ </Link>
+
+</div>
+    </div>
+  
+        
+ 
+ 
+         {
+             customizedData.map((item, index) => (
+                 <div className='servicesItem1'>
+                  <Link
+                  className=" "
+                 key={index}
+                 to= {`${item.link}`}
+               >
+                  {item.title}
+               </Link>
+                 </div>
+                
+ 
+             ))
+         }
+      
+     </div>
   )
 }
 

@@ -119,6 +119,7 @@ import TrainingBody from "./views/Training/TrainingBody";
 import AssessmentBody from "./views/Training/Assesment/AssessmentBody";
 import PenetrationTesting from "./views/Training/Assesment/PenetrationTesting";
  import CertifiedPenetration from "./views/Training/Assesment/CertifiedPenetration";
+ import Offensive from "./views/Training/Assesment/Offensive";
 import ComputerHacking from "./views/Training/Assesment/ComputerHacking";
 import GiacPenetration from "./views/Training/Assesment/GiacPenetration";
 import GiacWebApplication from "./views/Training/Assesment/GiacWebApplication";
@@ -613,6 +614,7 @@ Fresno, CA 93710
         <Route path="/assesment" component={AssessmentBody} exact />
         <Route path="/penetration-testing" component={PenetrationTesting} exact />
         <Route path="/certified-penetration" component={CertifiedPenetration} exact />
+        <Route path="/Offensive" component={Offensive} exact />
         <Route path="/computer-hacking" component={ComputerHacking} exact />
         <Route path="/giac-penetration" component={GiacPenetration} exact />
         <Route path="/giac-web-application" component={GiacWebApplication} exact />

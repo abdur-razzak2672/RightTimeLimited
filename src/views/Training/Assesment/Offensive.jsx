@@ -1,32 +1,32 @@
 import React, { useState } from 'react'
 import AssesmentNav from './AssesmentNav';
 
-
-function ComputerHacking() {
-  const [tabIndex, setTabIndex] = useState(1);
+function Offensive() {
+      const [tabIndex, setTabIndex] = useState(1);
 
   return (
+
     <div>
-    <div className="page-header">
-  <div className="page-header__bg"
-       style={{ backgroundImage: `url('https://www.chfi.tn/file/sites/8/2021/04/Wallpaper-Anarchy-Computer-Hack-Hacker-Hacking-Intern35-scaled-1-1024x640.jpg')` }}></div>
-  <div className="container">
-  <ul className="thm-breadcrumb list-unstyled">
+      <div className="page-header">
+    <div className="page-header__bg"
+         style={{ backgroundImage: `url('https://www.hackerschool.in/wp-content/uploads/2021/05/Cyber-Security-Banner.jpg')` }}></div>
+    <div className="container">
+    <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('/services/security-training') }}">Security Training</a></li>
                 <li><a href="{{ url('/services/security-training/assessment') }}">Assessment</a></li>
-                <li>Computer Hacking Forensic Investigator(CHFI)</li>
+                <li>Offensive Security Certified Professional (OSCP)</li>
             </ul>
-            <h2 className="page-header__title">Computer Hacking Forensic Investigator(CHFI)</h2>
-  </div> 
+            <h2 className="page-header__title">Offensive Security Certified Professional (OSCP)</h2>
+    </div> 
 </div> 
-<section className=" section-padding--top">
+<section className="  section-padding--top">
         <div className="container">
           <div className="row">
           <div className="col-lg-8">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Computer Hacking Forensic Investigator(CHFI)</h3>
+                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Offensive Security Certified Professional (OSCP)</h3>
                 <div className="blog-details__content">
                     <p>
                     The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
@@ -37,8 +37,8 @@ function ComputerHacking() {
 
 
             </div>
-            <div className="col-lg-4">
-            <AssesmentNav/>
+            <div className="col-lg-4 mt-5">
+             <AssesmentNav/>
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ function ComputerHacking() {
             <div className="col-lg-4 mt-5">
             <div className="right border rounded-3 shadow " style={{width: "100%"}}>
                    <div className="card-body p-3">
-                    <h5 className='mt-4'><a href="/training" >Ready For You ?</a></h5>
+                    <h5 className='mt-4'><a href="/career" >Ready For You ?</a></h5>
                
 
                     <p className='mt-4'>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports<br/> (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks. </p>
@@ -148,7 +148,7 @@ function ComputerHacking() {
                   <div className="card-body p-3">
                     <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
 
-                    <h5 className='mt-4'><a href="/training" >Request More Information</a></h5>
+                    <h5 className='mt-4'><a href="/career" >Request More Information</a></h5>
                     <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                   </div>
                 </div>
@@ -314,8 +314,8 @@ function ComputerHacking() {
       </div>
       
       <br /><br /><br /><br />
-  </div>
+    </div>
   )
 }
 
-export default ComputerHacking
+export default Offensive

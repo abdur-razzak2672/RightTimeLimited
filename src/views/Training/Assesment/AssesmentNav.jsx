@@ -1,19 +1,19 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import { ManagementData } from '../trainingData'
+import Link from 'react-router-dom/Link'
+import { assessmentData } from '../trainingData'
 
-function ManagementNav() {
+function AssesmentNav() {
   return (
-    <div className=' '>
+    <div className='mt-5'>
     <div className='d-flex justify-content-between'>
   <div style={{width:"170px"}} className=' servicesItem1'>
-            <Link to="/assesment" >
+            <Link to="/assesment" style={{ backgroundColor:"#540859",color:"white"}}>
             Assesment
             </Link>
             </div>
             <div style={{width:"170px"}} className=' servicesItem1  '>
  
-            <Link to="/management" style={{ backgroundColor:"#540859",color:"white"}} >
+            <Link to="/management"  >
             Management
             </Link>
  
@@ -34,7 +34,7 @@ function ManagementNav() {
  
  
          {
-             ManagementData.map((item, index) => (
+             assessmentData.map((item, index) => (
                  <div className='servicesItem1'>
                   <Link
                   className=" "
@@ -53,4 +53,4 @@ function ManagementNav() {
   )
 }
 
-export default ManagementNav
+export default AssesmentNav
