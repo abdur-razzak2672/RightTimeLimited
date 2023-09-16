@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import AssesmentNav from './AssesmentNav';
 
 
 function GiacPenetration() {
@@ -19,7 +20,7 @@ function GiacPenetration() {
         <h2 className="page-header__title"> GIAC Penetration Tester(GPEN)</h2>
   </div> 
 </div> 
-<section className="section-padding--bottom section-padding--top">
+<section className="  section-padding--top">
         <div className="container">
           <div className="row">
           <div className="col-lg-8">
@@ -36,22 +37,12 @@ function GiacPenetration() {
 
 
             </div>
-            <div className="col-lg-4 mt-5">
-            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/3D.png" alt="" />
-                  <div className="card-body p-3">
-                    <h5 className='mt-4'><a href="/training" >View Trainig Shcedule</a></h5>
-                    <h5 className='mt-4'><a href="/training" >Download Course Description</a></h5>
-                    <h5 className='mt-4'><a href="/training" >More About 3Ds on the blog</a></h5>
-
-                    <h5 className='mt-4'><a href="/training" >Request More Information</a></h5>
-                    <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
-                  </div>
-                </div>
+            <div className="col-lg-4  ">
+            <AssesmentNav/>
             </div>
           </div>
         </div>
-      </section><br /><br />
+      </section> 
         <div className ="container ">
           <div>
             <div>

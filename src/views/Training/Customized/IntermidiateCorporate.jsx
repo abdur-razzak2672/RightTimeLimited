@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import CustomizedNav from './CustomizedNav';
 
 function IntermidiateCorporate() {
   const [tabIndex, setTabIndex] = useState(1);
@@ -35,17 +36,7 @@ function IntermidiateCorporate() {
 
             </div>
             <div className="col-lg-4 mt-5">
-            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/3D.png" alt="" />
-                  <div className="card-body p-3">
-                    <h5 className='mt-4'><a href="/training" >View Trainig Shcedule</a></h5>
-                    <h5 className='mt-4'><a href="/training" >Download Course Description</a></h5>
-                    <h5 className='mt-4'><a href="/training" >More About 3Ds on the blog</a></h5>
-
-                    <h5 className='mt-4'><a href="/training" >Request More Information</a></h5>
-                    <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
-                  </div>
-                </div>
+             <CustomizedNav/>
             </div>
           </div>
         </div>

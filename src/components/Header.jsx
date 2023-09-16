@@ -1425,7 +1425,7 @@ function Header() {
                       <a className="mt-3" href="/penetration-testing">
                         Certified Penetration Testing Professional (CPENT)
                       </a>
-                      <a className="mt-3" href="/penetration-testing">
+                      <a className="mt-3" href="/Offensive">
                      	Offensive Security Certified Professional (OSCP)                      </a>
                       <a className="mt-3" href="/certified-information">
                         Certified Information system Auditor (CISA)
@@ -1433,10 +1433,10 @@ function Header() {
                       <a className="mt-3" href="/computer-hacking">
                         Computer Hacking Forensic Investigation (Custom)
                       </a>
-                      <a className="mt-2" href="/giac-certified-incident">
+                      <a className="mt-2" href="/giac-penetration">
                       GIAC Penetration Testing (GPEN)
                       </a>
-                      <a className="mt-2" href="/giac-certified-project">
+                      <a className="mt-2" href="/giac-web-application">
                       GIAC Web Application Penetration Testing (GWAPT)                      </a>
 
                     </Col>
@@ -1723,6 +1723,11 @@ function Header() {
                     <li>
                       <a href="/penetration-testing">
                         Penetration Testing Professional (Custom)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/Offensive">
+                         Offensive Security Certified Professional (OSCP)
                       </a>
                     </li>
                     <li>
