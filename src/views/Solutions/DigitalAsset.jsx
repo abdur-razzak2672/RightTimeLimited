@@ -1,4 +1,5 @@
 import React from 'react'
+import CommonSecuirityManageMent from './CommonServiceManagement'
 
 function DigitalAsset() {
   return (
@@ -22,13 +23,22 @@ function DigitalAsset() {
             <div className="col-lg-12">
 
 
-              <h3 className="blog-card-one__title blog-details__title text-center mt-5">Digital Asset (Security information and event management)</h3>
-              <div className="blog-details__content">
-                <img className='rounded' width="100%" height=" 400px" src="/assets/images/solutions/sltn7.png" alt="img" />
+               <div className="blog-details__content">
+                <div className='row'>
+                  <div className='col-md-8'>
+                  <h3 className="blog-card-one__title blog-details__title text-center mt-5">Digital Asset (Security information and event management)</h3>
 
-                <p>As a partner of Value InfoSolutions Pvt. Ltd., "Right Time Limited" offers comprehensive Digital Asset Protection Solutions to their clients. These solutions are designed to safeguard an organization's digital assets, including data, applications, and critical information, from various cybersecurity threats.</p>
-                <p className='text-dark'>As a partner of Fortra, "Right Time Limited" provides its clients with the powerful security assessment solution, Core Impact. Core Impact is an advanced penetration testing and vulnerability assessment tool designed to help organizations evaluate and improve their cybersecurity defenses.</p>
+<img className='rounded' width="100%" height=" 400px" src="/assets/images/solutions/sltn7.png" alt="img" />
 
+<p>As a partner of Value InfoSolutions Pvt. Ltd., "Right Time Limited" offers comprehensive Digital Asset Protection Solutions to their clients. These solutions are designed to safeguard an organization's digital assets, including data, applications, and critical information, from various cybersecurity threats.</p>
+<p className='text-dark'>As a partner of Fortra, "Right Time Limited" provides its clients with the powerful security assessment solution, Core Impact. Core Impact is an advanced penetration testing and vulnerability assessment tool designed to help organizations evaluate and improve their cybersecurity defenses.</p>
+
+                  </div>
+                  <div className='col-md-4'>
+                    <CommonSecuirityManageMent/>
+                  </div>
+
+                </div>
                 <div className='text-dark mt-5'>
                   <h4 className='header'> Key features and benefits of Digital Asset Protection Solutions offered by "Right Time Limited":</h4>
                   <p><span className=" header" >Data Encryption:  </span>  We provide encryption solutions to protect sensitive data, ensuring that it remains secure both during storage and transmission.   </p>

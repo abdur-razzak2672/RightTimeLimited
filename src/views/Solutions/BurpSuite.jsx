@@ -1,6 +1,7 @@
 import React from 'react'
 import SolutionNav from './SolutionNav'
 import Allpage from '../../components/all-page/Allpage'
+import CommonSecuirityAssesment from './CommonSecuirityAssesment'
 
 function BurpSuite() {
   return (
@@ -24,21 +25,26 @@ function BurpSuite() {
  
     <section>
       <div className="container mt-5">
-        <h2 className="text-center header">Burp Suite (Web PT)</h2>
+        <div className="row">
+          <div className="col-lg-8">
+          <h2 className="text-center header">Burp Suite (Web PT)</h2>
 
-        <div className="row mt-3">
-          <div className='col-md-4'>
-          <img className='rounded' width="100%"   src="/assets/images/solutions/sltn2.png" alt="img" />
+<div className="row mt-3">
+ 
+  <div className='col-md-12'>
+    <p className="text-dark">
+    The partnership between "Right Time Limited" and "PortSwigger" offers a significant advantage for their ITES (Information Technology Enabled Services) customers/clients by providing access to Burp Suite, a premier security assessment tool/application. Burp Suite is a powerful and comprehensive toolkit that allows businesses to identify and mitigate vulnerabilities in clietns’ web applications and digital infrastructure effectively. In summary, it is designed to enhance the cybersecurity posture of organizations.
 
+    </p>
+    <img className='rounded' width="50%"   src="/assets/images/solutions/sltn2.png" alt="img" />
+
+    
+   </div>
+</div>
           </div>
-          <div className='col-md-8'>
-            <p className="text-dark">
-            The partnership between "Right Time Limited" and "PortSwigger" offers a significant advantage for their ITES (Information Technology Enabled Services) customers/clients by providing access to Burp Suite, a premier security assessment tool/application. Burp Suite is a powerful and comprehensive toolkit that allows businesses to identify and mitigate vulnerabilities in clietns’ web applications and digital infrastructure effectively. In summary, it is designed to enhance the cybersecurity posture of organizations.
-
-            </p>
-
-            
-           </div>
+          <div className='col-lg-4'>
+            <CommonSecuirityAssesment/>
+          </div>
         </div>
 
         <div className='text-dark'> 
