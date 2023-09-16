@@ -28,10 +28,16 @@ function OpenSource() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Open Source Intelligent (OSINT)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    This course focuses on Open Source Intelligence (OSINT) tactics and techniques designed to help you improve your investigative game. Students should take this course if they are interested in:
+<br/>●	Gaining a better understanding of OSINT techniques<br/>
+●	Improving investigative skill set<br/>
+●	Improving overall research methodology<br/>
+●	Improving Personal OPSEC<br/>
+Open-source intelligence (OSINT) is the practice of collecting information from published or otherwise publicly available sources.
+<br/>
+Course Overview:<br/>
+The Open Source Intelligence (OSINT) course provides individuals with the knowledge and skills to effectively collect and analyze information from publicly available sources on the internet. OSINT is a crucial component of cybersecurity and intelligence gathering, helping organizations and individuals make informed decisions, identify potential risks, and understand the threat landscape. The course covers various OSINT techniques, tools, and methodologies to conduct comprehensive research and extract valuable insights from online sources.
+  </p>
                 </div>
 
 
@@ -96,10 +102,39 @@ function OpenSource() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    Introduction to OSINT:
                     <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+Understanding the significance of OSINT in cybersecurity and intelligence analysis.
+Exploring the ethical and legal considerations of OSINT.<br/>
+OSINT Methodologies and Tools:<br/>
+
+Learning various techniques for OSINT data collection, such as web scraping, data mining, and social media analysis.
+Familiarizing with OSINT tools and platforms for efficient information gathering.<br/>
+Online Research Techniques:<br/>
+
+Developing effective search strategies for uncovering hidden information.
+Using advanced search operators and filters to refine search results.<br/>
+Social Media Intelligence:<br/>
+
+Extracting intelligence from social media platforms and online forums.
+Analyzing user-generated content for threat detection and risk assessment.<br/>
+Dark Web and Deep Web Analysis:<br/>
+
+Understanding the differences between the surface web, deep web, and dark web.
+Exploring OSINT techniques to navigate and gather information from these hidden areas.<br/>
+Geolocation and Mapping:
+<br/>
+Leveraging geolocation data to identify the physical location of online entities.
+Using mapping tools to visualize and analyze geospatial data.<br/>
+Analyzing OSINT Data:<br/>
+
+Evaluating the credibility and reliability of OSINT sources.
+Synthesizing and correlating information to generate actionable intelligence.<br/>
+OSINT for Threat Intelligence:<br/>
+
+Applying OSINT in the context of cybersecurity threat hunting and intelligence analysis.
+Identifying indicators of compromise (IOCs) and potential attack vectors.
+</p>
                 </div>
 
 
@@ -131,12 +166,12 @@ function OpenSource() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-
-                     </p>
+                    Develop a strong understanding of internet protocols, web technologies, and networking concepts.
+Familiarize yourself with various online platforms, social media, and forums.
+Learn about different OSINT tools and platforms used for data collection and analysis.
+Enhance your research and analytical skills to extract valuable insights from online sources.
+Practice using search operators and filters to refine search results.
+ </p>
                 </div>
 
 
@@ -254,19 +289,12 @@ function OpenSource() {
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
-
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
+               <p>The OSINT course may or may not include a formal exam, depending on the training provider or certification body.
+If an exam is included, it typically assesses candidates' knowledge of OSINT concepts, methodologies, and tools.
+The exam format may vary, including multiple-choice questions, practical assessments, and scenario-based challenges.
+Successful completion of the course and any associated exam may lead to an OSINT certification.
+Note: Specific details about the OSINT course, exam format, and prerequisites may vary depending on the training provider or certification organization offering the course. It is essential to check the course syllabus and exam details with the chosen training provider or certification body.
+</p>
             </div>
           )
         }

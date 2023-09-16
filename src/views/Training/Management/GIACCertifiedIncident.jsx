@@ -29,10 +29,7 @@ import ManagementNav from './ManagementNav';
 (GCIH)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The GIAC Certified Incident Handler (GCIH) certification is designed for professionals who are responsible for detecting, responding to, and resolving cybersecurity incidents within their organizations. The course covers essential topics related to incident handling, including incident response methodologies, malware analysis, network forensics, and intrusion detection. GCIH certification demonstrates a candidate's competence in incident handling and response to cybersecurity incidents effectively. </p>
                 </div>
 
 
@@ -97,10 +94,31 @@ import ManagementNav from './ManagementNav';
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    Incident Response Fundamentals:
+<br/>
+Understanding incident handling processes, methodologies, and best practices.
+Learning the phases of incident response, from detection to recovery.<br/>
+Malware Incident Handling:<br/>
+
+Identifying, analyzing, and responding to malware incidents.
+Analyzing malicious code and understanding different types of malware.<br/>
+Network Forensics and Intrusion Detection:<br/>
+
+Analyzing network traffic for signs of intrusion and cyberattacks.
+Conducting network forensics to trace the source and impact of security incidents.<br/>
+Incident Handling and Response Tools:<br/>
+
+Utilizing various incident handling and response tools for effective incident resolution.
+Understanding the use of SIEM (Security Information and Event Management) systems.<br/>
+Data Breach Handling and Recovery:
+<br/>
+Responding to data breaches and managing the recovery process.
+Implementing containment and eradication strategies.<br/>
+Incident Reporting and Communication:<br/>
+
+Documenting incident details and creating incident reports.
+Communicating with stakeholders, management, and law enforcement during and after incidents.
+</p>
                 </div>
 
 
@@ -132,10 +150,12 @@ import ManagementNav from './ManagementNav';
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    Obtain the official GCIH study materials provided by GIAC, the certification body for GCIH.
+Review the GCIH courseware, which includes textbooks, reference materials, and practical exercises.
+Take advantage of online resources, practice exams, and study guides from reputable sources.
+Participate in GCIH training courses offered by authorized training providers to gain in-depth knowledge.
+Join online forums or study groups to collaborate with other candidates and share knowledge and experiences.
+Allocate sufficient time for focused study and hands-on practice, as the GCIH exam requires practical knowledge.
 
                      </p>
                 </div>
@@ -255,19 +275,14 @@ import ManagementNav from './ManagementNav';
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
+              <p>
+              The GCIH certification exam consists of 150 multiple-choice questions.
+The exam duration is four hours, and it is administered in a proctored setting.
+A minimum passing score of approximately 72% is required to achieve GCIH certification.
+The GCIH certification is valid for four years, and to maintain it, certified professionals must earn continuing professional education (CPE) credits.
+Note: As exam details and requirements may change over time, it is crucial to refer to the official GIAC website for the most up-to-date information on the GCIH course, exam, and certification process.
 
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
+                </p>
             </div>
           )
         }

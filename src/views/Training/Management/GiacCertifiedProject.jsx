@@ -26,10 +26,7 @@ import ManagementNav from './ManagementNav';
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">GIAC Certified Project Manager (GCPM)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The GIAC Certified Project Manager (GCPM) certification validates a practitioner's knowledge of technical project management methodology and implementation. GCPM certification holders have demonstrated the critical skill sets associated with making projects successful, including effective communication and time, cost, quality, procurement, and risk management of IT projects and application development.  </p>
                 </div>
 
 
@@ -94,10 +91,23 @@ import ManagementNav from './ManagementNav';
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    The GCPM certification is meant for security professionals and managers who engage in or lead project teams and want to prove technical project management methodology and implementation knowledge. GIAC Certified Project Manager Certification confirms the critical skill sets closely linked to successful projects, comprising effective communication, quality, cost, time, procurement, and risk management of IT projects and application development.
                     <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+ Course Outcome:<br/>
+ ●	Ø Earned Value Technique EVT     <br/>	
+ ●	Ø Leadership and Management Strategy<br/>
+ ●	Ø Project Communication Management<br/>
+ ●	Ø Project Cost Management<br/>
+ ●	Ø Project Integration Management<br/>
+ ●	Ø Project Management Framework and Approach<br/>
+ ●	Ø Project Procurement Management<br/>
+ ●	Ø Project Quality Management<br/>
+ ●	Ø Project Resource Management	<br/>
+ ●	Ø Project Risk Management	<br/>
+ ●	Ø Project Schedule Management<br/>
+ ●	Ø Project Scope Management<br/>
+ ●	Ø Project Stakeholder Management<br/>
+  </p>
                 </div>
 
 
@@ -129,10 +139,12 @@ import ManagementNav from './ManagementNav';
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    ●	Take up a Certification Training Course<br/>
+●	Create Your Ideal Study Space<br/>
+●	Devise Study Plan and Stick to It<br/>
+●	Join in a Relevant Online Community or Study Forum<br/>
+●	Schedule GCPM Practice Test<br/>
+●	 Consider Your GCPM Exam Preparation as A Project<br/>
 
                      </p>
                 </div>
@@ -252,19 +264,14 @@ import ManagementNav from './ManagementNav';
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
+             Exam Name	GIAC Certified Project Manager (GCPM)<br/>
+Exam Code	GCPM<br/>
+Duration	180 mins<br/>
+Number of Questions	115<br/>
+Passing Score	70%<br/>
+Schedule Exam	Pearson VUE<br/>
+Practice Exam	GIAC GCPM Certification Practice Exam<br/>
 
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
             </div>
           )
         }

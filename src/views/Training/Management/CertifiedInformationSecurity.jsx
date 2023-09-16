@@ -26,11 +26,7 @@ function CertifiedInformationSecurity() {
 
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Information security Manager (CISM)</h3>
                 <div className="blog-details__content">
-                    <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    <p>The Certified Information Security Manager (CISM) course is designed for professionals who are responsible for managing, designing, and overseeing an enterprise's information security program. The course covers essential concepts related to information risk management, information security governance, incident response, and cybersecurity strategies. CISM certification is globally recognized and demonstrates a candidate's expertise in information security management and governance.</p>
                 </div>
 
 
@@ -95,10 +91,31 @@ function CertifiedInformationSecurity() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    Information Security Governance:
+
+Understanding the role of information security governance in aligning security with business objectives.
+Establishing and maintaining an information security framework and supporting processes.<br/>
+Information Risk Management:
+<br/>
+Identifying and assessing information security risks within an organization.
+Developing risk management strategies and response plans.<br/>
+Information Security Program Development and Management:<br/>
+
+Building and managing an information security program to protect critical assets.
+Implementing security controls, policies, and procedures to safeguard information.<br/>
+Incident Response and Management:<br/>
+
+Developing incident response plans to handle security breaches and cybersecurity incidents.
+Conducting investigations and remediation activities in response to incidents.<br/>
+Information Security Metrics and Reporting:<br/>
+
+Using key performance indicators (KPIs) and metrics to measure the effectiveness of security controls.
+Reporting on security status and compliance to stakeholders and senior management.<br/>
+Security Governance, Risk Management, and Compliance (GRC):<br/>
+
+Understanding the relationship between security governance, risk management, and compliance.
+Ensuring alignment with relevant laws, regulations, and industry standards.
+ </p>
                 </div>
 
 
@@ -130,10 +147,13 @@ function CertifiedInformationSecurity() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                   
+Obtain the official CISM study materials provided by ISACA, the certification body for CISM.
+Review the CISM Review Manual and the CISM Review Questions, Answers, and Explanations Database.
+Take advantage of online resources, practice exams, and study guides available from reputable sources.
+Participate in CISM training courses offered by authorized training providers to gain in-depth knowledge.
+Join online forums or study groups to collaborate with other candidates and share knowledge and experiences.
+Allocate sufficient time for focused study and revision, as the CISM exam covers a broad range of topics.
 
                      </p>
                 </div>
@@ -253,19 +273,14 @@ function CertifiedInformationSecurity() {
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
+               <p>
+               The CISM exam consists of 150 multiple-choice questions, which are administered over a four-hour period.
+The exam assesses candidates' knowledge and understanding of the domains covered in the CISM course.
+The passing score for the CISM exam is 450 out of 800 (scaled score).
+The CISM certification is valid for three years, and to maintain it, certified professionals must earn continuing professional education (CPE) credits.
+Note: As exam details and requirements may change over time, it is crucial to refer to the official ISACA website for the most up-to-date information on the CISM course, exam, and certification process.
 
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
+               </p>
             </div>
           )
         }

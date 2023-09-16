@@ -28,10 +28,7 @@ function CertifiedInformationSystem() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Information System Security Professional (CISSP)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The Certified Information System Security Professional (CISSP) course is one of the most comprehensive courses available for the preparation of the CISSP certification exam. The certification is offered by (ISC)2 and is among the most highly sought-after certifications in the IT industry. The course reviews in great detail the information security concepts and industry best practices and covers the eight domains of the official CISSP CBK (Common Body of Knowledge). The candidates are able to gain knowledge in information security that increases their ability to successfully implement and manage security programs in any organization.</p>
                 </div>
 
 
@@ -96,10 +93,18 @@ function CertifiedInformationSystem() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The goal of this preparatory course is to help the students achieve the (ISC)2 CISSP certification. The course will enable the students to validate their knowledge about information security in general and the eight domains of the CISSP exam in particular. The course alumni are supposed to become involved in critical security decisions and risk management.
+On successful completion of this course, the students shall be able to completely learn and gain an in-depth understanding of the eight domains of CISSP.<br/>
+The major domains covered in this course are:<br/>
+●	Security and Risk Management<br/>
+●	 Asset Security<br/>
+●	Security Architecture and Engineering<br/>
+●	 Communication and Network Security<br/>
+●	Identity and Access Management (IAM)<br/>
+●	 Security Assessment and Testing<br/>
+●	Security Operations<br/>
+●	 Software Development Security<br/>
+</p>
                 </div>
 
 
@@ -131,10 +136,16 @@ function CertifiedInformationSystem() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    ●	Ø  Know what the CISSP exam is and what topics it covers<br/>
+●	Ø  Create your study plan and make use of sources<br/>
+●	Ø  Get involved in practice tests and mock exams<br/>
+●	Ø  Join study groups or online communities<br/>
+●	Ø  Focus more on weaker domains<br/>
+●	Ø  Schedule your time and learning<br/>
+●	Ø  Practice scenario-based or judgement questions<br/>
+●	Ø  Have an exam day preparation plan<br/>
+●	Ø  Get a good night's sleep before the exam and clear your mind <br/>
+●	Ø  Implement your exam strategy<br/>
 
                      </p>
                 </div>
@@ -254,19 +265,24 @@ function CertifiedInformationSystem() {
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
+              Examination Information-CAT<br/>
+·        Computerized Adaptive Testing<br/>
+·        Duration of exam = 3 hrs<br/>
+·        Number of questions=100 - 150<br/>
+·        Item format = Multiple choice and advanced innovative items<br/>
+·        Passing grade = 700 out of 1000 points<br/>
+·        Exam language availability = English<br/>
+·        Testing center = (ISC)2 Authorized PPC and PVTC (Pearson VUE Testing Centers)<br/>
+ 
+Examination Information-Linear<br/>
+·        Duration of exam = 6 hrs<br/>
+·        Number of questions=250<br/>
+·        Item format = Multiple choice and advanced innovative items<br/>
+·        Passing Grade = 700 out of 1000 points<br/>
+·        Exam language availability = French, German, Brazilian Portuguese, Spanish-Modern, Japanese, Simplified Chinese and Korean.<br/>
+·        Testing center = (ISC)2 Authorized PPC and PVTC (Pearson VUE Testing Centers)<br/>
+ 
 
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
             </div>
           )
         }

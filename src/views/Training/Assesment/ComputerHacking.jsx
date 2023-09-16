@@ -29,10 +29,54 @@ function ComputerHacking() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Computer Hacking Forensic Investigator(CHFI)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The CHFI course provides hands-on training in real-world scenarios and prepares professionals to handle various challenges in computer forensics investigations. It is suitable for cybersecurity professionals, law enforcement personnel, IT managers, and anyone interested in a career in digital forensics. Upon successful completion of the course and passing the exam, participants earn the CHFI certification, demonstrating their expertise in computer forensics and incident response.                    <br/>
+                     </p>
+                     <p className='mt-3'>
+                     Introduction to Computer Forensics:<br/>
+Understanding the role and importance of computer forensics in investigating cybercrimes.
+Learning about the various types of cybercrimes and the impact of cyber threats on organizations.
+<br/>
+Digital Evidence and Investigation Process:<br/>
+Understanding digital evidence and its relevance in investigations.
+Learning the various steps involved in the investigation process, from identification to presentation of evidence.
+<br/>
+Understanding File Systems and Hard Disks:<br/>
+Gaining knowledge about different file systems and disk structures.
+Learning how to recover deleted files and extract evidence from hard disks.
+<br/>
+Operating System Forensics:<br/>
+Investigating and analyzing artifacts on different operating systems, such as Windows, Linux, and macOS.
+Identifying traces left by user activities, applications, and system processes.
+<br/>
+Network Forensics:<br/>
+Analyzing network traffic and capturing packets to identify suspicious activities.
+Investigating network attacks and intrusions to trace the origin and extent of the breach.
+<br/>
+Investigating Web Attacks:<br/>
+Understanding web application attacks and analyzing logs for evidence.
+Examining web server logs and identifying attacker activities.
+<br/>
+Database Forensics:<br/>
+Investigating database security breaches and unauthorized access to databases.
+Identifying anomalies and analyzing logs to trace database activities.
+<br/>
+Cloud Forensics:<br/>
+Understanding the challenges of conducting investigations in cloud environments.
+Learning about the methods to collect and preserve evidence from cloud platforms.
+<br/>
+Malware Forensics:<br/>
+Analyzing and investigating different types of malware and their behaviors.
+Extracting evidence related to malware infections and their impact on systems.
+<br/>
+Mobile Forensics:<br/>
+Investigating mobile devices and extracting evidence from smartphones and tablets.
+Identifying mobile security breaches and analyzing mobile applications.
+<br/>
+Forensics Report Writing and Presentation:<br/>
+Documenting the findings and presenting the investigation results effectively.
+Understanding the importance of clear and concise reporting in legal proceedings.
+
+                     </p>
                 </div>
 
 
@@ -97,10 +141,8 @@ function ComputerHacking() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    The Computer Hacking Forensic Investigator (CHFI) course is designed to equip individuals with the knowledge and skills required to conduct computer forensic investigations and effectively respond to cyber incidents. The CHFI certification is offered by the EC-Council and is recognized globally as a standard for computer forensics professionals.                    <br/>
+                     </p>
                 </div>
 
 
@@ -255,19 +297,25 @@ function ComputerHacking() {
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
-
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
+             Exam Format:<br/>
+The CHFI exam is a multiple-choice, closed-book exam.
+The exam may include scenario-based questions that present real-world situations for candidates to analyze and respond to.<br/>
+Exam Topics:<br/>
+The CHFI exam covers various topics related to computer forensics and cybercrime investigation. These topics include but are not limited to:
+<br/>
+●	Computer Forensics Investigation Process<br/>
+●	Digital Evidence Acquisition and Analysis<br/>
+●	File Systems Forensics<br/>
+●	Network Forensics<br/>
+●	Mobile Forensics<br/>
+●	Malware Forensics<br/>
+●	Database Forensics<br/>
+●	Cloud Forensics<br/>
+●	Incident Response and Forensic Tools<br/>
+Candidates are required to achieve a passing score to earn the CHFI certification.<br/>
+Prerequisites:<br/>
+There are no specific prerequisites to take the CHFI exam. However, it is recommended to have a solid understanding of computer networks, operating systems, and basic cybersecurity concepts before attempting the exam.
+ 
             </div>
           )
         }

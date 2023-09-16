@@ -16,7 +16,7 @@ function PracticalEthicalHacker() {
           <li><a href="{{ url('/services/security-training') }}">Training</a></li>
           <li>Management</li>
         </ul>
-        <h2 className="page-header__title">Practical Ethical Hacker</h2>
+        <h2 className="page-header__title">Certified Ethical Hacking (CEH)</h2>
       </div>
     </div>
     <section className="s section-padding--top">
@@ -25,13 +25,56 @@ function PracticalEthicalHacker() {
           <div className="col-lg-8">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Practical Ethical Hacker</h3>
+                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Ethical Hacking (CEH)</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    actical Ethical Hacking is a hands-on course designed to provide learners with practical skills and knowledge in ethical hacking and penetration testing. The course focuses on real-world scenarios, allowing participants to gain practical experience in identifying and exploiting security vulnerabilities while adhering to ethical standards. It is suitable for aspiring ethical hackers, cybersecurity professionals, and anyone interested in understanding the techniques used to secure systems and networks.                    <br/>
+                     </p>
+                     <p>
+                     Introduction to Ethical Hacking:<br/>
+
+Understanding the principles and ethics of ethical hacking.
+Exploring the stages of ethical hacking, including information gathering, scanning, exploitation, and post-exploitation.<br/>
+Footprinting and Reconnaissance:
+<br/>
+Gathering information about the target organization and its infrastructure.
+Using passive and active reconnaissance techniques to identify potential attack vectors.<br/>
+Scanning and Enumeration:
+<br/>
+Identifying open ports, services, and potential vulnerabilities using scanning tools.
+Enumerating system and network resources to gather valuable information.<br/>
+Vulnerability Assessment and Exploitation:<br/>
+
+Assessing and exploiting security vulnerabilities in target systems and applications.
+Understanding different attack vectors, such as SQL injection, Cross-Site Scripting (XSS), and more.<br/>
+Web Application Hacking:<br/>
+
+Evaluating web applications for common vulnerabilities and weaknesses.
+Exploiting web application flaws to gain unauthorized access or extract sensitive data.
+<br/>
+Network Hacking:<br/>
+
+Penetrating network infrastructure and devices to identify weaknesses.
+Learning techniques for network-level attacks and lateral movement.<br/>
+Wireless Network Hacking:<br/>
+
+Assessing the security of wireless networks and exploiting vulnerabilities.
+Understanding the concepts of WEP, WPA, and WPA2 attacks.<br/>
+Social Engineering:<br/>
+
+Learning about different social engineering techniques to manipulate human behavior.
+Understanding the importance of social engineering in penetration testing.<br/>
+Post-Exploitation and Maintaining Access:<br/>
+
+Maintaining control over compromised systems and avoiding detection.
+Understanding post-exploitation techniques and strategies.<br/>
+Reporting and Documentation:<br/>
+
+Preparing comprehensive reports to communicate findings and recommend remediation steps.
+Understanding the importance of clear and concise documentation.
+
+
+                     </p>
                 </div>
 
 
@@ -96,10 +139,11 @@ function PracticalEthicalHacker() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
                 <div className="blog-details__content">
                     <p>
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                    <br/>
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
+                    Extensive hands-on labs and practical exercises in a controlled environment.<br/>
+Real-world scenarios and practical simulations to mimic actual ethical hacking engagements.<br/>
+Guidance from experienced instructors and industry experts.<br/>
+Exposure to a wide range of hacking tools and techniques.<br/>
+   </p>
                 </div>
 
 
@@ -131,10 +175,10 @@ function PracticalEthicalHacker() {
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
                 <div className="blog-details__content">
                     <p>
-                    Upon a completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-
-                    <br/>                    
-                    The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                    Acquire a solid understanding of networking, operating systems, and cybersecurity fundamentals.
+Familiarize yourself with common hacking tools like Metasploit, Wireshark, Nmap, etc.
+Set up a lab environment to practice hands-on exercises and experiments.<br/>
+Stay updated with the latest security vulnerabilities and exploitation techniques.
 
                      </p>
                 </div>
@@ -254,19 +298,12 @@ function PracticalEthicalHacker() {
 {
           tabIndex === 5 && (
             <div>
-               <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Exam Information</h3><hr/>
-          <h6>The 3DS Assessor training course consists of a one-day instructor-led classNameroom training and exam providing:</h6>
-          <h6>1. In-person engagement and collaboration as well as networking opportunities</h6>
+              The Practical Ethical Hacking course may or may not include a formal exam, depending on the training provider.
+If an exam is included, it typically involves conducting a practical penetration test on a controlled environment.<br/>
+Candidates are assessed based on their ability to identify and exploit vulnerabilities, maintain access, and produce a detailed report.<br/>
+Successful completion of the course and any associated exam may lead to a practical ethical hacking certification.<br/>
+Note: Specific details about the Practical Ethical Hacking course, exam format, and prerequisites may vary depending on the training provider or certification body offering the course. It is essential to check the course syllabus and exam details with the chosen training provider or certification organization.
 
-          <h6>2. Ability to focus on curriculum in classNameroom setting</h6>
-
-          <h6>3. Learn directly from an expert PCI SSC trainer with hands-on experience assessing merchants and/or service providers</h6>
-
-          <h6>The qualification exam is taken immediately following the classNameroom training. The exam is closed-book.
-
-          The Primary Contact at the QSA Company will be notified of results within two weeks after the candidate attends the instructor-led PCI 3DS training and exam. Employees who do not meet the minimum passing score set by the PCI SSC may retake New 3DS training and exam, upon registration and payment of a new invoice. For each attendee that passes the exam, the 3DS Company will receive a certificate that validates the employee for the next 12 months <br/>Attendance during the course is mandatory. Missing more than 30 minutes of the className will automatically result in forfeiture of the PCI SSC 3DS Assessor exam and removal from the className.</h6>
-
-            
             </div>
           )
         }
