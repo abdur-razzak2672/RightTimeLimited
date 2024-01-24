@@ -14,14 +14,14 @@ function About() {
               <div className="about-five__images">
                 <div className="about-five__images__shape"></div>
                 <img
-                  src="assets/images/resources/about_rt.png"
+                  src="assets/images/home/up.png"
                   className="wow fadeInUp"
                   data-wow-duration="1500ms"
                   alt=""
                 />
 
                 <div
-                  className="about-five__images__caption count-box wow fadeInUp"
+                  className="about-five__images__caption  count-box wow fadeInUp"
                   data-wow-duration="1500ms"
                 >
                   <span className="count-text" data-stop="13" data-speed="1300">

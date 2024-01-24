@@ -2,12 +2,9 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <div className="page-header">
+      <div className="page-headser">
         <div
-          className="page-header__bg"
-          style={{
-            backgroundImage: `url('/assets/images/resources/contact.png')`,
-          }}
+          className="page-hfeader__bg"
         ></div>
         <div className=" ">
           <div
@@ -17,30 +14,54 @@ function Home() {
           >
             <div className="carousel-inner">
               <div
-                style={{ paddingLeft: "15%" }}
+                style={{ paddingLeft: "15%",
+                backgroundImage: "url(/assets/images/home/is.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                height: "400px",
+                 width: "100%",
+
+               }}
                 className="carousel-item active"
               >
-                <ul className="thm-breadcrumb list-unstyled ">
-                  <li>
-                    <a href="/">Welcome to Right Time Limited</a>
+                <ul
+                 className="thm-breadcrumb list-unstyled ">
+                  <li className="pt-5 mt-5">
+                    <a style={{color:"white",fontWeight:"bold"}} href="/">Welcome to Right Time Limited</a>
                   </li>
                 </ul>
                 <h5 className="page-header__title">
                   Information Security Services and Solutions
                 </h5>{" "}
               </div>
-              <div style={{ paddingLeft: "15%" }} className="carousel-item">
+              <div style={{ paddingLeft: "15%",
+              backgroundImage: "url(/assets/images/home/realhack.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              height: "400px",
+               width: "100%", 
+            
+            }} className="carousel-item">
                 <ul className="thm-breadcrumb list-unstyled ">
-                  <li>
-                    <a href="/">We, Right Time Limited</a>
+                <li className="pt-5 mt-5">
+                    <a style={{color:"white",fontWeight:"bold"}} href="/">We, Right Time Limited</a>
                   </li>
                 </ul>
                 <h5 className="page-header__title">Real Hackers !!!</h5>{" "}
               </div>
-              <div style={{ paddingLeft: "15%" }} className="carousel-item">
+              <div style={{ paddingLeft: "15%" 
+            ,
+            backgroundImage: "url(/assets/images/home/qsa.png)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            height: "400px",
+             width: "100%", }} className="carousel-item">
                 <ul className="thm-breadcrumb list-unstyled ">
-                  <li>
-                    <a href="/">Technology</a>
+                  <li  className="pt-5 mt-5">
+                    <a style={{color:"white",fontWeight:"bold"}}href="/">Technology</a>
                   </li>
                 </ul>
                 <h5 className="page-header__title">

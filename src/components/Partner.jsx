@@ -51,19 +51,19 @@ function Partner() {
                 <img src="assets/images/partners/ec.png" alt="" />
               </div> */}
               <div className="item">
-                <img src="assets/images/partners/pv.png" alt="" />
+                <img src="assets/images/partners/1.png" alt="" />
               </div>
               <div className="item">
-                <img src="assets/images/partners/acnabin.png" alt="" />
+                <img src="assets/images/partners/2.png" alt="" />
               </div>
               <div className="item">
-                <img src="assets/images/partners/pecb-logo.png" alt="" />
+                <img src="assets/images/partners/3.png" alt="" />
               </div>
               <div className="item">
-                <img src="assets/images/partners/sck.png" alt="" />
+                <img src="assets/images/partners/4.png" alt="" />
               </div>
               <div className="item">
-                <img src="assets/images/partners/ars.png" alt="" />
+                <img src="assets/images/partners/5.png" alt="" />
               </div>
             </div>
           </div>
