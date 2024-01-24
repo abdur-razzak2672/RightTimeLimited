@@ -15,7 +15,7 @@ function Benefit() {
             <div style={{marginTop:"200px"}} className="col-lg-6  ">
               <div className="about-three__image">
                 <img
-                  src="/assets/images/resources/rt1.png"
+                  src="/assets/images/home/foot.png"
                   className="wow fadeInUp"
                   data-wow-duration="1500ms"
                   alt=""
