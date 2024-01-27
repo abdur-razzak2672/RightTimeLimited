@@ -201,7 +201,7 @@ function TopManagement() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/sm.jpeg"
+                            src="/assets/images/team/sm2.jpeg"
                             alt=""
                           />
                         </div>
@@ -430,7 +430,7 @@ function TopManagement() {
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/sm.jpeg"
+                src="/assets/images/team/sm2.jpeg"
                 alt=""
               />
 

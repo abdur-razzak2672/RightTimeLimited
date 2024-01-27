@@ -24,7 +24,7 @@ function About() {
                   className="about-five__images__caption  count-box wow fadeInUp"
                   data-wow-duration="1500ms"
                 >
-                  <span className="count-text" data-stop="13" data-speed="1300">
+                  <span className="count-text" data-stop="14" data-speed="1300">
                     00
                   </span>
                   Years of
@@ -53,7 +53,7 @@ function About() {
                   Auditing & Certification. Conducting Security Assessment e.g.
                   VA & PT, Forensic (with the use of multiple world className
                   Automated & Manual tools). As the first empaneled Security
-                  Assessor firm we are serving for more than 13 years.</p>
+                  Assessor firm we are serving for more than 14 years.</p>
                 </div>
 
                 <div className="about-four__meta">
