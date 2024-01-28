@@ -167,7 +167,10 @@ Fresno, CA 93710</p>
                   <a href="/contact-us" className="mt-3 rounded-5">
                     <span className="text-light">Subscrib Now<i className="mx-3 fas fa-arrow-right"></i></span> 
                   </a>                  </li>
-
+                  <li> <a href="/all-job" className="mt-3 rounded-5">
+                    <span className="text-light text-center">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span> 
+                  </a>                  </li>
+ 
                   
                  
 
@@ -192,14 +195,11 @@ Fresno, CA 93710</p>
                     <a href="/training">Training</a>
                   </li>
                   
-                  
-                  <li>
-                    <a href="/incident">Incident</a>
+                   
+                   <li className="mt-2 mx-1">
+                     <img className="rounded" src="/assets/images/footer/pci.png" width="78%" alt="" />
+
                   </li>
-                  <li>
-                  <a href="/all-job" className="mt-3 rounded-5">
-                    <span className="text-light text-center">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span> 
-                  </a>                  </li>
                  
 
                  
@@ -264,8 +264,7 @@ Fresno, CA 93710</p>
         <p className="text-center mt-2 ">
         <img className="mx-2" width="80px" src="assets/images/footer/ssl.png" alt=""/>
 
-            &copy; 2023 All Copyright <span className="dynamic-year"></span> by Right
-            Time Limited
+             Copyright © 2009 – <span className="dynamic-year"></span> Right Time Limited (Private Limited Company) All rights reserved. Terms and Conditions.
           </p>
 
 

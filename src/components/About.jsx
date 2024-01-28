@@ -7,7 +7,7 @@ function About() {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <section className="  section-padding--top about-five">
+      <section className="mt-5">
         <div className="container">
           <div className="row gutter-y-60">
             <div className="col-lg-5">
@@ -24,8 +24,8 @@ function About() {
                   className="about-five__images__caption  count-box wow fadeInUp"
                   data-wow-duration="1500ms"
                 >
-                  <span className="count-text" data-stop="13" data-speed="1300">
-                    00
+                  <span className="count-text" data-stop="14" data-speed="1300">
+                    14
                   </span>
                   Years of
                   <br />
@@ -41,7 +41,7 @@ function About() {
                     Leading Information Security Company
                   </h2>
                 </div>
-                <div>
+                <div className="textJustify" style={{marginTop:"-40px"}}>
                   <p>Right Time Limited (“RightTime”, short form) started its
                   journey in the year 2009. It’s purely an Information Security
                   Consultation, Assessment/Audit Service & Solutions Provider.
@@ -53,7 +53,7 @@ function About() {
                   Auditing & Certification. Conducting Security Assessment e.g.
                   VA & PT, Forensic (with the use of multiple world className
                   Automated & Manual tools). As the first empaneled Security
-                  Assessor firm we are serving for more than 13 years.</p>
+                  Assessor firm we are serving for more than 14 years.</p>
                 </div>
 
                 <div className="about-four__meta">
@@ -72,13 +72,13 @@ function About() {
                       </div>
 
                       <div style={{paddingRight:"12px"}} className="col-md-8 ">
-                      <p>
+                      <p className="textJustify" style={{marginTop:"-12px"}}>
                         {" "}      
                         I am proud to serve as the Chairman of “Right Time Limited” (RightTime, short firm)- cyber security consulting and assessment/audit firm. Our team of experts is dedicated to providing you with the highest quality of service and customized solutions to secure your organization's data and assets from cyber threats. Wish, you will choose “Right Time Limited” as your trusted partner in Cyber Security Effort.                      </p>
-                      <h3 className="about-four__author__title mt-4">
+                      <h3  className="about-four__author__title ">
                        Ms. Sahaly Yasmin Bhuiyan
                       </h3>
-                      <div className="about-four__author__designation">
+                      <div className="about-four__author__designation  ">
                        Chairman
                       </div>
                       </div>

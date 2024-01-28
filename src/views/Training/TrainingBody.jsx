@@ -198,8 +198,7 @@ function TrainingBody() {
      <div class="custom-wrapper pure-g container" id="menu">
         <div class="pure-u-1-4">
             <div class="pure-menu">
-                <a href="index.html" class="pure-menu-heading custom-brand"><img alt="home" width='80px'
-                        class="masthead-brand"  src='/assets/images/images-removebg-preview.png'/></a>
+                
             </div>
         </div>
         <div class="pure-u-1-2">
