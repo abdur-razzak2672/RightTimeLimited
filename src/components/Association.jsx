@@ -1,76 +1,88 @@
 import React from "react";
-
+import Slider from "react-slick";
 function Association() {
+
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,        
+
+    infinite: true,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 817,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+             }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+};
   return (
     <div>
-      <section className="section-padding--top section-padding--bottom about-one-associate">
+      <section className=" mt-5 mx-5">
         <div className="section-title text-center">
           <h2 className="header">OUR ASSOCIATIONS</h2>
         </div>
-        <div className="client-carousel client-carousel--two">
-          <div className="container">
-            <div
-              className=" owl-carousel thm-owl__carousel"
-              data-owl-options='{"loop": true,
-				"autoplay": true,
-				"autoplayTimeout": 5000,
-				"autoplayHoverPause": true,
-				"nav": true,
- 				"dots": false,
-				"margin": 30,
-                "items": 2,
-				"smartSpeed": 700,
-				"responsive": {
-					"0": {
-						"margin": 30,
-						"items": 2
-					},
-					"375": {
-						"margin": 30,
-						"items": 2
-					},
-					"575": {
-						"margin": 30,
-						"items": 3
-					},
-					"767": {
-						"margin": 50,
-						"items": 4
-					},
-					"991": {
-						"margin": 40,
-						"items": 5
-					},
-					"1199": {
-						"margin": 80,
-						"items": 5
-					}
-				}}'
-            >
-              <div className="item">
+
+        <Slider {...settings}>
+          <div>
+          <div className="item">
                 <img src="assets/images/association/pci.png" alt="" />
               </div>
-              <div className="item">
+          </div>
+          <div>
+          <div className="item">
                 <img src="assets/images/association/basis.png" alt="" />
               </div>
-              <div className="item">
+          </div>
+          <div>
+          <div className="item">
                 <img src="assets/images/association/ecab.jpg" alt="" />
-              </div>
-              <div className="item">
+              </div>        </div>
+          <div>
+          <div className="item">
                 <img src="assets/images/association/bcs.jpg" alt="" />
               </div>
-              <div className="item">
+          </div>
+          <div>
+          <div className="item">
                 <img src="assets/images/association/bf.jpg" alt="" />
               </div>
-              <div className="item">
+          </div>
+          <div>
+          <div className="item">
                 <img src="assets/images/association/wbg.png" alt="" />
               </div>
-              <div className="item">
+          </div>
+          <div>
+          <div className="item">
                 <img src="assets/images/association/cca.png" alt="" />
               </div>
-            </div>
           </div>
-        </div>
+          
+        </Slider>
+        
       </section>
     </div>
   );

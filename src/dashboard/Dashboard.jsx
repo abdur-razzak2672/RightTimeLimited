@@ -14,7 +14,8 @@ import Solution from "../components/Solution";
          <Home />
         <About />
         <Service />
-        <section className="funfact-one">
+        <section className="funfact-one mt-5
+        ">
         <div className="container">
           <div
             className="funfact-one__inner wow fadeInUp background-size-cover"
@@ -27,7 +28,7 @@ import Solution from "../components/Solution";
               <li className="funfact-one__list__item">
                 <h3 className="funfact-one__list__title count-box">
                   <span data-stop="255" data-speed="2500" className="count-text">
-                    00
+                    255
                   </span>
                 </h3>
                 <p className="funfact-one__list__text">Business Interogation</p>
@@ -35,7 +36,7 @@ import Solution from "../components/Solution";
               <li className="funfact-one__list__item">
                 <h3 className="funfact-one__list__title count-box">
                   <span data-stop="325" data-speed="2500" className="count-text">
-                    00
+                   325
                   </span>
                 </h3>
                 <p className="funfact-one__list__text">Strategies Planned</p>
@@ -43,7 +44,7 @@ import Solution from "../components/Solution";
               <li className="funfact-one__list__item">
                 <h3 className="funfact-one__list__title count-box">
                   <span data-stop="569" data-speed="2500" className="count-text">
-                    00
+                    569
                   </span>
                 </h3>
                 <p className="funfact-one__list__text">Projects Relased</p>
@@ -51,7 +52,7 @@ import Solution from "../components/Solution";
               <li className="funfact-one__list__item">
                 <h3 className="funfact-one__list__title count-box">
                   <span data-stop="769" data-speed="2500" className="count-text">
-                    00
+                    769
                   </span>
                 </h3>
                 <p className="funfact-one__list__text">Satisfied Clients </p>
