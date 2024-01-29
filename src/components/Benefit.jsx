@@ -3,7 +3,7 @@ import React from "react";
 function Benefit() {
   return (
     <div>
-      <section className="  ">
+      <section className=" section-padding--top about-three about-three--home-one">
         <div
           className="about-three__shape wow fadeInRight"
           data-wow-duration="1500ms"
@@ -100,9 +100,6 @@ function Benefit() {
                         and infrastructure needs.
                       </p>
 
-
-
-                 
                     </div>
                   </li>
                 </ul>
