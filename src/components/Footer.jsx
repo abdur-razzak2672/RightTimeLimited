@@ -13,24 +13,22 @@ function Footer({ show }) {
     localStorage.setItem("location", "2")
     window.location.reload();
   }
-  const handleLocationaus= () => {
+  const handleLocationaus = () => {
     localStorage.setItem("location", "3")
     window.location.reload();
   }
-  const handleLocationgar= () => {
+  const handleLocationgar = () => {
     localStorage.setItem("location", "4")
     window.location.reload();
   }
-
-
 
   return (
     <div  >
       <div className="footer-main section-padding--bottom footer-main--top-padding ">
         <div className=" px-5"  >
-          <div  className="row footitem gutter-y-30"> 
-            <div className="col-lg-3 col-md-6 col-sm-12"> 
-              <div className="footer-widget footer-widget--about"> 
+          <div className="row footitem gutter-y-30">
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="footer-widget footer-widget--about">
                 {/* <a href="/" className="footer-widget__logo">
                   <img
                     src="/assets/images/images-removebg-preview.png"
@@ -76,9 +74,9 @@ function Footer({ show }) {
                         <ul className="footer-widget__contact">
                           <li>
                             <i className="fa fa-phone"></i>
-                            <a className="mx-4"href="tel:+18187790442"> +1510 298 6114</a>
+                            <a className="mx-4" href="tel:+18187790442"> +1510 298 6114</a>
                           </li>
-                        
+
                           <li>
                             <i className="fa fa-envelope"></i>
                             <a className="mx-4" href="mailto:coo.usa@righttime.biz">  coo.usa@righttime.biz</a>
@@ -86,7 +84,7 @@ function Footer({ show }) {
                           <li>
                             <i className="fa fa-map-marker-alt"></i>
                             <p className="mx-4"> 5669 N Fresno St, Apt 232
-Fresno, CA 93710</p>
+                              Fresno, CA 93710</p>
                           </li>
                         </ul>
                       </>
@@ -109,7 +107,7 @@ Fresno, CA 93710</p>
                             </li>
                             <li>
                               <i className="fa fa-map-marker-alt"></i>
-                              <p className="mx-4">11 Dahlia St. Quakers Hill,NSW 2763 
+                              <p className="mx-4">11 Dahlia St. Quakers Hill,NSW 2763
                                 Sydney,Australia.</p>
                             </li>
                           </ul>
@@ -164,15 +162,15 @@ Fresno, CA 93710</p>
                     <a href="/digital-forensics">Digital Forensics</a>
                   </li>
                   <li>
-                  <a href="/contact-us" className="mt-3 rounded-5">
-                    <span className="text-light">Subscrib Now<i className="mx-3 fas fa-arrow-right"></i></span> 
-                  </a>                  </li>
+                    <a href="/contact-us" className="mt-3 rounded-5">
+                      <span className="text-light">Subscrib Now<i className="mx-3 fas fa-arrow-right"></i></span>
+                    </a>                  </li>
                   <li> <a href="/all-job" className="mt-3 rounded-5">
-                    <span className="text-light text-center">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span> 
+                    <span className="text-light text-center">Job Alert !<i className="mx-3 fas fa-arrow-right"></i></span>
                   </a>                  </li>
- 
-                  
-                 
+
+
+
 
                 </ul>
               </div>
@@ -194,15 +192,15 @@ Fresno, CA 93710</p>
 
                     <a href="/training">Training</a>
                   </li>
-                  
-                   
-                   <li className="mt-2 mx-1">
-                     <img className="rounded" src="/assets/images/footer/pci.png" width="78%" alt="" />
+
+
+                  <li className="mt-2 mx-1">
+                    <img className="rounded" src="/assets/images/footer/pcaa.png" width="100%" alt="" />
 
                   </li>
-                 
 
-                 
+
+
 
                 </ul>
                 <div className="mc-form__response"></div>
@@ -213,77 +211,59 @@ Fresno, CA 93710</p>
                 <h3 className="footer-widget__title">Our Presence</h3>
                 <ul className="footer-widget__contact">
                   <li>
-                    <a className="mx-1"  onClick={handleLocationbd} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }}   width="46%" src="assets/images/flag/bd.png" alt="" /></a>
-                    <a className="mx-1"  onClick={handleLocationgar} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray"  }} width="46%" src="assets/images/flag/de.png" alt="" /></a>
+                    <a className="mx-1" onClick={handleLocationbd} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }} width="46%" src="assets/images/flag/bd.png" alt="" /></a>
+                    <a className="mx-1" onClick={handleLocationgar} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }} width="46%" src="assets/images/flag/de.png" alt="" /></a>
 
                   </li>
 
                   <li  >
-                    <a className="mx-1" onClick={handleLocationusa} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }}  width="46%" src="assets/images/flag/usa.png" alt="" /></a>
-                    <a  className="mx-1" onClick={handleLocationaus} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray"  }}  width="46%" src="assets/images/flag/aus.png" alt="" /></a>
+                    <a className="mx-1" onClick={handleLocationusa} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }} width="46%" src="assets/images/flag/usa.png" alt="" /></a>
+                    <a className="mx-1" onClick={handleLocationaus} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }} width="46%" src="assets/images/flag/aus.png" alt="" /></a>
 
                   </li>
 
                   <li className="mt-2 mx-1">
-                  <img src="assets/images/footer/iso.png" width="98%" alt="" />
-                  <h6 style={{fontSize:"9px",width:"100%"}}  className="mt-2 text-light">WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
+                    <img src="assets/images/footer/iso.png" width="98%" alt="" />
+                    <h6 style={{ fontSize: "9px", width: "100%" }} className="mt-2 text-light">WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
 
 
                   </li>
                 </ul>
-           
-               </div>
+
+              </div>
             </div>
 
 
           </div>
 
           <br />
-           
 
         </div>
 
         <div className="social">
-        <ul class="footer-widget__social">
-              <li><a style={{backgroundColor:"#2ea9f3"}} href="/"><i class="fab fa-twitter"></i></a></li>
-              <li><a style={{backgroundColor:"#008def"}} href="/"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a style={{backgroundColor:"#d9387a"}} href="/"><i class="fab fa-pinterest-p"></i></a></li>
-              <li><a style={{backgroundColor:"#eb733b"}} href="/"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-
+          <ul class="footer-widget__social">
+            <li><a style={{ backgroundColor: "#d9387a" }} target="_blank" href="https://www.linkedin.com/company/right-time-limited/?viewAsMember=true"><i class="fab fa-linkedin"></i></a></li>
+            <li><a style={{ backgroundColor: "#2ea9f3" }} target="_blank" href="/"><i class="fab fa-twitter"></i></a></li>
+            <li><a style={{ backgroundColor: "#008def" }} target="_blank" href="https://www.facebook.com/RightTimeLimited"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a style={{ backgroundColor: "#eb733b" }} target="_blank" href="https://www.instagram.com/righttimelimited/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
         </div>
-
-
       </div>
- 
-        <div className="footer-bottom">
-   
 
-      <div className=" container p-3">
-        <div >
-        <p className="text-center mt-2 ">
-        <img className="mx-2" width="80px" src="assets/images/footer/ssl.png" alt=""/>
-
-             Copyright © 2009 – <span className="dynamic-year"></span> Right Time Limited (Private Limited Company) All rights reserved. Terms and Conditions.
-          </p>
+      <div className="footer-bottom">
 
 
-        </div>
-      </div> 
-        </div>
-      {/* <div className="footer-bottom row">
-        <div className="col-md-4 p-4  mx-4">
-          <img width="80px" src="assets/images/footer/ssl.png" alt=""/>
+        <div className=" container p-3">
+          <div >
+            <p className="text-center mt-2 ">
+              <img className="mx-2" width="80px" src="assets/images/footer/ssl.png" alt="" />
+              Copyright © 2009 –  2024 Right Time Limited (Private Limited Company) All rights reserved. Terms and Conditions.
+            
+
+            </p>
           </div>
-          <div className ="col-lg-7 mt-4 ">
-          <p className=" ">
-            &copy; All Copyright <span className="dynamic-year"></span> by Right
-            Time Limited
-          </p>
-          </div>
-          
-        
-      </div> */}
+        </div>
+      </div>
     </div>
   );
 }
