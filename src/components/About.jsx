@@ -7,7 +7,7 @@ function About() {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <section className="mt-5">
+      <section className="mt-5 pt-5">
         <div className="container">
           <div className="row gutter-y-60">
             <div className="col-lg-5">
