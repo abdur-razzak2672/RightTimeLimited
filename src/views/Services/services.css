@@ -107,6 +107,10 @@
 }
 
 /* Card Default Hover */
+.hoverTop{
+  border-top: 5px solid #990a00;
+
+}
 .uk-card-default.uk-card-hover:hover {
   background: linear-gradient(to bottom, #f5f5f5 0%, #ececec 100%) !important;
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1) !important;
@@ -144,7 +148,7 @@
 }
 
 /* Card Icon */
-.uk-card-default.uk-card-hover span.hover {
+.uk-card-default.uk-card-hover span.hover   {
   display: none;
 }
 
@@ -159,7 +163,22 @@
   color: #a2150b;
 }
 
-.uk-card-default.uk-card-hover:hover span.default {
+/* Hover effect for active state */
+.uk-card-default.uk-card-hover .active span.hover {
+  display: inherit;
+  color: #a2150b;
+}
+.activeTab{
+  display: inherit;
+  color: #a2150b;
+
+}
+.uk-card-default.uk-card-hover:hover  span.activeTab{
+  display: none;
+ 
+}
+
+.uk-card-default.uk-card-hover:hover  span.default{
   display: none;
 }
 
@@ -253,9 +272,9 @@ a{
   background-color: #540859 !important;
   color:white !important;
   ;
- 
-
 }
+
+
 
 .industries{  
   background-color: #540859 !important;
@@ -273,6 +292,11 @@ a{
   margin-bottom: 12px;
   background-color: rgb(217, 217, 217)
  
+}
+.servicesItemActive a{
+  background-color: #540859 !important;
+  color:white !important;
+
 }
 
 .servicesItem a:hover{

@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import "./services.css";
-import Consultation from "./ServicesBody/Consultation";
-import BenitsConpany from "./ServicesBody/BenitsConpany";
-import Testing from "./ServicesBody/Testing";
-import Auditing from "./ServicesBody/Auditing";
+ import BenitsConpany from "./ServicesBody/BenitsConpany";
+ import Service from "../../components/Service";
  function ServiceBody() {
-  const [tabIndex, setTabIndex] = useState(1);
-  return (
+   return (
     <div>
       <div className="page-header">
         <div
@@ -37,162 +34,17 @@ import Auditing from "./ServicesBody/Auditing";
       >
          <div>
         <div className="container pt-4">
-          <p className="text-dark">“Right Time Limited”   is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks. With industry insights, RightTime identify weaknesses, conduct thorough security testing, and provide certification guidance. Its managed services include 24/7 monitoring, incident response, and continuous security improvements. Its objective is to be a trusted partner, helping clients navigate cybersecurity challenges, minimize risks, and cultivate robust security resilience. </p>
+          <p className="text-dark textJustify">“Right Time Limited”   is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks. With industry insights, RightTime identify weaknesses, conduct thorough security testing, and provide certification guidance. Its managed services include 24/7 monitoring, incident response, and continuous security improvements. Its objective is to be a trusted partner, helping clients navigate cybersecurity challenges, minimize risks, and cultivate robust security resilience. </p>
           </div>
       </div>
         <section className="section-padding--bottom mt-3 ">
           <BenitsConpany />
         </section>
 
-        <div className="container">
-          <div className="section-title text-center">
-            <p className="section-title__text">Popular Services</p>
-            <h2 className="header">
-              We Provide Our Client Best <br />
-              Information Security Solution & Services
-            </h2>
-          </div>
-          <div
-            className="owl-carousel  thm-owl__carousel thm-owl__carousel--with-shadow service-four__carousel"
-            data-owl-options='{"loop": true,
-				"autoplay": true,
-				"autoplayTimeout": 3000,
-				"nav": false,
-				"navText": ["<span className=\"fam fa-angle-left\"></span>","<span className=\"fam fa-angle-right\"></span>"],
-				"dots": true,
-				"margin": 0,
-                "items": 1,
-				"smartSpeed": 700,
-				"responsive": {
-					"0": {
-						"margin": 0,
-						"items": 1
-					},
-					"576": {
-						"margin": 30,
-						"items": 2
-					},
-					"768": {
-						"margin": 30,
-						"items": 3
-					},
-					"992": {
-						"margin": 30,
-						"items": 4
-					},
-					"1200": {
-						"margin": 30,
-						"items": 4
-					}
-				}}'
-          >
-            <div className="item">
-              <div style={{ height: "300px" }} className="service-card-three">
-                <div className="service-card-three__icon">
-                  <i className="icon-new-product"></i>
-                </div>
-                <div className="service-card-three__content">
-                  <h3 className="service-card-three__title">
-                    <a href="/consultation">
-                      Consultation
-                      <br />
-                    </a>
-                  </h3>
-                  <div className="service-card-three__text">
-                    Providing the solutions for non-IT businesses.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div style={{ height: "300px" }} className="service-card-three">
-                <div className="service-card-three__icon">
-                  <i className="icon-new-product"></i>
-                </div>
-                <div className="service-card-three__content">
-                  <h3 className="service-card-three__title">
-                    <a href="/auditing">Auditing</a>
-                  </h3>
-                  <div className="service-card-three__text">
-                    Providing the solutions for non-IT businesses.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div style={{ height: "300px" }} className="service-card-three">
-                <div className="service-card-three__icon">
-                  <i className="icon-protection"></i>
-                </div>
-                <div className="service-card-three__content">
-                  <h3 className="service-card-three__title">
-                    <a href="/">
-                      Security <br />
-                      Assessment & Testing
-                    </a>
-                  </h3>
-                  <div className="service-card-three__text">
-                    Providing the solutions for non-IT businesses.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div style={{ height: "300px" }} className="service-card-three">
-                <div className="service-card-three__icon">
-                  <i className="icon-web-development"></i>
-                </div>
-                <div className="service-card-three__content">
-                  <h3 className="service-card-three__title">
-                    <a href="/">
-                      Standard
-                      <br />
-                      Implementation & Certification
-                    </a>
-                  </h3>
-                  <div className="service-card-three__text">
-                    Providing the solutions for non-IT businesses.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div style={{ height: "300px" }} className="service-card-three">
-                <div className="service-card-three__icon">
-                  <i className="icon-analysis"></i>
-                </div>
-                <div className="service-card-three__content">
-                  <h3 className="service-card-three__title">
-                    <a href="/">
-                      Security
-                      <br />
-                      Training
-                    </a>
-                  </h3>
-                  <div className="service-card-three__text">
-                    Providing the solutions for non-IT businesses.
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div className="item">
-              <div style={{ height: "300px" }} className="service-card-three">
-                <div className="service-card-three__icon">
-                  <i className="icon-analysis"></i>
-                </div>
-                <div className="service-card-three__content">
-                  <h3 className="service-card-three__title">
-                    <a href="{{ url('/services/solutions">Solutions</a>
-                  </h3>
-                  <div className="service-card-three__text">
-                    Providing the solutions for non-IT businesses.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Service/>
+
+        
       </section>
       <br />
 
