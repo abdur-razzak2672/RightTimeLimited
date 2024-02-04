@@ -14,7 +14,7 @@ function About() {
               <div className="about-five__images">
                 <div className="about-five__images__shape"></div>
                 <img
-                  src="assets/images/home/up.png"
+                  src="assets/images/home/up.jpg"
                   className="wow fadeInUp"
                   data-wow-duration="1500ms"
                   alt=""
