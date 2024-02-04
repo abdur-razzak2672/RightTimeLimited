@@ -48,12 +48,12 @@ function Association() {
         <Slider {...settings}>
           <div>
           <div className="item">
-                <img src="assets/images/association/pci.png" alt="" />
+                <img src="assets/images/association/pci.jpg" alt="" />
               </div>
           </div>
           <div>
           <div className="item">
-                <img src="assets/images/association/basis.png" alt="" />
+                <img src="assets/images/association/basis.jpg" alt="" />
               </div>
           </div>
           <div>
@@ -72,12 +72,12 @@ function Association() {
           </div>
           <div>
           <div className="item">
-                <img src="assets/images/association/wbg.png" alt="" />
+                <img src="assets/images/association/wbg.jpg" alt="" />
               </div>
           </div>
           <div>
           <div className="item">
-                <img src="assets/images/association/cca.png" alt="" />
+                <img src="assets/images/association/cca.jpg" alt="" />
               </div>
           </div>
           

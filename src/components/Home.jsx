@@ -18,13 +18,13 @@ function Home() {
         ></div>
 
         <Slider {...settings}>
-          <img src="/assets/images/home/is.png" alt=""
+          <img src="/assets/images/home/is.jpg" alt=""
             style={{ height: "400px", width: "100%" }}
            />
-           <img src="/assets/images/home/realhack.png" alt=""
+           <img src="/assets/images/home/realhack.jpg" alt=""
             style={{ height: "400px", width: "100%" }}
            />
-           <img src="/assets/images/home/qsa.png" alt=""
+           <img src="/assets/images/home/qsa.jpg" alt=""
             style={{ height: "400px", width: "100%" }}
            />
 

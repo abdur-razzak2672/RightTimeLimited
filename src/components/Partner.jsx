@@ -49,26 +49,26 @@ function Partner() {
         <Slider {...settings}>
           <div>
             <div className="item">
-              <img src="/assets/images/partners/1.png" alt="" />
+              <img src="/assets/images/partners/1.jpg" alt="" />
             </div>
           </div>
           <div>
             <div className="item">
-              <img src="/assets/images/partners/2.png" alt="" />
+              <img src="/assets/images/partners/2.jpg" alt="" />
             </div>
           </div>
           <div>
             <div className="item">
-              <img src="/assets/images/partners/3.png" alt="" />
+              <img src="/assets/images/partners/3.jpg" alt="" />
             </div>        </div>
           <div>
             <div className="item">
-              <img src="/assets/images/partners/4.png" alt="" />
+              <img src="/assets/images/partners/4.jpg" alt="" />
             </div>
           </div>
           <div>
             <div className="item">
-              <img src="/assets/images/partners/5.png" alt="" />
+              <img src="/assets/images/partners/5.jpg" alt="" />
             </div>
           </div>
            
