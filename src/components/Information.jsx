@@ -47,7 +47,7 @@ import Slider from "react-slick";
           }}
         >
           <br />
-          <div className="container">
+          <div style={{paddingBottom:" 100px"}} className="container ">
             <div className="section-title text-center">
               <h2 className="header">
                 Some of our valued customers
