@@ -195,7 +195,7 @@ function Footer({ show }) {
 
 
                   <li className="mt-2 mx-1">
-                    <img className="rounded" src="/assets/images/footer/pcaa.png" width="100%" alt="" />
+                    <img className="rounded" src="/assets/images/footer/pcaa.jpg" width="70%" alt="" />
 
                   </li>
 

@@ -57,87 +57,83 @@ import Slider from "react-slick";
 
             <Slider {...settings}>
               <div className="item">
-                <img src=" assets/images/clients/surjo.png " alt="" />
+                <img src=" assets/images/clients/1.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/clients/aibl.png " alt="" />
+                <img src=" assets/images/clients/2.jpg " alt="" />
               </div>
               <div className="item">
                 <img
-                  src=" assets/images/clients/ssf.png "
-                  size="small"
+                  src=" assets/images/clients/3.jpg "
                   alt=""
                 />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/agrani bank.png " alt="" />
+                <img src=" assets/images/clients/4.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/rupali bank.png " alt="" />
+                <img src=" assets/images/clients/5.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/nrb-bank.png " alt="" />
+                <img src=" assets/images/clients/6.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/IFIC-Logo.png " alt="" />
+                <img src=" assets/images/clients/7.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/SMBL-Logo.png " alt="" />
+                <img src=" assets/images/clients/8.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/IFC-Logo.svg " alt="" />
+                <img src=" assets/images/clients/9.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/clients/bb1.jpg " alt="" />
+                <img src=" assets/images/clients/10.jpg " alt="" />
               </div>
 
               <div className="item">
-                <img src=" assets/images/clients/nrbc logo.png " alt="" />
+                <img src=" assets/images/clients/11.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/genweb2.webp " alt="" />
+                <img src=" assets/images/clients/12.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/cca.jpg " alt="" />
+                <img src=" assets/images/clients/13.jpg " alt="" />
               </div>
               <div className="item">
-                <img src=" assets/images/resources/addiesoftlogo.svg " alt="" />
+                <img src=" assets/images/clients/14.jpg " alt="" />
               </div>
               <div className="item">
                 <img
-                  src=" assets/images/resources/circle-fintech.png "
+                  src=" assets/images/clients/15.jpg "
                   alt=""
                 />              </div>
               <div className="item">
-                <img src=" assets/images/resources/walletmix.png " alt="" />
+                <img src=" assets/images/clients/16.jpg " alt="" />
               </div>
               <div className="item">
                 <img
-                  src=" assets/images/resources/meghnagbanklogo.png "
-                  alt=""
-                />              </div>
-              <div className="item">
-                <img
-                  src=" assets/images/resources/mutual-trust.png "
+                  src=" assets/images/clients/17.jpg "
                   alt=""
                 />              </div>
               <div className="item">
                 <img
-                  src=" assets/images/resources/Shahajalal Islami Bank_Logo.png "
+                  src=" assets/images/clients/18.jpg "
+                  alt=""
+                />              </div>
+              <div className="item">
+                <img
+                  src=" assets/images/clients/19.jpg "
                   alt=""
                 />              </div>
 
               <div className="item">
-                <img src=" assets/images/resources/paywell.png " alt="" />
+                <img src=" assets/images/clients/20.jpg " alt="" />
               </div>
               <div className="item">
                 <img
-                  src=" assets/images/resources/Transparency International Bangladesh.png "
+                  src=" assets/images/clients/21.jpg "
                   alt=""
                 />              </div>
-              <div className="item">
-                <img src=" assets/images/resources/IFC-Logo.svg " alt="" />
-              </div>
               
 
             </Slider>
