@@ -1,13 +1,23 @@
 import React, { useState } from 'react'
-import Consultation from "./Consultation";
-import Testing from "./Testing";
-import Auditing from "./Auditing";
 import { data } from './data';
 function BenitsConpany() {
   const [tabIndex, setTabIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
+  const [isActive, setIsActive] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeSubIndex, setActiveSubIndex] = useState(0);
 
   const text = data[tabIndex]?.subTitle[subIndex]?.description;
+  const handleItemClick = (index) => {
+    setActiveIndex(index);
+    setTabIndex(index);
+  };
+
+  const handleSubItemClick = (index) => {
+    setSubIndex(index);
+    setActiveSubIndex(index);
+  };
+
 
   // Function to split the text into three portions with specific word limits
   const divideText = (text) => {
@@ -25,7 +35,7 @@ function BenitsConpany() {
     <div className="container">
       <div className="section-title text-center">
         <p className="section-title__text">Company Benefits</p>
-        <h2 className="header">We Provide Best Information Security <br /> Service and Solution For 14Md. Shamim Al Mamun Years</h2>
+        <h2 className="header ">We Provide Best Information Security <br /> Service and Solution For 14Md. Shamim Al Mamun Years</h2>
 
       </div>
 
@@ -36,11 +46,11 @@ function BenitsConpany() {
               data.map((item, index) => (
 
                 <div className=" col-lg-2 col-md-3 col-sm-6 borderReidus uk-visible-toggle  mt-3" tabindex="-1">
-                  <a onClick={() => setTabIndex(index)} href='#javascript20void(0)'>
-                    <div style={{ height: "220px" }} className=" borderReidus uk-margin uk-card uk-card-default uk-card-hover">
+          <a onClick={() => handleItemClick(index)} href='#javascript20void(0)' className={`${activeIndex === index ? 'activeTab' : ''}`}>
+                  <div style={{ height: "220px" }} className={`borderReidus uk-margin uk-card uk-card-default uk-card-hover ${activeIndex === index ? 'hoverTop' : ''}`}>
                       <div className="uk-card-body">
                         <div className="uk-flex uk-flex-center">
-                          <span className="uk-icon default"><i className={`${item?.logo}`}></i></span>
+                          <span className={`${activeIndex === index ? 'activeTab' : 'uk-icon default'}`}><i className={`${item?.logo}`}></i></span>
                           <span className="uk-icon hover"><i className={`${item?.logo}`}></i></span>
                         </div>
                         <h5 className="uk-card-title uk-margin mt-5">{item?.title}</h5>
@@ -62,18 +72,18 @@ function BenitsConpany() {
 
       <section className="container mt-5">
         <h1 className="text-center">{data[tabIndex]?.title}</h1>
-        <p>{data[tabIndex]?.description}</p>
+        <p className='textJustify'>{data[tabIndex]?.description}</p>
 
         <div className="row mt-4">
           <div className="col-md-4 ">
 
             {
               data[tabIndex]?.subTitle?.map((item, index) => (
-                <div className="   servicesItem">
+                <div className={`${activeSubIndex === index ? 'servicesItemActive servicesItem' : 'servicesItem'}`}>
                   <a
                     className=" focus"
                     href="#javascript void(0)"
-                    onClick={() => setSubIndex(index)}
+                     onClick={() => handleSubItemClick(index)}
                   >
                     {item?.title}
                   </a>
@@ -87,18 +97,18 @@ function BenitsConpany() {
 
           <div className="col-md-8">
             <div>
-              <h3 className="text-center">{data[tabIndex]?.subTitle[subIndex]?.title}</h3>
+              <h3 className="text-center textJustify">{data[tabIndex]?.subTitle[subIndex]?.title}</h3>
 
-              <div   className="row">
-                <span className='text-dark'>
+              <div className="row textJustify">
+                <span className='text-dark textJustify'>
                   {firstPortion}
                 </span>
-                <div className="col-md-7 ">
-                 
-                    <span className='text-dark w-100'>
-                      {secondPortion}
-                    </span>
- 
+                <div className="col-md-7 textJustify">
+
+                  <span className='text-dark w-100 textJustify'>
+                    {secondPortion}
+                  </span>
+
                 </div>
                 <div className="col-md-5">
                   <img height="150px" width="100%" src={data[tabIndex]?.subTitle[subIndex]?.image} alt="" />
@@ -107,11 +117,11 @@ function BenitsConpany() {
 
                 </div>
 
-                 
-                  <span className='text-dark'>
-                    {lastPortion}  <a className='text-warning' href={`${data[tabIndex]?.subTitle[subIndex]?.url}`} > More Information...</a>
-                  </span>
- 
+
+                <span className='text-dark textJustify'>
+                  {lastPortion}  <a className='text-warning' href={`${data[tabIndex]?.subTitle[subIndex]?.url}`} > More Information...</a>
+                </span>
+
 
               </div>
 
