@@ -9,7 +9,7 @@ import "./services.css";
         <div
           className="page-header__bg"
           style={{
-            backgroundImage: `url('http://www.stemmonsservices.com/wp-content/uploads/2018/02/5064042-hd-business-wallpaper.jpg')`,
+            backgroundImage: `url('/assets/images/services/consultation/banner.jpg')`,
           }}
         ></div>
 
@@ -295,7 +295,7 @@ import "./services.css";
                   <a href="services-1.html">Quality Service</a>
                 </h3>
 
-                <p style={{height:"230px"}}  className="service-card-two__text">
+                <p style={{height:"230px"}}  className="service-card-two__text textJustify">
                 we prioritize proactive measures, customized solutions, quick response times, compliance, and reputation to ensure your business stays protected from cyber threats.                </p>
                 <div className="service-card-two__icon">
                   <i className="icon-smart-tv"></i>
@@ -308,7 +308,7 @@ import "./services.css";
                   <a href="team.html">Expert Team</a>
                 </h3>
 
-                <p style={{height:"230px"}} className="service-card-two__text">
+                <p style={{height:"230px"}} className="service-card-two__text textJustify">
                 Our expert team brings experience, knowledge, up-to-date information, advanced technology, and tools, and the ability to provide customized solutions, ultimately ensuring our clients' security and peace of mind.
                 </p>
                 <div className="service-card-two__icon">
@@ -322,7 +322,7 @@ import "./services.css";
                   <a href="contact.html">Excellent Support</a>
                 </h3>
 
-                <p style={{height:"230px"}} className="service-card-two__text">
+                <p style={{height:"230px"}} className="service-card-two__text textJustify">
                 It ensures timely assistance, expert guidance, responsive communication, flexibility, and continuous improvement, ultimately providing our clients with the peace of mind they need to focus on their business.                </p>
                 <div className="service-card-two__icon">
                   <i className="icon-technical-support"></i>
@@ -335,7 +335,7 @@ import "./services.css";
                   <a href="about.html">Sound Management</a>
                 </h3>
 
-                <p style={{height:"230px"}} className="service-card-two__text">
+                <p style={{height:"230px"}} className="service-card-two__text textJustify">
                 with sound management, we can deliver high-quality security services to our clients, ensuring their satisfaction and building long-term partnerships based on trust and mutual success.                </p>
                 <div className="service-card-two__icon">
                   <i className="icon-cctv"></i>

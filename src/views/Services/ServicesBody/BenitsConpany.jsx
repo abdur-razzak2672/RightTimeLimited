@@ -103,15 +103,15 @@ function BenitsConpany() {
                 <span className='text-dark textJustify'>
                   {firstPortion}
                 </span>
-                <div className="col-md-7 textJustify">
+                <div className="col-md-4 textJustify">
 
                   <span className='text-dark w-100 textJustify'>
                     {secondPortion}
                   </span>
 
                 </div>
-                <div className="col-md-5">
-                  <img height="150px" width="100%" src={data[tabIndex]?.subTitle[subIndex]?.image} alt="" />
+                <div className="col-md-8">
+                  <img width="100%" src={data[tabIndex]?.subTitle[subIndex]?.image} alt="" />
 
 
 
