@@ -134,7 +134,7 @@ function TrainingBody() {
         </div>
 
         <div className="container mt-5">
-          <p className='text-dark'>“Right Time Limited”   training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>
+          <p className='text-dark textJustify'>“Right Time Limited”   training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>
 
           <section className="section-padding--bottom   mt-5">
             <div className="container">
@@ -146,7 +146,7 @@ function TrainingBody() {
                   <img height="210px" width="100%" src="/assets/images/training/ICT_Assessment.jpg" alt="" />  
                   <h3 className="text-center header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
                   <div className='mx-2' style={{ alignItems: "start" }}>
-                    <p className='text-dark  '>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
+                    <p className='text-dark textJustify'>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
 
                     <a href="/assesment" className="header">More Information...</a>
 
@@ -159,7 +159,7 @@ function TrainingBody() {
                   <img height="210px" width="100%" src="/assets/images/training/ICT_Management.jpg" alt="" />
                   <h3 className="text-center header" ><a href="/management"> Training (ICT Management)</a></h3>
                   <div className='mx-2' style={{ alignItems: "start" }}>
-                    <p className='text-dark  '>“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
+                    <p className='text-dark textJustify'>“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
 
                     <a className="header" href="/management"  >More Information...</a>
 
@@ -170,7 +170,7 @@ function TrainingBody() {
                   <img height="210px" width="100%" src="/assets/images/training/Customized.jpg" alt="" />
                   <h3 className="text-center header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
                   <div className='mx-2' style={{ alignItems: "start" }}>
-                    <p className='text-dark'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
+                    <p className='text-dark textJustify'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
 
                     <a href="/Customized" className="header">More Information...</a>
 
