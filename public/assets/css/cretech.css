@@ -3799,6 +3799,15 @@ a{
 /***********************
 * Page Header
 ***********************/
+.solutions_banner {
+  background-image: url('/assets/images/solutions/headerBanner.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 .page-header {
   background-color: var(--cretech-black, #12062c);
   position: relative;

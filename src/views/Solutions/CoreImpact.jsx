@@ -6,11 +6,11 @@ import CommonSecuirityAssesment from './CommonSecuirityAssesment'
 function CoreImpact() {
   return (
      <div>
-   <div className="page-header">
-   <div
+   <div className="solutions_banner">
+   {/* <div
      className="page-header__bg"
      style={{ backgroundImage: `url('../images/resources/aboutbg1.png')` }}
-   ></div>
+   ></div> */}
    <div className="container">
      <ul className="thm-breadcrumb list-unstyled">
        <li>
@@ -29,16 +29,16 @@ function CoreImpact() {
         <div className="col-lg-8">
         <h2 className="text-center header">Core Impact (PT)</h2>
 
-<img className='rounded' width="100%" height=" 400px"   src="/assets/images/solutions/sltn6.jpg" alt="img" />
+<img className='rounded mb-2' width="100%" height=" 350px"   src="/assets/images/solutions/Core_Impact.jpg" alt="img" />
 
-<p className='text-dark'>As a partner of Fortra, "Right Time Limited" provides its clients with the powerful security assessment solution, Core Impact. Core Impact is an advanced penetration testing and vulnerability assessment tool designed to help organizations evaluate and improve their cybersecurity defenses.</p> 
+<p className='text-dark textJustify'>As a partner of Fortra, "Right Time Limited" provides its clients with the powerful security assessment solution, Core Impact. Core Impact is an advanced penetration testing and vulnerability assessment tool designed to help organizations evaluate and improve their cybersecurity defenses.</p> 
 
         </div>
         <div className='col-lg-4'>
           <CommonSecuirityAssesment/>
         </div>
       </div>
-         <div className='text-dark mt-5'> 
+         <div className='text-dark mt-5 textJustify'> 
        <h4 className='header mt-5'>Key features and benefits of Core Impact :</h4>
 <p><span className=" header" >  Comprehensive Penetration Testing:</span>   Core Impact conducts thorough and realistic penetration tests to identify potential vulnerabilities in networks, systems, and applications. It simulates real-world cyberattacks, providing valuable insights into an organization's security weaknesses.  </p>
 <p><span className=" header" >Multi-Platform Support:  </span>Core Impact is capable of testing across various platforms and environments, ensuring a comprehensive assessment of an organization's entire IT infrastructure.     </p>
@@ -54,7 +54,7 @@ function CoreImpact() {
 
          </div>
 
-       <p className='text-dark'> Through Core Impact, "Right Time Limited" enables its clients to strengthen their cybersecurity posture proactively. By conducting comprehensive penetration tests and vulnerability assessments, organizations can identify and rectify security weaknesses before they are exploited by malicious actors. Core Impact plays a critical role in helping "Right Time Limited" deliver top-notch security assessment solutions to their clients, thereby safeguarding their digital assets and data from potential cyber threats.</p>
+       <p className='text-dark textJustify'> Through Core Impact, "Right Time Limited" enables its clients to strengthen their cybersecurity posture proactively. By conducting comprehensive penetration tests and vulnerability assessments, organizations can identify and rectify security weaknesses before they are exploited by malicious actors. Core Impact plays a critical role in helping "Right Time Limited" deliver top-notch security assessment solutions to their clients, thereby safeguarding their digital assets and data from potential cyber threats.</p>
            </div>
 
         

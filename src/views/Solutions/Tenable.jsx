@@ -4,11 +4,11 @@ import CommonSecuirityAssesment from './CommonSecuirityAssesment'
 function Tenable() {
   return (
     <div>
-      <div className="page-header">
-        <div
+      <div className="solutions_banner">
+        {/* <div
           className="page-header__bg"
           style={{ backgroundImage: `url('../images/resources/aboutbg1.png')` }}
-        ></div>
+        ></div> */}
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
             <li>
@@ -35,10 +35,7 @@ function Tenable() {
               <p className="text-dark">
                 As a partner of Tenable, "Right Time Limited" offers its clients access to Tenable's comprehensive security assessment solutions. Tenable is a leading provider of cybersecurity products that help organizations proactively identify and address potential vulnerabilities in their IT infrastructure.
               </p>
-              <img className='rounded' width="50%" src="/assets/images/solutions/sltn4.png" alt="img" />
-
-
-
+              <img className='rounded' width="90%" src="/assets/images/solutions/Tenable.jpg" alt="img" />
             </div>
           </div>
             </div>
@@ -47,7 +44,7 @@ function Tenable() {
             </div>
           </div>
 
-          <div className='text-dark'>
+          <div className='text-dark textJustify'>
             <h4 className='header mt-5'>Key features and benefits of Tenable Security Product:</h4>
             <p><span className=" header" >     Vulnerability Scanning:  </span>Tenable's products conduct thorough vulnerability scans of an organization's networks, systems, and applications, identifying potential security weaknesses and exposures. </p>
             <p><span className=" header" >  Continuous Monitoring:   </span> The solutions enable continuous monitoring, ensuring that organizations can stay vigilant against evolving threats and newly discovered vulnerabilities.  </p>
@@ -61,7 +58,7 @@ function Tenable() {
 
           </div>
 
-          <p className='text-dark'>By leveraging Tenable's security assessment solutions, "Right Time Limited" empowers its clients to proactively defend against cyber threats. The comprehensive scanning, monitoring, and reporting capabilities of Tenable's products enable organizations to strengthen their cybersecurity posture, protect sensitive data, and maintain a secure digital environment. As a result, "Right Time Limited" helps its clients achieve a robust and resilient security framework to safeguard their IT infrastructure from potential security risks.</p>
+          <p className='text-dark textJustify'>By leveraging Tenable's security assessment solutions, "Right Time Limited" empowers its clients to proactively defend against cyber threats. The comprehensive scanning, monitoring, and reporting capabilities of Tenable's products enable organizations to strengthen their cybersecurity posture, protect sensitive data, and maintain a secure digital environment. As a result, "Right Time Limited" helps its clients achieve a robust and resilient security framework to safeguard their IT infrastructure from potential security risks.</p>
 
         </div>
 
