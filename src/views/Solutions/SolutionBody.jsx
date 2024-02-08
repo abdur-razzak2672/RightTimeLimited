@@ -7,9 +7,9 @@ function SolutionBody() {
   return (
     <div>
       <div>
-      <div className="page-header">
-        <div className="page-header__bg"
-          style={{ backgroundImage: `url('/assets/images/background/sol.png')` }}></div>
+      <div className="solutions_banner">
+        {/* <div className="page-header__bg"
+          style={{ backgroundImage: `url('/assets/images/background/sol.png')` }}></div> */}
         <div className="container">
         <ul className="thm-breadcrumb list-unstyled">
                 <li><a href="{{ url('/') }}">Home</a></li>
@@ -25,8 +25,8 @@ function SolutionBody() {
           <div className="row">
             <div className="col-lg-8">
             <div className="container pt-4">
-          <img className="rounded"width="100%" height="400px" src="/assets/images/solutions/sltn.png" alt="img" />
-          <p className="text-dark">Right Time Limited's Security Solutions encompass powerful Security Assessment (VA & PT) Tools and Cybersecurity Management & Visibility Solutions. By leveraging these offerings, It empowers organizations to proactively assess their security posture, address vulnerabilities, and effectively manage their cybersecurity environment.</p>
+          <img className="rounded mb-2"width="100%" height="400px" src="/assets/images/solutions/solutions.jpg" alt="img" />
+          <p className="text-dark textJustify">Right Time Limited's Security Solutions encompass powerful Security Assessment (VA & PT) Tools and Cybersecurity Management & Visibility Solutions. By leveraging these offerings, It empowers organizations to proactively assess their security posture, address vulnerabilities, and effectively manage their cybersecurity environment.</p>
           </div>
         
             </div>

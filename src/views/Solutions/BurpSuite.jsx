@@ -6,11 +6,11 @@ import CommonSecuirityAssesment from './CommonSecuirityAssesment'
 function BurpSuite() {
   return (
      <div>
-    <div className="page-header">
-    <div
+    <div className="solutions_banner">
+    {/* <div
       className="page-header__bg"
       style={{ backgroundImage: `url('../images/resources/aboutbg1.png')` }}
-    ></div>
+    ></div> */}
     <div className="container">
       <ul className="thm-breadcrumb list-unstyled">
         <li>
@@ -32,11 +32,11 @@ function BurpSuite() {
 <div className="row mt-3">
  
   <div className='col-md-12'>
-    <p className="text-dark">
+    <p className="text-dark textJustify">
     The partnership between "Right Time Limited" and "PortSwigger" offers a significant advantage for their ITES (Information Technology Enabled Services) customers/clients by providing access to Burp Suite, a premier security assessment tool/application. Burp Suite is a powerful and comprehensive toolkit that allows businesses to identify and mitigate vulnerabilities in clietns’ web applications and digital infrastructure effectively. In summary, it is designed to enhance the cybersecurity posture of organizations.
 
     </p>
-    <img className='rounded' width="50%"   src="/assets/images/solutions/sltn2.png" alt="img" />
+    <img className='rounded mb-2' width="100%" height="250px"   src="/assets/images/solutions/burp_suite.jpg" alt="img" />
 
     
    </div>
@@ -47,7 +47,7 @@ function BurpSuite() {
           </div>
         </div>
 
-        <div className='text-dark'> 
+        <div className='text-dark textJustify'> 
         <h4 className='header mt-5'>The key features and benefits of Burp Suite include:</h4>
         <p><span className=" header" >Comprehensive Web Application Security Scanning:</span>  Burp Suite conducts thorough scans of web applications, identifying common security flaws such as SQL injection, cross-site scripting (XSS), and other vulnerabilities.</p>
 <p><span className=" header" >  Intercepting and Modifying Requests: </span> Burp Suite allows users to intercept and modify HTTP requests and responses, aiding in the analysis of application behavior and identifying potential security weaknesses. </p>
@@ -56,7 +56,7 @@ function BurpSuite() {
 <p><span className=" header" >Continuous Monitoring:  </span> Burp Suite facilitates ongoing security assessments, allowing organizations to proactively address new vulnerabilities as their applications evolve  </p>
         </div>
 
-        <p className='text-dark'>Burp Suite equips organizations with a robust cybersecurity solution. This comprehensive security assessment tool empowers businesses to fortify their defenses, protect sensitive data, and maintain the trust of RightTime’s customers by actively identifying and addressing potential security risks in clients’ web applications.</p>
+        <p className='text-dark textJustify'>Burp Suite equips organizations with a robust cybersecurity solution. This comprehensive security assessment tool empowers businesses to fortify their defenses, protect sensitive data, and maintain the trust of RightTime’s customers by actively identifying and addressing potential security risks in clients’ web applications.</p>
  
       
      
