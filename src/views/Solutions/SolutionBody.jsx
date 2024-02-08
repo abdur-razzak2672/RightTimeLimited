@@ -7,17 +7,23 @@ function SolutionBody() {
   return (
     <div>
       <div>
-      <div className="solutions_banner">
-        {/* <div className="page-header__bg"
-          style={{ backgroundImage: `url('/assets/images/background/sol.png')` }}></div> */}
+      <div className="page-header">
+        <div
+          className="page-header__bg"
+          style={{
+            backgroundImage: `url('/assets/images/solutions/headerBanner.jpg')`,
+          }}
+        ></div>
+
         <div className="container">
-        <ul className="thm-breadcrumb list-unstyled">
-                <li><a href="{{ url('/') }}">Home</a></li>
-                <li><a href="{{ url('/services') }}">Services</a></li>
-                <li>Solutions</li>
-            </ul>
-            <h2 className="page-header__title">Solutions</h2>
-         </div>
+          <ul className="thm-breadcrumb list-unstyled">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>Solutions</li>
+          </ul>
+          <h2 className="page-header__title">Solutions</h2>
+        </div>
       </div>
 
       <section className="section-padding--bottom  mt-3">

@@ -124,14 +124,25 @@ function TrainingBody() {
   return (
     <div>
       <div>
-        <div className="training_banner">
-          {/* <div className="page-header__bg"
-            style={{ backgroundImage: `url('/assets/images/background/training.png')` }}></div> */}
-          <div className="container">
+      <div className="page-header">
+        <div
+          className="page-header__bg"
+          style={{
+            backgroundImage: `url('/assets/images/training/TopBanner.jpg')`,
+          }}
+        ></div>
 
-
-          </div>
+        <div className="container">
+          <ul className="thm-breadcrumb list-unstyled">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>Training</li>
+          </ul>
+          <h2 className="page-header__title">Training</h2>
         </div>
+      </div>
+        
 
         <div className="container mt-5">
           <p className='text-dark textJustify'>“Right Time Limited”   training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>

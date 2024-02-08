@@ -46,8 +46,8 @@ function BenitsConpany() {
               data.map((item, index) => (
 
                 <div className=" col-lg-2 col-md-3 col-sm-6 borderReidus uk-visible-toggle  mt-3" tabindex="-1">
-          <a onClick={() => handleItemClick(index)} href='#javascript20void(0)' className={`${activeIndex === index ? 'activeTab' : ''}`}>
-                  <div style={{ height: "220px" }} className={`borderReidus uk-margin uk-card uk-card-default uk-card-hover ${activeIndex === index ? 'hoverTop' : ''}`}>
+                  <a onClick={() => handleItemClick(index)} href='#javascript20void(0)' className={`${activeIndex === index ? 'activeTab' : ''}`}>
+                    <div style={{ height: "220px" }} className={`borderReidus uk-margin uk-card uk-card-default uk-card-hover ${activeIndex === index ? 'hoverTop' : ''}`}>
                       <div className="uk-card-body">
                         <div className="uk-flex uk-flex-center">
                           <span className={`${activeIndex === index ? 'activeTab' : 'uk-icon default'}`}><i className={`${item?.logo}`}></i></span>
@@ -83,7 +83,7 @@ function BenitsConpany() {
                   <a
                     className=" focus"
                     href="#javascript void(0)"
-                     onClick={() => handleSubItemClick(index)}
+                    onClick={() => handleSubItemClick(index)}
                   >
                     {item?.title}
                   </a>
@@ -112,17 +112,10 @@ function BenitsConpany() {
                 </div>
                 <div className="col-md-8">
                   <img width="100%" src={data[tabIndex]?.subTitle[subIndex]?.image} alt="" />
-
-
-
                 </div>
-
-
                 <span className='text-dark textJustify'>
                   {lastPortion}  <a className='text-warning' href={`${data[tabIndex]?.subTitle[subIndex]?.url}`} > More Information...</a>
                 </span>
-
-
               </div>
 
 
