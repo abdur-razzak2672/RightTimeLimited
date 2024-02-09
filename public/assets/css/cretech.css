@@ -9257,6 +9257,8 @@ button {
 
 .read-more{
   color: #1e34ff;
+  margin-top: -15px;
+  font-weight: 700;
 }
 
 .viewButton {
