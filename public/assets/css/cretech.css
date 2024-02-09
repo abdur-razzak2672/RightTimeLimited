@@ -9182,4 +9182,150 @@ button {
   transform: translateZ(-1px)
 }
 
+.resource-body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.resource-body .body-large {
+  font-family: "Work Sans",Helvetica,Roboto,Arial,sans-serif;
+  font-weight: 400;
+}
+
+.resourceH3{
+  font-family: "Poppins",Helvetica,Roboto,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.resourceP{
+  font-size: .875rem;
+  line-height: 1.6;
+}
+
+.complex-content-block {
+  color: #000;
+  background-color: #0c0f35;
+  padding: 20px;
+}
+.header-2 {
+  color: #ffffff;
+  font-family: "Poppins",Helvetica,Roboto,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.body-large {
+  color: #ffffff;
+  text-align: left;
+  font-size: 1rem;
+}
+.grid-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.py-section{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.custom-background {
+  background-color: transparent;
+}
+
+.custom-color {
+  color: #151515;
+  margin-top: -20px;
+}
+
+.flaired-content {
+  position: relative;
+  z-index: 2;
+  margin-top: -30px;
+  padding-bottom: 20px;
+}
+
+.arrow-right-blue{
+  width: 18px;
+  height: 16px;
+}
+
+.read-more{
+  color: #1e34ff;
+}
+
+.viewButton {
+  /* style="--color: #151515; --text-color: #FFFFFF; --border-color: #0000"; */
+  background-color: #151515;
+  color: #FFFFFF;
+  border-color: #0000;
+  border-radius: 3px;
+}
+
+.custom-card {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.py-section1{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* .flaired.blue:before {
+    background-image: url('../images/shapes/about-five-1-1.png');
+}
+
+.flaired:before {
+    position: absolute;
+    content: "";
+    top: -6px;
+    left: -20px;
+    width: 60px;
+    height: 56px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    z-index: -1;
+} */
+
+.image-cover img {
+  object-fit: cover;
+  width: 100%;
+  height: 90%;
+}
+
+.grid-x {
+  display: flex;
+  flex-wrap: nowrap; /* Keep the items in a single line */
+  justify-content: space-between; /* Distribute space between the items */
+}
+
+/* If you need to maintain the same style for smaller screen sizes */
+@media (max-width: 640px) {
+  .grid-x {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media print, screen and (min-width: 40em)
+{
+  .grid-container {
+    padding-right: 1.375rem;
+    padding-left: 1.375rem;
+  }
+}
+
+.grid-container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
  
