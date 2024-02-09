@@ -2315,47 +2315,88 @@ function Header() {
               </ul>
             </li> */}
 
-            <li className="menu-item-has-children">
-              <Link to="/resources">Resources</Link>
-              <ul>
-                <li>
-                  <Link to="/blogs">	Blogs</Link>
-                </li>
-                <li>
-                  <Link className=" lineHght" to="/case-studies">
+
+
+
+             <li className="dropdown serviceNav2 steps-sampling">
+             <Link className="dropbtn1z" to="/resources">Resources</Link>
+
+              <div
+                style={{ left: "-50px", minWidth: "250px", height: "370px" }}
+                className=" dropdown-content"
+              >
+                <Container className="mt-4">
+                  <Row>
+                    
+
+                    <Col>
+                   <Link className="mt-2  divClass" to="/blogs">	Blogs</Link>
+               
+                  <Link className="mt-2  divClass" to="/case-studies">
                     Case Studies
                   </Link>
-                </li>
-                <li>
-                  <Link className=" lineHght" to="/Checklists">
+                 
+                  <Link className="mt-2  divClass"  to="/Checklists">
                     Checklists
                   </Link>
-                </li>
-                <li>
-                  <Link
-                    className=" lineHght"
-                    to="/WhitePapers"
+                
+                  <Link className="mt-2  divClass"
+                     to="/WhitePapers"
                   >
                     WhitePapers
                   </Link>
-                </li>
-                <li>
-                  <Link className=" lineHght" to="/Infographics">
+                 
+                  <Link className="mt-2  divClass"  to="/Infographics">
                     Infographics
                   </Link>
-                </li>
-                <li>
-                  <Link to="/DataSheets"> 	DataSheets</Link>
-                </li>
-                <li>
-                  <Link to="/Webinars"> 	Webinars</Link>
-                </li>
-                {/* <li>
-                  <Link to="/health-care">Health Care</Link>
-                </li> */}
+               
+                  <Link className="mt-2  divClass" to="/DataSheets"> 	DataSheets</Link>
+                 
+                  <Link className="mt-2  divClass"  to="/Webinars"> 	Webinars</Link>
+                        
+
+
+                      <a className="mt-2  divClass" href="/basic-corporate">
+                      Documents
+                        <i className="fas fa-caret-right  mx-3"></i>
+                        <span style={{ left: "200px" }} className="AnchorHide">
+                          <a href="/basic-corporate">
+                          Guidance
+                          </a>
+
+                          <Link to="/basic-corporate">
+                          Glossary
+                          </Link>
+
+                          <Link to="/basic-corporate">
+                          Standard
+
+                          </Link>
+
+                          <Link to="/basic-corporate">   Policy</Link>
+
+                          <Link to="/basic-corporate">   Process</Link>
+
+                          <Link to="/basic-corporate"> Rules & gulation</Link>
+
+                         </span>
+                      </a>
+                      <Link className="mt-2  divClass"  to="/basic-corporate"> 	Reports</Link>
+
+                    </Col>
+                  </Row>
+                </Container>
+              </div>
+            </li>
+
+            {/* <li className="menu-item-has-children">
+              <Link to="/resources">Resources</Link>
+              <ul>
+                
+                 
 
               </ul>
-            </li>
+            </li> */}
 
             <li>
               <Link to="/contact-us">Contact Us</Link>

@@ -1,8 +1,15 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import Link from 'react-router-dom/Link'
 import { solutionData2 } from './solutionData'
 
 function CommonSecuirityManageMent() {
+  const [pageUrl, setPageUrl] = useState("");
+
+  useEffect(() => {
+   const url = window.location.pathname;
+   const lastPart = url.substring(url.lastIndexOf("/") + 1);
+   setPageUrl(lastPart);
+  }, []);
    return (
     <div className='mt-5'>
    <div className='d-flex justify-content-between'>
@@ -24,8 +31,8 @@ function CommonSecuirityManageMent() {
 
         {
             solutionData2.map((item, index) => (
-                <div className='servicesItem1'>
-                 <Link
+              <div className={`servicesItem1 ${item.link === `/${pageUrl}` ? "servicesItemActive" : ""}`} key={index}>
+              <Link
                  className=" "
                 key={index}
                 to= {`${item.link}`}
