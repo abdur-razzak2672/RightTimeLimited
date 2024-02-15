@@ -244,8 +244,7 @@ import ResourchBody from "./views/resource/ResouceBody";
 import EducationTraining from "./views/Training/EducationTraining";
 import InteractiveMap from "./views/Training/InteractiveMap";
 import TenableSltn from "./views/Solutions/Tenable";
-
- 
+ import { ToastContainer } from "react-toastify";
 
  
 
@@ -280,8 +279,13 @@ function App() {
 
   return (
     <Router>
-   <div className="custom-cursor__cursor"></div>
+      <ToastContainer />
+      
+   <div className="custom-cursor__cursor">
+    
+   </div>
   <div className="custom-cursor__cursor-two"></div>
+  
   
   <div className="page-wrapper">
   <div className="topbar">

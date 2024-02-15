@@ -2,13 +2,45 @@ import React,{useState} from 'react'
  import Form from 'react-bootstrap/Form';
  import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import './contact.css'
+import './contact.css'                      
 import { countryList } from './data';
+import { toast } from 'react-toastify';
 function ContactUs() {
   const [company, setCompany] = useState('1');
+  const [budget, setBudget] = useState('');
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    company: '',
+    companyName: '',
+    phoneNumber: '',
+    country: '',
+    interestedIn: '',
+    budget: '',
+    howDidYouHearAboutUs: '',
+    message: ''
+  });
 
+  const handleChange = (e) => {
+    setBudget(e.target.value);
+  };
 
-  const handleChange = event => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Check if all fields are filled
+    if (budget) {
+      console.log('submitted done');
+      toast.success('Thank you for contacting us! Rest assured, our team will review your inquiry promptly and reach out if needed. We value your interest in Right Time Limited, your trusted cybersecurity partner');
+      setBudget('');
+
+      // Here you can add your logic to send the form data to the server or perform any other action
+    } else {
+      console.log('Please fill in all fields');
+      toast.error('Please fill in all fields');
+    }
+  };
+
+  const handleFormChange = event => {
     setCompany(event.target.value);
   };
 
@@ -957,7 +989,7 @@ function ContactUs() {
               </section>
             </div>
             <div className="col-lg-5 px-5">
-            <Form>
+            <Form onSubmit={handleSubmit}>
 
             <Row className="">
                                            
@@ -975,7 +1007,7 @@ function ContactUs() {
               <Form.Group  as={Col} controlId="formGridEmail">
               <Form.Label >Company or individual</Form.Label>
 
-            <Form.Select   onChange={handleChange}
+            <Form.Select   onChange={handleFormChange}
               aria-label="Default select example">
               <option value="1">Company </option>
               <option value="2">Individual</option>
@@ -1066,7 +1098,7 @@ function ContactUs() {
 
             <Form.Group as={Col} controlId="formGridPassword">
             <Form.Label >Budget</Form.Label>
-            <Form.Select   defaultValue="Choose...">
+            <Form.Select  onChange={handleChange} defaultValue={budget}>
                     <option>Choose Budget</option>
                     <option>$0-$100</option>
                     <option>$101-$1000</option>
@@ -1107,9 +1139,9 @@ function ContactUs() {
               <Form.Control as="textarea" rows={2} placeholder=" Enter your Message here..." />
           </Form.Group>
 
-          <a href="/career" className="mt-1 my-5 thm-btn cta-two__btn rounded-5 w-100 text-center">
+          <button type='submit' className="mt-1 my-5 thm-btn cta-two__btn rounded-5 w-100 text-center">
             <span>Send Message </span>
-         </a>
+         </button>
 
         </Form>
                

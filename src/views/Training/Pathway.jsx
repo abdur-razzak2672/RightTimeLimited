@@ -2,7 +2,7 @@ import React from 'react'
 
 function Pathway() {
     return (
-        <div>
+        <div >
 
             {/* <img id='prelC' src="images/c.svg"></img> */}
 
@@ -51,7 +51,7 @@ function Pathway() {
             <div id='con' class="container wrapper">
                 <div class='titlCont'>
                     <div class='title'>Cybersecurity Career Pathway</div>
-                    <div class='sub'>There are many opportunities for workers to start and advance their careers within cybersecurity. This interactive career pathway shows key jobs within cybersecurity, common transition opportunities between them, and detailed information about
+                    <div className='textJustify' style={{fontWeight:"500 "}} class='sub'>There are many opportunities for workers to start and advance their careers within cybersecurity. This interactive career pathway shows key jobs within cybersecurity, common transition opportunities between them, and detailed information about
                         the salaries, credentials, and skillsets associated with each role.</div>
                     <a class="shareBtn" data-toggle="modal" data-target="#embedModal">Embed</a>
                 </div>
@@ -65,7 +65,7 @@ function Pathway() {
 
                 <br />
 
-                <div class="pathway"></div>
+                <div   class="pathway"></div>
                 <div class='clear'></div>
                 <h1 class='job'></h1>
                 <div class="table">
