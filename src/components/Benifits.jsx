@@ -10,8 +10,7 @@ function Benifits() {
         Why You Should Choose Our Services
         </h2>
         <p className='text-dark'>
-                  Choose Infetech to have custom software solutions for your
-                  business with the most reasonable price.
+        Choose Right Time Limited for unparalleled cybersecurity expertise and tailored solutions to safeguard your digital assets effectively.
                 </p>
       </div>
       <div className="row gutter-y-30">

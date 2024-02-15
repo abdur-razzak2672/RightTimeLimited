@@ -3,12 +3,84 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { countryList } from '../Contact/data';
+import {toast } from 'react-toastify';
 import './training.css'
+import Slider from 'react-slick'
+
 function TrainingBody() {
+  var settings = {
+    dots: false,
+    arrows: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+ 
+
+    infinite: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 817,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
   const [company, setCompany] = useState('2');
+  const [budget, setBudget] = useState('');
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    company: '',
+    companyName: '',
+    phoneNumber: '',
+    country: '',
+    interestedIn: '',
+    budget: '',
+    howDidYouHearAboutUs: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setBudget(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Check if all fields are filled
+    if (budget) {
+      console.log('submitted done');
+      toast.success('Thank you for contacting us! Rest assured, our team will review your inquiry promptly and reach out if needed. We value your interest in Right Time Limited, your trusted cybersecurity partner');
+      setBudget('');
+
+      // Here you can add your logic to send the form data to the server or perform any other action
+    } else {
+      console.log('Please fill in all fields');
+      toast.error('Please fill in all fields');
+    }
+  };
 
 
-  const handleChange = event => {
+
+  const handleSelectChange = event => {
     setCompany(event.target.value);
   };
 
@@ -123,26 +195,27 @@ function TrainingBody() {
   ];
   return (
     <div>
+ 
       <div>
-      <div className="page-header">
-        <div
-          className="page-header__bg"
-          style={{
-            backgroundImage: `url('/assets/images/training/TopBanner.jpg')`,
-          }}
-        ></div>
+        <div className="page-header">
+          <div
+            className="page-header__bg"
+            style={{
+              backgroundImage: `url('/assets/images/training/TopBanner.jpg')`,
+            }}
+          ></div>
 
-        <div className="container">
-          <ul className="thm-breadcrumb list-unstyled">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>Training</li>
-          </ul>
-          <h2 className="page-header__title">Training</h2>
+          <div className="container">
+            <ul className="thm-breadcrumb list-unstyled">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>Training</li>
+            </ul>
+            <h2 className="page-header__title">Training</h2>
+          </div>
         </div>
-      </div>
-        
+
 
         <div className="container mt-5">
           <p className='text-dark textJustify'>“Right Time Limited”   training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>
@@ -154,10 +227,10 @@ function TrainingBody() {
               </div>
               <ul className="card-wrapper">
                 <li className="card">
-                  <img height="210px" width="100%" src="/assets/images/training/ICT_Assessment.jpg" alt="" />  
+                  <img height="210px" width="100%" src="/assets/images/training/ICT_Assessment.jpg" alt="" />
                   <h3 className="text-center header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
                   <div className='mx-2' style={{ alignItems: "start" }}>
-                    <p className='text-dark textJustify'>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
+                    <p style={{fontWeight:"500"}} className='text-dark textJustify'>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
 
                     <a href="/assesment" className="header">More Information...</a>
 
@@ -166,22 +239,20 @@ function TrainingBody() {
 
 
                 </li>
-                <li className="card bg-gray">
+                <li className="card ">
                   <img height="210px" width="100%" src="/assets/images/training/ICT_Management.jpg" alt="" />
                   <h3 className="text-center header" ><a href="/management"> Training (ICT Management)</a></h3>
-                  <div className='mx-2' style={{ alignItems: "start" }}>
-                    <p className='text-dark textJustify'>“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
+                     <p  className='text-dark textJustify' style={{fontWeight:"500"}} >“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
 
                     <a className="header" href="/management"  >More Information...</a>
 
-                  </div>
-                </li>
+                 </li>
 
                 <li className="card">
                   <img height="210px" width="100%" src="/assets/images/training/Customized.jpg" alt="" />
                   <h3 className="text-center header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
                   <div className='mx-2' style={{ alignItems: "start" }}>
-                    <p className='text-dark textJustify'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
+                    <p  style={{fontWeight:"500"}} className='text-dark textJustify'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
 
                     <a href="/Customized" className="header">More Information...</a>
 
@@ -320,45 +391,18 @@ function TrainingBody() {
 
 
 
+
+
+
+
         <section className="section-padding--bottom text-center mt-5">
           <div className="container">
             <div className="section-title text-center">
               <h2 className="header">Meet Our Trainers</h2>
 
             </div>
-            <div className="owl-carousel  thm-owl__carousel thm-owl__carousel--with-shadow service-four__carousel"
-              data-owl-options='{"loop": true,
-				"autoplay": true,
-				"autoplayTimeout": 3000,
-				"nav": false,
-				"navText": ["<span className=\"fa fa-angle-left\"></span>","<span className=\"fa fa-angle-right\"></span>"],
-				"dots": true,
-				"margin": 0,
-                "items": 1,
-				"smartSpeed": 700,
-				"responsive": {
-					"0": {
-						"margin": 0,
-						"items": 1
-					},
-					"576": {
-						"margin": 30,
-						"items": 2
-					},
-					"768": {
-						"margin": 30,
-						"items": 3
-					},
-					"992": {
-						"margin": 30,
-						"items": 4
-					},
-					"1200": {
-						"margin": 30,
-						"items": 4
-					}
-				}}'>
-              <div className="item">
+            <Slider {...settings}>
+            <div className="item">
                 <div className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Photo1.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
@@ -369,6 +413,7 @@ function TrainingBody() {
                   </div>
                 </div>
               </div>
+
               <div className="item">
                 <div className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Shamim-PP.jpeg" alt="" /></a>
@@ -380,6 +425,7 @@ function TrainingBody() {
                   </div>
                 </div>
               </div>
+
               <div className="item">
                 <div className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg" alt="" /></a>
@@ -403,12 +449,11 @@ function TrainingBody() {
                   </div>
                 </div>
               </div>
-            </div>
 
 
+            </Slider>
 
-
-
+ 
           </div>
         </section>
 
@@ -418,7 +463,7 @@ function TrainingBody() {
               <div className="col-lg-12">
               </div>
               <h3 className='text-dark text-center my-5'>Contact Us</h3>
-              <Form>
+              <Form onSubmit={handleSubmit}>
 
                 <Row className="">
 
@@ -436,7 +481,7 @@ function TrainingBody() {
                   <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label >Company or individual</Form.Label>
 
-                    <Form.Select onChange={handleChange}
+                    <Form.Select onChange={handleSelectChange}
                       aria-label="Default select example">
                       <option value="2">Individual</option>
 
@@ -528,7 +573,7 @@ function TrainingBody() {
 
                   <Form.Group as={Col} controlId="formGridPassword">
                     <Form.Label >Budget</Form.Label>
-                    <Form.Select defaultValue="Choose...">
+                    <Form.Select onChange={handleChange} defaultValue={budget}>
                       <option>Choose Budget</option>
                       <option>$0-$100</option>
                       <option>$101-$1000</option>
@@ -569,9 +614,9 @@ function TrainingBody() {
                   <Form.Control as="textarea" rows={2} placeholder=" Enter your Message here..." />
                 </Form.Group>
 
-                <a href="/career" className="mt-1 my-5 thm-btn cta-two__btn rounded-5 w-25 text-center">
+                <button type='submit' className="mt-1 my-5 thm-btn cta-two__btn rounded-5 w-25 text-center">
                   <span>Send Message </span>
-                </a>
+                </button>
 
               </Form>
             </div>

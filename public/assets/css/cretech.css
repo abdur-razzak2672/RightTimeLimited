@@ -705,6 +705,11 @@ a:visited {
   width: 250px;
   border-radius: 6px;
   }
+
+  .item .card{
+    width: 320px;
+    height: 400px;
+     }
 .thm-owl__carousel--with-shadow .owl-stage-outer {
   overflow: visible;
 }
@@ -9257,6 +9262,8 @@ button {
 
 .read-more{
   color: #1e34ff;
+  margin-top: -15px;
+  font-weight: 700;
 }
 
 .viewButton {

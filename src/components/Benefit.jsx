@@ -31,8 +31,7 @@ function Benefit() {
                   </h2>
                 </div>
                 <div className="about-three__text">
-                  Choose Infetech to have custom software solutions for your
-                  business with the most reasonable price.
+                Choose Right Time Limited for unparalleled cybersecurity expertise and tailored solutions to safeguard your digital assets effectively.
                 </div>
                 <ul className="about-three__list">
                   <li className="about-three__list__item">
