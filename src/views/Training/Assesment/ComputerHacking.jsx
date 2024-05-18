@@ -23,7 +23,7 @@ function ComputerHacking() {
 <section className=" section-padding--top">
         <div className="container">
           <div className="row">
-          <div className="col-lg-8">
+          <div className="col-lg-7">
 
 
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Computer Hacking Forensic Investigator(CHFI)</h3>
@@ -81,7 +81,7 @@ Understanding the importance of clear and concise reporting in legal proceedings
 
 
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-5">
             <AssesmentNav/>
             </div>
           </div>

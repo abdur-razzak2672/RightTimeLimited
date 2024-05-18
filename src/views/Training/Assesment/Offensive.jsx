@@ -23,7 +23,7 @@ function Offensive() {
 <section className="  section-padding--top">
         <div className="container">
           <div className="row">
-          <div className="col-lg-8">
+          <div className="col-lg-7">
 
 
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Offensive Security Certified Professional (OSCP)</h3>
@@ -37,7 +37,7 @@ function Offensive() {
 
 
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-5 mt-5">
              <AssesmentNav/>
             </div>
           </div>

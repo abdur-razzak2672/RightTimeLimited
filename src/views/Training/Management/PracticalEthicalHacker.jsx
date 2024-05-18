@@ -22,7 +22,7 @@ function PracticalEthicalHacker() {
     <section className="s section-padding--top">
         <div className="container">
           <div className="row">
-          <div className="col-lg-8">
+          <div className="col-lg-7">
 
 
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Certified Ethical Hacking (CEH)</h3>
@@ -79,7 +79,7 @@ Understanding the importance of clear and concise documentation.
 
 
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-5 mt-5">
             <ManagementNav/>
             </div>
           </div>

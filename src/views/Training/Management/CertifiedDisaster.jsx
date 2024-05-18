@@ -20,7 +20,7 @@ function CertifiedDisaster() {
       <section className="  section-padding--top">
         <div className="container">
           <div className="row">
-          <div className="col-lg-8">
+          <div className="col-lg-7">
 
 
                 <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Disaster Recovery Professional (Custom)</h3>
@@ -34,7 +34,7 @@ function CertifiedDisaster() {
 
 
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-5 mt-5">
             <ManagementNav/>
             </div>
           </div>
