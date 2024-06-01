@@ -182,7 +182,7 @@ import ManagementNav from './ManagementNav';
                     </div><hr/>
                       <p>
                        
-                      Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
+  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
                       </p>
                   </div>
   
@@ -241,7 +241,7 @@ import ManagementNav from './ManagementNav';
                   </div><hr/>
                   <p>
                        
-                      Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
+  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
                       </p>
   
   
@@ -285,9 +285,9 @@ Practice Exam	GIAC GCPM Certification Practice Exam<br/>
                   <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Registration Process</h3>
                   <div className="blog-details__content">
                       <p>
-                      The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
+                      “Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks. teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
                       <br/>
-                      Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
+  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
                       </p>
                   </div>
   
@@ -313,7 +313,7 @@ Practice Exam	GIAC GCPM Certification Practice Exam<br/>
         <ul className="thm-breadcrumb list-unstyled">
             <h2 className="text-light">Digital Badging</h2>
         </ul>
-        <p className="text-light">When you become a 3DS Assessor, display your digital badge and represent your skills and gives you a way to share your abilities online in a way that is simple, trusted and can be easily verified in real time.</p>
+        <p className="text-light">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
          </div>
       </div>
       
