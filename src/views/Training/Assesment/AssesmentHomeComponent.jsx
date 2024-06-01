@@ -1,23 +1,23 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import AssesmentNav from './AssesmentNav';
 
-function AssesmentHomeComponent({data}) {
-    const [tabIndex, setTabIndex] = useState(1);
-    console.log(data.id)
+function AssesmentHomeComponent({ data }) {
+  const [tabIndex, setTabIndex] = useState(1);
+  console.log(data.id)
 
   return (
     <div>
-        
-         
+
+
       <section className="  section-padding--top">
         <div className="container">
           <div className="row">
             <div className="col-lg-7">
 
-            <div dangerouslySetInnerHTML={{ __html: data?.body }}></div>
+              <div dangerouslySetInnerHTML={{ __html: data?.body }}></div>
 
- 
- 
+
+
             </div>
 
             <div className="col-lg-5 ">
@@ -26,7 +26,7 @@ function AssesmentHomeComponent({data}) {
           </div>
         </div>
       </section>
-      <div style={{marginLeft:"150px"}}>
+      <div style={{ marginLeft: "150px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
@@ -36,7 +36,7 @@ function AssesmentHomeComponent({data}) {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link  " onClick={() => setTabIndex(2)}  href="javascript:void(0)" >
+                <a className="nav-link  " onClick={() => setTabIndex(2)} href="javascript:void(0)" >
                   <i className="bi-list-check nav-icon"></i>Course Highlight
                 </a>
               </li>
@@ -52,7 +52,7 @@ function AssesmentHomeComponent({data}) {
               </li>
               <li className="nav-item">
                 <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
-                  <i className="bi-sort-numeric-down nav-icon"></i> Training Format 
+                  <i className="bi-sort-numeric-down nav-icon"></i> Training Format
                 </a>
               </li>
               <li className="nav-item">
@@ -93,19 +93,16 @@ function AssesmentHomeComponent({data}) {
                 <div className="col-lg-8">
 
 
-                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Course Highlight</h3>
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Course Overview</h3>
                   <div className="blog-details__content">
                     <p>
-                      Extensive hands-on labs and practical exercises to simulate real-world penetration testing scenarios.                    <br />
-                      Emphasis on using the latest penetration testing tools and techniques.<br />
-                      Guidance from experienced instructors and industry experts.<br />
-                      Exposure to a wide range of attack vectors and defense mechanisms.
+                      Right Time Limited offers an intensive preparatory training course designed for security professionals seeking to obtain the Certified Penetration Testing Professional (CPENT) certification by EC-Council. This course equips participants with advanced skills and knowledge in penetration testing methodologies, techniques, and tools required to identify and exploit vulnerabilities in diverse environments. Participants will learn through a combination of theoretical instruction, hands-on labs, and real-world scenarios to enhance their proficiency in conducting comprehensive penetration tests.
                     </p>
                   </div>
 
 
                 </div>
-                <div className="col-lg-4 mt-5">
+                {/* <div className="col-lg-4 mt-5">
                   <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
                     <div className="card-body p-3">
                       <h5 className='mt-4'><a href="/career" >Ready For You ?</a></h5>
@@ -115,7 +112,7 @@ function AssesmentHomeComponent({data}) {
                       <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             )
           }
@@ -125,13 +122,17 @@ function AssesmentHomeComponent({data}) {
                 <div className="col-lg-8">
 
 
-                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Course Highlights</h3>
                   <div className="blog-details__content">
                     <p>
-                      Acquire fundamental knowledge of networking, operating systems, and cybersecurity concepts.
-                      Familiarize yourself with common penetration testing tools like Metasploit, Nmap, Burp Suite, etc.<br />
-                      Practice on vulnerable virtual machines and labs to gain hands-on experience.<br />
-                      Review penetration testing methodologies and best practices.
+                      	Comprehensive coverage of penetration testing concepts, methodologies, and best practices.<br />
+                      	Practical hands-on labs and simulations in simulated environments to reinforce learning.<br />
+                      	Guidance from experienced instructors with extensive expertise in penetration testing and offensive security.<br />
+                      	Real-world case studies and scenarios to provide practical insights into penetration testing engagements.<br />
+                      	Access to cutting-edge tools and technologies used in penetration testing and ethical hacking.<br />
+                      	Comprehensive study materials, practice exams, and supplementary resources to support exam preparation.<br />
+                      	Interactive discussions and knowledge-sharing sessions among participants to enhance learning and collaboration.<br />
+
 
                     </p>
                   </div>
@@ -139,7 +140,7 @@ function AssesmentHomeComponent({data}) {
 
                 </div>
                 <div className="col-lg-4 mt-5">
-                  <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
                     <div className="card-body p-3">
                       <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
@@ -147,7 +148,7 @@ function AssesmentHomeComponent({data}) {
                       <h5 className='mt-4'><a href="/career" >Request More Information</a></h5>
                       <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             )
@@ -159,24 +160,17 @@ function AssesmentHomeComponent({data}) {
 
 
                   <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Schedule</h3><hr />
-                  <div className="blog-details__content">
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{ color: "black" }}>17 NOV 2022</h5>
-                      <h6> 9:00 - 17:20 BST</h6>
-                      <h6>Remote</h6>
+                  <p>
+                    	The Certified Penetration Testing Professional (CPENT) preparatory training course by Right Time Limited offers flexible scheduling options to accommodate participants' availability and preferences.<br />
+                    	Training sessions may be available in weekday, weekend, or evening formats to cater to diverse schedules.<br />
+                    	Customized training schedules can be arranged for corporate clients or group bookings based on specific requirements.<br />
 
-
-                    </div><hr />
-                    <p>
-
-                      Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                    </p>
-                  </div>
+                  </p>
 
 
                 </div>
                 <div className="col-lg-4 mt-5">
-                  <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
                     <div className="card-body p-3">
                       <p>
@@ -184,7 +178,7 @@ function AssesmentHomeComponent({data}) {
                       </p>
                       <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             )
@@ -198,43 +192,17 @@ function AssesmentHomeComponent({data}) {
                   <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Price</h3><hr />
                   <div className="blog-details__content">
 
-                  </div><hr />
-                  <div className=" container d-flex justify-content-between">
-                    <h5 style={{ color: "black" }}>New 3DS Assessor training (In person or eLearning)</h5>
-                    <h6>$1368 USD</h6>
-                    <h6>$1368 USD</h6>
-
-
-                  </div><hr />
-                  <div className=" container d-flex justify-content-between">
-                    <h5 style={{ color: "black" }}>Requalification 3DS Assessor Training</h5>
-                    <h6>$1368 USD</h6>
-                    <h6>$1368 USD</h6>
-
-
-                  </div><hr />
-                  <div className=" container d-flex justify-content-between">
-                    <h5 style={{ color: "black" }}>Knowledge Training Non-PO *</h5>
-                    <h6> $1368 USD</h6>
-                    <h6> </h6>
-
-
-                  </div><hr />
-                  <div className=" container d-flex justify-content-between">
-                    <h5 style={{ color: "black" }}>Knowledge Training PO *</h5>
-                    <h6> $1368 USD</h6>
-                    <h6></h6>
-
-                  </div><hr />
+                  </div>
                   <p>
-
-                    Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
-                  </p>
+                    	The cost of the CPENT preparatory training course varies depending on factors such as the training format, duration, and additional resources included.<br />
+                    	Right Time Limited may offer discounts for early registration, group bookings, or special promotions.<br />
+                    	Transparent pricing and flexible payment options are available to ensure accessibility for participants.
+                  </p><br />
 
 
                 </div>
                 <div className="col-lg-4 mt-5">
-                  <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
                     <div className="card-body p-3">
                       <p>
@@ -242,7 +210,7 @@ function AssesmentHomeComponent({data}) {
                       </p>
                       <a href="/managent" className=" mt-4 ">More Information</a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             )
@@ -252,11 +220,13 @@ function AssesmentHomeComponent({data}) {
             tabIndex === 5 && (
               <div>
                 <p>
-                  The PTP exam may vary based on the training provider or certification body.<br />
-                  Typically, the exam involves performing a practical penetration test on a controlled environment or virtual network.<br />
-                  Candidates are assessed on their ability to identify and exploit vulnerabilities and produce a comprehensive report.<br />
-                  Successful completion of the exam leads to the Penetration Testing Professional certification, validating the candidate's expertise in penetration testing.<br />
-                  Note: Specific details about the Penetration Testing Professional course, exam format, and prerequisites may vary depending on the training provider or certification body offering the course.
+                  Interactive Lectures: Engaging lectures delivered by experienced cybersecurity professionals and certified instructors, covering topics such as network penetration testing, web application testing, and wireless penetration testing.<br />
+
+                  Hands-on Labs: Practical lab exercises and simulations that allow participants to apply theoretical knowledge in real-world scenarios. Participants will gain practical experience with industry-standard penetration testing tools and techniques.<br />
+
+                  Case Studies: Analysis of real-world penetration testing scenarios and case studies to enhance understanding of best practices, methodologies, and techniques used in penetration testing engagements.
+
+                  Group Discussions: Interactive discussions and group activities to facilitate knowledge sharing, collaboration, and peer learning among participants. Participants will have the opportunity to exchange insights, experiences, and best practices with their peers.<br />
 
                 </p>
               </div>
@@ -269,19 +239,134 @@ function AssesmentHomeComponent({data}) {
                 <div className="col-lg-8">
 
 
-                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Registration Process</h3>
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Exam Information</h3>
                   <div className="blog-details__content">
                     <p>
-                      The 3DS Assessor program teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                      <br />
-                      Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks.
+                      The CPENT certification exam is administered by EC-Council and assesses participants' knowledge and skills in penetration testing. Key examination information includes:<br />
+
+                      Format: The CPENT exam is a practical, hands-on assessment that evaluates participants' ability to perform advanced penetration testing tasks in a simulated environment.<br />
+
+                      Duration: CPENT is a fully online, remotely proctored practical exam that challenges you through a grueling 24-hour performance-based, hands-on exam. The exam is broken into two practical exams of 12-hours each that will test your perseverance and focus by forcing you to outdo yourself with each new challenge.<br />
+
+                      Number of Questions: 10+ Reports Writing.
+
+                      Scoring: Participants are evaluated based on their performance in completing assigned tasks, identifying vulnerabilities, exploiting security weaknesses, and providing comprehensive penetration testing reports.<br />
+
+                      Passing Score: To pass the CPENT exam and earn the certification, participants must achieve a minimum passing score 70% determined by EC-Council. If anyone scores 90% or more than 90%, candidate will be awarded with “LPT Master” Certificate.<br />
+
+                      Passing Score: Passing Score is rewarded with below criteria:
+                      a.	Certified Penetration Tester (CPENT): Candidates who scores 70% or more (i.e. 70% to 89%) will earn the earn the “Certified Penetration Tester (CPENT)”.<br />
+
+                      b.	Licensed Penetration Tester (Master): Candidates scores 90% or more will earn the earn the “Licensed Penetration Tester (Master)”.<br />
+
+
+                      Exam Delivery: The CPENT exam may be delivered online or in-person at authorized testing centers, depending on participant preferences and availability.<br />
+
+                      Preparation: Participants are encouraged to prepare for the CPENT exam by completing the CPENT training program offered by Right Time Limited, engaging in hands-on practice labs, reviewing course materials, and studying relevant resources recommended by EC-Council.<br />
+
+                      Retake Policy: In the event that a participant does not pass the CPENT exam on their first attempt, EC-Council may allow for retakes subject to their retake policy and associated fees.<br />
+
+                      Participants who successfully pass the CPENT exam will be awarded the Certified Penetration Testing Professional (CPENT) certification by EC-Council, demonstrating their proficiency in advanced penetration testing techniques and methodologies."<br />
+
                     </p>
                   </div>
 
 
                 </div>
                 <div className="col-lg-4 mt-5">
-                  <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+
+          {
+            tabIndex === 7 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Registration</h3>
+                  <div className="blog-details__content">
+                    <p>
+                      	Interested individuals can register for the CPENT preparatory training course through Right Time Limited's official website i.e. https://www.righttime.biz/,, registration portals, or designated contact channels.<br />
+
+                      	Upon registration, participants will receive confirmation of enrollment, along with detailed instructions on accessing course materials and joining training sessions.<br />
+
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+
+          {
+            tabIndex === 8 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">How To Prepare</h3>
+                  <div className="blog-details__content">
+                    <p>
+                      	Actively engage in training sessions, labs, and exercises to reinforce learning and practical skills development.<br />
+
+                      	Utilize study guides, documentation, and practice labs provided by Right Time Limited to deepen understanding of penetration testing concepts and methodologies.<br />
+
+                      	Allocate dedicated time for self-study and review of course materials outside of scheduled sessions to strengthen knowledge and address any areas of difficulty.<br />
+
+                      	Seek guidance and support from instructors or peers as needed to clarify concepts and prepare effectively for the certification exam.<br />
+
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+          {
+            tabIndex === 9 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Certification Maintenance</h3>
+                  <div className="blog-details__content">
+                    <p>
+                      	Upon successfully obtaining the CPENT certification, certified professionals should pursue continuous learning and professional development to stay abreast of emerging trends and advancements in penetration testing.<br />
+
+                      	Right Time Limited offers advanced training courses, workshops, and seminars to help certified professionals enhance their skills and expand their knowledge in ethical hacking and penetration testing.<br />
+
+                      	Certified professionals are encouraged to actively engage in ongoing professional development activities and maintain proficiency in penetration testing methodologies to uphold the integrity of their certification.<br />
+
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
 
 
                 </div>
@@ -300,7 +385,7 @@ function AssesmentHomeComponent({data}) {
           <ul className="thm-breadcrumb list-unstyled">
             <h2 className="text-light">Digital Badging</h2>
           </ul>
-          <p className="text-light">When you become a 3DS Assessor, display your digital badge and represent your skills and gives you a way to share your abilities online in a way that is simple, trusted and can be easily verified in real time.</p>
+          <p className="text-light">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
         </div>
       </div>
     </div>
