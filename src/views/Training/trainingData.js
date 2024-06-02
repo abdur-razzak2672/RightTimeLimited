@@ -92,32 +92,32 @@ export const customizedData =
     {
       "id": 29,
       "title": "Foundation track - (Corporate)",
-      "link": "/basic-corporate"
+      "link": "/basic-corporate?title=foundation-track&id=1"
     },
     {
       "id": 30,
       "title": "Network Defense and Operations - (Corporate)",
-      "link": "/basic-corporate"
+      "link": "/basic-corporate?title=network-defense&id=2"
     },
     {
       "id": 31,
       "title": "Software Security - (Corporate)",
-      "link": "/basic-corporate"
+      "link": "/basic-corporate?title=software-security&id=3"
     },
     {
       "id": 32,
       "title": "Vulnerability Assessment & Penetration Testing (VA & PT) - (Corporate)",
-      "link": "/basic-corporate"
+      "link": "/basic-corporate?title=vapt&id=4"
     },
     {
       "id": 33,
       "title": "Cyber Forensic - (Corporate)",
-      "link": "/basic-corporate"
+      "link": "/basic-corporate?title=cyber-forensic&id=5"
     },
     {
       "id": 34,
       "title": "Governance - (Corporate)",
-      "link": "/basic-corporate"
+      "link": "/basic-corporate?title=governance&id=6"
     }
   ]
   
