@@ -1503,69 +1503,70 @@ function Header() {
                         RightTime Customized
                       </a>
 
-                      <a className="mt-3 divClass" href="/basic-corporate">
+                      <a className="mt-3 divClass" href="/basic-corporate?title=foundation-track&id=1">
                         Foundation track - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
                         <span className="AnchorHide">
-                          <a href="/basic-corporate">Basic</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=basic&id=1">Basic</a>
+                          <a href="/basic-corporate?title=certified-secure&id=1" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Secure Computer User (CSCU-112-12)
                           </a>
 
-                          <a href="/basic-corporateservice">Intermediate</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=inermediate&id=1">Intermediate</a>
+                          <a href="/basic-corporate?title=network-security&id=1" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Network Security Fundamentals (FNS)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=information-track&id=1" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Information Security Fundamentals (FIS)
                           </a>
 
-                          <a href="/basic-corporate"> Advance</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=advance&id=1"> Advance</a>
+                          <a href="/basic-corporate?title=computer-forensic&id=1" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Computer Forensic Fundamentals (CFF)
                           </a>
                         </span>
                       </a>
+                      
 
-                      <a className="mt-3 divClass" href="/basic-corporate">
+                      <a className="mt-3 divClass" href="/basic-corporate?title=network-defense&id=2">
                         Network Defense and Operations - (Corporate)
                         <i className="fas fa-caret-right "></i>
                         <span style={{top:"-160px"}} className="AnchorHide">
                           <a href="/basic-corporate">Basic</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified-network&id=2" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Network Defense (CND-312-38)
                           </a>
 
                           <a href="/basic-corporate">Intermediate</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=ec-council-disaster&id=2" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Disaster Recovery Professional
                             (EDRP-312-76)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=ec-council-disaster-certified&id=2" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Incident Handler (ECIH-212-89)
                           </a>
 
                           <a href="/basic-corporate"> Advance</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=security-windows&id=2" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Securing Windows Infrastructure (CAST-616)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=advance-network&id=2" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Advance Network Defense (CAST-614)
@@ -1573,38 +1574,38 @@ function Header() {
                         </span>
                       </a>
 
-                      <a className="mt-3 divClass" href="/basic-corporate">
+                      <a className="mt-3 divClass" href="/basic-corporate?title=software-security&id=3">
                         Software Security - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
                         <span style={{top:"-260px"}} className="AnchorHide">
                           <a href="/basic-corporate">Basic</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified-secure&id=3" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Secure Computer User (CSCU-112-12)
                           </a>
 
-                          <a href="/basic-corporate">Intermediate</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified&id=1">Intermediate</a>
+                          <a href="/basic-corporate?title=ec-council-certified-java&id=3" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Secure Programmer JAVA
                             (ECSP-312-94){" "}
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=ec-council-certified-.net&id=3" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Secure Programmer .Net
                             (ECSP-312-93)
                           </a>
 
-                          <a href="/basic-corporate"> Advance</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified&id=3"> Advance</a>
+                          <a href="/basic-corporate?title=advance-penetration&id=3" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Advanced Penetration testing (CAST-611)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=securing-windows&id=3" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Securing Windows Infrastructure (CAST-616)
@@ -1612,47 +1613,47 @@ function Header() {
                         </span>
                       </a>
 
-                      <a className="mt-3 divClass" href="/basic-corporate">
+                      <a className="mt-3 divClass" href="/basic-corporate?title=vapt&id=4">
                         Vulnerability Assessment & Penetration Testing (VA & PT)
                         - (Corporate) <i className="fas fa-caret-right "></i>
                         <span style={{top:"-360px"}} className="AnchorHide">
-                          <a href="/basic-corporate">Basic</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified&id=1">Basic</a>
+                          <a href="/basic-corporate?title=certified-ethical&id=4" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Ethical hacker (CEH-312-50)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified-network-defense&id=4" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Network Defense (CND-312-38)
                           </a>
 
-                          <a href="/basic-corporate">Intermediate</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified&id=1">Intermediate</a>
+                          <a href="/basic-corporate?title=licensed-penetration&id=4" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Licensed Penetration Tester (LPT-412-79)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=ec-council-certified&id=4" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Security Analyst (ECSA-412-79){" "}
                           </a>
 
-                          <a href="/basic-corporate"> Advance</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified&id=1"> Advance</a>
+                          <a href="/basic-corporate?title=advance-pentration&id=4" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Advanced Penetration testing (CAST-611)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=hacking-hardening&id=4" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Hacking and Hardening Your Corporate Web Application
                             (CAST-613)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=securing-windows&id=4" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Securing Windows Infrastructure (CAST-616)
@@ -1660,47 +1661,49 @@ function Header() {
                         </span>
                       </a>
 
-                      <a className="mt-3 divClass" href="/basic-corporate">
+                      <a className="mt-3 divClass" href="/basic-corporate?title=cyber-forensic&id=5">
                         Cyber Forensic - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
                         <span style={{top:"-360px"}} className="AnchorHide">
                           <a href="/basic-corporate">Basic</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified-ethical&id=5" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Ethical hacker (CEH-312-50)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified-network-defense&id=5" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Certified Network Defense (CND-312-38)
                           </a>
 
-                          <a href="/basic-corporate">Intermediate</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=certified&id=1">Intermediate</a>
+                          <a href="/basic-corporate?title=ec-council-certified&id=5" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             EC-Council Certified Incident Handler (ECIH-212-89)
                           </a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=computer-hacking&id=5" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Computer Hacking Forensic Investigator (CHFI-312-49)
                           </a>
 
                           <a href="/basic-corporate"> Advance</a>
-                          <a href="/basic-corporate" className="mx-3">
+                          <a href="/basic-corporate?title=advanced-mobile&id=5" className="mx-3">
                             {" "}
                             <i className="fas fa-circle iconStyle "> </i>{" "}
                             Advanced Mobile Forensics And security (CAST-612)
                           </a>
                         </span>
                       </a>
-                      <a className="mt-3 divClass" href="/basic-corporate">
+
+
+                      <a className="mt-3 divClass" href="/basic-corporate?title=governance&id=6">
                         Governance - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
                         <span  style={{height:"460px",   top: "-200px"}} className="AnchorHide">
-                          <a href="/basic-corporate">
+                          <a href="/basic-corporate?title=certified-cheif&id=6">
                             {" "}
                             Certified Chief Information Security Officer (CCISO)
                           </a>
@@ -1810,7 +1813,7 @@ function Header() {
                   <a href="customized"> RightTime Customized</a>
                   <ul>
                     <li className="menu-item-has-children">
-                      <a href="/basic-corporate"> Foundation track - (Corporate){" "}</a>
+                      <a href="/basic-corporate?title=foundation-track&id=1"> Foundation track - (Corporate){" "}</a>
                       <ul>
                         <li>
                           <a className="text-light" href="/basic-corporate">Basic</a>

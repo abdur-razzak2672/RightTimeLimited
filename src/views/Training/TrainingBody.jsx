@@ -226,37 +226,37 @@ function TrainingBody() {
                 <h2 className="header text-center">Training Programs</h2>
               </div>
               <ul className="card-wrapper">
-                <li className="card">
+                <li style={{background:"#e9e3e0"}} className="card">
                   <img height="210px" width="100%" src="/assets/images/training/ICT_Assessment.jpg" alt="" />
-                  <h3 className="text-center header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
-                  <div className='mx-2' style={{ alignItems: "start" }}>
+                  <h3 style={{fontSize:"18px"}} className="  header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
+                  
                     <p style={{fontWeight:"500"}} className='text-dark textJustify'>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
 
-                    <a href="/assesment" className="header">More Information...</a>
+                    <a href="/assesment" className="header"><button  style={{ background:"orange"}} className='btn text-light'>Click for More Information</button> </a>
 
-                  </div>
+                 
 
 
 
                 </li>
-                <li className="card ">
+                <li style={{background:"#e9e3e0"}} className="card ">
                   <img height="210px" width="100%" src="/assets/images/training/ICT_Management.jpg" alt="" />
-                  <h3 className="text-center header" ><a href="/management"> Training (ICT Management)</a></h3>
-                     <p  className='text-dark textJustify' style={{fontWeight:"500"}} >“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
+                  <h3 style={{fontSize:"18px"}} className="  header" ><a href="/management"> Training (ICT Management)</a></h3>
+                      <p  className='text-dark textJustify' style={{fontWeight:"500"}} >“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
 
-                    <a className="header" href="/management"  >More Information...</a>
+                   <a className="header " href="/management"  ><button style={{ background:"orange"}} className='btn btn text-light'>Click for More Information</button> </a>
 
                  </li>
 
-                <li className="card">
+                <li  style={{background:"#e9e3e0"}} className="card">
                   <img height="210px" width="100%" src="/assets/images/training/Customized.jpg" alt="" />
-                  <h3 className="text-center header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
-                  <div className='mx-2' style={{ alignItems: "start" }}>
+                  <h3 style={{fontSize:"18px"}} className="  header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
+            
                     <p  style={{fontWeight:"500"}} className='text-dark textJustify'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
 
-                    <a href="/Customized" className="header">More Information...</a>
+                    <a href="/Customized" className="header"><button style={{ background:"orange"}}  className='btn text-light'>Click for  More Information</button> </a>
 
-                  </div>
+        
 
 
 
@@ -403,7 +403,7 @@ function TrainingBody() {
             </div>
             <Slider {...settings}>
             <div className="item">
-                <div className="card">
+                <div style={{background:"#e9e3e0"}} className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Photo1.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation"> Dr. Touhid Bhuiyan
@@ -415,7 +415,7 @@ function TrainingBody() {
               </div>
 
               <div className="item">
-                <div className="card">
+                <div style={{background:"#e9e3e0"}} className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Shamim-PP.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation">Md. Shamim Al Mamun
@@ -427,7 +427,7 @@ function TrainingBody() {
               </div>
 
               <div className="item">
-                <div className="card">
+                <div style={{background:"#e9e3e0"}} className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation"> Mohammad Tohidur Rahman Bhuiyan
@@ -439,7 +439,7 @@ function TrainingBody() {
               </div>
 
               <div className="item">
-                <div className="card">
+                <div style={{background:"#e9e3e0"}} className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Rokanuzzaman.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation">Md. Rokanuzzaman

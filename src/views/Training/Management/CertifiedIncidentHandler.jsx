@@ -40,284 +40,329 @@ function CertifiedIncidentHandler() {
           </div>
         </div>
       </section> 
-        <div className ="container ">
+      <div style={{ marginLeft: "150px" }}>
+        <div>
           <div>
-            <div>
-              <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
-                  <li className="nav-item">
-                    <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
-                      <i className="bi-list-check nav-icon"></i>Course Highlight
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(2)} href="javascript:void(0)" >
-                      <i className="bi-file-arrow-up nav-icon"></i> How to Prepare
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(3)} href="javascript:void(0)" >
-                      <i className="bi-sort-numeric-down nav-icon"></i> Schedule
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(4)} href="javascript:void(0)" >
-                      <i className="bi-sort-numeric-down nav-icon"></i> Price
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
-                      <i className="bi-sort-numeric-down nav-icon"></i> Information
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(6)} href="javascript:void(0)" >
-                      <i className="bi-sort-numeric-down nav-icon"></i> Registration
-                    </a>
-                  </li>
-                  
-                </ul>
+            <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
+              <li className="nav-item">
+                <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
+                  <i className="bi-list-check nav-icon"></i>Course Overview:
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link  " onClick={() => setTabIndex(2)} href="javascript:void(0)" >
+                  <i className="bi-list-check nav-icon"></i>Course Highlight
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(3)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i> Schedule
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(4)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i> Price
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i> Training Format
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(6)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i>Exam Information
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(7)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i> Registration
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(8)} href="javascript:void(0)" >
+                  <i className="bi-file-arrow-up nav-icon"></i> How to Prepare
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(9)} href="javascript:void(0)" >
+                  <i className="bi-file-arrow-up nav-icon"></i> Certification Maintenance:
 
-            </div>
-        </div>        
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
         </div>
+      </div>
 
 
-        <section className="mt-1">
-          <div className="container">
+      <section className="mt-1">
+        <div className="container">
 
           {
-          tabIndex === 1 && (
-            <div className="row">
-          <div className="col-lg-8">
+            tabIndex === 1 && (
+              <div className="row">
+                <div className="col-lg-8">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
-                <div className="blog-details__content">
-                    <p>
-                    Incident Response Fundamentals:<br/>
-
-Understanding the incident response lifecycle and key phases.
-Identifying different types of security incidents and their impact.<br/>
-Incident Detection and Analysis:
-<br/>
-Utilizing various security tools and techniques to detect and analyze incidents.
-Conducting forensics analysis to gather evidence and determine the extent of the incident.<br/>
-Incident Containment and Eradication:<br/>
-
-Implementing measures to contain and prevent the spread of the incident.
-Removing malicious elements from the affected systems.<br/>
-Incident Recovery and Post-Incident Activities:<br/>
-
-Restoring systems and services to normal operations.
-Conducting post-incident analysis and lessons learned.<br/>
-Incident Handling Tools and Technologies:<br/>
-
-Exploring various incident handling tools and technologies, including SIEM, IDS/IPS, and forensics tools.<br/>
-Communication and Coordination:<br/>
-
-Establishing communication channels with relevant stakeholders during an incident.
-Collaborating with internal and external teams, such as legal and law enforcement.<br/>
-Legal and Ethical Considerations:<br/>
-
-Understanding legal and regulatory obligations related to incident handling.
-Addressing ethical considerations in incident response.<br/>
-Incident Handling Documentation:<br/>
-
-Creating detailed incident reports and documentation for analysis and reporting.
-</p>
-                </div>
-
-
-            </div>
-            <div className="col-lg-4 mt-5">
-            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                   <div className="card-body p-3">
-                    <h5 className='mt-4'><a href="/training" >Ready For You ?</a></h5>
-               
-
-                    <p className='mt-4'>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports<br/> (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks. </p>
-                    <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
-                  </div>
-                </div>
-            </div>
-          </div>
-           
-            // <h3>Frequently Asked Questions</h3>
-            // <p>Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources</p>
-           
-          )
-        }
-        {
-          tabIndex === 2 && (
-            <div className="row">
-          <div className="col-lg-8">
-
-
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
-                <div className="blog-details__content">
-                    <p>
-                    Acquire foundational knowledge in cybersecurity and IT security concepts.<br/>
-Familiarize yourself with incident response frameworks and best practices (e.g., NIST SP 800-61, ISO/IEC 27035).<br/>
-Stay updated with the latest cybersecurity threats and attack vectors.<br/>
-Gain hands-on experience with incident handling tools and technologies.
-
-                     </p>
-                </div>
-
-
-            </div>
-            <div className="col-lg-4 mt-5">
-            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
-                  <div className="card-body p-3">
-                    <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
-
-                    <h5 className='mt-4'><a href="/training" >Request More Information</a></h5>
-                    <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
-                  </div>
-                </div>
-            </div>
-          </div>
-          )
-        }
-         {
-          tabIndex === 3 && (
-            <div className="row">
-            <div className="col-lg-8">
-  
-  
-                  <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Schedule</h3><hr/>
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Course Overview</h3>
                   <div className="blog-details__content">
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>17 NOV 2022</h5>
-                      <h6> 9:00 - 17:20 BST</h6>
-                      <h6>Remote</h6>
-                      
-  
-                    </div><hr/>
-                      <p>
-                       
-  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
-                      </p>
-                  </div>
-  
-  
-              </div>
-              <div className="col-lg-4 mt-5">
-              <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
-                    <div className="card-body p-3">
                     <p>
-                       required by payment card brands and acquiring banks.
-                       </p>
+
+
+                    The Incident Handler training course by Right Time Limited equips participants with the skills and knowledge needed to effectively respond to and manage cybersecurity incidents. Through comprehensive curriculum designed by EC-Council, participants learn incident handling best practices, incident response procedures, and techniques for mitigating cyber threats.
+                </p>
+                  </div>
+
+
+                </div>
+                {/* <div className="col-lg-4 mt-5">
+                  <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                    <div className="card-body p-3">
+                      <h5 className='mt-4'><a href="/career" >Ready For You ?</a></h5>
+
+
+                      <p className='mt-4'>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports<br /> (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks. </p>
                       <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                     </div>
                   </div>
+                </div> */}
               </div>
-            </div>
-          )
-        }
-         {
-          tabIndex === 4 && (
-            <div className="row">
-            <div className="col-lg-8">
-  
-  
-                  <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Price</h3><hr/>
+            )
+          }
+          {
+            tabIndex === 2 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Course Highlights</h3>
                   <div className="blog-details__content">
-  
-                    </div><hr/>
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>New 3DS Assessor training (In person or eLearning)</h5>
-                      <h6>$1368 USD</h6>
-                      <h6>$1368 USD</h6>
-                      
-  
-                    </div><hr/>
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>Requalification 3DS Assessor Training</h5>
-                      <h6>$1368 USD</h6>
-                      <h6>$1368 USD</h6>
-                      
-  
-                    </div><hr/>
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>Knowledge Training Non-PO *</h5>
-                      <h6> $1368 USD</h6>
-                      <h6> </h6>
-                      
-  
-                    </div><hr/>
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>Knowledge Training PO *</h5>
-                      <h6> $1368 USD</h6>
-                      <h6></h6>
-                      
-                  </div><hr/>
-                  <p>
-                       
-  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
-                      </p>
-  
-  
-              </div>
-              <div className="col-lg-4 mt-5">
-              <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
-                    <div className="card-body p-3">
                     <p>
-                       required by payment card brands and acquiring banks.
-                       </p>
+                    	Comprehensive coverage of incident handling concepts and methodologies.<br/>
+	Practical insights from industry experts and experienced instructors.<br/>
+	Hands-on labs and real-world case studies to reinforce learning.<br/>
+	Preparation for the EC-Council Incident Handler certification exam.<br/>
+
+
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
+                    <div className="card-body p-3">
+                      <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
+
+                      <h5 className='mt-4'><a href="/career" >Request More Information</a></h5>
+                      <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
+                    </div>
+                  </div> */}
+                </div>
+              </div>
+            )
+          }
+          {
+            tabIndex === 3 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Schedule</h3><hr />
+                  <p>
+                  Please refer to our website i.e. https://www.righttime.biz/, or contact us directly for the latest course schedule and availability.
+                  </p>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
+                    <div className="card-body p-3">
+                      <p>
+                        required by payment card brands and acquiring banks.
+                      </p>
+                      <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
+                    </div>
+                  </div> */}
+                </div>
+              </div>
+            )
+          }
+          {
+            tabIndex === 4 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Price</h3><hr />
+                  <div className="blog-details__content">
+
+                  </div>
+                  <p>
+                  The course fee varies based on the training format, duration, and any additional materials provided. Please reach out to our sales team for pricing details and special offers.                  </p><br />
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
+                    <div className="card-body p-3">
+                      <p>
+                        required by payment card brands and acquiring banks.
+                      </p>
                       <a href="/managent" className=" mt-4 ">More Information</a>
                     </div>
-                  </div>
+                  </div> */}
+                </div>
               </div>
-            </div>
-          )
-        }
+            )
+          }
 
-{
-          tabIndex === 5 && (
-            <div>
-             <p>The Incident Handler course may or may not include a formal exam, depending on the training provider or certification body.<br/>
-If an exam is included, it typically assesses candidates' understanding of incident handling concepts, techniques, and best practices.<br/>
-The exam may be in multiple-choice format, scenario-based, or require candidates to analyze and respond to simulated incidents.<br/>
-Successful completion of the course and any associated exam may lead to an incident handling professional certification.<br/>
-Note: Specific details about the Incident Handler course, exam format, and prerequisites may vary depending on the training provider or certification organization offering the course. It is essential to check the course syllabus and exam details with the chosen training provider or certification body.
-</p>
-            
-            </div>
-          )
-        }
+          {
+            tabIndex === 5 && (
+              <div>
+                <p>
+                Our Incident Handler training course provides a comprehensive learning experience through:<br/>
 
-{
-          tabIndex === 6 && (
-            <div className="row">
-            <div className="col-lg-8">
-  
-  
-                  <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Registration Process</h3>
+Interactive Lectures: Engaging sessions led by experienced instructors to cover essential concepts and best practices in incident handling.<br/>
+
+Hands-on Labs: Practical exercises allowing participants to apply theoretical knowledge in simulated scenarios.<br/>
+
+Case Studies: Real-world examples to analyze and understand different types of incidents and effective response strategies.<br/>
+
+Group Discussions: Collaborative learning environment for sharing insights, experiences, and challenges related to incident handling.<br/>
+
+Mock Examination: Practice exams to assess readiness for the certification exam and identify areas for improvement.<br/>
+
+                </p>
+              </div>
+            )
+          }
+
+          {
+            tabIndex === 6 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Exam Information</h3>
                   <div className="blog-details__content">
-                      <p>
-                      “Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks. teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                      <br/>
-  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
-                      </p>
-                  </div>
-  
-  
-              </div>
-              <div className="col-lg-4 mt-5">             
-                      <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
-                    
-                  
-              </div>
-            </div>
-          )
-        }
-          </div>
+                    <p>
+                    Format: The EC-Council Incident Handler certification exam is conducted online and consists of multiple-choice questions.<br/>
+Duration: The exam typically spans a predetermined duration i.e. 04 (four) hours, allowing candidates sufficient time to answer all questions.<br/>
 
-        </section>
+Number of Questions: The exam includes a set number of questions i.e. 150 covering various aspects of incident handling and response.<br/>
+Scoring: Each question is assigned a specific weightage, and scores are calculated based on the correctness of the answers provided by candidates.<br/>
+
+Passing Score: To obtain certification, candidates must achieve the minimum passing score of 70%established by EC-Council.<br/>
+
+Exam Delivery: The exam is administered through EC-Council's online platform, accessible from any location with an internet connection.<br/>
+
+Preparation: Adequate preparation involves thorough review of course materials, active participation in training sessions, and consistent practice with mock examinations.<br/>
+
+Retake Policy: Should a candidate fail to pass the certification exam on the initial attempt, EC-Council's retake policy permits additional attempts after a designated waiting period. Candidates must adhere to EC-Council's retake policy guidelines, including any applicable fees and waiting periods between exam retakes. For detailed information on retake policies, candidates are encouraged to consult EC-Council's official guidelines or contact our training coordinator for assistance.<br/>
+
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+
+          {
+            tabIndex === 7 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Registration</h3>
+                  <div className="blog-details__content">
+                    <p>
+                    To register for the Incident Handler training course, please visit Right Time Limited's website i.e. https://www.righttime.biz/, or contact their training coordinator for assistance.                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+
+          {
+            tabIndex === 8 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">How To Prepare</h3>
+                  <div className="blog-details__content">
+                    <p>
+                    Prepare for the training course by:<br/>
+
+	Reviewing relevant course materials and resources provided by Right Time Limited.<br/>
+	Actively participating in training sessions, discussions, and hands-on exercises.<br/>
+	Engaging in self-study and practice exams to reinforce learning and assess readiness for certification.<br/>
+
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+          {
+            tabIndex === 9 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Certification Maintenance</h3>
+                  <div className="blog-details__content">
+                    <p>
+                    Upon successful completion of the Incident Handler certification exam, individuals must adhere to EC-Council's certification maintenance requirements to keep their certification current. This may include fulfilling continuing education credits or participating in recertification activities as outlined by EC-Council. For specific maintenance requirements, candidates are advised to consult EC-Council's official guidelines or contact Right Time Limited for assistance.                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+        </div>
+
+      </section>
 
     
       <div className="page-header mt-4" >

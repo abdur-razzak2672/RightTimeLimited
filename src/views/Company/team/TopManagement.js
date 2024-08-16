@@ -84,7 +84,7 @@ function TopManagement() {
                     <article className="material-card mt-5  Purple">
                       <a onClick={handleShow2} href='javascript:void(0)'>
                         <h2 className="h21 text-light">
-                          <span>Md Humayun Kabir</span>
+                          <span>Lt Commander Mohammad Ali, PCGMS, BN (RTD)</span>
                           <strong>
                             <i className="fa fa-fw fa-star"></i>
                             DIRECTOR, STRATEGIC PLANNING AND DEVELOPMENT
@@ -95,7 +95,7 @@ function TopManagement() {
                         <div className="img-container">
                           <img
                             className="img-responsive"
-                            src="/assets/images/team/kabir.jpeg"
+                            src="/assets/images/team/ali1.jpeg"
                             alt=""
                           />
 
@@ -311,28 +311,30 @@ function TopManagement() {
 
       <Modal size="lg" show={show2} onHide={handleClose2}>
         <Modal.Body className=" rounded-3">
-          <h5 className='teamTitle'>Md Humayun Kabir</h5>
+          <h5 className='teamTitle'>Lt Commander Mohammad Ali, PCGMS, BN (Rtd)</h5>
           <i style={{ fontSize: "40px" }} className="fab fa-linkedin "></i>
 
           <Row>
             <Col md={8}>
               <p className='teamDetails'>
-              Md Humayun Kabir serves as the Director of Strategic Planning & Development at Right Time Limited, a prominent Cyber Security Service Provider. With a rich background in cybersecurity, he plays a pivotal role in shaping the company's strategic direction and fostering its growth in the dynamic field of information security.
-                 </p>
-                 <p>As Director, Mr. Kabir leverages his extensive knowledge and experience to steer the company's strategic initiatives, ensuring that Right Time Limited remains at the forefront of cybersecurity solutions.</p>
+              Lt Commander Mohammad Ali, PCGMS, BN (Rtd) has been serving as the Director of Strategic Planning & Development at Right Time Limited, a premier Cyber Security Service Provider, since January 2024. With an illustrious career spanning 28 years in the Bangladesh Navy, Coast Guard & other esteemed national and international organizations, he brings unparalleled expertise in Human Resource Management, Security Operations, and Strategic Planning.                 </p>
+                 <p>Throughout his distinguished career, Mr. Ali has held pivotal roles such as Head of HR, Military Observer, Intelligence Officer, and Officer In charge IT, and Project Director (ERP), Project Director(CGRPMS) each underscoring his exceptional leadership, project management skills, and proficiency in implementing advanced security systems. He has consistently demonstrated a remarkable ability to manage large teams, oversee intricate projects, and safeguard personnel, equipment, and information.</p>
 
             </Col>
 
             <Col md={4}>
               <img
                 className="img-responsive"
-                src="/assets/images/team/kabir.jpeg"
+                src="/assets/images/team/ali.jpeg"
 
                 alt=""
               />
 
             </Col>
-            <p> His leadership is instrumental in developing and implementing forward-thinking strategies that not only safeguard organizations against cyber threats but also enable them to thrive in an increasingly digital landscape. With a commitment to innovation and a comprehensive understanding of the cybersecurity landscape, Mr. Kabir plays a crucial role in driving Right Time Limited's mission to provide cutting-edge solutions that protect and empower businesses in today's interconnected world. </p>
+            <p> His academic credentials include an MBA in HRM, a BSc in Military Science, PGD in Business Communication & SCM and numerous professional certifications in security, project management, and military training. His outstanding service has been recognized with the prestigious President Coast Guard Medal (Service) (PCGMS) and the United Nations Medal, honoring his significant contributions to his field.
+
+<br/><br/>Mr. Ali is lauded for his dynamic leadership, strategic foresight, and ability to thrive in multicultural environments. At Right Time Limited, he harnesses his extensive experience to spearhead strategic growth and development, ensuring the organization consistently achieves the highest standards of security and operational excellence.
+</p>
 
             </Row>
 

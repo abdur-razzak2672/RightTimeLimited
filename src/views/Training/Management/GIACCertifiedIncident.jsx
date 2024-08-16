@@ -1,337 +1,392 @@
 import React, { useState } from 'react'
 import { ManagementData } from '../trainingData';
 import ManagementNav from './ManagementNav';
- function GIACCertifiedIncident() {
+function GIACCertifiedIncident() {
   const [tabIndex, setTabIndex] = useState(1);
 
   return (
     <div>
-    <div className="page-header">
-      <div className="page-header__bg"
-        style={{ backgroundImage: `url('/assets/images/background/page-header-bg-1-1.jpg')` }}></div>
-      <div className="container">
-        <ul className="thm-breadcrumb list-unstyled">
-          <li><a href="{{ url('/') }}">Home</a></li>
-          <li><a href="{{ url('/services/security-training') }}">Training</a></li>
-          <li>Management</li>
-        </ul>
-        <h2 className="page-header__title">GIAC Certified Incident Handler
-(GCIH)</h2>
+      <div className="page-header">
+        <div className="page-header__bg"
+          style={{ backgroundImage: `url('/assets/images/background/page-header-bg-1-1.jpg')` }}></div>
+        <div className="container">
+          <ul className="thm-breadcrumb list-unstyled">
+            <li><a href="{{ url('/') }}">Home</a></li>
+            <li><a href="{{ url('/services/security-training') }}">Training</a></li>
+            <li>Management</li>
+          </ul>
+          <h2 className="page-header__title">GIAC Certified Incident Handler
+            (GCIH)</h2>
+        </div>
       </div>
-    </div>
-    <section className="  section-padding--top">
+      <section className="  section-padding--top">
         <div className="container">
           <div className="row">
-          <div className="col-lg-7">
+            <div className="col-lg-7">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">GIAC Certified Incident Handler
-(GCIH)</h3>
-                <div className="blog-details__content">
-                    <p>
-                    The GIAC Certified Incident Handler (GCIH) certification is designed for professionals who are responsible for detecting, responding to, and resolving cybersecurity incidents within their organizations. The course covers essential topics related to incident handling, including incident response methodologies, malware analysis, network forensics, and intrusion detection. GCIH certification demonstrates a candidate's competence in incident handling and response to cybersecurity incidents effectively. </p>
-                </div>
+              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">GIAC Certified Incident Handler
+                (GCIH)</h3>
+              <div className="blog-details__content">
+                <p>
+                  The GIAC Certified Incident Handler (GCIH) certification is designed for professionals who are responsible for detecting, responding to, and resolving cybersecurity incidents within their organizations. The course covers essential topics related to incident handling, including incident response methodologies, malware analysis, network forensics, and intrusion detection. GCIH certification demonstrates a candidate's competence in incident handling and response to cybersecurity incidents effectively. </p>
+              </div>
 
 
             </div>
             <div className="col-lg-5 mt-5">
-            <ManagementNav/>
+              <ManagementNav />
             </div>
           </div>
         </div>
-      </section> 
-        <div className ="container ">
+      </section>
+      <div style={{ marginLeft: "150px" }}>
+        <div>
           <div>
-            <div>
-              <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
-                  <li className="nav-item">
-                    <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
-                      <i className="bi-list-check nav-icon"></i>Course Highlight
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(2)} href="javascript:void(0)" >
-                      <i className="bi-file-arrow-up nav-icon"></i> How to Prepare
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(3)} href="javascript:void(0)" >
-                      <i className="bi-sort-numeric-down nav-icon"></i> Schedule
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(4)} href="javascript:void(0)" >
-                      <i className="bi-sort-numeric-down nav-icon"></i> Price
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
-                      <i className="bi-sort-numeric-down nav-icon"></i> Information
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" onClick={() => setTabIndex(6)} href="javascript:void(0)" >
-                      <i className="bi-sort-numeric-down nav-icon"></i> Registration
-                    </a>
-                  </li>
-                  
-                </ul>
+            <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
+              <li className="nav-item">
+                <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
+                  <i className="bi-list-check nav-icon"></i>Course Overview:
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link  " onClick={() => setTabIndex(2)} href="javascript:void(0)" >
+                  <i className="bi-list-check nav-icon"></i>Course Highlight
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(3)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i> Schedule
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(4)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i> Price
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i> Training Format
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(6)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i>Exam Information
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(7)} href="javascript:void(0)" >
+                  <i className="bi-sort-numeric-down nav-icon"></i> Registration
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(8)} href="javascript:void(0)" >
+                  <i className="bi-file-arrow-up nav-icon"></i> How to Prepare
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={() => setTabIndex(9)} href="javascript:void(0)" >
+                  <i className="bi-file-arrow-up nav-icon"></i> Certification Maintenance:
 
-            </div>
-        </div>        
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
         </div>
+      </div>
 
 
-        <section className="mt-1">
-          <div className="container">
+      <section className="mt-1">
+        <div className="container">
 
           {
-          tabIndex === 1 && (
-            <div className="row">
-          <div className="col-lg-8">
+            tabIndex === 1 && (
+              <div className="row">
+                <div className="col-lg-8">
 
 
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Course Highlight</h3>
-                <div className="blog-details__content">
-                    <p>
-                    Incident Response Fundamentals:
-<br/>
-Understanding incident handling processes, methodologies, and best practices.
-Learning the phases of incident response, from detection to recovery.<br/>
-Malware Incident Handling:<br/>
-
-Identifying, analyzing, and responding to malware incidents.
-Analyzing malicious code and understanding different types of malware.<br/>
-Network Forensics and Intrusion Detection:<br/>
-
-Analyzing network traffic for signs of intrusion and cyberattacks.
-Conducting network forensics to trace the source and impact of security incidents.<br/>
-Incident Handling and Response Tools:<br/>
-
-Utilizing various incident handling and response tools for effective incident resolution.
-Understanding the use of SIEM (Security Information and Event Management) systems.<br/>
-Data Breach Handling and Recovery:
-<br/>
-Responding to data breaches and managing the recovery process.
-Implementing containment and eradication strategies.<br/>
-Incident Reporting and Communication:<br/>
-
-Documenting incident details and creating incident reports.
-Communicating with stakeholders, management, and law enforcement during and after incidents.
-</p>
-                </div>
-
-
-            </div>
-            <div className="col-lg-4 mt-5">
-            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                   <div className="card-body p-3">
-                    <h5 className='mt-4'><a href="/training" >Ready For You ?</a></h5>
-               
-
-                    <p className='mt-4'>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports<br/> (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks. </p>
-                    <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
-                  </div>
-                </div>
-            </div>
-          </div>
-           
-            // <h3>Frequently Asked Questions</h3>
-            // <p>Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources</p>
-           
-          )
-        }
-        {
-          tabIndex === 2 && (
-            <div className="row">
-          <div className="col-lg-8">
-
-
-                <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">How To Prepare For The Exam</h3>
-                <div className="blog-details__content">
-                    <p>
-                    Obtain the official GCIH study materials provided by GIAC, the certification body for GCIH.
-Review the GCIH courseware, which includes textbooks, reference materials, and practical exercises.
-Take advantage of online resources, practice exams, and study guides from reputable sources.
-Participate in GCIH training courses offered by authorized training providers to gain in-depth knowledge.
-Join online forums or study groups to collaborate with other candidates and share knowledge and experiences.
-Allocate sufficient time for focused study and hands-on practice, as the GCIH exam requires practical knowledge.
-
-                     </p>
-                </div>
-
-
-            </div>
-            <div className="col-lg-4 mt-5">
-            <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
-                  <div className="card-body p-3">
-                    <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
-
-                    <h5 className='mt-4'><a href="/training" >Request More Information</a></h5>
-                    <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
-                  </div>
-                </div>
-            </div>
-          </div>
-          )
-        }
-         {
-          tabIndex === 3 && (
-            <div className="row">
-            <div className="col-lg-8">
-  
-  
-                  <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Schedule</h3><hr/>
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Course Overview</h3>
                   <div className="blog-details__content">
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>17 NOV 2022</h5>
-                      <h6> 9:00 - 17:20 BST</h6>
-                      <h6>Remote</h6>
-                      
-  
-                    </div><hr/>
-                      <p>
-                       
-  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
-                      </p>
-                  </div>
-  
-  
-              </div>
-              <div className="col-lg-4 mt-5">
-              <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
-                    <div className="card-body p-3">
                     <p>
-                       required by payment card brands and acquiring banks.
-                       </p>
+
+
+                      The GCIH certification validates individuals' abilities to manage and respond to security incidents effectively. This comprehensive course covers incident handling methodologies, tools, and techniques to identify, assess, and mitigate security threats.</p>                  </div>
+
+
+                </div>
+                {/* <div className="col-lg-4 mt-5">
+                  <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                    <div className="card-body p-3">
+                      <h5 className='mt-4'><a href="/career" >Ready For You ?</a></h5>
+
+
+                      <p className='mt-4'>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS Core Security Standard compliance status, and prepare appropriate compliance reports<br /> (such as Reports on Compliance (RoC)) required by payment card brands and acquiring banks. </p>
                       <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
                     </div>
                   </div>
+                </div> */}
               </div>
-            </div>
-          )
-        }
-         {
-          tabIndex === 4 && (
-            <div className="row">
-            <div className="col-lg-8">
-  
-  
-                  <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Price</h3><hr/>
+            )
+          }
+          {
+            tabIndex === 2 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Course Highlights</h3>
                   <div className="blog-details__content">
-  
-                    </div><hr/>
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>New 3DS Assessor training (In person or eLearning)</h5>
-                      <h6>$1368 USD</h6>
-                      <h6>$1368 USD</h6>
-                      
-  
-                    </div><hr/>
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>Requalification 3DS Assessor Training</h5>
-                      <h6>$1368 USD</h6>
-                      <h6>$1368 USD</h6>
-                      
-  
-                    </div><hr/>
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>Knowledge Training Non-PO *</h5>
-                      <h6> $1368 USD</h6>
-                      <h6> </h6>
-                      
-  
-                    </div><hr/>
-                    <div className=" container d-flex justify-content-between">
-                      <h5 style={{color:"black"}}>Knowledge Training PO *</h5>
-                      <h6> $1368 USD</h6>
-                      <h6></h6>
-                      
-                  </div><hr/>
-                  <p>
-                       
-  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
-                      </p>
-  
-  
-              </div>
-              <div className="col-lg-4 mt-5">
-              <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
-                    <div className="card-body p-3">
                     <p>
-                       required by payment card brands and acquiring banks.
-                       </p>
+                      	Comprehensive coverage of incident handling processes and procedures.<br />
+                      	Hands-on labs and simulations for practical experience.<br />
+                      	Expert-led instruction by seasoned cybersecurity professionals.<br />
+                      	Real-world case studies and scenarios for practical application.<br />
+                      	Preparation for the GIAC Certified Incident Handler (GCIH) exam.<br />
+
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
+                    <div className="card-body p-3">
+                      <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
+
+                      <h5 className='mt-4'><a href="/career" >Request More Information</a></h5>
+                      <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
+                    </div>
+                  </div> */}
+                </div>
+              </div>
+            )
+          }
+          {
+            tabIndex === 3 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Schedule</h3><hr />
+                  <p>
+                    Please refer to our website i.e. https://www.righttime.biz/, or contact us directly for the latest course schedule and availability.
+                  </p>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
+                    <div className="card-body p-3">
+                      <p>
+                        required by payment card brands and acquiring banks.
+                      </p>
+                      <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
+                    </div>
+                  </div> */}
+                </div>
+              </div>
+            )
+          }
+          {
+            tabIndex === 4 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Price</h3><hr />
+                  <div className="blog-details__content">
+
+                  </div>
+                  <p>
+                    The course fee varies based on the training format, duration, and any additional materials provided. Please reach out to our sales team for pricing details and special offers.                  </p><br />
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
+                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
+                    <div className="card-body p-3">
+                      <p>
+                        required by payment card brands and acquiring banks.
+                      </p>
                       <a href="/managent" className=" mt-4 ">More Information</a>
                     </div>
-                  </div>
+                  </div> */}
+                </div>
               </div>
-            </div>
-          )
-        }
+            )
+          }
 
-{
-          tabIndex === 5 && (
-            <div>
-              <p>
-              The GCIH certification exam consists of 150 multiple-choice questions.
-The exam duration is four hours, and it is administered in a proctored setting.
-A minimum passing score of approximately 72% is required to achieve GCIH certification.
-The GCIH certification is valid for four years, and to maintain it, certified professionals must earn continuing professional education (CPE) credits.
-Note: As exam details and requirements may change over time, it is crucial to refer to the official GIAC website for the most up-to-date information on the GCIH course, exam, and certification process.
+          {
+            tabIndex === 5 && (
+              <div>
+                <p>
+                  Interactive Lectures: Engaging sessions led by experienced instructors covering incident handling methodologies, tools, and techniques.<br />
+
+                  Hands-on Lab: Practical exercises in simulated environments to reinforce learning and develop incident response skills.<br />
+
+                  Case Studies: Analyzing real-world incidents to understand the context, challenges, and best practices in incident handling.<br />
+
+                  Group Discussion: Collaborative sessions to share insights, exchange ideas, and discuss strategies for effective incident response.<br />
+                  Mock Examination: Practice tests to simulate the GCIH exam format, assess knowledge retention, and identify areas for improvement.<br />
 
                 </p>
-            </div>
-          )
-        }
+              </div>
+            )
+          }
 
-{
-          tabIndex === 6 && (
-            <div className="row">
-            <div className="col-lg-8">
-  
-  
-                  <h3 style={{color:"orange"}} className="blog-card-one__title blog-details__title">Registration Process</h3>
+          {
+            tabIndex === 6 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Exam Information</h3>
                   <div className="blog-details__content">
-                      <p>
-                      “Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks. teaches you to perform assessments of 3DS Environments in accordance with the PCI 3DS Core Security Standard. This training course will provide you with the understanding of the logical and physical security requirements as well as assessment procedures for performing PCI 3DS Assessments.
-                      <br/>
-  By delivering training that aligns with the organization's specific context, RightTime helps to enhance knowledge, skills, and competencies within the organization.
-                      </p>
+                    <p>
+                      Format: Proctored, open-book exam with multiple-choice and scenario-based questions.<br />
+
+                      Duration: 4 hours.
+                      Number of Questions: Approximately 150 questions.<br />
+
+                      Scoring: Each question carries a specific weightage, and scores are based on correct answers.<br />
+
+                      Passing Score: A scaled score of 74% or higher.<br />
+
+                      Exam Delivery: Online proctored exam through the GIAC exam platform.<br />
+
+                      Preparation: Thorough review of the GCIH exam objectives, utilization of official GIAC study materials, completion of practice exams, and participation in hands-on labs and group discussions.<br />
+
+                      Retake Policy:<br />
+
+                      	Candidates who do not pass the GCIH exam on their first attempt may retake the exam during subsequent testing windows.
+                      	There is no limit on the number of retakes allowed; however, candidates must wait at least 30 days between exam attempts.
+                      	Retake candidates are required to pay the exam fee for each attempt.
+                      	Utilize the interim period between attempts to address weak areas, further study, and enhance preparation based on exam feedback.
+                      	Join Right Time Limited for comprehensive training on GCIH certification, designed to equip you with the skills and knowledge needed to effectively handle security incidents and successfully pass the GCIH exam.
+
+                    </p>
                   </div>
-  
-  
-              </div>
-              <div className="col-lg-4 mt-5">             
-                      <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button>
-                    
-                  
-              </div>
-            </div>
-          )
-        }
-          </div>
 
-        </section>
 
-    
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+
+          {
+            tabIndex === 7 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Registration</h3>
+                  <div className="blog-details__content">
+                    <p>
+                      To register for the course, please visit [Insert registration link] or contact our enrollment team at [Insert contact details].                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+
+          {
+            tabIndex === 8 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">How To Prepare</h3>
+                  <div className="blog-details__content">
+                    <p>
+                      	Review the GCIH exam objectives provided by GIAC.<br />
+                      	Utilize official study materials recommended by GIAC.<br />
+                      	Participate actively in class sessions, labs, and group discussions.<br />
+                      	Complete practice exams to assess your readiness for the certification exam.<br />
+
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+
+
+          {
+            tabIndex === 9 && (
+              <div className="row">
+                <div className="col-lg-8">
+
+
+                  <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Certification Maintenance</h3>
+                  <div className="blog-details__content">
+                    <p>
+                      	Maintain your GCIH certification by earning Continuing Professional Education (CPE) credits.<br />
+                      	Stay updated with the latest developments in incident handling and cybersecurity.<br />
+                      	Participate in relevant training courses, conferences, and webinars.<br />
+                      	Submit CPE documentation to GIAC to renew your certification.<br />
+
+                      Join Right Time Limited's GCIH training course to enhance your incident handling skills and prepare for the GCIH certification exam. Our expert instructors and comprehensive curriculum will empower you to effectively respond to security incidents and advance your cybersecurity career.
+                    </p>
+                  </div>
+
+
+                </div>
+                <div className="col-lg-4 mt-5">
+                  {/* <button type="button" className="btn btn-warning mt-4 w-100">Register Now</button> */}
+
+
+                </div>
+              </div>
+            )
+          }
+        </div>
+
+      </section>
+
+
       <div className="page-header mt-4" >
         <div className="page-header__bg"
           style={{ backgroundImage: `url('https://www.icorps.com/hs-fs/hubfs/Hero%20Image%2021-1.png?width=1500&height=600&name=Hero%20Image%2021-1.png')` }}></div>
         <div className="container">
-        <ul className="thm-breadcrumb list-unstyled">
+          <ul className="thm-breadcrumb list-unstyled">
             <h2 className="text-light">Digital Badging</h2>
-        </ul>
-        <p className="text-light">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
-         </div>
+          </ul>
+          <p className="text-light">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
+        </div>
       </div>
-      
+
       <br /><br /><br /><br />
-  </div>
+    </div>
   )
 }
 
- 
+
 export default GIACCertifiedIncident
