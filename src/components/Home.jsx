@@ -28,6 +28,26 @@ function Home() {
             style={{ height: "400px", width: "100%" }}
            />
 
+<img src="/assets/images/home/Associations.png" alt=""
+            style={{ height: "400px", width: "100%" }}
+           /> <img src="/assets/images/home/Auditing.png" alt=""
+           style={{ height: "400px", width: "100%" }}
+          /> <img src="/assets/images/home/Consultation.png" alt=""
+          style={{ height: "400px", width: "100%" }}
+         /> <img src="/assets/images/home/Managed Services (ITES, Specially Cyber Security).png" alt=""
+         style={{ height: "400px", width: "100%" }}
+        /> <img src="/assets/images/home/Partners.png" alt=""
+        style={{ height: "400px", width: "100%" }}
+       /> <img src="/assets/images/home/Security Assessment & Testing.png" alt=""
+       style={{ height: "400px", width: "100%" }}
+      /> <img src="/assets/images/home/Solutions (Specially Cyber Security).png" alt=""
+      style={{ height: "400px", width: "100%" }}
+     /> <img src="/assets/images/home/Standard Implementation & Certification.png" alt=""
+     style={{ height: "400px", width: "100%" }}
+    /> <img src="/assets/images/home/Training (Custom Skill Development).png" alt=""
+    style={{ height: "400px", width: "100%" }}
+   />
+
           {/* <div
             style={{
               paddingLeft: "15%",
