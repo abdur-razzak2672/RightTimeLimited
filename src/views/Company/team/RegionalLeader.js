@@ -185,7 +185,7 @@ AUSTRALIA                        </div>
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
               Rashed is in charge  of managing and providing all business verticals  for Right Time Limited to all customers in the US region.              </p>
  <p>He has over 25+ years of experience conducting security assessments and providing consulting  services to customers in Banking, Financial Services, and Insurance `(BFSI), Payment Industry, and IT Service sector. He   worked for numerous ITES organizations in different regions and countries. He was in charge of completing projects,  including IT security vulnerability assessments, network and application penetration testing, organizational security implementation reviews, and regulatory compliance reviews.</p>
             </Col>
@@ -216,7 +216,7 @@ AUSTRALIA                        </div>
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Dr. Touhid, with his 30+ years of experience in Multilayered Business Development, Sales, and Marketing of IT Software Solutions and Services Operational, Management to Leadership Levels, having worked with hundreds of Industry Giants and Consulting & Research Organizations, education sector.              </p>
 
             </Col>
@@ -251,7 +251,7 @@ AUSTRALIA                        </div>
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
               Miss Melinda has over 15 years of operational and decision-making management experience in cultivating and growing international organizations in the various verticals of Information technology enabled Services (ITES) organization. Her area of competence is in implementing information management systems into place in different ITES Organizations.</p>
  
             </Col>
@@ -285,7 +285,7 @@ Miss Melinda has extensive experience developing, inculcating, and implementing 
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
               Rahim is in charge  ofall Business, operations, and technical activities, including management and provision  of Right Time Limited services in Australia. </p>
               <p>Rahim has over 20 years of experience in the security and information technology industry.</p> 
             </Col>

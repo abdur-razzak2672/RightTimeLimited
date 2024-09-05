@@ -28,6 +28,8 @@ function ManagementBody() {
                     <p>
                     “Right Time Limited” (RightTime) provides training programs that focus on ICT management principles and practices. These programs equip participants with the necessary skills to effectively manage ICT infrastructure, resources, and processes within an organization. Topics covered may include IT governance, IT service management, IT project management, and IT strategy development. By attending these training programs, participants can improve their ability to align ICT initiatives with business objectives and ensure efficient and secure ICT operations.                    <br/>
                      </p>
+
+                     <img style={{ width:"100%"}} src='https://www.tuvsud.com/-/media/regions/sg/images/services/cybersecurity/ss-1115081195-operational-technology-security.jpg?h=1050&w=4050&la=en-ID&hash=9E0802B29A903A99B683EB1B18B3F05B' />
                 </div>
 
 

@@ -14,7 +14,7 @@ function ManagementNav() {
 
 
   return (
-    <div className=' '>
+    <div className='NavScroll '>
        <div className='d-flex justify-content-between'>
         <div style={{ width: "140px" }} className=' servicesItem1'>
           <Link to="/assesment"  >

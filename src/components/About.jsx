@@ -101,7 +101,7 @@ function About() {
 
            <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
               Ms. Sahaly Yasmin Bhuiyan comes with 13+ Years of wide-ranging and sound knowledge in the domain of Information System Security, Governance, Compliance, Enterprise as well as ICT Risk Management, PCI DSS Compliance Validation Services SWIFT Cyber Security Consultation and SWIFT CSP Assessment, Information System/Information Technology and Cyber Security Assessment/Auditing, etc.
               </p>
  

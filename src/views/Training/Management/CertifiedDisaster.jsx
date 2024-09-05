@@ -28,6 +28,8 @@ function CertifiedDisaster() {
                 <p>
                   Our Disaster Recovery Professional (DRP) training course equips participants with the knowledge and skills required to develop effective disaster recovery plans and strategies. The course covers various aspects of disaster recovery, including risk assessment, business continuity planning, data backup, and recovery procedures.
                 </p>
+                <img style={{ width:"100%"}} src='https://www.shutterstock.com/image-photo/disaster-recovery-backup-data-protection-600nw-2283759633.jpg' />
+
               </div>
 
 
@@ -38,7 +40,7 @@ function CertifiedDisaster() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "150px" }}>
+      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

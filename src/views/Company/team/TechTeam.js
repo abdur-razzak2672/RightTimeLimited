@@ -425,9 +425,9 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Nahar achieved adequate acumen in Quality Control and Document (Technical Document) Writing. having 16+ years of experience in Governance, Risk and Compliance profile in various industries like Banking, Information Technology, Telecom, Airlines, Support services etc.              </p>
-            <p>She is pioneer in providing quality services in Cyber Security, PCI DSS, GDPR, IT Risk, IT Audit, ISO27001, HIPAA, Business continuity, Sarbanes–Oxley Act, Disaster Recovery, Other Technology driven business operation.</p>
+            <p className='teamDetails textJustify'>She is pioneer in providing quality services in Cyber Security, PCI DSS, GDPR, IT Risk, IT Audit, ISO27001, HIPAA, Business continuity, Sarbanes–Oxley Act, Disaster Recovery, Other Technology driven business operation.</p>
 
             </Col>
 
@@ -458,7 +458,7 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Farzana is an Information System Professional and her expertise is in Information System Security (specially VA & PT and IS/IT Audit), Compliance, Enterprise Risk Management, IT Enabled Project Handling, Coordination, Preparatory Consultation for various ISO/ BS Certification (e.g. ISO 27001, ISO 9001, ISO 22301 and ISO 20000 etc.), assurance (IS Auditing including Vulnerability assessment & Penetration Testing) etc.</p>
             </Col>
 
@@ -470,7 +470,7 @@ function TechTeam() {
               />
 
             </Col>
-            <p>
+            <p className='teamDetails textJustify'>
               She holds Lead Auditor & Lead Implementer Certification on ISO 27001. Besides, she is a SWIFT enlisted Cyber security Consultant and SWIFT CSP Independent Assessor. She poses, CEH and ITIL certification as well.
             </p>
           </Row>
@@ -491,8 +491,8 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>Rayhan is a dedicated individual who is engaged in protecting our clients' systems and data from potential threats. Having gained over 4 years of experience in the  field of cyber security, he has honed his abilities in Vulnerability Assessment & Penetration Testing (VA & PT), SWIFT CSP Assessment, and the detection and response to security incidents.</p>
-              <p>Working closely with senior analysts in his current position, he assists in designing and executing efficient security measures to avert cyber-attacks. His skillset includes proficiency in a range of security tools and technologies such as Nessus, Nmap, and Wireshark. Additionally, he kept himself updated with the latest industry trends and security threats.</p>            </Col>
+              <p className='teamDetails textJustify'>Rayhan is a dedicated individual who is engaged in protecting our clients' systems and data from potential threats. Having gained over 4 years of experience in the  field of cyber security, he has honed his abilities in Vulnerability Assessment & Penetration Testing (VA & PT), SWIFT CSP Assessment, and the detection and response to security incidents.</p>
+              <p className='teamDetails textJustify'>Working closely with senior analysts in his current position, he assists in designing and executing efficient security measures to avert cyber-attacks. His skillset includes proficiency in a range of security tools and technologies such as Nessus, Nmap, and Wireshark. Additionally, he kept himself updated with the latest industry trends and security threats.</p>            </Col>
 
             <Col md={4}>
               <img
@@ -503,7 +503,7 @@ function TechTeam() {
               />
 
             </Col>
-            <p>He is dedicated to continually improving his knowledge and abilities. He holds certifications in SWIFT Cyber Security Assessment & Consultation and Certified Ethical Hacker (CEH). Besides, he is pursuing further official recognition in CompTIA Security+ and IS/IT Security Assessment to strengthen his expertise. He thrives in a challenging, fast-paced environment and actively seeks out new opportunities to contribute to his team's and customers' success.</p>
+            <p className='teamDetails textJustify'>He is dedicated to continually improving his knowledge and abilities. He holds certifications in SWIFT Cyber Security Assessment & Consultation and Certified Ethical Hacker (CEH). Besides, he is pursuing further official recognition in CompTIA Security+ and IS/IT Security Assessment to strengthen his expertise. He thrives in a challenging, fast-paced environment and actively seeks out new opportunities to contribute to his team's and customers' success.</p>
           </Row>
 
 
@@ -520,9 +520,9 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 A passionate cyber security specialist, with a primary focus on Security Assessment including Vulnerability Assessment & Penetration Testing (VA & PT) and Red Teaming. He is a positive mind of i individual who is passionate about analyzing Security Infrastructure of ITES organizations and assisting client(s) for a reliable as well as secured environment.              </p>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 He is SWIFT enlisted Cyber Security Consultant and also enlisted SWIFT CSO Independent Assessor. Besides, he holds the Certified Ethical Hacker (CEH) certificate.        </p>
 
             </Col>
@@ -559,8 +559,8 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>As an Information System Security Analyst at "Right Time Limited" Information Security Services,  he  is dedicated to protecting our clients' systems and data from cyber threats. With more than 3 years of experience, he has gained expertise in conducting vulnerability assessments, analyzing network traffic, and responding to security incidents.</p>
-              <p>Collaborating with senior analysts, he plays a crucial role in developing and implementing effective security measures that mitigate risks and ensure compliance with industry standards. He is proficient in a range of security tools and technologies, such as Nessus, Nmap, and Wireshark, and keep himself updated on the latest trends and threats in the industry.</p>
+              <p className='teamDetails textJustify'>As an Information System Security Analyst at "Right Time Limited" Information Security Services,  he  is dedicated to protecting our clients' systems and data from cyber threats. With more than 3 years of experience, he has gained expertise in conducting vulnerability assessments, analyzing network traffic, and responding to security incidents.</p>
+              <p className='teamDetails textJustify'>Collaborating with senior analysts, he plays a crucial role in developing and implementing effective security measures that mitigate risks and ensure compliance with industry standards. He is proficient in a range of security tools and technologies, such as Nessus, Nmap, and Wireshark, and keep himself updated on the latest trends and threats in the industry.</p>
             </Col>
 
             <Col md={4}>
@@ -572,7 +572,7 @@ function TechTeam() {
 
             </Col>
 
-            <p>In  his quest for professional growth, he is pursuing relevant certifications such as ISMS, PCI DSS, LPT, OSCP, and Practical Hacking (ethical) to enhance his knowledge and skills. He thrives in fast-paced, challenging environments and is always eager to take on new responsibilities to contribute to the success of his team and clients. His passion for information security and commitment to continuous learning makes him, a valuable asset to our organization.</p>
+            <p className='teamDetails textJustify'>In  his quest for professional growth, he is pursuing relevant certifications such as ISMS, PCI DSS, LPT, OSCP, and Practical Hacking (ethical) to enhance his knowledge and skills. He thrives in fast-paced, challenging environments and is always eager to take on new responsibilities to contribute to the success of his team and clients. His passion for information security and commitment to continuous learning makes him, a valuable asset to our organization.</p>
 
 
           </Row>
@@ -595,11 +595,11 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>SOFTWARE ENGINEER</p>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>SOFTWARE ENGINEER</p>
+              <p className='teamDetails textJustify'>
                 Abdur Razzak is a talented Software Engineer with expertise in full stack development using JavaScript frameworks such as React.js and Next.js, as well as Python frameworks like Django.        </p>
 
-              <p className='teamDetails'>As a full stack developer, Md. Abdur Razzak is proficient in both front-end and back-end development, allowing him to create dynamic and responsive web applications that are both user-friendly and highly functional.His skills in React.js and Next.js enable him to create modern and complex web applications with ease. He is able to build reusable components and optimize web applications for performance and speed.
+              <p className='teamDetails textJustify'>As a full stack developer, Md. Abdur Razzak is proficient in both front-end and back-end development, allowing him to create dynamic and responsive web applications that are both user-friendly and highly functional.His skills in React.js and Next.js enable him to create modern and complex web applications with ease. He is able to build reusable components and optimize web applications for performance and speed.
 
               </p>
 
@@ -617,8 +617,8 @@ function TechTeam() {
             </Col>
 
 
-            <p className='teamDetails'> Additionally,  Abdur Razzak's proficiency in Django allows him to build robust back-end systems that power the web applications he develops. He is able to create RESTful APIs, handle database management, and implement complex business logic.</p>
-            <p className='teamDetails'>Overall,   Abdur Razzak's skills as a full stack developer make him a valuable asset to any software development team. His ability to work with a variety of programming languages and frameworks makes him adaptable and versatile in his approach to development. </p>
+            <p className='teamDetails textJustify'> Additionally,  Abdur Razzak's proficiency in Django allows him to build robust back-end systems that power the web applications he develops. He is able to create RESTful APIs, handle database management, and implement complex business logic.</p>
+            <p className='teamDetails textJustify'>Overall,   Abdur Razzak's skills as a full stack developer make him a valuable asset to any software development team. His ability to work with a variety of programming languages and frameworks makes him adaptable and versatile in his approach to development. </p>
 
           </Row>
 
@@ -638,9 +638,9 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 As a Security Analyst at “Right Time Limited” Information Security Services, Mahadi is  passionate about safeguarding our clients' systems and data. With 3+ years of experience in the field of cyber security, he has developed expertise in conducting vulnerability assessments, analyzing network traffic, and identifying and responding to security incidents.</p>
-              <p>In his current role, He is working closely with senior analysts to develop and implement effective security measures to prevent cyber threats. He is proficient in a variety of security tools and technologies, including Nessus, Nmap, and Wireshark, and stay up-to-date with the latest trends and threats in the industry.</p>
+              <p className='teamDetails textJustify'>In his current role, He is working closely with senior analysts to develop and implement effective security measures to prevent cyber threats. He is proficient in a variety of security tools and technologies, including Nessus, Nmap, and Wireshark, and stay up-to-date with the latest trends and threats in the industry.</p>
             </Col>
 
             <Col md={4}>
@@ -652,7 +652,7 @@ function TechTeam() {
               />
 
             </Col>
-            <p>He is committed to continuous learning and development, and besides being SWIFT Cyber Security professional, pursuing relevant certifications such as CompTIA Security+ and Practical Hacking (ethical) to further enhance his skills and knowledge. He thrives in a fast-paced, challenging environment, and is always eager to take on new responsibilities and contribute to the success of his team and clients.</p>
+            <p className='teamDetails textJustify'>He is committed to continuous learning and development, and besides being SWIFT Cyber Security professional, pursuing relevant certifications such as CompTIA Security+ and Practical Hacking (ethical) to further enhance his skills and knowledge. He thrives in a fast-paced, challenging environment, and is always eager to take on new responsibilities and contribute to the success of his team and clients.</p>
           </Row>
 
 
@@ -671,9 +671,9 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>As a Junior ICT Security Analyst at Right Time Limited, sadrin Rahman Bhuiyan Piya has a passion for ensuring the confidentiality, integrity, and availability of its clients' systems and data. With 4 years+ of experience in the field, she has developed expertise in threat analysis, vulnerability assessment, and incident response.</p>
+              <p className='teamDetails textJustify'>As a Junior ICT Security Analyst at Right Time Limited, sadrin Rahman Bhuiyan Piya has a passion for ensuring the confidentiality, integrity, and availability of its clients' systems and data. With 4 years+ of experience in the field, she has developed expertise in threat analysis, vulnerability assessment, and incident response.</p>
 
-              <p>In her current role, she works closely with Senior Analysts to identify potential security risks and implement appropriate controls to prevent or mitigate attacks. She has experience in monitoring and analyzing network traffic, detecting and responding to security incidents, and conducting security assessments and audits.</p>
+              <p className='teamDetails textJustify'>In her current role, she works closely with Senior Analysts to identify potential security risks and implement appropriate controls to prevent or mitigate attacks. She has experience in monitoring and analyzing network traffic, detecting and responding to security incidents, and conducting security assessments and audits.</p>
             </Col>
 
             <Col md={4}>
@@ -684,7 +684,7 @@ function TechTeam() {
               />
 
             </Col>
-            <p>She is proficient in a variety of security tools and technologies, including Core Impact, Tenable, Burp Suite, using custom code/script, and stay up-to-date with the latest trends and threats in the industry. She is also committed to continuous learning and development, and is working towards obtaining relevant certifications such as cyber–Security Official Recognition i.e. SWIFT & PCI Professional.</p>
+            <p className='teamDetails textJustify'>She is proficient in a variety of security tools and technologies, including Core Impact, Tenable, Burp Suite, using custom code/script, and stay up-to-date with the latest trends and threats in the industry. She is also committed to continuous learning and development, and is working towards obtaining relevant certifications such as cyber–Security Official Recognition i.e. SWIFT & PCI Professional.</p>
 
           </Row>
 
@@ -709,7 +709,7 @@ function TechTeam() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Dr. Mohammad Tohidur Rahman Bhuiyan comes with 31+ Years of wide-ranging and adequate acumen in the domain of Information System Security, Governance, Compliance, Enterprise as well as ICT Risk Management, PCI DSS Compliance Validation Services SWIFT Cyber Security Consultation and SWIFT CSP Assessment, ITES Project Handling, Preparatory Consultation for various ISO/ BS Certification, Information System/Information Technology and Cyber Security Assessment/Auditing and Technical Documentation (end to end), etc.              </p>
 
             </Col>
@@ -722,8 +722,8 @@ function TechTeam() {
               />
 
             </Col>
-            <p>He is a visionary, and convergent thinker. Being a Security Auditor and Process Auditor, he earned a lot of real-world experience working with more than 600+ Companies across the globe. He collaborates with Leadership teams, Management teams, and Operations teams and understands the business challenges, organization goals , problems with execution , working methods, social variances, etc.</p>
-            <p>Tohid has certifications in PCI QSA, PCIP, CISA, CGEIT, Lead Auditor (ISO 27001 & ISO 9001), BCP & DRP, A+, CDCP, ITIL, Cyber Security & Cyber Forensic, CEH, MCSD, PRINCE2, Acunetix  (VA & PT Tools), CEI (Certified Instructor, EC-Council), SWIFT.</p>
+            <p className='teamDetails textJustify'>He is a visionary, and convergent thinker. Being a Security Auditor and Process Auditor, he earned a lot of real-world experience working with more than 600+ Companies across the globe. He collaborates with Leadership teams, Management teams, and Operations teams and understands the business challenges, organization goals , problems with execution , working methods, social variances, etc.</p>
+            <p className='teamDetails textJustify'>Tohid has certifications in PCI QSA, PCIP, CISA, CGEIT, Lead Auditor (ISO 27001 & ISO 9001), BCP & DRP, A+, CDCP, ITIL, Cyber Security & Cyber Forensic, CEH, MCSD, PRINCE2, Acunetix  (VA & PT Tools), CEI (Certified Instructor, EC-Council), SWIFT.</p>
           </Row>
 
 
