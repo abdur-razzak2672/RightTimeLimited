@@ -40,7 +40,7 @@ function CertifiedSocAnalyst() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "150px" }}>
+      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

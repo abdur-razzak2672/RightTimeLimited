@@ -30,51 +30,7 @@ function PracticalEthicalHacker() {
                 <p>
                   Practical Ethical Hacking is a hands-on course designed to provide learners with practical skills and knowledge in ethical hacking and penetration testing. The course focuses on real-world scenarios, allowing participants to gain practical experience in identifying and exploiting security vulnerabilities while adhering to ethical standards. It is suitable for aspiring ethical hackers, cybersecurity professionals, and anyone interested in understanding the techniques used to secure systems and networks.                    <br />
                 </p>
-                <p>
-                  Introduction to Ethical Hacking:<br />
-
-                  Understanding the principles and ethics of ethical hacking.
-                  Exploring the stages of ethical hacking, including information gathering, scanning, exploitation, and post-exploitation.<br />
-                  Footprinting and Reconnaissance:
-                  <br />
-                  Gathering information about the target organization and its infrastructure.
-                  Using passive and active reconnaissance techniques to identify potential attack vectors.<br />
-                  Scanning and Enumeration:
-                  <br />
-                  Identifying open ports, services, and potential vulnerabilities using scanning tools.
-                  Enumerating system and network resources to gather valuable information.<br />
-                  Vulnerability Assessment and Exploitation:<br />
-
-                  Assessing and exploiting security vulnerabilities in target systems and applications.
-                  Understanding different attack vectors, such as SQL injection, Cross-Site Scripting (XSS), and more.<br />
-                  Web Application Hacking:<br />
-
-                  Evaluating web applications for common vulnerabilities and weaknesses.
-                  Exploiting web application flaws to gain unauthorized access or extract sensitive data.
-                  <br />
-                  Network Hacking:<br />
-
-                  Penetrating network infrastructure and devices to identify weaknesses.
-                  Learning techniques for network-level attacks and lateral movement.<br />
-                  Wireless Network Hacking:<br />
-
-                  Assessing the security of wireless networks and exploiting vulnerabilities.
-                  Understanding the concepts of WEP, WPA, and WPA2 attacks.<br />
-                  Social Engineering:<br />
-
-                  Learning about different social engineering techniques to manipulate human behavior.
-                  Understanding the importance of social engineering in penetration testing.<br />
-                  Post-Exploitation and Maintaining Access:<br />
-
-                  Maintaining control over compromised systems and avoiding detection.
-                  Understanding post-exploitation techniques and strategies.<br />
-                  Reporting and Documentation:<br />
-
-                  Preparing comprehensive reports to communicate findings and recommend remediation steps.
-                  Understanding the importance of clear and concise documentation.
-
-
-                </p>
+                
               </div>
 
 
@@ -85,7 +41,7 @@ function PracticalEthicalHacker() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "150px" }}>
+      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

@@ -42,7 +42,7 @@ More than 164,000 CISAs have been certified since its inception in 1978. CISA is
           </div>
         </div>
       </section> 
-      <div style={{ marginLeft: "150px" }}>
+      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

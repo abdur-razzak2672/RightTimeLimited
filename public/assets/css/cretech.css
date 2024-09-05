@@ -9336,3 +9336,19 @@ button {
     margin-right: auto;
 }
  
+
+/* dsf */
+
+.NavScroll {
+  overflow: scroll;
+   height: 420px;
+   width: 100%;
+  
+}
+
+/* For Webkit browsers (Chrome, Safari, etc.) */
+.NavScroll::-webkit-scrollbar {
+  width: 1px;
+}
+
+ 

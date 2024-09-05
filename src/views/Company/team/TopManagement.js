@@ -281,7 +281,7 @@ function TopManagement() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Ms. Sahaly Yasmin Bhuiyan comes with 13+ Years of wide-ranging and sound knowledge in the domain of Information System Security, Governance, Compliance, Enterprise as well as ICT Risk Management, PCI DSS Compliance Validation Services SWIFT Cyber Security Consultation and SWIFT CSP Assessment, Information System/Information Technology and Cyber Security Assessment/Auditing, etc.
               </p>
 
@@ -295,8 +295,8 @@ function TopManagement() {
               />
 
             </Col>
-            <p>Being a Security Auditor and Process Auditor, she earned a lot of real-world experience working with more than 450+ Companies across the globe. She collaborates with Strategic Teams, Leadership Teams, Management Teams, and Operations Teams. She understands the business challenges, organization goals, problems with execution, working methods, social variances, etc. She oversees the Quality Assurance Team and serves as a core security assessor in addition to serving as the company’s Chairman.</p>
-            <p>Sahaly has certifications in PCI QSA, PCIP, CDCP, Lead Auditor - ISO 9001(QMS), ITIL, and SWIFT.</p>
+            <p className='teamDetails textJustify'>Being a Security Auditor and Process Auditor, she earned a lot of real-world experience working with more than 450+ Companies across the globe. She collaborates with Strategic Teams, Leadership Teams, Management Teams, and Operations Teams. She understands the business challenges, organization goals, problems with execution, working methods, social variances, etc. She oversees the Quality Assurance Team and serves as a core security assessor in addition to serving as the company’s Chairman.</p>
+            <p className='teamDetails textJustify'>Sahaly has certifications in PCI QSA, PCIP, CDCP, Lead Auditor - ISO 9001(QMS), ITIL, and SWIFT.</p>
           </Row>
 
 
@@ -316,7 +316,7 @@ function TopManagement() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
               Lt Commander Mohammad Ali, PCGMS, BN (Rtd) has been serving as the Director of Strategic Planning & Development at Right Time Limited, a premier Cyber Security Service Provider, since January 2024. With an illustrious career spanning 28 years in the Bangladesh Navy, Coast Guard & other esteemed national and international organizations, he brings unparalleled expertise in Human Resource Management, Security Operations, and Strategic Planning.                 </p>
                  <p>Throughout his distinguished career, Mr. Ali has held pivotal roles such as Head of HR, Military Observer, Intelligence Officer, and Officer In charge IT, and Project Director (ERP), Project Director(CGRPMS) each underscoring his exceptional leadership, project management skills, and proficiency in implementing advanced security systems. He has consistently demonstrated a remarkable ability to manage large teams, oversee intricate projects, and safeguard personnel, equipment, and information.</p>
 
@@ -331,10 +331,10 @@ function TopManagement() {
               />
 
             </Col>
-            <p> His academic credentials include an MBA in HRM, a BSc in Military Science, PGD in Business Communication & SCM and numerous professional certifications in security, project management, and military training. His outstanding service has been recognized with the prestigious President Coast Guard Medal (Service) (PCGMS) and the United Nations Medal, honoring his significant contributions to his field.
+            <p className='teamDetails textJustify'> His academic credentials include an MBA in HRM, a BSc in Military Science, PGD in Business Communication & SCM and numerous professional certifications in security, project management, and military training. His outstanding service has been recognized with the prestigious President Coast Guard Medal (Service) (PCGMS) and the United Nations Medal, honoring his significant contributions to his field.
 
 <br/><br/>Mr. Ali is lauded for his dynamic leadership, strategic foresight, and ability to thrive in multicultural environments. At Right Time Limited, he harnesses his extensive experience to spearhead strategic growth and development, ensuring the organization consistently achieves the highest standards of security and operational excellence.
-</p>
+</p >
 
             </Row>
 
@@ -354,7 +354,7 @@ function TopManagement() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Rokanuzzaman is  an experienced ICT Cyber Security Professional with over 25 years of experience. He is  dedicated to developing effective cyber security strategies that minimize risks and ensure compliance with industry standards. He is serving as Chief Information Officer (CIO), "Right Time Limited", the leading ICT Security Service Provider since 1 January 2014. He   has a proven track record of implementing successful cyber security solutions that protect organizations from cyber threats.  </p>
               <p>His expertise spans across various aspects of cyber security, including network security, vulnerability assessment, penetration testing, and incident response. He   has led teams of cyber security experts and provided guidance to executive leadership on complex security issues and ensureduninterrupted business operations. </p>
             </Col>
@@ -367,8 +367,8 @@ function TopManagement() {
               />
 
             </Col>
-            <p>In addition to his technical skills, he is also a thought leader in the industry. He regularly speaks at conferences and contributes to leading publications on topics related to cyber security.  His key certifications include CISA, PMP, CEH, MCSE, MCDBA, and MCP. He holds a master's degree in Business Administration with PGD in ICT.</p>
-            <p>With 12 years of experience in market operations and good administrative and managerial duties, he has a solid foundation in managing complex projects and leading teams. He is also proficient in developing comprehensive technical documentation covering regulatory, legal, and standard bodies. Additionally, he has over 10 years of experience in Management Information Systems (MIS), specializing in network analysis, design, implementation, and data migration in heterogeneous operating environments.</p>
+            <p className='teamDetails textJustify'>In addition to his technical skills, he is also a thought leader in the industry. He regularly speaks at conferences and contributes to leading publications on topics related to cyber security.  His key certifications include CISA, PMP, CEH, MCSE, MCDBA, and MCP. He holds a master's degree in Business Administration with PGD in ICT.</p>
+            <p className='teamDetails textJustify'>With 12 years of experience in market operations and good administrative and managerial duties, he has a solid foundation in managing complex projects and leading teams. He is also proficient in developing comprehensive technical documentation covering regulatory, legal, and standard bodies. Additionally, he has over 10 years of experience in Management Information Systems (MIS), specializing in network analysis, design, implementation, and data migration in heterogeneous operating environments.</p>
           </Row>
 
 
@@ -388,10 +388,10 @@ function TopManagement() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Arshad leads the worldwide service delivery lines, and modernizations through cutting-edge technology to achieve operational competence and World-Class service to customers.
               </p>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 He has wide-ranging experience in consultancy providing consulting Solutions to IT Enabled Services Organizations, Banks, BPO, KPO, and other industries. His understanding also includes establishing and (ITES) designing security architectures and implementing practical security solutions.              </p>
 
             </Col>
@@ -404,8 +404,8 @@ function TopManagement() {
               />
 
             </Col>
-            <p>His expertise in managed services, security testing, and IT Governance, Compliance, and Risk Management (GRC) is acknowledged on a global scale. </p>
-            <p>Arshad is certified in CISA, CISM, SWIFT, and CEH.</p>
+            <p className='teamDetails textJustify'>His expertise in managed services, security testing, and IT Governance, Compliance, and Risk Management (GRC) is acknowledged on a global scale. </p>
+            <p className='teamDetails textJustify'>Arshad is certified in CISA, CISM, SWIFT, and CEH.</p>
           </Row>
 
 
@@ -424,7 +424,7 @@ function TopManagement() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Mamun has over 18 years of experience in various ICT roles across multiple organizations. His successful track record includes leading ICT projects in software, web, and mobile applications, as well as carrying out information systems audits, security assessments, and software quality assurance in various industries. In addition, he has extensive experience in developing enforceable policies, including information security policies, business continuity policies, and technical documents. He has collaborated on local and international projects with teams from the Czech Republic, Norway, Japan, the Middle East, and the USA. He earned a lot of real-world experience from working with Leadership, Management, and Operations teams to understand business challenges, goals, and execution issues.        </p>
 
             </Col>
@@ -437,8 +437,8 @@ function TopManagement() {
               />
 
             </Col>
-            <p>Mamun is a visionary, and divergent thinker. He is a CISA (Certified Information Systems Auditor), SWIFT Certified Professional, ACP (Acunetix Certified Professional), and MCP (Microsoft Certified Professional) certified individual. He has professional training in information security, audit & forensics, and Cisco networking.</p>
-            <p>Mamun holds a Bachelor's degree in Computer Science & Engineering and is particularly interested in Operations and Management, Information Security & Forensics, IT/IS auditing, and ICT Development. He is committed to keeping abreast of the most recent developments in the industry and is constantly seeking opportunities to work with other experts.”</p>
+            <p className='teamDetails textJustify'>Mamun is a visionary, and divergent thinker. He is a CISA (Certified Information Systems Auditor), SWIFT Certified Professional, ACP (Acunetix Certified Professional), and MCP (Microsoft Certified Professional) certified individual. He has professional training in information security, audit & forensics, and Cisco networking.</p>
+            <p className='teamDetails textJustify'>Mamun holds a Bachelor's degree in Computer Science & Engineering and is particularly interested in Operations and Management, Information Security & Forensics, IT/IS auditing, and ICT Development. He is committed to keeping abreast of the most recent developments in the industry and is constantly seeking opportunities to work with other experts.”</p>
           </Row>
 
 
@@ -457,7 +457,7 @@ function TopManagement() {
 
           <Row>
             <Col md={8}>
-              <p className='teamDetails'>
+              <p className='teamDetails textJustify'>
                 Zia 25-year career spans a wide range of financial and operational responsibilities with Information Technology enabled Service (ITES) companies that have a global grasp. From small, domestically focused Cyber Security companies to Technology companies with complex international structures and remarkable amount of revenue, he has directly wedged financial performance and growth as a member of the C-Suite.              </p>
 
             </Col>
@@ -470,8 +470,8 @@ function TopManagement() {
               />
 
             </Col>
-            <p>Zia has managed worldwide teams of finance, operations and administration. He has successfully devised and executed financial and strategic reformations, established and maintained relationships with lenders, private equity stakeholders and venture capital. He has led diverse teams in Finance, Sales, Operations, Product, IT, Human Resources, Legal and to drive reduce costs, revenue increases, and improve decision making and strategic planning.</p>
-            <p>He also has widespread blends and acquisition knowledge.</p>
+            <p className='teamDetails textJustify'>Zia has managed worldwide teams of finance, operations and administration. He has successfully devised and executed financial and strategic reformations, established and maintained relationships with lenders, private equity stakeholders and venture capital. He has led diverse teams in Finance, Sales, Operations, Product, IT, Human Resources, Legal and to drive reduce costs, revenue increases, and improve decision making and strategic planning.</p>
+            <p className='teamDetails textJustify'>He also has widespread blends and acquisition knowledge.</p>
           </Row>
 
 
