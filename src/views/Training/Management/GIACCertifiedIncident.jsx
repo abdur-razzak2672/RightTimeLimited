@@ -40,13 +40,13 @@ function GIACCertifiedIncident() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
               <li className="nav-item">
                 <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
-                  <i className="bi-list-check nav-icon"></i>Course Overview:
+                  <i className="bi-list-check nav-icon"></i>Course Overview :
                 </a>
               </li>
               <li className="nav-item">
