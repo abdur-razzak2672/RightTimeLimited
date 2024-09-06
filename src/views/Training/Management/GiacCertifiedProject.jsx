@@ -23,7 +23,7 @@ function GiacCertifiedProject() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">GIAC Certified Project Manager (GCPM)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">GIAC Certified Project Manager (GCPM)</h3>
               <div className="blog-details__content">
                 <p>
                   The GIAC Certified Project Manager (GCPM) certification validates a practitioner's knowledge of technical project management methodology and implementation. GCPM certification holders have demonstrated the critical skill sets associated with making projects successful, including effective communication and time, cost, quality, procurement, and risk management of IT projects and application development.  </p>
@@ -37,7 +37,7 @@ function GiacCertifiedProject() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

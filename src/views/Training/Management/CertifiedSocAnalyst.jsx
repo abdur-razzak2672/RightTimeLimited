@@ -26,7 +26,7 @@ function CertifiedSocAnalyst() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Cyber Security Analyst (Custom)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">Cyber Security Analyst (Custom)</h3>
               <div className="blog-details__content">
                 <p>
                   The Cyber Security Analyst course is designed to train individuals in the skills and knowledge required to analyze and respond to cybersecurity incidents and threats effectively. The course covers various topics, including threat detection, incident investigation, malware analysis, and vulnerability assessment. Participants will learn how to detect and mitigate security breaches, protect critical assets, and strengthen an organization's overall security posture. </p>
@@ -40,7 +40,7 @@ function CertifiedSocAnalyst() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

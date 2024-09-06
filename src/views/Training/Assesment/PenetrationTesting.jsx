@@ -22,7 +22,7 @@ function PenetrationTesting() {
 
 
       <AssesmentHomeComponent data={penetrationtestingData} />
- 
+
       <br /><br /><br /><br />
     </div>
   )

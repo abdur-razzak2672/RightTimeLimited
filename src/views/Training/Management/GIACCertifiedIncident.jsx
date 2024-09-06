@@ -25,7 +25,7 @@ function GIACCertifiedIncident() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">GIAC Certified Incident Handler
+              <h3 className="blog-card-one__title blog-details__title changeColor">GIAC Certified Incident Handler
                 (GCIH)</h3>
               <div className="blog-details__content">
                 <p>

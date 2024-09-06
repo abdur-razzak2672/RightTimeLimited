@@ -25,12 +25,12 @@ function PracticalEthicalHacker() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Certified Ethical Hacking (CEH)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">Certified Ethical Hacking (CEH)</h3>
               <div className="blog-details__content">
                 <p>
                   Practical Ethical Hacking is a hands-on course designed to provide learners with practical skills and knowledge in ethical hacking and penetration testing. The course focuses on real-world scenarios, allowing participants to gain practical experience in identifying and exploiting security vulnerabilities while adhering to ethical standards. It is suitable for aspiring ethical hackers, cybersecurity professionals, and anyone interested in understanding the techniques used to secure systems and networks.                    <br />
                 </p>
-                
+
               </div>
 
 
@@ -41,7 +41,7 @@ function PracticalEthicalHacker() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

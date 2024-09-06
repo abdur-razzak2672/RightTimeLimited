@@ -26,7 +26,7 @@ function Offensive() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Offensive Security Certified Professional (OSCP)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">Offensive Security Certified Professional (OSCP)</h3>
               <div className="blog-details__content">
                 <p>
                   The detailed information about the preparatory training course offered by Right Time Limited for the "Offensive Security Certified Professional (OSCP)" certification by Offensive Security:                  <br />
@@ -41,7 +41,7 @@ function Offensive() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

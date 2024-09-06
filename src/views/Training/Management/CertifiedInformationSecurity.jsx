@@ -24,7 +24,7 @@ function CertifiedInformationSecurity() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Certified Information security Manager (CISM)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">Certified Information security Manager (CISM)</h3>
               <div className="blog-details__content">
                 <p>The Certified Information Security Manager (CISM) course is designed for professionals who are responsible for managing, designing, and overseeing an enterprise's information security program. The course covers essential concepts related to information risk management, information security governance, incident response, and cybersecurity strategies. CISM certification is globally recognized and demonstrates a candidate's expertise in information security management and governance.</p>
               </div>
@@ -37,7 +37,7 @@ function CertifiedInformationSecurity() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

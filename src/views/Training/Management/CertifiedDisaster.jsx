@@ -23,12 +23,12 @@ function CertifiedDisaster() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Disaster Recovery Professional (Custom)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">Disaster Recovery Professional  (Custom)</h3>
               <div className="blog-details__content">
                 <p>
                   Our Disaster Recovery Professional (DRP) training course equips participants with the knowledge and skills required to develop effective disaster recovery plans and strategies. The course covers various aspects of disaster recovery, including risk assessment, business continuity planning, data backup, and recovery procedures.
                 </p>
-                <img style={{ width:"100%"}} src='https://www.shutterstock.com/image-photo/disaster-recovery-backup-data-protection-600nw-2283759633.jpg' />
+                <img style={{ width: "100%" }} src='https://www.shutterstock.com/image-photo/disaster-recovery-backup-data-protection-600nw-2283759633.jpg' />
 
               </div>
 
@@ -40,7 +40,7 @@ function CertifiedDisaster() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

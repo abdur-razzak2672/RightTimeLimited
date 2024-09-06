@@ -25,7 +25,7 @@ function OpenSource() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Open Source Intelligent (OSINT)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">Open Source Intelligent (OSINT)</h3>
               <div className="blog-details__content">
                 <p>
                   This course focuses on Open Source Intelligence (OSINT) tactics and techniques designed to help you improve your investigative game. Students should take this course if they are interested in:
@@ -48,7 +48,7 @@ function OpenSource() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
