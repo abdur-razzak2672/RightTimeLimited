@@ -27,6 +27,7 @@ function CertifiedInformationSecurity() {
               <h3 className="blog-card-one__title blog-details__title changeColor">Certified Information security Manager (CISM)</h3>
               <div className="blog-details__content">
                 <p>The Certified Information Security Manager (CISM) course is designed for professionals who are responsible for managing, designing, and overseeing an enterprise's information security program. The course covers essential concepts related to information risk management, information security governance, incident response, and cybersecurity strategies. CISM certification is globally recognized and demonstrates a candidate's expertise in information security management and governance.</p>
+                <img className='training-images' src="/assets/images/training/CISM.jpg" alt="" />
               </div>
 
 

@@ -29,6 +29,7 @@ function GiacWebApplication() {
               <div className="blog-details__content">
                 <p>
                   The information about the preparatory training course offered by Right Time Limited for the "GIAC Web Application Penetration Tester (GWAPT)" certification by SANS: </p>
+                <img className='training-images' src="/assets/images/training/GWAPT.png" alt="GWAPT" />
               </div>
 
 

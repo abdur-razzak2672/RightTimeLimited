@@ -30,6 +30,7 @@ function CertifiedIncidentHandler() {
                 <p>
                   The Incident Handler course is designed to equip cybersecurity professionals with the knowledge and skills required to effectively handle and respond to security incidents in an organization. The course focuses on incident detection, analysis, containment, eradication, and recovery. Participants will learn incident handling best practices, tools, and techniques to mitigate the impact of security incidents and protect critical assets.                    <br />
                 </p>
+                <img className='training-images' src="/assets/images/training/ECIH.webp" alt="ECIH" />
               </div>
 
 

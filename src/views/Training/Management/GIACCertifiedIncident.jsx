@@ -30,6 +30,7 @@ function GIACCertifiedIncident() {
               <div className="blog-details__content">
                 <p>
                   The GIAC Certified Incident Handler (GCIH) certification is designed for professionals who are responsible for detecting, responding to, and resolving cybersecurity incidents within their organizations. The course covers essential topics related to incident handling, including incident response methodologies, malware analysis, network forensics, and intrusion detection. GCIH certification demonstrates a candidate's competence in incident handling and response to cybersecurity incidents effectively. </p>
+                <img className='training-images' src="/assets/images/training/GCIH.png" alt="" />
               </div>
 
 

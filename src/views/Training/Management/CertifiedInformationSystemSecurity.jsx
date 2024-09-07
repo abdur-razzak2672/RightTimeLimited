@@ -29,6 +29,7 @@ function CertifiedInformationSystemSecurity() {
               <div className="blog-details__content">
                 <p>
                   The Certified Information Systems Security Professional (CISSP) training offered by Right Time Limited prepares individuals for one of the most globally recognized certifications in the field of cybersecurity. The course covers essential topics such as security and risk management, asset security, security architecture and engineering, communication and network security, identity and access management, security assessment and testing, security operations, and software development security. </p>
+                <img className='training-images' src="/assets/images/training/CISSP.png" alt="" />
               </div>
 
 

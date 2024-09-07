@@ -30,7 +30,7 @@ function PracticalEthicalHacker() {
                 <p>
                   Practical Ethical Hacking is a hands-on course designed to provide learners with practical skills and knowledge in ethical hacking and penetration testing. The course focuses on real-world scenarios, allowing participants to gain practical experience in identifying and exploiting security vulnerabilities while adhering to ethical standards. It is suitable for aspiring ethical hackers, cybersecurity professionals, and anyone interested in understanding the techniques used to secure systems and networks.                    <br />
                 </p>
-
+                <img className='training-images' src="/assets/images/training/CEH-lOGO.jpg" alt="" />
               </div>
 
 

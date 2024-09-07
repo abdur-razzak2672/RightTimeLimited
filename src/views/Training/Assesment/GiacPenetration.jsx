@@ -31,6 +31,7 @@ function GiacPenetration() {
                 <p>
                   The detailed information about the preparatory training course offered by Right Time Limited for the "GIAC Penetration Testing (GPEN)" certification by SANS:
                 </p>
+                <img className='training-images' src="/assets/images/training/GPEN.png" alt="GPEN" />
               </div>
 
 

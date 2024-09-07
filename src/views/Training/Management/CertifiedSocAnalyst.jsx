@@ -30,6 +30,7 @@ function CertifiedSocAnalyst() {
               <div className="blog-details__content">
                 <p>
                   The Cyber Security Analyst course is designed to train individuals in the skills and knowledge required to analyze and respond to cybersecurity incidents and threats effectively. The course covers various topics, including threat detection, incident investigation, malware analysis, and vulnerability assessment. Participants will learn how to detect and mitigate security breaches, protect critical assets, and strengthen an organization's overall security posture. </p>
+                <img className='training-images' src="/assets/images/training/CSA.jpg" alt="" />
               </div>
 
 

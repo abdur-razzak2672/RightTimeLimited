@@ -77,6 +77,7 @@ function ComputerHacking() {
                   Understanding the importance of clear and concise reporting in legal proceedings.
 
                 </p>
+                <img className='training-images' src="/assets/images/training/chfi.png" alt="" />
               </div>
 
 
