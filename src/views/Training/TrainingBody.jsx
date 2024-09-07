@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'react-router-dom/Link';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -7,7 +8,7 @@ import ServiceBody from "../../components/Service"
 import Partner from "../../components/Partner"
 import Associaltion from "../../components/Association"
 
-import {toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import './training.css'
 import Slider from 'react-slick'
 
@@ -19,7 +20,7 @@ function TrainingBody() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
- 
+
 
     infinite: true,
     responsive: [
@@ -199,7 +200,7 @@ function TrainingBody() {
   ];
   return (
     <div>
- 
+
       <div>
         <div className="page-header">
           <div
@@ -230,37 +231,37 @@ function TrainingBody() {
                 <h2 className="header text-center">Training Programs</h2>
               </div>
               <ul className="card-wrapper">
-                <li style={{background:"#e9e3e0"}} className="card">
+                <li style={{ background: "#e9e3e0" }} className="card">
                   <img height="210px" width="100%" src="https://www.ict.eu/sites/corporate/files/images/iStock-1322517295%20copy_12.jpg" alt="" />
-                  <h3 style={{fontSize:"18px"}} className="  header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
-                  
-                    <p style={{fontWeight:"500"}} className='text-dark textJustify'>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
+                  <h3 style={{ fontSize: "18px" }} className="  header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
 
-                    <a href="/assesment" className="header"><button  style={{ background:"#37474f"}} className='btn text-light'>Click for More Information</button> </a>
+                  <p style={{ fontWeight: "500" }} className='text-dark textJustify'>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
 
-                 
+                  <Link to="/assesment" className="header"><button style={{ background: "#37474f" }} className='btn text-light'>Click for More Information</button> </Link>
+
+
 
 
 
                 </li>
-                <li style={{background:"#e9e3e0"}} className="card ">
+                <li style={{ background: "#e9e3e0" }} className="card ">
                   <img height="210px" width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxon_WBBZiXpR46nVYY7QYeNg7I_J82c1xUg&s" alt="" />
-                  <h3 style={{fontSize:"18px"}} className="  header" ><a href="/management"> Training (ICT Management)</a></h3>
-                      <p  className='text-dark textJustify' style={{fontWeight:"500"}} >“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
+                  <h3 style={{ fontSize: "18px" }} className="  header" ><a href="/management"> Training (ICT Management)</a></h3>
+                  <p className='text-dark textJustify' style={{ fontWeight: "500" }} >“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
 
-                   <a className="header " href="/management"  ><button style={{ background:"#37474f"}} className='btn btn text-light'>Click for More Information</button> </a>
+                  <Link className="header " to="/management"  ><button style={{ background: "#37474f" }} className='btn btn text-light'>Click for More Information</button> </Link>
 
-                 </li>
+                </li>
 
-                <li  style={{background:"#e9e3e0"}} className="card">
+                <li style={{ background: "#e9e3e0" }} className="card">
                   <img height="210px" width="100%" src="https://img.freepik.com/free-vector/cyber-security-concept_53876-90451.jpg" alt="" />
-                  <h3 style={{fontSize:"18px"}} className="  header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
-            
-                    <p  style={{fontWeight:"500"}} className='text-dark textJustify'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
+                  <h3 style={{ fontSize: "18px" }} className="  header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
 
-                    <a href="/Customized" className="header"><button style={{ background:"#37474f"}}  className='btn text-light'>Click for  More Information</button> </a>
+                  <p style={{ fontWeight: "500" }} className='text-dark textJustify'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
 
-        
+                  <Link to="/Customized" className="header"><button style={{ background: "#37474f" }} className='btn text-light'>Click for  More Information</button> </Link>
+
+
 
 
 
@@ -277,7 +278,7 @@ function TrainingBody() {
 
           {/* <img id='prelC' src="/images/c.svg" width="100" height="100" alt="loading" /> */}
 
-          <h1 style={{color:"#37474f"}} className=' text-center my-5'>ICT Professional(s) will be benefited with our Track choosing mind-map. </h1>
+          <h1 style={{ color: "#37474f" }} className=' text-center my-5'>ICT Professional(s) will be benefited with our Track choosing mind-map. </h1>
 
           <div class="main">
 
@@ -355,7 +356,7 @@ function TrainingBody() {
                 </div>
               </div>
 
-              <div s  id="map-key-1" class="pure-menu pure-menu-horizontal">
+              <div s id="map-key-1" class="pure-menu pure-menu-horizontal">
                 <ul class="pure-menu-list">
                   <li class="pure-menu-item">
                     <div class="circle" style={{ backgroundColor: "#408AE1" }}></div> Entry level
@@ -369,9 +370,9 @@ function TrainingBody() {
                 </ul>
               </div>
               <br />
-              <div style={{border :"1px solid black" ,padding:"10px", width:"102%"}}>
-              <div  style={{ fontSize: "30px" }} id="sankey"></div>
-              <div style={{ fontSize: "30px" }} class='clear'></div>
+              <div style={{ border: "1px solid black", padding: "10px", width: "102%" }}>
+                <div style={{ fontSize: "30px" }} id="sankey"></div>
+                <div style={{ fontSize: "30px" }} class='clear'></div>
 
               </div>
               <br /><br />
@@ -409,8 +410,8 @@ function TrainingBody() {
 
             </div>
             <Slider {...settings}>
-            <div className="item">
-                <div style={{background:"#e9e3e0"}} className="card">
+              <div className="item">
+                <div style={{ background: "#e9e3e0" }} className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Photo1.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation"> Dr. Touhid Bhuiyan
@@ -422,7 +423,7 @@ function TrainingBody() {
               </div>
 
               <div className="item">
-                <div style={{background:"#e9e3e0"}} className="card">
+                <div style={{ background: "#e9e3e0" }} className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Shamim-PP.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation">Md. Shamim Al Mamun
@@ -434,7 +435,7 @@ function TrainingBody() {
               </div>
 
               <div className="item">
-                <div style={{background:"#e9e3e0"}} className="card">
+                <div style={{ background: "#e9e3e0" }} className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation"> Mohammad Tohidur Rahman Bhuiyan
@@ -446,7 +447,7 @@ function TrainingBody() {
               </div>
 
               <div className="item">
-                <div style={{background:"#e9e3e0"}} className="card">
+                <div style={{ background: "#e9e3e0" }} className="card">
                   <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Rokanuzzaman.jpeg" alt="" /></a>
                   <div className="service-card-three__content">
                     <h4 className="pt-3"><a href="/consultation">Md. Rokanuzzaman
@@ -460,13 +461,13 @@ function TrainingBody() {
 
             </Slider>
 
- 
+
           </div>
         </section>
 
-        <ServiceBody/>
-        <Partner/>
-        <Associaltion/>
+        <ServiceBody />
+        <Partner />
+        <Associaltion />
 
         <div>
           <div className="container">
