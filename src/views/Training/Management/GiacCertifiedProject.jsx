@@ -27,7 +27,7 @@ function GiacCertifiedProject() {
               <div className="blog-details__content">
                 <p>
                   The GIAC Certified Project Manager (GCPM) certification validates a practitioner's knowledge of technical project management methodology and implementation. GCPM certification holders have demonstrated the critical skill sets associated with making projects successful, including effective communication and time, cost, quality, procurement, and risk management of IT projects and application development.  </p>
-                <img className='training-images' src="/assets/images/training/GCPM.png" alt="" />
+                <img className='training-images' src="/assets/images/training/GCPM.webp" alt="" />
               </div>
 
 

@@ -29,7 +29,7 @@ function CertifiedThreat() {
               <div className="blog-details__content">
                 <p>
                   Right Time Limited offers a preparatory training course for the Threat Intelligence Analyst certification by EC-Council. This course equips participants with the essential knowledge and skills to analyze, interpret, and respond to cybersecurity threats effectively. Covering topics such as threat landscape analysis, threat intelligence platforms, and threat actor profiling, this course prepares individuals for a career as a threat intelligence analyst in the cybersecurity industry. </p>
-                <img className='training-images' src="/assets/images/training/CTIA.png" alt="" />
+                <img className='training-images' src="/assets/images/training/CTIA.jpg" alt="" />
               </div>
 
 

@@ -30,7 +30,7 @@ function Offensive() {
               <div className="blog-details__content">
                 <p>
                   The detailed information about the preparatory training course offered by Right Time Limited for the "Offensive Security Certified Professional (OSCP)" certification by Offensive Security:                  <br />
-                  <img className='training-images' src="/assets/images/training/oscp.jpg" alt="oscp" />
+                  <img className='training-images' src="/assets/images/training/oscp.webp" alt="oscp" />
                 </p>
               </div>
 

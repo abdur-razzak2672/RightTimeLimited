@@ -27,7 +27,7 @@ function CertifiedInformationSecurity() {
               <h3 className="blog-card-one__title blog-details__title changeColor">Certified Information security Manager (CISM)</h3>
               <div className="blog-details__content">
                 <p>The Certified Information Security Manager (CISM) course is designed for professionals who are responsible for managing, designing, and overseeing an enterprise's information security program. The course covers essential concepts related to information risk management, information security governance, incident response, and cybersecurity strategies. CISM certification is globally recognized and demonstrates a candidate's expertise in information security management and governance.</p>
-                <img className='training-images' src="/assets/images/training/CISM.jpg" alt="" />
+                <img className='training-images' src="/assets/images/training/CISM.png" alt="" />
               </div>
 
 
@@ -42,47 +42,47 @@ function CertifiedInformationSecurity() {
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
                   <i className="bi-list-check nav-icon"></i>Course Overview:
                 </a>
               </li>
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link  " onClick={() => setTabIndex(2)} href="javascript:void(0)" >
                   <i className="bi-list-check nav-icon"></i>Course Highlight
                 </a>
               </li>
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link" onClick={() => setTabIndex(3)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Schedule
                 </a>
               </li>
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link" onClick={() => setTabIndex(4)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Price
                 </a>
               </li>
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Training Format
                 </a>
               </li>
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link" onClick={() => setTabIndex(6)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i>Exam Information
                 </a>
               </li>
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link" onClick={() => setTabIndex(7)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Registration
                 </a>
               </li>
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link" onClick={() => setTabIndex(8)} href="javascript:void(0)" >
                   <i className="bi-file-arrow-up nav-icon"></i> How to Prepare
                 </a>
               </li>
-              <li className="nav-item hover-nav-items">
+              <li className="nav-item">
                 <a className="nav-link" onClick={() => setTabIndex(9)} href="javascript:void(0)" >
                   <i className="bi-file-arrow-up nav-icon"></i> Certification Maintenance:
 

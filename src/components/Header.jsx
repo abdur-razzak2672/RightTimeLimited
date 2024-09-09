@@ -1406,9 +1406,9 @@ function Header() {
             </li>
 
             <li className="dropdown serviceNav2 steps-sampling">
-              <Link to="/training" className="dropbtn1z">
+              <a href="/training" className="dropbtn1z">
                 Training
-              </Link>
+              </a>
               <div
                 style={{ left: "-630px", minWidth: "1000px", height: "530px" }}
                 className=" dropdown-content"

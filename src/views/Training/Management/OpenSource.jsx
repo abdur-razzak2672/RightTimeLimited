@@ -38,7 +38,6 @@ function OpenSource() {
                   Course Overview:<br />
                   The Open Source Intelligence (OSINT) course provides individuals with the knowledge and skills to effectively collect and analyze information from publicly available sources on the internet. OSINT is a crucial component of cybersecurity and intelligence gathering, helping organizations and individuals make informed decisions, identify potential risks, and understand the threat landscape. The course covers various OSINT techniques, tools, and methodologies to conduct comprehensive research and extract valuable insights from online sources.
                 </p>
-                <img className='training-images' src="/assets/images/training/OSINT.png" alt="" />
               </div>
 
 
