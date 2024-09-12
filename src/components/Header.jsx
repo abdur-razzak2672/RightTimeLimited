@@ -512,7 +512,7 @@ function Header() {
                 {" "}
                 Services
               </Link>
-              <div style={{height: "650px"}} className="dropdown-content">
+              <div style={{ height: "650px" }} className="dropdown-content">
                 <Container className="mt-4">
                   <Row>
                     <Col md={3}
@@ -1426,7 +1426,7 @@ function Header() {
                         Certified Penetration Testing Professional (CPENT)
                       </a>
                       <a className="mt-3" href="/Offensive">
-                     	Offensive Security Certified Professional (OSCP)                      </a>
+                        Offensive Security Certified Professional (OSCP)                      </a>
                       <a className="mt-3" href="/certified-information">
                         Certified Information system Auditor (CISA)
                       </a>
@@ -1434,10 +1434,10 @@ function Header() {
                         Computer Hacking Forensic Investigation (Custom)
                       </a>
                       <a className="mt-2" href="/giac-penetration">
-                      GIAC Penetration Testing (GPEN)
+                        GIAC Penetration Testing (GPEN)
                       </a>
                       <a className="mt-2" href="/giac-web-application">
-                      GIAC Web Application Penetration Testing (GWAPT)                      </a>
+                        GIAC Web Application Penetration Testing (GWAPT)                      </a>
 
                     </Col>
 
@@ -1449,19 +1449,19 @@ function Header() {
                         Management
                       </a>
                       <a className="mt-3" href="/practical-hacker">
-                      Certified Ethical Hacking (CEH)
+                        Certified Ethical Hacking (CEH)
                       </a>
 
                       <a className="mt-2" href="/certified-disaster">
-                      Certified Disaster Recovery Professional (EDRP)
+                        Certified Disaster Recovery Professional (EDRP)
                       </a>
 
                       <a className="mt-2" href="/certified-incident-handler">
-                      	Certified Incident Handler (ECIH)
+                        Certified Incident Handler (ECIH)
                       </a>
 
                       <a className="mt-2" href="/certified-soc-analyst">
-                      Certified SOC Analyst (CSA)
+                        Certified SOC Analyst (CSA)
                       </a>
 
                       <a
@@ -1534,12 +1534,12 @@ function Header() {
                           </a>
                         </span>
                       </a>
-                      
+
 
                       <a className="mt-3 divClass" href="/basic-corporate?title=network-defense&id=2">
                         Network Defense and Operations - (Corporate)
                         <i className="fas fa-caret-right "></i>
-                        <span style={{top:"-160px"}} className="AnchorHide">
+                        <span style={{ top: "-160px" }} className="AnchorHide">
                           <a href="/basic-corporate">Basic</a>
                           <a href="/basic-corporate?title=certified-network&id=2" className="mx-3">
                             {" "}
@@ -1577,7 +1577,7 @@ function Header() {
                       <a className="mt-3 divClass" href="/basic-corporate?title=software-security&id=3">
                         Software Security - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
-                        <span style={{top:"-260px"}} className="AnchorHide">
+                        <span style={{ top: "-260px" }} className="AnchorHide">
                           <a href="/basic-corporate">Basic</a>
                           <a href="/basic-corporate?title=certified-secure&id=3" className="mx-3">
                             {" "}
@@ -1616,7 +1616,7 @@ function Header() {
                       <a className="mt-3 divClass" href="/basic-corporate?title=vapt&id=4">
                         Vulnerability Assessment & Penetration Testing (VA & PT)
                         - (Corporate) <i className="fas fa-caret-right "></i>
-                        <span style={{top:"-360px"}} className="AnchorHide">
+                        <span style={{ top: "-360px" }} className="AnchorHide">
                           <a href="/basic-corporate?title=certified&id=1">Basic</a>
                           <a href="/basic-corporate?title=certified-ethical&id=4" className="mx-3">
                             {" "}
@@ -1664,7 +1664,7 @@ function Header() {
                       <a className="mt-3 divClass" href="/basic-corporate?title=cyber-forensic&id=5">
                         Cyber Forensic - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
-                        <span style={{top:"-360px"}} className="AnchorHide">
+                        <span style={{ top: "-360px" }} className="AnchorHide">
                           <a href="/basic-corporate">Basic</a>
                           <a href="/basic-corporate?title=certified-ethical&id=5" className="mx-3">
                             {" "}
@@ -1702,7 +1702,7 @@ function Header() {
                       <a className="mt-3 divClass" href="/basic-corporate?title=governance&id=6">
                         Governance - (Corporate){" "}
                         <i className="fas fa-caret-right "></i>
-                        <span  style={{height:"460px",   top: "-200px"}} className="AnchorHide">
+                        <span style={{ height: "460px", top: "-200px" }} className="AnchorHide">
                           <a href="/basic-corporate?title=certified-cheif&id=6">
                             {" "}
                             Certified Chief Information Security Officer (CCISO)
@@ -1730,7 +1730,7 @@ function Header() {
                     </li>
                     <li>
                       <a href="/Offensive">
-                         Offensive Security Certified Professional (OSCP)
+                        Offensive Security Certified Professional (OSCP)
                       </a>
                     </li>
                     <li>
@@ -2321,8 +2321,8 @@ function Header() {
 
 
 
-             <li className="dropdown serviceNav2 steps-sampling">
-             <Link className="dropbtn1z" to="/resources">Resources</Link>
+            <li className="dropdown serviceNav2 steps-sampling">
+              <Link className="dropbtn1z" to="/resources">Resources</Link>
 
               <div
                 style={{ left: "-50px", minWidth: "250px", height: "370px" }}
@@ -2330,49 +2330,49 @@ function Header() {
               >
                 <Container className="mt-4">
                   <Row>
-                    
+
 
                     <Col>
-                   <Link className="mt-2  divClass" to="/blogs">	Blogs</Link>
-               
-                  <Link className="mt-2  divClass" to="/case-studies">
-                    Case Studies
-                  </Link>
-                 
-                  <Link className="mt-2  divClass"  to="/Checklists">
-                    Checklists
-                  </Link>
-                
-                  <Link className="mt-2  divClass"
-                     to="/WhitePapers"
-                  >
-                    WhitePapers
-                  </Link>
-                 
-                  <Link className="mt-2  divClass"  to="/Infographics">
-                    Infographics
-                  </Link>
-               
-                  <Link className="mt-2  divClass" to="/DataSheets"> 	DataSheets</Link>
-                 
-                  <Link className="mt-2  divClass"  to="/Webinars"> 	Webinars</Link>
-                        
+                      <Link className="mt-2  divClass" to="/blogs">	Blogs</Link>
+
+                      <Link className="mt-2  divClass" to="/case-studies">
+                        Case Studies
+                      </Link>
+
+                      <Link className="mt-2  divClass" to="/Checklists">
+                        Checklists
+                      </Link>
+
+                      <Link className="mt-2  divClass"
+                        to="/WhitePapers"
+                      >
+                        WhitePapers
+                      </Link>
+
+                      <Link className="mt-2  divClass" to="/Infographics">
+                        Infographics
+                      </Link>
+
+                      <Link className="mt-2  divClass" to="/DataSheets"> 	DataSheets</Link>
+
+                      <Link className="mt-2  divClass" to="/Webinars"> 	Webinars</Link>
+
 
 
                       <a className="mt-2  divClass" href="/basic-corporate">
-                      Documents
+                        Documents
                         <i className="fas fa-caret-right  mx-3"></i>
                         <span style={{ left: "200px" }} className="AnchorHide">
                           <a href="/basic-corporate">
-                          Guidance
+                            Guidance
                           </a>
 
                           <Link to="/basic-corporate">
-                          Glossary
+                            Glossary
                           </Link>
 
                           <Link to="/basic-corporate">
-                          Standard
+                            Standard
 
                           </Link>
 
@@ -2382,9 +2382,9 @@ function Header() {
 
                           <Link to="/basic-corporate"> Rules & gulation</Link>
 
-                         </span>
+                        </span>
                       </a>
-                      <Link className="mt-2  divClass"  to="/basic-corporate"> 	Reports</Link>
+                      <Link className="mt-2  divClass" to="/basic-corporate"> 	Reports</Link>
 
                     </Col>
                   </Row>

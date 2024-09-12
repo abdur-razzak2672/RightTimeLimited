@@ -23,10 +23,11 @@ function GiacCertifiedProject() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">GIAC Certified Project Manager (GCPM)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">GIAC Certified Project Manager (GCPM)</h3>
               <div className="blog-details__content">
                 <p>
                   The GIAC Certified Project Manager (GCPM) certification validates a practitioner's knowledge of technical project management methodology and implementation. GCPM certification holders have demonstrated the critical skill sets associated with making projects successful, including effective communication and time, cost, quality, procurement, and risk management of IT projects and application development.  </p>
+                <img className='training-images' src="/assets/images/training/GCPM.webp" alt="" />
               </div>
 
 
@@ -37,51 +38,51 @@ function GiacCertifiedProject() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
                   <i className="bi-list-check nav-icon"></i>Course Overview:
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link  " onClick={() => setTabIndex(2)} href="javascript:void(0)" >
                   <i className="bi-list-check nav-icon"></i>Course Highlight
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(3)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Schedule
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(4)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Price
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Training Format
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(6)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i>Exam Information
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(7)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Registration
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(8)} href="javascript:void(0)" >
                   <i className="bi-file-arrow-up nav-icon"></i> How to Prepare
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(9)} href="javascript:void(0)" >
                   <i className="bi-file-arrow-up nav-icon"></i> Certification Maintenance:
 

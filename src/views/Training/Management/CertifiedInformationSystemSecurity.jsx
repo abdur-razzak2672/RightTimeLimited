@@ -25,10 +25,11 @@ function CertifiedInformationSystemSecurity() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Certified Information System Security Professional (CISSP)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor">Certified Information System Security Professional (CISSP)</h3>
               <div className="blog-details__content">
                 <p>
                   The Certified Information Systems Security Professional (CISSP) training offered by Right Time Limited prepares individuals for one of the most globally recognized certifications in the field of cybersecurity. The course covers essential topics such as security and risk management, asset security, security architecture and engineering, communication and network security, identity and access management, security assessment and testing, security operations, and software development security. </p>
+                <img className='training-images' src="/assets/images/training/CISSP.png" alt="" />
               </div>
 
 
@@ -39,7 +40,7 @@ function CertifiedInformationSystemSecurity() {
           </div>
         </div>
       </section>
-      <div style={{ marginLeft: "50px" ,marginTop:"40px" }}>
+      <div style={{ marginLeft: "50px", marginTop: "40px" }}>
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">

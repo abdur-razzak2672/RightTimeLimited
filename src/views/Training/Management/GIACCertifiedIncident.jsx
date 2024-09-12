@@ -25,11 +25,12 @@ function GIACCertifiedIncident() {
             <div className="col-lg-7">
 
 
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">GIAC Certified Incident Handler
+              <h3 className="blog-card-one__title blog-details__title changeColor">GIAC Certified Incident Handler
                 (GCIH)</h3>
               <div className="blog-details__content">
                 <p>
                   The GIAC Certified Incident Handler (GCIH) certification is designed for professionals who are responsible for detecting, responding to, and resolving cybersecurity incidents within their organizations. The course covers essential topics related to incident handling, including incident response methodologies, malware analysis, network forensics, and intrusion detection. GCIH certification demonstrates a candidate's competence in incident handling and response to cybersecurity incidents effectively. </p>
+                <img className='training-images' src="/assets/images/training/GCIH.png" alt="" />
               </div>
 
 
@@ -44,47 +45,47 @@ function GIACCertifiedIncident() {
         <div>
           <div>
             <ul className="nav nav-sm nav-tabs nav-vertical mb-4 steps-sampling">
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link active" onClick={() => setTabIndex(1)} id="link1" href="javascript:void(0)" >
                   <i className="bi-list-check nav-icon"></i>Course Overview :
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link  " onClick={() => setTabIndex(2)} href="javascript:void(0)" >
                   <i className="bi-list-check nav-icon"></i>Course Highlight
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(3)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Schedule
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(4)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Price
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(5)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Training Format
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(6)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i>Exam Information
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(7)} href="javascript:void(0)" >
                   <i className="bi-sort-numeric-down nav-icon"></i> Registration
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(8)} href="javascript:void(0)" >
                   <i className="bi-file-arrow-up nav-icon"></i> How to Prepare
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item hover-nav-items">
                 <a className="nav-link" onClick={() => setTabIndex(9)} href="javascript:void(0)" >
                   <i className="bi-file-arrow-up nav-icon"></i> Certification Maintenance:
 
