@@ -25,7 +25,7 @@ function CertifiedIncidentHandler() {
             <div className="col-lg-7">
 
 
-              <h3 className="blog-card-one__title blog-details__title changeColor">Incident Handler (Custom)</h3>
+              <h3 className="blog-card-one__title blog-details__title changeColor"> Handler (Custom)</h3>
               <div className="blog-details__content">
                 <p>
                   The Incident Handler course is designed to equip cybersecurity professionals with the knowledge and skills required to effectively handle and respond to security incidents in an organization. The course focuses on incident detection, analysis, containment, eradication, and recovery. Participants will learn incident handling best practices, tools, and techniques to mitigate the impact of security incidents and protect critical assets.                    <br />

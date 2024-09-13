@@ -5,7 +5,7 @@ import { customizedData } from '../trainingData'
 function CustomizedNav() {
   return (
     <div className=' '>
-       <div className='d-flex justify-content-between'>
+      <div className='d-flex justify-content-between'>
         <div style={{ width: "140px" }} className=' servicesItem1'>
           <Link to="/assesment"  >
             Assesment
@@ -51,4 +51,4 @@ function CustomizedNav() {
   )
 }
 
-export default CustomizedNav
+export default CustomizedNav;
