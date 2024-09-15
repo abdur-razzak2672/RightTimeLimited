@@ -24,7 +24,70 @@ function AssessmentAndPenetrationTesting() {
                         <div className="col-lg-7">
 
 
-                            <h3>AssessmentAndPenetrationTesting</h3>
+                            <div className="vapt-container">
+                                <div className="vapt-sub-container vapt-sub-container-1">
+                                    <div className="vapt-inner-container">
+
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p>Certification</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div className="vapt-rectangle-box">
+                                            <p>Program</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="vapt-sub-container vapt-sub-container-2">
+                                    <div className="vapt-inner-container">
+
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p>CND</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div className="vapt-rectangle-box">
+                                            <p>Program</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="vapt-sub-container vapt-sub-container-3">
+                                    <div className="vapt-inner-container">
+
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p>CEH</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div className="vapt-rectangle-box">
+                                            <p>Program</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="vapt-sub-container vapt-sub-container-4">
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p>LPT</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p>CPENT</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div className="vapt-rectangle-box">
+                                            <p>Program</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                         <div className="col-lg-5 mt-5">

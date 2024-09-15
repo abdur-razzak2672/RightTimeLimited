@@ -24,7 +24,56 @@ function CyberForensic() {
                         <div className="col-lg-7">
 
 
-                            <h3>CyberForensic page</h3>
+                            <div className="dipt-container">
+                                <div className="dipt-box dipt-box1">
+                                    <div className="dipt-inner-box inner-box1">
+                                        <p className='inner-box1-p'>ESCA </p>
+                                        <p className='number-box1'>412-79</p>
+                                    </div>
+                                    <div className="dipt-inner-box inner-box2">
+                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                    </div>
+                                </div>
+
+                                <div className="ndo-page-second-part-container dipt-box dipt-box2">
+                                    <div className='ndo-page-inner-box'>
+                                        <div className=" dipt-inner-box inner-box1">
+                                            <p className='inner-box1-p'>ESCA </p>
+                                            <p className='number-box1'>412-79</p>
+                                        </div>
+                                        <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
+                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        </div>
+                                    </div>
+                                    <div className='ndo-page-inner-box'>
+                                        <div className="dipt-inner-box inner-box1">
+                                            <p className='inner-box1-p'>ESCA </p>
+                                            <p className='number-box1'>412-79</p>
+                                        </div>
+                                        <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
+                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className='ndo-second-div-container'>
+                                <div className='ndo-scond-div dipt-box1'>
+                                    <p className='ndo-second-div-p'>Network Defense and Operations</p>
+                                </div>
+                                <div className='ndo-scond-div dipt-box2'>
+                                    <p className='ndo-second-div-p'>Network Defense and Operations</p>
+                                </div>
+                            </div>
+
+                            <div className='ndo-third-div-container'>
+                                <div className='third-div-cyberforensic ndo-third-box-1'>
+                                    <p className='ndo-third-div-p'>CORE</p>
+                                </div>
+                                <div className='third-div-cyberforensic ndo-third-box-2'>
+                                    <p className='ndo-third-div-p'>ADVANCED</p>
+                                </div>
+                            </div>
 
                         </div>
                         <div className="col-lg-5 mt-5">
