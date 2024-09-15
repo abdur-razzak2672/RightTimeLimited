@@ -23,7 +23,7 @@ function GovernanceCorporate() {
                     <div className="row">
                         <div className="col-lg-7">
 
-                            <div className="governance-raci-diagram">
+                            <div className="governance-raci-diagram dipt-container">
 
                                 <div className="governance-central-circle">CISO</div>
                                 <div className="governance-outer-circle governance-outer-circle-1 governance-mini-circles">Responsible</div>
