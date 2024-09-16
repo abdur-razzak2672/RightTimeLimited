@@ -9390,7 +9390,6 @@ screen and (min-width: 40em) {
 .dipt-container {
   display: flex;
   align-items: center;
-  margin-top: 48px;
 }
 
 
@@ -9518,12 +9517,11 @@ screen and (min-width: 40em) {
 .vapt-container {
   display: flex;
   align-items: center;
-  margin-top: 48px;
   justify-content: space-between;
 }
 
 .vapt-sub-container {
-  height: 430px;
+  height: 420px;
   width: 300px;
   margin: 0 3px;
   border-radius: 10px;
@@ -9564,6 +9562,17 @@ screen and (min-width: 40em) {
   line-height: 150px;
   margin-top: 3px;
   border: 1px solid black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.vapt-boxs-info1 {
+  margin: 0px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.vapt-boxs-info2 {
+  font-weight: 600;
 }
 
 .vapt-rectangle-box {
@@ -9580,6 +9589,7 @@ screen and (min-width: 40em) {
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 

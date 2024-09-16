@@ -23,7 +23,7 @@ function AssessmentAndPenetrationTesting() {
                     <div className="row">
                         <div className="col-lg-7">
 
-
+                            <h3 className='blog-card-one__title blog-details__title changeColor'>Vulnerability Assessment & Penetration Testing (VA & PT) - (Corporate)</h3>
                             <div className="vapt-container">
                                 <div className="vapt-sub-container vapt-sub-container-1">
                                     <div className="vapt-inner-container">
@@ -31,7 +31,7 @@ function AssessmentAndPenetrationTesting() {
                                     </div>
                                     <div className="vapt-inner-container">
                                         <div class="vapt-circle-box">
-                                            <p>Certification</p>
+                                            <p className='vapt-boxs-info2'>Certification</p>
                                         </div>
                                     </div>
                                     <div className="vapt-inner-container">
@@ -46,12 +46,12 @@ function AssessmentAndPenetrationTesting() {
                                     </div>
                                     <div className="vapt-inner-container">
                                         <div class="vapt-circle-box">
-                                            <p>CND</p>
+                                            <p className='vapt-boxs-info1'>CND</p>
                                         </div>
                                     </div>
                                     <div className="vapt-inner-container">
                                         <div className="vapt-rectangle-box">
-                                            <p>Program</p>
+                                            <p>Network Defense</p>
                                         </div>
                                     </div>
                                 </div>
@@ -61,29 +61,30 @@ function AssessmentAndPenetrationTesting() {
                                     </div>
                                     <div className="vapt-inner-container">
                                         <div class="vapt-circle-box">
-                                            <p>CEH</p>
+                                            <p className='vapt-boxs-info1'>CEH</p>
                                         </div>
                                     </div>
                                     <div className="vapt-inner-container">
                                         <div className="vapt-rectangle-box">
-                                            <p>Program</p>
+                                            <p>Ethical Hacking</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="vapt-sub-container vapt-sub-container-4">
                                     <div className="vapt-inner-container">
                                         <div class="vapt-circle-box">
-                                            <p>LPT</p>
+                                            <p className='vapt-boxs-info2'>LPT</p>
                                         </div>
                                     </div>
                                     <div className="vapt-inner-container">
                                         <div class="vapt-circle-box">
-                                            <p>CPENT</p>
+                                            <p className='vapt-boxs-info1'>CPENT </p>
+
                                         </div>
                                     </div>
                                     <div className="vapt-inner-container">
                                         <div className="vapt-rectangle-box">
-                                            <p>Program</p>
+                                            <p>Penetration Testing</p>
                                         </div>
                                     </div>
                                 </div>

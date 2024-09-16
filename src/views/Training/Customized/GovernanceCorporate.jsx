@@ -22,7 +22,7 @@ function GovernanceCorporate() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7">
-
+                            <h3 className='blog-card-one__title blog-details__title changeColor'>Governance - (Corporate)</h3>
                             <div className="governance-raci-diagram dipt-container">
 
                                 <div className="governance-central-circle">CISO</div>

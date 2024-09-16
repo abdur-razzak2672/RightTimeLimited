@@ -22,7 +22,7 @@ function SoftwareSecurity() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7">
-
+                            <h3 className='blog-card-one__title blog-details__title changeColor'>Software Security - (Corporate)</h3>
 
                             <div className="dipt-container">
                                 <div className="ndo-page-second-part-container dipt-box dipt-box1">

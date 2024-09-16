@@ -22,6 +22,7 @@ function FoundationTrack() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 ">
+                            <h3 className='blog-card-one__title blog-details__title changeColor'>Foundation track - (Corporate)</h3>
                             <div className="dipt-container">
                                 <div className="dipt-box dipt-box1">
                                     <div className="dipt-inner-box inner-box1">
