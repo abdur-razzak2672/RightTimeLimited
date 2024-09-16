@@ -22,9 +22,16 @@ function GovernanceCorporate() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7">
+                            <h3 className='blog-card-one__title blog-details__title changeColor'>Governance - (Corporate)</h3>
+                            <div className="governance-raci-diagram dipt-container">
 
-
-                            <h3>governance-corporate page</h3>
+                                <div className="governance-central-circle">CISO</div>
+                                <div className="governance-outer-circle governance-outer-circle-1 governance-mini-circles">Responsible</div>
+                                <div className="governance-outer-circle governance-outer-circle-2 governance-mini-circles">Accountable</div>
+                                <div className="governance-outer-circle governance-outer-circle-3 governance-mini-circles">Consulted</div>
+                                <div className="governance-outer-circle governance-outer-circle-4 governance-mini-circles">Informed</div>
+                                <div className="governance-outer-circle governance-outer-circle-5 governance-mini-circles">Responsible</div>
+                            </div>
 
                         </div>
                         <div className="col-lg-5 mt-5">

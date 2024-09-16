@@ -22,10 +22,75 @@ function SoftwareSecurity() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7">
+                            <h3 className='blog-card-one__title blog-details__title changeColor'>Software Security - (Corporate)</h3>
 
+                            <div className="dipt-container">
+                                <div className="ndo-page-second-part-container dipt-box dipt-box1">
+                                    <div className='ndo-page-inner-box'>
+                                        <div className=" dipt-inner-box inner-box1">
+                                            <p className='inner-box1-p'>ESCA </p>
+                                            <p className='number-box1'>412-79</p>
+                                        </div>
+                                        <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
+                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        </div>
+                                    </div>
+                                    <div className='ndo-page-inner-box'>
+                                        <div className="dipt-inner-box inner-box1">
+                                            <p className='inner-box1-p'>ESCA </p>
+                                            <p className='number-box1'>412-79</p>
+                                        </div>
+                                        <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
+                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <h3>SoftwareSecurity</h3>
+                                <div className="ndo-page-second-part-container dipt-box dipt-box2">
+                                    <div className='ndo-page-inner-box'>
+                                        <div className=" dipt-inner-box inner-box1">
+                                            <p className='inner-box1-p'>ESCA </p>
+                                            <p className='number-box1'>412-79</p>
+                                        </div>
+                                        <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
+                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        </div>
+                                    </div>
+                                    <div className='ndo-page-inner-box'>
+                                        <div className="dipt-inner-box inner-box1">
+                                            <p className='inner-box1-p'>ESCA </p>
+                                            <p className='number-box1'>412-79</p>
+                                        </div>
+                                        <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
+                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        </div>
+                                    </div>
+                                    <div className='ndo-page-inner-box'>
+                                        <div className="dipt-inner-box inner-box1">
+                                            <p className='inner-box1-p'>ESCA </p>
+                                            <p className='number-box1'>412-79</p>
+                                        </div>
+                                        <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
+                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <div className="dipt-box dipt-box3">
+                                    <div className="dipt-inner-box inner-box1">
+                                        <p className='inner-box1-p'>ESCA </p>
+                                        <p className='number-box1'>412-79</p>
+                                    </div>
+                                    <div className="dipt-inner-box inner-box2">
+                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='ndo-third-div-container'>
+                                <div className='ndo-third-div ndo-third-box-1'><p className='ndo-third-div-p'>CORE</p></div>
+                                <div className='ndo-third-div ndo-third-box-2'><p className='ndo-third-div-p'>ADVANCED</p></div>
+                                <div className='ndo-third-div ndo-third-box-3'><p className='ndo-third-div-p'>EXPERT</p></div>
+                            </div>
                         </div>
                         <div className="col-lg-5 mt-5">
                             <CustomizedNav />

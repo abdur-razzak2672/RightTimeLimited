@@ -21,11 +21,40 @@ function FoundationTrack() {
             <section className="  section-padding--top">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7">
+                        <div className="col-lg-7 ">
+                            <h3 className='blog-card-one__title blog-details__title changeColor'>Foundation track - (Corporate)</h3>
+                            <div className="dipt-container">
+                                <div className="dipt-box dipt-box1">
+                                    <div className="dipt-inner-box inner-box1">
+                                        <p className='inner-box1-p'>ESCA </p>
+                                        <p className='number-box1'>412-79</p>
+                                    </div>
+                                    <div className="dipt-inner-box inner-box2">
+                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                    </div>
+                                </div>
 
+                                <div className="dipt-box dipt-box2">
+                                    <div className="dipt-inner-box inner-box1">
+                                        <p className='inner-box1-p'>ESCA </p>
+                                        <p className='number-box1'>412-79</p>
+                                    </div>
+                                    <div className="dipt-inner-box inner-box2">
+                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                    </div>
+                                </div>
 
+                                <div className="dipt-box dipt-box3">
+                                    <div className="dipt-inner-box inner-box1">
+                                        <p className='inner-box1-p'>ESCA </p>
+                                        <p className='number-box1'>412-79</p>
+                                    </div>
+                                    <div className="dipt-inner-box inner-box2">
+                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                    </div>
+                                </div>
 
-
+                            </div>
                         </div>
                         <div className="col-lg-5 mt-5">
                             <CustomizedNav />

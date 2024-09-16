@@ -23,8 +23,72 @@ function AssessmentAndPenetrationTesting() {
                     <div className="row">
                         <div className="col-lg-7">
 
+                            <h3 className='blog-card-one__title blog-details__title changeColor'>Vulnerability Assessment & Penetration Testing (VA & PT) - (Corporate)</h3>
+                            <div className="vapt-container">
+                                <div className="vapt-sub-container vapt-sub-container-1">
+                                    <div className="vapt-inner-container">
 
-                            <h3>AssessmentAndPenetrationTesting</h3>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p className='vapt-boxs-info2'>Certification</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div className="vapt-rectangle-box">
+                                            <p>Program</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="vapt-sub-container vapt-sub-container-2">
+                                    <div className="vapt-inner-container">
+
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p className='vapt-boxs-info1'>CND</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div className="vapt-rectangle-box">
+                                            <p>Network Defense</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="vapt-sub-container vapt-sub-container-3">
+                                    <div className="vapt-inner-container">
+
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p className='vapt-boxs-info1'>CEH</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div className="vapt-rectangle-box">
+                                            <p>Ethical Hacking</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="vapt-sub-container vapt-sub-container-4">
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p className='vapt-boxs-info2'>LPT</p>
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div class="vapt-circle-box">
+                                            <p className='vapt-boxs-info1'>CPENT </p>
+
+                                        </div>
+                                    </div>
+                                    <div className="vapt-inner-container">
+                                        <div className="vapt-rectangle-box">
+                                            <p>Penetration Testing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                         <div className="col-lg-5 mt-5">
