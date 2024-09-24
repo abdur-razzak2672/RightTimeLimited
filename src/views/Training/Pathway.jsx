@@ -36,7 +36,7 @@ function Pathway() {
         <div class="pure-u-1-2">
             <div class="pure-menu pure-menu-horizontal custom-can-transform menu-main menu-large">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="interactive-map" class="pure-menu-link ">Interactive map</a>
+                    <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link ">Interactive map</a>
                     </li>
                     <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link active">Career
                             pathway</a></li>
