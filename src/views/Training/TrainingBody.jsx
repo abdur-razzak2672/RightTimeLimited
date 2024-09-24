@@ -291,50 +291,16 @@ function TrainingBody() {
               <div class="pure-u-1-2">
                 <div class="pure-menu pure-menu-horizontal custom-can-transform menu-main menu-large">
                   <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="/interactive-map" class="pure-menu-link ">Interactive map</a>
+                    <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link ">Interactive map</a>
                     </li>
-                    <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link active">Career
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link active">Career
                       pathway</a>  </li>
-                    <li class="pure-menu-item"><a href="education-training" class="pure-menu-link">Education and Training Providers</a></li>
+                    <li class="pure-menu-item"><a href="/education-training" class="pure-menu-link">Education and Training Providers</a></li>
 
                   </ul>
                 </div>
               </div>
-              {/* <div class="pure-u-1-4" style={{textAlign: "right"}}>
-            <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
-                <ul class="pure-menu-list">
-                    <li class="pure-menu-item" style={{borderRight: "2px solid #F5F7F9"}}><a href="/about-us" class="pure-menu-link menu-large">About</a></li>
 
-                    <li class="pure-menu-item pure-menu-has-children">
-                        <a href="#" id="menuLink1" class="pure-menu-link menu-icon"><img width="21" height="21"
-                                src='images/menu.svg' alt="menu"/></a>
-                        <ul class="pure-menu-children">
-                            <li class="pure-menu-item">
-                                <a href="heatmap.html" class="pure-menu-link menu-small">Interactive map</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="pathway" class="pure-menu-link menu-small">Career pathway</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="training.html" class="pure-menu-link menu-small">Education and Training Providers</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="/about-us" class="pure-menu-link menu-small">About</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="index.html#whoIsThis" class="pure-menu-link">Who this tool is for</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="index.html#partners" class="pure-menu-link">Project partners</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a href="index.html#usefulLinks" class="pure-menu-link">Links</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div> */}
             </div>
 
             <div class='clear'></div>
@@ -342,8 +308,8 @@ function TrainingBody() {
               <br />
               <div class="pure-g">
                 <div class="pure-u-1-1 buttons" style={{ margin: "0, auto", textAlign: "center" }}>
-                  <a href="pathway" class="pure-button">Roles</a>
-                  <a href="training" class="pure-button pure-button-primary ml-1">Skills and Certifications</a>
+                  <a href="/pathway" class="pure-button">Roles</a>
+                  <a href="/training" class="pure-button pure-button-primary ml-1">Skills and Certifications</a>
                 </div>
               </div>
               <br />
@@ -370,7 +336,7 @@ function TrainingBody() {
                 </ul>
               </div>
               <br />
-              <div style={{ border: "1px solid black", padding: "10px", width: "102%" }}>
+              <div style={{ border: "2px solid #012e78", borderRadius: "10px", padding: "10px", width: "102%" }}>
                 <div style={{ fontSize: "30px" }} id="sankey"></div>
                 <div style={{ fontSize: "30px" }} class='clear'></div>
 
@@ -615,10 +581,6 @@ function TrainingBody() {
                     <option value="7">Referral</option>
                     <option value="8">Other</option>
 
-
-
-
-
                   </Form.Select>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGridAddress2">
@@ -634,63 +596,8 @@ function TrainingBody() {
             </div>
           </div>
 
-
         </div>
-
-
-
-        {/* <section className="section-padding--bottom section-padding--top">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-
-
-                <h3 className="blog-card-one__title blog-details__title text-center">Security Training</h3>
-                <div className="blog-details__content">
-                  <p className='text-dark mt-4'>At RightTime, we believe very strongly on training so that common mistakes which can open doors for
-                    vulnerabilities for the organizations can be eliminated. The purpose of providing good training is
-                    also to make sure our customers follow the best industry practices while performing any IT task.
-                    We provide training/ seminars to IT professionals and employees with access to sensitive information
-                    to better educate them about the risks of information security threats and how to prevent themselves
-                    from falling prey to ruses posed by competitors or malicious intruders. These training and or seminars
-                    are dedicated to preventing human error from undermining an otherwise robust information security
-                    infrastructure.<br /><br />
-
-                    Our training courses are associated with the present as well as the future need for the professional
-                    working in any IT-driven Organization or organization trying to achieve international recognition/
-                    certiﬁcation on Information System Governance, Compliance, Risk management, Security, Quality, Process
-                    or Environment, etc. Not only you earn knowledge, but you also head for a globally recognized qualiﬁcation.
-                    Our services in these areas are-<br /><br />
-
-                    •IT Security Corporate Programs like preparatory training of ITIL, CEH, CHFI, ECSA, LPT,
-                    Cyber Security & Cyber Forensic and Software Testing, etc.<br />
-
-                    •Skill Development in the area of Project Management and Data Center Operation e.g. ITIL, PRINCE2, and PMP<br />
-
-                    •Preparatory Training on CRISC, CGEIT, CISA, CISSP, CISM<br />
-                    •Training on IS Audits & IT Security.<br />
-
-                    •Training on Internal Audits which covers a wide range of activities like finance, systems,
-                    HR, Stock, processes, purchase, and marketing activities with a special emphasis on improving
-                    the skills of internal auditors, collecting evidence, sampling, interview, and presentation techniques.<br />
-
-
-                    •Technical Documentation Training (making IT Policy Workbook containing IT Security Policy,
-                    Standard Operation Procedures (SOP), BCP & DRP, etc.)<br />
-                  </p>
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                </div>
-
-
-              </div>
-              
-            </div>
-          </div>
-        </section>*/}<br /><br /><br />
+       <br /><br /><br />
       </div>
     </div>
   )
