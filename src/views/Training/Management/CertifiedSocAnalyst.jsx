@@ -373,7 +373,7 @@ function CertifiedSocAnalyst() {
           <ul className="thm-breadcrumb list-unstyled">
             <h2 className="text-light">Digital Badging</h2>
           </ul>
-          <p className="text-light">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
+          <p className="text-light dipt-breadcrump-paragraph ">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
         </div>
       </div>
 

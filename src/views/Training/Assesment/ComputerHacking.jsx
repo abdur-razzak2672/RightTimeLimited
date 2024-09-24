@@ -29,57 +29,10 @@ function ComputerHacking() {
               <h3 className="blog-card-one__title blog-details__title changeColor">Computer Hacking Forensic Investigator(CHFI)</h3>
               <div className="blog-details__content">
                 <p>
-                  The CHFI course provides hands-on training in real-world scenarios and prepares professionals to handle various challenges in computer forensics investigations. It is suitable for cybersecurity professionals, law enforcement personnel, IT managers, and anyone interested in a career in digital forensics. Upon successful completion of the course and passing the exam, participants earn the CHFI certification, demonstrating their expertise in computer forensics and incident response.                    <br />
+                  The CHFI course provides hands-on training in real-world scenarios and prepares professionals to handle various challenges in computer forensics investigations. It is suitable for cybersecurity professionals, law enforcement personnel, IT managers, and anyone interested in a career in digital forensics.                     <br />
                 </p>
-                <p className='mt-3'>
-                  Introduction to Computer Forensics:<br />
-                  Understanding the role and importance of computer forensics in investigating cybercrimes.
-                  Learning about the various types of cybercrimes and the impact of cyber threats on organizations.
-                  <br />
-                  Digital Evidence and Investigation Process:<br />
-                  Understanding digital evidence and its relevance in investigations.
-                  Learning the various steps involved in the investigation process, from identification to presentation of evidence.
-                  <br />
-                  Understanding File Systems and Hard Disks:<br />
-                  Gaining knowledge about different file systems and disk structures.
-                  Learning how to recover deleted files and extract evidence from hard disks.
-                  <br />
-                  Operating System Forensics:<br />
-                  Investigating and analyzing artifacts on different operating systems, such as Windows, Linux, and macOS.
-                  Identifying traces left by user activities, applications, and system processes.
-                  <br />
-                  Network Forensics:<br />
-                  Analyzing network traffic and capturing packets to identify suspicious activities.
-                  Investigating network attacks and intrusions to trace the origin and extent of the breach.
-                  <br />
-                  Investigating Web Attacks:<br />
-                  Understanding web application attacks and analyzing logs for evidence.
-                  Examining web server logs and identifying attacker activities.
-                  <br />
-                  Database Forensics:<br />
-                  Investigating database security breaches and unauthorized access to databases.
-                  Identifying anomalies and analyzing logs to trace database activities.
-                  <br />
-                  Cloud Forensics:<br />
-                  Understanding the challenges of conducting investigations in cloud environments.
-                  Learning about the methods to collect and preserve evidence from cloud platforms.
-                  <br />
-                  Malware Forensics:<br />
-                  Analyzing and investigating different types of malware and their behaviors.
-                  Extracting evidence related to malware infections and their impact on systems.
-                  <br />
-                  Mobile Forensics:<br />
-                  Investigating mobile devices and extracting evidence from smartphones and tablets.
-                  Identifying mobile security breaches and analyzing mobile applications.
-                  <br />
-                  Forensics Report Writing and Presentation:<br />
-                  Documenting the findings and presenting the investigation results effectively.
-                  Understanding the importance of clear and concise reporting in legal proceedings.
-
-                </p>
+                <img className='training-images' src="/assets/images/training/CHFI.png" alt="CHFI" />
               </div>
-
-
             </div>
             <div className="col-lg-5">
               <AssesmentNav />
@@ -429,7 +382,7 @@ function ComputerHacking() {
           <ul className="thm-breadcrumb list-unstyled">
             <h2 className="text-light">Digital Badging</h2>
           </ul>
-          <p className="text-light">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
+          <p className="text-light dipt-breadcrump-paragraph ">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
         </div>
       </div>
 
