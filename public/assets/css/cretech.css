@@ -9676,6 +9676,35 @@ screen and (min-width: 40em) {
     display: grid;
     grid-template-columns: repeat(1, 3fr);
   }
+
+  .page-header__title {
+    font-size: 28px;
+  }
+
+  .blog-card-one__title,
+  .blog-details__title {
+    font-size: 25px;
+  }
+
+  .blog-details__content p {
+    font-size: small;
+  }
+
+  .thm-breadcrumb h2 {
+    font-size: 25px;
+  }
+
+  .dipt-breadcrump-paragraph {
+    font-size: small;
+  }
+
+  .footer-widget__contact li,
+  .footer-widget__contact li a {
+    font-size: small;
+  }
+
+
+
 }
 
 @media screen and (min-device-width: 430px) and (max-device-width: 768px) {
