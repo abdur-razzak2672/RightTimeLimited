@@ -9702,9 +9702,6 @@ screen and (min-width: 40em) {
   .footer-widget__contact li a {
     font-size: small;
   }
-
-
-
 }
 
 @media screen and (min-device-width: 430px) and (max-device-width: 768px) {
@@ -9739,4 +9736,131 @@ screen and (min-width: 40em) {
     width: 100%;
     text-align: center;
   }
+}
+
+/* Services: Swift Cyber Security Consulting Page Styles */
+.swift-header-container {}
+
+.dipt-bg-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dipt-container-holder {
+  height: 400px;
+  width: 480px;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 50px 50px 50px 50px;
+  border-radius: 49px;
+  text-align: center;
+}
+
+.dipt-big-title {
+  font-size: 32px "Open Sans", "sans-serif";
+  font-weight: bolder;
+  color: #FF6633;
+}
+
+.dipt-paragraph {
+  margin-top: 35px;
+  color: #ACF9E9;
+  font-size: 22px "Poppins", "sans-serif";
+  margin-bottom: 60px;
+}
+
+.dipt-contact-btn {
+  color: #F7F3F0;
+  font-size: 18px;
+  background-color: #FF6633;
+  margin: 50px 0 0;
+  padding: 10px 30px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.dipt-contact-btn:hover {
+  color: #FF6633;
+  background-color: #F7F3F0;
+}
+
+.dipt-csp-container {
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+}
+
+.csp-building-blocks-container {
+  padding: 50px 50px 50px 50px;
+}
+
+.dipt-csp-security-title,
+.dipt-building-blocks-title {
+  color: #FF6633;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.dipt-csp-security-paragraph-one {
+  color: #333D3E;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.dipt-csp-security-paragraph-two {
+  color: #333D3E;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+.dipt-building-blocks-header-conatainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.building-blocks-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.building-blocks-page {
+  display: none;
+  padding: 20px;
+  border: 4px solid black;
+  border-radius: 25px;
+  background-color: #ACF9E9;
+  margin-top: 15px;
+}
+
+
+.activepage {
+  display: block;
+}
+
+.dipt-building-blocks-buttons {
+  padding: 15px 220px;
+  color: #333D3E;
+  background-color: #ACF9E9;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.dipt-building-blocks-buttons:hover {
+  color: #ACF9E9;
+  background-color: #333D3E;
+}
+
+.building-blocks-btn-p {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.building-blocks-page li {
+  font-size: 16px;
+  color: #333D3E;
+  font-weight: 500;
 }
