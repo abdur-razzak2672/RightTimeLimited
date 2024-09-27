@@ -9786,11 +9786,14 @@ screen and (min-width: 40em) {
 }
 
 .dipt-csp-container {
-  text-align: center;
   padding: 50px 50px 50px 50px;
 }
 
 .csp-building-blocks-container {
+  padding: 50px 50px 50px 50px;
+}
+
+.dipt-customer-security-framework-section-container {
   padding: 50px 50px 50px 50px;
 }
 
@@ -9799,9 +9802,21 @@ screen and (min-width: 40em) {
   color: #FF6633;
   font-size: 36px;
   font-weight: bolder;
+  text-align: center;
 }
 
-.dipt-csp-security-paragraph-one {
+.csp-security-p-container {
+  color: #333D3E;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.dipt-csp-security-paragraph {
+  margin: 0;
+}
+
+/* .dipt-csp-security-paragraph-one {
   color: #333D3E;
   margin-top: 50px;
   margin-bottom: 0;
@@ -9809,10 +9824,9 @@ screen and (min-width: 40em) {
 }
 
 .dipt-csp-security-paragraph-two {
-  color: #333D3E;
-  font-size: 16px;
+
   margin: 0;
-}
+} */
 
 
 .dipt-building-blocks-header-conatainer {
@@ -9826,6 +9840,11 @@ screen and (min-width: 40em) {
   justify-content: center;
 }
 
+.architecture-buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .building-blocks-page {
   display: none;
   padding: 20px;
@@ -9835,9 +9854,43 @@ screen and (min-width: 40em) {
   margin-top: 15px;
 }
 
+.swift-architecture-page {
+  display: none;
+}
+
+.dipt-architecture-buttons {
+  padding: 15px 125px;
+  color: #333D3E;
+  background-color: #ACF9E9;
+  font-size: 22px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+  border: none;
+}
+
+.dipt-architecture-buttons:hover {
+  color: #ACF9E9;
+  background-color: #333D3E;
+}
 
 .activepage {
   display: block;
+}
+
+.swift-architecture-data-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dipt-architecture-content-parent {
+  margin-top: 10px;
+  padding: 50px;
+}
+
+.dipt-swift-architecture-data-mini-container,
+.dipt-swift-architecture-img-container {
+  padding: 20px;
 }
 
 .dipt-building-blocks-buttons {
@@ -9847,6 +9900,7 @@ screen and (min-width: 40em) {
   font-size: 16px;
   transition: background-color 0.3s ease;
   margin: 10px;
+  border: none;
 }
 
 .dipt-building-blocks-buttons:hover {
@@ -9863,4 +9917,325 @@ screen and (min-width: 40em) {
   font-size: 16px;
   color: #333D3E;
   font-weight: 500;
+}
+
+.dipt-customer-security-framework-title {
+  text-align: center;
+  color: #333D3E;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.customer-security-framework-p-container {
+  padding: 20px;
+  margin: 20px;
+}
+
+.dipt-customer-security-framework-paragraph {
+  padding: 0;
+  margin: 0;
+}
+
+.swift-diagram-detail-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dipt-swift-paragraph-items {
+  display: flex;
+  gap: 10px;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: #ACF9E9;
+  margin-bottom: 30px;
+}
+
+.dipt-swift-diagram-list-numbers {
+  font-size: 18px;
+  color: #333D3E;
+  background-color: #D3E6F1;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: #D3E6F1;
+  border: 1px solid #D3E6F1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dipt-swift-architecture-header-data {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333D3E;
+  margin-bottom: 15px;
+}
+
+.dipt-swift-architecture-p-data {
+  font-size: 16px;
+  color: #333D3E;
+  margin: 0;
+}
+
+.dipt-swift-title {
+  color: #333D3E;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.dipt-swift-para-details-cont {
+  display: flex;
+}
+
+.dipt-swift-order_list-items-container {
+  margin-left: 40px;
+}
+
+.dipt-swift-architecture-title,
+.dipt-security-control-title,
+.architecture-type-graph-title,
+.dipt-independent-framework-title,
+.dipt-assesment-types-title {
+  font-size: 36px;
+  color: #333D3E;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.dipt-swift-architecture-p {}
+
+
+.dipt-swift-inside-para-num,
+.dipt-swift-inside-para-info,
+.dipt-independent-framework-p,
+.dipt-assesment-types-p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.dipt-swift-order_list-items-container div {
+  height: 25px;
+}
+
+.dipt-security-control-section-container {
+  padding: 50px 50px 50px 50px;
+}
+
+.security-control-header-title,
+.swift-architecture-types-header-title {
+  text-align: center;
+}
+
+.dipt-security-controls-box-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dipt-security-control-order-lists {
+
+  color: #FF6633;
+  font-size: 16px;
+  margin: 0;
+}
+
+.dipt-lists-title {
+  margin-bottom: 10px;
+}
+
+.dipt-security-control-order-lists .dipt-security-control-lists:before {
+  border: none;
+}
+
+.dipt-security-control-lists {
+  border: none;
+  color: #FF6633;
+  font-size: 16px;
+}
+
+.dipt-security-control-lists-parent li {
+  color: #FF6633;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dipt-security-control-lists-parent {
+  margin-left: 45px;
+}
+
+.dipt-security-control-box {
+  background-color: #F7F3F0;
+  height: 240px;
+  width: 375px;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cscf-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.cscf-image {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.swift-architecture-types-section-container,
+.dipt-our-assesment-process-section-container,
+.cybersecurity-assesment-services-container {
+  padding: 50px 50px 50px 50px;
+}
+
+.architecture-type-graph-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.dipt-independent-framework-container,
+.dipt-assesment-types-contaoiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.dipt-assesment-types-box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+
+}
+
+.dipt-assesment-types-box {
+  background-color: #F7F3F0;
+  height: 370px;
+  width: 565px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dipt-assesment-types-header-title,
+.dipt-assesment-types-box-title {
+  color: #FF6633;
+  font-size: 16px;
+}
+
+.dipt-assesment-types-header-title {
+  font-weight: bold;
+}
+
+.choosing-assessment-provider-container {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.choosing-assessment-provider-header-title,
+.dipt-our-assesment-process-header,
+.dipt-csp-references-title {
+  text-align: center;
+  font-size: 36px;
+  color: #333D3E;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.choosing-assessment-provider-p {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.choosing-assessment-provider-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.cybersecurity-assesment-services-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 95px;
+}
+
+.cybersecurity-assesment-services-img-container {
+  overflow: hidden;
+  position: relative;
+}
+
+/* for image hovering */
+.cybersecurity-assesment-services-parent img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease;
+}
+
+.cybersecurity-assesment-services-parent:hover img {
+  transform: scale(1.2);
+}
+
+.cybersecurity-assesment-services-details-container {
+  text-align: center;
+  background-color: #F9FAFA;
+  padding: 35px;
+}
+
+.cybersecurity-assesment-services-title {
+  color: #F29400;
+  font-size: 36px;
+  margin: 0 0 15px;
+  font-weight: 800;
+}
+
+.cybersecurity-assesment-services-p {
+  font-size: 16px;
+}
+
+.cybersecurity-assesment-services-btn {
+  padding: 10px 35px;
+  color: #333D3E;
+  background-color: #ACF9E9;
+  font-size: 22px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+  border: 3px solid black;
+}
+
+.cybersecurity-assesment-services-btn:hover {
+  color: #ACF9E9;
+  background-color: #333D3E;
+}
+
+.footer-section-container {
+  padding: 50px 50px 50px 50px;
+  background-color: #303E4D;
+  margin: 50px;
+}
+
+.footer-section-boxes-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.dipt-footer-title,
+.dipt-footer-p {
+  color: white;
+}
+
+.dipt-footer-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.dipt-footer-p {
+  font-size: 16px;
+  font-weight: 300;
 }
