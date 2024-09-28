@@ -1,472 +1,316 @@
+/* eslint-disable no-undef */
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { SwiftOfferData } from "./OfferCard";
-
-function SwiftParents({ tab1, tab2, tab3, tab4, title }) {
-  const [tabIndex, setTabIndex] = useState(0);
-  const [tabIndex1, setTabIndex1] = useState(16);
-  const [tabIndex2, setTabIndex2] = useState(tab1);
-  const [tabIndex3, setTabIndex3] = useState(tab2);
-
-  const [style, setStyle] = useState("cont2");
-  const [style2, setStyle2] = useState("cont");
-
-  const [style3, setStyle3] = useState(tab3);
-  const [style4, setStyle4] = useState(tab4);
+import SwitchingPage from "./SwitchingPage";
+import SwiftArchitectureChangingButtons from "../SwiftArchitectureChangingButtons";
+import AssesmentChangingPageButton from "./AssesmentChangingPageButton";
+function SwiftParent() {
 
   return (
-    <div>
-      <div>
-        <div className="page-header">
-          <div
-            className="page-header__bg"
-            style={{
-              backgroundImage: `url('https://www.atlantafed.org/-/media/images/gallery/cybersecurity/040-swift-logo/hero.jpg')`,
-            }}
-          ></div>
-          <div className="container">
-            <h2 className="page-header__title">{title}</h2>
-            <h2 className="page-header__title"></h2>
+    <div style={{ marginBottom: '20000000px' }}>
+      {/* HEADER START */}
+      <section style={{ height: "90vh", width: "200vh", padding: "80px" }} className="swift-header-container">
+        <div className="dipt-bg-image-container" style={{ backgroundImage: `url('/assets/images/services/SwiftCyber/header-image.webp')`, height: "100%", width: "100%", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          <div className="dipt-container-holder">
+            <h3 className="dipt-big-title">SWIFT CSP ASSESSMENT</h3>
+            <p className="dipt-paragraph">CUSTOMER SECURITY PROGRAM INDEPENDENT ASSSESSMENT PROVIDER</p>
+            <a className="dipt-contact-btn" href="/contact-us">Contact Us</a>
+          </div>
+          <div></div>
+        </div>
+      </section>
+      {/* HEADER END */}
+
+
+      {/* SWIFT CUSTOMER SECURITY PROGRAM SECTION START */}
+      <section className="dipt-csp-container">
+        <div className="dipt-csp-security">
+
+          <h3 className="dipt-csp-security-title">SWIFT Customer Security Program (CSP)</h3>
+
+          <div className="csp-security-p-container">
+            <p className="dipt-csp-security-paragraph">Launched in 2016, the Swift Customer Security Programme (CSP) aims to enhance cyber-security across its network, mitigating the risk of cyber-attacks and minimizing the impact of fraudulent transactions. Through continuous evolution to address the increasing sophistication of cyber threats, the CSP mandates a set of security controls for Swift users to implement, ensuring a secure financial ecosystem. These controls, part of the Customer Security Controls Framework (CSCF), include both mandatory and advisory measures, informed by industry standards and feedback, to protect against and respond to cyber threats effectively.</p>
+            <p className="dipt-csp-security-paragraph">Swift’s CSP encourages industry-wide collaboration, requiring users to annually attest to their compliance with these security controls through the KYC Security Attestation application. This process promotes transparency and peer-driven security enhancements across the network. With the dynamic nature of cyber threats, Swift continuously updates the CSCF, advising users to consult the latest version for current security practices, thereby supporting the ongoing effort to fortify the financial sector’s defenses against cyber risks.</p>
           </div>
         </div>
-        <div className=" text-center service-topbar">
-          <div className="container d-flex justify-content-between">
-            <div style={{ color: "white" }} className="">
-              <a className="text-light" href="#header">
-                FAQ
-              </a>
-            </div>
-            <div className="">
-              <a className="text-light" href="#benefit">
-                Benefit
-              </a>
-            </div>
-            <div className="">
-              <a className="text-light" href="#question">
-                Ask Question
-              </a>
-            </div>
+      </section>
+      {/* SWIFT CUSTOMER SECURITY PROGRAM SECTION END */}
+
+
+      {/* SWIFT CSP MAIN BUILDING BLOCKS SECTION START */}
+      <section className="csp-building-blocks-container">
+        <div className="dipt-building-blocks-header-conatainer">
+          <h3 className="dipt-building-blocks-title">SWIFT CSP MAIN BUILDING BLOCKS</h3>
+        </div>
+        <div className="">
+          <SwitchingPage></SwitchingPage>
+        </div>
+      </section>
+      {/* SWIFT CSP MAIN BUILDING BLOCKS SECTION END */}
+
+
+      {/* SWIFT CUSTOMER SECURITY FRAMEWORK SECTION START*/}
+      <section className="dipt-customer-security-framework-section-container">
+        <div className="dipt-csp-security">
+
+          <h3 className="dipt-customer-security-framework-title">SWIFT CUSTOMER SECURITY FRAMEWORK</h3>
+
+          <div className="customer-security-framework-p-container">
+            <p className="dipt-customer-security-framework-paragraph">The security controls are based on three overarching framework objectives, supported by seven security principles. Objectives are the highest level structure for security within the user’s environment. The associated principles elaborate on the highest priority focus areas within each objective.</p>
+            <p className="dipt-customer-security-framework-paragraph">Swift’s CSP encourages industry-wide collaboration, requiring users to annually attest to their compliance with these security controls through the KYC Security Attestation application. This process promotes transparency and peer-driven security enhancements across the network. With the dynamic nature of cyber threats, Swift continuously updates the CSCF, advising users to consult the latest version for current security practices, thereby supporting the ongoing effort to fortify the financial sector’s defenses against cyber risks.</p>
           </div>
         </div>
-        <section id="header" className="  pt-5 ">
-          <div className="container">
-            <div className="section-title">
-              <p className="text-dark">
-                Organizations who are all involved in any kind of Payment
-                Transactions through Debit and/or Credit cards either
-                physically/electronically or any other channels means open
-                themselves up to cybercrime risks. Malicious Attackers often
-                target such high confidential and sensitive information
-                (CHD/SAD) for direct theft and fraud. If a company is part of
-                Payment eco-system as a Merchant, Processers, or providing any
-                services to these companies can also fall target for this kind
-                of cyberattacks. To mitigate these risks, the Payment card
-                Industry Security Standards Council (Swift SSC), USA has
-                formulated plentiful controls across several security standards
-                to keep companies and consumers protected.
-              </p>
-              <div className="row">
-                <div className="col-md-12">
-                  <p className="text-dark">
-                    Swift Cyber Security (Payment card Industry Data Security
-                    Standard) compliance is one of the strictest and most
-                    desired security standards in the industry today. It is a
-                    widely accepted global standard recommended by the major
-                    Card brands like Visa, Mastercard, American Express, JCB,
-                    Discovery. Swift Cyber Security standard is consisting of
-                    set of policies and procedures intended to optimize the
-                    security of debit, credit and cash card transactions and
-                    protect cardholders against misuse of their personal
-                    information.
-                  </p>
 
-                  <p className="text-dark">
-                    Swift Cyber Security applies to all entities involved in
-                    payment card transactions —including merchant, acquirer
-                    bank, credit card processor, payment card brand (such as
-                    Mastercard, VISA, JCB, American Express, Discover, UnionPay,
-                    Rupay etc.) debit, credit or ATM cards issuer, financial
-                    institution, Independent Sales Organization (ISO), or an
-                    agent, and service providers, as well as all other entities
-                    that store, process or transmit cardholder data (CHD) and/or
-                    sensitive authentication data (SAD).
-                  </p>
-                </div>
-                <div className="col-md-12">
-                  <img
-                    className="w-100"
-                    src="/assets/images/services/swift.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <p className="text-dark">
-                Mostly all payment card brands enforcing Swift Cyber Security
-                Compliance at minimum annual basis as per the Levels determined
-                by the various security programs. Organization needs to
-                Implement 12 core functional requirements spread across 6
-                Control Objectives (domains) from Swift Cyber Security Standard
-                to ensure their Card Holder Data Environment is secured.
-              </p>
-              <p className="text-dark">
-                Service Providers and Merchants can report their Swift Cyber
-                Security Compliance either Filling the applicable Onsite
-                Assessment or Self-Assessment Questionnaire (SAQ’s) by a
-                Qualified Security Assessor as per its Level.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <div className="container">
+        <div className="swift-diagram-detail-container">
+          <div>graph</div>
           <div>
-            <img src="assets/images/services/ani.png" width="100%" alt="" />
+            {/* 1 */}
+            <div className="dipt-swift-paragraph-items">
+              <div className="dipt-swift-diagram-list-numbers">1</div>
+              <div>
+                <h4 className="dipt-swift-title">Secure Your Environment
+                </h4>
+                <div>
+                  <div className="dipt-swift-order_list-items-container">
+                    <div className="dipt-swift-para-details-cont">
+                      <div><p className="dipt-swift-inside-para-num">1.</p></div>
+                      <div><p className="dipt-swift-inside-para-info">Restrict Internet access & Segregate critical systems from general IT environment</p></div>
+                    </div>
+                    <div className="dipt-swift-para-details-cont">
+                      <div><p className="dipt-swift-inside-para-num">2.</p></div>
+                      <div><p className="dipt-swift-inside-para-info">Reduce attack surface and vulnerabilities</p></div>
+                    </div>
+                    <div className="dipt-swift-para-details-cont">
+                      <div><p className="dipt-swift-inside-para-num">3.</p></div>
+                      <div><p className="dipt-swift-inside-para-info">Reduce attack surface and vulnerabilities</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* 2 */}
+            <div className="dipt-swift-paragraph-items">
+              <div className="dipt-swift-diagram-list-numbers">2</div>
+              <div>
+                <h4 className="dipt-swift-title">Know and Limit Access</h4>
+                <div>
+                  <div className="dipt-swift-order_list-items-container">
+                    <div className="dipt-swift-para-details-cont">
+                      <div><p className="dipt-swift-inside-para-num">4.</p></div>
+                      <div><p className="dipt-swift-inside-para-info"> Prevent compromise of credentials</p></div>
+                    </div>
+                    <div className="dipt-swift-para-details-cont">
+                      <div><p className="dipt-swift-inside-para-num">5.</p></div>
+                      <div><p className="dipt-swift-inside-para-info"> Manage identities and segregate privileges</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* 3 */}
+            <div className="dipt-swift-paragraph-items">
+              <div className="dipt-swift-diagram-list-numbers">3</div>
+              <div>
+                <h4 className="dipt-swift-title">Detect and Respond</h4>
+                <div>
+                  <div className="dipt-swift-order_list-items-container">
+                    <div className="dipt-swift-para-details-cont">
+                      <div><p className="dipt-swift-inside-para-num">6.</p></div>
+                      <div><p className="dipt-swift-inside-para-info">Detect anomalous activity to system or transaction record</p></div>
+                    </div>
+                    <div className="dipt-swift-para-details-cont">
+                      <div><p className="dipt-swift-inside-para-num">7.</p></div>
+                      <div><p className="dipt-swift-inside-para-info">Plan for incident response and information sharing</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* SWIFT CUSTOMER SECURITY FRAMEWORK SECTION END*/}
+
+
+      {/* SCOPE OF SECURITY CONTROLS SECTION START*/}
+      <section className="dipt-security-control-section-container">
+        <div className="security-control-header-title">
+          <h4 className="dipt-security-control-title">SCOPE OF SECURITY CONTROLS</h4>
+          <p className="dipt-security-control-p">The scope of security controls in CSCF encompasses a defined set of components in the user’s environment.</p>
+        </div>
+        <div className="dipt-security-controls-box-container">
+          <div className="dipt-security-control-box">
+            <p className="dipt-security-control-order-lists"><span className="dipt-lists-title"> In-Scope Components:</span></p>
+            <div className="dipt-security-control-lists-parent">
+              <li className="dipt-security-control-lists">User’s SWIFT Infrastructure</li>
+              <li className="dipt-security-control-lists">Operators/Operator PCs</li>
+              <li className="dipt-security-control-lists">Data Exchange Layer</li>
+              <li className="dipt-security-control-lists">Middleware Server</li>
+              <li className="dipt-security-control-lists">File Transfer Server</li>
+            </div>
+            {/* </p> */}
+          </div>
+          <div className="dipt-security-control-box">
+            <p className="dipt-security-control-order-lists"><span className="dipt-lists-title"> Out of Scope Components:</span></p>
+            <div className="dipt-security-control-lists-parent">
+              <li className="dipt-security-control-lists">User back office</li>
+              <li className="dipt-security-control-lists">General Enterprise IT Environment</li>
+              <li className="dipt-security-control-lists">Network/Internet Connections</li>
+              <li className="dipt-security-control-lists">Test and Development Systems</li>
+            </div>
+            {/* </p> */}
+          </div>
+          <div className="dipt-security-control-box">
+            <p className="dipt-security-control-order-lists"><span className="dipt-lists-title">Co-hosting Components:</span></p>
+            <div className="dipt-security-control-lists-parent">
+              <p className="dipt-security-control-lists">Non-SWIFT related systems hosted in the secure zone must be protected to an equivalent level of security and trust by applying controls applicable to the Swift-related components.</p>
+            </div>
+            {/* </p> */}
+          </div>
+          <div className="dipt-security-control-box">
+            <p className="dipt-security-control-order-lists"><span className="dipt-lists-title">Sharing/Reusing Credentials:</span></p>
+            <div className="dipt-security-control-lists-parent">
+              <p className="dipt-security-control-lists">Services such as transaction queries, pre-validation, and screening are typically out of scope unless they share credentials and entitlements with business transactions, which then brings those systems into scope.</p>
+            </div>
+            {/* </p> */}
           </div>
         </div>
 
-        <section id="offer">
-          <div className="container">
-            <h2 className="header text-center">Our Offer</h2>
-            <p className="text-dark mt-4">
-              Since 2013, “Right Time Limited” has been operating as an assessor
-              accredited by the Swift Security Standards Council (Swift SSC),
-              USA in Swift Cyber Security Standards of the Payment Card
-              Industry. We are the first Bangladesh Based Swift QSA (Payment
-              Card Industry qualified Security Assessor firm. Our Swift experts
-              contribute their knowhow to more than 100 companies worldwide by
-              providing consulting and assessments.
-            </p>
-            <p className="text-dark">
-              As one of the Special Interest Group (SIG), we also support the
-              Swift Security Standards Council with our knowledge from hundreds
-              of Swift projects.
-            </p>
-            <p className="text-dark">
-              Service Providers and Merchants can report their Swift Cyber
-              Security Compliance either Filling the applicable Onsite
-              Assessment or Self-Assessment Questionnaire (SAQ’s) by a Qualified
-              Security Assessor as per its Level.
-            </p>
-
-            <div className="d-flex justify-content-center    mt-5">
-              <Button
-                onClick={() => (
-                  setTabIndex2(201),
-                  setStyle3("cont"),
-                  setStyle4("cont2"),
-                  setStyle("cont2"),
-                  setStyle2("cont"),
-                  setTabIndex3(301)
-                )}
-                className={style4}
-              >
-                Swift Cyber Security Consulting{" "}
-              </Button>
-              <Button
-                onClick={() => (
-                  setTabIndex2(202),
-                  setStyle4("cont"),
-                  setStyle3("cont2"),
-                  setStyle("cont2"),
-                  setStyle2("cont"),
-                  setTabIndex3(301)
-                )}
-                className={style3}
-              >
-                Swift CSP Independent Assessment{" "}
-              </Button>
-            </div>
-            {tabIndex2 === 201 && (
-            <div className="d-flex mt-4 justify-content-center  ">
-               <h4 className="text-dark">"Coming Soon"</h4>
-              </div>
-            )}
+        <div className="cscf-image-container">
+          <img className="cscf-image" src="/assets/images/services/SwiftCyber/CSCF.png" alt="" />
+        </div>
+      </section>
+      {/* SCOPE OF SECURITY CONTROLS SECTION END*/}
 
 
 
-            {tabIndex2 === 202 && (
-               <section>
-               <div>
-                 <h4 className="header text-center mt-3">Audit Approach</h4>
- 
-                 <div className="row mt-4  text-center col-xs-6">
-             {SwiftOfferData.map((card, index) => (
-               <div key={index} className="  col-md-3 col-sm-6 rounded ">
-                 <div id="card-container">
-                   <div className="text-center rounded" id="card3">
-                     <div className="front face text-center pt-3">
-                       <img
-                        
-                         src={card.image}
-                         width="30%"
-                         alt=""
-                       />
-                       <h6 className=" mt-3 p-2 text-dark">{card.title}</h6>
-                     </div>
-                     <div className="back face">
-                       <p className="artist mt-4">{card.description}</p>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             ))}
-           </div>
-               </div>
- 
-               
-             </section>
-              
-            )}
+      {/* SWIFT ARCHITECHTURE TYPES SECTION START */}
+      <section className="swift-architecture-types-section-container">
+        <div className="swift-architecture-types-header-title">
+          <h4 className="dipt-swift-architecture-title">SWIFT Architecture Types</h4>
+          <p className="dipt-swift-architecture-p">Users must select from five reference architecture types that best reflect their deployment to identify in-scope components, using a CSP decision tree for guidance. The choice of architecture, which should be the most encompassing, affects the applicability of certain security controls. These architectures differ primarily based on the ownership of components or licenses.</p>
+        </div>
 
-           
+        <div className="dipt-swift-architecture-buttons-container">
+          <SwiftArchitectureChangingButtons></SwiftArchitectureChangingButtons>
+        </div>
+        <div className="architecture-type-graph-header">
+          <h3 className="architecture-type-graph-title">Architecture Types and Applicable Controls</h3>
+        </div>
 
-            {/* <Row className="mt-4">
-               
+        <div>
+          {/* graph */}
+          <h1>GRAPH</h1>
+        </div>
 
-              <Col md={12}>
-                <div>
-                  {tabIndex === tabIndex && (
-                    <Offer id={tabIndex} data={OfferData} />
-                  )}
-                </div>
-              </Col>
-            </Row> */}
-          </div>
-        </section>
+        <div className="dipt-independent-framework-container">
+          <h3 className="dipt-independent-framework-title">INDEPENDENT ASSESSMENT FRAMEWORK</h3>
+          <p className="dipt-independent-framework-p">Swift mandates the independent assessment of all mandatory controls for attestations, as supported by Swift’s Board and Oversight, to ensure integrity, consistency, and accuracy. Independent assessors must verify that these controls achieve their objectives, cover all in-scope components, and address risk drivers. While implementing advisory controls is advised but optional, they also require independent assessment if included in the attestation. The outcomes, reflecting compliance levels, must be documented annually in the KYC Security Attestation (KYC-SA) application, accompanied by assessment reports and confirmation letters.</p>
+        </div>
+        <div className="dipt-assesment-types-contaoiner">
+          <h3 className="dipt-assesment-types-title">Asessment Types</h3>
+          <p className="dipt-assesment-types-p">There are three types of assessment under the CSP</p>
+        </div>
 
-        <section
-          id="faq"
-          className="section-padding--bottom text-center mt-5 pt-4"
-        >
-          <div className="container">
-            <div className="section-title text-center">
-              <h2 className="header">Frequently Asked Questions</h2>
-              <div className="expanedItem mt-5 ">
-                <div className=" expaneditems1">
-                  <Accordion>
-                    <Accordion.Item className="my-3" eventKey="1">
-                      <Accordion.Header>
-                      What Is The SWIFT CSP?
-                      </Accordion.Header>
-                      <Accordion.Body className="expanedText">
-                      SWIFT's customer security programme (CSP) aims to prevent and detect fraudulent activity through a set of mandatory security controls, community-wide information sharing initiatives and enhanced security features on their products.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                  <Accordion className="shadaow">
-                    <Accordion.Item className="my-3" eventKey="1">
-                      <Accordion.Header>
-                      What Form Does The SWIFT Required Independent Assessment Need To Take?                      </Accordion.Header>
-                      <Accordion.Body className="expanedText">
-                      There are two forms in which a SWIFT customer can gain an independent assessment 
-An internal assessment : The internal audit needs to be carried out as per the internal audit function of the customer and independent from the function submitting the attestation.
-An external assessment : An external audit can be carried out by QRC, an assessment against the CSP controls.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                  <Accordion className="mt-3">
-                    <Accordion.Item className="my-3" eventKey="1">
-                      <Accordion.Header>
-                      What If You Attest Non-Compliance For SWIFT?
-                      </Accordion.Header>
-                      <Accordion.Body className="expanedText">
-                      SWIFT reports all cases of non-compliance and where members have not verified to local regulators. 
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                </div>
-
-                <div className="expaneditems1 ">
-                  <Accordion>
-                    <Accordion.Item className="my-3" eventKey="1">
-                      <Accordion.Header>
-                      When Is The Deadline For SWIFT CSP Compliance?
-                      </Accordion.Header>
-                      <Accordion.Body className="expanedText">
-                            SWIFT CSP requires one to submit a self-attestation on an annual basis by 31 December. An independent assessment is required alongside a customers attestations from 31 December 2020 onwards.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                  <Accordion>
-                    <Accordion.Item className="my-3" eventKey="1">
-                      <Accordion.Header>
-                      What Are The SWIFT CSCF V2020 Controls ?
-                      </Accordion.Header>
-                      <Accordion.Body className="expanedText">
-                      SWIFT’s CSCF V2020 comprises 3 Objectives, 8 Principles & 31 Controls (21 Mandatory & 10 Optional). SWIFT mandatory controls focussed on securing your environment, knowing and limiting access
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-
-                  <Accordion>
-                    <Accordion.Item className="my-3" eventKey="1">
-                      <Accordion.Header>
-                      What If I Suspect My Organisation Has Been Targeted Or Breached?
-                      </Accordion.Header>
-                      <Accordion.Body className="expanedText">
-                      In any circumstances, it is necessary to share all relevant information and let SWIFT know there is a problem as soon as possible, in order to protect other organisations in the network.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                </div>
-              </div>
-              <a className="text-light bg-warning rounded p-2" href="/faq">
-                Read More...
-              </a>
+        <div className="dipt-assesment-types-box-container">
+          <div className="dipt-assesment-types-box">
+            <p className="dipt-assesment-types-order-lists"><span className="dipt-assesment-types-header-title"> Self-Assessment:</span></p>
+            <div className="dipt-assesment-types-box-lists-parent">
+              <p className="dipt-assesment-types-box-title">Self-Assessments, conducted by risk-managing functions without independent review, are labeled as ‘not compliant’ in the KYC Security Attestation (KYC-SA) application. This status is immediately visible to counterparts and flagged in the Know-Your-Customer for Supervisors (KYS) app for supervised users, with bi-annual reports available. Choosing a self-assessment is a strategic decision for Swift users, fully aware of its non-compliance implications.</p>
             </div>
           </div>
-        </section>
-
-        <section id="resourse" class=" ">
-          <div class="container">
-            <div class="  text-center">
-              <h2 class="header">Related Updates</h2>
-              <div class="col-md-12 text-center mt-4">
-                <button
-                  type="button"
-                  onClick={() => setTabIndex1(14)}
-                  class="btn btn-dark m-3"
-                >
-                  Case Studies
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setTabIndex1(15)}
-                  class="btn btn-warning m-3"
-                >
-                  Downloads
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setTabIndex1(16)}
-                  class="btn btn-success m-3"
-                >
-                  Blogs
-                </button>
-              </div>
-              <div class="mt-2">
-                {tabIndex1 === 16 && (
-                  <div class="row mt-5">
-                    <div class="col-md-4 text-center d-flex">
-                      <Card>
-                        <img
-                          className=""
-                          src="/assets/images/resources/1.jpeg"
-                          alt=""
-                        />
-                        <Card.Body>
-                          <Card.Title className="text-dark">
-                            Card Title
-                          </Card.Title>
-                          <Card.Text className="text-dark">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </Card.Text>
-                          <Button variant="warning">Read More</Button>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div class="col-md-4 text-center d-flex">
-                      <Card>
-                        <img
-                          className=""
-                          src="/assets/images/resources/1.jpeg"
-                          alt=""
-                        />
-                        <Card.Body>
-                          <Card.Title className="text-dark">
-                            Card Title
-                          </Card.Title>
-                          <Card.Text className="text-dark">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </Card.Text>
-                          <Button variant="warning">Read More</Button>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div class="col-md-4 text-center d-flex">
-                      <Card>
-                        <img
-                          className=""
-                          src="/assets/images/resources/1.jpeg"
-                          alt=""
-                        />
-                        <Card.Body>
-                          <Card.Title className="text-dark">
-                            Card Title
-                          </Card.Title>
-                          <Card.Text className="text-dark">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </Card.Text>
-                          <Button variant="warning">Read More</Button>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                  </div>
-
-                  // <h3>Frequently Asked Questions</h3>
-                  // <p>Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources</p>
-                )}
-                {tabIndex1 === 14 && (
-                  <div className="d-flex justify-content-center  ">
-                    <Card style={{ width: "300px" }}>
-                      <img
-                        className=""
-                        src="/assets/images/resources/1.jpeg"
-                        alt=""
-                      />
-                      <Card.Body>
-                        <Card.Title className="text-dark">
-                          Card Title
-                        </Card.Title>
-                        <Card.Text className="text-dark">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="warning">Read More</Button>
-                      </Card.Body>
-                    </Card>
-                  </div>
-                )}
-                {tabIndex1 === 15 && (
-                  <div>
-                    <div className="d-flex justify-content-center  ">
-                      <Card style={{ width: "300px" }}>
-                        <img
-                          className=""
-                          src="/assets/images/resources/1.jpeg"
-                          alt=""
-                        />
-                        <Card.Body>
-                          <Card.Title className="text-dark">
-                            Card Title
-                          </Card.Title>
-                          <Card.Text className="text-dark">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </Card.Text>
-                          <Button variant="warning">Read More</Button>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                  </div>
-                )}
-              </div>
+          <div className="dipt-assesment-types-box">
+            <p className="dipt-assesment-types-order-lists"><span className="dipt-assesment-types-header-title"> Self-Assessment:</span></p>
+            <div className="dipt-assesment-types-box-lists-parent">
+              <p className="dipt-assesment-types-box-title">Self-Assessments, conducted by risk-managing functions without independent review, are labeled as ‘not compliant’ in the KYC Security Attestation (KYC-SA) application. This status is immediately visible to counterparts and flagged in the Know-Your-Customer for Supervisors (KYS) app for supervised users, with bi-annual reports available. Choosing a self-assessment is a strategic decision for Swift users, fully aware of its non-compliance implications.</p>
             </div>
           </div>
-        </section>
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
+          <div className="dipt-assesment-types-box">
+            <p className="dipt-assesment-types-order-lists"><span className="dipt-assesment-types-header-title"> Self-Assessment:</span></p>
+            <div className="dipt-assesment-types-box-lists-parent">
+              <p className="dipt-assesment-types-box-title">Self-Assessments, conducted by risk-managing functions without independent review, are labeled as ‘not compliant’ in the KYC Security Attestation (KYC-SA) application. This status is immediately visible to counterparts and flagged in the Know-Your-Customer for Supervisors (KYS) app for supervised users, with bi-annual reports available. Choosing a self-assessment is a strategic decision for Swift users, fully aware of its non-compliance implications.</p>
+            </div>
+          </div>
+        </div>
+        <div className="choosing-assessment-provider-container">
+          <h3 className="choosing-assessment-provider-header-title">Choosing Assessment Provider</h3>
+          <p className="choosing-assessment-provider-p">As a proud member of the Swift CSP Certified Assessors Directory, our company is recognized for our expertise and commitment to the Swift Customer Security Programme (CSP). This directory, launched in January 2024, lists providers and assessors who have demonstrated thorough knowledge and understanding of Swift and the CSP, meeting rigorous eligibility criteria including external cybersecurity certifications and successful exam completion. Our inclusion signifies our capability to conduct independent assessments that adhere to Swift’s high standards, ensuring the security and integrity of your transactions within the Swift network. When partnering with us for your Swift-related assessments, you can be confident in our certified expertise to guide you through the process, enhancing your security posture and compliance with Swift CSP requirements.</p>
+          <a className="choosing-assessment-provider-link" href="/swift-csp-directiory">SWIFT CSP Assessors Directory | Swift</a>
+        </div>
+      </section>
+      {/* SWIFT ARCHITECHTURE TYPES SECTION END */}
+
+
+      {/* OUR ASSESMENT PPROCESS SECTOIN START*/}
+      <section className="dipt-our-assesment-process-section-container">
+        <div>
+          <h3 className="dipt-our-assesment-process-header">Our Assessment Process</h3>
+        </div>
+        <div className="dipt-assesment-process-changing-page-container">
+          <AssesmentChangingPageButton></AssesmentChangingPageButton>
+        </div>
+      </section>
+      {/* OUR ASSESMENT PPROCESS SECTOIN END*/}
+
+
+
+      {/* Elevate Your Cybersecurity with Swift CSP Assessment Services section start */}
+      <section className="cybersecurity-assesment-services-container">
+        <div className="cybersecurity-assesment-services-parent">
+          <div className="cybersecurity-assesment-services-details-container">
+            <h3 className="cybersecurity-assesment-services-title">Elevate Your Cybersecurity with Swift CSP Assessment Services</h3>
+            <p className="cybersecurity-assesment-services-p">In today's rapidly evolving cyber landscape, ensuring the security and compliance of your financial transactions is more crucial than ever. As a recognized member of the Swift CSP Certified Assessors Directory, we are your trusted partner in navigating the complexities of the Swift Customer Security Programme (CSP). Our expert team is equipped with the knowledge, experience, and certifications needed to provide comprehensive assessment services that not only meet but exceed Swift's stringent security requirements.</p>
+            <button className="cybersecurity-assesment-services-btn">Contact us today</button>
+          </div>
+          <div className="cybersecurity-assesment-services-img-container">
+            <img src="/assets/images/services/SwiftCyber/csp-services.png" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <h3 className="dipt-csp-references-title">Some Of Our SWIFT CSP References</h3>
+        </div>
+        <div>
+          {/* carousel hobe ekhane */}
+        </div>
+      </section>
+      {/* Elevate Your Cybersecurity with Swift CSP Assessment Services section end */}
+
+
+      {/* FOOTER SECTION STRAT */}
+      <section className="footer-section-container">
+        <div className="footer-section-boxes-parent">
+          <div>
+            <h3 className="dipt-footer-title">HQ</h3>
+            <p className="dipt-footer-p">3903 Northdale Blvd Ste100E</p>
+            <p className="dipt-footer-p">Tampa, FL 33624, USA</p>
+            <p className="dipt-footer-p">Email: usa@perseusis.com</p>
+            <p className="dipt-footer-p">Phone: +1-813-925-9582</p>
+          </div>
+          <div>
+            <h3 className="dipt-footer-title">HQ</h3>
+            <p className="dipt-footer-p">3903 Northdale Blvd Ste100E</p>
+            <p className="dipt-footer-p">Tampa, FL 33624, USA</p>
+            <p className="dipt-footer-p">Email: usa@perseusis.com</p>
+            <p className="dipt-footer-p">Phone: +1-813-925-9582</p>
+          </div>
+          <div>
+            <h3 className="dipt-footer-title">HQ</h3>
+            <p className="dipt-footer-p">3903 Northdale Blvd Ste100E</p>
+            <p className="dipt-footer-p">Tampa, FL 33624, USA</p>
+            <p className="dipt-footer-p">Email: usa@perseusis.com</p>
+            <p className="dipt-footer-p">Phone: +1-813-925-9582</p>
+          </div>
+        </div>
+      </section>
+      {/* FOOTER SECTION END */}
     </div>
-  );
+  )
 }
 
-export default SwiftParents;
+
+export default SwiftParent;

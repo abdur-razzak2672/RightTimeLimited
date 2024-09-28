@@ -8,7 +8,7 @@ import { pciPhase1 } from "./PciPhaseData";
 import { OfferData } from "./OfferData";
 import OfferPhaseInitial from "./OfferPhaseInitial";
 import OfferRe from "./OfferRe";
-function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
+function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
   const [tabIndex, setTabIndex] = useState(0);
   const [tabIndex1, setTabIndex1] = useState(16);
   const [tabIndex2, setTabIndex2] = useState(tab1);
@@ -267,7 +267,7 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
                   )}
                   className={style}
                 >
-                   Consultation & Certification (Initial)
+                  Consultation & Certification (Initial)
                 </Button>
                 <Button
                   onClick={() => (
@@ -275,7 +275,7 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
                   )}
                   className={style2}
                 >
-                   Consultation & Certification (Re-Certification)
+                  Consultation & Certification (Re-Certification)
                 </Button>
               </div>
             )}
@@ -283,12 +283,12 @@ function PciDssPrents ({tab1,tab2,tab3,tab4,tab5}) {
 
 
 
-            {tabIndex3 === 301?(
+            {tabIndex3 === 301 ? (
               <>
                 <OfferPhaseInitial data={pciPhase1} />
               </>
-            ):(
-              <OfferRe data={pciPhase1.phase4}/>
+            ) : (
+              <OfferRe data={pciPhase1.phase4} />
 
 
             )}
