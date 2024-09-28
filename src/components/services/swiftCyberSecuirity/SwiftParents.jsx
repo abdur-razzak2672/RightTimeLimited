@@ -11,7 +11,8 @@ import AssesmentChangingPageButton from "./AssesmentChangingPageButton";
 function SwiftParent() {
 
   return (
-    <div style={{ marginBottom: '20000000px' }}>
+    <div  style={{ marginBottom: '20000000px' }}>
+      
       {/* HEADER START */}
       <section style={{ height: "90vh", width: "200vh", padding: "80px" }} className="swift-header-container">
         <div className="dipt-bg-image-container" style={{ backgroundImage: `url('/assets/images/services/SwiftCyber/header-image.webp')`, height: "100%", width: "100%", backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -66,7 +67,10 @@ function SwiftParent() {
         </div>
 
         <div className="swift-diagram-detail-container">
-          <div>graph</div>
+          <div>
+            
+            <img style={{width:"100%"}} src="/assets/images/services/SwiftCyber/pyramid.png" alt="" />
+          </div>
           <div>
             {/* 1 */}
             <div className="dipt-swift-paragraph-items">
@@ -202,9 +206,12 @@ function SwiftParent() {
           <h3 className="architecture-type-graph-title">Architecture Types and Applicable Controls</h3>
         </div>
 
+        <div className="architecture-graph" >
+         
         <div>
-          {/* graph */}
-          <h1>GRAPH</h1>
+        <img className="data-graph-img" src="/assets/images/services/SwiftCyber/data-graph.png" alt="" />
+        </div>
+       
         </div>
 
         <div className="dipt-independent-framework-container">
@@ -224,15 +231,15 @@ function SwiftParent() {
             </div>
           </div>
           <div className="dipt-assesment-types-box">
-            <p className="dipt-assesment-types-order-lists"><span className="dipt-assesment-types-header-title"> Self-Assessment:</span></p>
+            <p className="dipt-assesment-types-order-lists"><span className="dipt-assesment-types-header-title"> Community Standard Assessment:</span></p>
             <div className="dipt-assesment-types-box-lists-parent">
-              <p className="dipt-assesment-types-box-title">Self-Assessments, conducted by risk-managing functions without independent review, are labeled as ‘not compliant’ in the KYC Security Attestation (KYC-SA) application. This status is immediately visible to counterparts and flagged in the Know-Your-Customer for Supervisors (KYS) app for supervised users, with bi-annual reports available. Choosing a self-assessment is a strategic decision for Swift users, fully aware of its non-compliance implications.</p>
+              <p className="dipt-assesment-types-box-title">Swift recognizes two types of independent assessments: External, carried out by an independent organization, and Internal, conducted by the user’s own independent department (e.g., compliance, risk management, internal audit), separate from the attesting first line-of-defense. Assessors, whether internal or external, must have relevant cyber-security control assessment experience and qualifications.</p>
             </div>
           </div>
           <div className="dipt-assesment-types-box">
-            <p className="dipt-assesment-types-order-lists"><span className="dipt-assesment-types-header-title"> Self-Assessment:</span></p>
+            <p className="dipt-assesment-types-order-lists"><span className="dipt-assesment-types-header-title">SWIFT-Mandated External Assessment:</span></p>
             <div className="dipt-assesment-types-box-lists-parent">
-              <p className="dipt-assesment-types-box-title">Self-Assessments, conducted by risk-managing functions without independent review, are labeled as ‘not compliant’ in the KYC Security Attestation (KYC-SA) application. This status is immediately visible to counterparts and flagged in the Know-Your-Customer for Supervisors (KYS) app for supervised users, with bi-annual reports available. Choosing a self-assessment is a strategic decision for Swift users, fully aware of its non-compliance implications.</p>
+              <p className="dipt-assesment-types-box-title">Swift may require specific BICs to undergo external assessments to verify their KYC-SA attestations’ accuracy, as stated in the Customer Security Controls Policy (CSCP) under “Quality assurance.” This process involves an independent external assessor confirming the user’s adherence to the applicable controls. Compliance with such mandated external assessments is crucial for maintaining robust security within the Swift network. Failure to complete these assessments constitutes a violation of the CSCP, and Swift may report non-compliance to the appropriate supervisory bodies and/or the non-compliant BICs’ counterparties.</p>
             </div>
           </div>
         </div>
@@ -270,44 +277,8 @@ function SwiftParent() {
             <img src="/assets/images/services/SwiftCyber/csp-services.png" alt="" />
           </div>
         </div>
-
-        <div>
-          <h3 className="dipt-csp-references-title">Some Of Our SWIFT CSP References</h3>
-        </div>
-        <div>
-          {/* carousel hobe ekhane */}
-        </div>
       </section>
       {/* Elevate Your Cybersecurity with Swift CSP Assessment Services section end */}
-
-
-      {/* FOOTER SECTION STRAT */}
-      <section className="footer-section-container">
-        <div className="footer-section-boxes-parent">
-          <div>
-            <h3 className="dipt-footer-title">HQ</h3>
-            <p className="dipt-footer-p">3903 Northdale Blvd Ste100E</p>
-            <p className="dipt-footer-p">Tampa, FL 33624, USA</p>
-            <p className="dipt-footer-p">Email: usa@perseusis.com</p>
-            <p className="dipt-footer-p">Phone: +1-813-925-9582</p>
-          </div>
-          <div>
-            <h3 className="dipt-footer-title">HQ</h3>
-            <p className="dipt-footer-p">3903 Northdale Blvd Ste100E</p>
-            <p className="dipt-footer-p">Tampa, FL 33624, USA</p>
-            <p className="dipt-footer-p">Email: usa@perseusis.com</p>
-            <p className="dipt-footer-p">Phone: +1-813-925-9582</p>
-          </div>
-          <div>
-            <h3 className="dipt-footer-title">HQ</h3>
-            <p className="dipt-footer-p">3903 Northdale Blvd Ste100E</p>
-            <p className="dipt-footer-p">Tampa, FL 33624, USA</p>
-            <p className="dipt-footer-p">Email: usa@perseusis.com</p>
-            <p className="dipt-footer-p">Phone: +1-813-925-9582</p>
-          </div>
-        </div>
-      </section>
-      {/* FOOTER SECTION END */}
     </div>
   )
 }
