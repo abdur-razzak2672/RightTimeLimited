@@ -10252,11 +10252,62 @@ screen and (min-width: 40em) {
   justify-content: center;
 }
 
+.assesment-page-buttons-container{
+  display: flex;
+}
+
+.assesment-btn-details-container{
+ 
+ padding: 5px;
+    text-align: center;
+    height: 274px;
+    width: 275px;
+    margin: 5px;
+}
+.assesment-buttons-under-design{
+  margin-top: 15px;
+}
+.dipt-assesment-change-buttons{
+  width: 80px;                     
+  height: 80px;                    
+  border: none;                       
+  border-radius: 50%;               
+  background-color: #ACF9E9;         
+  color: #333D3E;                      
+  font-size: 36px; 
+  font-weight: bold;                            
+  transition: background-color 0.3s;
+}
+.dipt-assesment-change-buttons:hover{
+              
+  background-color:#333D3E;         
+  color:#ACF9E9;                      
+
+}
+.assesment-details-title{
+  font-size: 22px;
+  color: #333D3E;
+  font-weight: bold;
+}
+
+.assesment-details-p{
+  font-size: 17px;
+}
+
+.dipt-assesment-process-data-mini-container{
+  
+  border: 3px solid #ACF9E9;
+    padding: 13px;
+    height: 220px;
+    width: fit-content;
+    border-radius: 15px;
+    margin-top: 10px;
+}
 
 /* media querry for swift cyber page */
 @media screen and (min-device-width: 430px) and (max-device-width: 768px) {
 /* all sections media querry */
-.csp-building-blocks-container,.dipt-customer-security-framework-section-container,.dipt-security-control-section-container,.swift-architecture-types-section-container,.cybersecurity-assesment-services-container
+.csp-building-blocks-container,.dipt-customer-security-framework-section-container,.dipt-security-control-section-container,.swift-architecture-types-section-container,.cybersecurity-assesment-services-container,.dipt-our-assesment-process-section-container
 
 {
   padding-left: 20px;
@@ -10468,24 +10519,24 @@ flex-direction: column;
 
 /* cybersecurity-assesment-services */
 .cybersecurity-assesment-services-parent {
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
+  flex-direction: column; 
+  align-items: center; 
   text-align: center; 
-  display: flex;/* Center text */
+  display: flex;
 }
 
 .cybersecurity-assesment-services-img-container {
-  order: 1; /* Show image first */
-  margin-bottom: 15px; /* Add space below the image */
+  order: 1; 
+  margin-bottom: 15px; 
 }
 
 .cybersecurity-assesment-services-details-container {
-  order: 2; /* Show details after the image */
-  margin-left: 0; /* Remove left margin */
+  order: 2; 
+  margin-left: 0;
 }
 
 .cybersecurity-assesment-services-title {
-  font-size: 1.5rem; /* Adjust title size for smaller screens */
+  font-size: 1.5rem; 
 }
 
 .cybersecurity-assesment-services-p {
@@ -10497,6 +10548,61 @@ flex-direction: column;
   width: 220px;
   height: 50px;
   padding: 5px; 
+}
+
+/* btn and div */
+.assesment-page-buttons-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.assesment-btn-details-container {
+  flex-basis: 100%; 
+  margin-bottom: 15px;
+}
+
+/* Adjust button sizes and fonts */
+.dipt-assesment-change-buttons {
+  width: 80px;
+  padding: 8px 12px;
+}
+
+.assesment-details-title {
+  font-size: 1.1rem;
+}
+
+.assesment-details-p {
+  font-size: 0.85rem;
+}
+
+/* Content container for assessment steps */
+.dipt-assesment-content-parent {
+  padding: 15px;
+}
+
+/* Individual step container */
+.assesment-content-data-container {
+  margin-bottom: 20px;
+}
+
+.dipt-assesment-process-header-data {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.dipt-assesment-process-p-data {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.dipt-assesment-process-data-mini-container {
+  border: 3px solid #ACF9E9;
+  padding: 10px;
+  height: 350px;
+  width: fit-content;
+  border-radius: 15px;
+  margin-top: 10px;
 }
 
 }

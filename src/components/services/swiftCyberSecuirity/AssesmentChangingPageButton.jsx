@@ -10,13 +10,35 @@ const AssesmentChangingPageButton = () => {
             <div>
 
                 <div className="assesment-page-buttons-container">
-                    <div>
-                        <button href='#' className="dipt-assesment-change-buttons" onClick={() => showPage('page1')}>1</button>
+                    <div className='assesment-btn-details-container'>
+                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page1')}>1</button>
+                            <h3 className='assesment-buttons-under-design assesment-details-title'>Kick-off Meeting</h3>
+                            <p  className='assesment-buttons-under-design assesment-details-p'>Prepare the Independent Assessment</p>
                     </div>
-                    <button className="dipt-assesment-change-buttons" onClick={() => showPage('page2')}>2</button>
-                    <button className="dipt-assesment-change-buttons" onClick={() => showPage('page3')}>3</button>
-                    <button className="dipt-assesment-change-buttons" onClick={() => showPage('page4')}>4</button>
-                    <button className="dipt-assesment-change-buttons" onClick={() => showPage('page5')}>5</button>
+
+                    <div className='assesment-btn-details-container'>
+                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page2')}>2</button>
+                            <h3 className='assesment-buttons-under-design assesment-details-title'>Collect Evidence and Artifacts</h3>
+                            <p  className='assesment-buttons-under-design assesment-details-p'>Customer compiles and shares necessary evidence and artifacts</p>
+                    </div>
+
+                    <div className='assesment-btn-details-container'>
+                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page3')}>3</button>
+                            <h3 className='assesment-buttons-under-design assesment-details-title'>Document Review</h3>
+                            <p  className='assesment-buttons-under-design assesment-details-p'>Assessor team evaluates the shared documentation and identifies interview requirements</p>
+                    </div>
+
+                    <div className='assesment-btn-details-container'>
+                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page4')}>4</button>
+                            <h3 className='assesment-buttons-under-design assesment-details-title'>Assessment Interview</h3>
+                            <p  className='assesment-buttons-under-design assesment-details-p'>Testing and verification of applicable SWIFT CSP controls</p>
+                    </div>
+
+                    <div className='assesment-btn-details-container'>
+                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page5')}>5</button>
+                            <h3 className='assesment-buttons-under-design assesment-details-title'>Reporting</h3>
+                            <p  className='assesment-buttons-under-design assesment-details-p'>Assessment report and confirmation letters are generated and shared with the customer</p>
+                    </div>
                 </div>
 
                 <div className='dipt-assesment-content-parent'>
@@ -25,8 +47,8 @@ const AssesmentChangingPageButton = () => {
 
                             <div>
                                 <div className='dipt-assesment-process-data-mini-container'>
-                                    <h3 className='dipt-assesment-process-header-data'>Architecture Type A1 (Communication Interface)</h3>
-                                    <p className='dipt-assesment-process-p-data'>Architecture A1 is defined by user ownership of the communication interface, often including the messaging interface as well. Architecture A1 also applies to scenarios where the user owns only the communication interface. This category encompasses hosted solutions where the user owns a communication interface license operated either on behalf of others or by a third party for the user’s personal use, inside or outside their environment, such as an Alliance Gateway Instant connected to a back-office system without a Messaging Interface.</p>
+                                    <h3 className='dipt-assesment-process-header-data'>Kick-Off Meeting</h3>
+                                    <p className='dipt-assesment-process-p-data'> Prepare for the assessment by understanding the Swift user's environment and objectives  Collect architecture documentation, use CSCF and decision tree for CSP architecture type, derive applicable CSP controls, and conduct workshops for scope definition  Architecture documentation, key processes, and Swift CSP documentation  Assessment scope, agreed schedule, assigned resources.</p>
                                 </div>
                             </div>
                         </div>
@@ -37,8 +59,8 @@ const AssesmentChangingPageButton = () => {
 
                             <div>
                                 <div className='dipt-assesment-process-data-mini-container'>
-                                    <h3 className='dipt-assesment-process-header-data'>Architecture Type A2 (Messaging Interface Only)</h3>
-                                    <p className='dipt-assesment-process-p-data'>In Architecture A2, users own the messaging interface while the communication interface is managed by a service provider, such as a service bureau or Swift. This architecture also covers instances where the messaging interface license, owned by the user, is hosted or operated by a third party or service provider, acting as an outsourcing agent.</p>
+                                <h3 className='dipt-assesment-process-header-data'>Collect Evidence and Artifacts</h3>
+                                    <p className='dipt-assesment-process-p-data'> Prepare for the assessment by understanding the Swift user's environment and objectives  Collect architecture documentation, use CSCF and decision tree for CSP architecture type, derive applicable CSP controls, and conduct workshops for scope definition  Architecture documentation, key processes, and Swift CSP documentation  Assessment scope, agreed schedule, assigned resources.</p>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +71,7 @@ const AssesmentChangingPageButton = () => {
 
                             <div>
                                 <div className='dipt-assesment-process-data-mini-container'>
-                                    <h3 className='dipt-assesment-process-header-data'>Architecture Type A3 (SWIFT Connector)</h3>
+                                    <h3 className='dipt-assesment-process-header-data'>Document Review</h3>
                                     <p className='dipt-assesment-process-p-data'>A Swift connector is employed within the user’s environment to enable application-to-application communication with a service provider’s interface (like a service bureau or a Group Hub) or Swift services (e.g., Alliance Cloud or Alliance Lite2), without owning any messaging or communication interface.
                                     </p>
 
@@ -63,8 +85,8 @@ const AssesmentChangingPageButton = () => {
 
                             <div>
                                 <div className='dipt-assesment-process-data-mini-container'>
-                                    <h3 className='dipt-assesment-process-header-data'>Architecture Type A4 (Customer Connector)</h3>
-                                    <p className='dipt-assesment-process-p-data'>Architecture A4, known as the Customer Connector, applies to users without a direct Swift presence, utilizing a server within their environment (e.g., a file transfer solution or middleware server) to establish external application-to-application connections with Swift-related applications or solutions provided by a service bureau, Business Connect, Lite2 Business Application provider, or Group Hub. This architecture also covers cases where the customer connector is hosted or operated by a third party or service provider, acting as an outsourcing agent.</p>
+                                    <h3 className='dipt-assesment-process-header-data'>Assessment Interview</h3>
+                                    <p className='dipt-assesment-process-p-data'> Prepare for the assessment by understanding the Swift user's environment and objectives  Collect architecture documentation, use CSCF and decision tree for CSP architecture type, derive applicable CSP controls, and conduct workshops for scope definition  Architecture documentation, key processes, and Swift CSP documentation  Assessment scope, agreed schedule, assigned resources.</p>
 
                                 </div>
                             </div>
@@ -76,8 +98,8 @@ const AssesmentChangingPageButton = () => {
 
                             <div>
                                 <div className='dipt-assesment-process-data-mini-container'>
-                                    <h3 className='dipt-assesment-process-header-data'>Architecture Type B (GUI or Middleware Client)</h3>
-                                    <p className='dipt-assesment-process-p-data'>Architecture B outlines scenarios where users engage with Swift services without any Swift-specific infrastructure in their local environment. This architecture encompasses two main setups: users accessing Swift messaging services via a GUI application provided by a service provider, and back-office applications of users communicating directly with the service provider using various clients (e.g., MQ, Kafka, Solace) or secure file transfer clients, without directly connecting to Swift’s specific messaging services. Devices used in these interactions are treated as general-purpose and require adequate protection.</p>
+                                    <h3 className='dipt-assesment-process-header-data'>Reporting</h3>
+                                    <p className='dipt-assesment-process-p-data'> Prepare for the assessment by understanding the Swift user's environment and objectives  Collect architecture documentation, use CSCF and decision tree for CSP architecture type, derive applicable CSP controls, and conduct workshops for scope definition  Architecture documentation, key processes, and Swift CSP documentation  Assessment scope, agreed schedule, assigned resources.</p>
                                 </div>
                             </div>
                         </div>
