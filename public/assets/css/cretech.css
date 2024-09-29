@@ -10332,6 +10332,27 @@ screen and (min-width: 40em) {
   font-size: 14px;
 }
 
+.swift-header-container {
+  height: auto; /* Let height adjust */
+}
+
+.dipt-big-title {
+  font-size: 32px; /* Medium heading size */
+}
+
+.dipt-paragraph {
+  font-size: 16px; /* Medium paragraph size */
+}
+
+.dipt-contact-btn {
+  font-size: 16px; /* Medium button size */
+  padding: 10px 20px;
+}
+
+.dipt-bg-image-container {
+  height: 800px; /* Adjust height for medium screens */
+}
+
   .building-blocks-button-container{
     display: flex;
 flex-direction: column;
