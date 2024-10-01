@@ -11,9 +11,9 @@ import AssesmentChangingPageButton from "./AssesmentChangingPageButton";
 function SwiftParent() {
 
   return (
-    <div style={{ marginBottom: '20000000px' }}>
+    <div style={{ marginBottom: '200px' }}>
       {/* HEADER START */}
-      <section style={{ height: "90vh", width: "200vh", padding: "80px" }} className="swift-header-container">
+      <section style={{ height: "90vh", width: "200vh", padding: "80px" }} className="swift-header-container container-fluid">
         <div className="dipt-bg-image-container" style={{ backgroundImage: `url('/assets/images/services/SwiftCyber/header-image.webp')`, height: "100%", width: "100%", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="dipt-container-holder">
             <h3 className="dipt-big-title">SWIFT CSP ASSESSMENT</h3>

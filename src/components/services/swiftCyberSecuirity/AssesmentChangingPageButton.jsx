@@ -11,12 +11,36 @@ const AssesmentChangingPageButton = () => {
 
                 <div className="assesment-page-buttons-container">
                     <div>
-                        <button href='#' className="dipt-assesment-change-buttons" onClick={() => showPage('page1')}>1</button>
+
+                        <div>
+                            <button href='#' className="dipt-assesment-change-buttons" onClick={() => showPage('page1')}>1
+                            </button>
+                        </div>
+                        <div> <p className='assesment-page-button-title'>Kick-off Meeting</p>
+                            <p className='assesment-page-button-p'>Prepare the Independent Assessment</p></div>
+
                     </div>
-                    <button className="dipt-assesment-change-buttons" onClick={() => showPage('page2')}>2</button>
-                    <button className="dipt-assesment-change-buttons" onClick={() => showPage('page3')}>3</button>
-                    <button className="dipt-assesment-change-buttons" onClick={() => showPage('page4')}>4</button>
-                    <button className="dipt-assesment-change-buttons" onClick={() => showPage('page5')}>5</button>
+                    <div>
+                        <div> <button className="dipt-assesment-change-buttons" onClick={() => showPage('page2')}>2</button></div>
+                        <div> <p className='assesment-page-button-title'>Collect Evidence and Artifacts</p>
+                            <p className='assesment-page-button-p'>Customer compiles and shares necessary evidence and artifacts</p></div>
+                    </div>
+                    <div>
+                        <div><button className="dipt-assesment-change-buttons" onClick={() => showPage('page3')}>3</button></div>
+                        <div> <p className='assesment-page-button-title'>Document Review</p>
+                            <p className='assesment-page-button-p'>Assessor team evaluates the shared documentation and identifies interview requirements</p></div>
+                    </div>
+                    <div>
+                        <div> <button className="dipt-assesment-change-buttons" onClick={() => showPage('page4')}>4</button></div>
+                        <div> <p className='assesment-page-button-title'>Assessment Interview</p>
+                            <p className='assesment-page-button-p'>Testing and verification of applicable SWIFT CSP controls</p></div>
+                    </div>
+
+                    <div>
+                        <div> <button className="dipt-assesment-change-buttons" onClick={() => showPage('page5')}>5</button></div>
+                        <div> <p className='assesment-page-button-title'>Reporting</p>
+                            <p className='assesment-page-button-p'>Assessment report and confirmation letters are generated and shared with the customer</p></div>
+                    </div>
                 </div>
 
                 <div className='dipt-assesment-content-parent'>
@@ -25,7 +49,7 @@ const AssesmentChangingPageButton = () => {
 
                             <div>
                                 <div className='dipt-assesment-process-data-mini-container'>
-                                    <h3 className='dipt-assesment-process-header-data'>Architecture Type A1 (Communication Interface)</h3>
+                                    <h3 className='dipt-assesment-process-header-data'>Kick-Off Meeting</h3>
                                     <p className='dipt-assesment-process-p-data'>Architecture A1 is defined by user ownership of the communication interface, often including the messaging interface as well. Architecture A1 also applies to scenarios where the user owns only the communication interface. This category encompasses hosted solutions where the user owns a communication interface license operated either on behalf of others or by a third party for the user’s personal use, inside or outside their environment, such as an Alliance Gateway Instant connected to a back-office system without a Messaging Interface.</p>
                                 </div>
                             </div>

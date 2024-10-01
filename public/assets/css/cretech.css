@@ -10239,3 +10239,43 @@ screen and (min-width: 40em) {
   font-size: 16px;
   font-weight: 300;
 }
+
+.assesment-page-buttons-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+
+.dipt-assesment-change-buttons {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  font-size: 36px;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  color: #333D3E;
+  background-color: #ACF9E9;
+  margin-bottom: 30px;
+}
+
+.dipt-assesment-change-buttons:hover {
+  background-color: #333D3E;
+  color: #ACF9E9;
+}
+
+.assesment-page-button-title {
+  font-size: 22px;
+  margin: 10px 0px 0px;
+  font-weight: 600;
+}
+
+.assesment-page-button-p {
+  font-size: 16px;
+  margin: 17px 0px 0px;
+}
+
+@media screen and (min-device-width: 430px) and (max-device-width: 768px) {}
