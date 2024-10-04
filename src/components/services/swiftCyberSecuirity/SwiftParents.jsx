@@ -275,9 +275,8 @@ function SwiftParent() {
             <img src="/assets/images/services/SwiftCyber/csp-services.png" alt="" />
           </div>
         </div>
+        
       </section>
-
-
        <Information/>
        <Service/>
      </div>
