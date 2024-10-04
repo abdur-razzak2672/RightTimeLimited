@@ -280,8 +280,7 @@ function SwiftParent() {
 
        <Information/>
        <Service/>
-      {/* Elevate Your Cybersecurity with Swift CSP Assessment Services section end */}
-    </div>
+     </div>
   )
 }
 
