@@ -9859,16 +9859,13 @@ screen and (min-width: 40em) {
 }
 
 .dipt-architecture-buttons {
-  padding: 10px;
-  color: #333D3E;
+   color: #333D3E;
   background-color: #ACF9E9;
   font-size: 22px;
   font-weight: 400;
   transition: background-color 0.3s ease;
-  margin: 10px;
-  border: none;
-  height: 90px;
-    width: 300px;
+   border: none;
+  
 }
 
 .dipt-architecture-buttons:hover {
@@ -9896,14 +9893,14 @@ screen and (min-width: 40em) {
 }
 
 .dipt-building-blocks-buttons {
-  padding: 15pxpx;
+  /* padding: 15pxpx;
   height: 100px;
-    width: 600px;
+    width: 600px; */
   color: #333D3E;
   background-color: #ACF9E9;
   font-size: 16px;
   transition: background-color 0.3s ease;
-  margin: 10px;
+  /* margin: 10px; */
   border: none;
 }
 
@@ -10072,13 +10069,11 @@ screen and (min-width: 40em) {
 
 .dipt-security-control-box {
   background-color: #F7F3F0;
-  height: 255px;
-  width: 375px;
+   width: 320px;
   border: 5px solid black;
   border-radius: 10px;
   padding: 7px;
-  margin-right: 5px;
-}
+ }
 
 .cscf-image-container {
   display: flex;
@@ -10499,11 +10494,7 @@ flex-direction: column;
   flex-direction: column;
   align-items: flex-start;
 }
-
-.dipt-swift-architecture-img-container img {
-  max-width: 100%;
-  height: auto;
-}
+ 
 
 .dipt-swift-architecture-data-mini-container {
   padding: 10px;

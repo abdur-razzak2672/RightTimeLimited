@@ -11,21 +11,24 @@ const SwiftArchitectureChangingButtons = () => {
         <div>
             <div>
 
-                <div className="architecture-buttons-container">
-                    <button className="dipt-architecture-buttons" onClick={() => showPage('page1')}>Type A1</button>
-                    <button className="dipt-architecture-buttons" onClick={() => showPage('page2')}>Type A2</button>
-                    <button className="dipt-architecture-buttons" onClick={() => showPage('page3')}>Type A3</button>
-                    <button className="dipt-architecture-buttons" onClick={() => showPage('page4')}>Type A4</button>
-                    <button className="dipt-architecture-buttons" onClick={() => showPage('page5')}>B</button>
+                <div className="d-flex justify-content-center">
+                    <div>
+                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page1')}>Type A1</button>
+                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page2')}>Type A2</button>
+                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page3')}>Type A3</button>
+                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page4')}>Type A4</button>
+                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page5')}>B</button>
+                    </div>
+    
                 </div>
 
                 <div className='dipt-architecture-content-parent'>
                     <div id="page1" className={`swift-architecture-page ${activePage === 'page1' ? 'activepage' : ''}`}>
-                        <div className='swift-architecture-data-container'>
-                            <div className='dipt-swift-architecture-img-container'>
+                        <div className='row'>
+                            <div className='dipt-swift-architecture-img-container col-md-6'>
                                 <img src="/assets/images/services/SwiftCyber/type1.png" alt="" />
                             </div>
-                            <div>
+                            <div className='col-md-6'>
                                 <div className='dipt-swift-architecture-data-mini-container'>
                                     <h3 className='dipt-swift-architecture-header-data'>Architecture Type A1 (Communication Interface)</h3>
                                     <p className='dipt-swift-architecture-p-data'>Architecture A1 is defined by user ownership of the communication interface, often including the messaging interface as well. Architecture A1 also applies to scenarios where the user owns only the communication interface. This category encompasses hosted solutions where the user owns a communication interface license operated either on behalf of others or by a third party for the user’s personal use, inside or outside their environment, such as an Alliance Gateway Instant connected to a back-office system without a Messaging Interface.</p>

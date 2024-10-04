@@ -8,11 +8,13 @@ import { SwiftOfferData } from "./OfferCard";
 import SwitchingPage from "./SwitchingPage";
 import SwiftArchitectureChangingButtons from "../SwiftArchitectureChangingButtons";
 import AssesmentChangingPageButton from "./AssesmentChangingPageButton";
+import Information from "../../Information";
+import Service from "../../Service";
 function SwiftParent() {
 
   return (
-    <div  style={{ marginBottom: '200px' }}>
-      
+    <div style={{ marginBottom: '200px' }}>
+
       {/* HEADER START */}
       <section style={{ height: "1200px", width: "100%", }} className="swift-header-container">
         <div className="dipt-bg-image-container" style={{ backgroundImage: `url('/assets/images/services/SwiftCyber/bg-header.jpg')`, height: "100%", width: "100%", backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -32,11 +34,8 @@ function SwiftParent() {
         <div className="dipt-csp-security">
 
           <h3 className="dipt-csp-security-title">SWIFT Customer Security Program (CSP)</h3>
-
-          <div className="csp-security-p-container">
-            <p className="dipt-csp-security-paragraph">Launched in 2016, the Swift Customer Security Programme (CSP) aims to enhance cyber-security across its network, mitigating the risk of cyber-attacks and minimizing the impact of fraudulent transactions. Through continuous evolution to address the increasing sophistication of cyber threats, the CSP mandates a set of security controls for Swift users to implement, ensuring a secure financial ecosystem. These controls, part of the Customer Security Controls Framework (CSCF), include both mandatory and advisory measures, informed by industry standards and feedback, to protect against and respond to cyber threats effectively.</p>
-            <p className="dipt-csp-security-paragraph">Swift’s CSP encourages industry-wide collaboration, requiring users to annually attest to their compliance with these security controls through the KYC Security Attestation application. This process promotes transparency and peer-driven security enhancements across the network. With the dynamic nature of cyber threats, Swift continuously updates the CSCF, advising users to consult the latest version for current security practices, thereby supporting the ongoing effort to fortify the financial sector’s defenses against cyber risks.</p>
-          </div>
+          <p className="dipt-csp-security-paragraph text-justify mt-3">Launched in 2016, the Swift Customer Security Programme (CSP) aims to enhance cyber-security across its network, mitigating the risk of cyber-attacks and minimizing the impact of fraudulent transactions. Through continuous evolution to address the increasing sophistication of cyber threats, the CSP mandates a set of security controls for Swift users to implement, ensuring a secure financial ecosystem. These controls, part of the Customer Security Controls Framework (CSCF), include both mandatory and advisory measures, informed by industry standards and feedback, to protect against and respond to cyber threats effectively. <br />
+            Swift’s CSP encourages industry-wide collaboration, requiring users to annually attest to their compliance with these security controls through the KYC Security Attestation application. This process promotes transparency and peer-driven security enhancements across the network. With the dynamic nature of cyber threats, Swift continuously updates the CSCF, advising users to consult the latest version for current security practices, thereby supporting the ongoing effort to fortify the financial sector’s defenses against cyber risks.</p>
         </div>
       </section>
       {/* SWIFT CUSTOMER SECURITY PROGRAM SECTION END */}
@@ -48,7 +47,7 @@ function SwiftParent() {
           <h3 className="dipt-building-blocks-title">SWIFT CSP MAIN BUILDING BLOCKS</h3>
         </div>
         <div className="">
-          <SwitchingPage></SwitchingPage>
+          <SwitchingPage />
         </div>
       </section>
       {/* SWIFT CSP MAIN BUILDING BLOCKS SECTION END */}
@@ -61,17 +60,17 @@ function SwiftParent() {
           <h3 className="dipt-customer-security-framework-title">SWIFT CUSTOMER SECURITY FRAMEWORK</h3>
 
           <div className="customer-security-framework-p-container">
-            <p className="dipt-customer-security-framework-paragraph">The security controls are based on three overarching framework objectives, supported by seven security principles. Objectives are the highest level structure for security within the user’s environment. The associated principles elaborate on the highest priority focus areas within each objective.</p>
-            <p className="dipt-customer-security-framework-paragraph">Swift’s CSP encourages industry-wide collaboration, requiring users to annually attest to their compliance with these security controls through the KYC Security Attestation application. This process promotes transparency and peer-driven security enhancements across the network. With the dynamic nature of cyber threats, Swift continuously updates the CSCF, advising users to consult the latest version for current security practices, thereby supporting the ongoing effort to fortify the financial sector’s defenses against cyber risks.</p>
+            <p className="dipt-customer-security-framework-paragraph text-justify">The security controls are based on three overarching framework objectives, supported by seven security principles. Objectives are the highest level structure for security within the user’s environment. The associated principles elaborate on the highest priority focus areas within each objective.<br />
+              Swift’s CSP encourages industry-wide collaboration, requiring users to annually attest to their compliance with these security controls through the KYC Security Attestation application. This process promotes transparency and peer-driven security enhancements across the network. With the dynamic nature of cyber threats, Swift continuously updates the CSCF, advising users to consult the latest version for current security practices, thereby supporting the ongoing effort to fortify the financial sector’s defenses against cyber risks.</p>
           </div>
         </div>
 
-        <div className="swift-diagram-detail-container">
-          <div>
-            
-            <img style={{width:"100%"}} src="/assets/images/services/SwiftCyber/pyramid.png" alt="" />
+        <div className="row">
+          <div className="col-md-6">
+
+            <img style={{ width: "100%" }} src="/assets/images/services/SwiftCyber/pyramid.png" alt="" />
           </div>
-          <div>
+          <div className="col-md-6 mt-3">
             {/* 1 */}
             <div className="dipt-swift-paragraph-items">
               <div className="dipt-swift-diagram-list-numbers">1</div>
@@ -146,8 +145,8 @@ function SwiftParent() {
           <h4 className="dipt-security-control-title">SCOPE OF SECURITY CONTROLS</h4>
           <p className="dipt-security-control-p">The scope of security controls in CSCF encompasses a defined set of components in the user’s environment.</p>
         </div>
-        <div className="dipt-security-controls-box-container">
-          <div className="dipt-security-control-box">
+        <div className="row d-flex justify-content-center">
+          <div className="dipt-security-control-box m-3 col-md-3">
             <p className="dipt-security-control-order-lists"><span className="dipt-lists-title"> In-Scope Components:</span></p>
             <div className="dipt-security-control-lists-parent">
               <li className="dipt-security-control-lists">User’s SWIFT Infrastructure</li>
@@ -156,9 +155,8 @@ function SwiftParent() {
               <li className="dipt-security-control-lists">Middleware Server</li>
               <li className="dipt-security-control-lists">File Transfer Server</li>
             </div>
-            {/* </p> */}
-          </div>
-          <div className="dipt-security-control-box">
+           </div>
+          <div className="dipt-security-control-box m-3 col-md-3">
             <p className="dipt-security-control-order-lists"><span className="dipt-lists-title"> Out of Scope Components:</span></p>
             <div className="dipt-security-control-lists-parent">
               <li className="dipt-security-control-lists">User back office</li>
@@ -168,14 +166,14 @@ function SwiftParent() {
             </div>
             {/* </p> */}
           </div>
-          <div className="dipt-security-control-box">
+          <div className="dipt-security-control-box m-3 col-md-3">
             <p className="dipt-security-control-order-lists"><span className="dipt-lists-title">Co-hosting Components:</span></p>
             <div className="dipt-security-control-lists-parent">
               <p className="dipt-security-control-lists">Non-SWIFT related systems hosted in the secure zone must be protected to an equivalent level of security and trust by applying controls applicable to the Swift-related components.</p>
             </div>
             {/* </p> */}
           </div>
-          <div className="dipt-security-control-box">
+          <div className="dipt-security-control-box m-3 col-md-3">
             <p className="dipt-security-control-order-lists"><span className="dipt-lists-title">Sharing/Reusing Credentials:</span></p>
             <div className="dipt-security-control-lists-parent">
               <p className="dipt-security-control-lists">Services such as transaction queries, pre-validation, and screening are typically out of scope unless they share credentials and entitlements with business transactions, which then brings those systems into scope.</p>
@@ -200,18 +198,18 @@ function SwiftParent() {
         </div>
 
         <div className="dipt-swift-architecture-buttons-container">
-          <SwiftArchitectureChangingButtons></SwiftArchitectureChangingButtons>
+          <SwiftArchitectureChangingButtons/> 
         </div>
         <div className="architecture-type-graph-header">
           <h3 className="architecture-type-graph-title">Architecture Types and Applicable Controls</h3>
         </div>
 
         <div className="architecture-graph" >
-         
-        <div>
-        <img className="data-graph-img" src="/assets/images/services/SwiftCyber/data-graph.png" alt="" />
-        </div>
-       
+
+          <div>
+            <img className="data-graph-img" src="/assets/images/services/SwiftCyber/data-graph.png" alt="" />
+          </div>
+
         </div>
 
         <div className="dipt-independent-framework-container">
@@ -278,6 +276,10 @@ function SwiftParent() {
           </div>
         </div>
       </section>
+
+
+       <Information/>
+       <Service/>
       {/* Elevate Your Cybersecurity with Swift CSP Assessment Services section end */}
     </div>
   )
