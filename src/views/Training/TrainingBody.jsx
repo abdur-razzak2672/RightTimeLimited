@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect,useRef } from 'react'
 import Link from 'react-router-dom/Link';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
@@ -11,8 +11,57 @@ import Associaltion from "../../components/Association"
 import { toast } from 'react-toastify';
 import './training.css'
 import Slider from 'react-slick'
+import Pathway from './Pathway';
+import CarrerPath from './CarrerPath';
 
 function TrainingBody() {
+
+  const [activeTab, setActiveTab] = useState(() => {
+    const savedTab = localStorage.getItem("career");
+    return savedTab ? JSON.parse(savedTab) : "career"; // Default to "career" if no saved tab
+  });
+  const menuRef = useRef(null);
+
+
+  const renderContent = () => {
+    switch (activeTab) {
+      case "interactive":
+        return <Pathway />;
+      case "career":
+        return <CarrerPath />;
+      case "education":
+        return <p>Education and Training Providers coming soon...</p>;
+      default:
+        return null;
+    }
+  };
+
+ 
+  const handleTabClick = (tab) => {
+    localStorage.setItem("career", JSON.stringify(tab));
+    setActiveTab(tab);    
+    // Store the current scroll position
+    const scrollY = window.scrollY;
+
+    // Reload the page
+    window.location.reload();
+
+    // Restore scroll position after reload
+    setTimeout(() => {
+      window.scrollTo(0, scrollY);
+    }, 0); // Use a timeout to ensure it executes after the reload
+  };
+
+  useEffect(() => {
+    // Scroll to the menu section after tab change
+    if (menuRef.current) {
+      setTimeout(() => {
+        menuRef.current.scrollIntoView({ behavior: 'smooth' });
+      }, 1000); // Adjust timeout if necessary
+    }
+  }, [activeTab]);
+ 
+
   var settings = {
     dots: false,
     arrows: true,
@@ -288,83 +337,49 @@ function TrainingBody() {
 
                 </div>
               </div>
-              <div class="pure-u-1-2">
-                <div class="pure-menu pure-menu-horizontal custom-can-transform menu-main menu-large">
-                  <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link ">Interactive map</a>
-                    </li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link active">Career
-                      pathway</a>  </li>
-                    <li class="pure-menu-item"><a href="/education-training" class="pure-menu-link">Education and Training Providers</a></li>
+      <div ref={menuRef} className="pure-u-1-2">
+      <div className="pure-menu pure-menu-horizontal custom-can-transform menu-main ">
+        <ul className="pure-menu-list">
+          <li className="pure-menu-item">
+            <Link
+              href="#"
+              className={`pure-menu-link ${activeTab === "interactive" ? "active" : ""}`}
+              onClick={() => handleTabClick("interactive")}
+            >
+              Interactive map
+            </Link>
+          </li>
+          <li className="pure-menu-item">
+            <Link
+              href="#"
+              className={`pure-menu-link ${activeTab === "career" ? "active" : ""}`}
+              onClick={() => handleTabClick("career")}
+            >
+              Career pathway
+            </Link>
+          </li>
+          <li className="pure-menu-item">
+            <Link
+              href="#"
+              className={`pure-menu-link ${activeTab === "education" ? "active" : ""}`}
+              onClick={() => handleTabClick("education")}
+            >
+              Education and Training Providers
+            </Link>
+          </li>
+        </ul>
+      </div>
 
-                  </ul>
-                </div>
+                {/* Conditional content based on the active tab */}
+
               </div>
+
 
             </div>
+            <div className=''>{renderContent()}</div>
 
-            <div class='clear'></div>
-            <div id='con' class="container wrapper">
-              <br />
-              <div class="pure-g">
-                <div class="pure-u-1-1 buttons" style={{ margin: "0, auto", textAlign: "center" }}>
-                  <a href="/pathway" class="pure-button">Roles</a>
-                  <a href="/training" class="pure-button pure-button-primary ml-1">Skills and Certifications</a>
-                </div>
-              </div>
-              <br />
-
-              <div class="pure-g">
-                <div class="pure-u-1-1" style={{ margin: "0, auto", textAlign: "center" }}>
-                  <div class="intro">
-                    <p>Select a certification, job title or skill to see how they relate to each other. <button class="pure-button" id="gotit">Got it</button></p>
-                  </div>
-                </div>
-              </div>
-
-              <div s id="map-key-1" class="pure-menu pure-menu-horizontal">
-                <ul class="pure-menu-list">
-                  <li class="pure-menu-item">
-                    <div class="circle" style={{ backgroundColor: "#408AE1" }}></div> Entry level
-                  </li>
-                  <li class="pure-menu-item">
-                    <div class="circle" style={{ backgroundColor: "#B871AD" }}></div> Mid-level
-                  </li>
-                  <li class="pure-menu-item">
-                    <div class="circle" style={{ backgroundColor: "#7FE2C6" }}></div> Advanced
-                  </li>
-                </ul>
-              </div>
-              <br />
-              <div style={{ border: "2px solid #012e78", borderRadius: "10px", padding: "10px", width: "102%" }}>
-                <div style={{ fontSize: "30px" }} id="sankey"></div>
-                <div style={{ fontSize: "30px" }} class='clear'></div>
-
-              </div>
-              <br /><br />
-            </div>
-
-            <div style={{ fontSize: "30px" }} class='scrollUpWrapper'>
-              <div style={{ fontSize: "30px" }} class='scrollUp'></div>
-            </div>
-
-            <div style={{ fontSize: "30px" }} class='clear'></div>
           </div>
-
-
-
-
-
-
-
-
-
-          {/* <p className='text-dark mt-5'>The PCI Security Standards Council operates programs to train, test, and qualify organizations and individuals who assess and validate compliance, in order to help merchants successfully implement PCI standards and solutions. The Council also qualifies payment hardware and software so that merchants select and implement approved solutions for securing payment data and systems.</p> */}
-
         </div>
-
-
-
 
 
 
@@ -597,7 +612,7 @@ function TrainingBody() {
           </div>
 
         </div>
-       <br /><br /><br />
+        <br /><br /><br />
       </div>
     </div>
   )

@@ -9859,7 +9859,7 @@ screen and (min-width: 40em) {
 }
 
 .dipt-architecture-buttons {
-  padding: 15px 125px;
+  padding: 10px;
   color: #333D3E;
   background-color: #ACF9E9;
   font-size: 22px;
@@ -9867,6 +9867,8 @@ screen and (min-width: 40em) {
   transition: background-color 0.3s ease;
   margin: 10px;
   border: none;
+  height: 90px;
+    width: 300px;
 }
 
 .dipt-architecture-buttons:hover {
@@ -9894,7 +9896,9 @@ screen and (min-width: 40em) {
 }
 
 .dipt-building-blocks-buttons {
-  padding: 15px 220px;
+  padding: 15pxpx;
+  height: 100px;
+    width: 600px;
   color: #333D3E;
   background-color: #ACF9E9;
   font-size: 16px;
@@ -9940,6 +9944,8 @@ screen and (min-width: 40em) {
 .swift-diagram-detail-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 85px;
 }
 
 .dipt-swift-paragraph-items {
@@ -9948,7 +9954,7 @@ screen and (min-width: 40em) {
   border-style: solid;
   border-width: 0px 0px 5px 0px;
   border-color: #ACF9E9;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .dipt-swift-diagram-list-numbers {
@@ -10016,7 +10022,7 @@ screen and (min-width: 40em) {
 }
 
 .dipt-swift-order_list-items-container div {
-  height: 25px;
+  /* height: 25px; */
 }
 
 .dipt-security-control-section-container {
@@ -10066,11 +10072,12 @@ screen and (min-width: 40em) {
 
 .dipt-security-control-box {
   background-color: #F7F3F0;
-  height: 240px;
+  height: 255px;
   width: 375px;
   border: 5px solid black;
   border-radius: 10px;
-  padding: 10px;
+  padding: 7px;
+  margin-right: 5px;
 }
 
 .cscf-image-container {
@@ -10115,11 +10122,12 @@ screen and (min-width: 40em) {
 
 .dipt-assesment-types-box {
   background-color: #F7F3F0;
-  height: 370px;
-  width: 565px;
+  height: 460px;
+  width: 460px;
   border: 3px solid black;
   border-radius: 10px;
-  padding: 10px;
+  padding: 8px;
+  margin-right: 5px;
 }
 
 .dipt-assesment-types-header-title,
@@ -10239,6 +10247,7 @@ screen and (min-width: 40em) {
   font-size: 16px;
   font-weight: 300;
 }
+<<<<<<< HEAD
 
 .assesment-page-buttons-container {
   display: grid;
@@ -10279,3 +10288,385 @@ screen and (min-width: 40em) {
 }
 
 @media screen and (min-device-width: 430px) and (max-device-width: 768px) {}
+=======
+.architecture-graph{
+  display: flex;
+  justify-content: center;
+}
+
+.assesment-page-buttons-container{
+  display: flex;
+}
+
+.assesment-btn-details-container{
+ 
+ padding: 5px;
+    text-align: center;
+    height: 274px;
+    width: 275px;
+    margin: 5px;
+}
+.assesment-buttons-under-design{
+  margin-top: 15px;
+}
+.dipt-assesment-change-buttons{
+  width: 80px;                     
+  height: 80px;                    
+  border: none;                       
+  border-radius: 50%;               
+  background-color: #ACF9E9;         
+  color: #333D3E;                      
+  font-size: 36px; 
+  font-weight: bold;                            
+  transition: background-color 0.3s;
+}
+.dipt-assesment-change-buttons:hover{
+              
+  background-color:#333D3E;         
+  color:#ACF9E9;                      
+
+}
+.assesment-details-title{
+  font-size: 22px;
+  color: #333D3E;
+  font-weight: bold;
+}
+
+.assesment-details-p{
+  font-size: 17px;
+}
+
+.dipt-assesment-process-data-mini-container{
+  
+  border: 3px solid #ACF9E9;
+    padding: 13px;
+    height: 220px;
+    width: fit-content;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/* media querry for swift cyber page */
+@media screen and (min-device-width: 430px) and (max-device-width: 768px) {
+/* all sections media querry */
+.csp-building-blocks-container,.dipt-customer-security-framework-section-container,.dipt-security-control-section-container,.swift-architecture-types-section-container,.cybersecurity-assesment-services-container,.dipt-our-assesment-process-section-container
+
+{
+  padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dipt-csp-security{
+  margin-top: 45px;
+}
+.dipt-csp-security-title,.dipt-building-blocks-title,.dipt-security-control-title,
+.dipt-swift-architecture-title,.architecture-type-graph-title,.dipt-independent-framework-title,.dipt-assesment-types-title,.choosing-assessment-provider-header-title,.dipt-our-assesment-process-header,.cybersecurity-assesment-services-title
+
+{
+  font-size: 20px;
+}
+.dipt-csp-security-paragraph,.building-blocks-page li,.dipt-customer-security-framework-paragraph,
+.dipt-security-control-p,.dipt-lists-title,.dipt-security-control-lists,
+.dipt-security-control-lists-parent li,.dipt-swift-architecture-p,.dipt-independent-framework-p,.dipt-assesment-types-p,.dipt-assesment-types-header-title,.dipt-assesment-types-box-title,.dipt-assesment-types-header-title,.dipt-assesment-types-box-title,.choosing-assessment-provider-p,.cybersecurity-assesment-services-p,.cybersecurity-assesment-services-btn
+{
+  font-size: 14px;
+}
+
+.swift-header-container {
+  height: auto; /* Let height adjust */
+}
+
+.dipt-big-title {
+  font-size: 32px; /* Medium heading size */
+}
+
+.dipt-paragraph {
+  font-size: 16px; /* Medium paragraph size */
+}
+
+.dipt-contact-btn {
+  font-size: 16px; /* Medium button size */
+  padding: 10px 20px;
+}
+
+.dipt-bg-image-container {
+  height: 800px; /* Adjust height for medium screens */
+}
+
+  .building-blocks-button-container{
+    display: flex;
+flex-direction: column;
+  }
+  .dipt-building-blocks-buttons{
+    height: 60px;
+    width: 363px;
+    padding: 5px;
+    text-align: center;
+  }
+.building-blocks-btn-p{
+  font-size: 14px;
+  font-weight: 400;
+}
+  /* swift */
+
+  .swift-diagram-detail-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .dipt-swift-paragraph-items {
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .dipt-swift-diagram-list-numbers {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+
+    font-size: 15px;
+    color: #333D3E;
+    background-color: #D3E6F1;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #D3E6F1;
+    border: 1px solid #D3E6F1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dipt-swift-title {
+    font-size: 20px;  display: flex;
+  
+  }
+
+  .dipt-swift-para-details-cont {
+    margin-bottom: 15px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .dipt-swift-inside-para-num {
+    font-size: 18px;
+  }
+
+  .dipt-swift-inside-para-info {
+    font-size: 14px; 
+    color: #555;
+    white-space: normal; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+     
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+  .dipt-swift-order_list-items-container {
+    margin-left: 0px;
+}
+
+/* SWIFT CUSTOMER SECURITY FRAMEWORK */
+.dipt-csp-security{
+  margin-top: 50px;
+}
+.dipt-customer-security-framework-title{
+  font-size: 20px;
+}
+/* SCOPE OF SECURITY CONTROLS */
+.dipt-security-controls-box-container {
+  display: flex;
+  flex-direction: column; /* Stack boxes vertically on smaller screens */
+  gap: 15px; /* Adjust space between boxes */
+}
+
+.dipt-security-control-box {
+  padding: 10px; /* Reduce padding for smaller screens */
+  width: 100%; /* Full width on smaller screens */
+  margin-bottom: 10px;
+}
+
+.dipt-lists-title {
+  font-size: 16px; /* Adjust font size for titles */
+}
+
+.dipt-security-control-lists {
+  font-size: 14px; /* Reduce text size slightly */
+}
+
+.dipt-security-control-lists-parent {
+  padding-left: 10px; /* Add some padding for better spacing */
+}
+
+.dipt-security-control-order-lists {
+  font-size: 16px;
+}
+/* cscf image */
+.cscf-image-container {
+  padding: 5px; 
+}
+
+.cscf-image {
+  width: 90%; 
+  max-width: 90%; 
+  height: auto; 
+}
+
+/* SWIFT Architecture Types */
+.architecture-buttons-container {
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 45px; 
+}
+
+.dipt-architecture-buttons {
+  width: 80%; 
+  font-size: 14px; 
+  padding: 12px; 
+  height: 60px;
+}
+.dipt-architecture-content-parent {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+
+.swift-architecture-data-container {
+  display: flex;
+  flex-direction: column;
+}
+.dipt-swift-architecture-data-container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dipt-swift-architecture-img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dipt-swift-architecture-data-mini-container {
+  padding: 10px;
+}
+
+.dipt-swift-architecture-header-data {
+  font-size: 20px;
+}
+
+.dipt-swift-architecture-p-data {
+  font-size: 14px;
+}
+
+.architecture-graph {
+  margin: 15px auto;       
+  padding: 0 5%;          
+}
+
+.data-graph-img {
+  max-width: 90%;         
+}
+/* assesment types */
+
+.dipt-assesment-types-box-container{
+  display: flex;
+  flex-direction: column;
+}
+.dipt-assesment-types-box {
+  padding: 5px;
+  height: 425px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* cybersecurity-assesment-services */
+.cybersecurity-assesment-services-parent {
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  display: flex;
+}
+
+.cybersecurity-assesment-services-img-container {
+  order: 1; 
+  margin-bottom: 15px; 
+}
+
+.cybersecurity-assesment-services-details-container {
+  order: 2; 
+  margin-left: 0;
+}
+
+.cybersecurity-assesment-services-title {
+  font-size: 1.5rem; 
+}
+
+.cybersecurity-assesment-services-p {
+ 
+  line-height: 1.5; 
+}
+
+.cybersecurity-assesment-services-btn {
+  width: 220px;
+  height: 50px;
+  padding: 5px; 
+}
+
+/* btn and div */
+.assesment-page-buttons-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.assesment-btn-details-container {
+  flex-basis: 100%; 
+  margin-bottom: 15px;
+}
+
+/* Adjust button sizes and fonts */
+.dipt-assesment-change-buttons {
+  width: 80px;
+  padding: 8px 12px;
+}
+
+.assesment-details-title {
+  font-size: 1.1rem;
+}
+
+.assesment-details-p {
+  font-size: 0.85rem;
+}
+
+/* Content container for assessment steps */
+.dipt-assesment-content-parent {
+  padding: 15px;
+}
+
+/* Individual step container */
+.assesment-content-data-container {
+  margin-bottom: 20px;
+}
+
+.dipt-assesment-process-header-data {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.dipt-assesment-process-p-data {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.dipt-assesment-process-data-mini-container {
+  border: 3px solid #ACF9E9;
+  padding: 10px;
+  height: 350px;
+  width: fit-content;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+}
+>>>>>>> ecb0171694efd00ab14d19064edf3226177397bb

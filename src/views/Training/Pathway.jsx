@@ -27,45 +27,34 @@ function Pathway() {
             </div>
 
             <div class="custom-wrapper pure-g container" id="menu">
-        <div class="pure-u-1-4">
-            <div class="pure-menu">
-                <a href="index.html" class="pure-menu-heading custom-brand"><img alt="home" width='120'
-                        class="masthead-brand"  src='/assets/images/images-removebg-preview.png'/></a>
+                <div class="pure-u-1-4">
+                    <div class="pure-menu">
+                        <a href="index.html" class="pure-menu-heading custom-brand"><img alt="home" width='120'
+                            class="masthead-brand" src='/assets/images/images-removebg-preview.png' /></a>
+                    </div>
+                </div>
+                
+
             </div>
-        </div>
-        <div class="pure-u-1-2">
-            <div class="pure-menu pure-menu-horizontal custom-can-transform menu-main menu-large">
-                <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link ">Interactive map</a>
-                    </li>
-                    <li class="pure-menu-item"><a href="/pathway" class="pure-menu-link active">Career
-                            pathway</a></li>
-                        <li class="pure-menu-item"><a href="/education-training" class="pure-menu-link">Education and Training Providers</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-        
-    </div>
-            <div class='clear'></div>
+            <div  class='clear'></div>
             <div id='con' class="container wrapper">
                 <div class='titlCont'>
                     <div class='title'>Cybersecurity Career Pathway</div>
-                    <div className='textJustify' style={{fontWeight:"500 "}} class='sub'>There are many opportunities for workers to start and advance their careers within cybersecurity. This interactive career pathway shows key jobs within cybersecurity, common transition opportunities between them, and detailed information about
+                    <div className='textJustify' style={{ fontWeight: "500 " }} class='sub'>There are many opportunities for workers to start and advance their careers within cybersecurity. This interactive career pathway shows key jobs within cybersecurity, common transition opportunities between them, and detailed information about
                         the salaries, credentials, and skillsets associated with each role.</div>
                     <a class="shareBtn" data-toggle="modal" data-target="#embedModal">Embed</a>
                 </div>
 
-                <div class="pure-g">
-                    <div class="pure-u-1-1 buttons" style= {{margin: "0 auto",textAlign: "center"}}>
+                {/* <div class="pure-g">
+                    <div class="pure-u-1-1 buttons" style={{ margin: "0 auto", textAlign: "center" }}>
                         <a href="/pathway" class="pure-button pure-button-primary">Roles</a>
                         <a href="/training" class="pure-button ml-1">Skills and Certifications</a>
                     </div>
-                </div>
+                </div> */}
 
                 <br />
 
-                <div   class="pathway"></div>
+                <div style={{marginTop:"-150px"}} class="pathway"></div>
                 <div class='clear'></div>
                 <h1 class='job'></h1>
                 <div class="table">
@@ -221,7 +210,7 @@ function Pathway() {
                             </div>
                         </div>
 
-                        <div class='col4 pure-u-1 pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-4 pure-u-xl-1-4' id='c5' style= {{display:"none"}}>
+                        <div class='col4 pure-u-1 pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-4 pure-u-xl-1-4' id='c5' style={{ display: "none" }}>
 
                             <div class="box long" id="no11">
                                 <div class='infoBox' id='b7'>
@@ -277,7 +266,7 @@ function Pathway() {
                 <div id="push">
                 </div>
             </div>
- 
+
         </div>
     )
 }
