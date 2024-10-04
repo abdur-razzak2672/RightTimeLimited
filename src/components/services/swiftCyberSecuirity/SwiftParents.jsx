@@ -276,8 +276,6 @@ function SwiftParent() {
           </div>
         </div>
       </section>
-
-
        <Information/>
        <Service/>
      </div>
