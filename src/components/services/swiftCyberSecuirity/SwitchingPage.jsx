@@ -9,13 +9,6 @@ function SwitchingPage() {
     return (
         <div>
             <div>
-                {/*style={{ backgroundColor: activePage === 'page1' ? '#333D3E' : '#ACF9E9' }} */}
-                {/* <div className="building-blocks-button-container">
-                    <button className="dipt-building-blocks-buttons" onClick={() => showPage('page1')}><span className="building-blocks-btn-p">
-                        Customer Security Controls Framework (CSCF)</span></button>
-                    <button className="dipt-building-blocks-buttons" onClick={() => showPage('page2')}><span className="building-blocks-btn-p">
-                        Independent Assessment Framework (IAF)</span></button>
-                </div> */}
 
                 <div className="row">
                     <div className="col-md-6">

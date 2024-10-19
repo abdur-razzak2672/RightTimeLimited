@@ -22,8 +22,10 @@ function blogs() {
 		<section class="mt-3 section-padding--bottom">
 			<div class="container">
 				<p className="text-dark">
-				Right Time Limited's blog section offers insightful articles on a variety of topics related to cybersecurity, IT management, and industry trends. These blogs provide readers with up-to-date information, expert opinions, and practical tips to enhance their understanding of key issues and make informed decisions.
-				</p>
+				Right Time Limited's blog section offers insigh�ul articles on a variety of topics related to
+cybersecurity, IT management, and industry trends. These blogs provide readers with up-to-date
+information, expert opinions, and practical tips to enhance their understanding of key issues and make
+informed decisions.				</p>
 				<div class="row gutter-y-30">
 					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
 						data-wow-delay="000ms">

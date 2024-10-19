@@ -23,16 +23,19 @@ const SwiftArchitectureChangingButtons = () => {
                 </div>
 
                 <div className='dipt-architecture-content-parent'>
+                    
+
+
                     <div id="page1" className={`swift-architecture-page ${activePage === 'page1' ? 'activepage' : ''}`}>
-                        <div className='row'>
-                            <div className='dipt-swift-architecture-img-container col-md-6'>
-                                <img src="/assets/images/services/SwiftCyber/type1.png" alt="" />
+                        <div className='swift-architecture-data-container'>
+                            <div className='dipt-swift-architecture-img-container'>
+                            <img src="/assets/images/services/SwiftCyber/type1.png" alt="" />
                             </div>
-                            <div className='col-md-6'>
+                            <div>
                                 <div className='dipt-swift-architecture-data-mini-container'>
-                                    <h3 className='dipt-swift-architecture-header-data'>Architecture Type A1 (Communication Interface)</h3>
+                                <h3 className='dipt-swift-architecture-header-data'>Architecture Type A1 (Communication Interface)</h3>
                                     <p className='dipt-swift-architecture-p-data'>Architecture A1 is defined by user ownership of the communication interface, often including the messaging interface as well. Architecture A1 also applies to scenarios where the user owns only the communication interface. This category encompasses hosted solutions where the user owns a communication interface license operated either on behalf of others or by a third party for the user’s personal use, inside or outside their environment, such as an Alliance Gateway Instant connected to a back-office system without a Messaging Interface.</p>
-                                </div>
+                               </div>
                             </div>
                         </div>
                     </div>

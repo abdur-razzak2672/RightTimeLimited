@@ -62,11 +62,16 @@ function ResourchBody() {
         <section class="article-grid py-section custom-background">
           <div class="grid-container">
             <header class="max-width-large mx-auto mb-10">
-              <div class="text-center">
-                <h2 class="header-2 flaired-content">
+              <div>
+                <h2 class="header-2 flaired-content text-center">
                   <span class="flaired blue left"></span>
                   <span class="flaired-content custom-color">Featured</span>
                 </h2>
+                <p>“Right Time Limited (RightTime) Resources provides a diverse range of content, including blogs, case
+studies, checklists, white papers, infographics, data sheets, and webinars. These resources serve as
+valuable references, offering practical insights, expert guidance, and educational materials to help
+organizations enhance their security posture, stay informed about the latest industry trends, and make
+informed decisions regarding their cybersecurity and IT management strategies.</p>
               </div>
             </header>
             <div class="grid-x medium-up-2 grid-margin-x on-small-scroll on-small-peak-from-right">

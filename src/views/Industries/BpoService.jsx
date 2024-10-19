@@ -48,7 +48,7 @@ function BpoService() {
 
                         <br/>
                         <h4 style={{ color: "orange" }} >How RightTime Assist?</h4>
-                        <p>We, at Panacea InfoSec, bring vast experience and technical expertise in designing and implementing ISMS in the BPO and IT/ITES industry. Additionally, we provide consultation on PCI, HIPAA, ISO standards compliance. Lastly, we understand the unique challenges faced by companies and their outsourcing partners. Our services ensure that you stay compliant and your customers secure.</p>
+                        <p>We, at Right Time Limited InfoSec, bring vast experience and technical expertise in designing and implementing ISMS in the BPO and IT/ITES industry. Additionally, we provide consultation on PCI, HIPAA, ISO standards compliance. Lastly, we understand the unique challenges faced by companies and their outsourcing partners. Our services ensure that you stay compliant and your customers secure.</p>
                          
 
                     <br/>
