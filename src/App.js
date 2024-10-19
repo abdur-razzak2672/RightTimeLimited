@@ -251,8 +251,7 @@ import SoftwareSecurity from "./views/Training/Customized/SoftwareSecurity";
 import AssessmentAndPenetrationTesting from "./views/Training/Customized/AssessmentAndPenetrationTesting";
 import CyberForensic from "./views/Training/Customized/CyberForensic";
 import GovernanceCorporate from "./views/Training/Customized/GovernanceCorporate";
-
-
+import Profile from "./components/services/swiftCyberSecuirity/Profile";
 
 
 
@@ -538,6 +537,8 @@ function App() {
           <Route path="/Six-sigma" component={SixSigma} exact />
           <Route path="/industry-4.0" component={Industry4} exact />
           <Route path="/zero-trust" component={ZeroTrust} exact />
+          <Route path="/profile" component={Profile} exact />
+
 
 
 

@@ -68,7 +68,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>Banking</p>
+                  <p className="text-light">Banking</p>
                 </a>
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
@@ -79,7 +79,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>Ecommerce</p>
+                  <p className="text-light">Ecommerce</p>
                 </a>
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
@@ -93,7 +93,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>Education</p>
+                  <p className="text-light">Education</p>
                 </a>
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
@@ -104,7 +104,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>Health Care</p>
+                  <p className="text-light">Health Care</p>
                 </a>
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
@@ -115,7 +115,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>PCI</p>
+                  <p className="text-light">PCI</p>
                 </a>
               </li>
 
@@ -127,7 +127,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>Telecommunication</p>
+                  <p className="text-light">Telecommunication</p>
                 </a>
               </li>
 
@@ -139,7 +139,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>insurance</p>
+                  <p className="text-light">insurance</p>
                 </a>
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
@@ -150,7 +150,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>It & BPO Services</p>
+                  <p className="text-light">It & BPO Services</p>
                 </a>
               </li>
 
@@ -162,7 +162,7 @@ function IndustriusBody() {
                     className="overlay-img rounded-2"
                     width="60%"
                   />
-                  <p>Power Sector</p>
+                  <p className="text-light">Power Sector</p>
                 </a>
               </li>
          

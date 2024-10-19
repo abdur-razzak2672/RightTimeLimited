@@ -50,8 +50,8 @@ function Insurance() {
                         <p>Insurers could be a merchant or a financial institution. In either case, they accept and store payment and other details for insurance policy premiums. Regardless, each of these types has to comply as per specific PCI and ISMS Compliance standards.</p>
                          
                         <br/>
-                        <h4 style={{ color: "orange" }} >How Can Panacea Help?</h4>
-                        <p>Panacea InfoSec, bring years of experience in implementing PCI and Information Security standards in a variety of industries. We can guide insurers in achieving total compliance to PCI DSS and ISMS. Additionally, we can ensure implementation of cyber security in insurance workflows. Thereby, providing a secure environment and applications for clients.</p>
+                        <h4 style={{ color: "orange" }} >How Can Right Time Limited Help?</h4>
+                        <p>Right Time Limited InfoSec, bring years of experience in implementing PCI and Information Security standards in a variety of industries. We can guide insurers in achieving total compliance to PCI DSS and ISMS. Additionally, we can ensure implementation of cyber security in insurance workflows. Thereby, providing a secure environment and applications for clients.</p>
                          
 
                     <br/>
