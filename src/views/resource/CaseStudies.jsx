@@ -5,7 +5,7 @@ function CaseStudies() {
 
   return (
     <div>
-      <div className="page-header">
+       <div className="page-header">
         <div
           className="page-header__bg"
           style={{ backgroundImage: `url('../images/resources/aboutbg1.png')` }}
@@ -42,6 +42,7 @@ function CaseStudies() {
 
       <br /><br /><br /><br /><br /> </div>
   )
+   
 }
 
 export default CaseStudies
