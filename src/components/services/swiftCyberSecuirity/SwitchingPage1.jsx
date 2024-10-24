@@ -30,7 +30,7 @@ function SwitchingPage1() {
                             <div>
 
 
-                                <section className="dipt-security-control-section-container">
+                                <section className=" ">
                                     <div className="security-control-header-title">
                                         <h4 className="dipt-security-control-title">SCOPE OF SECURITY CONTROLS</h4>
                                         <p className="dipt-security-control-p">The scope of security controls in CSCF encompasses a defined set of components in the user’s environment.</p>

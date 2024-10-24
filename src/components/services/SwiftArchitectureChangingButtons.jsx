@@ -13,11 +13,11 @@ const SwiftArchitectureChangingButtons = () => {
 
                 <div className="d-flex justify-content-center">
                     <div>
-                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page1')}>Type A1</button>
-                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page2')}>Type A2</button>
-                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page3')}>Type A3</button>
-                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page4')}>Type A4</button>
-                    <button className="dipt-architecture-buttons px-5 py-2 m-3" onClick={() => showPage('page5')}>B</button>
+                    <button className={` px-5 py-2 m-3 ${activePage === 'page1' ? 'dipt-architecture-buttons' : ''}`} onClick={() => showPage('page1')}>Type A1</button>
+                    <button className={` px-5 py-2 m-3 ${activePage === 'page2' ? 'dipt-architecture-buttons' : ''}`} onClick={() => showPage('page2')}>Type A2</button>
+                    <button className={` px-5 py-2 m-3 ${activePage === 'page3' ? 'dipt-architecture-buttons' : ''}`} onClick={() => showPage('page3')}>Type A3</button>
+                    <button className={` px-5 py-2 m-3 ${activePage === 'page4' ? 'dipt-architecture-buttons' : ''}`} onClick={() => showPage('page4')}>Type A4</button>
+                    <button className={` px-5 py-2 m-3 ${activePage === 'page5' ? 'dipt-architecture-buttons' : ''}`} onClick={() => showPage('page5')}>B</button>
                     </div>
     
                 </div>
