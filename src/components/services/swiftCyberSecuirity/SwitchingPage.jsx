@@ -12,11 +12,11 @@ function SwitchingPage() {
 
                 <div className="row">
                     <div className="col-md-6">
-                    <button className="dipt-building-blocks-buttons mt-5 px-5 py-2 w-100" onClick={() => showPage('page1')}><span className="building-blocks-btn-p">
+                    <button className={`  mt-5 px-5 py-2 w-100 ${activePage === 'page1' ? 'dipt-building-blocks-buttons' : ''}`} onClick={() => showPage('page1')}><span className="building-blocks-btn-p">
                     Customer Security Controls Framework (CSCF)</span></button>
                     </div>
                     <div className="col-md-6">
-                    <button className="dipt-building-blocks-buttons mt-5 px-5 py-2 w-100" onClick={() => showPage('page2')}><span className="building-blocks-btn-p">
+                    <button className={` mt-5 px-5 py-2 w-100 ${activePage === 'page2' ? 'dipt-building-blocks-buttons' : ''}`} onClick={() => showPage('page2')}><span className="building-blocks-btn-p">
                     Independent Assessment Framework (IAF)</span></button>
                     </div>
 

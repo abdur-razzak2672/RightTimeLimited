@@ -10254,16 +10254,24 @@ screen and (min-width: 40em) {
 
 .assesment-btn-details-container{
  
- padding: 5px;
-    text-align: center;
-    height: 274px;
-    width: 275px;
-    margin: 5px;
-}
+     text-align: center;
+     width: 275px;
+ }
 .assesment-buttons-under-design{
   margin-top: 15px;
 }
 .dipt-assesment-change-buttons{
+  width: 80px;                     
+  height: 80px;                    
+  border: none;                       
+  border-radius: 50%;               
+   color: #333D3E;                      
+  font-size: 36px; 
+  font-weight: bold;                            
+  transition: background-color 0.3s;
+}
+
+.dipt-assesment-change-buttons-active{
   width: 80px;                     
   height: 80px;                    
   border: none;                       
@@ -10295,8 +10303,7 @@ screen and (min-width: 40em) {
   border: 3px solid #ACF9E9;
     padding: 13px;
     height: 220px;
-    width: fit-content;
-    border-radius: 15px;
+     border-radius: 15px;
     margin-top: 10px;
 }
 

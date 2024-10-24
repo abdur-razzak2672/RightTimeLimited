@@ -11,47 +11,41 @@ const AssesmentChangingPageButton = () => {
 
                 <div className="assesment-page-buttons-container">
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page1')}>1</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page1'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page1')}>1</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Kick-off Meeting <br /> & Planning</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Prepare the Independent Assessment</p>
-                    </div>
+                     </div>
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page2')}>2</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page2'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page2')}>2</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Assessment Scope <br /> Finalizing</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Task Finalizing</p>
-                    </div>
+                     </div>
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page3')}>3</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page3'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page3')}>3</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Information Collection <br /> (Evidence and Artifacts)</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Customer compiles and shares necessary evidence and artifacts</p>
-                    </div>
+                     </div>
 
 
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page4')}>4</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page4'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page4')}>4</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Initial/Readiness
                             Assessment</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Prepare the Independent
-                            Assessment</p>
+                         
                     </div>
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page5')}>5</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page5'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page5')}>5</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Documentation/Evidence
                             Review</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Assessing the evidence
-                            for its adequacy</p>
+                        
                     </div>
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page6')}>6</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page6'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page6')}>6</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Validate SWIFT
                             Architecture</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Ensure SWIFT
-                            Architecture</p>
+                       
                     </div>
 
 
@@ -62,46 +56,41 @@ const AssesmentChangingPageButton = () => {
                 <div className="assesment-page-buttons-container mt-5">
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page7')}>7</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page7'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page7')}>7</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>In-Depth Analysis</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Ensure SWIFT
-                            Architecture Type</p>
+                        
                     </div>
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page8')}>8</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page8'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page8')}>8</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Reporting &
                             recommendation</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Draft Report</p>
-                    </div>
+                     </div>
 
 
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page9')}>9</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page9'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page9')}>9</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Remediation Support
                             including Documentation</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Gap Remediation
-                            Assistance</p>
+                       
                     </div>
 
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page10')}>10</button>
+                        <button className={`dipt-assesment-change-buttons ${activePage==='page10'?'dipt-assesment-change-buttons-active':''}`}onClick={() => showPage('page10')}>10</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Resolution of potential
                             gaps/ Follow Up</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Gap Remediation
-                            Assistance</p>
+                         
                     </div>
 
                     <div className='assesment-btn-details-container'>
-                        <button className="dipt-assesment-change-buttons" onClick={() => showPage('page11')}>11</button>
+                        <button className= {`dipt-assesment-change-buttons ${activePage==='page11'?'dipt-assesment-change-buttons-active':''}`} onClick={() => showPage('page11')}>11</button>
                         <h3 className='assesment-buttons-under-design assesment-details-title'>Final Assessment</h3>
-                        <p className='assesment-buttons-under-design assesment-details-p'>Submiting Final Report</p>
-                    </div>
+                     </div>
                 </div>
 
-                <div className='dipt-assesment-content-parent mt-5'>
+                <div className='dipt-assesment-content-parent my-5'>
                     <div id="page1" className={`swift-architecture-page ${activePage === 'page1' ? 'activepage' : ''}`}>
                         <div className='assesment-content-data-container'>
 
@@ -299,8 +288,7 @@ const AssesmentChangingPageButton = () => {
                     </div>
                 </div>
 
-                <img style={{width:"100%"}} src="/assets/images/services/SwiftCyber/methology.jpg" alt="" />
-
+ 
                 <h3 className='mt-3'>Steps to compliance</h3>
                 <p className='text-justify'>Right Time Limited’s Certified Assessors and SWIFT professionals can help your organization address the SWIFT independent assessment with our experience in working with various SWIFT counterparties 10 Resolution of potential gaps/ Follow Up Gap Remediation Assistance  Follow up on resolution of remaining gaps.  Collect missing evidence.  Updating the documentation. 11 Final Assessment Submiting Final Report  2nd Assessment to assess closer of non-conformities.  Delivery of the certificate of completion. locally and internationally. RightTime can closely assist you in steps 1, 2 and 3 of the following key steps towards SWIFT CSP controls compliance. And also develop skillset to complete step 4. (figure as below)</p>
 

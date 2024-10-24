@@ -52,8 +52,26 @@ function SwiftParent() {
   return (
     <div style={{ marginBottom: '200px' }}>
 
+<div className="page-header">
+        <div
+          className="page-header__bg"
+          style={{ backgroundImage: `url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kZHpIMn9pvL8k4VdTKw3stcPrZjCHXISPotFeIrFVPtAx_WL046IHbd4lVPSt-iM_DQ&usqp=CAU')` }}
+        ></div>
+        <div className="container">
+          <ul className="thm-breadcrumb list-unstyled">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>Swift</li>
+          </ul>
+          <h2 className="page-header__title">Swift Cyber Security Consulting</h2>
+          
+        </div>
+
+      </div>
+
       {/* HEADER START */}
-      <section style={{ height: "1200px", width: "100%", }} className="swift-header-container">
+      {/* <section style={{ height: "1200px", width: "100%", }} className="swift-header-container">
         <div className="dipt-bg-image-container" style={{ backgroundImage: `url('/assets/images/services/SwiftCyber/bg-header.jpg')`, height: "100%", width: "100%", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="dipt-container-holder">
             <h3 className="dipt-big-title">SWIFT CSP ASSESSMENT</h3>
@@ -62,7 +80,7 @@ function SwiftParent() {
           </div>
           <div></div>
         </div>
-      </section>
+      </section> */}
       {/* HEADER END */}
 
 
