@@ -1,156 +1,133 @@
-import React,{ useState} from 'react'
-import { Button, Col, Form, Modal, Row } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Button, Col, Modal, Row } from "react-bootstrap";
 
 function AdvisoryBoard() {
- 
-   const [show, setShow] = useState(false);
-  
-    const [show1, setShow1] = useState(false);
-    const [show2, setShow2] = useState(false);
-    const [show12, setShow12] = useState(false);
-  
-    const [show3, setShow3] = useState(false);
-    const [show4, setShow4] = useState(false);
-    const [show5, setShow5] = useState(false);
-  
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-    const handleClose1 = () => setShow1(false);
-    const handleShow1 = () => setShow1(true);
-    const handleClose2 = () => setShow2(false);
-    const handleShow2 = () => setShow2(true);
-    const handleClose12 = () => setShow12(false);
-    const handleShow3 = () => setShow3(true);
-    const handleClose4 = () => setShow4(false);
-    const handleShow4 = () => setShow4(true);
-    const handleClose5 = () => setShow5(false);
-    const handleShow12 = () => setShow12(true);
-  
-  
-  
-  
-  return (
-    <div>
-      <div className="page-header">
-        <div
-          className="page-header__bg"
-           style={{backgroundImage: `url('../images/resources/aboutbg1.png')`}}
+    const [showModal, setShowModal] = useState(false);
 
-        ></div>
-        <div className="container">
-          <ul className="thm-breadcrumb list-unstyled">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>Advisory Board</li>
-          </ul>
-          <h2 className="page-header__title">Member Of Advisory Board</h2>
-        </div>
-      </div>
+    const handleShow = (e) => {
+        e.preventDefault();
+        setShowModal(true);
+    };
 
-       <div>
-      <section className="section-padding--top text-center">
-        <div className="container">
-          <h3 className="blog-card-one__title blog-details__title" style={{ color: "#17224d" }} >Member Of Advisory Board</h3>
- 
+    const handleClose = () => setShowModal(false);
 
-          <div>
-            <section style={{ paddingBottom: "80px" }} className="container ">
-              <div className="">
+    const advisor = {
+        name: "DR. M. MOSHARRAF HOSSAIN FCA, PH.D",
+        title: "Advisor, Financial Sector | Advisory Board Member, Right Time Limited",
+        image: "/assets/images/team/Mosharraf.jpeg",
+        linkedin: true,
+    };
 
-                <Row className=' d-flex justify-content-center'>
+    return (
+        <div>
+            {/* Header */}
+            <div className="page-header">
+                <div
+                    className="page-header__bg"
+                    style={{ backgroundImage: "url('../images/resources/aboutbg1.png')" }}
+                ></div>
+                <div className="container">
+                    <ul className="thm-breadcrumb list-unstyled">
+                        <li><a href="/">Home</a></li>
+                        <li>Advisory Board</li>
+                    </ul>
+                    <h2 className="page-header__title">Member Of Advisory Board</h2>
+                </div>
+            </div>
 
-                  <Col md={4} sm={6} xs={12}>
-                    <article className="material-card mt-5  Purple">
-                      <a onClick={handleShow12} href='javascript:void(0)'>
-                        <h2 className="h21 text-light">
-                          <span>DR. TOUHID BHUIYAN</span>
-                          <strong>
-                            <i className="fa fa-fw fa-star"></i>
-                            COUNTRY DIRECTOR
-                            RIGHT TIME LIMITED
-                            AUSTRALIA
-                          </strong>
-                        </h2>
-                      </a>
-                      <div className="mc-content" style={{ height: "320px" }} >
-                        <div className="img-container">
-                          <img
-                            className="img-responsive"
-                            src="/assets/images/team/Photo1.jpeg"
-                            alt=""
-                          />
+            {/* Advisory Section */}
+            <section className="section-padding--top text-center">
+                <div className="container">
+                    <h3
+                        className="blog-card-one__title blog-details__title text-center"
+                        style={{ color: "#17224d" }}
+                    >
+                        Member Of Advisory Board
+                    </h3>
 
-                        </div>
-                        <div className="mc-description mt-3">
-                          COUNTRY DIRECTOR
-                          RIGHT TIME LIMITED
-                          AUSTRALIA                        </div>
-                      </div>
-                      <a className="mc-btn-action">
-                        <i className="fa fa-bars"></i>
-                      </a>
-                      <div className="mc-footer">
-                        <a href="/facebook" style={{ backgroundColor: "#3b5998", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-facebook-f "></a>
-                        <a href="/facebook" style={{ backgroundColor: "#00acee", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-twitter"></a>
-                        <a href="/facebook" style={{ backgroundColor: "#0A66C2", paddingLeft: "15px", borderRadius: "15px" }} className="fab fa-linkedin"></a>
-                        <a href="/facebook" style={{ backgroundColor: " #e95950", paddingLeft: "15px", borderRadius: "12px" }} className="fab fa-instagram"></a>
-                      </div>
-                    </article>
-                  </Col>
-
-                </Row>
-
-              </div>
+                    <Row className="justify-content-center py-4">
+                        <Col lg={4} md={6} sm={12}>
+                            <article className="material-card mt-5 Purple" style={{ maxWidth: 450, height: 330 }}>
+                                <a href="#" onClick={handleShow} role="button">
+                                    <h2 className="h21 text-light">
+                                        <span>{advisor.name}</span>
+                                        <strong>
+                                            <i className="fa fa-fw fa-star"></i> {advisor.title}
+                                        </strong>
+                                    </h2>
+                                </a>
+                                <div className="mc-content" style={{ height: 320 }}>
+                                    <div className="img-container">
+                                        <img className="img-responsive w-100" src={advisor.image} alt={advisor.name} />
+                                    </div>
+                                    <div className="mc-description mt-3">{advisor.title}</div>
+                                </div>
+                                <a className="mc-btn-action"><i className="fa fa-bars"></i></a>
+                                <div className="mc-footer d-flex justify-content-around py-2">
+                                    <a href="/facebook" className="fab fa-facebook-f" style={iconStyle("#3b5998")}></a>
+                                    <a href="/twitter" className="fab fa-twitter" style={iconStyle("#00acee")}></a>
+                                    <a href="/linkedin" className="fab fa-linkedin" style={iconStyle("#0A66C2")}></a>
+                                    <a href="/instagram" className="fab fa-instagram" style={iconStyle("#e95950")}></a>
+                                </div>
+                            </article>
+                        </Col>
+                    </Row>
+                </div>
             </section>
-          </div>
+
+            <Modal size="lg" show={showModal} onHide={handleClose}>
+                {/* Top-right X button */}
+                <Modal.Header closeButton></Modal.Header>
+
+                <Modal.Body className="rounded-3">
+                    <h5 className="teamTitle">{advisor.name}</h5>
+                    {advisor.linkedin && (
+                        <i className="fab fa-linkedin" style={{ fontSize: 40 }}></i>
+                    )}
+                    <Row>
+                        <Col md={8}>
+                            <p className="teamDetails textJustify">
+                                We are honored to welcome Dr. M. Mosharraf Hossain FCA to the Advisory Board of Right Time Limited as Advisor for the Financial Sector. A distinguished Chartered Accountant and Partner at PKF AHKC, Dr. Mosharraf brings over 31 years of multifaceted experience across the financial ecosystem, with deep-rooted expertise in the insurance and capital markets.
+                            </p>
+                            <p>
+                                He has held leadership positions including CEO of two life insurance companies, COO of the largest life insurer in Bangladesh, and CEO of a prominent merchant bank. He has served as Independent Director and Chairman of Board Audit Committees of several listed companies.
+                            </p>
+                            <p>
+                                He has consulted for the Asian Development Bank (ADB), the International Labour Organization (ILO), and was a valuer during the Chittagong Stock Exchange demutualization.
+                            </p>
+                            
+                        </Col>
+                        <Col md={4}>
+                            <img className="img-fluid" src={advisor.image} alt={advisor.name} />
+                        </Col>
+
+                        <Col>
+                         <p>
+                                His presence strengthens our vision to align financial sector innovation with global standards.
+                            </p>
+                        </Col>
+                    </Row>
+                </Modal.Body>
+
+                {/* Bottom-right Close button */}
+                <Modal.Footer className="d-flex justify-content-end">
+                    <button className ="btn btn-warning text-light px-3" onClick={handleClose}>
+                        Back
+                    </button>
+                </Modal.Footer>
+            </Modal>
+            <br /> <br /><br /><br /><br />
         </div>
-      </section>
-
-
-      <Modal size="lg" show={show12} onHide={handleClose12}>
-        <Modal.Body className=" rounded-3">
-          <h5 className='teamTitle'>Rahim</h5>
-          <i style={{ fontSize: "40px" }} className="fab fa-linkedin "></i>
-
-          <Row>
-            <Col md={8}>
-              <p className='teamDetails textJustify'>
-                Rahim is in charge  ofall Business, operations, and technical activities, including management and provision  of Right Time Limited services in Australia. </p>
-              <p>Rahim has over 20 years of experience in the security and information technology industry.</p>
-            </Col>
-
-            <Col md={4}>
-              <img
-                className="img-responsive"
-                src="/assets/images/team/user.jpg"
-
-                alt=""
-              />
-
-            </Col>
-            <p>His  knowledge includes performing and managing a variety of IT projects and Audits, Network Security Assessments, Network/Application Security and Architecture Design, and Information Security Technical documentation (Policy, Process, and Guidelines) development projects. </p>
-            <p>He  earned a PhD in Business Management systems from the University of XXX.</p>
-          </Row>
-
-
-
-
-
-        </Modal.Body>
-
-      </Modal>
-
-
-
-
-      <br /><br /><br /></div>
-
-
-
- 
-      <br/><br/><br/></div>
-  )
+    );
 }
 
-export default AdvisoryBoard
+// Helper for social icon styles
+const iconStyle = (bg) => ({
+    backgroundColor: bg,
+    paddingLeft: "15px",
+    borderRadius: "15px",
+    color: "#fff",
+    padding: "8px 12px",
+});
+
+export default AdvisoryBoard;
