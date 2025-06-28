@@ -62,6 +62,10 @@ function Header() {
                         Mission statement
                       </a>
                     </li>
+                     <li>
+                      <a href="//advisory-board">
+                        Advisory Board
+                      </a>                    </li>
                     <li>
                       <a href="/team">
                         Team
@@ -305,6 +309,9 @@ function Header() {
                       </a>
                       <a className="mt-3" href="/mission-statement">
                         Mission statement
+                      </a>
+                      <a className="mt-3" href="/advisory-board">
+                        Advisory Board
                       </a>
                       <a className="mt-3" href="/team">
                         Team

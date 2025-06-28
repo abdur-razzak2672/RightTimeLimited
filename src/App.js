@@ -164,6 +164,7 @@ import blogs from "./views/resource/Blogs";
 
 // Team section imported
 import Team from "./views/Company/team/Team";
+import AdvisoryBoard from "./views/Company/advisoryBoard/AdvisoryBoard";
 
 
 // Account Section Imported Start
@@ -688,6 +689,8 @@ function App() {
 
           {/* Team section route declaration start */}
           <Route path="/team" component={Team} exact />
+          <Route path="/advisory-board" component={AdvisoryBoard} exact />
+
 
 
           {/*account Section Route Declaration start */}
