@@ -143,8 +143,8 @@ function RegionalLeader() {
             </div>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
+            <Button variant="secondary px-3" onClick={handleClose}>
+              Back
             </Button>
           </Modal.Footer>
         </Modal>
