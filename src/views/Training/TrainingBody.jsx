@@ -1,4 +1,4 @@
-import React, { useState,useEffect,useRef } from 'react'
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'react-router-dom/Link';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
@@ -14,131 +14,55 @@ import Slider from 'react-slick'
 import Pathway from './Pathway';
 import CarrerPath from './CarrerPath';
 
-function TrainingBody() {
+// Constants
+const TRAINING_PROGRAMS = [
+  {
+    title: "Training (ICT Assessment)",
+    image: "https://www.ict.eu/sites/corporate/files/images/iStock-1322517295%20copy_12.jpg",
+    description: "Right Time Limited offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments.",
+    link: "/assesment"
+  },
+  {
+    title: "Training (ICT Management)",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxon_WBBZiXpR46nVYY7QYeNg7I_J82c1xUg&s",
+    description: "Right Time Limited provides training programs that focus on ICT management principles and practices.",
+    link: "/management"
+  },
+  {
+    title: "Training (RightTime Customized)",
+    image: "https://img.freepik.com/free-vector/cyber-security-concept_53876-90451.jpg",
+    description: "Right Time Limited offers customized training solutions tailored to the specific needs of organizations",
+    link: "/Customized"
+  }
+];
 
-  const [activeTab, setActiveTab] = useState(() => {
-    const savedTab = localStorage.getItem("career");
-    return savedTab ? JSON.parse(savedTab) : "career"; // Default to "career" if no saved tab
-  });
-  const menuRef = useRef(null);
+const TRAINERS = [
+  {
+    name: "Dr. Touhid Bhuiyan",
+    image: "/assets/images/team/Photo1.jpeg",
+    position: "DIRECTOR, STRATEGIC PLANNING AND DEVELOPMENT",
+    link: "/team"
+  },
+  {
+    name: "Md. Shamim Al Mamun",
+    image: "/assets/images/team/Shamim-PP.jpeg",
+    position: "CHIEF TECHNOLOGY OFFICER (CTO)",
+    link: "/team"
+  },
+  {
+    name: "Mohammad Tohidur Rahman Bhuiyan",
+    image: "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg",
+    position: "Lead Security Practitioner and MD & CEO",
+    link: "/team"
+  },
+  {
+    name: "Md. Rokanuzzaman",
+    image: "/assets/images/team/Rokanuzzaman.jpeg",
+    position: "Chief Information Officer (CIO)",
+    link: "/team"
+  }
+];
 
-
-  const renderContent = () => {
-    switch (activeTab) {
-      case "interactive":
-        return <Pathway />;
-      case "career":
-        return <CarrerPath />;
-      case "education":
-        return <p>Education and Training Providers coming soon...</p>;
-      default:
-        return null;
-    }
-  };
-
- 
-  const handleTabClick = (tab) => {
-    localStorage.setItem("career", JSON.stringify(tab));
-    setActiveTab(tab);    
-    // Store the current scroll position
-    const scrollY = window.scrollY;
-
-    // Reload the page
-    window.location.reload();
-
-    // Restore scroll position after reload
-    setTimeout(() => {
-      window.scrollTo(0, scrollY);
-    }, 0); // Use a timeout to ensure it executes after the reload
-  };
-
-  useEffect(() => {
-    // Scroll to the menu section after tab change
-    if (menuRef.current) {
-      setTimeout(() => {
-        menuRef.current.scrollIntoView({ behavior: 'smooth' });
-      }, 1000); // Adjust timeout if necessary
-    }
-  }, [activeTab]);
- 
-
-  var settings = {
-    dots: false,
-    arrows: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-
-
-    infinite: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 817,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
-  const [company, setCompany] = useState('2');
-  const [budget, setBudget] = useState('');
-  const [formData, setFormData] = useState({
-    fullName: '',
-    email: '',
-    company: '',
-    companyName: '',
-    phoneNumber: '',
-    country: '',
-    interestedIn: '',
-    budget: '',
-    howDidYouHearAboutUs: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setBudget(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Check if all fields are filled
-    if (budget) {
-      console.log('submitted done');
-      toast.success('Thank you for contacting us! Rest assured, our team will review your inquiry promptly and reach out if needed. We value your interest in Right Time Limited, your trusted cybersecurity partner');
-      setBudget('');
-
-      // Here you can add your logic to send the form data to the server or perform any other action
-    } else {
-      console.log('Please fill in all fields');
-      toast.error('Please fill in all fields');
-    }
-  };
-
-
-
-  const handleSelectChange = event => {
-    setCompany(event.target.value);
-  };
-
-  console.log("DSgvfd", company)
 
   const individualOptions = [
     "Lead Auditor (ISO 9001, ISO 27001, ISO 20000, ISO 22301 etc.)",
@@ -247,202 +171,201 @@ function TrainingBody() {
 
 
   ];
+
+const SLIDER_SETTINGS = {
+  dots: false,
+  arrows: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 817,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+};
+
+function TrainingBody() {
+  const [activeTab, setActiveTab] = useState(() => {
+    const savedTab = localStorage.getItem("career");
+    return savedTab ? JSON.parse(savedTab) : "career";
+  });
+  const [company, setCompany] = useState('2');
+  const [budget, setBudget] = useState('');
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    companyName: '',
+    phoneNumber: '',
+    country: '',
+    interestedIn: '',
+    howDidYouHearAboutUs: '',
+    message: ''
+  });
+  const menuRef = useRef(null);
+
+  const renderContent = useCallback(() => {
+    switch (activeTab) {
+      case "interactive": return <Pathway />;
+      case "career": return <CarrerPath />;
+      case "education": return <p className="coming-soon">Education and Training Providers coming soon...</p>;
+      default: return null;
+    }
+  }, [activeTab]);
+
+  const handleTabClick = useCallback((tab) => {
+    localStorage.setItem("career", JSON.stringify(tab));
+    setActiveTab(tab);
+    const scrollY = window.scrollY;
+    window.location.reload();
+    setTimeout(() => window.scrollTo(0, scrollY), 0);
+  }, []);
+
+   const handleChange = (e) => {
+    setBudget(e.target.value);
+  };
+
+    const handleSelectChange = event => {
+    setCompany(event.target.value);
+  };
+
+
+
+  const handleSubmit = useCallback((e) => {
+    e.preventDefault();
+    if (budget) {
+      toast.success('Thank you for contacting us! Our team will review your inquiry promptly.');
+      setBudget('');
+    } else {
+      toast.error('Please fill in all fields');
+    }
+  }, [budget]);
+
+  useEffect(() => {
+    if (menuRef.current) {
+      setTimeout(() => {
+        menuRef.current.scrollIntoView({ behavior: 'smooth' });
+      }, 1000);
+    }
+  }, [activeTab]);
+
   return (
     <div>
-
-      <div>
-        <div className="page-header">
-          <div
-            className="page-header__bg"
-            style={{
-              backgroundImage: `url('/assets/images/training/TopBanner.jpg')`,
-            }}
-          ></div>
-
-          <div className="container">
-            <ul className="thm-breadcrumb list-unstyled">
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>Training</li>
-            </ul>
-            <h2 className="page-header__title">Training</h2>
-          </div>
+      <div className="page-header">
+        <div 
+          className="page-header__bg"
+          style={{ backgroundImage: `url('/assets/images/training/TopBanner.jpg')` }}
+        ></div>
+        <div className="container">
+          <ul className="thm-breadcrumb list-unstyled">
+            <li><Link to="/">Home</Link></li>
+            <li>Training</li>
+          </ul>
+          <h2 className="page-header__title">Training</h2>
         </div>
-
-
-        <div className="container mt-5">
-          <p className='text-dark textJustify'>“Right Time Limited”   training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.</p>
-
-          <section className="section-padding--bottom   mt-5">
-            <div className="container">
-              <div className="section-title  ">
-                <h2 className="header text-center">Training Programs</h2>
-              </div>
-              <ul className="card-wrapper">
-                <li style={{ background: "#e9e3e0" }} className="card">
-                  <img height="210px" width="100%" src="https://www.ict.eu/sites/corporate/files/images/iStock-1322517295%20copy_12.jpg" alt="" />
-                  <h3 style={{ fontSize: "18px" }} className="  header" ><a href="/assesment">Training (ICT Assessment)</a></h3>
-
-                  <p style={{ fontWeight: "500" }} className='text-dark textJustify'>“Right Time Limited”   offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. </p>
-
-                  <Link to="/assesment" className="header"><button style={{ background: "#37474f" }} className='btn text-light'>Click for More Information</button> </Link>
-
-
-
-
-
-                </li>
-                <li style={{ background: "#e9e3e0" }} className="card ">
-                  <img height="210px" width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxon_WBBZiXpR46nVYY7QYeNg7I_J82c1xUg&s" alt="" />
-                  <h3 style={{ fontSize: "18px" }} className="  header" ><a href="/management"> Training (ICT Management)</a></h3>
-                  <p className='text-dark textJustify' style={{ fontWeight: "500" }} >“Right Time Limited”   provides training programs that focus on ICT management principles and practices. </p>
-
-                  <Link className="header " to="/management"  ><button style={{ background: "#37474f" }} className='btn btn text-light'>Click for More Information</button> </Link>
-
-                </li>
-
-                <li style={{ background: "#e9e3e0" }} className="card">
-                  <img height="210px" width="100%" src="https://img.freepik.com/free-vector/cyber-security-concept_53876-90451.jpg" alt="" />
-                  <h3 style={{ fontSize: "18px" }} className="  header" ><a href="/Customized">Training (RightTime Customized)</a></h3>
-
-                  <p style={{ fontWeight: "500" }} className='text-dark textJustify'>“Right Time Limited”   offers customized training solutions tailored to the specific needs of organizations</p>
-
-                  <Link to="/Customized" className="header"><button style={{ background: "#37474f" }} className='btn text-light'>Click for  More Information</button> </Link>
-
-
-
-
-
-                </li>
-
-
-
-              </ul>
-
-
-            </div>
-          </section>
-
-
-          {/* <img id='prelC' src="/images/c.svg" width="100" height="100" alt="loading" /> */}
-
-          <h1 style={{ color: "#37474f" }} className=' text-center my-5'>ICT Professional(s) will be benefited with our Track choosing mind-map. </h1>
-
-          <div class="main">
-
-            <div class="custom-wrapper pure-g container" id="menu">
-              <div class="pure-u-1-4">
-                <div class="pure-menu">
-
-                </div>
-              </div>
-      <div ref={menuRef} className="pure-u-1-2">
-      <div className="pure-menu pure-menu-horizontal custom-can-transform menu-main ">
-        <ul className="pure-menu-list">
-          <li className="pure-menu-item">
-            <Link
-              href="#"
-              className={`pure-menu-link ${activeTab === "interactive" ? "active" : ""}`}
-              onClick={() => handleTabClick("interactive")}
-            >
-              Interactive map
-            </Link>
-          </li>
-          <li className="pure-menu-item">
-            <Link
-              href="#"
-              className={`pure-menu-link ${activeTab === "career" ? "active" : ""}`}
-              onClick={() => handleTabClick("career")}
-            >
-              Career pathway
-            </Link>
-          </li>
-          <li className="pure-menu-item">
-            <Link
-              href="#"
-              className={`pure-menu-link ${activeTab === "education" ? "active" : ""}`}
-              onClick={() => handleTabClick("education")}
-            >
-              Education and Training Providers
-            </Link>
-          </li>
-        </ul>
       </div>
 
-                {/* Conditional content based on the active tab */}
+      <div className="mx-5 mt-5">
+        <p className='text-dark container textJustify'>
+“Right Time Limited” training programs encompass ICT Assessment, ICT Management, and customized training solutions. By participating in these programs, individuals and organizations can acquire the necessary knowledge and skills to effectively assess and manage ICT systems, as well as receive tailored training to meet their specific requirements.        </p>
 
-              </div>
-
-
+        <section className="section-padding--bottom mt-5">
+          <div className="container">
+            <div className="section-title">
+              <h2 className="header text-center">Training Programs</h2>
             </div>
-            <div className=''>{renderContent()}</div>
-
+            <ul className="card-wrapper">
+              {TRAINING_PROGRAMS.map((program, index) => (
+                <li key={index} style={{ background: "#e9e3e0" }} className="card">
+                  <img height="210px" width="100%" src={program.image} alt={program.title} />
+                  <h3 style={{ fontSize: "18px" }} className="header">
+                    <Link to={program.link}>{program.title}</Link>
+                  </h3>
+                  <p style={{ fontWeight: "500" }} className='text-dark textJustify'>{program.description}</p>
+                  <Link to={program.link} className="header">
+                    <button style={{ background: "#37474f" }} className='btn text-light'>
+                      Click for More Information
+                    </button>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
+        </section>
+
+        <h1 style={{ color: "#37474f" }} className='text-center my-5'>
+          ICT Professional(s) will be benefited with our Track choosing mind-map.
+        </h1>
+
+        <div className="main">
+          <div className="custom-wrapper pure-g container" id="menu">
+            <div className="pure-u-1-4">
+              <div className="pure-menu"></div>
+            </div>
+            <div ref={menuRef}>
+              <div className="pure-menu pure-menu-horizontal custom-can-transform menu-main">
+                <ul className="pure-menu-list">
+                  {["interactive", "career", "education"].map((tab) => (
+                    <li key={tab} className="pure-menu-item">
+                      <button
+                        className={`pure-menu-link ${activeTab === tab ? "active" : ""}`}
+                        onClick={() => handleTabClick(tab)}
+                      >
+                        {tab === "interactive" && "Interactive map"}
+                        {tab === "career" && "Career pathway"}
+                        {tab === "education" && "Education and Training Providers"}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className='widt'>{renderContent()}</div>
         </div>
-
-
-
 
         <section className="section-padding--bottom text-center mt-5">
           <div className="container">
             <div className="section-title text-center">
               <h2 className="header">Meet Our Trainers</h2>
-
             </div>
-            <Slider {...settings}>
-              <div className="item">
-                <div style={{ background: "#e9e3e0" }} className="card">
-                  <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Photo1.jpeg" alt="" /></a>
-                  <div className="service-card-three__content">
-                    <h4 className="pt-3"><a href="/consultation"> Dr. Touhid Bhuiyan
-                      <br /></a></h4>
-                    <p>DIRECTOR, STRATEGIC PLANNING AND DEVELOPMENT</p>
-                    <a href="/team" className="">More Information</a>
+            <Slider {...SLIDER_SETTINGS}>
+              {TRAINERS.map((trainer, index) => (
+                <div key={index} className="item">
+                  <div style={{ background: "#e9e3e0" }} className="card">
+                    <Link to={trainer.link} className="mt-4 rounded-4">
+                      <img className='rounded-5' style={{ width: "100%", height: "170px" }} 
+                        src={trainer.image} alt={trainer.name} />
+                    </Link>
+                    <div className="service-card-three__content">
+                      <h4 className="pt-3"><Link to="/consultation">{trainer.name}</Link></h4>
+                      <p>{trainer.position}</p>
+                      <Link to={trainer.link}>More Information</Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="item">
-                <div style={{ background: "#e9e3e0" }} className="card">
-                  <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Shamim-PP.jpeg" alt="" /></a>
-                  <div className="service-card-three__content">
-                    <h4 className="pt-3"><a href="/consultation">Md. Shamim Al Mamun
-                      <br /></a></h4>
-                    <p>CHIEF TECHNOLOGY OFFICER (CTO)</p>
-                    <a href="/team" className="">More Information</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="item">
-                <div style={{ background: "#e9e3e0" }} className="card">
-                  <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg" alt="" /></a>
-                  <div className="service-card-three__content">
-                    <h4 className="pt-3"><a href="/consultation"> Mohammad Tohidur Rahman Bhuiyan
-                      <br /></a></h4>
-                    <p>Lead Security Practitioner and MD & CEO</p>
-                    <a href="/team" className="">More Information</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="item">
-                <div style={{ background: "#e9e3e0" }} className="card">
-                  <a className=" mt-4 rounded-4" href="/"><img className='rounded-5' style={{ width: "100%", height: "170px" }} src="/assets/images/team/Rokanuzzaman.jpeg" alt="" /></a>
-                  <div className="service-card-three__content">
-                    <h4 className="pt-3"><a href="/consultation">Md. Rokanuzzaman
-                      <br /></a></h4>
-                    <p>Chief Information Officer (CIO)</p>
-                    <a href="/team" className="">More Information</a>
-                  </div>
-                </div>
-              </div>
-
-
+              ))}
             </Slider>
-
-
           </div>
         </section>
 
@@ -450,8 +373,8 @@ function TrainingBody() {
         <Partner />
         <Associaltion />
 
-        <div>
-          <div className="container">
+       <div>
+          <div className="mx-5 border px-5 mt-5">
             <div className="row">
               <div className="col-lg-12">
               </div>
@@ -612,10 +535,9 @@ function TrainingBody() {
           </div>
 
         </div>
-        <br /><br /><br />
-      </div>
+      </div><br/><br/><br/><br/>
     </div>
-  )
+  );
 }
 
-export default TrainingBody
+export default TrainingBody;
