@@ -1,8 +1,7 @@
 import React,{useEffect} from 'react'
 
 function CarrerPath({career}) {
-    console.log("dfdfdf=================",career)
-         useEffect(() => {
+          useEffect(() => {
             if(career){
                 console.log('Fetching career pathway data...');
  

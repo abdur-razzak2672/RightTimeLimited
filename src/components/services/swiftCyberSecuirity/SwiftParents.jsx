@@ -131,7 +131,7 @@ function SwiftParent() {
 
 
           <div className="col-md-6">
-            <img style={{ width: "90%" }} src="/assets/images/services/SwiftCyber/customer.png" alt="" />
+            <img style={{ width: "90%" }} src="/assets/images/services/SwiftCyber/customer.jpeg" alt="" />
           </div>
 
         </div>
