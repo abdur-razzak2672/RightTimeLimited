@@ -10684,9 +10684,8 @@ screen and (min-width: 40em) {
 
 
 .slider-card {
-  background-color: #f0f0f0;
-  /* light gray background */
-  width: 100px;
+   /* light gray background */
+  width: 80% !important;
   height: 200px;
   margin: 0 auto;
   display: flex;

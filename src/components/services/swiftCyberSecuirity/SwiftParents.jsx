@@ -8,7 +8,7 @@ import { SwiftOfferData } from "./OfferCard";
 import SwitchingPage from "./SwitchingPage";
 import Slider from 'react-slick'
 import AssesmentChangingPageButton from "./AssesmentChangingPageButton";
-import Information from "../../Information";
+import SwiftInformation from "../../SwiftInformation";
 import Service from "../../Service";
 import SwitchingPage1 from "./SwitchingPage1";
 function SwiftParent() {
@@ -120,8 +120,8 @@ function SwiftParent() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-md-6 mt-5 pt-5">
+        <div className="row mt-5">
+          <div className="col-md-4">
             <h2>Evolution of the Swift CSP since 2016
             </h2>
             <p className="mt-3 text-justify">In an era where digitalisation has transformed the way financial institutions work, the security of financial data and transactions is more important than ever. </p>
@@ -130,8 +130,8 @@ function SwiftParent() {
           </div>
 
 
-          <div className="col-md-6">
-            <img style={{ width: "90%" }} src="/assets/images/services/SwiftCyber/customer.jpeg" alt="" />
+          <div className="col-md-8">
+            <img style={{ width: "100%" }} src="/assets/images/services/SwiftCyber/customer.jpeg" alt="" />
           </div>
 
         </div>
@@ -161,7 +161,7 @@ function SwiftParent() {
           <SwitchingPage1 />
         </div>
       </section>
-      <Information />
+      <SwiftInformation />
       <Service />
 
       <div className="mx-5">
@@ -308,7 +308,7 @@ function SwiftParent() {
 
 
         <div>
-          <h3 className="mt-5">Questions about Swift CSP? Don't hesitate to contact our experts Sam Nelen or Thomas Cornelis
+          <h3 className="mt-5">Questions about Swift CSP? Don't hesitate to contact our experts Mohammad Tohidur Rahman Bhuiyan or Rokanuzzaman
 
           </h3>
 
