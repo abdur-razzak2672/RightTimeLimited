@@ -6,42 +6,42 @@ function SwiftInformation() {
   {
     id: 1,
     name: "Sonali Bank Limited",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiomu7JOf1qAxqkCkAPlVGyqHZT71i0fekJg&s",
+    image: "/assets/images/services/SwiftCyber/sonali.png",
   },
   {
     id: 2,
     name: "Social Islami Bank Limited",
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Logo_of_Social_Islami_Bank.svg/1200px-Logo_of_Social_Islami_Bank.svg.png",
+    image: "/assets/images/services/SwiftCyber/sibl.png",
   },
   {
     id: 3,
     name: "Shimanto Bank Limited",
-    image: "https://www.shimantobank.com/wp-content/uploads/2023/12/Shimanto-Bank-Logo-PLC-01_150.png",
+    image: "/assets/images/services/SwiftCyber/shimanto.png",
   },
   {
     id: 4,
     name: "Padma Bank Limited",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-_5x8f8C2_vZ3TgfiwYMztq7GInEWCWMITQ&s",
+    image: "/assets/images/services/SwiftCyber/padma.png",
   },
   {
     id: 5,
     name: "South Bangla Agriculture Bank Limited",
-    image: "https://www.sbacbank.com/images/logos/logo-full.png",
+    image: "/assets/images/services/SwiftCyber/sbac.png",
   },
   {
     id: 6,
     name: "Meghna Bank Limited",
-    image: "https://www.zooinfotech.com/wp-content/uploads/2018/02/Meghna-bank_Ltd.jpg",
+    image: "/assets/images/services/SwiftCyber/meghna.png",
   },
   {
     id: 7,
     name: "NRB Bank Limited",
-    image: "https://www.tbsnews.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/images/2021/09/14/4730-1445252557-n-1581437865052.jpg",
+    image: "/assets/images/services/SwiftCyber/nrb.png",
   },
   {
     id: 8,
     name: "IFIC Bank Limited",
-    image: "https://tds-images.thedailystar.net/sites/default/files/styles/very_big_201/public/images/2022/01/03/ific-bank.jpg",
+    image: "/assets/images/services/SwiftCyber/ific.png",
   },
   
 ];
@@ -100,16 +100,13 @@ function SwiftInformation() {
 
           <Slider {...settings}>
   {clients.map((client) => (
-    <div key={client.id} className="slider-card">
-      <div className="slider-card-inner">
-        <img
+    <div key={client.id} className="item border-5">
+         <img
           src={client.image}
           alt={client.name || "Client logo"}
           title={client.name}
-          className="slider-image"
-        />
-      </div>
-    </div>
+         />
+     </div>
   ))}
 </Slider>
 
