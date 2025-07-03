@@ -94,7 +94,7 @@ function SwiftInformation() {
         <div className="mx-5">
           <div className="section-title text-center">
             <h2 className="header">
-              Some of our valued customers swift : CSP Audit , Cybersecurity  Service
+              Some of our valued Customers: SWIFT CSP Audit , Cybersecurity Services (specially SWIFT)
             </h2>
           </div>
 
