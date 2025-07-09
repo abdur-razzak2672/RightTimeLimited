@@ -3,6 +3,7 @@ import SeviceCommon from '../Services/SeviceCommon'
 import { Carousel } from 'react-bootstrap'
  import Partner from '../../components/Partner'
 import { data } from './ManagedServiceData'
+import BenitsConpany from '../Services/ServicesBody/BenitsConpany'
 
  function ManagedServiceBody() {
   return (
@@ -43,6 +44,10 @@ import { data } from './ManagedServiceData'
             </h4>
 
             <p className='text-dark text-center'> Right Times 24×7 Security Team work around the clock to monitor, detect, and respond to cyberattacks before they have a chance to impact your business</p>
+              
+             <section className="section-padding--bottom mt-3 ">
+                <BenitsConpany />
+              </section>
 
           <div className="row">
 

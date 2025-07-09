@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
 import { data } from './data';
 function BenitsConpany() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -17,6 +20,19 @@ function BenitsConpany() {
     setSubIndex(index);
     setActiveSubIndex(index);
   };
+
+  const location = useLocation();
+ 
+ useEffect(() => {
+  const currentPath = location.pathname.toLowerCase().replace('/', '');
+  const index = data.findIndex(item => item.slug === currentPath);
+
+  if (index !== -1) {
+    setTabIndex(index);
+    setActiveIndex(index);
+  }
+}, [location.pathname]);
+
 
 
   // Function to split the text into three portions with specific word limits

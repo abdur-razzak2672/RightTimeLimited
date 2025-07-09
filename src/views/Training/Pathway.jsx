@@ -26,38 +26,25 @@ function Pathway() {
                 </div>
             </div>
 
-            <div class="custom-wrapper pure-g container" id="menu">
-                <div class="pure-u-1-4">
-                    <div class="pure-menu">
-                        <a href="index.html" class="pure-menu-heading custom-brand"><img alt="home" width='120'
-                            class="masthead-brand" src='/assets/images/images-removebg-preview.png' /></a>
-                    </div>
-                </div>
-                
-
-            </div>
-            <div  class='clear'></div>
-            <div id='con' class="container wrapper">
-                <div class='titlCont'>
-                    <div class='title'>Cybersecurity Career Pathway</div>
+                      <div className='container'>
+                        <div class='title text-center mt-5'>Cybersecurity Interactive Map</div>
                     <div className='textJustify' style={{ fontWeight: "500 " }} class='sub'>There are many opportunities for workers to start and advance their careers within cybersecurity. This interactive career pathway shows key jobs within cybersecurity, common transition opportunities between them, and detailed information about
                         the salaries, credentials, and skillsets associated with each role.</div>
-                    <a class="shareBtn" data-toggle="modal" data-target="#embedModal">Embed</a>
-                </div>
-
-                {/* <div class="pure-g">
-                    <div class="pure-u-1-1 buttons" style={{ margin: "0 auto", textAlign: "center" }}>
-                        <a href="/pathway" class="pure-button pure-button-primary">Roles</a>
-                        <a href="/training" class="pure-button ml-1">Skills and Certifications</a>
-                    </div>
-                </div> */}
-
-                <br />
-
-                <div style={{marginTop:"-150px"}} class="pathway"></div>
+                      </div>
+ 
+      
+             <div id='con' className='text-center container d-flex justify-content-center'>
+    
+                <div  class="pathway w-100"></div>
                 <div class='clear'></div>
                 <h1 class='job'></h1>
-                <div class="table">
+              
+                <div id="push">
+                </div>
+            </div>
+
+
+               <div class="mx-5">
                     <div class="row1 pure-g" id='r1'>
                         <div class='col1 pure-u-1 pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-4 pure-u-xl-1-4'>
                             <div class="box no1">
@@ -263,9 +250,6 @@ function Pathway() {
                         </div>
                     </div>
                 </div>
-                <div id="push">
-                </div>
-            </div>
 
         </div>
     )

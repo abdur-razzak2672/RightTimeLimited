@@ -1,7 +1,8 @@
 import React from 'react'
 import SeviceCommon from '../SeviceCommon'
+import BenitsConpany from '../ServicesBody/BenitsConpany'
 function ConsultationBody() {
- 
+
   return (
     <div>
       <div className="page-header ">
@@ -35,6 +36,10 @@ function ConsultationBody() {
         <div className="container">
           <div className="section-title">
             <p className="">Web application security testing is performed to identify the vulnerabilities in a web application. With the increasing adaptation of web technologies across several areas, web applications have become a very viable attack surface if left with an untailored security outlook. Hence, assessments like web application security help the developers remediate vulnerabilities that are found during the process thereby and enhance the overall security of the web application.</p>
+            <section className="section-padding--bottom mt-3 ">
+              <BenitsConpany />
+            </section>
+
             <div className="row">
               <img className="" src="/assets/images/services/webapptesting.png" alt="" />
 
@@ -47,10 +52,10 @@ function ConsultationBody() {
         </div>
       </section>
 
-      <SeviceCommon/>
+      <SeviceCommon />
 
-      
-   
+
+
     </div>
   )
 }

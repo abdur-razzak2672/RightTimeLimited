@@ -2,6 +2,7 @@ export const data = [
     {
         id: 1,
         title: 'Consultation',
+        slug:'consultation',
         description: 'Right Time Limited   is a leading IT Enabled Services (ITES) Consultation provider that offers comprehensive solutions to businesses looking to harness the power of information technology to optimize its operations and achieve strategic objectives. With a focus on understanding each clients unique needs, the company conducts a thorough technology assessment and business analysis to identify existing strengths and weaknesses, as well as potential opportunities and risks. Throughout the engagement, RightTime offers continuous support and monitoring to ensure that the implemented IT solutions function smoothly and remain up-to-date. Our commitment to excellence and customer satisfaction makes them a trusted partner for businesses seeking to harness the full potential of ITES to drive success and innovation.',
         logo: 'far fa-newspaper fa-3x',
         subTitle: [
@@ -103,6 +104,7 @@ export const data = [
     {
         id: 2,
         title: 'Auditing',
+        slug:'auditing',
         description: 'Right Time Limited   excels in providing specialized IT Enabled Services (ITES) Auditing/Assessment to businesses, offering a comprehensive evaluation of their Information System (IS)/ Information Technology (IT) Systems and Processes. As a trusted service provider, it begins by conducting a meticulous and in-depth audit of the clients existing IS/IT infrastructure and operations. Throughout the engagement, RightTime emphasizes clear communication with the client, ensuring that all stakeholders are well-informed and involved in the auditing process. With our commitment to delivering high-quality services and empowering businesses to maximize there IS/IT potential, RightTime proves to be a valuable partner for ITES Auditing/Assessment needs.  ',
         logo: ' fas fa-ribbon fa-3x',
         subTitle: [
@@ -157,7 +159,8 @@ export const data = [
     },
     {
         id: 3,
-        title: ' Secuirity Testing',
+        title: ' Security Testing',
+        slug:'security-testing',
         description: 'Right Time Limited   offers top-notch IT Enabled Services (ITES) Security Testing as a trusted service provider, helping businesses safeguard there IS/IT Systems and data from potential vulnerabilities and cyber threats. Our security testing service involves a systematic and thorough evaluation of the clients IS/IT infrastructure, applications, and networks to identify and address potential security risks proactively. We understand the ever-evolving nature of cybersecurity threats and, therefore, emphasizes continuous monitoring and periodic security testing to stay ahead of potential risks. By providing robust Security Testing Services, RightTime empowers businesses to proactively protect their IT assets, build customer trust, and maintain a resilient and secure IT environment. ',
 
         logo: ' far fa-comment-dots fa-3x',
@@ -219,6 +222,7 @@ export const data = [
     {
         id: 4,
         title: 'Certification',
+        slug:'certification',
         description: 'Right Time Limited   is a leading provider of Standard Certification Services, assisting businesses in achieving industry-recognized certifications for there IS/IT Systems and Processes. With a wealth of experience and expertise, RightTime guides organizations through the complex certification process, ensuring compliance with relevant standards and regulations. By availing themselves of our Standard Certification Services, businesses can demonstrate their commitment to quality, security, and regulatory compliance. This not only enhances their reputation and credibility in the market but also instills confidence in their customers, partners, and stakeholders. RightTime’s dedication to delivering top-notch services makes them an ideal partner for organizations seeking Standard Certifications to stay ahead in a competitive landscape.',
 
         logo: ' fas fa-cogs fa-3x',
@@ -272,6 +276,7 @@ export const data = [
     {
         id: 5,
         title: 'Managed Services',
+        slug:'managed-service',
         description: ' Right Time Limited   is a prominent Managed Security Services Provider (MSSP) offering comprehensive Cyber Security Services to protect businesses from a wide range of cyber threats. As an experienced MSSP, RightTime takes on the responsibility of managing and monitoring its clients security infrastructure, enabling businesses to focus on their core operations with confidence in their cybersecurity. By partnering with RightTime as their MSSP, businesses can significantly enhance their security posture, reduce security-related costs, and have peace of mind knowing that there IS/IT infrastructure is in the hands of dedicated and skilled security professionals. RightTimes commitment to excellence and proactive security approach makes them a valuable and trusted partner for businesses seeking top-notch Managed Security Services.',
         logo: 'fas fa-code fa-3x ',
         subTitle: [
