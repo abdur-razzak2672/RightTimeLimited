@@ -139,15 +139,7 @@ function IsoStandard() {
         </div>
         <div className=' text-center service-topbar'>
        <div className="container d-flex justify-content-between">
-       {/* <div style={{  color: "white" }} className=''>
-          <a className='text-light'href='#header'>FAQ</a>
-        </div>
-        <div className=''>
-          <a className='text-light' href='#benefit'>Benefit</a>
-        </div>
-        <div className=''>
-          <a className='text-light' href='#question'>Ask Question</a>
-        </div> */}
+        
        </div>
       </div>
 

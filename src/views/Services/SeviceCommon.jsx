@@ -1,17 +1,14 @@
 import React from 'react'
- import Accordion from 'react-bootstrap/Accordion';
- 
+  import Accordion from 'react-bootstrap/Accordion';
+import { useLocation } from 'react-router-dom';
+import faqData from './FaqData';
 function SeviceCommon() {
+  const location = useLocation();
+  const currentPath = location.pathname;
+  const currentFaqs = faqData[currentPath] || [];
   return (
     <div>
-         <div className="mx-5 px-5">
-           <div>
-        <img  src="assets/images/services/ani.png" width="100%" alt=''/>
-      </div>
-      </div>
-     
-      
-
+ 
       <section id="benefit" className="section-padding--bottom text-center">
         <div className="container">
           <div className="section-title text-center">
@@ -221,72 +218,34 @@ function SeviceCommon() {
       <section id="question" className="section-padding--bottom text-center">
         <div className="container">
           <div className="section-title text-center">
-            <h2 className="header">Frequently Asked Questions</h2>
-            <div className="expanedItem mt-5 mb-5">
-              <div className=" expaneditems1">
-                <Accordion className="shadaow">
-                  <Accordion.Item className="my-3" eventKey="1">
-                    <Accordion.Header>What Is The Difference Between CHD And SAD ?</Accordion.Header>
-                    <Accordion.Body>
-                      Account Data is Organized into two data groups. 1) Card Holder Data (CHD) 2) Sensitive Authentication Data (SAD). CHD covers the Data elements like Primary Account Number (PAN), Cardholder Name, Service Code and Expiration Date. CHD is useful to identify the Card holder, where in SAD Covers data elements like Track Data, CVV, CVC, CAV, CID, PIN / PIN Block. SAD is used for authorizing the card holder to do the transactions.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-                <Accordion >
-                  <Accordion.Item className="my-3" eventKey="1">
-                    <Accordion.Header>To Whom Does The PCI DSS Apply ?</Accordion.Header>
-                    <Accordion.Body>
-                      PCI DSS standard can be applied to any organization that accepts, transmits or stores any cardholder data regardless of size or number of transactions.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-                <Accordion >
-                  <Accordion.Item className="my-3" eventKey="1">
-                    <Accordion.Header>What Is The Most Current Version Of The PCI DSS ?</Accordion.Header>
-                    <Accordion.Body>
-                      The latest is PCI DSS version 3.2.1 that replaces version 3.2. Though no new requirements were added in PCI DSS 3.2.1, the update was designed to eliminate any confusion around effective dates for PCI DSS requirements.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
+            <h2 className="header my-5">Frequently Asked Questions</h2>
 
+            {currentFaqs.length > 0 ? (
+              <div className="expanedItem mt-5 mb-5">
+                <div className="expaneditems1">
+                  {currentFaqs.slice(0, 3).map((faq, index) => (
+                    <Accordion className="shadow" key={`faq-left-${index}`}>
+                      <Accordion.Item className="my-3" eventKey="0">
+                        <Accordion.Header>{faq.question}</Accordion.Header>
+                        <Accordion.Body>{faq.answer}</Accordion.Body>
+                      </Accordion.Item>
+                    </Accordion>
+                  ))}
+                </div>
+                <div className="expaneditems1">
+                  {currentFaqs.slice(3, 6).map((faq, index) => (
+                    <Accordion className="shadow" key={`faq-right-${index}`}>
+                      <Accordion.Item className="my-3" eventKey="0">
+                        <Accordion.Header>{faq.question}</Accordion.Header>
+                        <Accordion.Body>{faq.answer}</Accordion.Body>
+                      </Accordion.Item>
+                    </Accordion>
+                  ))}
+                </div>
               </div>
-
-              <div className="expaneditems1 ">
-                <Accordion >
-                  <Accordion.Item className="my-3" eventKey="1">
-                    <Accordion.Header>If I Am Using A Third-Party To Process Payments, Or An Ecommerce Platform, Do I Still Need To Worry About PCI Compliance ?</Accordion.Header>
-                    <Accordion.Body>
-                      Yes, even if some of the payment processes may reduce your risk of breach or what is in scope for PCI compliance, business cannot ignore it.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-                <Accordion >
-                  <Accordion.Item className="my-3" eventKey="1">
-                    <Accordion.Header>If I Only Accept Credit Cards Over The Phone, Does PCI DSS Still Apply To Me ?</Accordion.Header>
-                    <Accordion.Body>
-                      Yes. any processing, storing or transmitting of payment cardholder data needs to be done under a PCI Compliant environment.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-                <Accordion >
-                  <Accordion.Item className="my-3" eventKey="1">
-                    <Accordion.Header>How Do I Decide My PCI Compliance ‘Levels’ ?</Accordion.Header>
-                    <Accordion.Body>
-                      Merchants fall into four merchant levels based on Visa transactions over a 12 month period. The PCI compliance level can be decided by the number of transactions the merchants process each year.<br />
-                      Level 1: Merchants that process over 6 million card transactions annually.<br />
-                      Level 2: Merchants that process 1 to 6 million transactions annually.<br />
-                      Level 3: Merchants that process 20,000 to 1 million transactions annually.<br />
-                      Level 4: Merchants that process fewer than 20,000 transactions annually.<br />
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-
-
-
-              </div>
-
-            </div>
-
+            ) : (
+              <p>No FAQs available for this service.</p>
+            )}
           </div>
         </div>
       </section>

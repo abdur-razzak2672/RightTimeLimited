@@ -1,8 +1,26 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./services.css";
  import BenitsConpany from "./ServicesBody/BenitsConpany";
  import Service from "../../components/Service";
  function ServiceBody() {
+    const [description, setDescription] = useState("");
+useEffect(() => {
+  const updateDescription = () => {
+    const storedDescription = localStorage.getItem("serviceDescription") || "";
+    setDescription(storedDescription);
+  };
+
+  // Load initially
+  updateDescription();
+
+  // ✅ Listen for the custom event
+  window.addEventListener("serviceDescriptionChanged", updateDescription);
+
+  return () => {
+    window.removeEventListener("serviceDescriptionChanged", updateDescription);
+  };
+}, []);
+
    return (
     <div>
       <div className="page-header">
@@ -34,7 +52,7 @@ import "./services.css";
       >
          <div>
         <div className="container pt-4">
-          <p className="text-dark textJustify">“Right Time Limited”   is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks. With industry insights, RightTime identify weaknesses, conduct thorough security testing, and provide certification guidance. Its managed services include 24/7 monitoring, incident response, and continuous security improvements. Its objective is to be a trusted partner, helping clients navigate cybersecurity challenges, minimize risks, and cultivate robust security resilience. </p>
+          <p className="text-dark textJustify"> {description}  </p>
           </div>
       </div>
         <section className="section-padding--bottom mt-3 ">

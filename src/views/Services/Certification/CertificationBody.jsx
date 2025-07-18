@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useState,useEffect } from "react";
 import SeviceCommon from '../SeviceCommon'
 import BenitsConpany from '../ServicesBody/BenitsConpany'
 
 function CertificationBody() {
+   const [description, setDescription] = useState("");
+      
+      useEffect(() => {
+        const updateDescription = () => {
+          const storedDescription = localStorage.getItem("serviceDescription") || "";
+          setDescription(storedDescription);
+        };
+      
+        // Load initially
+        updateDescription();
+      
+        // ✅ Listen for the custom event
+        window.addEventListener("serviceDescriptionChanged", updateDescription);
+      
+        return () => {
+          window.removeEventListener("serviceDescriptionChanged", updateDescription);
+        };
+      }, []);
   return (
     <div>
       <div>
@@ -18,24 +36,12 @@ function CertificationBody() {
             <h2 className="page-header__title">Standard Implementation & Certification</h2>
           </div>
         </div>
-        <div className=' text-center service-topbar'>
-          <div className="container d-flex justify-content-between">
-            <div style={{ color: "white" }} className=''>
-              <a className='text-light' href='#header'>FAQ</a>
-            </div>
-            <div className=''>
-              <a className='text-light' href='#benefit'>Benefit</a>
-            </div>
-            <div className=''>
-              <a className='text-light' href='#question'>Ask Question</a>
-            </div>
-          </div>
-        </div>
+         
 
         <section id="header" className="section-padding--bottom pt-5 ">
           <div className="container">
             <div className="section-title">
-              <p className="">Web application security testing is performed to identify the vulnerabilities in a web application. With the increasing adaptation of web technologies across several areas, web applications have become a very viable attack surface if left with an untailored security outlook. Hence, assessments like web application security help the developers remediate vulnerabilities that are found during the process thereby and enhance the overall security of the web application.</p>
+              <p className="">{description}</p>
               <section className="section-padding--bottom mt-3 ">
                 <BenitsConpany />
               </section>

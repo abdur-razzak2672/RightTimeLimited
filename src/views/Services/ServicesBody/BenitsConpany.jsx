@@ -14,7 +14,7 @@ function BenitsConpany() {
   const handleItemClick = (index) => {
     setActiveIndex(index);
     setTabIndex(index);
-  };
+   };
 
   const handleSubItemClick = (index) => {
     setSubIndex(index);
@@ -26,13 +26,18 @@ function BenitsConpany() {
  useEffect(() => {
   const currentPath = location.pathname.toLowerCase().replace('/', '');
   const index = data.findIndex(item => item.slug === currentPath);
-
+ 
   if (index !== -1) {
     setTabIndex(index);
     setActiveIndex(index);
   }
 }, [location.pathname]);
 
+
+useEffect(() => {
+  localStorage.setItem('serviceDescription', data[tabIndex]?.description || '');
+  window.dispatchEvent(new CustomEvent("serviceDescriptionChanged"));
+}, [tabIndex]);
 
 
   // Function to split the text into three portions with specific word limits
@@ -51,7 +56,7 @@ function BenitsConpany() {
     <div className="container">
       <div className="section-title text-center">
         <p className="section-title__text">Company Benefits</p>
-        <h2 className="header ">We Provide Best Information Security <br /> Service and Solution For 14Md. Shamim Al Mamun Years</h2>
+        <h2 className="header ">We Provide Best Information Security <br /> Service and Solution For 14 Years</h2>
 
       </div>
 
@@ -87,7 +92,7 @@ function BenitsConpany() {
       </div>
 
       <section className="container mt-5">
-        <h1 className="text-center">{data[tabIndex]?.title}</h1>
+        <h1 className="text-center">{data[tabIndex]?.title}</h1>{}
         <p className='textJustify'>{data[tabIndex]?.description}</p>
 
         <div className="row mt-4">
