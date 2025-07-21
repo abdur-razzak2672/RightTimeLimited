@@ -13,7 +13,7 @@ function SeviceCommon() {
         <div className="container">
           <div className="section-title text-center">
             <p className="section-title__text">Company Benefits</p>
-            <h2 className="header">We Provide Best Information Security <br /> Service and Solution For 14 Years</h2>
+            <h2 className="header">We Provide Best Information Security <br /> Service and Solution For 16+ Years</h2>
 
           </div>
           <div className="row   text-center col-xs-6">

@@ -45,16 +45,7 @@ function AuditingBody() {
              <section className="section-padding--bottom mt-3 ">
                       <BenitsConpany />
                     </section>
-
-              <div className="row">
-                <img src="/assets/images/services/audit.png" className="img-fluid" alt="Responsive image" />
-
               </div>
-              <p>Web application security testing as per the OWASP Top 10 list, helps to identify many unattended issues related to programming, file access and configuration etc which may turn out to be vulnerabilities, causing a potential impact on the organization.
-
-                Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources.</p>
-
-            </div>
           </div>
         </section>
 

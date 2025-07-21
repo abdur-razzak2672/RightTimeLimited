@@ -4,11 +4,12 @@ function Home() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 7000,
+    lazyLoad: "ondemand",
   };
   return (
     <div>
@@ -18,101 +19,36 @@ function Home() {
         ></div>
 
         <Slider {...settings}>
-          <img src="/assets/images/home/is.jpg" alt=""
+          <img src="/assets/images/home/is.jpg"  loading="lazy" alt=""
             style={{ height: "400px", width: "100%" }}
-           />
-           <img src="/assets/images/home/realhack.jpg" alt=""
+          />
+          <img src="/assets/images/home/realhack.jpg"  loading="lazy" alt=""
             style={{ height: "400px", width: "100%" }}
-           />
-           <img src="/assets/images/home/qsa.jpg" alt=""
+          />
+          <img src="/assets/images/home/qsa.jpg"  loading="lazy" alt=""
             style={{ height: "400px", width: "100%" }}
-           />
+          />
 
-<img src="/assets/images/home/Associations.png" alt=""
+          <img src="/assets/images/home/Associations.png"  loading="lazy" alt=""
             style={{ height: "400px", width: "100%" }}
-           /> <img src="/assets/images/home/Auditing.png" alt=""
-           style={{ height: "400px", width: "100%" }}
-          /> <img src="/assets/images/home/Consultation.png" alt=""
-          style={{ height: "400px", width: "100%" }}
-         /> <img src="/assets/images/home/Managed Services (ITES, Specially Cyber Security).png" alt=""
-         style={{ height: "400px", width: "100%" }}
-        /> <img src="/assets/images/home/Partners.png" alt=""
-        style={{ height: "400px", width: "100%" }}
-       /> <img src="/assets/images/home/Security Assessment & Testing.png" alt=""
-       style={{ height: "400px", width: "100%" }}
-      /> <img src="/assets/images/home/Solutions (Specially Cyber Security).png" alt=""
-      style={{ height: "400px", width: "100%" }}
-     /> <img src="/assets/images/home/Standard Implementation & Certification.png" alt=""
-     style={{ height: "400px", width: "100%" }}
-    /> <img src="/assets/images/home/Training (Custom Skill Development).png" alt=""
-    style={{ height: "400px", width: "100%" }}
-   />
-
-          {/* <div
-            style={{
-              paddingLeft: "15%",
-              backgroundImage: "url(/assets/images/home/is.png)",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              height: "400px",
-              width: "100%",
-
-            }}
-          >
-            <ul
-              className="thm-breadcrumb list-unstyled ">
-              <li className="pt-5 mt-5">
-                <a style={{ color: "white", fontWeight: "bold" }} href="/">Welcome to Right Time Limited</a>
-              </li>
-            </ul>
-            <h5 className="page-header__title">
-              Information Security Services and Solutions
-            </h5>{" "}
-          </div>
-
-
-          <div style={{
-            paddingLeft: "15%",
-            backgroundImage: "url(/assets/images/home/realhack.png)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            height: "400px",
-            width: "100%",
-
-          }}>
-            <ul className="thm-breadcrumb list-unstyled ">
-              <li className="pt-5 mt-5">
-                <a style={{ color: "white", fontWeight: "bold" }} href="/">We, Right Time Limited</a>
-              </li>
-            </ul>
-            <h5 className="page-header__title">Real Hackers !!!</h5>{" "}
-          </div>
-
-          <div style={{
-
-            backgroundImage: "url(/assets/images/home/qsa.png)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            height: "400px",
-            width: "100%",
-          }} >
-            <ul className="thm-breadcrumb list-unstyled ">
-              <li className="pt-5 mt-5">
-                <a style={{ color: "white", fontWeight: "bold" }} href="/">Technology</a>
-              </li>
-            </ul>
-            <h5 className="page-header__title">
-              First Ever QSA Firm in Bangladesh
-            </h5>{" "}
-          </div>
- */}
-
+          /> <img src="/assets/images/home/Auditing.png"  loading="lazy" alt=""
+            style={{ height: "400px", width: "100%" }}
+          /> <img src="/assets/images/home/Consultation.png"  loading="lazy" alt=""
+            style={{ height: "400px", width: "100%" }}
+          /> <img src="/assets/images/home/Managed Services (ITES, Specially Cyber Security).png"  loading="lazy" alt=""
+            style={{ height: "400px", width: "100%" }}
+          /> <img src="/assets/images/home/Partners.png"  loading="lazy" alt=""
+            style={{ height: "400px", width: "100%" }}
+          /> <img src="/assets/images/home/Security Assessment & Testing.png"  loading="lazy" alt=""
+            style={{ height: "400px", width: "100%" }}
+          /> <img src="/assets/images/home/Solutions (Specially Cyber Security).png"  loading="lazy" alt=""
+            style={{ height: "400px", width: "100%" }}
+          /> <img src="/assets/images/home/Standard Implementation & Certification.png"  loading="lazy" alt=""
+            style={{ height: "400px", width: "100%" }}
+          /> <img src="/assets/images/home/Training (Custom Skill Development).png"  loading="lazy" alt=""
+            style={{ height: "400px", width: "100%" }}
+          />
         </Slider>
-
-
 
       </div>
     </div>

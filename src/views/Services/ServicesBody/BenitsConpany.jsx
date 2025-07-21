@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-
+import { Link } from "react-router-dom";
 import { data } from './data';
-function BenitsConpany() {
+ function BenitsConpany() {
   const [tabIndex, setTabIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [isActive, setIsActive] = useState(false);
@@ -54,12 +54,6 @@ useEffect(() => {
 
   return (
     <div className="container">
-      <div className="section-title text-center">
-        <p className="section-title__text">Company Benefits</p>
-        <h2 className="header ">We Provide Best Information Security <br /> Service and Solution For 14 Years</h2>
-
-      </div>
-
       <div className="uk-section uk-section-default text-center">
         <div className="uk-container">
           <div style={{ display: "flex", justifyContent: "space-between" }} className="row col-xs-6 uk-margin uk-grid-match uk-grid-collapse uk-child-width-1-4@l uk-text-center" uk-grid>
@@ -67,7 +61,7 @@ useEffect(() => {
               data.map((item, index) => (
 
                 <div className=" col-lg-2 col-md-3 col-sm-6 borderReidus uk-visible-toggle  mt-3" tabindex="-1">
-                  <a onClick={() => handleItemClick(index)} href='#javascript20void(0)' className={`${activeIndex === index ? 'activeTab' : ''}`}>
+                  <Link onClick={() => handleItemClick(index)} to={`/${item?.slug}`} className={`${activeIndex === index ? 'activeTab' : ''}`}>
                     <div style={{ height: "220px" }} className={`borderReidus uk-margin uk-card uk-card-default uk-card-hover ${activeIndex === index ? 'hoverTop' : ''}`}>
                       <div className="uk-card-body">
                         <div className="uk-flex uk-flex-center">
@@ -77,7 +71,7 @@ useEffect(() => {
                         <h5 className="uk-card-title uk-margin mt-5">{item?.title}</h5>
                         <h6>...............</h6>
                       </div>
-                    </div></a>
+                    </div></Link>
                 </div>
 
 

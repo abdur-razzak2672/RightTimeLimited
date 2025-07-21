@@ -21,6 +21,8 @@ function Footer({ show }) {
     localStorage.setItem("location", "4")
     window.location.reload();
   }
+    const currentYear = new Date().getFullYear();
+
 
   return (
     <div  >
@@ -256,8 +258,8 @@ function Footer({ show }) {
         <div className=" container p-3">
           <div >
             <p className="text-center mt-2 ">
-              <img className="mx-2" width="80px" src="assets/images/footer/ssl.png" alt="" />
-              Copyright © 2009 –  2024 Right Time Limited (Private Limited Company) All rights reserved. Terms and Conditions.
+              <img className="mx-2" width="80px" src="assets/images/footer/sectigo.png" alt="" />
+              Copyright © 2009 –  {currentYear} Right Time Limited (Private Limited Company) All rights reserved. Terms and Conditions.
             
 
             </p>
