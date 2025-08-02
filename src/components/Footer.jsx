@@ -3,8 +3,6 @@ import Card from 'react-bootstrap/Card';
 
 function Footer({ show }) {
 
-  console.log("Footer", show);
-
   const handleLocationbd = () => {
     localStorage.setItem("location", "1")
     window.location.reload();
@@ -21,7 +19,35 @@ function Footer({ show }) {
     localStorage.setItem("location", "4")
     window.location.reload();
   }
-    const currentYear = new Date().getFullYear();
+
+  const countryList = [
+    {
+      id: "1",
+      flag: "assets/images/flag/bd.png",
+      onClick: handleLocationbd,
+    },
+    {
+      id: "2",
+      flag: "assets/images/flag/usa.png",
+      onClick: handleLocationusa,
+    },
+    {
+      id: "3",
+      flag: "assets/images/flag/aus.png",
+      onClick: handleLocationaus,
+    },
+    {
+      id: "4",
+      flag: "assets/images/flag/de.png",
+      onClick: handleLocationgar,
+    },
+  ];
+
+  const sortedFlags = [
+    ...countryList.filter((c) => c.id === show),
+    ...countryList.filter((c) => c.id !== show),
+  ];
+  const currentYear = new Date().getFullYear();
 
 
   return (
@@ -201,9 +227,6 @@ function Footer({ show }) {
 
                   </li>
 
-
-
-
                 </ul>
                 <div className="mc-form__response"></div>
               </div>
@@ -213,22 +236,45 @@ function Footer({ show }) {
                 <h3 className="footer-widget__title">Our Presence</h3>
                 <ul className="footer-widget__contact">
                   <li>
-                    <a className="mx-1" onClick={handleLocationbd} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }} width="46%" src="assets/images/flag/bd.png" alt="" /></a>
-                    <a className="mx-1" onClick={handleLocationgar} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }} width="46%" src="assets/images/flag/de.png" alt="" /></a>
-
+                    {sortedFlags.slice(0, 2).map((country, index) => (
+                      <a
+                        key={index}
+                        className="mx-1"
+                        onClick={country.onClick}
+                        href="javascript:void(0)"
+                      >
+                        <img
+                          className="mt-2"
+                          style={{ border: "1px solid gray", width: '200px',height:'120px' }}
+                          src={country.flag}
+                          alt=""
+                        />
+                      </a>
+                    ))}
+                  </li>
+                  <li>
+                    {sortedFlags.slice(2, 4).map((country, index) => (
+                      <a
+                        key={index}
+                        className="mx-1"
+                        onClick={country.onClick}
+                        href="javascript:void(0)"
+                      >
+                        <img
+                          className="mt-2"
+                          style={{ border: "1px solid gray", width: '200px',height:'120px'  }}
+                          src={country.flag}
+                          alt=""
+                        />
+                      </a>
+                    ))}
                   </li>
 
-                  <li  >
-                    <a className="mx-1" onClick={handleLocationusa} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }} width="46%" src="assets/images/flag/usa.png" alt="" /></a>
-                    <a className="mx-1" onClick={handleLocationaus} href="javascript:void(0)"><img className="mt-2" style={{ border: "1px solid gray" }} width="46%" src="assets/images/flag/aus.png" alt="" /></a>
-
-                  </li>
-
-                  <li className="mt-2 mx-1">
+                  <li className="mx-1 mt-2">
                     <img src="assets/images/footer/iso.png" width="98%" alt="" />
-                    <h6 style={{ fontSize: "9px", width: "100%" }} className="mt-2 text-light">WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY</h6>
-
-
+                    <h6 style={{ fontSize: "9px", width: "100%" }} className="mt-2 text-light">
+                      WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY
+                    </h6>
                   </li>
                 </ul>
 
@@ -260,7 +306,7 @@ function Footer({ show }) {
             <p className="text-center mt-2 ">
               <img className="mx-2" width="80px" src="assets/images/footer/sectigo.png" alt="" />
               Copyright © 2009 –  {currentYear} Right Time Limited (Private Limited Company) All rights reserved. Terms and Conditions.
-            
+
 
             </p>
           </div>

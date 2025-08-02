@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { useEffect } from "react";
+import axios from "axios";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import CookieConsent from "react-cookie-consent";
 
@@ -159,7 +161,6 @@ import Footer from "./components/Footer";
 
 // blog Section Imported Start
 import BlogDetails from "./views/resource/BlogDetails";
-import React, { useState } from 'react'
 import blogs from "./views/resource/Blogs";
 
 // Team section imported
@@ -261,26 +262,42 @@ function App() {
 
   const show = localStorage.getItem("location");
   if (!show) {
-    localStorage.setItem("location", "1");
+    localStorage.setItem("location", "2");
     window.location.reload();
-
-
   }
-  // const [show, setShow] = useState(location);
-
   const handleLocationChange = (e) => {
     localStorage.setItem("location", e.target.value);
     window.location.reload();
-  };
+   };
 
+   const detectCountry = async () => {
+      try {
+        const response = await axios.get("https://ipwho.is/");
+        const country = response.data.country;
 
+        if (country === "Bangladesh") {
+          localStorage.setItem("location", "1");
+        } else if (country === "United States") {
+          localStorage.setItem("location", "2");
+        } else if (country === "Australia") {
+          localStorage.setItem("location", "3");
+        } else if (country === "Germany") {
+          localStorage.setItem("location", "4");
+        } else {
+          localStorage.setItem("location", "2");
+        }
+      } catch (error) {
+        console.error("Geo detection failed:", error);
+        localStorage.setItem("location", "2");
+      }
+    };
 
-  // function showCountry(e) {
-  //   const num = e.target.value;
-  //   console.log(num);
-  //   setShow([...show, num]);
-  // }
+  useEffect(() => {
+    
+    detectCountry();
+  }, []);
 
+ 
 
   return (
     <Router>

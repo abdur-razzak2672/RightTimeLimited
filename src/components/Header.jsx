@@ -1,24 +1,16 @@
-import React from "react";
 import "./serviceStyle.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
-function Header() {
+ function Header({show}) {
 
-  const show = localStorage.getItem("location");
-  if (!show) {
-    localStorage.setItem("location", "1");
-    window.location.reload();
-
-
-  }
-  console.log("fdgf", show);
-
+ 
   const handleLocationChange = (e) => {
     localStorage.setItem("location", e.target.value);
     window.location.reload();
-  };
+   };
+
   return (
     <div>
       <nav className="main-menu sticky-header1">
@@ -62,7 +54,7 @@ function Header() {
                         Mission statement
                       </a>
                     </li>
-                     <li>
+                    <li>
                       <a href="//advisory-board">
                         Advisory Board
                       </a>                    </li>
@@ -2122,211 +2114,7 @@ function Header() {
               </ul>
             </li>
 
-            {/* <li className="dropdown serviceNav2">
-              <Link to="/partners" className="dropbtn1">Partners</Link>
-              <div  style ={{  minWidth: "600px",left:"-280px",height:"500px"}} className="dropdown-content">
-                <Container className="mt-4">
-                  <Row>
-                    <Col style={{borderRight:"1px solid #6f42c1"}}>
-                    <a  style={{fontWeight:"bold",color:"orange"}}href="/service-partners">Service Partner</a>
- 
-                      <a className="mt-3" href="https://www.eccouncil.org/">EC-Council (Security Training Partner)</a>
-                 
-                      <a className="mt-3"  href="https://home.pearsonvue.com/">Pearson Vue (Exam testing Center)</a>
-                    
-                      <a className="mt-3"  href="https://pecb.com/en">PECB (ISO)</a>
-                   
-                    
-                      <a className="mt-3"  href="https://sckcerts.com/">SCK & ARS (ISO)</a>
-                   
-                      <a className="mt-3"  href="https://www.acnabin.com/">ACNABIN (CA Firm for Financial Control)</a>
-
-                    </Col>
-
-                  <Col>
-                  
-                  <a  style={{fontWeight:"bold",color:"orange"}}href="/solution-partners">Solution Partner</a>
-                   <a className="mt-3"  href="https://www.invicti.com/">INVICTI</a>
-                      <a className="mx-3" href="https://www.invicti.com/">
-                      <i   className="fas fa-circle iconStyle "> </i>  Net Sparker
-
-                      </a>
-                      <a className="mx-3" href="https://www.invicti.com/">
-                      <i   className="fas fa-circle iconStyle "> </i> Acunetix etc.
-                      </a>
-
-
-                      <a className="mt-3"  href="https://www.invicti.com/">Tenable</a>
-                      <a className="mx-3" href="https://www.invicti.com/">
-                      <i   className="fas fa-circle iconStyle "> </i>  Nessus Pro
-
-                      </a>
-                      <a className="mx-3" href="https://www.invicti.com/">
-                      <i   className="fas fa-circle iconStyle "> </i> All Tenable Products
-                      </a>
-
- 
-                      <a className="mt-3"  href="https://www.coresecurity.com/products/core-impact">
-                         HelpSystems
-                      </a>
-
-                      <a className="mx-3" href="https://www.invicti.com/">
-                      <i   className="fas fa-circle iconStyle "> </i>   Core Impact
-                      </a>
-                  
-                      <a className="mt-3"  href="https://portswigger.net/burp">SCK & ARS (ISO)</a>
-                      <a className="mt-3"  href="https://portswigger.net/burp">ACNABIN (CA Firm for Financial Control)</a>
-
-
-                  </Col>
-
-                  
-                </Row>
-              </Container>
-                    
-
-              </div>
-            </li>  
-
-            <li className="servicNav steps-sampling">
-              <Link to="/partners">Partners</Link>
-              <ul>
-                <li>
-                  <Link to="/service-partners">Service Partner</Link>
-                  <ul>
-                    <li>
-                      <Link to="https://www.eccouncil.org/">EC Council</Link>
-                    </li>
-                    <li>
-                      <Link to="https://home.pearsonvue.com/">Pearson Vue</Link>
-                    </li>
-                    <li>
-                      <Link to="https://pecb.com/en">PECB ISO Certification</Link>
-                    </li>
-                    <li>
-                      <Link to="https://arscert.com/certification/">ARS</Link>
-                    </li>
-                    <li>
-                      <Link to="https://sckcerts.com/">SCK</Link>
-                    </li>
-                    <li>
-                      <Link to="https://www.acnabin.com/">ACNABIN</Link>
-                    </li>
-                  </ul>
-                </li>
-
-                <li>
-                  <Link to="/solution-partners">Solution Partner</Link>
-                  <ul>
-                    <li>
-                      <Link to="https://www.invicti.com/">INVICTI</Link>
-                    </li>
-                    <li>
-                      <Link to="https://www.coresecurity.com/products/core-impact">
-                        Core Impact
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="https://portswigger.net/burp">Burp Suite</Link>
-                    </li>
-                  </ul>
-                </li>
-                 
-              </ul>
-            </li>*/}
-
-            {/* <li className="menu-item-has-children">
-        <Link to="/blogs">Cyber Blog</Link>  
-              <ul>
-                <li>
-                  <Link to="https://portswigger.net/burp">CCA, Ministry of ICT (First and 2022)</Link>
-                </li>
-                <li>
-                  <Link to="https://portswigger.net/burp">
-                  PCI SSC, USA
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://portswigger.net/burp">
-                  World Bank Groups (WBGs)
-
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="https://portswigger.net/burp">
-                  SWIFT
-
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="https://portswigger.net/burp">
-                  BASIS
-
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="https://portswigger.net/burp">
-                  E-Cab
-
-
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://portswigger.net/burp">
-                  BCS
-
-                  </Link>
-                </li>
-              </ul>
-            </li> */}
-
-            {/* 
-            <li className="menu-item-has-children">
-            <Link to="/blogs">Resources</Link>  
-              <ul>
-                <li>
-                  <Link to="/about-us">Event</Link>
-                </li>
-                <li>
-                  <Link to="/careers">
-                  News
-                  </Link>
-                </li>
-                <li>
-                  <Link to="about-us">
-                  Webinars
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to="/about-us">Event</Link>
-                </li>
-                <li>
-                  <Link to="/careers">
-                  Courses
-                  </Link>
-                </li>
-                <li>
-                  <Link to="about-us">
-                  Newsletters
-                  </Link>
-                </li>
-                <li>
-                  <Link to="about-us">
-                  Blog  </Link>
-                </li>
-                <li>
-                  <Link to="about-us">
-                  Useful Links  </Link>
-                </li>
-              </ul>
-            </li> */}
-
-
-
+           
 
             <li className="dropdown serviceNav2 steps-sampling">
               <Link className="dropbtn1z" to="/resources">Resources</Link>
@@ -2485,9 +2273,7 @@ function Header() {
 
           <ul className="mobile-mobile-nav__country">
             <h5 className="text-light">Select Country</h5>
-            {/* <li><Link to="/"><img src="/assets/images/flag/usa.png" width="40px"/></Link></li>
-          <li><Link to="/"><img src="/assets/images/flag/aus.png" width="40px"/></Link></li>
-          <li><Link to="/"><img src="/assets/images/flag/de.png" width="40px"/></Link></li>  */}
+
             <select
               className="mobileTopbar text-light"
               value={show}
