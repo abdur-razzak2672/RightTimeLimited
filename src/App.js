@@ -294,7 +294,7 @@ function App() {
 
   useEffect(() => {
     
-    // detectCountry();
+    detectCountry();
   }, []);
 
  

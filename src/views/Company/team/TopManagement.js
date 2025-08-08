@@ -37,19 +37,7 @@ const teamMembers = [
     ],
     cardClass: "Deep-Purple",
   },
-    {
-    id: 3,
-    name: "Md. Khurshid Alam",
-    title: "Chief Advisor, Right Time Limited | Former Executive Director & Deputy Governor, Bangladesh Bank",
-    image: "/assets/images/team/khurshid.jpeg",
-    description: [
-      `Md. Khurshid Alam is the Chief Advisor at Right Time Limited, where he applies his extensive experience in central banking, regulatory policy, and sustainable finance to guide strategic governance and cybersecurity assurance across financial institutions.`,
-      `He began his distinguished career at Bangladesh Bank in 1988, rising through roles in Banking Regulation & Policy, Banking Inspection, SME programs, CSR & Green Banking, and Debt Management, and later assuming regional leadership in Sylhet and Rangpur. Over a 35-year tenure, he led critical departments as Executive Director (2021–2024) and was appointed Deputy Governor in February 2024 (turn0search1)`,
-      `A pioneer in eco-conscious banking, Mr. Alam founded the Sustainable Finance Department, introducing policies in green banking, CSR governance, financial inclusion, and environmental risk management. He also drove the integration of 111 former enclaves into Bangladesh's financial framework and spearheaded digital banking and green finance initiatives aimed at broad economic impact (turn0search2).`,
-      `Internationally, he has represented Bangladesh Bank at major forums hosted by the IMF, ADB, World Bank, and the RBI, contributing to discourse on sustainable finance, central-bank digital platforms, and financial stability. He is academically accomplished with an MBA from Stamford University, B.Com and M.Com from the University of Dhaka, and is currently pursuing a PhD in Development Economics at Bangladesh University of Professionals, focusing on CSR's impact in Bangladesh’s banking sector.An influential policymaker, Mr. Alam has chaired key committees including Bond Market Development and Digital Banking Formation. His passion for mentorship and creative expression is evident: he has been a leader in internal associations, serves as a published poet, and continues to shape discourse on regulatory policy and digital financial strategy.`
-    ],
-    cardClass: "Deep-Purple",
-  },
+  
   {
     id: 4,
     name: "Arshad Mahmud",
