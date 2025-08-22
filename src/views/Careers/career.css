@@ -1,0 +1,97 @@
+ 
+ .card2{
+     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #ccc;
+    background-color: #fff;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#261d3b;
+
+
+ }
+
+ .circleImage{
+    display: inline-block;
+        position: relative;
+        width: 160px;
+        height: 155px;
+        overflow: hidden;
+        border-radius: 50%;
+        background:rgb(42, 64, 71)
+ }
+ .circleImage img{
+    width: 50%;
+        height: 50%;
+        margin-top: 20%;
+        align-items:center;
+        text-align: center;
+  }
+
+  .card-wrapper1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40ch, 1fr));
+    grid-gap: 1.5rem;
+     width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .jobButton{
+    
+    margin-top: 10px;
+    margin: auto;
+    width: 60%;
+     padding: 10px;
+      }
+
+
+
+      .contactInfo ul li a{
+         text-decoration: none;
+        font-size: 15px;
+        margin: 0 1rem;
+        transition: all 0.3s ease-in-out;
+      }
+ 
+/* .card img {
+  display: block;
+  width: 150px;
+   background: #E6E7ED;
+   border-radius: 100%;
+   text-align:center;
+
+
+} */
+/* .card img ~ * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.card > :last-child {
+  margin-bottom: 0;
+} */
+
+
+/* Additional demo display styles */
+
+
+.cardItem{
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  padding: 12px;
+}
+ 
+.hoverable :hover{
+  background-color: rgb(52, 52, 171);
+  color: #fff !important;
+}
+ 

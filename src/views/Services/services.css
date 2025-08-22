@@ -1,0 +1,389 @@
+
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  height: 100%; /* Set a fixed height for the Card component if needed */
+}
+
+
+.box {
+  padding:25px;
+ }
+
+#card-container {
+  width: 100%;
+  height: 250px;
+  z-index: 1;
+
+ }
+
+ .expanedText{
+  font-size:16px;
+  font-weight:normal;
+  text-align:left ;
+ }
+
+ @media screen and (max-width: 580px) {
+  #card-container {
+    height: 300px;
+  }
+ }
+  
+ 
+#card,
+#card2,
+#card3 {
+  width: 90%;
+  height: 200px;
+   background-color: #fffcf9;
+   transform-style: preserve-3d;
+   transition: all 0.8s linear;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#card:hover {
+  transform: rotateY(180deg);
+   background-color: #b90a0a !important;
+}
+
+#card2:hover {
+  transform: rotateY(-180deg);
+   background-color: #b90a0a;
+
+}
+
+#card3:hover {
+  transform: rotateX(180deg);
+   background-color: #b90a0a !important;
+ 
+}
+#card3 .back {
+  transform: rotateX(-180deg);
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+ 
+}
+
+.back {
+  background-color: #b90a0a !important;
+  color: white !important;
+
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.7;
+  background: #f7f5f3;
+}
+
+.date {
+  color: #79130a;
+}
+
+
+
+
+
+
+/* Card Default */
+.uk-card-default {
+  background: #fbfbfb !important;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4) !important;
+  border-top: 5px solid transparent;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Card Default Hover */
+.hoverTop{
+  border-top: 5px solid #990a00;
+
+}
+.uk-card-default.uk-card-hover:hover {
+  background: linear-gradient(to bottom, #f5f5f5 0%, #ececec 100%) !important;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1) !important;
+  border-top: 5px solid #990a00;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  z-index: 1;
+  transform: scale(1.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Card Body */
+.uk-card-body {
+  padding: 20px 20px !important;
+ 
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .uk-card-body {
+    padding: 20px 20px !important;
+   }
+}
+
+/* Card Title */
+.uk-card-default .uk-card-title {
+  color: #666 !important;
+}
+
+/* Card Title Hover */
+.uk-card-default.uk-card-hover:hover .uk-card-title {
+  color: #666 !important;
+}
+
+/* Card Icon */
+.uk-card-default.uk-card-hover span.hover   {
+  display: none;
+}
+
+.uk-card-default.uk-card-hover span.default {
+  display: inherit;
+  color:orange;
+}
+
+/* Card Icon Hover */
+.uk-card-default.uk-card-hover:hover span.hover {
+  display: inherit;
+  color: #a2150b;
+}
+
+/* Hover effect for active state */
+.uk-card-default.uk-card-hover .active span.hover {
+  display: inherit;
+  color: #a2150b;
+}
+.activeTab{
+  display: inherit;
+  color: #a2150b;
+
+}
+.uk-card-default.uk-card-hover:hover  span.activeTab{
+  display: none;
+ 
+}
+
+.uk-card-default.uk-card-hover:hover  span.default{
+  display: none;
+}
+
+/* Card Footer */
+.uk-card-footer {
+  background: linear-gradient(to bottom, #ececec 0%, #f5f5f5 100%) !important;
+  padding: 15px 15px !important;
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .uk-card-footer {
+    padding: 15px 15px !important;
+  }
+}
+
+.uk-card-default.uk-card-hover:hover .uk-card-footer {
+  background: linear-gradient(to bottom, #f5f5f5 0%, #ececec 100%) !important;
+}
+
+/* Card Footer Text */
+.uk-section-default .uk-card-default .uk-card-footer p {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 150%;
+  margin: 10px 0;
+  letter-spacing: 0.5px;
+}
+
+/* Card Footer Default */
+.uk-card-default.uk-card-hover div.default {
+  display: inherit;
+  padding: 5px 5px !important;
+  height: 41px;
+}
+
+.uk-card-default.uk-card-hover:hover div.default {
+  display: block;
+}
+.uk-card-default.uk-card-hover div.default {
+  display: none;
+}
+ 
+ .borderReidus{
+  border-bottom-right-radius: 30px 30px;
+ }
+
+ .expanedItem{
+  display:flex;
+  justify-content:space-between;
+ }
+
+ .expaneditems1{
+  width:50%;
+  margin:0px 10px;
+
+}
+
+ @media screen and (max-width: 780px) {
+  .expanedItem{
+    display:block;
+  }
+  .expaneditems1{
+    width:100%;
+
+ }
+ }
+ 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ .servicesItem1 a{
+  border-right: 8px solid orangered;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 8px;
+  background-color: rgb(217, 217, 217);
+  
+}
+
+.servicesItem1 a:hover{
+  padding: 10px;
+  color: white !important;
+  
+  background-color: #540859 !important;
+
+}
+.servicesItem1 a:focus{  
+  background-color: #540859 !important;
+  color:white !important;
+  ;
+}
+
+
+
+.industries{  
+  background-color: #540859 !important;
+  color:white !important;
+  ;
+ 
+
+}
+ 
+
+.servicesItem a{
+  border-right: 8px solid orangered;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 12px;
+  background-color: rgb(217, 217, 217)
+ 
+}
+.servicesItemActive a{
+  background-color: #540859 !important;
+  color:white !important;
+
+}
+
+.servicesItem a:hover{
+  padding: 15px;
+  color: white !important;
+  
+  background-color: #540859 !important;
+
+}
+
+.servicesItemtit a{
+  padding: 15px;
+  color: white !important;
+  
+  background-color: #540859 !important;
+
+}
+
+
+.servicesItem a:focus{  
+  background-color: #540859 !important;
+  color:white !important;
+  ;
+ 
+
+}
+ 
+
+
+
+ 
+
+.vaptActive Button:focus{
+  background-color: orange !important;
+  color: white !important;
+ }
+
+ 
+
+.servicesItem:focus{  
+   background-color: orange;
+   color: black !important;
+   width: 100%;
+
+
+
+}
+ .servicesItem1 a{
+ color: black;
+ text-decoration: none;
+  display: -webkit-box;
+ -webkit-line-clamp: 2;
+ -webkit-box-orient: vertical;  
+ overflow: hidden;
+ margin-left: 10px;
+ 
+ }
+
+ .servicesItem a{
+  color: black;
+  text-decoration: none;
+   display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  margin-left: 10px;
+  
+  }
+
+
+
+ .cont{
+  background-color: #ba76bf !important;
+  margin: 5px;
+  border: none;
+ }
+
+
+ .cont2{
+  background-color: #540859 !important;
+  margin: 3px;
+  border: none;
+ }
+
+
+ /* iso */
+
+ 
+
+  
