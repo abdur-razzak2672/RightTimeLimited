@@ -329,7 +329,7 @@ function App() {
 
 
             <ul className="topbar__info">
-              <li><marquee style={{ color: "orange", width: "380px" }}>together we make the world happier</marquee></li>
+              <li><marquee style={{ color: "orange", width: "100px" }}>together we make the world happier</marquee></li>
 
               {
                 show === '1' ? (

@@ -245,7 +245,7 @@ function Footer({ show }) {
                       >
                         <img
                           className="mt-2"
-                          style={{ border: "1px solid gray", width: '200px',height:'120px' }}
+                          style={{ border: "1px solid gray", width: '46%', height: '70px' }}
                           src={country.flag}
                           alt=""
                         />
@@ -262,7 +262,7 @@ function Footer({ show }) {
                       >
                         <img
                           className="mt-2"
-                          style={{ border: "1px solid gray", width: '200px',height:'120px'  }}
+                          style={{ border: "1px solid gray", width: '46%',height:'70px'  }}
                           src={country.flag}
                           alt=""
                         />
