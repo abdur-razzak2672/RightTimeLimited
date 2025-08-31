@@ -7,7 +7,7 @@ import { countryList } from '../Contact/data';
 import ServiceBody from "../../components/Service"
 import Partner from "../../components/Partner"
 import Associaltion from "../../components/Association"
-
+import { useHistory } from "react-router-dom";
 import { toast } from 'react-toastify';
 import './training.css'
 import Slider from 'react-slick'
@@ -206,8 +206,15 @@ const SLIDER_SETTINGS = {
 };
 
 function TrainingBody() {
+
+
+const history = useHistory();
   const [activeTab, setActiveTab] = useState(() => {
     const savedTab = localStorage.getItem("career");
+
+     const searchParams = new URLSearchParams(window.location.search);
+  searchParams.set("tab", savedTab?.replace(/"/g, ''));
+  history.replace({ search: searchParams.toString() });
     return savedTab ? JSON.parse(savedTab) : "career";
   });
   const [company, setCompany] = useState('2');
@@ -235,6 +242,11 @@ function TrainingBody() {
 
   const handleTabClick = useCallback((tab) => {
     localStorage.setItem("career", JSON.stringify(tab));
+       // Update URL query parameter without reloading the page
+  const searchParams = new URLSearchParams(window.location.search);
+  searchParams.set("tab", tab);
+  history.replace({ search: searchParams.toString() });
+
     setActiveTab(tab);
     const scrollY = window.scrollY;
     window.location.reload();
@@ -268,6 +280,16 @@ function TrainingBody() {
       }, 1000);
     }
   }, [activeTab]);
+
+useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+  const tabFromUrl = params.get("tab");
+  if (tabFromUrl) {
+    setActiveTab(tabFromUrl);
+  }
+}, []);
+
+
 
   return (
     <div>

@@ -1,3 +1,10 @@
+
+
+const queryParams = new URLSearchParams(window.location.search);
+const value = queryParams.get("tab");
+ 
+if (value === "interactive") {
+
 var graph, jobsDataset, catsData, futureSkills, nodes, links, clickedId, pathwayW, jobsDataSetFormatted, globalmode, levels = ["Feeder", "Entry-Level", "Mid-Level", "Advanced-Level"],
     clicked = !1,
     formatThousand = d3.format(",d"),
@@ -599,3 +606,4 @@ function idStrip(e) {
         e && this.parentNode.insertBefore(this, e)
     }))
 };
+}

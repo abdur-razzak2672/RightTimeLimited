@@ -2,7 +2,7 @@ import React from 'react'
 
 function Pathway() {
     return (
-        <div >
+        <div id='pathway-container' >
 
             {/* <img id='prelC' src="images/c.svg"></img> */}
 

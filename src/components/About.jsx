@@ -1,10 +1,47 @@
-import React,{useState} from "react";
+import React,{useState, useEffect} from "react";
 import { Button,Col,Form,Modal, Row } from 'react-bootstrap';
 
 function About() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  useEffect(() => {
+    const counters = document.querySelectorAll(".count-text");
+
+    const animateCounter = (el) => {
+      const target = +el.getAttribute("data-stop");
+      const speed = +el.getAttribute("data-speed") || 2000;
+      const increment = target / (speed / 16);
+      let current = 0;
+
+      function updateCounter() {
+        current += increment;
+        if (current < target) {
+          el.innerText = Math.floor(current);
+          requestAnimationFrame(updateCounter);
+        } else {
+          el.innerText = target;
+        }
+      }
+      updateCounter();
+    };
+
+    // Observer to trigger only when element is visible
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            observer.unobserve(entry.target); // run only once
+          }
+        });
+      },
+      { threshold: 0.5 } // start when 50% visible
+    );
+
+    counters.forEach((counter) => observer.observe(counter));
+  }, []);
   return (
     <div>
       <section className="mt-5 pt-5">

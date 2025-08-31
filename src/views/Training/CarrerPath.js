@@ -29,9 +29,7 @@ function CarrerPath({career}) {
 
                 <div class="pure-g">
                     <div class="pure-u-1-1" style={{ margin: "0, auto", textAlign: "center" }}>
-                        <div class="intro">
-                            <p>Select a certification, job title or skill to see how they relate to each other. <button class="pure-button" id="gotit">Got it</button></p>
-                        </div>
+                       
                     </div>
                 </div>
 

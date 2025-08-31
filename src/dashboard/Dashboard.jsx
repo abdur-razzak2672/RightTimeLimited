@@ -1,4 +1,4 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import Home from "../components/Home";
 import About from "../components/About";
 import Service from "../components/Service";
@@ -9,6 +9,28 @@ import Client from "../components/Client";
 import Benefit from "../components/Benefit";
 import Solution from "../components/Solution";
  function Dashboard() {
+
+   useEffect(() => {
+    const counters = document.querySelectorAll(".count-text");
+
+    counters.forEach((counter) => {
+      const target = +counter.getAttribute("data-stop");
+      const speed = +counter.getAttribute("data-speed") || 2000;
+      const increment = target / (speed / 16);
+      let current = 0;
+
+      function updateCounter() {
+        current += increment;
+        if (current < target) {
+          counter.innerText = Math.floor(current);
+          requestAnimationFrame(updateCounter);
+        } else {
+          counter.innerText = target;
+        }
+      }
+      updateCounter();
+    });
+  }, []);
   return (
     <div>
          <Home />
