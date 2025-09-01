@@ -85,7 +85,6 @@ import GDPRCertification from "./views/Services/Certification/GDPRCertification"
 import HippaCertification from "./views/Services/Certification/HippaCertification";
 //Service Section Imported End
 
-//Managed Service Section Imported Start
 import ManagedServiceBody from "./views/ManagedServices/ManagedServiceBody";
 import CloudeApp from "./views/ManagedServices/CloudeApp";
 import DamAsService from "./views/ManagedServices/DamAsService";
