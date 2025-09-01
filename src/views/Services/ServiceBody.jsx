@@ -13,7 +13,6 @@ useEffect(() => {
   // Load initially
   updateDescription();
 
-  // ✅ Listen for the custom event
   window.addEventListener("serviceDescriptionChanged", updateDescription);
 
   return () => {
