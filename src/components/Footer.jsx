@@ -205,26 +205,18 @@ function Footer({ show }) {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--newsletter">
-                <h3 className="footer-widget__title">Offering</h3>
+                <h3 className="footer-widget__title">Certification</h3>
 
                 <ul className="footer-widget__contact">
-                  <li>
-
-                    <a href="/services">Services</a>
-                  </li>
-                  <li>
-
-                    <a href="/solution">Solution</a>
-                  </li>
-                  <li>
-
-                    <a href="/training">Training</a>
-                  </li>
-
+                 
 
                   <li className="mt-2 mx-1">
-                    <img className="rounded" src="/assets/images/footer/pcaa.png" width="100%" alt="" />
+                    <img className="rounded" src="/assets/images/footer/iso2.png" width="100%" alt="" />
+                  </li>
 
+
+                  <li className="mt-2 mb-5 mx-1">
+                    <img className="rounded" src="/assets/images/footer/pcaa.png" width="100%" alt="" />
                   </li>
 
                 </ul>
@@ -288,7 +280,7 @@ function Footer({ show }) {
 
         </div>
 
-        <div className="social">
+        <div className="social mt-0">
           <ul class="footer-widget__social">
             <li><a style={{ backgroundColor: "#d9387a" }} target="_blank" href="https://www.linkedin.com/company/right-time-limited/?viewAsMember=true"><i class="fab fa-linkedin"></i></a></li>
             <li><a style={{ backgroundColor: "#2ea9f3" }} target="_blank" href="/"><i class="fab fa-twitter"></i></a></li>

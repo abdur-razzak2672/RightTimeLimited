@@ -1,0 +1,62 @@
+export const webinars = [
+  {
+    slug: 'defending-against-phishing-2025',
+    title: 'Defending Against Phishing in 2025',
+    date: 'Nov 12, 2025',
+    time: '10:00 AM GMT',
+    duration: '45 min',
+    type: 'Live',
+    speakers: ['RTL SOC Lead', 'Guest Analyst'],
+    category: 'Email Security',
+    externalUrl: 'https://www.proofpoint.com/us/webinars',
+    registrationUrl: 'https://www.proofpoint.com/us/resources/webinars/webinar-series-how-optimize-your-security-awareness-campaign-cybersecurity'
+  },
+  {
+    slug: 'zero-trust-identity-foundations',
+    title: 'Zero Trust Foundations: Identity First',
+    date: 'On-Demand',
+    time: '',
+    duration: '35 min',
+    type: 'On-Demand',
+    speakers: ['Principal Architect, RTL'],
+    category: 'Zero Trust',
+    externalUrl: 'https://www.fujitsu.com/global/themes/security/webinars/',
+    registrationUrl: 'https://www.proofpoint.com/us/resources/webinars/webinar-series-how-optimize-your-security-awareness-campaign-cybersecurity'
+  },
+  {
+    slug: 'ransomware-tabletop-readiness',
+    title: 'Ransomware Readiness: Tabletop to Action',
+    date: 'Dec 03, 2025',
+    time: '2:00 PM GMT',
+    duration: '50 min',
+    type: 'Live',
+    speakers: ['IR Lead, RTL'],
+    category: 'Incident Response',
+    externalUrl: 'https://www.austcyber.com/resources/webinars',
+    registrationUrl: 'https://www.proofpoint.com/us/resources/webinars/webinar-series-how-optimize-your-security-awareness-campaign-cybersecurity'
+  },
+  {
+    slug: 'cloud-security-posture-essentials',
+    title: 'Cloud Security Posture Essentials',
+    date: 'On-Demand',
+    time: '',
+    duration: '40 min',
+    type: 'On-Demand',
+    speakers: ['Cloud Security Lead, RTL'],
+    category: 'Cloud Security',
+    externalUrl: 'https://www.knowbe4.com/webinar-library',
+    registrationUrl: 'https://www.proofpoint.com/us/resources/webinars/webinar-series-how-optimize-your-security-awareness-campaign-cybersecurity'
+  },
+  {
+    slug: 'identity-threat-detection-and-response',
+    title: 'Identity Threat Detection and Response (ITDR)',
+    date: 'Nov 28, 2025',
+    time: '1:00 PM GMT',
+    duration: '45 min',
+    type: 'Live',
+    speakers: ['IAM Specialist, RTL'],
+    category: 'Identity',
+    externalUrl: 'https://www.proofpoint.com/us/webinars',
+    registrationUrl: 'https://www.proofpoint.com/us/resources/webinars/webinar-series-how-optimize-your-security-awareness-campaign-cybersecurity'
+  }
+];

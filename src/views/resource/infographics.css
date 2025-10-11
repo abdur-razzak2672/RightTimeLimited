@@ -1,0 +1,377 @@
+/* Infographics Page Styles */
+
+.infographic-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.infographic-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15) !important;
+}
+
+.infographic-overlay {
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(2px);
+}
+
+.infographic-card:hover .infographic-overlay {
+  opacity: 1 !important;
+}
+
+.infographic-card .card-img-top img {
+  transition: transform 0.3s ease;
+}
+
+.infographic-card:hover .card-img-top img {
+  transform: scale(1.05);
+}
+
+/* Category buttons */
+.btn-outline-primary.active {
+  background-color: var(--bs-primary);
+  color: white;
+  border-color: var(--bs-primary);
+}
+
+.btn-outline-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* Statistics section animations */
+.bg-light .h2 {
+  counter-reset: num;
+  animation: countUp 2s ease-out;
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Featured topics icons animation */
+.rounded-circle {
+  transition: all 0.3s ease;
+}
+
+.rounded-circle:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Load more button */
+.btn-lg:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+  
+  .display-5 {
+    font-size: 1.75rem;
+  }
+  
+  .infographic-card:hover {
+    transform: translateY(-5px);
+  }
+}
+
+/* Custom scrollbar for category buttons container */
+.d-flex.flex-wrap {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bs-primary) transparent;
+}
+
+.d-flex.flex-wrap::-webkit-scrollbar {
+  height: 6px;
+}
+
+.d-flex.flex-wrap::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.d-flex.flex-wrap::-webkit-scrollbar-thumb {
+  background-color: var(--bs-primary);
+  border-radius: 3px;
+}
+
+/* Badge styles */
+.badge {
+  font-size: 0.75rem;
+  padding: 0.5em 0.75em;
+}
+
+/* Card body spacing */
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-body .card-title {
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.card-body .card-text {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Download button styles */
+.btn-sm {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+/* Page header enhancements */
+.page-header__title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading animation for images */
+.card-img-top img {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Hover effects for statistics */
+.bg-light .col-lg-3:hover .h2 {
+  color: var(--bs-primary) !important;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* Enhanced button group styles */
+.d-flex.gap-3 .btn {
+  white-space: nowrap;
+  margin-bottom: 0.5rem;
+}
+
+/* Custom focus states */
+.btn:focus,
+.btn.active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Enhanced card shadows */
+.shadow-sm {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Typography improvements */
+.lead {
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+/* Icon enhancements */
+.fas {
+  transition: all 0.3s ease;
+}
+
+.rounded-circle:hover .fas {
+  transform: scale(1.1);
+}
+
+/* Search bar styles */
+.input-group-lg .input-group-text {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+  color: #6c757d;
+}
+
+.input-group-lg .form-control:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Newsletter section */
+.bg-primary {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+.input-group input[type="email"] {
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+.input-group .btn-light {
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.input-group .btn-light:hover {
+  background-color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Alert styles */
+.alert-info {
+  background-color: #e7f3ff;
+  border-color: #b3d9ff;
+  color: #0c5c99;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+}
+
+.alert-info .btn-outline-primary {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+}
+
+/* Quick links cards */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card .fas {
+  transition: all 0.3s ease;
+}
+
+.card:hover .fas {
+  transform: scale(1.1);
+  color: var(--bs-primary) !important;
+}
+
+/* Search clear button */
+.input-group .btn-outline-secondary {
+  border-left: none;
+  color: #6c757d;
+}
+
+.input-group .btn-outline-secondary:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+  color: #495057;
+}
+
+/* Smooth transitions for filtered results */
+.infographic-card {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* No results state */
+.text-muted .fas.fa-search {
+  opacity: 0.5;
+}
+
+/* Newsletter input focus */
+.bg-primary input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+/* Responsive newsletter */
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
+  }
+  
+  .input-group input,
+  .input-group .btn {
+    border-radius: 50px !important;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group .btn {
+    margin-bottom: 0;
+  }
+}
+
+/* Category button animations */
+.btn-outline-primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-outline-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn-outline-primary:hover::before {
+  left: 100%;
+}
+
+/* Enhanced statistics hover */
+.bg-light .col-lg-3:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.bg-light .col-lg-3:hover .h2 {
+  text-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Load more button enhancement */
+.btn-lg {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-lg::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s;
+}
+
+.btn-lg:hover::after {
+  width: 300px;
+  height: 300px;
+}

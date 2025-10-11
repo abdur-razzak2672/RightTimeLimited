@@ -21,22 +21,24 @@ function FoundationTrack() {
             <section className="  section-padding--top">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7 ">
+                       <div className="col-lg-7 ">
                             <h3 className='blog-card-one__title blog-details__title changeColor'>Foundation track - (Corporate)</h3>
                             <div className="dipt-container">
+                                {/* Tile 1: CEH */}
                                 <div className="dipt-box dipt-box1">
                                     <div className="dipt-inner-box inner-box1">
-                                        <p className='inner-box1-p'>ESCA </p>
-                                        <p className='number-box1'>412-79</p>
+                                        <p className='inner-box1-p'>CEH</p>
+                                        <p className='number-box1'>312-50</p>
                                     </div>
                                     <div className="dipt-inner-box inner-box2">
-                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        <p className='inner-box2-p'>EC-Council Certified <br /> Ethical Hacker</p>
                                     </div>
                                 </div>
 
+                                {/* Tile 2: ECSA */}
                                 <div className="dipt-box dipt-box2">
                                     <div className="dipt-inner-box inner-box1">
-                                        <p className='inner-box1-p'>ESCA </p>
+                                        <p className='inner-box1-p'>ECSA</p>
                                         <p className='number-box1'>412-79</p>
                                     </div>
                                     <div className="dipt-inner-box inner-box2">
@@ -44,13 +46,14 @@ function FoundationTrack() {
                                     </div>
                                 </div>
 
+                                {/* Tile 3: CHFI */}
                                 <div className="dipt-box dipt-box3">
                                     <div className="dipt-inner-box inner-box1">
-                                        <p className='inner-box1-p'>ESCA </p>
-                                        <p className='number-box1'>412-79</p>
+                                        <p className='inner-box1-p'>CHFI</p>
+                                        <p className='number-box1'>312-49</p>
                                     </div>
                                     <div className="dipt-inner-box inner-box2">
-                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        <p className='inner-box2-p'>EC-Council <br /> Computer Hacking Forensic Investigator</p>
                                     </div>
                                 </div>
 

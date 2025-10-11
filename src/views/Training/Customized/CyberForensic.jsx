@@ -27,31 +27,31 @@ function CyberForensic() {
                             <div className="dipt-container">
                                 <div className="dipt-box dipt-box1">
                                     <div className="dipt-inner-box inner-box1">
-                                        <p className='inner-box1-p'>ESCA </p>
-                                        <p className='number-box1'>412-79</p>
+                                        <p className='inner-box1-p'>CHFI</p>
+                                        <p className='number-box1'>312-49</p>
                                     </div>
                                     <div className="dipt-inner-box inner-box2">
-                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        <p className='inner-box2-p'>Computer Hacking <br /> Forensic Investigator</p>
                                     </div>
                                 </div>
 
                                 <div className="ndo-page-second-part-container dipt-box dipt-box2">
                                     <div className='ndo-page-inner-box'>
                                         <div className=" dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>GCFE</p>
+                                            <p className='number-box1'>FOR-408</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>GIAC Certified <br /> Forensic Examiner</p>
                                         </div>
                                     </div>
                                     <div className='ndo-page-inner-box'>
                                         <div className="dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>GCFA</p>
+                                            <p className='number-box1'>FOR-508</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>GIAC Certified <br /> Forensic Analyst</p>
                                         </div>
                                     </div>
                                 </div>
@@ -59,19 +59,19 @@ function CyberForensic() {
                             </div>
                             <div className='ndo-second-div-container'>
                                 <div className='ndo-scond-div dipt-box1'>
-                                    <p className='ndo-second-div-p'>Network Defense and Operations</p>
+                                    <p className='ndo-second-div-p'>Digital Evidence Analysis & Investigation</p>
                                 </div>
                                 <div className='ndo-scond-div dipt-box2'>
-                                    <p className='ndo-second-div-p'>Network Defense and Operations</p>
+                                    <p className='ndo-second-div-p'>Cyber Crime Scene Investigation</p>
                                 </div>
                             </div>
 
                             <div className='ndo-third-div-container'>
                                 <div className='third-div-cyberforensic ndo-third-box-1'>
-                                    <p className='ndo-third-div-p'>CORE</p>
+                                    <p className='ndo-third-div-p'>FOUNDATIONAL</p>
                                 </div>
                                 <div className='third-div-cyberforensic ndo-third-box-2'>
-                                    <p className='ndo-third-div-p'>ADVANCED</p>
+                                    <p className='ndo-third-div-p'>EXPERT LEVEL</p>
                                 </div>
                             </div>
 

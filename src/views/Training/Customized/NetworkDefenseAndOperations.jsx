@@ -21,54 +21,58 @@ function NetworkDefenseOperations() {
             <section className="  section-padding--top">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7">
+ <div className="col-lg-7">
                             <h3 className='blog-card-one__title blog-details__title changeColor'>Network Defense and Operations - (Corporate)</h3>
                             <div className="dipt-container">
+                                {/* Box 1: Network Defense Essentials */}
                                 <div className="dipt-box dipt-box1">
                                     <div className="dipt-inner-box inner-box1">
-                                        <p className='inner-box1-p'>ESCA </p>
-                                        <p className='number-box1'>412-79</p>
+                                        <p className='inner-box1-p'>NDE</p>
+                                        <p className='number-box1'>RTL-NDO-101</p>
                                     </div>
                                     <div className="dipt-inner-box inner-box2">
-                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        <p className='inner-box2-p'>Network Defense Essentials <br /> Baselines, hardening, secure configs</p>
                                     </div>
                                 </div>
 
+                                {/* Box 2: Two sub-items (Firewalls/IDS & SIEM) */}
                                 <div className="ndo-page-second-part-container dipt-box dipt-box2">
                                     <div className='ndo-page-inner-box'>
                                         <div className=" dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>NDFW</p>
+                                            <p className='number-box1'>RTL-NDO-221</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>Firewalls & IDS/IPS <br /> Segmentation and detection</p>
                                         </div>
                                     </div>
                                     <div className='ndo-page-inner-box'>
                                         <div className="dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>NDSIEM</p>
+                                            <p className='number-box1'>RTL-NDO-222</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>SIEM & Monitoring <br /> Use cases and alert triage</p>
                                         </div>
                                     </div>
                                 </div>
 
+                                {/* Box 3: Incident Response & Ops */}
                                 <div className="dipt-box dipt-box3">
                                     <div className="dipt-inner-box inner-box1">
-                                        <p className='inner-box1-p'>ESCA </p>
-                                        <p className='number-box1'>412-79</p>
+                                        <p className='inner-box1-p'>IR</p>
+                                        <p className='number-box1'>RTL-NDO-301</p>
                                     </div>
                                     <div className="dipt-inner-box inner-box2">
-                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        <p className='inner-box2-p'>Incident Response & Ops <br /> Playbooks and containment</p>
                                     </div>
                                 </div>
                             </div>
+                            {/* Update labels below to match boxes */}
                             <div className='ndo-second-div-container'>
-                                <div className='ndo-scond-div dipt-box1'><p className='ndo-second-div-p'>Network Defense and Operations</p></div>
-                                <div className='ndo-scond-div dipt-box2'><p className='ndo-second-div-p'>Network Defense and Operations</p></div>
-                                <div className='ndo-scond-div dipt-box3'><p className='ndo-second-div-p'>Network Defense and Operations</p></div>
+                                <div className='ndo-scond-div dipt-box1'><p className='ndo-second-div-p'>Network Defense Essentials</p></div>
+                                <div className='ndo-scond-div dipt-box2'><p className='ndo-second-div-p'>Firewalls/IDS & SIEM Monitoring</p></div>
+                                <div className='ndo-scond-div dipt-box3'><p className='ndo-second-div-p'>Incident Response & Operations</p></div>
                             </div>
 
                             <div className='ndo-third-div-container'>
@@ -77,7 +81,7 @@ function NetworkDefenseOperations() {
                                 <div className='ndo-third-div ndo-third-box-3'><p className='ndo-third-div-p'>EXPERT</p></div>
                             </div>
 
-                        </div>
+                        </div>                           
                         <div className="col-lg-5 mt-5">
                             <CustomizedNav />
                         </div>

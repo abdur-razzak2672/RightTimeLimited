@@ -2154,32 +2154,32 @@ import { Link } from "react-router-dom";
 
 
 
-                      <a className="mt-2  divClass" href="/basic-corporate">
+                      <a className="mt-2  divClass" href="/documents">
                         Documents
                         <i className="fas fa-caret-right  mx-3"></i>
                         <span style={{ left: "200px" }} className="AnchorHide">
-                          <a href="/basic-corporate">
+                          <Link to="/guidance">
                             Guidance
-                          </a>
+                          </Link>
 
-                          <Link to="/basic-corporate">
+                          <Link to="/glossary">
                             Glossary
                           </Link>
 
-                          <Link to="/basic-corporate">
+                          <Link to="/standard">
                             Standard
 
                           </Link>
 
-                          <Link to="/basic-corporate">   Policy</Link>
+                          <Link to="/policy">   Policy</Link>
 
-                          <Link to="/basic-corporate">   Process</Link>
+                          <Link to="/rules-regulation"> Rules & Regulation</Link>
 
-                          <Link to="/basic-corporate"> Rules & gulation</Link>
+                          <Link to="/faqs"> FAQs</Link>
 
                         </span>
                       </a>
-                      <Link className="mt-2  divClass" to="/basic-corporate"> 	Reports</Link>
+                      <Link className="mt-2  divClass" to="/reports"> 	Reports</Link>
 
                     </Col>
                   </Row>

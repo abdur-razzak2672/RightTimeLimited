@@ -20,7 +20,7 @@ import Events from "./views/About/news-event/Events";
 import PictureGallaries from "./views/About/news-event/PictureGallaries";
 import Publication from "./views/About/news-event/Publication";
 import PressRelased from "./views/About/news-event/PressRelased";
-// About Section Imported Start
+// About Section Imported End
 
 // Industris Section Imported Start
 import IndustriesBody from "./views/Industries/IndustriusBody";
@@ -253,8 +253,14 @@ import AssessmentAndPenetrationTesting from "./views/Training/Customized/Assessm
 import CyberForensic from "./views/Training/Customized/CyberForensic";
 import GovernanceCorporate from "./views/Training/Customized/GovernanceCorporate";
 import Profile from "./components/services/swiftCyberSecuirity/Profile";
-
-
+import Documents from "./views/resource/Documents";
+import Guidance from "./views/resource/Guidance";
+import Glossary from "./views/resource/Glossary";
+import Standard from "./views/resource/Standard";
+import Policy from "./views/resource/Policy";
+import RulesRegulation from "./views/resource/RulesRegulation";
+import FAQs from "./views/resource/FAQs";
+import Reports from "./views/resource/Reports";
 
 
 function App() {
@@ -489,9 +495,7 @@ function App() {
           <Route path="/Sck" component={Sck} exact />
 
           {/* Service Partner  Section Route Declaration End  */}
-          {/* Slution Partner  Section Route Declaration start  */}
-
-
+          {/* Solution Partner Section Route Declaration start */}
 
           <Route path="/Alltenable" component={Alltenable} exact />
           <Route path="/BurpSuit" component={BurpSuit} exact />
@@ -700,7 +704,14 @@ function App() {
           <Route path="/Webinars" component={Webinar} exact />
           <Route path="/Infographics" component={Infographics} exact />
           <Route path="/WhitePapers" component={WhitePapers} exact />
-
+          <Route path="/documents" component={Documents} exact />
+          <Route path="/guidance" component={Guidance} exact />
+          <Route path="/glossary" component={Glossary} exact />
+          <Route path="/standard" component={Standard} exact />
+          <Route path="/policy" component={Policy} exact />
+          <Route path="/rules-regulation" component={RulesRegulation} exact />
+          <Route path="/faqs" component={FAQs} exact />
+          <Route path="/reports" component={Reports} exact />
 
 
           {/* Team section route declaration start */}

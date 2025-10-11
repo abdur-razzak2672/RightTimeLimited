@@ -28,20 +28,20 @@ function SoftwareSecurity() {
                                 <div className="ndo-page-second-part-container dipt-box dipt-box1">
                                     <div className='ndo-page-inner-box'>
                                         <div className=" dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>CSSLP</p>
+                                            <p className='number-box1'>ISC2</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>Certified Secure <br /> Software Lifecycle Professional</p>
                                         </div>
                                     </div>
                                     <div className='ndo-page-inner-box'>
                                         <div className="dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>GWEB</p>
+                                            <p className='number-box1'>SEC-542</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>GIAC Web Application <br /> Penetration Tester</p>
                                         </div>
                                     </div>
                                 </div>
@@ -49,47 +49,47 @@ function SoftwareSecurity() {
                                 <div className="ndo-page-second-part-container dipt-box dipt-box2">
                                     <div className='ndo-page-inner-box'>
                                         <div className=" dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>OSCP</p>
+                                            <p className='number-box1'>PWK</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>Offensive Security <br /> Certified Professional</p>
                                         </div>
                                     </div>
                                     <div className='ndo-page-inner-box'>
                                         <div className="dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>CEH</p>
+                                            <p className='number-box1'>312-50</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>Certified Ethical <br /> Hacker</p>
                                         </div>
                                     </div>
                                     <div className='ndo-page-inner-box'>
                                         <div className="dipt-inner-box inner-box1">
-                                            <p className='inner-box1-p'>ESCA </p>
-                                            <p className='number-box1'>412-79</p>
+                                            <p className='inner-box1-p'>GSEC</p>
+                                            <p className='number-box1'>SEC-401</p>
                                         </div>
                                         <div style={{ padding: "5px" }} className="ndo-page-inner-box inner-box2">
-                                            <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                            <p className='inner-box2-p'>GIAC Security <br /> Essentials</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="dipt-box dipt-box3">
                                     <div className="dipt-inner-box inner-box1">
-                                        <p className='inner-box1-p'>ESCA </p>
-                                        <p className='number-box1'>412-79</p>
+                                        <p className='inner-box1-p'>OWASP</p>
+                                        <p className='number-box1'>TOP-10</p>
                                     </div>
                                     <div className="dipt-inner-box inner-box2">
-                                        <p className='inner-box2-p'>EC-Council Certified <br /> Security Analyst</p>
+                                        <p className='inner-box2-p'>Web Application <br /> Security Testing</p>
                                     </div>
                                 </div>
                             </div>
                             <div className='ndo-third-div-container'>
-                                <div className='ndo-third-div ndo-third-box-1'><p className='ndo-third-div-p'>CORE</p></div>
-                                <div className='ndo-third-div ndo-third-box-2'><p className='ndo-third-div-p'>ADVANCED</p></div>
-                                <div className='ndo-third-div ndo-third-box-3'><p className='ndo-third-div-p'>EXPERT</p></div>
+                                <div className='ndo-third-div ndo-third-box-1'><p className='ndo-third-div-p'>FOUNDATIONAL</p></div>
+                                <div className='ndo-third-div ndo-third-box-2'><p className='ndo-third-div-p'>INTERMEDIATE</p></div>
+                                <div className='ndo-third-div ndo-third-box-3'><p className='ndo-third-div-p'>ADVANCED</p></div>
                             </div>
                         </div>
                         <div className="col-lg-5 mt-5">
