@@ -23,7 +23,7 @@ function Standard() {
         <div className="container">
           <div className="row">
             <div className="col-lg-10 mx-auto">
-              <h3 className="fw-bold">International Standards</h3>
+              <h3 className="fw-bold">International Standards </h3>
               <ul>
                 {items.map(i => (
                   <li key={i.h}><strong>{i.h}</strong> – {i.d}</li>
