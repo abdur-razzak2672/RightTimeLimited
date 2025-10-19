@@ -1,10 +1,8 @@
-import React from 'react'
-import Allpage from '../../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../../components/all-page/Allpage";
 
 function Acnabin() {
-  return (
-    <Allpage data="Acnabin"/>
-  )
+  return <Allpage data="Acnabin" />;
 }
 
-export default Acnabin
+export default Acnabin;

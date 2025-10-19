@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function VaptHeader() {
   return (
     <div>
-        <div className="page-header" style={{ minWidth: "100%" }}>
+      <div className="page-header" style={{ minWidth: "100%" }}>
         <div
           className="slider-one__bg"
           style={{ backgroundImage: `url('assets/images/background/1.png')` }}
@@ -44,18 +44,41 @@ function VaptHeader() {
         <div className="container">
           <div className="section-title">
             <p className="text-dark">
-            Our consultancy team are industry leaders with decades of experience in the cyber security space. With their diverse experience and expertise in this ever-changing field, the Cyber Security Team can help your organization: manage & understand the risks it faces; secure its data and infrastructure; ensure compliance; and secure its products. Working in a true partnership we collaborate to identify and address your Cyber Security needs that not only meet the challenges you face now but capitalize on the many business and operational benefits that improved security will deliver.
-
+              Our consultancy team are industry leaders with decades of
+              experience in the cyber security space. With their diverse
+              experience and expertise in this ever-changing field, the Cyber
+              Security Team can help your organization: manage & understand the
+              risks it faces; secure its data and infrastructure; ensure
+              compliance; and secure its products. Working in a true partnership
+              we collaborate to identify and address your Cyber Security needs
+              that not only meet the challenges you face now but capitalize on
+              the many business and operational benefits that improved security
+              will deliver.
             </p>
             <div className="row">
               <div className="col-md-7">
                 <p className="text-dark">
-                We have first-hand experience at working with Security Tester providers who charge high-rates for their services only to provide a re-branded vulnerability scan report, often only telling you things you already know and/or a range of false positives that you then need to verify. Further, and especially when it comes to application security testing, we are painfully aware of the number of Security Testers who do not understand how applications are designed or built, leading to less thorough application security tests.
+                  We have first-hand experience at working with Security Tester
+                  providers who charge high-rates for their services only to
+                  provide a re-branded vulnerability scan report, often only
+                  telling you things you already know and/or a range of false
+                  positives that you then need to verify. Further, and
+                  especially when it comes to application security testing, we
+                  are painfully aware of the number of Security Testers who do
+                  not understand how applications are designed or built, leading
+                  to less thorough application security tests.
                 </p>
 
                 <p className="text-dark">
-                At Right Time Limited we take great pride in our high-quality Security Testing, security assessment, and vulnerability scanning services. Our testers are experts in their respective fields, in particular, our application security testers have a deep understanding of software engineering and architecture, prior to becoming security experts. Indeed, they have typically been involved in the architecture and development of enterprise class systems, including application-layer security systems as well.
-                  well.
+                  At Right Time Limited we take great pride in our high-quality
+                  Security Testing, security assessment, and vulnerability
+                  scanning services. Our testers are experts in their respective
+                  fields, in particular, our application security testers have a
+                  deep understanding of software engineering and architecture,
+                  prior to becoming security experts. Indeed, they have
+                  typically been involved in the architecture and development of
+                  enterprise class systems, including application-layer security
+                  systems as well. well.
                 </p>
               </div>
               <div className="col-md-5">
@@ -76,7 +99,7 @@ function VaptHeader() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default VaptHeader
+export default VaptHeader;

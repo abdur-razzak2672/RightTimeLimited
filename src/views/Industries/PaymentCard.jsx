@@ -35,7 +35,7 @@ function PaymentCard() {
       <section className="section-padding--bottom section-padding--top">
         <div className="container">
           <div className="row">
-          <div className="col-lg-4">
+            <div className="col-lg-4">
               <div className="sidebar">
                 <div className=" ">
                   <IndustriesNav title="payment" />
@@ -63,7 +63,8 @@ function PaymentCard() {
                   to these kinds of cyberattacks. To mitigate these risks, the
                   Security Standards Council (SSC) of the Payment Card Industry
                   (PCI), USA has formulated numerous controls across several
-                  security standards to keep companies and consumers protected.{" "}
+                  security standards to keep companies and consumers
+                  protected.{" "}
                 </p>
 
                 <p>
@@ -118,10 +119,13 @@ function PaymentCard() {
                 </p>
               </div>
               <br />
-              <a href = "contact-us">       <Button style={{backgroundColor:"#fd7e14"}} >Contact Us</Button></a>
-
+              <a href="contact-us">
+                {" "}
+                <Button style={{ backgroundColor: "#fd7e14" }}>
+                  Contact Us
+                </Button>
+              </a>
             </div>
-            
           </div>
         </div>
       </section>

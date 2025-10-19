@@ -1,88 +1,84 @@
- 
- .mapItem{
+.mapItem {
   z-index: 1000;
-  position: relative; 
- }
-  svg:nth-child(1) .pulse-disk {
-    fill: #ff3c64;
+  position: relative;
+}
+svg:nth-child(1) .pulse-disk {
+  fill: #ff3c64;
+}
+
+svg:nth-child(1) .pulse-circle,
+svg:nth-child(1) .pulse-circle-2 {
+  stroke: #ff3c64;
+}
+
+.pulse-circle,
+.pulse-circle-2 {
+  transform-origin: center;
+  stroke-width: 2;
+  fill: none;
+  transform: translate3d(0, 0, 0);
+}
+
+.pulse-disk {
+  r: 6;
+}
+
+.pulse-circle {
+  r: 4;
+  animation: pulse 3s cubic-bezier(0.39, 0.54, 0.41, 1.5) infinite;
+}
+
+.pulse-circle-2 {
+  r: 16;
+  animation: pulse-2 3s cubic-bezier(0.39, 0.54, 0.41, 1.5) infinite;
+}
+
+@keyframes pulse {
+  0% {
+    r: 4;
   }
 
- 
-  
-  svg:nth-child(1) .pulse-circle,
-  svg:nth-child(1) .pulse-circle-2 {
-    stroke: #ff3c64;
-  }
-  
-  .pulse-circle,
-  .pulse-circle-2 {
-    transform-origin: center;
-    stroke-width: 2;
-    fill: none;
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .pulse-disk {
-    r: 6;
-  }
-  
-  .pulse-circle {
-    r: 4;
-    animation: pulse 3s cubic-bezier(0.39, 0.54, 0.41, 1.5) infinite;
-  }
-  
-  .pulse-circle-2 {
+  50% {
     r: 16;
-    animation: pulse-2 3s cubic-bezier(0.39, 0.54, 0.41, 1.5) infinite;
+    opacity: 1;
   }
-  
-  @keyframes pulse {
-    0% {
-      r: 4;
-    }
-  
-    50% {
-      r: 16;
-      opacity: 1;
-    }
-  
-    99% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 0;
-      r: 16;
-    }
+
+  99% {
+    opacity: 0;
   }
-  
-  @keyframes pulse-2 {
-    0% {
-      opacity: 1;
-    }
-  
-    40% {
-      opacity: 0;
-    }
-  
-    49.99% {
-      r: 16;
-      opacity: 0;
-    }
-  
-    50% {
-      r: 4;
-      opacity: 1;
-    }
-  
-    100% {
-      r: 16;
-      opacity: 1;
-    }
+
+  100% {
+    opacity: 0;
+    r: 16;
   }
-  
-  
-  /* .sonar-wave {
+}
+
+@keyframes pulse-2 {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  49.99% {
+    r: 16;
+    opacity: 0;
+  }
+
+  50% {
+    r: 4;
+    opacity: 1;
+  }
+
+  100% {
+    r: 16;
+    opacity: 1;
+  }
+}
+
+/* .sonar-wave {
     animation: sonarWave 2s linear infinite;
   }
   
@@ -97,32 +93,31 @@
       opacity: 0;
     }
   } */
-  
 
-  .hovertext {
-    position: relative;
-    border-bottom: 1px dotted black;
-  }
-  
-  .hovertext:before {
-    content: attr(data-hover);
-    visibility: hidden;
-    opacity: 0;
-    width: 140px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px 0;
-    transition: opacity 1s ease-in-out;
-  
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 110%;
-  }
-  
-  .hovertext:hover:before {
-    opacity: 1;
-    visibility: visible;
-  }
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}

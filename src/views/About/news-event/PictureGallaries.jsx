@@ -1,9 +1,7 @@
-import React from 'react'
-import Allpage from '../../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../../components/all-page/Allpage";
 function PictureGallaries() {
-  return (
-    <Allpage data="Picture-Galleries"/>
-   )
+  return <Allpage data="Picture-Galleries" />;
 }
 
-export default PictureGallaries
+export default PictureGallaries;

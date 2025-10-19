@@ -1,10 +1,8 @@
-import React from 'react'
-import Allpage from '../../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../../components/all-page/Allpage";
 
 function Pecb() {
-  return (
-    <Allpage data="Pecb"/>
-  )
+  return <Allpage data="Pecb" />;
 }
 
-export default Pecb
+export default Pecb;

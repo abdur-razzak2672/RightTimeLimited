@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import AssesmentNav from './AssesmentNav';
+import React, { useState } from "react";
+import AssesmentNav from "./AssesmentNav";
 
 function AssessmentBody() {
   const [tabIndex, setTabIndex] = useState(1);
@@ -7,12 +7,20 @@ function AssessmentBody() {
   return (
     <div>
       <div className="page-header">
-        <div className="page-header__bg"
-          style={{ backgroundImage: `url('https://www.icorps.com/hs-fs/hubfs/Hero%20Image%2021-1.png?width=1500&height=600&name=Hero%20Image%2021-1.png')` }}></div>
+        <div
+          className="page-header__bg"
+          style={{
+            backgroundImage: `url('https://www.icorps.com/hs-fs/hubfs/Hero%20Image%2021-1.png?width=1500&height=600&name=Hero%20Image%2021-1.png')`,
+          }}
+        ></div>
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
-            <li><a href="{{ url('/') }}">Home</a></li>
-            <li><a href="{{ url('/services/security-training') }}">Training</a></li>
+            <li>
+              <a href="{{ url('/') }}">Home</a>
+            </li>
+            <li>
+              <a href="{{ url('/services/security-training') }}">Training</a>
+            </li>
             <li>Assessment</li>
           </ul>
           <h2 className="page-header__title">Assessment</h2>
@@ -23,17 +31,29 @@ function AssessmentBody() {
         <div className="container">
           <div className="row">
             <div className="col-lg-7">
-
-
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Assessment</h3>
+              <h3
+                style={{ color: "orange" }}
+                className="blog-card-one__title blog-details__title"
+              >
+                Assessment
+              </h3>
               <div className="blog-details__content">
                 <p>
-                  “Right Time Limited” (RightTime) offers training programs designed to enhance participants' knowledge and skills in conducting ICT assessments. These programs cover various assessment methodologies, tools, and best practices to evaluate the effectiveness and security of ICT systems. Participants gain insights into identifying vulnerabilities, performing risk assessments, and implementing appropriate controls to mitigate risks in the ICT environment.                    <br />
+                  “Right Time Limited” (RightTime) offers training programs
+                  designed to enhance participants' knowledge and skills in
+                  conducting ICT assessments. These programs cover various
+                  assessment methodologies, tools, and best practices to
+                  evaluate the effectiveness and security of ICT systems.
+                  Participants gain insights into identifying vulnerabilities,
+                  performing risk assessments, and implementing appropriate
+                  controls to mitigate risks in the ICT environment. <br />
                 </p>
-                <img className='training-images' src="/assets/images/training/ASSESMENT.jpg" alt="" />
+                <img
+                  className="training-images"
+                  src="/assets/images/training/ASSESMENT.jpg"
+                  alt=""
+                />
               </div>
-
-
             </div>
             <div className="col-lg-5">
               <AssesmentNav />
@@ -41,7 +61,6 @@ function AssessmentBody() {
           </div>
         </div>
       </section>
-
 
       {/* <div className ="container ">
           <div>
@@ -301,22 +320,32 @@ By delivering training that aligns with the organization's specific context, Rig
 
         </section> */}
 
-
-      <div className="page-header mt-4" >
-        <div className="page-header__bg"
-          style={{ backgroundImage: `url('https://www.icorps.com/hs-fs/hubfs/Hero%20Image%2021-1.png?width=1500&height=600&name=Hero%20Image%2021-1.png')` }}></div>
+      <div className="page-header mt-4">
+        <div
+          className="page-header__bg"
+          style={{
+            backgroundImage: `url('https://www.icorps.com/hs-fs/hubfs/Hero%20Image%2021-1.png?width=1500&height=600&name=Hero%20Image%2021-1.png')`,
+          }}
+        ></div>
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
             <h2 className="text-light">Digital Badging</h2>
           </ul>
-          <p className="text-light dipt-breadcrump-paragraph">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
+          <p className="text-light dipt-breadcrump-paragraph">
+            “Right Time Limited” is a highly esteemed security service provider,
+            assisting businesses in fortifying their security posture. It offers
+            expert consultation, meticulous testing, certification support, and
+            reliable managed services to safeguard assets and mitigate risks.
+          </p>
         </div>
       </div>
 
-      <br /><br /><br /><br />
-
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
-  )
+  );
 }
 
-export default AssessmentBody
+export default AssessmentBody;

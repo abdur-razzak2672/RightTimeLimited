@@ -21,8 +21,9 @@ function Services() {
             <Link to="/cyber-defense-services" className="text-light mx-3">
               Cyber defense services{" "}
             </Link>
-            <Link to="/cyber-defense-center" className="text-light mx-3">Cyber Defense center</Link>
-
+            <Link to="/cyber-defense-center" className="text-light mx-3">
+              Cyber Defense center
+            </Link>
           </div>
         </div>
       </div>
@@ -37,10 +38,10 @@ function Services() {
             auditing, consulting and project management as well as in the
             operation and support of complex corporate networks. We provide
             state-of-the-art cloud, managed and SOC services from the ISO 27001
-            certified and ISAE 3000 Type 2 audited Right Time Limited Cyber Defence
-            Center in Switzerland. In order to be able to offer customers
-            comprehensive network and ICT security solutions, we use leading
-            products from selected manufacturers.{" "}
+            certified and ISAE 3000 Type 2 audited Right Time Limited Cyber
+            Defence Center in Switzerland. In order to be able to offer
+            customers comprehensive network and ICT security solutions, we use
+            leading products from selected manufacturers.{" "}
           </p>
 
           <div>
@@ -53,7 +54,7 @@ function Services() {
                   className="p-3 CyberHover"
                   style={{ backgroundColor: "#f1f2f2" }}
                 >
-                  <Link style={{ width: "95%" }}  to="/cyber-defense-services">
+                  <Link style={{ width: "95%" }} to="/cyber-defense-services">
                     <h6 className="header text-center ">
                       CYBER DEFENCE SERVICES
                     </h6>
@@ -73,7 +74,7 @@ function Services() {
                   className="p-3 CyberHover"
                   style={{ backgroundColor: "#f1f2f2" }}
                 >
-                  <Link style={{ width: "95%" }}  to="/cyber-defense-services">
+                  <Link style={{ width: "95%" }} to="/cyber-defense-services">
                     <h6 className="header text-center ">
                       {" "}
                       CLOUD & MANAGED SECURITY SERVICES
@@ -84,11 +85,9 @@ function Services() {
                       the highest security at ﬁxed costs without having to
                       operate your own security infrastructure. Our team of
                       experienced specialists monitors and supports clients'
-                      security infrastructure 24x7 from our Right Time Limited Security
-                      Operations Center{" "}
+                      security infrastructure 24x7 from our Right Time Limited
+                      Security Operations Center{" "}
                     </p>
-
-             
                   </Link>
                 </div>
               </Col>
@@ -98,7 +97,7 @@ function Services() {
                   className="p-3 CyberHover"
                   style={{ backgroundColor: "#f1f2f2" }}
                 >
-                  <Link style={{ width: "95%" }}  to="/cyber-defense-services">
+                  <Link style={{ width: "95%" }} to="/cyber-defense-services">
                     <h6 className="header text-center ">
                       {" "}
                       INCIDENT RESPONSE & RECOVERY SERVICES
@@ -123,17 +122,18 @@ function Services() {
                   className="p-3 CyberHover"
                   style={{ backgroundColor: "#f1f2f2" }}
                 >
-                  <Link style={{ width: "95%" }}  to="/cyber-defense-services">
+                  <Link style={{ width: "95%" }} to="/cyber-defense-services">
                     <h6 className="header text-center ">
                       ICT SECURITY & NETWORK SOLUTIONS
                     </h6>
                     <p style={{ fontSize: "14px" }} className="text-black">
                       Efficient network and security infrastructures must
                       achieve the optimum of performance, security and costs.
-                      Right Time Limited offers a complete portfolio of leading security,
-                      network and cloud solutions for conventional, virtualised,
-                      containerised and cloud infrastructures.For this, we work
-                      with the best manufacturers in each area.{" "}
+                      Right Time Limited offers a complete portfolio of leading
+                      security, network and cloud solutions for conventional,
+                      virtualised, containerised and cloud infrastructures.For
+                      this, we work with the best manufacturers in each
+                      area.{" "}
                     </p>
                   </Link>
                 </div>
@@ -143,18 +143,18 @@ function Services() {
                   className="p-3 CyberHover"
                   style={{ backgroundColor: "#f1f2f2" }}
                 >
-                  <Link style={{ width: "95%" }}  to="/cyber-defense-services">
+                  <Link style={{ width: "95%" }} to="/cyber-defense-services">
                     <h6 className="header text-center ">
                       {" "}
                       PENETRATION TESTING & ATTACK SIMULATION
                     </h6>
                     <p style={{ fontSize: "14px" }} className="text-black">
-                      Right Time Limited offers targeted security audits and penetration
-                      tests to verify security processes, IT infrastructures and
-                      employees. This provides an optimal basis for the
-                      long-term increase of our clients' information security
-                      and helps to identify, assess and eliminate risks at an
-                      early stage.{" "}
+                      Right Time Limited offers targeted security audits and
+                      penetration tests to verify security processes, IT
+                      infrastructures and employees. This provides an optimal
+                      basis for the long-term increase of our clients'
+                      information security and helps to identify, assess and
+                      eliminate risks at an early stage.{" "}
                     </p>
                   </Link>
                 </div>
@@ -164,7 +164,7 @@ function Services() {
                   className="p-3 CyberHover"
                   style={{ backgroundColor: "#f1f2f2" }}
                 >
-                  <Link style={{ width: "95%" }}  to="/cyber-defense-services">
+                  <Link style={{ width: "95%" }} to="/cyber-defense-services">
                     <h6 className="header text-center ">
                       {" "}
                       SECURITY CONSULTING SERVICES
@@ -173,9 +173,9 @@ function Services() {
                       Whether cyber security, cyber risk resilience, governance,
                       risk & compliance, digitalisation or cloud: the growing
                       challenges can only be mastered with a holistic cyber
-                      security strategy. Right Time Limited's modular range of services
-                      takes equal account of technologies, processes and
-                      employees.{" "}
+                      security strategy. Right Time Limited's modular range of
+                      services takes equal account of technologies, processes
+                      and employees.{" "}
                     </p>
                   </Link>
                 </div>
@@ -184,204 +184,295 @@ function Services() {
           </div>
 
           <div>
-            <h3 className="header   mt-5 text-center">
-              We Are Happy To Help
-            </h3>
-            <p>Complete the form to talk with one of our security experts and learn how our security services can help you and your organization.
-</p>
+            <h3 className="header   mt-5 text-center">We Are Happy To Help</h3>
+            <p>
+              Complete the form to talk with one of our security experts and
+              learn how our security services can help you and your
+              organization.
+            </p>
 
-           <Row>
-           <Col className="mt-3" md={6}>
-           <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 ">
-                  <i class="fa fa-user text-dark "></i>
+            <Row>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 "
+                >
+                  <i className="fa fa-user text-dark "></i>
                   <select
-                 style={{width:"95%",border:"none",outline:"none",backgroundColor:"#f6f6f6",height:"50px"}}
-
+                    style={{
+                      width: "95%",
+                      border: "none",
+                      outline: "none",
+                      backgroundColor: "#f6f6f6",
+                      height: "50px",
+                    }}
                   >
                     <option value="volvo">Solution</option>
                     <option value="saab">Saab</option>
                     <option value="mercedes">Mercedes</option>
                   </select>
                 </div>
-                
-             
-             
               </Col>
 
-
-
-
               <Col className="mt-3" md={6}>
-                <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 ">
-                  <i class="fa fa-user text-dark "></i>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 "
+                >
+                  <i className="fa fa-user text-dark "></i>
                   <input
-                      style={{width:"95%"}}
-
-                     type="text"
+                    style={{ width: "95%" }}
+                    type="text"
                     placeholder="email"
                     name="username"
                   />
                 </div>
               </Col>
-           </Row>
-           <Row>
-            <Col className="mt-3" md={6}>
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-                  <i class="fa fa-user text-dark "></i>
+            </Row>
+            <Row>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <i className="fa fa-user text-dark "></i>
                   <input
-                  style={{width:"95%"}}
-                     type="text"
+                    style={{ width: "95%" }}
+                    type="text"
                     placeholder="First Name"
                     name="firstname"
                   />
                 </div>
-
-            </Col>
-            <Col className="mt-3" md={6}>
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-                  <i class="fa fa-user text-dark "></i>
+              </Col>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <i className="fa fa-user text-dark "></i>
                   <input
-                  style={{width:"95%"}}
-                     type="text"
+                    style={{ width: "95%" }}
+                    type="text"
                     placeholder="Last Name"
                     name="firstname"
                   />
                 </div>
-
-            </Col>
-           </Row>
-           <Row>
-            <Col className="mt-3" md={6}>
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-                  <i class="fa fa-phone text-dark "></i>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <i className="fa fa-phone text-dark "></i>
                   <input
-                  style={{width:"95%"}}
-                     type="text"
+                    style={{ width: "95%" }}
+                    type="text"
                     placeholder="phone"
                     name="firstname"
                   />
                 </div>
-
-            </Col>
-            <Col className="mt-3" md={6}>
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-                  <i class="fa fa-user text-dark "></i>
+              </Col>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <i className="fa fa-user text-dark "></i>
                   <input
-                  style={{width:"95%"}}
-                     type="text"
+                    style={{ width: "95%" }}
+                    type="text"
                     placeholder="Job Title"
                     name="firstname"
                   />
                 </div>
+              </Col>
+            </Row>
 
-            </Col>
-           </Row>
-
-           <Row>
-            <Col className="mt-3" md={6}>
-                
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-                  <i class="fa fa-globe  text-dark "></i>
+            <Row>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <i className="fa fa-globe  text-dark "></i>
                   <input
-                  style={{width:"95%"}}
-                     type="text"
+                    style={{ width: "95%" }}
+                    type="text"
                     placeholder="Company"
                     name="firstname"
                   />
                 </div>
-
-            </Col>
-            <Col className="mt-3" md={6}>
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-                <i class="fa fa-user text-dark "></i>
+              </Col>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <i className="fa fa-user text-dark "></i>
                   <select
-                 style={{width:"95%",border:"none",outline:"none",backgroundColor:"#f6f6f6",height:"50px"}}
-
+                    style={{
+                      width: "95%",
+                      border: "none",
+                      outline: "none",
+                      backgroundColor: "#f6f6f6",
+                      height: "50px",
+                    }}
                   >
                     <option value="volvo">Number Of Employees</option>
                     <option value="saab">Saab</option>
                     <option value="mercedes">Mercedes</option>
                   </select>
                 </div>
+              </Col>
+            </Row>
 
-            </Col>
-           </Row>
-
-
-           <Row>
-            <Col className="mt-3" md={6}>
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-                <i class="fa fa-user text-dark "></i>
+            <Row>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <i className="fa fa-user text-dark "></i>
                   <select
-                 style={{width:"95%",border:"none",outline:"none",backgroundColor:"#f6f6f6",height:"50px"}}
-
+                    style={{
+                      width: "95%",
+                      border: "none",
+                      outline: "none",
+                      backgroundColor: "#f6f6f6",
+                      height: "50px",
+                    }}
                   >
                     <option value="volvo">Reason For Contact request</option>
                     <option value="saab">Saab</option>
                     <option value="mercedes">Mercedes</option>
                   </select>
                 </div>
-
-                
-            
-
-            </Col>
-            <Col className="mt-3" md={6}>
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-                <i class="fa fa-user text-dark "></i>
+              </Col>
+              <Col className="mt-3" md={6}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <i className="fa fa-user text-dark "></i>
                   <select
-                 style={{width:"95%",border:"none",outline:"none",backgroundColor:"#f6f6f6",height:"50px"}}
-
+                    style={{
+                      width: "95%",
+                      border: "none",
+                      outline: "none",
+                      backgroundColor: "#f6f6f6",
+                      height: "50px",
+                    }}
                   >
                     <option value="volvo">Contact request</option>
                     <option value="saab">Saab</option>
                     <option value="mercedes">Mercedes</option>
                   </select>
                 </div>
+              </Col>
+            </Row>
 
-            </Col>
-           </Row>
-
-           <Row>
-            
-            <Col className="mt-3" md={12}>
-            <div style={{backgroundColor:"#f6f6f6",border:"1px solid lightgray",borderRadius:"12px"}} class="input-container px-3 mt-3">
-
-                   <textarea
-                 style={{width:"100%",border:"none",outline:"none",backgroundColor:"#f6f6f6",height:"100px"}}
-                 type="textarea"
+            <Row>
+              <Col className="mt-3" md={12}>
+                <div
+                  style={{
+                    backgroundColor: "#f6f6f6",
+                    border: "1px solid lightgray",
+                    borderRadius: "12px",
+                  }}
+                  className="input-container px-3 mt-3"
+                >
+                  <textarea
+                    style={{
+                      width: "100%",
+                      border: "none",
+                      outline: "none",
+                      backgroundColor: "#f6f6f6",
+                      height: "100px",
+                    }}
+                    type="textarea"
                     placeholder="message"
                     name="firstname"
                   />
                 </div>
-
-            </Col>
-           </Row>
-           <p style={{fontSize:"12px"}}>Right Time Limited is committed to protecting and respecting your privacy. We use your personal information only to administer your account, to provide the information you request, and for e-mail notifications related to this request.</p>
-           <div style={{fontSize:"12px"}} className="">
-            <input className="mx-3" type="radio"/>
-        I agree to receive dedicated e-mails from Right Time Limited based on this request. 
-
-           </div>
-           <a href="/apply-job" className="  thm-btn cta-two__btn rounded-2">
-                    <span>Send Message </span> 
-                  </a>  
-
-
-
+              </Col>
+            </Row>
+            <p style={{ fontSize: "12px" }}>
+              Right Time Limited is committed to protecting and respecting your
+              privacy. We use your personal information only to administer your
+              account, to provide the information you request, and for e-mail
+              notifications related to this request.
+            </p>
+            <div style={{ fontSize: "12px" }} className="">
+              <input className="mx-3" type="radio" />I agree to receive
+              dedicated e-mails from Right Time Limited based on this request.
+            </div>
+            <a href="/apply-job" className="  thm-btn cta-two__btn rounded-2">
+              <span>Send Message </span>
+            </a>
           </div>
-          <h3 className="header mt-5 pt-5 text-center">OUR ICT-SECURITY & NETWORK PARTNERS</h3>
-          <p className="text-center">In order to be able to offer our customers comprehensive security, network and cloud solutions, we selectively use leading products from selected manufacturers. Our customers benefit from our long-standing cooperation with partners and from the extensive know-how of our certified experts.</p>
+          <h3 className="header mt-5 pt-5 text-center">
+            OUR ICT-SECURITY & NETWORK PARTNERS
+          </h3>
+          <p className="text-center">
+            In order to be able to offer our customers comprehensive security,
+            network and cloud solutions, we selectively use leading products
+            from selected manufacturers. Our customers benefit from our
+            long-standing cooperation with partners and from the extensive
+            know-how of our certified experts.
+          </p>
 
-            <img alt="..." className="img-fluid" src="/assets/images/services/vapt.png" width="100%"/>
+          <img
+            alt="..."
+            className="img-fluid"
+            src="/assets/images/services/vapt.png"
+            width="100%"
+          />
 
-          <div>
-
-          </div>
+          <div></div>
         </div>
       </section>
-     
-   
 
       <br />
       <br />

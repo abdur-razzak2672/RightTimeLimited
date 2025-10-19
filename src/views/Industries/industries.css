@@ -1,22 +1,20 @@
 .wrapper1 {
   height: 500px;
   background-color: var(--cretech-black, #12062c);
-
-     
-  }
-  .wrapper1 li {
-    display: inline-block;
-    overflow: hidden;
-    max-height: 200px;
-  }
-  .wrapper1 img {
-    max-width: 200px;
-  }
-  .wrapper1 .overlay-container {
-    display: block;
-    position: relative;
-  }
-  /* .wrapper .overlay-container::before {
+}
+.wrapper1 li {
+  display: inline-block;
+  overflow: hidden;
+  max-height: 200px;
+}
+.wrapper1 img {
+  max-width: 200px;
+}
+.wrapper1 .overlay-container {
+  display: block;
+  position: relative;
+}
+/* .wrapper .overlay-container::before {
     content: attr(data-overlay-text);
     font: 1em/1.5em "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
@@ -37,53 +35,51 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   } */
-  .wrapper1 .overlay-container:hover::before {
-    opacity: 1;
-    -moz-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    -o-transform: translateY(20px);
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-  .wrapper1 .overlay-container .overlay-img {
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .wrapper1 .overlay-container:hover .overlay-img {
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-
-.img-grid li img{
-    margin: 10px;
-    height: 50%;
-    object-fit: cover;
-    object-position: center;
+.wrapper1 .overlay-container:hover::before {
+  opacity: 1;
+  -moz-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  -o-transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
 }
-.img-grid{
+.wrapper1 .overlay-container .overlay-img {
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.wrapper1 .overlay-container:hover .overlay-img {
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.img-grid li img {
+  margin: 10px;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.img-grid {
   padding-left: 50px;
   padding-right: 50px;
 }
-.img-grid li a{
+.img-grid li a {
   margin-top: 10px;
-  
- 
 }
 
-.cardHieght li{
+.cardHieght li {
   height: 30vh;
 }
 
-.cardHieght1 li{
+.cardHieght1 li {
   height: 20vh;
 }

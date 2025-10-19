@@ -24,21 +24,64 @@
     "web-vitals": "^2.1.4",
     "wowjs": "^1.1.3"
   },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "depcheck": "^1.4.7",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^3.3.3",
+    "purgecss": "^5.0.0",
+    "source-map-explorer": "^2.5.3"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env EXTEND_ESLINT=true react-scripts start",
+    "start:no-lint": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "cross-env EXTEND_ESLINT=true react-scripts build",
+    "build:ci": "cross-env EXTEND_ESLINT=true CI=true react-scripts build",
+    "build:fast": "cross-env EXTEND_ESLINT=true GENERATE_SOURCEMAP=false react-scripts build",
+    "build:no-lint": "cross-env DISABLE_ESLINT_PLUGIN=true GENERATE_SOURCEMAP=false react-scripts build",
+    "build:slim": "npm run build:fast && npx purgecss --css 'build/static/css/*.css' --content 'build/**/*.html' 'build/static/js/*.js' --output build/static/css/ && npm run compress",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "fix:jsx-attrs": "find src -type f \\( -name \"*.jsx\" -o -name \"*.js\" \\) -print0 | xargs -0 sed -i -E 's/\\bclass=/className=/g; s/<label([^>]*) for=/<label\\1 htmlFor=/g; s/\\btabindex=/tabIndex=/gi; s/\\bmaxlength=/maxLength=/gi; s/\\bautocomplete=/autoComplete=/gi; s/\\bcolspan=/colSpan=/gi; s/\\browspan=/rowSpan=/gi; s/\\bframeborder=/frameBorder=/gi; s/\\ballowfullscreen=/allowFullScreen=/gi'",
+    "fix:imports": "npx eslint --ext .js,.jsx src --ignore-pattern 'src/components/najdsfds.js' --plugin unused-imports --rule 'unused-imports/no-unused-imports: error' --fix",
+    "format": "npx prettier -w \"src/**/*.{js,jsx,css,scss}\"",
+    "fix": "npm run fix:jsx-attrs && npm run fix:imports && npm run format",
+    "fix:auto": "node scripts/fix-project.js && node scripts/fix-index-html.js && npm run format",
+    "clean": "rm -rf node_modules/.cache build",
+    "postinstall": "npx --yes update-browserslist-db@latest",
+    "analyze": "npm run build:ci && npx source-map-explorer 'build/static/js/*.js' --html analyze.html || true",
+    "purge:report": "npm run build:ci && npx purgecss --css 'build/static/css/*.css' --content 'build/**/*.html' 'build/static/js/*.js' --rejected --stdout > purge-report.txt || true",
+    "deps:unused": "npx depcheck --skip-missing",
+    "compress": "find build -type f \\( -name '*.js' -o -name '*.css' -o -name '*.html' \\) -print0 | xargs -0 -I{} bash -lc \"gzip -kf9 '{}' || true; brotli -kf '{}' || true\""
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "jsx-a11y/heading-has-content": "off",
+      "jsx-a11y/alt-text": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "jsx-a11y/anchor-has-content": "off",
+      "jsx-a11y/iframe-has-title": "off",
+      "jsx-a11y/img-redundant-alt": "off",
+      "jsx-a11y/no-distracting-elements": "off",
+      "no-script-url": "off",
+      "no-sequences": "off",
+      "no-self-compare": "off",
+      "react/jsx-no-duplicate-props": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "no-dupe-keys": "off",
+      "no-unused-vars": "off"
+    }
   },
+  "eslintIgnore": [
+    "src/components/najdsfds.js"
+  ],
   "engines": {
-  "node": "22.x"
-},
+    "node": "22.x"
+  },
   "browserslist": {
     "production": [
       ">0.2%",

@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
-import SeviceCommon from '../Services/SeviceCommon'
-import { Carousel } from 'react-bootstrap'
-import Partner from '../../components/Partner'
-import { data } from './ManagedServiceData'
-import BenitsConpany from '../Services/ServicesBody/BenitsConpany'
+import SeviceCommon from "../Services/SeviceCommon";
+import { Carousel } from "react-bootstrap";
+import Partner from "../../components/Partner";
+import { data } from "./ManagedServiceData";
+import BenitsConpany from "../Services/ServicesBody/BenitsConpany";
 
 function ManagedServiceBody() {
   const [description, setDescription] = useState("");
   useEffect(() => {
     const updateDescription = () => {
-      const storedDescription = localStorage.getItem("serviceDescription") || "";
+      const storedDescription =
+        localStorage.getItem("serviceDescription") || "";
       setDescription(storedDescription);
     };
 
@@ -20,7 +21,10 @@ function ManagedServiceBody() {
     window.addEventListener("serviceDescriptionChanged", updateDescription);
 
     return () => {
-      window.removeEventListener("serviceDescriptionChanged", updateDescription);
+      window.removeEventListener(
+        "serviceDescriptionChanged",
+        updateDescription,
+      );
     };
   }, []);
   return (
@@ -28,64 +32,94 @@ function ManagedServiceBody() {
       <div>
         <div>
           <div className="page-header">
-            <div className="page-header__bg"
-              style={{ backgroundImage: `url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZSUyMHJldmlld3xlbnwwfHwwfHw%3D&w=1000&q=80'')` }}></div>
+            <div
+              className="page-header__bg"
+              style={{
+                backgroundImage: `url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZSUyMHJldmlld3xlbnwwfHwwfHw%3D&w=1000&q=80'')`,
+              }}
+            ></div>
             <div className="container">
               <ul className="thm-breadcrumb list-unstyled">
-                <li><a href="{{ url('/') }}">Home</a></li>
-                <li><a href="{{ url('/services') }}">Services</a></li>
+                <li>
+                  <a href="{{ url('/') }}">Home</a>
+                </li>
+                <li>
+                  <a href="{{ url('/services') }}">Services</a>
+                </li>
                 <li> Managed Services</li>
               </ul>
               <h2 className="page-header__title"> Managed Services</h2>
             </div>
           </div>
-          
+
           <section id="header" className="section-padding--bottom pt-5 ">
             <div className="container">
               <div className="section-title">
-
-                <p className='text-dark text-justify'> {description}</p>
+                <p className="text-dark text-justify"> {description}</p>
 
                 <section className="section-padding--bottom mt-3 ">
                   <BenitsConpany />
                 </section>
 
                 <div className="row">
-
-                  {
-                    data?.map((item, index) => (
-
-                      <div key={index} className="col-md-4 mt-4">
-                        <a href={`${item?.url}`} style={{ backgroundColor: "#011936", color: "#ffff" }} className="card">
-                          <div className="card-body">
-                            <h5 style={{ color: "#0cb8e6" }} className="card-title">   {item?.title} </h5>
-                            <p className="card-text"> <i style={{ color: "#f58220" }} class="fa fa-check-square" aria-hidden="true"></i> TurnKey 24x7 Eyes-on-screen-SOC</p>
-                            <p className="card-text"> <i style={{ color: "#f58220" }} class="fa fa-check-square" aria-hidden="true"></i> 24x7 Security Monitoring and Alerting  </p>
-                            <p className="card-text"> <i style={{ color: "#f58220" }} class="fa fa-check-square" aria-hidden="true"></i> Out-of-the-box support for 300+ log sources</p>
-                          </div>
-                        </a>
-
-
-                      </div>
-
-
-                    ))
-                  }
-
-
-
+                  {data?.map((item, index) => (
+                    <div key={index} className="col-md-4 mt-4">
+                      <a
+                        href={`${item?.url}`}
+                        style={{ backgroundColor: "#011936", color: "#ffff" }}
+                        className="card"
+                      >
+                        <div className="card-body">
+                          <h5
+                            style={{ color: "#0cb8e6" }}
+                            className="card-title"
+                          >
+                            {" "}
+                            {item?.title}{" "}
+                          </h5>
+                          <p className="card-text">
+                            {" "}
+                            <i
+                              style={{ color: "#f58220" }}
+                              className="fa fa-check-square"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            TurnKey 24x7 Eyes-on-screen-SOC
+                          </p>
+                          <p className="card-text">
+                            {" "}
+                            <i
+                              style={{ color: "#f58220" }}
+                              className="fa fa-check-square"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            24x7 Security Monitoring and Alerting{" "}
+                          </p>
+                          <p className="card-text">
+                            {" "}
+                            <i
+                              style={{ color: "#f58220" }}
+                              className="fa fa-check-square"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Out-of-the-box support for 300+ log sources
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  ))}
                 </div>
 
-                <div style={{ backgroundColor: "#e7705c" }} className='mt-5 '>
+                <div style={{ backgroundColor: "#e7705c" }} className="mt-5 ">
                   <div className="row">
                     <div className="col-md-6">
-                      <h1 className='header p-5'>
+                      <h1 className="header p-5">
                         Why 24X7 SOC Monitoring is Essential?
                       </h1>
                     </div>
 
                     <div className="col-md-6">
-                      <div className='d-flex justify-content-center '>
+                      <div className="d-flex justify-content-center ">
                         <div style={{ width: "100%" }}>
                           <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -96,7 +130,11 @@ function ManagedServiceBody() {
                               />
                               <Carousel.Caption>
                                 <h3>Secure Configuration</h3>
-                                <p>Apply security patches and ensure the secure configuration of all systems is maintained. </p>
+                                <p>
+                                  Apply security patches and ensure the secure
+                                  configuration of all systems is
+                                  maintained.{" "}
+                                </p>
                               </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item interval={500}>
@@ -107,7 +145,11 @@ function ManagedServiceBody() {
                               />
                               <Carousel.Caption>
                                 <h3>User Education and Awareness</h3>
-                                <p>roduce user security policies covering acceptable and secure use of your systems.  </p>
+                                <p>
+                                  roduce user security policies covering
+                                  acceptable and secure use of your
+                                  systems.{" "}
+                                </p>
                               </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -119,116 +161,160 @@ function ManagedServiceBody() {
                               <Carousel.Caption>
                                 <h3>Manage User Privileges</h3>
                                 <p>
-                                  Establish effective management processes and limit the number of privileged accounts.        </p>
+                                  Establish effective management processes and
+                                  limit the number of privileged accounts.{" "}
+                                </p>
                               </Carousel.Caption>
                             </Carousel.Item>
                           </Carousel>
-
                         </div>
-
                       </div>
                     </div>
                   </div>
-
                 </div>
-
-
 
                 <div className="row mt-5">
-                  <h5 className='text-center'>What We Do</h5>
-                  <p className='text-center'>At Right Time, we have in-house expertise in every industry-leading security vendor product available in the market. Our Services are tremendously cost-effective, providing industry-leading quality at the most affordable prices for 24/7 SOC security monitoring for every business - BIG OR SMALL.</p>
+                  <h5 className="text-center">What We Do</h5>
+                  <p className="text-center">
+                    At Right Time, we have in-house expertise in every
+                    industry-leading security vendor product available in the
+                    market. Our Services are tremendously cost-effective,
+                    providing industry-leading quality at the most affordable
+                    prices for 24/7 SOC security monitoring for every business -
+                    BIG OR SMALL.
+                  </p>
                   <div className="col-md-3 mt-4">
-                    <div style={{ backgroundColor: "#011936", color: "#ffff" }} className="card">
+                    <div
+                      style={{ backgroundColor: "#011936", color: "#ffff" }}
+                      className="card"
+                    >
                       <div className="card-body">
-                        <div class="icon"><i class="fa fa-eye" aria-hidden="true"></i></div>
-                        <h6 style={{ color: "#0cb8e6" }} className="card-title text-center"> 24x7 Security Monitoring.</h6>
-                        <p className='text-center'>Our Expert analysts monitor your environment 24x7 and identify threats</p>
-
+                        <div className="icon">
+                          <i className="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                        <h6
+                          style={{ color: "#0cb8e6" }}
+                          className="card-title text-center"
+                        >
+                          {" "}
+                          24x7 Security Monitoring.
+                        </h6>
+                        <p className="text-center">
+                          Our Expert analysts monitor your environment 24x7 and
+                          identify threats
+                        </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="col-md-3 mt-4">
-                    <div style={{ backgroundColor: "#011936", color: "#ffff" }} className="card">
+                    <div
+                      style={{ backgroundColor: "#011936", color: "#ffff" }}
+                      className="card"
+                    >
                       <div className="card-body">
-                        <div class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
-                        <h6 style={{ color: "#0cb8e6" }} className="card-title text-center"> 24x7 Security Monitoring.</h6>
-                        <p className='text-center'>Our Expert analysts monitor your environment 24x7 and identify threats</p>
-
+                        <div className="icon">
+                          <i
+                            className="fa fa-question-circle"
+                            aria-hidden="true"
+                          ></i>
+                        </div>
+                        <h6
+                          style={{ color: "#0cb8e6" }}
+                          className="card-title text-center"
+                        >
+                          {" "}
+                          24x7 Security Monitoring.
+                        </h6>
+                        <p className="text-center">
+                          Our Expert analysts monitor your environment 24x7 and
+                          identify threats
+                        </p>
                       </div>
                     </div>
                   </div>
-
-
-
-
-
 
                   <div className="col-md-3 mt-4">
-                    <div style={{ backgroundColor: "#011936", color: "#ffff" }} className="card">
+                    <div
+                      style={{ backgroundColor: "#011936", color: "#ffff" }}
+                      className="card"
+                    >
                       <div className="card-body">
-                        <div class="icon"><i class="fa fa-bug" aria-hidden="true"></i></div>
-                        <h6 style={{ color: "#0cb8e6" }} className="card-title text-center"> Threat Hunting.</h6>
-                        <p className='text-center'>Our Expert team proactively hunt for malicious activity in your environment</p>
-
+                        <div className="icon">
+                          <i className="fa fa-bug" aria-hidden="true"></i>
+                        </div>
+                        <h6
+                          style={{ color: "#0cb8e6" }}
+                          className="card-title text-center"
+                        >
+                          {" "}
+                          Threat Hunting.
+                        </h6>
+                        <p className="text-center">
+                          Our Expert team proactively hunt for malicious
+                          activity in your environment
+                        </p>
                       </div>
                     </div>
                   </div>
-
 
                   <div className="col-md-3 mt-4">
-                    <div style={{ backgroundColor: "#011936", color: "#ffff" }} className="card">
+                    <div
+                      style={{ backgroundColor: "#011936", color: "#ffff" }}
+                      className="card"
+                    >
                       <div className="card-body">
-                        <div class="icon"><i class="fa fa-shield-alt" aria-hidden="true"></i></div>
-                        <h6 style={{ color: "#0cb8e6" }} className="card-title text-center">Remediation</h6>
-                        <p className='text-center'>We help you respond and recover from the cyberattacks</p>
-
+                        <div className="icon">
+                          <i
+                            className="fa fa-shield-alt"
+                            aria-hidden="true"
+                          ></i>
+                        </div>
+                        <h6
+                          style={{ color: "#0cb8e6" }}
+                          className="card-title text-center"
+                        >
+                          Remediation
+                        </h6>
+                        <p className="text-center">
+                          We help you respond and recover from the cyberattacks
+                        </p>
                       </div>
                     </div>
                   </div>
-
                 </div>
-
 
                 <Partner />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <div className="row mt-5">
                   <div className="col-md-7">
-                    <p className="">Web application security testing as per the OWASP Top 10 list, helps to identify many unattended issues related to programming, file access and configuration etc which may turn out to be vulnerabilities, causing a potential impact on the organization.
-
-                      Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources.</p>
-                    <p>Web application security testing as per the OWASP Top 10 list, helps to identify many unattended issues related to programming, file access and configuration etc which may turn out to be vulnerabilities, causing a potential impact on the organization.
-
-                      Regular assessments as such help safeguard the application from any unauthorized access which can cause an impact on the organization both in reputation and resources.</p>
-
+                    <p className="">
+                      Web application security testing as per the OWASP Top 10
+                      list, helps to identify many unattended issues related to
+                      programming, file access and configuration etc which may
+                      turn out to be vulnerabilities, causing a potential impact
+                      on the organization. Regular assessments as such help
+                      safeguard the application from any unauthorized access
+                      which can cause an impact on the organization both in
+                      reputation and resources.
+                    </p>
+                    <p>
+                      Web application security testing as per the OWASP Top 10
+                      list, helps to identify many unattended issues related to
+                      programming, file access and configuration etc which may
+                      turn out to be vulnerabilities, causing a potential impact
+                      on the organization. Regular assessments as such help
+                      safeguard the application from any unauthorized access
+                      which can cause an impact on the organization both in
+                      reputation and resources.
+                    </p>
                   </div>
                   <div className="col-md-5">
-                    <img className="w-100" src="/assets/images/services/CMMI.png" alt="" />
-
+                    <img
+                      className="w-100"
+                      src="/assets/images/services/CMMI.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -237,12 +323,9 @@ function ManagedServiceBody() {
 
           <SeviceCommon />
         </div>
-
       </div>
-
     </div>
-  )
+  );
 }
 
-
-export default ManagedServiceBody
+export default ManagedServiceBody;

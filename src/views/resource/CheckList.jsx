@@ -1,15 +1,13 @@
-import React from 'react'
-import Allpage from '../../components/all-page/Allpage'
+import React from "react";
 
 function CheckList() {
-
   const htmlString = `
   <div style="box-sizing: border-box; position: relative;   min-height: 1px; padding-right: 15px; padding-left: 15px; flex: 0 0 100%; max-width: 100%; float: left !important; color: rgb(0, 0, 0);" id="isPasted">
 	<main style="box-sizing: border-box; display: block;">
 		<article style="box-sizing: border-box; display: block;">
 			<div style="box-sizing: border-box; display: flex; flex-wrap: wrap; border-radius: 7px; box-shadow: rgba(34, 34, 34, 0.14) 0px 2px 29px; background-color: rgb(255, 255, 255);">
 				<div style="box-sizing: border-box; position: relative; display: inline-block; border-radius: 7px 7px 0px 0px; overflow: hidden;">
-					<div style="box-sizing: border-box; position: relative; overflow: hidden;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-980x580.webp" alt="The Ultimate Cybersecurity Audit Checklist" srcset="https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-980x580.webp 980w, https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-768x455.webp 768w, https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-1536x909.webp 1536w, https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-scaled.webp 2048w" style="box-sizing: border-box; border-style: none; width: 858px; max-width: 100%; height: auto; transition: 10s;" class="fr-fic fr-dii"></div></div>
+					<div style="box-sizing: border-box; position: relative; overflow: hidden;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-980x580.webp" alt="The Ultimate Cybersecurity Audit Checklist" srcset="https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-980x580.webp 980w, https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-768x455.webp 768w, https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-1536x909.webp 1536w, https://ascendantusa.com/wp-content/uploads/2023/06/The-Ultimate-Cybersecurity-Audit-Checklist-scaled.webp 2048w" style="box-sizing: border-box; border-style: none; width: 858px; max-width: 100%; height: auto; transition: 10s;" className="fr-fic fr-dii"></div></div>
 				<div style="box-sizing: border-box; padding: 27px 33px 46px; width: 858px; position: relative; border-radius: 0px 0px 7px 7px;">
 
 					<ul style="box-sizing: border-box; margin: 0px 0px 23px; padding: 0px 0px 15px; display: flex; flex-wrap: wrap; align-items: center; border-bottom: 1px solid rgb(236, 236, 240); position: relative;">
@@ -40,7 +38,7 @@ function CheckList() {
 
 						<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 28px;">Security controls, security teams and the organization&rsquo;s security posture should be rigorously evaluated when conducting a comprehensive cybersecurity audit. Doing so can help identify potential vulnerabilities which need to be addressed in order to reinforce your organization&rsquo;s safety against cyber criminals or unauthorized access of digital assets. It is also necessary for organizations to adhere to regulatory requirements such as GDPR, CCPA and <a href="https://ascendantusa.com/service/hipaa-compliant-it-services/" style="box-sizing: border-box; color: rgb(7, 105, 191); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none;">HIPAA</a> while carrying out an assessment on potential threats posed by outside parties. All these components are essential aspects that must be considered during audits if you wish to safeguard yourself from malicious activities online.</p>
 
-						<h3 style="box-sizing: border-box; margin: 0px 0px 23px; font-family: Poppins, sans-serif; font-weight: 500; line-height: 1.25; color: rgb(0, 0, 0); font-size: 24px; clear: both;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-scaled.webp" alt="Creating a Comprehensive Cybersecurity Audit Checklist 1. Assessing Your Organization's Assets 2. Identifying Potential Threats and Vulnerabilities 3. Implementing Effective Security Controls" width="2048" height="1148" srcset="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-scaled.webp 2048w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-768x431.webp 768w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1536x861.webp 1536w" sizes="(max-width: 2048px) 100vw, 2048px" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; clear: both;" class="fr-fil fr-dib"></h3>
+						<h3 style="box-sizing: border-box; margin: 0px 0px 23px; font-family: Poppins, sans-serif; font-weight: 500; line-height: 1.25; color: rgb(0, 0, 0); font-size: 24px; clear: both;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-scaled.webp" alt="Creating a Comprehensive Cybersecurity Audit Checklist 1. Assessing Your Organization's Assets 2. Identifying Potential Threats and Vulnerabilities 3. Implementing Effective Security Controls" width="2048" height="1148" srcset="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-scaled.webp 2048w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-768x431.webp 768w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1536x861.webp 1536w" sizes="(max-width: 2048px) 100vw, 2048px" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; clear: both;" className="fr-fil fr-dib"></h3>
 
 						<h3 style="box-sizing: border-box; margin: 0px 0px 23px; font-family: Poppins, sans-serif; font-weight: 500; line-height: 1.25; color: rgb(0, 0, 0); font-size: 24px; clear: both;">Assessing Your Organization&rsquo;s Assets</h3>
 
@@ -122,7 +120,7 @@ function CheckList() {
 
 						<h3 style="box-sizing: border-box; margin: 0px 0px 23px; font-family: Poppins, sans-serif; font-weight: 500; line-height: 1.25; color: rgb(0, 0, 0); font-size: 24px; clear: both;">Incident Response Planning</h3>
 
-						<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 28px;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1-scaled.webp" alt="Having an efficient incident response plan is a must for any organization's cybersecurity strategy. This comprehensive system should incorporate protocol-driven communication, escalation procedures and the creation of a committed response team. Doing so can lessen the effects of malicious activity on your data and resources while helping to ensure fast recovery times. " width="2048" height="1148" srcset="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1-scaled.webp 2048w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1-768x431.webp 768w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1-1536x861.webp 1536w" sizes="(max-width: 2048px) 100vw, 2048px" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; clear: both;" class="fr-fil fr-dib"></p>
+						<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 28px;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1-scaled.webp" alt="Having an efficient incident response plan is a must for any organization's cybersecurity strategy. This comprehensive system should incorporate protocol-driven communication, escalation procedures and the creation of a committed response team. Doing so can lessen the effects of malicious activity on your data and resources while helping to ensure fast recovery times. " width="2048" height="1148" srcset="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1-scaled.webp 2048w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1-768x431.webp 768w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-1-1536x861.webp 1536w" sizes="(max-width: 2048px) 100vw, 2048px" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; clear: both;" className="fr-fil fr-dib"></p>
 
 						<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 28px;">Having an efficient incident response plan is a must for any organization&rsquo;s cybersecurity strategy. This comprehensive system should incorporate protocol-driven communication, escalation procedures and the creation of a committed response team. Doing so can lessen the effects of malicious activity on your data and resources while helping to ensure fast recovery times. To make sure that everyone remains up-to-date with best security practices, regular reviews and checks are highly recommended in order to keep appropriate levels of safety established.</p>
 
@@ -181,7 +179,7 @@ function CheckList() {
 						<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 28px;">Completing a comprehensive cybersecurity audit checklist is key for organizations aiming to safeguard their digital assets from ever-evolving cyber threats. By adhering to industry regulations and best practices outlined in this blog post, companies can guarantee they are achieving an optimal level of protection. Ultimately the goal of such an audit is not only uncovering potential weaknesses but ensure that every business has adequate defenses against emerging cyber dangers.</p>
 
 						<h2 style="box-sizing: border-box; margin: 0px 0px 23px; font-family: Poppins, sans-serif; font-weight: 500; line-height: 1.25; color: rgb(0, 0, 0); font-size: 36px; clear: both;">
-							<a href="https://ascendantusa.com/2023/06/26/cybersecurity-audit-checklist/#popupform" style="box-sizing: border-box; color: rgb(7, 105, 191); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-2-scaled.webp" alt="Choose Ascendant for a Cybersecurity Audit Today " width="2048" height="1148" srcset="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-2-scaled.webp 2048w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-2-768x431.webp 768w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-2-1536x861.webp 1536w" sizes="auto, (max-width: 2048px) 100vw, 2048px" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; clear: both; contain-intrinsic-size: 3000px 1500px;" class="fr-fil fr-dib"></a>Frequently Asked Questions</h2>
+							<a href="https://ascendantusa.com/2023/06/26/cybersecurity-audit-checklist/#popupform" style="box-sizing: border-box; color: rgb(7, 105, 191); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-2-scaled.webp" alt="Choose Ascendant for a Cybersecurity Audit Today " width="2048" height="1148" srcset="https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-2-scaled.webp 2048w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-2-768x431.webp 768w, https://ascendantusa.com/wp-content/uploads/2023/06/Cybersecurity-Audit-Checklist-2-1536x861.webp 1536w" sizes="auto, (max-width: 2048px) 100vw, 2048px" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; clear: both; contain-intrinsic-size: 3000px 1500px;" className="fr-fil fr-dib"></a>Frequently Asked Questions</h2>
 
 						<h3 style="box-sizing: border-box; margin: 0px 0px 23px; font-family: Poppins, sans-serif; font-weight: 500; line-height: 1.25; color: rgb(0, 0, 0); font-size: 24px; clear: both;">How do you conduct a cybersecurity audit?</h3>
 
@@ -229,10 +227,9 @@ function CheckList() {
 </aside>
 
    
-   `
+   `;
 
-
-   const leftStrinf = `
+  const leftStrinf = `
    <section style='box-sizing: border-box; display: block; margin-bottom: 44px; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Muli, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;' id="isPasted">
 	<div style="box-sizing: border-box;">
 
@@ -258,17 +255,17 @@ function CheckList() {
 
 						<ul style="box-sizing: border-box; margin: 0px; padding: 0px; list-style: none; position: relative; height: 192.375px;">
 							<li style="box-sizing: border-box; list-style: none; z-index: 2; background-image: none; margin: 0px 1px 1px 0px; padding: 0px; width: 95.1875px; float: left; max-width: 100%; position: absolute; left: 0px; top: 0px;">
-								<a href="https://ascendantusa.com/wp-content/uploads/2018/12/blog1-1.jpg" data-lightbox="lightbox[rel-6614-673472866]" style="box-sizing: border-box; color: rgb(7, 105, 191); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none; display: block; margin-bottom: 10px; padding: 0px 5px;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2018/12/blog1-1-580x580.jpg" width="580" height="580" alt="group of people smiling around laptop" title="blog1" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; border-radius: 0px;" class="fr-fil fr-dib"></a></li>
+								<a href="https://ascendantusa.com/wp-content/uploads/2018/12/blog1-1.jpg" data-lightbox="lightbox[rel-6614-673472866]" style="box-sizing: border-box; color: rgb(7, 105, 191); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none; display: block; margin-bottom: 10px; padding: 0px 5px;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2018/12/blog1-1-580x580.jpg" width="580" height="580" alt="group of people smiling around laptop" title="blog1" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; border-radius: 0px;" className="fr-fil fr-dib"></a></li>
 							<li style="box-sizing: border-box; list-style: none; z-index: 2; background-image: none; margin: 0px 1px 1px 0px; padding: 0px; width: 95.1875px; float: left; max-width: 100%; position: absolute; left: 96.1875px; top: 0px;">
-								<a href="https://ascendantusa.com/wp-content/uploads/2018/12/blog2-1.jpg" data-lightbox="lightbox[rel-6614-673472866]" style="box-sizing: border-box; color: rgb(7, 105, 191); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none; display: block; margin-bottom: 10px; padding: 0px 5px;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2018/12/blog2-1-580x580.jpg" width="580" height="580" alt="two people shaking hands" title="blog2" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; border-radius: 0px;" class="fr-fil fr-dib"></a></li>
+								<a href="https://ascendantusa.com/wp-content/uploads/2018/12/blog2-1.jpg" data-lightbox="lightbox[rel-6614-673472866]" style="box-sizing: border-box; color: rgb(7, 105, 191); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none; display: block; margin-bottom: 10px; padding: 0px 5px;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2018/12/blog2-1-580x580.jpg" width="580" height="580" alt="two people shaking hands" title="blog2" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; border-radius: 0px;" className="fr-fil fr-dib"></a></li>
 							<li style="box-sizing: border-box; list-style: none; z-index: 2; background-image: none; margin: 0px 1px 1px 0px; padding: 0px; width: 95.1875px; float: left; max-width: 100%; position: absolute; left: 192.375px; top: 0px;">
 								<a href="https://ascendantusa.com/2023/06/26/cybersecurity-audit-checklist/" data-lightbox="lightbox[rel-6614-673472866]" style="box-sizing: border-box; color: rgb(7, 105, 191); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none; display: block; margin-bottom: 10px; padding: 0px 5px;"></a></li>
 							<li style="box-sizing: border-box; list-style: none; z-index: 2; background-image: none; margin: 0px 1px 1px 0px; padding: 0px; width: 95.1875px; float: left; max-width: 100%; position: absolute; left: 0px; top: 96.1875px;">
-								<a href="https://ascendantusa.com/wp-content/uploads/2018/12/blog4-1.jpg" data-lightbox="lightbox[rel-6614-673472866]" style="box-sizing: border-box; color: rgb(13, 30, 0); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none; display: block; margin-bottom: 10px; padding: 0px 5px;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2018/12/blog4-1-580x580.jpg" width="580" height="580" alt="group of people looking at computer screen" title="blog4" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; border-radius: 0px;" class="fr-fil fr-dib"></a></li>
+								<a href="https://ascendantusa.com/wp-content/uploads/2018/12/blog4-1.jpg" data-lightbox="lightbox[rel-6614-673472866]" style="box-sizing: border-box; color: rgb(13, 30, 0); text-decoration: none; background-color: transparent; touch-action: manipulation; transition: 300ms linear; outline: none; display: block; margin-bottom: 10px; padding: 0px 5px;"><img data-fr-image-pasted="true" src="https://ascendantusa.com/wp-content/uploads/2018/12/blog4-1-580x580.jpg" width="580" height="580" alt="group of people looking at computer screen" title="blog4" style="box-sizing: border-box; border-style: none; width: auto; max-width: 100%; height: auto; border-radius: 0px;" className="fr-fil fr-dib"></a></li>
 						</ul>
 					</div></div></div></div></div>
 </section>
-`
+`;
 
   return (
     <div>
@@ -286,45 +283,38 @@ function CheckList() {
           </ul>
           <h2 className="page-header__title">Check Lists</h2>
         </div>
-
       </div>
-
       <section>
         <div className="container mt-5">
           <h2 className="text-center header">Check Lists</h2>
-          <p className='text-dark'> Right Time Limited's checklists offer handy resources to help organizations assess and ensure compliance with security standards, best practices, and regulatory requirements. These checklists provide step-by-step guidance and serve as practical tools for organizations to enhance their security posture and identify potential vulnerabilities.
+          <p className="text-dark">
+            {" "}
+            Right Time Limited's checklists offer handy resources to help
+            organizations assess and ensure compliance with security standards,
+            best practices, and regulatory requirements. These checklists
+            provide step-by-step guidance and serve as practical tools for
+            organizations to enhance their security posture and identify
+            potential vulnerabilities.
           </p>
 
-           <div className='row'>
-            <div className='col-md-9'>
-              <div
-            dangerouslySetInnerHTML={{ __html: htmlString }}
-           />
-          </div>
-
-          <div className='col-md-3'>
-             <div
-            dangerouslySetInnerHTML={{ __html: leftStrinf }}
-           />
-
-          </div>
-
-
+          <div className="row">
+            <div className="col-md-9">
+              <div dangerouslySetInnerHTML={{ __html: htmlString }} />
             </div>
-           </div>
 
-
-
-
-
+            <div className="col-md-3">
+              <div dangerouslySetInnerHTML={{ __html: leftStrinf }} />
+            </div>
+          </div>
+        </div>
       </section>
-
-
-
-
-
-      <br /><br /><br /><br /><br /> </div>
-  )
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />{" "}
+    </div>
+  );
 }
- 
-export default CheckList
+
+export default CheckList;

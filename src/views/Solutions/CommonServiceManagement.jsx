@@ -1,52 +1,49 @@
-import React,{useEffect,useState} from 'react'
-import Link from 'react-router-dom/Link'
-import { solutionData2 } from './solutionData'
+import React, { useEffect, useState } from "react";
+import Link from "react-router-dom/Link";
+import { solutionData2 } from "./solutionData";
 
 function CommonSecuirityManageMent() {
   const [pageUrl, setPageUrl] = useState("");
 
   useEffect(() => {
-   const url = window.location.pathname;
-   const lastPart = url.substring(url.lastIndexOf("/") + 1);
-   setPageUrl(lastPart);
+    const url = window.location.pathname;
+    const lastPart = url.substring(url.lastIndexOf("/") + 1);
+    setPageUrl(lastPart);
   }, []);
-   return (
-    <div className='mt-5'>
-   <div className='d-flex justify-content-between'>
- <div style={{width:"220px"}} className=' servicesItem1'>
-           <Link to="/secuirity-assessment" style={{height:"120px"}}>
-           Security Assessment (VA & PT) Tools
-           </Link>
-           </div>
-           <div style={{width:"220px"}} className=' servicesItem1  '>
-
-           <Link to="/secuirity-management" style={{height:"120px",backgroundColor:"#540859",color:"white"}}>
-           Cyber Security Management & Visibility solutions
-           </Link>
-
+  return (
+    <div className="mt-5">
+      <div className="d-flex justify-content-between">
+        <div style={{ width: "220px" }} className=" servicesItem1">
+          <Link to="/secuirity-assessment" style={{ height: "120px" }}>
+            Security Assessment (VA & PT) Tools
+          </Link>
         </div>
-   </div>
-       
+        <div style={{ width: "220px" }} className=" servicesItem1  ">
+          <Link
+            to="/secuirity-management"
+            style={{
+              height: "120px",
+              backgroundColor: "#540859",
+              color: "white",
+            }}
+          >
+            Cyber Security Management & Visibility solutions
+          </Link>
+        </div>
+      </div>
 
-
-        {
-            solutionData2.map((item, index) => (
-              <div className={`servicesItem1 ${item.link === `/${pageUrl}` ? "servicesItemActive" : ""}`} key={index}>
-              <Link
-                 className=" "
-                key={index}
-                to= {`${item.link}`}
-              >
-                 {item.title}
-              </Link>
-                </div>
-               
-
-            ))
-        }
-     
+      {solutionData2.map((item, index) => (
+        <div
+          className={`servicesItem1 ${item.link === `/${pageUrl}` ? "servicesItemActive" : ""}`}
+          key={index}
+        >
+          <Link className=" " key={index} to={`${item.link}`}>
+            {item.title}
+          </Link>
+        </div>
+      ))}
     </div>
-  )
+  );
 }
 
-export default CommonSecuirityManageMent
+export default CommonSecuirityManageMent;

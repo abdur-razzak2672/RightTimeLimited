@@ -29,8 +29,9 @@
     padding: 0 10px;
     font-size: 10px;
     text-transform: uppercase;
-    border-bottom: 2px solid #fff;
-    border-top: 2px solid #fff
+    border: #373a3c solid 01px;
+    border-radius: 12px;
+     
 }
 
 #menu .pure-menu-link.menu-icon img {
@@ -39,14 +40,14 @@
 
 #menu .pure-menu-link:hover {
     text-decoration: none;
-    color: #5a9dee;
+    color: #8c8f94;
     border-bottom: none;
+    border : 1px solid #8c8f94;
     background: 0 0
 }
 
 #menu .pure-menu-link.menu-icon:hover {
-    border-bottom: 2px solid #fff !important;
-    background: 0 0 !important
+     background: 0 0 !important
 }
 
 #menu .pure-menu-link.menu-icon svg {
@@ -54,16 +55,14 @@
 }
 
 #menu .pure-menu-link.menu-icon:hover svg {
-    background: #e8e8e8;
-    border-radius: 11px
+     border-radius: 11px
 }
 
 #menu .pure-menu-link.active,
 #menu .pure-menu-link:hover {
     text-decoration: none;
     color: #5a9dee;
-    border-bottom: 2px solid #5a9dee;
-    background: 0 0
+     background: 0 0
 }
 
 .footer {

@@ -1,26 +1,30 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./services.css";
- import BenitsConpany from "./ServicesBody/BenitsConpany";
- import Service from "../../components/Service";
- function ServiceBody() {
-    const [description, setDescription] = useState("");
-useEffect(() => {
-  const updateDescription = () => {
-    const storedDescription = localStorage.getItem("serviceDescription") || "";
-    setDescription(storedDescription);
-  };
+import BenitsConpany from "./ServicesBody/BenitsConpany";
+import Service from "../../components/Service";
+function ServiceBody() {
+  const [description, setDescription] = useState("");
+  useEffect(() => {
+    const updateDescription = () => {
+      const storedDescription =
+        localStorage.getItem("serviceDescription") || "";
+      setDescription(storedDescription);
+    };
 
-  // Load initially
-  updateDescription();
+    // Load initially
+    updateDescription();
 
-  window.addEventListener("serviceDescriptionChanged", updateDescription);
+    window.addEventListener("serviceDescriptionChanged", updateDescription);
 
-  return () => {
-    window.removeEventListener("serviceDescriptionChanged", updateDescription);
-  };
-}, []);
+    return () => {
+      window.removeEventListener(
+        "serviceDescriptionChanged",
+        updateDescription,
+      );
+    };
+  }, []);
 
-   return (
+  return (
     <div>
       <div className="page-header">
         <div
@@ -41,27 +45,22 @@ useEffect(() => {
         </div>
       </div>
 
-     
-
       <section
         className="  service-four gray-bg section-padding-lg--bottom section-has-bottom-margin background-repeat-no background-position-top-right"
         style={{
           backgroundImage: `url('/assets/images/shapes/service-four-bg-1-1.png')`,
         }}
       >
-         <div>
-        <div className="container pt-4">
-          <p className="text-dark textJustify"> {description}  </p>
+        <div>
+          <div className="container pt-4">
+            <p className="text-dark textJustify"> {description} </p>
           </div>
-      </div>
+        </div>
         <section className="section-padding--bottom mt-3 ">
           <BenitsConpany />
         </section>
 
-
-        <Service/>
-
-        
+        <Service />
       </section>
       <br />
 
@@ -150,7 +149,6 @@ useEffect(() => {
       </div>
       </div>
       </div> */}
-
 
       <section
         className="section-padding service-four gray-bg section-padding-l--bottom h-25 section-has-bottom-margin background-repeat-no background-position-top-right"
@@ -312,8 +310,14 @@ useEffect(() => {
                   <a href="services-1.html">Quality Service</a>
                 </h3>
 
-                <p style={{height:"230px"}}  className="service-card-two__text textJustify">
-                we prioritize proactive measures, customized solutions, quick response times, compliance, and reputation to ensure your business stays protected from cyber threats.                </p>
+                <p
+                  style={{ height: "230px" }}
+                  className="service-card-two__text textJustify"
+                >
+                  we prioritize proactive measures, customized solutions, quick
+                  response times, compliance, and reputation to ensure your
+                  business stays protected from cyber threats.{" "}
+                </p>
                 <div className="service-card-two__icon">
                   <i className="icon-smart-tv"></i>
                 </div>
@@ -325,8 +329,14 @@ useEffect(() => {
                   <a href="team.html">Expert Team</a>
                 </h3>
 
-                <p style={{height:"230px"}} className="service-card-two__text textJustify">
-                Our expert team brings experience, knowledge, up-to-date information, advanced technology, and tools, and the ability to provide customized solutions, ultimately ensuring our clients' security and peace of mind.
+                <p
+                  style={{ height: "230px" }}
+                  className="service-card-two__text textJustify"
+                >
+                  Our expert team brings experience, knowledge, up-to-date
+                  information, advanced technology, and tools, and the ability
+                  to provide customized solutions, ultimately ensuring our
+                  clients' security and peace of mind.
                 </p>
                 <div className="service-card-two__icon">
                   <i className="icon-link"></i>
@@ -339,8 +349,15 @@ useEffect(() => {
                   <a href="contact.html">Excellent Support</a>
                 </h3>
 
-                <p style={{height:"230px"}} className="service-card-two__text textJustify">
-                It ensures timely assistance, expert guidance, responsive communication, flexibility, and continuous improvement, ultimately providing our clients with the peace of mind they need to focus on their business.                </p>
+                <p
+                  style={{ height: "230px" }}
+                  className="service-card-two__text textJustify"
+                >
+                  It ensures timely assistance, expert guidance, responsive
+                  communication, flexibility, and continuous improvement,
+                  ultimately providing our clients with the peace of mind they
+                  need to focus on their business.{" "}
+                </p>
                 <div className="service-card-two__icon">
                   <i className="icon-technical-support"></i>
                 </div>
@@ -352,8 +369,15 @@ useEffect(() => {
                   <a href="about.html">Sound Management</a>
                 </h3>
 
-                <p style={{height:"230px"}} className="service-card-two__text textJustify">
-                with sound management, we can deliver high-quality security services to our clients, ensuring their satisfaction and building long-term partnerships based on trust and mutual success.                </p>
+                <p
+                  style={{ height: "230px" }}
+                  className="service-card-two__text textJustify"
+                >
+                  with sound management, we can deliver high-quality security
+                  services to our clients, ensuring their satisfaction and
+                  building long-term partnerships based on trust and mutual
+                  success.{" "}
+                </p>
                 <div className="service-card-two__icon">
                   <i className="icon-cctv"></i>
                 </div>

@@ -1,10 +1,8 @@
-import React from 'react'
-import Allpage from '../../../components/all-page/Allpage'
- 
+import React from "react";
+import Allpage from "../../../components/all-page/Allpage";
+
 function EcCouncil() {
-  return (
-    <Allpage data="EcCouncil"/>
-  )
+  return <Allpage data="EcCouncil" />;
 }
 
-export default EcCouncil
+export default EcCouncil;

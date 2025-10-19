@@ -221,7 +221,9 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
               <div className="d-flex mt-1 justify-content-center  ">
                 <Button
                   onClick={() => (
-                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
+                    setTabIndex3(301),
+                    setStyle2("cont"),
+                    setStyle("cont2")
                   )}
                   className={style}
                 >
@@ -229,7 +231,9 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                 </Button>
                 <Button
                   onClick={() => (
-                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
+                    setTabIndex3(302),
+                    setStyle("cont"),
+                    setStyle2("cont2")
                   )}
                   className={style2}
                 >
@@ -242,7 +246,9 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
               <div className="d-flex mt-1 justify-content-center  ">
                 <Button
                   onClick={() => (
-                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
+                    setTabIndex3(301),
+                    setStyle2("cont"),
+                    setStyle("cont2")
                   )}
                   className={style}
                 >
@@ -250,7 +256,9 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                 </Button>
                 <Button
                   onClick={() => (
-                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
+                    setTabIndex3(302),
+                    setStyle("cont"),
+                    setStyle2("cont2")
                   )}
                   className={style2}
                 >
@@ -263,7 +271,9 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
               <div className="d-flex mt-1 justify-content-center  ">
                 <Button
                   onClick={() => (
-                    setTabIndex3(301), setStyle2("cont"), setStyle("cont2")
+                    setTabIndex3(301),
+                    setStyle2("cont"),
+                    setStyle("cont2")
                   )}
                   className={style}
                 >
@@ -271,7 +281,9 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                 </Button>
                 <Button
                   onClick={() => (
-                    setTabIndex3(302), setStyle("cont"), setStyle2("cont2")
+                    setTabIndex3(302),
+                    setStyle("cont"),
+                    setStyle2("cont2")
                   )}
                   className={style2}
                 >
@@ -280,52 +292,42 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
               </div>
             )}
 
-
-
-
             {tabIndex3 === 301 ? (
               <>
                 <OfferPhaseInitial data={pciPhase1} />
               </>
             ) : (
               <OfferRe data={pciPhase1.phase4} />
-
-
             )}
-
-
-
-
-
 
             <Row className="mt-4">
               {/* <Col md={4}>
                 <div className="d-flex justify-content-between">
                   <div>
-                    <div class="demo-body">
-                      <div class="line-wrapper">
-                        <div class="word">PHASE1</div>
+                    <div className="demo-body">
+                      <div className="line-wrapper">
+                        <div className="word">PHASE1</div>
                       </div>
                     </div>
                     <br />
 
-                    <div class="demo-body1">
-                      <div class="line-wrapper1">
-                        <div class="word1">PHASE2</div>
+                    <div className="demo-body1">
+                      <div className="line-wrapper1">
+                        <div className="word1">PHASE2</div>
                       </div>
                     </div>
                     <br />
 
-                    <div class="demo-body2">
-                      <div class="line-wrapper2">
-                        <div class="word2">PHASE3</div>
+                    <div className="demo-body2">
+                      <div className="line-wrapper2">
+                        <div className="word2">PHASE3</div>
                       </div>
                     </div>
                     <br />
 
-                    <div class="demo-body3">
-                      <div class="line-wrapper3">
-                        <div class="word3">PHASE4</div>
+                    <div className="demo-body3">
+                      <div className="line-wrapper3">
+                        <div className="word3">PHASE4</div>
                       </div>
                     </div>
                   </div>
@@ -466,37 +468,37 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
           </div>
         </section>
 
-        <section id="resourse" class=" ">
-          <div class="container">
-            <div class="  text-center">
-              <h2 class="header">Related Updates</h2>
-              <div class="col-md-12 text-center mt-4">
+        <section id="resourse" className=" ">
+          <div className="container">
+            <div className="  text-center">
+              <h2 className="header">Related Updates</h2>
+              <div className="col-md-12 text-center mt-4">
                 <button
                   type="button"
                   onClick={() => setTabIndex1(14)}
-                  class="btn btn-dark m-3"
+                  className="btn btn-dark m-3"
                 >
                   Case Studies
                 </button>
                 <button
                   type="button"
                   onClick={() => setTabIndex1(15)}
-                  class="btn btn-warning m-3"
+                  className="btn btn-warning m-3"
                 >
                   Downloads
                 </button>
                 <button
                   type="button"
                   onClick={() => setTabIndex1(16)}
-                  class="btn btn-success m-3"
+                  className="btn btn-success m-3"
                 >
                   Blogs
                 </button>
               </div>
-              <div class="mt-2">
+              <div className="mt-2">
                 {tabIndex1 === 16 && (
-                  <div class="row mt-5">
-                    <div class="col-md-4 text-center d-flex">
+                  <div className="row mt-5">
+                    <div className="col-md-4 text-center d-flex">
                       <Card>
                         <img
                           className=""
@@ -515,7 +517,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                         </Card.Body>
                       </Card>
                     </div>
-                    <div class="col-md-4 text-center d-flex">
+                    <div className="col-md-4 text-center d-flex">
                       <Card>
                         <img
                           className=""
@@ -534,7 +536,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                         </Card.Body>
                       </Card>
                     </div>
-                    <div class="col-md-4 text-center d-flex">
+                    <div className="col-md-4 text-center d-flex">
                       <Card>
                         <img
                           className=""

@@ -1,11 +1,8 @@
-import React from 'react'
-import Allpage from '../../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../../components/all-page/Allpage";
 
 function Events() {
-  return (
-    <Allpage data="News & events"/>
-
-   )
+  return <Allpage data="News & events" />;
 }
 
-export default Events
+export default Events;

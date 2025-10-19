@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Auditing() {
-  return (
-    <div>Auditing</div>
-  )
+  return <div>Auditing</div>;
 }
 
-export default Auditing
+export default Auditing;

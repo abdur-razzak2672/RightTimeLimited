@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Button, Col, Modal, Row } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Button, Col, Modal, Row } from "react-bootstrap";
 const teamMembers = [
   {
     id: 0,
@@ -37,7 +37,7 @@ const teamMembers = [
     ],
     cardClass: "Deep-Purple",
   },
-  
+
   {
     id: 4,
     name: "Arshad Mahmud",
@@ -76,7 +76,6 @@ const teamMembers = [
   },
 ];
 
-
 function TopManagement() {
   const [selectedMember, setSelectedMember] = useState(null);
 
@@ -87,82 +86,144 @@ function TopManagement() {
     <div>
       <section className="section-padding--top">
         <div className="container">
-          <h3 className="blog-card-one__title blog-details__title text-center" style={{ color: "#17224d" }}>
+          <h3
+            className="blog-card-one__title blog-details__title text-center"
+            style={{ color: "#17224d" }}
+          >
             Top Management
           </h3>
 
           <section style={{ paddingBottom: "80px" }} className="container">
+            {/* Chairman Section - single centered article */}
+            {teamMembers
+              .filter((m) => m.title === "Chairman")
+              .map((chairman) => (
+                <Row
+                  className="d-flex justify-content-center mb-5"
+                  key={chairman.id}
+                >
+                  <Col md={4} sm={6} xs={12}>
+                    <article
+                      className={`material-card mt-5 ${chairman.cardClass}`}
+                    >
+                      <a
+                        onClick={() => handleShow(chairman.id)}
+                        href="#"
+                        role="button"
+                      >
+                        <h2 className="h21 text-light">
+                          <span>{chairman.name}</span>
+                          <strong>
+                            <i className="fa fa-fw fa-star"></i>{" "}
+                            {chairman.title}
+                          </strong>
+                        </h2>
+                      </a>
+                      <div className="mc-content" style={{ height: "320px" }}>
+                        <div className="img-container">
+                          <img
+                            className="img-responsive"
+                            src={chairman.image}
+                            alt={chairman.name}
+                          />
+                        </div>
+                        <div className="mc-description mt-3">
+                          {chairman.title}
+                        </div>
+                      </div>
+                      <a className="mc-btn-action">
+                        <i className="fa fa-bars"></i>
+                      </a>
+                      <div className="mc-footer">
+                        <a
+                          href="/facebook"
+                          className="fab fa-facebook-f"
+                          style={iconStyle("#3b5998")}
+                        ></a>
+                        <a
+                          href="/facebook"
+                          className="fab fa-twitter"
+                          style={iconStyle("#00acee")}
+                        ></a>
+                        <a
+                          href="/facebook"
+                          className="fab fa-linkedin"
+                          style={iconStyle("#0A66C2")}
+                        ></a>
+                        <a
+                          href="/facebook"
+                          className="fab fa-instagram"
+                          style={iconStyle("#e95950")}
+                        ></a>
+                      </div>
+                    </article>
+                  </Col>
+                </Row>
+              ))}
 
-  {/* Chairman Section - single centered article */}
-  {teamMembers.filter(m => m.title === "Chairman").map((chairman) => (
-    <Row className="d-flex justify-content-center mb-5" key={chairman.id}>
-      <Col md={4} sm={6} xs={12}>
-        <article className={`material-card mt-5 ${chairman.cardClass}`}>
-          <a onClick={() => handleShow(chairman.id)} href="#" role="button">
-            <h2 className="h21 text-light">
-              <span>{chairman.name}</span>
-              <strong>
-                <i className="fa fa-fw fa-star"></i> {chairman.title}
-              </strong>
-            </h2>
-          </a>
-          <div className="mc-content" style={{ height: "320px" }}>
-            <div className="img-container">
-              <img className="img-responsive" src={chairman.image} alt={chairman.name} />
-            </div>
-            <div className="mc-description mt-3">{chairman.title}</div>
-          </div>
-          <a className="mc-btn-action">
-            <i className="fa fa-bars"></i>
-          </a>
-          <div className="mc-footer">
-            <a href="/facebook" className="fab fa-facebook-f" style={iconStyle("#3b5998")}></a>
-            <a href="/facebook" className="fab fa-twitter" style={iconStyle("#00acee")}></a>
-            <a href="/facebook" className="fab fa-linkedin" style={iconStyle("#0A66C2")}></a>
-            <a href="/facebook" className="fab fa-instagram" style={iconStyle("#e95950")}></a>
-          </div>
-        </article>
-      </Col>
-    </Row>
-  ))}
-
-  {/* Other Team Members Section */}
-  <Row className="d-flex justify-content-center mb-5">
-    {teamMembers
-      .filter(m => m.title !== "Chairman")
-      .map((member) => (
-        <Col md={4} sm={6} xs={12} key={member.id}>
-          <article className={`material-card mt-5 ${member.cardClass}`}>
-            <a onClick={() => handleShow(member.id)} href="#" role="button">
-              <h2 className="h21 text-light">
-                <span>{member.name}</span>
-                <strong>
-                  <i className="fa fa-fw fa-star"></i> {member.title}
-                </strong>
-              </h2>
-            </a>
-            <div className="mc-content" style={{ height: "320px" }}>
-              <div className="img-container">
-                <img className="img-responsive" src={member.image} alt={member.name} />
-              </div>
-              <div className="mc-description mt-3">{member.title}</div>
-            </div>
-            <a className="mc-btn-action">
-              <i className="fa fa-bars"></i>
-            </a>
-            <div className="mc-footer">
-              <a href="/facebook" className="fab fa-facebook-f" style={iconStyle("#3b5998")}></a>
-              <a href="/facebook" className="fab fa-twitter" style={iconStyle("#00acee")}></a>
-              <a href="/facebook" className="fab fa-linkedin" style={iconStyle("#0A66C2")}></a>
-              <a href="/facebook" className="fab fa-instagram" style={iconStyle("#e95950")}></a>
-            </div>
-          </article>
-        </Col>
-      ))}
-  </Row>
-
-</section>
-
+            {/* Other Team Members Section */}
+            <Row className="d-flex justify-content-center mb-5">
+              {teamMembers
+                .filter((m) => m.title !== "Chairman")
+                .map((member) => (
+                  <Col md={4} sm={6} xs={12} key={member.id}>
+                    <article
+                      className={`material-card mt-5 ${member.cardClass}`}
+                    >
+                      <a
+                        onClick={() => handleShow(member.id)}
+                        href="#"
+                        role="button"
+                      >
+                        <h2 className="h21 text-light">
+                          <span>{member.name}</span>
+                          <strong>
+                            <i className="fa fa-fw fa-star"></i> {member.title}
+                          </strong>
+                        </h2>
+                      </a>
+                      <div className="mc-content" style={{ height: "320px" }}>
+                        <div className="img-container">
+                          <img
+                            className="img-responsive"
+                            src={member.image}
+                            alt={member.name}
+                          />
+                        </div>
+                        <div className="mc-description mt-3">
+                          {member.title}
+                        </div>
+                      </div>
+                      <a className="mc-btn-action">
+                        <i className="fa fa-bars"></i>
+                      </a>
+                      <div className="mc-footer">
+                        <a
+                          href="/facebook"
+                          className="fab fa-facebook-f"
+                          style={iconStyle("#3b5998")}
+                        ></a>
+                        <a
+                          href="/facebook"
+                          className="fab fa-twitter"
+                          style={iconStyle("#00acee")}
+                        ></a>
+                        <a
+                          href="/facebook"
+                          className="fab fa-linkedin"
+                          style={iconStyle("#0A66C2")}
+                        ></a>
+                        <a
+                          href="/facebook"
+                          className="fab fa-instagram"
+                          style={iconStyle("#e95950")}
+                        ></a>
+                      </div>
+                    </article>
+                  </Col>
+                ))}
+            </Row>
+          </section>
         </div>
       </section>
 
@@ -171,36 +232,36 @@ function TopManagement() {
         <Modal size="lg" show onHide={handleClose}>
           <Modal.Header closeButton></Modal.Header>
           <Modal.Body className="rounded-3">
-  <h5 className="teamTitle">{teamMembers[selectedMember].name}</h5>
-  <i style={{ fontSize: "40px" }} className="fab fa-linkedin"></i>
+            <h5 className="teamTitle">{teamMembers[selectedMember].name}</h5>
+            <i style={{ fontSize: "40px" }} className="fab fa-linkedin"></i>
 
-  <div>
-    <img
-      src={teamMembers[selectedMember].image}
-      alt={teamMembers[selectedMember].name}
-      className="img-responsive float-end ms-3 mb-2"
-      style={{
-        width: "200px",
-        maxWidth: "100%",
-        height: "auto",
-        borderRadius: "8px",
-      }}
-    />
+            <div>
+              <img
+                src={teamMembers[selectedMember].image}
+                alt={teamMembers[selectedMember].name}
+                className="img-responsive float-end ms-3 mb-2"
+                style={{
+                  width: "200px",
+                  maxWidth: "100%",
+                  height: "auto",
+                  borderRadius: "8px",
+                }}
+              />
 
-    {teamMembers[selectedMember].description.map((para, idx) => (
-      <p key={idx} className="teamDetails textJustify">
-        {para}
-      </p>
-    ))}
-  </div>
-</Modal.Body>
+              {teamMembers[selectedMember].description.map((para, idx) => (
+                <p key={idx} className="teamDetails textJustify">
+                  {para}
+                </p>
+              ))}
+            </div>
+          </Modal.Body>
 
           <Modal.Footer className="d-flex justify-content-end">
-             <div className="text-end mt-4">
-    <Button variant="secondary px-4" onClick={handleClose}>
-      Back
-    </Button>
-  </div>
+            <div className="text-end mt-4">
+              <Button variant="secondary px-4" onClick={handleClose}>
+                Back
+              </Button>
+            </div>
           </Modal.Footer>
         </Modal>
       )}

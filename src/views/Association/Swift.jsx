@@ -1,10 +1,8 @@
-import React from 'react'
-import Allpage from '../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../components/all-page/Allpage";
 
 function Swift() {
-  return (
-    <Allpage data="SWIFT"/>
-  )
+  return <Allpage data="SWIFT" />;
 }
 
-export default Swift
+export default Swift;

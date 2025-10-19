@@ -1,194 +1,190 @@
-import React from 'react'
-import './career.css'
-import Accordion from 'react-bootstrap/Accordion'
-import { Row,Col } from 'react-bootstrap'
+import React from "react";
+import "./career.css";
 function CareersBody() {
   return (
     <div>
- 
       <div className="page-header ">
-        <div className="page-header__bg"
-          style={{ backgroundImage: `url('/assets/images/career/job.svg')` }}></div>
+        <div
+          className="page-header__bg"
+          style={{ backgroundImage: `url('/assets/images/career/job.svg')` }}
+        ></div>
         <div className="container text-center">
-        <h2 className="page-header__title">Career </h2>
+          <h2 className="page-header__title">Career </h2>
 
-          <h2 className="page-header__title"> Innovate, win and grow your career here. </h2>
+          <h2 className="page-header__title">
+            {" "}
+            Innovate, win and grow your career here.{" "}
+          </h2>
           <a href="/all-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
-                    <span>Apply Now<i className="mx-3 fas fa-arrow-right"></i></span> 
-                  </a>
+            <span>
+              Apply Now<i className="mx-3 fas fa-arrow-right"></i>
+            </span>
+          </a>
         </div>
       </div>
 
-      <section >
-        <div className='container mt-5'>
-          <div className='row'>
-            <div className='col-md-6'>
-              <h2 className='text-info'>Our people make us great</h2>
-              <h3>For every individual in this organization, everything we do is focused on customer delight</h3>
-              <p>Whether you’re a people success advisor, software developer or sales professional, everything you do connects back to the customer, helping them grow their businesses and win in their markets. Every interaction makes an impression.</p>
-              <p>We’re looking for team members that want to innovate, win and grow with us. We share ideas, innovate together and support each other personally and professionally.  Working collaboratively with customers, partners and each other, we achieve a common goal of exceeding customer expectations. </p>
-              <a href="/all-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
-                    <span>Apply Now<i className="mx-3 fas fa-arrow-right"></i></span> 
-                  </a>
-
+      <section>
+        <div className="container mt-5">
+          <div className="row">
+            <div className="col-md-6">
+              <h2 className="text-info">Our people make us great</h2>
+              <h3>
+                For every individual in this organization, everything we do is
+                focused on customer delight
+              </h3>
+              <p>
+                Whether you’re a people success advisor, software developer or
+                sales professional, everything you do connects back to the
+                customer, helping them grow their businesses and win in their
+                markets. Every interaction makes an impression.
+              </p>
+              <p>
+                We’re looking for team members that want to innovate, win and
+                grow with us. We share ideas, innovate together and support each
+                other personally and professionally. Working collaboratively
+                with customers, partners and each other, we achieve a common
+                goal of exceeding customer expectations.{" "}
+              </p>
+              <a
+                href="/all-job"
+                className=" mt-5 thm-btn cta-two__btn rounded-5"
+              >
+                <span>
+                  Apply Now<i className="mx-3 fas fa-arrow-right"></i>
+                </span>
+              </a>
             </div>
-            <div className='col-md-6'>
-              <img width="130%" src='/assets/images/career/job1.png' alt=''/>
-
-            </div>
-          </div>
-
-
-
-
-          <div className='row mt-5'>
-            <div className='col-md-6'>
-                  <img width="100%" src='/assets/images/career/job2.1.png' alt=''/>
-            </div>
-            <div className='col-md-6'>
-            <h2 className='text-info'>Jump start your career with Bottomline's College Hire Program</h2>
-              <h3>Identifying and guiding the next generation of business leaders </h3>
-              <p>Bottomline’s College Hire Program is designed to identify, train and promote the organization’s next generation of business leaders.</p>
-              <p>The College Hire Program has closed successfully for 2020.
-
-</p>
-
-              <p>Bookmark and check back here in Fall 2021 as we kick off our campus tour for the 2021 campus recruiting season.</p>
-              
+            <div className="col-md-6">
+              <img width="130%" src="/assets/images/career/job1.png" alt="" />
             </div>
           </div>
-
-
-
-
-
-
-          <div className='row mt-5'>
-          <h2 className='text-center my-5'>Our guiding principles</h2>
-          <div className='col-md-4  '>
-            <div className='text-center'>
-               <img src='/assets/images/career/jobicon.png' alt=''/>
-               <h4>Delight customers</h4>
-               <p>Customer delight is at the heart of who we are. It informs all we do from bringing product innovation to customers before they ask for it (or think of it) to making sure every interaction exceeds their expectations.</p>
-
+          <div className="row mt-5">
+            <div className="col-md-6">
+              <img width="100%" src="/assets/images/career/job2.1.png" alt="" />
             </div>
+            <div className="col-md-6">
+              <h2 className="text-info">
+                Jump start your career with Bottomline's College Hire Program
+              </h2>
+              <h3>
+                Identifying and guiding the next generation of business
+                leaders{" "}
+              </h3>
+              <p>
+                Bottomline’s College Hire Program is designed to identify, train
+                and promote the organization’s next generation of business
+                leaders.
+              </p>
+              <p>The College Hire Program has closed successfully for 2020.</p>
 
-
-
+              <p>
+                Bookmark and check back here in Fall 2021 as we kick off our
+                campus tour for the 2021 campus recruiting season.
+              </p>
+            </div>
           </div>
-          <div className='col-md-4'>
-            <div className='text-center'>
-               <img src='/assets/images/career/jobicon1.webp' alt=''/>
-               <h4>Do the right thing</h4>
-               <p>In every interaction and at every opportunity our compass is simple—do the right thing. ing sure every interaction exceeds their expectations.</p>
-
+          <div className="row mt-5">
+            <h2 className="text-center my-5">Our guiding principles</h2>
+            <div className="col-md-4  ">
+              <div className="text-center">
+                <img src="/assets/images/career/jobicon.png" alt="" />
+                <h4>Delight customers</h4>
+                <p>
+                  Customer delight is at the heart of who we are. It informs all
+                  we do from bringing product innovation to customers before
+                  they ask for it (or think of it) to making sure every
+                  interaction exceeds their expectations.
+                </p>
+              </div>
             </div>
-
-
-
+            <div className="col-md-4">
+              <div className="text-center">
+                <img src="/assets/images/career/jobicon1.webp" alt="" />
+                <h4>Do the right thing</h4>
+                <p>
+                  In every interaction and at every opportunity our compass is
+                  simple—do the right thing. ing sure every interaction exceeds
+                  their expectations.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="text-center ">
+                <img src="/assets/images/career/jobicon2.webp" alt="" />
+                <h4>Innovate, communicate, win and grow</h4>
+                <p>
+                  We foster an environment that encourages open communication
+                  among all levels of our team by encouraging team members to
+                  lead from where they stand and be a role model regardless of
+                  title or seniority.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className='col-md-4'>
-          
-            <div className='text-center '>
-               <img src='/assets/images/career/jobicon2.webp' alt=''/>
-               <h4>Innovate, communicate, win and grow</h4>
-               <p>We foster an environment that encourages open communication among all levels of our team by encouraging team members to lead from where they stand and be a role model regardless of title or seniority.</p>
-
+          <div className="row mt-5">
+            <div className="col-md-4  ">
+              <div className="text-center">
+                <img src="/assets/images/career/jobicon3.webp" alt="" />
+                <h4>Work with and for each other</h4>
+                <p>
+                  We know we can’t do it alone. The best ideas, innovations and
+                  solutions come from creative minds coming together, teams that
+                  feel supported and celebrated and rally around one another to
+                  create great work.{" "}
+                </p>
+              </div>
             </div>
-
-
-
+            <div className="col-md-4">
+              <div className="text-center">
+                <img src="/assets/images/career/jobicon4.webp" alt="" />
+                <h4>Be a company of which all can be proud</h4>
+                <p>
+                  We are proud of the work we do for our customers, the
+                  environment we create for our team, the support we provide for
+                  our communities and the value we create for our
+                  shareholders.{" "}
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="text-center ">
+                <img src="/assets/images/career/jobicon2.webp" alt="" />
+                <h4>Create and grow sustained business value</h4>
+                <p>
+                  Our business model and plan are designed to grow the business
+                  and its value for years and decades to come.{" "}
+                </p>
+              </div>
+            </div>
           </div>
-
-        </div>
-
-
-
-
-        
-        <div className='row mt-5'>
-           <div className='col-md-4  '>
-            <div className='text-center'>
-               <img src='/assets/images/career/jobicon3.webp' alt=''/>
-               <h4>Work with and for each other</h4>
-               <p>We know we can’t do it alone. The best ideas, innovations and solutions come from creative minds coming together, teams that feel supported and celebrated and rally around one another to create great work. </p>
-
+          <p className="text-center mt-4">
+            Bottomline Technologies is an Equal Opportunity and Affirmative
+            Action Employer participating in the Employment Verification
+            (E-Verify) program.
+          </p>
+          all-job
+          <div className="row mt-5">
+            <div className="col-md-6">
+              <img width="100%" src="/assets/images/career/job3.png" alt="" />
             </div>
-
-
-
-          </div>
-          <div className='col-md-4'>
-            <div className='text-center'>
-               <img src='/assets/images/career/jobicon4.webp' alt=''/>
-               <h4>Be a company of which all can be proud</h4>
-               <p>We are proud of the work we do for our customers, the environment we create for our team, the support we provide for our communities and the value we create for our shareholders. </p>
-
-            </div>
-
-
-
-          </div>
-          <div className='col-md-4'>
-          
-            <div className='text-center '>
-               <img src='/assets/images/career/jobicon2.webp' alt=''/>
-               <h4>Create and grow sustained business value</h4>
-               <p>Our business model and plan are designed to grow the business and its value for years and decades to come. </p>
-
-            </div>
-
-
-
-          </div>
-
-        </div>
-
-        <p className='text-center mt-4'>Bottomline Technologies is an Equal Opportunity and Affirmative Action Employer participating in the Employment Verification (E-Verify) program.</p>
-all-job
-
-
-
-
-
-
-
-        <div className='row mt-5'>
-            <div className='col-md-6'>
-                  <img width="100%" src='/assets/images/career/job3.png' alt=''/>
-            </div>
-            <div className='col-md-6 mt-5'>
-            <h2 className='text-info'>Right Time</h2>
+            <div className="col-md-6 mt-5">
+              <h2 className="text-info">Right Time</h2>
               <h3>Come work with us</h3>
 
-              <a href="/all-job" className=" mt-5 thm-btn cta-two__btn rounded-5">
-                    <span>Apply Now<i className="mx-3 fas fa-arrow-right"></i></span> 
-                  </a>
-               
+              <a
+                href="/all-job"
+                className=" mt-5 thm-btn cta-two__btn rounded-5"
+              >
+                <span>
+                  Apply Now<i className="mx-3 fas fa-arrow-right"></i>
+                </span>
+              </a>
             </div>
           </div>
-
-          
-
         </div>
-
-
-        
-
-
-
       </section>
 
-
-
-
-     
-
-
-
-
-
-{/* 
+      {/* 
 
 
       <div className=" mt-5">
@@ -322,16 +318,11 @@ all-job
           </div>
         </section> */}
 
-
-      
-
-
-
-
-      <br /><br /><br /> 
-
+      <br />
+      <br />
+      <br />
     </div>
-  )
+  );
 }
 
-export default CareersBody
+export default CareersBody;

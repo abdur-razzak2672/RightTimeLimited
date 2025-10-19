@@ -1,7 +1,7 @@
-import React,{ useState} from 'react'
-import  TopManagement from './TopManagement'
-import TechTeam from './TechTeam';
-import RegionalLeader from './RegionalLeader';
+import React, { useState } from "react";
+import TopManagement from "./TopManagement";
+import TechTeam from "./TechTeam";
+import RegionalLeader from "./RegionalLeader";
 function Team() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -11,8 +11,7 @@ function Team() {
       <div className="page-header">
         <div
           className="page-header__bg"
-           style={{backgroundImage: `url('../images/resources/aboutbg1.png')`}}
-
+          style={{ backgroundImage: `url('../images/resources/aboutbg1.png')` }}
         ></div>
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
@@ -25,15 +24,15 @@ function Team() {
         </div>
       </div>
 
-      <TopManagement/>
-      <TechTeam/>
-      <RegionalLeader/>
+      <TopManagement />
+      <TechTeam />
+      <RegionalLeader />
 
-
-
- 
-      <br/><br/><br/></div>
-  )
+      <br />
+      <br />
+      <br />
+    </div>
+  );
 }
 
-export default Team
+export default Team;

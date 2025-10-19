@@ -1,10 +1,8 @@
-import React from 'react'
-import Allpage from '../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../components/all-page/Allpage";
 
 function Pci() {
-  return (
-    <Allpage data="PCI"/>
-  )
+  return <Allpage data="PCI" />;
 }
 
-export default Pci
+export default Pci;

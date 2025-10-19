@@ -1,342 +1,380 @@
 export const data = [
-    {
+  {
+    id: 1,
+    title: "Consultation",
+    slug: "consultation",
+    description:
+      "Right Time Limited   is a leading IT Enabled Services (ITES) Consultation provider that offers comprehensive solutions to businesses looking to harness the power of information technology to optimize its operations and achieve strategic objectives. With a focus on understanding each clients unique needs, the company conducts a thorough technology assessment and business analysis to identify existing strengths and weaknesses, as well as potential opportunities and risks. Throughout the engagement, RightTime offers continuous support and monitoring to ensure that the implemented IT solutions function smoothly and remain up-to-date. Our commitment to excellence and customer satisfaction makes them a trusted partner for businesses seeking to harness the full potential of ITES to drive success and innovation.",
+    logo: "far fa-newspaper fa-3x",
+    subTitle: [
+      {
         id: 1,
-        title: 'Consultation',
-        slug:'consultation',
-        description: 'Right Time Limited   is a leading IT Enabled Services (ITES) Consultation provider that offers comprehensive solutions to businesses looking to harness the power of information technology to optimize its operations and achieve strategic objectives. With a focus on understanding each clients unique needs, the company conducts a thorough technology assessment and business analysis to identify existing strengths and weaknesses, as well as potential opportunities and risks. Throughout the engagement, RightTime offers continuous support and monitoring to ensure that the implemented IT solutions function smoothly and remain up-to-date. Our commitment to excellence and customer satisfaction makes them a trusted partner for businesses seeking to harness the full potential of ITES to drive success and innovation.',
-        logo: 'far fa-newspaper fa-3x',
-        subTitle: [
-            {
-                id: 1,
-                title: ' Information Security & Cyber Security',
-                description: '  Welcome to Right Time Limited  , your go-to destination for a comprehensive suite of Information Security & Cyber Security Consultation Services. Our team of experts is dedicated to safeguarding your digital assets through a range of specialized solutions.  We excel in security assessments, audits, and penetration testing to identify vulnerabilities in clients IT infrastructure. We provide risk management advice, develops security policies, and conducts security awareness – specially cyber security training for clients/customer and for the employees. Additionally, it aids in incident response planning, compliance support, and security architecture design. Overall, RightTime serves as a professional cybersecurity consulting and advisory firm, tailoring its services to meet the unique needs of the clients',
-                image: '/assets/images/services/consultation/1.jpg',
-                url: '/information-security-Special  ',
-
-            },
-            {
-                id: 2,
-                title: ' PCI DSS',
-                description: ' "Right Time Limited" is a trusted provider of Payment Card Industry Data Security Standard (PCI DSS) Consultation Services (first in Bangladesh, since 2013). Our expert team assists businesses and organizations in achieving and maintaining compliance with PCI DSS, a crucial standard for securing cardholder data during payment card transactions. We conduct thorough PCI DSS compliance assessments, gap analysis, and remediation planning to address any non-compliance issues. Additionally, our services include security policy and procedure development, security awareness training, penetration testing, and vulnerability assessments. With our guidance, clients can enhance the security of their payment card processing environments, protect sensitive data, and build trust with customers and partners.   ',
-                image: ' /assets/images/services/consultation/2.jpg',
-                url: '/pci-dss-consultation  ',
-            },
-            {
-                id: 3,
-                title: ' Swift Cyber Security Consulting ',
-                description: '   "Right Time Limited" specializes in SWIFT Cyber Security Consulting Services, providing essential expertise to businesses and financial institutions using the SWIFT (Society for Worldwide Interbank Financial Telecommunication) network. Our dedicated team of experts offers tailored solutions to enhance the security and resilience of SWIFT messaging systems. We conduct comprehensive security assessments, identifying potential vulnerabilities and recommending robust security measures. Our consultants guide clients in implementing SWIFTs Customer Security Program (CSP) requirements and industry best practices, ensuring compliance and safeguarding against cyber threats. Whether its strengthening access controls, implementing real-time monitoring, or enhancing incident response capabilities, our SWIFT Cyber Security Consulting Services empower organizations to protect their critical financial messaging infrastructure and maintain trust in their global financial transactions. ',
-                image: '/assets/images/services/consultation/3.jpg',
-                url: '/swift-cyber-security   ',
-            },
-            {
-                id: 4,
-                title: 'ISO Consultation',
-                description: ' "Right Time Limited" offers comprehensive ISO Consultation Services, providing expert guidance to businesses and organizations seeking to achieve ISO certifications for various standards. Our team of skilled consultants is well-versed in ISO standards, including ISO 9001 (Quality Management), ISO 27001 (Information Security Management), ISO 14001 (Environmental Management), and more. We conduct thorough assessments of the clients processes, systems, and practices, identifying gaps and areas for improvement. Our tailored solutions help clients implement effective management systems, policies, and procedures to meet ISO requirements. Through our ISO Consultation Services, organizations can streamline their operations, enhance quality, security, and environmental practices, and gain internationally recognized certifications, demonstrating their commitment to excellence and continuous improvement. Partner with us to embark on a successful journey towards ISO certification and organizational growth.   ',
-                image: '/assets/images/services/consultation/4.jpg',
-                url: '/iso-international    ',
-            },
-            {
-                id: 5,
-                title: 'CMMI Consultation  ',
-                description: '"Right Time Limited" specializes in CMMI Preparatory Consultation Services, offering valuable expertise to businesses and organizations preparing for CMMI (Capability Maturity Model Integration) assessments. Our dedicated team of consultants provides comprehensive guidance and support throughout the preparation phase, ensuring clients are well-equipped for a successful appraisal. We work closely with organizations to assess their current processes, identify gaps, and implement improvements aligned with CMMI requirements. Our tailored solutions help clients build a strong foundation for achieving higher maturity levels, fostering process excellence, and driving continuous improvement. With our in-depth knowledge of CMMI models, including CMMI-DEV, CMMI-SVC, and CMMI-ACQ, "Right Time Limited" empowers organizations to excel in their CMMI readiness and enhance overall performance. Partner with us to pave the way for CMMI success and unlock new opportunities for organizational growth and success.',
-                image: '/assets/images/services/consultation/5.jpg',
-                url: '/cmmi    ',
-            },
-            {
-                id: 6,
-                title: ' Project Management ',
-                description: '"Right Time Limited" offers specialized Project Management Consultation Services, providing valuable expertise to businesses and organizations seeking to optimize their project management processes. Our experienced consultants work closely with clients to understand their unique project needs and challenges, offering tailored solutions to enhance project delivery and efficiency. We assist in developing robust project management frameworks, methodologies, and best practices, ensuring effective planning, execution, and monitoring of projects. From risk management to resource allocation, our comprehensive guidance empowers organizations to overcome project hurdles and achieve successful outcomes. With a focus on continuous improvement, "Right Time Limited" helps clients build a culture of excellence in project management, driving long-term success and maximizing the value of their projects. Partner with us to elevate your project management capabilities and ensure project success, delivered right on time.    ',
-                image: '/assets/images/services/consultation/6.jpg',
-                url: '/project-management    ',
-            },
-            {
-                id: 7,
-                title: 'Consultation on Shaping up DC & DRS  ',
-                description: '"Right Time Limited" provides expert consultation services on shaping up Data Center (DC) and Disaster Recovery Services (DRS) to optimize their effectiveness and efficiency. Our dedicated team of consultants works closely with businesses and organizations to understand their specific DC and DRS requirements. We assess existing infrastructure, processes, and disaster recovery plans to identify areas for improvement and recommend tailored solutions. Our expertise covers data center design, technology selection, scalability, redundancy, and disaster recovery planning. With a focus on resilience and business continuity, we help clients implement robust DC and DRS solutions that align with their unique needs. Through our guidance, organizations can ensure the security and availability of critical data and applications, minimizing downtime and maximizing operational continuity. Partner with "Right Time Limited" to shape up your DC and DRS services, ensuring your infrastructure is ready for any challenge, at the right time.    ',
-                image: '/assets/images/services/consultation/7.jpg',
-                url: '/consultation-on-shaping    ',
-            },
-            {
-                id: 8,
-                title: 'Technical Documentation On ITES  ',
-                description: '"Right Time Limited" offers specialized consultation services on composite technical documentation for Information Technology Enabled Services (ITES). Our expert team assists businesses and organizations in creating comprehensive and cohesive technical documentation for their ITES projects. We work closely with clients to understand their specific requirements, processes, and technologies involved in their ITES offerings. Our consultants provide guidance in documenting all aspects of ITES, including system architecture, software design, implementation details, and operational procedures. We ensure that the documentation adheres to industry standards and best practices, facilitating efficient collaboration among teams and seamless project execution. With our support, clients can enhance communication, streamline processes, and improve overall project management for their ITES initiatives. Trust "Right Time Limited" to shape up your composite technical documentation for ITES, empowering your organization to deliver IT-enabled services with precision and excellence    ',
-                image: '/assets/images/services/consultation/8.jpg',
-                url: '/technical-documentation    ',
-            },
-            {
-                id: 9,
-                title: '  Zero Trust Architecture',
-                description: '"Right Time Limited" specializes in providing expert consultation services on Zero Trust Architecture, helping businesses and organizations enhance their cybersecurity posture. Our dedicated team of consultants works closely with clients to understand their unique IT infrastructure and security challenges. We guide them in adopting the Zero Trust model, which operates under the principle of never trusting any user or device by default, regardless of their location within the network. Our tailored solutions include the implementation of strict access controls, multifactor authentication, continuous monitoring, and micro-segmentation to protect critical assets and data from potential threats. By leveraging our expertise in Zero Trust Architecture, organizations can mitigate risks, prevent unauthorized access, and fortify their defenses against ever-evolving cyber threats. Partner with "Right Time Limited" to adopt a proactive and secure approach with Zero Trust Architecture, ensuring your organizations data and systems remain protected at all times.    ',
-                image: '/assets/images/services/consultation/9.jpg',
-                url: '/zero-trust    ',
-            },
-            {
-                id: 10,
-                title: ' Industry 4.0 ',
-                description: '"Right Time Limited" offers specialized consultation services on Industry 4.0, empowering businesses and organizations to navigate the digital transformation and leverage advanced technologies for operational excellence. Our expert team of consultants works closely with clients to understand their unique industry challenges and opportunities. We provide tailored solutions to implement smart manufacturing, IoT integration, data analytics, artificial intelligence, and automation, all central to Industry 4.0 principles. Through our guidance, organizations can optimize their processes, increase productivity, and gain a competitive edge in the rapidly evolving landscape. Whether its creating smart factories or harnessing data-driven insights, "Right Time Limited" ensures a seamless transition to Industry 4.0, driving innovation and sustainable growth. Partner with us to embrace the future of manufacturing and achieve success in the industry 4.0 era. ',
-                image: '/assets/images/services/consultation/10.jpg',
-                url: '/industry-4.0       ',
-            },
-            {
-                id: 11,
-                title: ' Six Sigma Consultation ',
-                description: '"Right Time Limited" specializes in providing expert Six Sigma Consultation Services, assisting businesses and organizations in adopting Six Sigma methodologies to achieve process improvement and operational excellence. Our dedicated team of consultants works closely with clients to understand their specific challenges and objectives. We guide them through the entire Six Sigma journey, from defining projects to analyzing data, implementing improvements, and measuring results. Through the DMAIC (Define, Measure, Analyze, Improve, Control) approach, we help clients optimize processes, reduce defects, and enhance overall efficiency. Our tailored solutions empower organizations to make data-driven decisions, streamline operations, and achieve higher levels of customer satisfaction. With "Right Time Limited" as your partner, you can drive continuous improvement, minimize waste, and elevate your business performance to new heights using the powerful tools of Six Sigma.    ',
-                image: '/assets/images/services/consultation/11.jpg',
-                url: '/Six-sigma    ',
-            },
-            {
-                id: 12,
-                title: 'Lean Consultation ',
-                description: '"Right Time Limited" offers specialized Lean Consultation Services, providing businesses and organizations with expert guidance on adopting Lean methodologies to optimize operations and drive efficiency. Our dedicated team of consultants works closely with clients to understand their unique challenges and goals. We assist in implementing Lean principles, such as value stream mapping, waste reduction, 5S organization, and continuous improvement. Through the elimination of non-value-added activities and the enhancement of workflow, organizations can achieve streamlined processes and improved productivity. Our tailored solutions empower clients to create a culture of continuous improvement, maximizing customer value while minimizing waste. With "Right Time Limited" as your partner, you can transform your organization into a lean, agile, and highly efficient operation, ensuring sustainable growth and success in todays competitive market.    ',
-                image: '/assets/images/services/consultation/12.jpg',
-                url: '/Lean-Consultation    ',
-            },
-            {
-                id: 13,
-                title: 'TIA 942 Preparatory Consultation for DC Certification ',
-                description: ' "Right Time Limited" specializes in providing expert Preparatory Consultation Services for TIA 942 Certification of Data Centers. Our dedicated team of consultants works closely with businesses and organizations to ensure their data center infrastructure and practices align with the stringent requirements of TIA 942 standards. We conduct thorough assessments of the data centers design, cabling, redundancy, cooling, and security measures. Based on the evaluation, we offer tailored solutions to address any gaps and optimize the data centers performance, resilience, and scalability. Our guidance empowers clients to implement industry best practices and prepare their data centers for successful TIA 942 Certification. With "Right Time Limited" as your partner, you can confidently navigate the certification process, demonstrating compliance with the highest data center industry standards and ensuring optimal performance to meet your organizations critical data needs.   ',
-                image: '/assets/images/services/consultation/13.jpg',
-                url: '#',
-            },
-
-        ],
-    },
-    {
+        title: " Information Security & Cyber Security",
+        description:
+          "  Welcome to Right Time Limited  , your go-to destination for a comprehensive suite of Information Security & Cyber Security Consultation Services. Our team of experts is dedicated to safeguarding your digital assets through a range of specialized solutions.  We excel in security assessments, audits, and penetration testing to identify vulnerabilities in clients IT infrastructure. We provide risk management advice, develops security policies, and conducts security awareness – specially cyber security training for clients/customer and for the employees. Additionally, it aids in incident response planning, compliance support, and security architecture design. Overall, RightTime serves as a professional cybersecurity consulting and advisory firm, tailoring its services to meet the unique needs of the clients",
+        image: "/assets/images/services/consultation/1.jpg",
+        url: "/information-security-Special  ",
+      },
+      {
         id: 2,
-        title: 'Auditing',
-        slug:'auditing',
-        description: 'Right Time Limited   excels in providing specialized IT Enabled Services (ITES) Auditing/Assessment to businesses, offering a comprehensive evaluation of their Information System (IS)/ Information Technology (IT) Systems and Processes. As a trusted service provider, it begins by conducting a meticulous and in-depth audit of the clients existing IS/IT infrastructure and operations. Throughout the engagement, RightTime emphasizes clear communication with the client, ensuring that all stakeholders are well-informed and involved in the auditing process. With our commitment to delivering high-quality services and empowering businesses to maximize there IS/IT potential, RightTime proves to be a valuable partner for ITES Auditing/Assessment needs.  ',
-        logo: ' fas fa-ribbon fa-3x',
-        subTitle: [
-            {
-                id: 1,
-                title: ' Information System Audit ',
-                description: '"Right Time Limited" specializes in comprehensive Information System Audit services, providing businesses and organizations with expert evaluations of their information technology systems and practices. Our skilled team of auditors conducts thorough assessments of clients IT infrastructure, networks, applications, and data handling processes. We assess the effectiveness of security controls, identify potential vulnerabilities, and evaluate compliance with industry regulations and best practices. Our tailored approach ensures that clients gain valuable insights into their IT systems strengths and weaknesses, enabling them to make informed decisions to enhance security and streamline operations. With "Right Time Limited" as your trusted partner, you can rest assured that your information systems undergo meticulous scrutiny, leading to improved security, data protection, and overall operational efficiency. Our Information System Audit services help organizations build resilience against cyber threats and instill confidence in their stakeholders, ensuring the integrity and confidentiality of critical information.    ',
-                image: '/assets/images/services/Auditing/1.jpg',
-
-                url: '/information-system    ',
-            },
-
-            {
-                id: 2,
-                title: ' Information Technology Audit ',
-                description: '"Right Time Limited" offers specialized Information Technology (IT) Audit services, providing businesses and organizations with expert evaluations of their IT infrastructure, systems, and processes. Our dedicated team of auditors conducts thorough assessments to ensure that IT controls are in place, operational, and aligned with industry standards and best practices. We examine areas such as data security, access controls, disaster recovery plans, and compliance with relevant regulations. Our tailored approach helps clients identify potential risks, vulnerabilities, and areas for improvement within their IT environment. Through our IT Audit services, organizations can gain valuable insights into their IT governance, risk management, and compliance, enabling them to make informed decisions and strengthen their overall IT security and performance. With "Right Time Limited" as your partner, you can enhance the reliability and effectiveness of your IT operations, ensuring a secure and efficient IT infrastructure that supports your business objectives.    ',
-                image: '/assets/images/services/Auditing/2.jpg',
-                url: '/information-technology    ',
-            },
-            {
-                id: 4,
-                title: 'Information Security Graded Audit ',
-                description: '"Right Time Limited" specializes in conducting Information Security Graded Audits, providing businesses and organizations with a comprehensive assessment of their information security practices. Our expert team of auditors evaluates the organizations security controls, policies, and procedures to determine their effectiveness in safeguarding sensitive information and data assets. Through a graded approach, we assess security measures against industry standards, regulatory requirements, and the organizations unique risk profile. Our tailored approach helps clients identify security gaps and weaknesses, enabling them to prioritize security enhancements and allocate resources effectively. With our Information Security Graded Audit services, organizations can gain a clear understanding of their information security posture, making informed decisions to enhance their defenses against cyber threats and protect critical data. Trust "Right Time Limited" to deliver reliable and insightful audits, bolstering your information security framework and ensuring a resilient security posture that aligns with your business objectives.    ',
-                image: '/assets/images/services/Auditing/3.jpg',
-                url: '/information-security-graded   ',
-            },
-            {
-                id: 5,
-                title: 'DC & DRS Auditing ',
-                description: '"Right Time Limited" excels in providing expert DC (Data Center) & DRS (Disaster Recovery Services) Auditing services, ensuring the optimal performance and resilience of critical IT infrastructure. Our dedicated team of auditors conducts thorough assessments of data center facilities, network architecture, cooling systems, redundancy measures, and disaster recovery plans. Through meticulous auditing, we identify areas for improvement and assess the effectiveness of existing infrastructure and disaster recovery procedures. Our tailored approach helps clients enhance the reliability, efficiency, and security of their data centers, ensuring they meet industry standards and best practices. With "Right Time Limited" as your trusted partner, you can be confident in the robustness of your data center operations and disaster recovery capabilities, safeguarding your critical data and ensuring business continuity in the face of potential disruptions. Our DC & DRS Auditing services empower organizations to proactively address potential risks, optimize their IT infrastructure, and maintain the highest level of operational readiness.    ',
-                image: '/assets/images/services/Auditing/4.jpg',
-                url: '/dc-drs-auditing   ',
-            },
-
-            {
-                id: 6,
-                title: ' SOC1 Audit',
-                description: ' "Right Time Limited" offers specialized SOC 1 Audit services, assisting businesses and organizations in assessing the effectiveness of their internal controls and processes. Our expert team of auditors conducts thorough examinations of clients financial reporting systems to verify compliance with the Statement on Standards for Attestation Engagements (SSAE) No. 18, also known as SOC 1. Through rigorous auditing, we evaluate the design and operating effectiveness of internal controls relevant to financial reporting. Our tailored approach helps clients identify any control deficiencies or weaknesses, enabling them to enhance their controls and provide assurance to their stakeholders and clients. With "Right Time Limited" as your partner, you can confidently demonstrate your commitment to data security and integrity, strengthening your reputation and building trust with your customers. Trust our SOC 1 Audit services to ensure your organizations adherence to industry standards and regulatory requirements, fostering confidence in your financial reporting processes.   ',
-                image: '/assets/images/services/Auditing/5.jpg',
-                url: 'soc-1    ',
-            },
-
-            {
-                id: 7,
-                title: 'SOC2 Audit ',
-                description: ' ""Right Time Limited" offers specialized SOC 2 Audit services, providing businesses and organizations with expert evaluations of their controls related to security, availability, processing integrity, confidentiality, and privacy. Our skilled team of auditors conducts thorough assessments to verify compliance with the American Institute of CPAs (AICPA) Trust Services Criteria. We examine data centers, networks, applications, and processes to assess the effectiveness of controls and ensure they meet SOC 2 standards. Through our tailored approach, clients gain valuable insights into their security measures, data protection, and privacy practices. Our SOC 2 Audit services help organizations build trust with their customers and stakeholders, demonstrating their commitment to maintaining the highest levels of security and data protection. With "Right Time Limited" as your partner, you can be confident in the reliability and quality of your controls, validating your organizations commitment to data security and privacy. Trust us to deliver a meticulous SOC 2 Audit that enhances your cybersecurity posture and strengthens your competitive advantage in the market.  ',
-                image: '/assets/images/services/Auditing/6.jpg',
-                url: 'soc-2    ',
-            },
-
-        ],
-    },
-    {
+        title: " PCI DSS",
+        description:
+          ' "Right Time Limited" is a trusted provider of Payment Card Industry Data Security Standard (PCI DSS) Consultation Services (first in Bangladesh, since 2013). Our expert team assists businesses and organizations in achieving and maintaining compliance with PCI DSS, a crucial standard for securing cardholder data during payment card transactions. We conduct thorough PCI DSS compliance assessments, gap analysis, and remediation planning to address any non-compliance issues. Additionally, our services include security policy and procedure development, security awareness training, penetration testing, and vulnerability assessments. With our guidance, clients can enhance the security of their payment card processing environments, protect sensitive data, and build trust with customers and partners.   ',
+        image: " /assets/images/services/consultation/2.jpg",
+        url: "/pci-dss-consultation  ",
+      },
+      {
         id: 3,
-        title: ' Security Testing',
-        slug:'security-testing',
-        description: 'Right Time Limited   offers top-notch IT Enabled Services (ITES) Security Testing as a trusted service provider, helping businesses safeguard there IS/IT Systems and data from potential vulnerabilities and cyber threats. Our security testing service involves a systematic and thorough evaluation of the clients IS/IT infrastructure, applications, and networks to identify and address potential security risks proactively. We understand the ever-evolving nature of cybersecurity threats and, therefore, emphasizes continuous monitoring and periodic security testing to stay ahead of potential risks. By providing robust Security Testing Services, RightTime empowers businesses to proactively protect their IT assets, build customer trust, and maintain a resilient and secure IT environment. ',
-
-        logo: ' far fa-comment-dots fa-3x',
-
-        subTitle: [
-            {
-                id: 1,
-                title: '  Vulnerability Assessment & Penetration Testing Services',
-                description: '"Right Time Limited" offers comprehensive Vulnerability Assessment & Penetration Testing (VA & PT) Services, providing businesses and organizations with robust cybersecurity solutions. Our expert team of professionals conducts thorough vulnerability assessments to identify potential weaknesses in clients IT infrastructure, networks, and systems. We utilize cutting-edge tools and methodologies to simulate real-world cyberattacks during penetration testing, evaluating the effectiveness of existing security measures. Through our tailored approach, we provide detailed reports on vulnerabilities and potential exploits, enabling clients to proactively address security risks and enhance their defense mechanisms. With "Right Time Limited" as your partner, you can fortify your cybersecurity posture, protect sensitive data, and safeguard against cyber threats, ensuring your organization remains resilient in the face of evolving security challenges. Trust us to provide the expertise needed to keep your digital assets secure and maintain the trust of your customers and stakeholders.    ',
-                image: '/assets/images/services/Security Testing/1.jpg',
-                url: '/vulnerability-assessment    ',
-            },
-            {
-                id: 2,
-                title: ' Swift CSP Independent Assessment',
-                description: '"Right Time Limited" offers a specialized SWIFT CSP (Customer Security Program) Independent Assessment service, catering to businesses and financial institutions using the SWIFT network. As a trusted partner, we conduct thorough and objective assessments to evaluate the organizations compliance with SWIFTs stringent security requirements. Our expert consultants provide an unbiased evaluation of the organizations security measures, identifying strengths, weaknesses, and areas of improvement. By leveraging our SWIFT CSP Independent Assessment service, clients gain valuable insights into their cybersecurity posture, enabling them to enhance their SWIFT-related security controls effectively. Our goal is to assist organizations in meeting SWIFTs security standards, fortifying their financial messaging infrastructure, and bolstering confidence in their ability to protect critical financial data and transactions.    ',
-                image: '/assets/images/services/Security Testing/2.jpg',
-                url: '/swift-csp',
-            },
-            {
-                id: 3,
-                title: 'Software Quality Assurance & Testing ',
-                description: '"Right Time Limited" offers top-notch Software Quality Assurance & Testing Services, ensuring the delivery of high-quality software solutions. Our skilled team of experts conducts comprehensive quality assessments, employing industry-leading methodologies and testing frameworks to identify defects and potential issues. From functional testing to performance, security, and usability testing, we cover all aspects of software evaluation. Our tailored solutions help businesses and organizations improve the reliability and performance of their software products, ensuring optimal user experiences and customer satisfaction. With "Right Time Limited" as your partner, you can streamline your software development processes, mitigate risks, and deliver flawless software products that meet the highest industry standards. Trust us to enhance the quality of your software solutions and elevate your competitiveness in the ever-evolving digital landscape.    ',
-                image: '/assets/images/services/Security Testing/3.jpg',
-                url: '/software-quality    ',
-            },
-            {
-                id: 4,
-                title: ' Code Review',
-                description: '"Right Time Limited" offers comprehensive Code Review Services, providing businesses and organizations with expert insights to enhance the quality and security of their software code. Our experienced team of code reviewers meticulously examines source code, identifying potential vulnerabilities, inefficiencies, and adherence to coding best practices. We utilize industry-leading tools and methodologies to conduct in-depth reviews, ensuring compliance with coding standards and guidelines. Our tailored solutions help clients identify and rectify potential issues early in the development lifecycle, reducing the risk of bugs and security breaches. With "Right Time Limited" as your partner, you can optimize your software code, improve maintainability, and enhance overall software performance. Trust us to deliver meticulous code review services that elevate the reliability and security of your software products, enabling you to meet the demands of todays dynamic digital landscape.    ',
-                image: '/assets/images/services/Security Testing/4.jpg',
-                url: '/code-review    ',
-            },
-            {
-                id: 5,
-                title: 'Breach Attack Simulation ',
-                description: '"Right Time Limited" specializes in conducting Breach Attack Simulations, providing businesses and organizations with a proactive approach to assess their cybersecurity defenses. Our expert team of professionals simulates real-world cyberattacks to evaluate the readiness of clients security infrastructure and response capabilities. Using advanced methodologies and the latest threat intelligence, we identify potential vulnerabilities and weaknesses that malicious actors could exploit. Through tailored breach attack simulations, organizations can gain valuable insights into their security posture, enabling them to strengthen their defenses, fine-tune incident response plans, and enhance overall cyber resilience. With "Right Time Limited" as your partner, you can stay one step ahead of cyber threats, minimizing the impact of potential breaches, and ensuring your critical data remains protected from evolving cyber risks. Trust us to conduct realistic and effective breach attack simulations that bolster your cybersecurity readiness and build confidence in your organizations ability to safeguard against cyber threats.    ',
-                image: '/assets/images/services/Security Testing/5.jpg',
-                url: '/breach-attack    ',
-            },
-            {
-                id: 6,
-                title: 'Cyber Security Posture Assessment ',
-                description: '"Right Time Limited" offers comprehensive Cyber Security Posture Assessment services, providing businesses and organizations with a holistic evaluation of their cybersecurity readiness. Our expert team conducts a thorough examination of clients IT infrastructure, systems, policies, and practices to identify potential vulnerabilities and weaknesses. We employ advanced tools and methodologies to assess the organizations cybersecurity posture against industry best practices and regulatory standards. Through our tailored approach, clients gain valuable insights into their security strengths and areas for improvement. Our detailed reports and recommendations enable organizations to prioritize their cybersecurity investments effectively, implement proactive measures, and enhance their overall cyber resilience. With "Right Time Limited" as your partner, you can confidently mitigate risks, defend against cyber threats, and safeguard your valuable data and assets from potential security breaches. Trust us to deliver reliable Cyber Security Posture Assessment services, strengthening your organizations security posture and promoting a robust cybersecurity culture.    ',
-                image: '/assets/images/services/Security Testing/6.jpg',
-                url: '/poster-assessment   ',
-            },
-            {
-                id: 7,
-                title: 'Digital Forensic ',
-                description: '"Right Time Limited" offers expert Digital Forensic Services, empowering businesses and organizations to effectively investigate and respond to cybersecurity incidents and digital crimes. Our specialized team of digital forensic experts employs cutting-edge tools and methodologies to collect, preserve, and analyze digital evidence from various sources, such as computers, mobile devices, networks, and cloud environments. We conduct thorough investigations to uncover the root causes of cyber incidents, identify potential threats, and support legal proceedings, if required. Our tailored solutions enable clients to gain critical insights into security breaches, data breaches, insider threats, and other cyber incidents, ensuring swift and appropriate responses to mitigate further risks. With "Right Time Limited" as your trusted partner, you can rely on our expertise to handle complex digital investigations, reinforce your incident response capabilities, and uphold the integrity of your digital evidence, bolstering your organizations cyber resilience and ensuring a safer digital environment.    ',
-                image: '/assets/images/services/Security Testing/7.jpg',
-                url: '/digital-forensics   ',
-            },
-
-
-        ],
-    },
-    {
+        title: " Swift Cyber Security Consulting ",
+        description:
+          '   "Right Time Limited" specializes in SWIFT Cyber Security Consulting Services, providing essential expertise to businesses and financial institutions using the SWIFT (Society for Worldwide Interbank Financial Telecommunication) network. Our dedicated team of experts offers tailored solutions to enhance the security and resilience of SWIFT messaging systems. We conduct comprehensive security assessments, identifying potential vulnerabilities and recommending robust security measures. Our consultants guide clients in implementing SWIFTs Customer Security Program (CSP) requirements and industry best practices, ensuring compliance and safeguarding against cyber threats. Whether its strengthening access controls, implementing real-time monitoring, or enhancing incident response capabilities, our SWIFT Cyber Security Consulting Services empower organizations to protect their critical financial messaging infrastructure and maintain trust in their global financial transactions. ',
+        image: "/assets/images/services/consultation/3.jpg",
+        url: "/swift-cyber-security   ",
+      },
+      {
         id: 4,
-        title: 'Certification',
-        slug:'certification',
-        description: 'Right Time Limited   is a leading provider of Standard Certification Services, assisting businesses in achieving industry-recognized certifications for there IS/IT Systems and Processes. With a wealth of experience and expertise, RightTime guides organizations through the complex certification process, ensuring compliance with relevant standards and regulations. By availing themselves of our Standard Certification Services, businesses can demonstrate their commitment to quality, security, and regulatory compliance. This not only enhances their reputation and credibility in the market but also instills confidence in their customers, partners, and stakeholders. RightTime’s dedication to delivering top-notch services makes them an ideal partner for organizations seeking Standard Certifications to stay ahead in a competitive landscape.',
-
-        logo: ' fas fa-cogs fa-3x',
-        subTitle: [
-            {
-                id: 1,
-                title: '  PCI DSS Certification ',
-                description: '"Right Time Limited" offers comprehensive Payment Card Industry Data Security Standard (PCI DSS) Assessment & Certification Services (First in Bangladesh Since 2013). As a trusted provider, we assist businesses and organizations in achieving PCI DSS compliance, ensuring the secure handling of cardholder data during payment card transactions. Our expert team conducts thorough assessments, identifying any gaps in compliance, and provides tailored remediation strategies to address these issues effectively. We guide clients through the certification process, preparing the necessary documentation and attestation reports. With our expertise, businesses can demonstrate their commitment to data security, gain PCI DSS certification, and instill confidence in their customers and partners regarding the protection of sensitive payment card information.    ',
-                image: '/assets/images/services/Certification/1.jpg',
-                url: '/pci-dss-payment    ',
-            },
-            {
-                id: 2,
-                title: ' ISO Certification ',
-                description: ' "Right Time Limited" is a leading provider of ISO Accreditation Audit & Certification Services, assisting businesses and organizations in their journey towards ISO certification. Our expert team of auditors conducts thorough assessments of clients management systems, processes, and practices to ensure compliance with various ISO standards, such as ISO 9001 (Quality Management), ISO 14001 (Environmental Management), ISO 27001 (Information Security Management), and more. We guide clients throughout the certification process, helping them implement necessary improvements and align their operations with ISO requirements. With our support, organizations can successfully achieve ISO accreditation, demonstrating their commitment to excellence, continual improvement, and adherence to internationally recognized standards. Trust "Right Time Limited" as your partner in obtaining ISO certifications and unlocking new opportunities for growth and success.   ',
-                image: '/assets/images/services/Certification/2.jpg',
-                url: '/iso-international    ',
-            },
-            {
-                id: 3,
-                title: 'CMMI (Capability Maturity Model Integration)  ',
-                description: '"Right Time Limited" offers specialized CMMI Appraisal/Certification Services, providing businesses and organizations with the expertise needed to achieve CMMI (Capability Maturity Model Integration) appraisals and certifications. Our dedicated team of consultants has in-depth knowledge of CMMI models, including CMMI-DEV (Development), CMMI-SVC (Services), and CMMI-ACQ (Acquisition). We guide clients through the appraisal process, conducting thorough assessments of their processes, practices, and capabilities. Our tailored solutions assist organizations in improving their maturity levels, enhancing efficiency, and driving continuous improvement. With our support, clients can demonstrate their commitment to quality and process excellence, paving the way for increased customer satisfaction and competitive advantage. Partner with us to unlock the full potential of CMMI frameworks and elevate your organizations performance to new heights.    ',
-                image: '/assets/images/services/Certification/3.jpg',
-                url: '/cmmi    ',
-            },
-            {
-                id: 4,
-                title: ' TIA 942 For Data Center ',
-                description: '"Right Time Limited" specializes in providing expert TIA 942 Certification services for data centers, ensuring compliance with the Telecommunications Industry Associations (TIA) standards. Our dedicated team of consultants works closely with businesses and organizations to assess their data center infrastructure against TIA 942 guidelines. We conduct comprehensive evaluations of design, cabling, redundancy, cooling, and security measures to ensure alignment with TIA 942 requirements. Our tailored solutions help clients optimize their data center performance, reliability, and scalability while ensuring adherence to industry best practices. With "Right Time Limited" as your partner, you can attain TIA 942 Certification, demonstrating a commitment to excellence and meeting the highest standards in data center design and operation. Trust us to ensure your data center is equipped to support your critical business operations with the utmost efficiency and reliability.    ',
-                image: '/assets/images/services/Certification/4.jpg',
-                url: '/tia-for-data-center    ',
-            },
-            {
-                id: 5,
-                title: ' GDPR Certification ',
-                description: ' "Right Time Limited" offers specialized GDPR Certification Services, providing businesses and organizations with expert guidance to achieve compliance with the General Data Protection Regulation (GDPR). Our dedicated team of consultants works closely with clients to understand their data processing activities and assess their data protection practices. We conduct thorough audits, gap analysis, and risk assessments to identify areas that require improvement to align with GDPR requirements. Our tailored solutions include implementing privacy policies, data protection measures, and data breach response plans. Through our comprehensive guidance, clients can ensure the security and privacy of personal data, build customer trust, and mitigate the risk of regulatory penalties. With "Right Time Limited" as your partner, you can confidently navigate the complexities of GDPR and achieve certification, demonstrating your commitment to protecting personal data and complying with the highest data protection standards.   ',
-                image: '/assets/images/services/Certification/5.jpg',
-                url: '/gdpr-certification    ',
-            },
-            {
-                id: 6,
-                title: ' HIPAA Certification ',
-                description: '"Right Time Limited" offers specialized HIPAA Certification Services, providing businesses and healthcare organizations with expert guidance to achieve compliance with the Health Insurance Portability and Accountability Act (HIPAA). Our dedicated team of consultants works closely with clients to assess their processes, policies, and security measures related to protected health information (PHI). We conduct comprehensive audits, risk assessments, and gap analysis to identify areas that need improvement to align with HIPAA requirements. Our tailored solutions include implementing privacy and security measures, training employees on HIPAA regulations, and developing incident response plans. Through our guidance, clients can ensure the confidentiality, integrity, and availability of PHI, safeguard patient data, and reduce the risk of regulatory penalties. With "Right Time Limited" as your partner, you can confidently navigate HIPAA compliance and achieve certification, demonstrating your commitment to protecting sensitive healthcare information and complying with HIPAAs strict standards.    ',
-                image: '/assets/images/services/Certification/6.jpg',
-                url: '/hippa-certification    ',
-            },
-
-
-        ],
-    },
-    {
+        title: "ISO Consultation",
+        description:
+          ' "Right Time Limited" offers comprehensive ISO Consultation Services, providing expert guidance to businesses and organizations seeking to achieve ISO certifications for various standards. Our team of skilled consultants is well-versed in ISO standards, including ISO 9001 (Quality Management), ISO 27001 (Information Security Management), ISO 14001 (Environmental Management), and more. We conduct thorough assessments of the clients processes, systems, and practices, identifying gaps and areas for improvement. Our tailored solutions help clients implement effective management systems, policies, and procedures to meet ISO requirements. Through our ISO Consultation Services, organizations can streamline their operations, enhance quality, security, and environmental practices, and gain internationally recognized certifications, demonstrating their commitment to excellence and continuous improvement. Partner with us to embark on a successful journey towards ISO certification and organizational growth.   ',
+        image: "/assets/images/services/consultation/4.jpg",
+        url: "/iso-international    ",
+      },
+      {
         id: 5,
-        title: 'Managed Services',
-        slug:'managed-service',
-        description: ' Right Time Limited   is a prominent Managed Security Services Provider (MSSP) offering comprehensive Cyber Security Services to protect businesses from a wide range of cyber threats. As an experienced MSSP, RightTime takes on the responsibility of managing and monitoring its clients security infrastructure, enabling businesses to focus on their core operations with confidence in their cybersecurity. By partnering with RightTime as their MSSP, businesses can significantly enhance their security posture, reduce security-related costs, and have peace of mind knowing that there IS/IT infrastructure is in the hands of dedicated and skilled security professionals. RightTimes commitment to excellence and proactive security approach makes them a valuable and trusted partner for businesses seeking top-notch Managed Security Services.',
-        logo: 'fas fa-code fa-3x ',
-        subTitle: [
-            {
-                id: 1,
-                title: '  SOC as A Service ',
-                description: '"Right Time Limited" offers top-notch Security Operations Center (SOC) as a Service, providing businesses and organizations with comprehensive cybersecurity monitoring and incident response capabilities. Our specialized team of security experts operates the SOC, continuously monitoring networks, systems, and applications to detect and respond to potential cyber threats in real-time. We utilize advanced security tools and threat intelligence to analyze and investigate security incidents promptly. With our SOC as a Service, clients can benefit from 24/7 monitoring, proactive threat hunting, and rapid incident response, all tailored to their specific security needs and risk profile. Our SOC experts work seamlessly with clients, providing actionable insights and recommendations to enhance their overall security posture. By partnering with "Right Time Limited" for SOC as a Service, organizations can ensure a robust cybersecurity defense, detect threats early, and respond effectively to safeguard critical data and infrastructure from cyberattacks. Trust us to be your reliable partner in ensuring a strong cybersecurity posture and peace of mind against ever-evolving cyber threats.    ',
-                image: '/assets/images/services/Managed Services/1.jpg',
-                url: '/soc-as-service    ',
-            },
-            {
-                id: 2,
-                title: '  Cloud App Monitoring as A Service ',
-                description: ' "Right Time Limited" offers comprehensive Cloud App Monitoring as a Service, providing businesses and organizations with real-time visibility and proactive management of their cloud-based applications. Our specialized team of experts leverages advanced monitoring tools and methodologies to continuously track the performance, availability, and security of cloud applications. We monitor critical metrics, such as response times, error rates, and resource utilization, identifying potential issues before they impact end-users. Through our tailored approach, clients receive actionable insights and alerts, enabling them to optimize application performance and ensure a seamless user experience. With Cloud App Monitoring as a Service from "Right Time Limited," organizations can effectively address performance bottlenecks, enhance scalability, and maximize the value of their cloud investments. Trust us to be your trusted partner in monitoring and managing your cloud applications, empowering you with the right information to make data-driven decisions and ensure top-notch performance for your cloud-based services.   ',
-                image: '/assets/images/services/Managed Services/2.jpg',
-                url: '/cloud-app    ',
-            },
-            {
-                id: 3,
-                title: '  MDR as A Service (Managed End Point Detection and Response)  ',
-                description: ' "Right Time Limited" offers MDR (Managed End Point Detection and Response) as a Service, providing businesses and organizations with proactive cybersecurity defense against sophisticated threats. Our specialized team of cybersecurity experts deploys advanced endpoint detection and response solutions to continuously monitor endpoints, such as desktops, laptops, and servers. We detect and respond to potential threats in real-time, ensuring timely containment and mitigation of cyberattacks. With MDR as a Service, clients gain 24/7 monitoring, threat hunting, and incident response capabilities, all tailored to their specific security needs. Our proactive approach enables organizations to enhance their cyber resilience, prevent data breaches, and protect critical assets from emerging threats. By partnering with "Right Time Limited" for MDR as a Service, organizations can confidently safeguard their endpoints, maintain compliance, and focus on their core business while leaving their cybersecurity worries to our dedicated team of experts. Trust us to deliver reliable and effective MDR solutions that strengthen your cybersecurity posture and provide peace of mind in todays ever-evolving threat landscape.   ',
-                image: '/assets/images/services/Managed Services/3.jpg',
-                url: '/mdr-as-service   ',
-            },
-            {
-                id: 4,
-                title: '   Managed Nextgen Firewall as A Service ',
-                description: ' "Right Time Limited" offers Managed NextGen Firewall as a Service, providing businesses and organizations with robust network security solutions. Our specialized team of cybersecurity experts deploys and manages advanced NextGen Firewalls to protect clients networks from evolving cyber threats. We tailor our services to meet specific security requirements, ensuring comprehensive threat prevention, intrusion detection, and content filtering. With 24/7 monitoring and proactive threat response, our Managed NextGen Firewall Service ensures that clients networks are safeguarded against unauthorized access, malware, and other cyberattacks. By outsourcing their firewall management to "Right Time Limited," organizations can focus on their core business activities while benefiting from our expertise and up-to-date security measures. Trust us to deliver reliable and efficient Managed NextGen Firewall services that fortify your network security and provide peace of mind in the face of todays sophisticated cyber threats. With "Right Time Limited" as your partner, you can confidently secure your network infrastructure and maintain a strong defense against ever-evolving cyber risks.   ',
-                image: '/assets/images/services/Managed Services/4.jpg',
-                url: '/managed-nextgen    ',
-            },
-            {
-                id: 5,
-                title: ' Vulnerability Assessment (VA) As A Service  ',
-                description: ' "Right Time Limited" offers comprehensive Vulnerability Assessment (VA) as a Service, providing businesses and organizations with proactive cybersecurity solutions. Our specialized team of experts conducts thorough assessments of clients IT infrastructure, networks, applications, and systems to identify potential vulnerabilities and weaknesses. We utilize cutting-edge tools and methodologies to simulate real-world cyberattacks, enabling us to pinpoint areas that require attention. Through our tailored approach, clients receive detailed reports outlining the identified vulnerabilities and recommended mitigation strategies. With "Right Time Limited" as your partner, you can proactively address security risks, bolster your cybersecurity defenses, and prioritize resources effectively to protect your critical data and infrastructure from potential cyber threats. Our Vulnerability Assessment Service empowers organizations to stay ahead of cyber risks, enhance their security posture, and maintain a strong defense in todays dynamic digital landscape. Trust us to deliver reliable and thorough Vulnerability Assessments that equip you with the knowledge needed to safeguard your digital assets and maintain a resilient cybersecurity stance.   ',
-                image: '/assets/images/services/Managed Services/5.jpg',
-                url: '/va-as-service    ',
-            },
-            {
-                id: 6,
-                title: ' Penetration Testing (PT) as a Service  ',
-                description: '  "Right Time Limited" offers professional Penetration Testing (PT) as a Service, providing businesses and organizations with a proactive approach to evaluate and enhance their cybersecurity defenses. Our skilled team of cybersecurity experts conducts controlled and authorized simulated attacks on clients IT infrastructure, networks, applications, and systems. Using industry-leading tools and methodologies, we identify potential vulnerabilities and security weaknesses, replicating real-world scenarios to assess the organizations readiness against cyber threats. Through our tailored approach, clients receive comprehensive reports detailing the identified vulnerabilities and actionable recommendations for remediation. With "Right Time Limited" as your trusted partner, you can strengthen your cybersecurity posture, mitigate risks, and protect sensitive data from potential malicious intrusions. Our Penetration Testing Service empowers organizations to stay ahead of cyber adversaries, ensuring their critical assets remain secure in an ever-evolving threat landscape. Trust us to deliver reliable and effective Penetration Testing that fortifies your security defenses and instills confidence in your ability to protect your digital assets.  ',
-                image: '/assets/images/services/Managed Services/6.jpg',
-                url: '/pt-as-service    ',
-            },
-            {
-                id: 7,
-                title: ' DAM (Database Auditing & Management) as a Service  ',
-                description: ' "Right Time Limited" offers specialized Database Auditing & Management (DAM) as a Service, providing businesses and organizations with expert solutions to ensure the security, integrity, and optimal performance of their databases. Our dedicated team of database management experts conducts thorough audits to assess the database infrastructure, access controls, and data handling processes. We monitor database activities, track user access, and analyze logs to detect potential security breaches and anomalous behavior. Through our tailored approach, clients gain insights into their database performance, identify areas for improvement, and optimize their database operations. Our DAM service includes proactive monitoring, database performance tuning, backup and recovery management, and data encryption to safeguard sensitive information. With "Right Time Limited" as your trusted partner, you can confidently manage your databases, adhere to regulatory requirements, and protect critical data from unauthorized access. Our Database Auditing & Management Service empowers organizations to maintain data confidentiality and ensure the reliability and availability of their databases, supporting their business objectives with a secure and efficient data management strategy. Trust us to deliver reliable and efficient DAM services that optimize your database operations and protect your valuable data assets.   ',
-                image: '/assets/images/services/Managed Services/7.jpg',
-                url: '/dam-as-service    ',
-            },
-            {
-                id: 8,
-                title: '  Attack Surface Management ',
-                description: '"Attack Surface Management as a Service" (ASMaaS) offered by "Right Time Limited" is a comprehensive cybersecurity solution designed to empower organizations with the ability to proactively identify and manage potential vulnerabilities in their digital infrastructure. With cyber threats becoming increasingly sophisticated, ASMaaS plays a crucial role in safeguarding businesses from potential attacks.  RightTime helps businesses fortify client’s defenses against cyber threats and maintain a robust security posture. With its expertise and commitment to staying ahead of evolving threats, RightTime offers a valuable service that enables organizations to protect their assets and data effectively.    ',
-                image: '/assets/images/services/Managed Services/8.jpg',
-                url: '/Attact-surface    ',
-            },
+        title: "CMMI Consultation  ",
+        description:
+          '"Right Time Limited" specializes in CMMI Preparatory Consultation Services, offering valuable expertise to businesses and organizations preparing for CMMI (Capability Maturity Model Integration) assessments. Our dedicated team of consultants provides comprehensive guidance and support throughout the preparation phase, ensuring clients are well-equipped for a successful appraisal. We work closely with organizations to assess their current processes, identify gaps, and implement improvements aligned with CMMI requirements. Our tailored solutions help clients build a strong foundation for achieving higher maturity levels, fostering process excellence, and driving continuous improvement. With our in-depth knowledge of CMMI models, including CMMI-DEV, CMMI-SVC, and CMMI-ACQ, "Right Time Limited" empowers organizations to excel in their CMMI readiness and enhance overall performance. Partner with us to pave the way for CMMI success and unlock new opportunities for organizational growth and success.',
+        image: "/assets/images/services/consultation/5.jpg",
+        url: "/cmmi    ",
+      },
+      {
+        id: 6,
+        title: " Project Management ",
+        description:
+          '"Right Time Limited" offers specialized Project Management Consultation Services, providing valuable expertise to businesses and organizations seeking to optimize their project management processes. Our experienced consultants work closely with clients to understand their unique project needs and challenges, offering tailored solutions to enhance project delivery and efficiency. We assist in developing robust project management frameworks, methodologies, and best practices, ensuring effective planning, execution, and monitoring of projects. From risk management to resource allocation, our comprehensive guidance empowers organizations to overcome project hurdles and achieve successful outcomes. With a focus on continuous improvement, "Right Time Limited" helps clients build a culture of excellence in project management, driving long-term success and maximizing the value of their projects. Partner with us to elevate your project management capabilities and ensure project success, delivered right on time.    ',
+        image: "/assets/images/services/consultation/6.jpg",
+        url: "/project-management    ",
+      },
+      {
+        id: 7,
+        title: "Consultation on Shaping up DC & DRS  ",
+        description:
+          '"Right Time Limited" provides expert consultation services on shaping up Data Center (DC) and Disaster Recovery Services (DRS) to optimize their effectiveness and efficiency. Our dedicated team of consultants works closely with businesses and organizations to understand their specific DC and DRS requirements. We assess existing infrastructure, processes, and disaster recovery plans to identify areas for improvement and recommend tailored solutions. Our expertise covers data center design, technology selection, scalability, redundancy, and disaster recovery planning. With a focus on resilience and business continuity, we help clients implement robust DC and DRS solutions that align with their unique needs. Through our guidance, organizations can ensure the security and availability of critical data and applications, minimizing downtime and maximizing operational continuity. Partner with "Right Time Limited" to shape up your DC and DRS services, ensuring your infrastructure is ready for any challenge, at the right time.    ',
+        image: "/assets/images/services/consultation/7.jpg",
+        url: "/consultation-on-shaping    ",
+      },
+      {
+        id: 8,
+        title: "Technical Documentation On ITES  ",
+        description:
+          '"Right Time Limited" offers specialized consultation services on composite technical documentation for Information Technology Enabled Services (ITES). Our expert team assists businesses and organizations in creating comprehensive and cohesive technical documentation for their ITES projects. We work closely with clients to understand their specific requirements, processes, and technologies involved in their ITES offerings. Our consultants provide guidance in documenting all aspects of ITES, including system architecture, software design, implementation details, and operational procedures. We ensure that the documentation adheres to industry standards and best practices, facilitating efficient collaboration among teams and seamless project execution. With our support, clients can enhance communication, streamline processes, and improve overall project management for their ITES initiatives. Trust "Right Time Limited" to shape up your composite technical documentation for ITES, empowering your organization to deliver IT-enabled services with precision and excellence    ',
+        image: "/assets/images/services/consultation/8.jpg",
+        url: "/technical-documentation    ",
+      },
+      {
+        id: 9,
+        title: "  Zero Trust Architecture",
+        description:
+          '"Right Time Limited" specializes in providing expert consultation services on Zero Trust Architecture, helping businesses and organizations enhance their cybersecurity posture. Our dedicated team of consultants works closely with clients to understand their unique IT infrastructure and security challenges. We guide them in adopting the Zero Trust model, which operates under the principle of never trusting any user or device by default, regardless of their location within the network. Our tailored solutions include the implementation of strict access controls, multifactor authentication, continuous monitoring, and micro-segmentation to protect critical assets and data from potential threats. By leveraging our expertise in Zero Trust Architecture, organizations can mitigate risks, prevent unauthorized access, and fortify their defenses against ever-evolving cyber threats. Partner with "Right Time Limited" to adopt a proactive and secure approach with Zero Trust Architecture, ensuring your organizations data and systems remain protected at all times.    ',
+        image: "/assets/images/services/consultation/9.jpg",
+        url: "/zero-trust    ",
+      },
+      {
+        id: 10,
+        title: " Industry 4.0 ",
+        description:
+          '"Right Time Limited" offers specialized consultation services on Industry 4.0, empowering businesses and organizations to navigate the digital transformation and leverage advanced technologies for operational excellence. Our expert team of consultants works closely with clients to understand their unique industry challenges and opportunities. We provide tailored solutions to implement smart manufacturing, IoT integration, data analytics, artificial intelligence, and automation, all central to Industry 4.0 principles. Through our guidance, organizations can optimize their processes, increase productivity, and gain a competitive edge in the rapidly evolving landscape. Whether its creating smart factories or harnessing data-driven insights, "Right Time Limited" ensures a seamless transition to Industry 4.0, driving innovation and sustainable growth. Partner with us to embrace the future of manufacturing and achieve success in the industry 4.0 era. ',
+        image: "/assets/images/services/consultation/10.jpg",
+        url: "/industry-4.0       ",
+      },
+      {
+        id: 11,
+        title: " Six Sigma Consultation ",
+        description:
+          '"Right Time Limited" specializes in providing expert Six Sigma Consultation Services, assisting businesses and organizations in adopting Six Sigma methodologies to achieve process improvement and operational excellence. Our dedicated team of consultants works closely with clients to understand their specific challenges and objectives. We guide them through the entire Six Sigma journey, from defining projects to analyzing data, implementing improvements, and measuring results. Through the DMAIC (Define, Measure, Analyze, Improve, Control) approach, we help clients optimize processes, reduce defects, and enhance overall efficiency. Our tailored solutions empower organizations to make data-driven decisions, streamline operations, and achieve higher levels of customer satisfaction. With "Right Time Limited" as your partner, you can drive continuous improvement, minimize waste, and elevate your business performance to new heights using the powerful tools of Six Sigma.    ',
+        image: "/assets/images/services/consultation/11.jpg",
+        url: "/Six-sigma    ",
+      },
+      {
+        id: 12,
+        title: "Lean Consultation ",
+        description:
+          '"Right Time Limited" offers specialized Lean Consultation Services, providing businesses and organizations with expert guidance on adopting Lean methodologies to optimize operations and drive efficiency. Our dedicated team of consultants works closely with clients to understand their unique challenges and goals. We assist in implementing Lean principles, such as value stream mapping, waste reduction, 5S organization, and continuous improvement. Through the elimination of non-value-added activities and the enhancement of workflow, organizations can achieve streamlined processes and improved productivity. Our tailored solutions empower clients to create a culture of continuous improvement, maximizing customer value while minimizing waste. With "Right Time Limited" as your partner, you can transform your organization into a lean, agile, and highly efficient operation, ensuring sustainable growth and success in todays competitive market.    ',
+        image: "/assets/images/services/consultation/12.jpg",
+        url: "/Lean-Consultation    ",
+      },
+      {
+        id: 13,
+        title: "TIA 942 Preparatory Consultation for DC Certification ",
+        description:
+          ' "Right Time Limited" specializes in providing expert Preparatory Consultation Services for TIA 942 Certification of Data Centers. Our dedicated team of consultants works closely with businesses and organizations to ensure their data center infrastructure and practices align with the stringent requirements of TIA 942 standards. We conduct thorough assessments of the data centers design, cabling, redundancy, cooling, and security measures. Based on the evaluation, we offer tailored solutions to address any gaps and optimize the data centers performance, resilience, and scalability. Our guidance empowers clients to implement industry best practices and prepare their data centers for successful TIA 942 Certification. With "Right Time Limited" as your partner, you can confidently navigate the certification process, demonstrating compliance with the highest data center industry standards and ensuring optimal performance to meet your organizations critical data needs.   ',
+        image: "/assets/images/services/consultation/13.jpg",
+        url: "#",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Auditing",
+    slug: "auditing",
+    description:
+      "Right Time Limited   excels in providing specialized IT Enabled Services (ITES) Auditing/Assessment to businesses, offering a comprehensive evaluation of their Information System (IS)/ Information Technology (IT) Systems and Processes. As a trusted service provider, it begins by conducting a meticulous and in-depth audit of the clients existing IS/IT infrastructure and operations. Throughout the engagement, RightTime emphasizes clear communication with the client, ensuring that all stakeholders are well-informed and involved in the auditing process. With our commitment to delivering high-quality services and empowering businesses to maximize there IS/IT potential, RightTime proves to be a valuable partner for ITES Auditing/Assessment needs.  ",
+    logo: " fas fa-ribbon fa-3x",
+    subTitle: [
+      {
+        id: 1,
+        title: " Information System Audit ",
+        description:
+          '"Right Time Limited" specializes in comprehensive Information System Audit services, providing businesses and organizations with expert evaluations of their information technology systems and practices. Our skilled team of auditors conducts thorough assessments of clients IT infrastructure, networks, applications, and data handling processes. We assess the effectiveness of security controls, identify potential vulnerabilities, and evaluate compliance with industry regulations and best practices. Our tailored approach ensures that clients gain valuable insights into their IT systems strengths and weaknesses, enabling them to make informed decisions to enhance security and streamline operations. With "Right Time Limited" as your trusted partner, you can rest assured that your information systems undergo meticulous scrutiny, leading to improved security, data protection, and overall operational efficiency. Our Information System Audit services help organizations build resilience against cyber threats and instill confidence in their stakeholders, ensuring the integrity and confidentiality of critical information.    ',
+        image: "/assets/images/services/Auditing/1.jpg",
 
-        ],
-    },
-]
+        url: "/information-system    ",
+      },
+
+      {
+        id: 2,
+        title: " Information Technology Audit ",
+        description:
+          '"Right Time Limited" offers specialized Information Technology (IT) Audit services, providing businesses and organizations with expert evaluations of their IT infrastructure, systems, and processes. Our dedicated team of auditors conducts thorough assessments to ensure that IT controls are in place, operational, and aligned with industry standards and best practices. We examine areas such as data security, access controls, disaster recovery plans, and compliance with relevant regulations. Our tailored approach helps clients identify potential risks, vulnerabilities, and areas for improvement within their IT environment. Through our IT Audit services, organizations can gain valuable insights into their IT governance, risk management, and compliance, enabling them to make informed decisions and strengthen their overall IT security and performance. With "Right Time Limited" as your partner, you can enhance the reliability and effectiveness of your IT operations, ensuring a secure and efficient IT infrastructure that supports your business objectives.    ',
+        image: "/assets/images/services/Auditing/2.jpg",
+        url: "/information-technology    ",
+      },
+      {
+        id: 4,
+        title: "Information Security Graded Audit ",
+        description:
+          '"Right Time Limited" specializes in conducting Information Security Graded Audits, providing businesses and organizations with a comprehensive assessment of their information security practices. Our expert team of auditors evaluates the organizations security controls, policies, and procedures to determine their effectiveness in safeguarding sensitive information and data assets. Through a graded approach, we assess security measures against industry standards, regulatory requirements, and the organizations unique risk profile. Our tailored approach helps clients identify security gaps and weaknesses, enabling them to prioritize security enhancements and allocate resources effectively. With our Information Security Graded Audit services, organizations can gain a clear understanding of their information security posture, making informed decisions to enhance their defenses against cyber threats and protect critical data. Trust "Right Time Limited" to deliver reliable and insightful audits, bolstering your information security framework and ensuring a resilient security posture that aligns with your business objectives.    ',
+        image: "/assets/images/services/Auditing/3.jpg",
+        url: "/information-security-graded   ",
+      },
+      {
+        id: 5,
+        title: "DC & DRS Auditing ",
+        description:
+          '"Right Time Limited" excels in providing expert DC (Data Center) & DRS (Disaster Recovery Services) Auditing services, ensuring the optimal performance and resilience of critical IT infrastructure. Our dedicated team of auditors conducts thorough assessments of data center facilities, network architecture, cooling systems, redundancy measures, and disaster recovery plans. Through meticulous auditing, we identify areas for improvement and assess the effectiveness of existing infrastructure and disaster recovery procedures. Our tailored approach helps clients enhance the reliability, efficiency, and security of their data centers, ensuring they meet industry standards and best practices. With "Right Time Limited" as your trusted partner, you can be confident in the robustness of your data center operations and disaster recovery capabilities, safeguarding your critical data and ensuring business continuity in the face of potential disruptions. Our DC & DRS Auditing services empower organizations to proactively address potential risks, optimize their IT infrastructure, and maintain the highest level of operational readiness.    ',
+        image: "/assets/images/services/Auditing/4.jpg",
+        url: "/dc-drs-auditing   ",
+      },
+
+      {
+        id: 6,
+        title: " SOC1 Audit",
+        description:
+          ' "Right Time Limited" offers specialized SOC 1 Audit services, assisting businesses and organizations in assessing the effectiveness of their internal controls and processes. Our expert team of auditors conducts thorough examinations of clients financial reporting systems to verify compliance with the Statement on Standards for Attestation Engagements (SSAE) No. 18, also known as SOC 1. Through rigorous auditing, we evaluate the design and operating effectiveness of internal controls relevant to financial reporting. Our tailored approach helps clients identify any control deficiencies or weaknesses, enabling them to enhance their controls and provide assurance to their stakeholders and clients. With "Right Time Limited" as your partner, you can confidently demonstrate your commitment to data security and integrity, strengthening your reputation and building trust with your customers. Trust our SOC 1 Audit services to ensure your organizations adherence to industry standards and regulatory requirements, fostering confidence in your financial reporting processes.   ',
+        image: "/assets/images/services/Auditing/5.jpg",
+        url: "soc-1    ",
+      },
+
+      {
+        id: 7,
+        title: "SOC2 Audit ",
+        description:
+          ' ""Right Time Limited" offers specialized SOC 2 Audit services, providing businesses and organizations with expert evaluations of their controls related to security, availability, processing integrity, confidentiality, and privacy. Our skilled team of auditors conducts thorough assessments to verify compliance with the American Institute of CPAs (AICPA) Trust Services Criteria. We examine data centers, networks, applications, and processes to assess the effectiveness of controls and ensure they meet SOC 2 standards. Through our tailored approach, clients gain valuable insights into their security measures, data protection, and privacy practices. Our SOC 2 Audit services help organizations build trust with their customers and stakeholders, demonstrating their commitment to maintaining the highest levels of security and data protection. With "Right Time Limited" as your partner, you can be confident in the reliability and quality of your controls, validating your organizations commitment to data security and privacy. Trust us to deliver a meticulous SOC 2 Audit that enhances your cybersecurity posture and strengthens your competitive advantage in the market.  ',
+        image: "/assets/images/services/Auditing/6.jpg",
+        url: "soc-2    ",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: " Security Testing",
+    slug: "security-testing",
+    description:
+      "Right Time Limited   offers top-notch IT Enabled Services (ITES) Security Testing as a trusted service provider, helping businesses safeguard there IS/IT Systems and data from potential vulnerabilities and cyber threats. Our security testing service involves a systematic and thorough evaluation of the clients IS/IT infrastructure, applications, and networks to identify and address potential security risks proactively. We understand the ever-evolving nature of cybersecurity threats and, therefore, emphasizes continuous monitoring and periodic security testing to stay ahead of potential risks. By providing robust Security Testing Services, RightTime empowers businesses to proactively protect their IT assets, build customer trust, and maintain a resilient and secure IT environment. ",
+
+    logo: " far fa-comment-dots fa-3x",
+
+    subTitle: [
+      {
+        id: 1,
+        title: "  Vulnerability Assessment & Penetration Testing Services",
+        description:
+          '"Right Time Limited" offers comprehensive Vulnerability Assessment & Penetration Testing (VA & PT) Services, providing businesses and organizations with robust cybersecurity solutions. Our expert team of professionals conducts thorough vulnerability assessments to identify potential weaknesses in clients IT infrastructure, networks, and systems. We utilize cutting-edge tools and methodologies to simulate real-world cyberattacks during penetration testing, evaluating the effectiveness of existing security measures. Through our tailored approach, we provide detailed reports on vulnerabilities and potential exploits, enabling clients to proactively address security risks and enhance their defense mechanisms. With "Right Time Limited" as your partner, you can fortify your cybersecurity posture, protect sensitive data, and safeguard against cyber threats, ensuring your organization remains resilient in the face of evolving security challenges. Trust us to provide the expertise needed to keep your digital assets secure and maintain the trust of your customers and stakeholders.    ',
+        image: "/assets/images/services/Security Testing/1.jpg",
+        url: "/vulnerability-assessment    ",
+      },
+      {
+        id: 2,
+        title: " Swift CSP Independent Assessment",
+        description:
+          '"Right Time Limited" offers a specialized SWIFT CSP (Customer Security Program) Independent Assessment service, catering to businesses and financial institutions using the SWIFT network. As a trusted partner, we conduct thorough and objective assessments to evaluate the organizations compliance with SWIFTs stringent security requirements. Our expert consultants provide an unbiased evaluation of the organizations security measures, identifying strengths, weaknesses, and areas of improvement. By leveraging our SWIFT CSP Independent Assessment service, clients gain valuable insights into their cybersecurity posture, enabling them to enhance their SWIFT-related security controls effectively. Our goal is to assist organizations in meeting SWIFTs security standards, fortifying their financial messaging infrastructure, and bolstering confidence in their ability to protect critical financial data and transactions.    ',
+        image: "/assets/images/services/Security Testing/2.jpg",
+        url: "/swift-csp",
+      },
+      {
+        id: 3,
+        title: "Software Quality Assurance & Testing ",
+        description:
+          '"Right Time Limited" offers top-notch Software Quality Assurance & Testing Services, ensuring the delivery of high-quality software solutions. Our skilled team of experts conducts comprehensive quality assessments, employing industry-leading methodologies and testing frameworks to identify defects and potential issues. From functional testing to performance, security, and usability testing, we cover all aspects of software evaluation. Our tailored solutions help businesses and organizations improve the reliability and performance of their software products, ensuring optimal user experiences and customer satisfaction. With "Right Time Limited" as your partner, you can streamline your software development processes, mitigate risks, and deliver flawless software products that meet the highest industry standards. Trust us to enhance the quality of your software solutions and elevate your competitiveness in the ever-evolving digital landscape.    ',
+        image: "/assets/images/services/Security Testing/3.jpg",
+        url: "/software-quality    ",
+      },
+      {
+        id: 4,
+        title: " Code Review",
+        description:
+          '"Right Time Limited" offers comprehensive Code Review Services, providing businesses and organizations with expert insights to enhance the quality and security of their software code. Our experienced team of code reviewers meticulously examines source code, identifying potential vulnerabilities, inefficiencies, and adherence to coding best practices. We utilize industry-leading tools and methodologies to conduct in-depth reviews, ensuring compliance with coding standards and guidelines. Our tailored solutions help clients identify and rectify potential issues early in the development lifecycle, reducing the risk of bugs and security breaches. With "Right Time Limited" as your partner, you can optimize your software code, improve maintainability, and enhance overall software performance. Trust us to deliver meticulous code review services that elevate the reliability and security of your software products, enabling you to meet the demands of todays dynamic digital landscape.    ',
+        image: "/assets/images/services/Security Testing/4.jpg",
+        url: "/code-review    ",
+      },
+      {
+        id: 5,
+        title: "Breach Attack Simulation ",
+        description:
+          '"Right Time Limited" specializes in conducting Breach Attack Simulations, providing businesses and organizations with a proactive approach to assess their cybersecurity defenses. Our expert team of professionals simulates real-world cyberattacks to evaluate the readiness of clients security infrastructure and response capabilities. Using advanced methodologies and the latest threat intelligence, we identify potential vulnerabilities and weaknesses that malicious actors could exploit. Through tailored breach attack simulations, organizations can gain valuable insights into their security posture, enabling them to strengthen their defenses, fine-tune incident response plans, and enhance overall cyber resilience. With "Right Time Limited" as your partner, you can stay one step ahead of cyber threats, minimizing the impact of potential breaches, and ensuring your critical data remains protected from evolving cyber risks. Trust us to conduct realistic and effective breach attack simulations that bolster your cybersecurity readiness and build confidence in your organizations ability to safeguard against cyber threats.    ',
+        image: "/assets/images/services/Security Testing/5.jpg",
+        url: "/breach-attack    ",
+      },
+      {
+        id: 6,
+        title: "Cyber Security Posture Assessment ",
+        description:
+          '"Right Time Limited" offers comprehensive Cyber Security Posture Assessment services, providing businesses and organizations with a holistic evaluation of their cybersecurity readiness. Our expert team conducts a thorough examination of clients IT infrastructure, systems, policies, and practices to identify potential vulnerabilities and weaknesses. We employ advanced tools and methodologies to assess the organizations cybersecurity posture against industry best practices and regulatory standards. Through our tailored approach, clients gain valuable insights into their security strengths and areas for improvement. Our detailed reports and recommendations enable organizations to prioritize their cybersecurity investments effectively, implement proactive measures, and enhance their overall cyber resilience. With "Right Time Limited" as your partner, you can confidently mitigate risks, defend against cyber threats, and safeguard your valuable data and assets from potential security breaches. Trust us to deliver reliable Cyber Security Posture Assessment services, strengthening your organizations security posture and promoting a robust cybersecurity culture.    ',
+        image: "/assets/images/services/Security Testing/6.jpg",
+        url: "/poster-assessment   ",
+      },
+      {
+        id: 7,
+        title: "Digital Forensic ",
+        description:
+          '"Right Time Limited" offers expert Digital Forensic Services, empowering businesses and organizations to effectively investigate and respond to cybersecurity incidents and digital crimes. Our specialized team of digital forensic experts employs cutting-edge tools and methodologies to collect, preserve, and analyze digital evidence from various sources, such as computers, mobile devices, networks, and cloud environments. We conduct thorough investigations to uncover the root causes of cyber incidents, identify potential threats, and support legal proceedings, if required. Our tailored solutions enable clients to gain critical insights into security breaches, data breaches, insider threats, and other cyber incidents, ensuring swift and appropriate responses to mitigate further risks. With "Right Time Limited" as your trusted partner, you can rely on our expertise to handle complex digital investigations, reinforce your incident response capabilities, and uphold the integrity of your digital evidence, bolstering your organizations cyber resilience and ensuring a safer digital environment.    ',
+        image: "/assets/images/services/Security Testing/7.jpg",
+        url: "/digital-forensics   ",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Certification",
+    slug: "certification",
+    description:
+      "Right Time Limited   is a leading provider of Standard Certification Services, assisting businesses in achieving industry-recognized certifications for there IS/IT Systems and Processes. With a wealth of experience and expertise, RightTime guides organizations through the complex certification process, ensuring compliance with relevant standards and regulations. By availing themselves of our Standard Certification Services, businesses can demonstrate their commitment to quality, security, and regulatory compliance. This not only enhances their reputation and credibility in the market but also instills confidence in their customers, partners, and stakeholders. RightTime’s dedication to delivering top-notch services makes them an ideal partner for organizations seeking Standard Certifications to stay ahead in a competitive landscape.",
+
+    logo: " fas fa-cogs fa-3x",
+    subTitle: [
+      {
+        id: 1,
+        title: "  PCI DSS Certification ",
+        description:
+          '"Right Time Limited" offers comprehensive Payment Card Industry Data Security Standard (PCI DSS) Assessment & Certification Services (First in Bangladesh Since 2013). As a trusted provider, we assist businesses and organizations in achieving PCI DSS compliance, ensuring the secure handling of cardholder data during payment card transactions. Our expert team conducts thorough assessments, identifying any gaps in compliance, and provides tailored remediation strategies to address these issues effectively. We guide clients through the certification process, preparing the necessary documentation and attestation reports. With our expertise, businesses can demonstrate their commitment to data security, gain PCI DSS certification, and instill confidence in their customers and partners regarding the protection of sensitive payment card information.    ',
+        image: "/assets/images/services/Certification/1.jpg",
+        url: "/pci-dss-payment    ",
+      },
+      {
+        id: 2,
+        title: " ISO Certification ",
+        description:
+          ' "Right Time Limited" is a leading provider of ISO Accreditation Audit & Certification Services, assisting businesses and organizations in their journey towards ISO certification. Our expert team of auditors conducts thorough assessments of clients management systems, processes, and practices to ensure compliance with various ISO standards, such as ISO 9001 (Quality Management), ISO 14001 (Environmental Management), ISO 27001 (Information Security Management), and more. We guide clients throughout the certification process, helping them implement necessary improvements and align their operations with ISO requirements. With our support, organizations can successfully achieve ISO accreditation, demonstrating their commitment to excellence, continual improvement, and adherence to internationally recognized standards. Trust "Right Time Limited" as your partner in obtaining ISO certifications and unlocking new opportunities for growth and success.   ',
+        image: "/assets/images/services/Certification/2.jpg",
+        url: "/iso-international    ",
+      },
+      {
+        id: 3,
+        title: "CMMI (Capability Maturity Model Integration)  ",
+        description:
+          '"Right Time Limited" offers specialized CMMI Appraisal/Certification Services, providing businesses and organizations with the expertise needed to achieve CMMI (Capability Maturity Model Integration) appraisals and certifications. Our dedicated team of consultants has in-depth knowledge of CMMI models, including CMMI-DEV (Development), CMMI-SVC (Services), and CMMI-ACQ (Acquisition). We guide clients through the appraisal process, conducting thorough assessments of their processes, practices, and capabilities. Our tailored solutions assist organizations in improving their maturity levels, enhancing efficiency, and driving continuous improvement. With our support, clients can demonstrate their commitment to quality and process excellence, paving the way for increased customer satisfaction and competitive advantage. Partner with us to unlock the full potential of CMMI frameworks and elevate your organizations performance to new heights.    ',
+        image: "/assets/images/services/Certification/3.jpg",
+        url: "/cmmi    ",
+      },
+      {
+        id: 4,
+        title: " TIA 942 For Data Center ",
+        description:
+          '"Right Time Limited" specializes in providing expert TIA 942 Certification services for data centers, ensuring compliance with the Telecommunications Industry Associations (TIA) standards. Our dedicated team of consultants works closely with businesses and organizations to assess their data center infrastructure against TIA 942 guidelines. We conduct comprehensive evaluations of design, cabling, redundancy, cooling, and security measures to ensure alignment with TIA 942 requirements. Our tailored solutions help clients optimize their data center performance, reliability, and scalability while ensuring adherence to industry best practices. With "Right Time Limited" as your partner, you can attain TIA 942 Certification, demonstrating a commitment to excellence and meeting the highest standards in data center design and operation. Trust us to ensure your data center is equipped to support your critical business operations with the utmost efficiency and reliability.    ',
+        image: "/assets/images/services/Certification/4.jpg",
+        url: "/tia-for-data-center    ",
+      },
+      {
+        id: 5,
+        title: " GDPR Certification ",
+        description:
+          ' "Right Time Limited" offers specialized GDPR Certification Services, providing businesses and organizations with expert guidance to achieve compliance with the General Data Protection Regulation (GDPR). Our dedicated team of consultants works closely with clients to understand their data processing activities and assess their data protection practices. We conduct thorough audits, gap analysis, and risk assessments to identify areas that require improvement to align with GDPR requirements. Our tailored solutions include implementing privacy policies, data protection measures, and data breach response plans. Through our comprehensive guidance, clients can ensure the security and privacy of personal data, build customer trust, and mitigate the risk of regulatory penalties. With "Right Time Limited" as your partner, you can confidently navigate the complexities of GDPR and achieve certification, demonstrating your commitment to protecting personal data and complying with the highest data protection standards.   ',
+        image: "/assets/images/services/Certification/5.jpg",
+        url: "/gdpr-certification    ",
+      },
+      {
+        id: 6,
+        title: " HIPAA Certification ",
+        description:
+          '"Right Time Limited" offers specialized HIPAA Certification Services, providing businesses and healthcare organizations with expert guidance to achieve compliance with the Health Insurance Portability and Accountability Act (HIPAA). Our dedicated team of consultants works closely with clients to assess their processes, policies, and security measures related to protected health information (PHI). We conduct comprehensive audits, risk assessments, and gap analysis to identify areas that need improvement to align with HIPAA requirements. Our tailored solutions include implementing privacy and security measures, training employees on HIPAA regulations, and developing incident response plans. Through our guidance, clients can ensure the confidentiality, integrity, and availability of PHI, safeguard patient data, and reduce the risk of regulatory penalties. With "Right Time Limited" as your partner, you can confidently navigate HIPAA compliance and achieve certification, demonstrating your commitment to protecting sensitive healthcare information and complying with HIPAAs strict standards.    ',
+        image: "/assets/images/services/Certification/6.jpg",
+        url: "/hippa-certification    ",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Managed Services",
+    slug: "managed-service",
+    description:
+      " Right Time Limited   is a prominent Managed Security Services Provider (MSSP) offering comprehensive Cyber Security Services to protect businesses from a wide range of cyber threats. As an experienced MSSP, RightTime takes on the responsibility of managing and monitoring its clients security infrastructure, enabling businesses to focus on their core operations with confidence in their cybersecurity. By partnering with RightTime as their MSSP, businesses can significantly enhance their security posture, reduce security-related costs, and have peace of mind knowing that there IS/IT infrastructure is in the hands of dedicated and skilled security professionals. RightTimes commitment to excellence and proactive security approach makes them a valuable and trusted partner for businesses seeking top-notch Managed Security Services.",
+    logo: "fas fa-code fa-3x ",
+    subTitle: [
+      {
+        id: 1,
+        title: "  SOC as A Service ",
+        description:
+          '"Right Time Limited" offers top-notch Security Operations Center (SOC) as a Service, providing businesses and organizations with comprehensive cybersecurity monitoring and incident response capabilities. Our specialized team of security experts operates the SOC, continuously monitoring networks, systems, and applications to detect and respond to potential cyber threats in real-time. We utilize advanced security tools and threat intelligence to analyze and investigate security incidents promptly. With our SOC as a Service, clients can benefit from 24/7 monitoring, proactive threat hunting, and rapid incident response, all tailored to their specific security needs and risk profile. Our SOC experts work seamlessly with clients, providing actionable insights and recommendations to enhance their overall security posture. By partnering with "Right Time Limited" for SOC as a Service, organizations can ensure a robust cybersecurity defense, detect threats early, and respond effectively to safeguard critical data and infrastructure from cyberattacks. Trust us to be your reliable partner in ensuring a strong cybersecurity posture and peace of mind against ever-evolving cyber threats.    ',
+        image: "/assets/images/services/Managed Services/1.jpg",
+        url: "/soc-as-service    ",
+      },
+      {
+        id: 2,
+        title: "  Cloud App Monitoring as A Service ",
+        description:
+          ' "Right Time Limited" offers comprehensive Cloud App Monitoring as a Service, providing businesses and organizations with real-time visibility and proactive management of their cloud-based applications. Our specialized team of experts leverages advanced monitoring tools and methodologies to continuously track the performance, availability, and security of cloud applications. We monitor critical metrics, such as response times, error rates, and resource utilization, identifying potential issues before they impact end-users. Through our tailored approach, clients receive actionable insights and alerts, enabling them to optimize application performance and ensure a seamless user experience. With Cloud App Monitoring as a Service from "Right Time Limited," organizations can effectively address performance bottlenecks, enhance scalability, and maximize the value of their cloud investments. Trust us to be your trusted partner in monitoring and managing your cloud applications, empowering you with the right information to make data-driven decisions and ensure top-notch performance for your cloud-based services.   ',
+        image: "/assets/images/services/Managed Services/2.jpg",
+        url: "/cloud-app    ",
+      },
+      {
+        id: 3,
+        title:
+          "  MDR as A Service (Managed End Point Detection and Response)  ",
+        description:
+          ' "Right Time Limited" offers MDR (Managed End Point Detection and Response) as a Service, providing businesses and organizations with proactive cybersecurity defense against sophisticated threats. Our specialized team of cybersecurity experts deploys advanced endpoint detection and response solutions to continuously monitor endpoints, such as desktops, laptops, and servers. We detect and respond to potential threats in real-time, ensuring timely containment and mitigation of cyberattacks. With MDR as a Service, clients gain 24/7 monitoring, threat hunting, and incident response capabilities, all tailored to their specific security needs. Our proactive approach enables organizations to enhance their cyber resilience, prevent data breaches, and protect critical assets from emerging threats. By partnering with "Right Time Limited" for MDR as a Service, organizations can confidently safeguard their endpoints, maintain compliance, and focus on their core business while leaving their cybersecurity worries to our dedicated team of experts. Trust us to deliver reliable and effective MDR solutions that strengthen your cybersecurity posture and provide peace of mind in todays ever-evolving threat landscape.   ',
+        image: "/assets/images/services/Managed Services/3.jpg",
+        url: "/mdr-as-service   ",
+      },
+      {
+        id: 4,
+        title: "   Managed Nextgen Firewall as A Service ",
+        description:
+          ' "Right Time Limited" offers Managed NextGen Firewall as a Service, providing businesses and organizations with robust network security solutions. Our specialized team of cybersecurity experts deploys and manages advanced NextGen Firewalls to protect clients networks from evolving cyber threats. We tailor our services to meet specific security requirements, ensuring comprehensive threat prevention, intrusion detection, and content filtering. With 24/7 monitoring and proactive threat response, our Managed NextGen Firewall Service ensures that clients networks are safeguarded against unauthorized access, malware, and other cyberattacks. By outsourcing their firewall management to "Right Time Limited," organizations can focus on their core business activities while benefiting from our expertise and up-to-date security measures. Trust us to deliver reliable and efficient Managed NextGen Firewall services that fortify your network security and provide peace of mind in the face of todays sophisticated cyber threats. With "Right Time Limited" as your partner, you can confidently secure your network infrastructure and maintain a strong defense against ever-evolving cyber risks.   ',
+        image: "/assets/images/services/Managed Services/4.jpg",
+        url: "/managed-nextgen    ",
+      },
+      {
+        id: 5,
+        title: " Vulnerability Assessment (VA) As A Service  ",
+        description:
+          ' "Right Time Limited" offers comprehensive Vulnerability Assessment (VA) as a Service, providing businesses and organizations with proactive cybersecurity solutions. Our specialized team of experts conducts thorough assessments of clients IT infrastructure, networks, applications, and systems to identify potential vulnerabilities and weaknesses. We utilize cutting-edge tools and methodologies to simulate real-world cyberattacks, enabling us to pinpoint areas that require attention. Through our tailored approach, clients receive detailed reports outlining the identified vulnerabilities and recommended mitigation strategies. With "Right Time Limited" as your partner, you can proactively address security risks, bolster your cybersecurity defenses, and prioritize resources effectively to protect your critical data and infrastructure from potential cyber threats. Our Vulnerability Assessment Service empowers organizations to stay ahead of cyber risks, enhance their security posture, and maintain a strong defense in todays dynamic digital landscape. Trust us to deliver reliable and thorough Vulnerability Assessments that equip you with the knowledge needed to safeguard your digital assets and maintain a resilient cybersecurity stance.   ',
+        image: "/assets/images/services/Managed Services/5.jpg",
+        url: "/va-as-service    ",
+      },
+      {
+        id: 6,
+        title: " Penetration Testing (PT) as a Service  ",
+        description:
+          '  "Right Time Limited" offers professional Penetration Testing (PT) as a Service, providing businesses and organizations with a proactive approach to evaluate and enhance their cybersecurity defenses. Our skilled team of cybersecurity experts conducts controlled and authorized simulated attacks on clients IT infrastructure, networks, applications, and systems. Using industry-leading tools and methodologies, we identify potential vulnerabilities and security weaknesses, replicating real-world scenarios to assess the organizations readiness against cyber threats. Through our tailored approach, clients receive comprehensive reports detailing the identified vulnerabilities and actionable recommendations for remediation. With "Right Time Limited" as your trusted partner, you can strengthen your cybersecurity posture, mitigate risks, and protect sensitive data from potential malicious intrusions. Our Penetration Testing Service empowers organizations to stay ahead of cyber adversaries, ensuring their critical assets remain secure in an ever-evolving threat landscape. Trust us to deliver reliable and effective Penetration Testing that fortifies your security defenses and instills confidence in your ability to protect your digital assets.  ',
+        image: "/assets/images/services/Managed Services/6.jpg",
+        url: "/pt-as-service    ",
+      },
+      {
+        id: 7,
+        title: " DAM (Database Auditing & Management) as a Service  ",
+        description:
+          ' "Right Time Limited" offers specialized Database Auditing & Management (DAM) as a Service, providing businesses and organizations with expert solutions to ensure the security, integrity, and optimal performance of their databases. Our dedicated team of database management experts conducts thorough audits to assess the database infrastructure, access controls, and data handling processes. We monitor database activities, track user access, and analyze logs to detect potential security breaches and anomalous behavior. Through our tailored approach, clients gain insights into their database performance, identify areas for improvement, and optimize their database operations. Our DAM service includes proactive monitoring, database performance tuning, backup and recovery management, and data encryption to safeguard sensitive information. With "Right Time Limited" as your trusted partner, you can confidently manage your databases, adhere to regulatory requirements, and protect critical data from unauthorized access. Our Database Auditing & Management Service empowers organizations to maintain data confidentiality and ensure the reliability and availability of their databases, supporting their business objectives with a secure and efficient data management strategy. Trust us to deliver reliable and efficient DAM services that optimize your database operations and protect your valuable data assets.   ',
+        image: "/assets/images/services/Managed Services/7.jpg",
+        url: "/dam-as-service    ",
+      },
+      {
+        id: 8,
+        title: "  Attack Surface Management ",
+        description:
+          '"Attack Surface Management as a Service" (ASMaaS) offered by "Right Time Limited" is a comprehensive cybersecurity solution designed to empower organizations with the ability to proactively identify and manage potential vulnerabilities in their digital infrastructure. With cyber threats becoming increasingly sophisticated, ASMaaS plays a crucial role in safeguarding businesses from potential attacks.  RightTime helps businesses fortify client’s defenses against cyber threats and maintain a robust security posture. With its expertise and commitment to staying ahead of evolving threats, RightTime offers a valuable service that enables organizations to protect their assets and data effectively.    ',
+        image: "/assets/images/services/Managed Services/8.jpg",
+        url: "/Attact-surface    ",
+      },
+    ],
+  },
+];

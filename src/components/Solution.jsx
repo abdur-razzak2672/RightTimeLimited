@@ -11,17 +11,24 @@ function Solution() {
           >
             <div className="cta-one__circle"></div>
             <div className="section-title ">
-              <p className="section-title__text">Need Any Technology Solution</p>
+              <p className="section-title__text">
+                Need Any Technology Solution
+              </p>
               <h2 className="header header--light">
                 Let’s work together for better services
-              </h2> 
+              </h2>
             </div>
-            <a href="/contact-us" className="thm-btn thm-btn--light cta-one__btn">
+            <a
+              href="/contact-us"
+              className="thm-btn thm-btn--light cta-one__btn"
+            >
               <span>Start Now</span>
             </a>
           </div>
         </div>
-      </section><br/><br/>
+      </section>
+      <br />
+      <br />
     </div>
   );
 }

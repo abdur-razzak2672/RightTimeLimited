@@ -1,10 +1,8 @@
-import React from 'react'
-import Allpage from '../../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../../components/all-page/Allpage";
 
 function Invicti() {
-  return (
-    <Allpage data="Invicti"/>
-  )
+  return <Allpage data="Invicti" />;
 }
 
-export default Invicti
+export default Invicti;

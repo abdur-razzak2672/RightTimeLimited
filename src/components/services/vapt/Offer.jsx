@@ -146,56 +146,105 @@ function Offer({ data, va, pt, id, Offercard }) {
               <div>
                 <h5 className="header">Overview</h5>
                 <p className="text-dark">
-                RightTime’s Penetration Testing services reduce the risk of a successful attacks before they occur. With over two decades of experience in security, compliance and risk management, our experts work as ethical hackers to identify security issues beyond the capability of automated tools and assessments/tests. As cyberattacks continue to rise everyday it is important to perform penetration tests regularly.</p>
+                  RightTime’s Penetration Testing services reduce the risk of a
+                  successful attacks before they occur. With over two decades of
+                  experience in security, compliance and risk management, our
+                  experts work as ethical hackers to identify security issues
+                  beyond the capability of automated tools and
+                  assessments/tests. As cyberattacks continue to rise everyday
+                  it is important to perform penetration tests regularly.
+                </p>
                 <p className="pt-3 text-dark">
-                RightTime’s experienced engineers test your network manually to identify the extent your system could currently be compromised by a real-life attacker. Our penetration testing service can be used to test your security policy compliance, the effectiveness of your employee security awareness training and your organization's ability to identify and respond to security incidents.
+                  RightTime’s experienced engineers test your network manually
+                  to identify the extent your system could currently be
+                  compromised by a real-life attacker. Our penetration testing
+                  service can be used to test your security policy compliance,
+                  the effectiveness of your employee security awareness training
+                  and your organization's ability to identify and respond to
+                  security incidents.
                 </p>
 
                 <p className="pt-3 text-dark">
-                RightTime provides remediation reports going in-depth on steps to take your overall security to the next level. Our team can act as an extension of your team to assist in the remediation process to ensure cybersecurity right away.                </p>
+                  RightTime provides remediation reports going in-depth on steps
+                  to take your overall security to the next level. Our team can
+                  act as an extension of your team to assist in the remediation
+                  process to ensure cybersecurity right away.{" "}
+                </p>
               </div>
 
               <div>
-                <h5 className="header">
-                Benefits of a Penetration Testing  </h5>
+                <h5 className="header">Benefits of a Penetration Testing </h5>
 
-                <h6 className="header">
-                Identify vulnerabilities
-                  </h6>
+                <h6 className="header">Identify vulnerabilities</h6>
                 <p className="text-dark  ">
-                Penetration testing reveals vulnerabilities in your systems, application configurations and infrastructure. It also identifies actions and habits of your staff that could lead to data breaches and malware infiltration. Pen testers try to exploit weaknesses enabling you to see what a hacker could do in the ‘real world’
+                  Penetration testing reveals vulnerabilities in your systems,
+                  application configurations and infrastructure. It also
+                  identifies actions and habits of your staff that could lead to
+                  data breaches and malware infiltration. Pen testers try to
+                  exploit weaknesses enabling you to see what a hacker could do
+                  in the ‘real world’
                 </p>
-                <h6 className="header">
-                Test your cyber-security response                   </h6>
+                <h6 className="header">Test your cyber-security response </h6>
                 <p className="text-dark  ">
-                You should be able to detect attacks and respond rapidly. Once you detect a cyber-attack, you should start investigations immediately. Feedback from the test will tell you which actions should be taken to improve your defense.                </p>
-                <h6 className="header">
-                Assurance in business continuity                   </h6>
+                  You should be able to detect attacks and respond rapidly. Once
+                  you detect a cyber-attack, you should start investigations
+                  immediately. Feedback from the test will tell you which
+                  actions should be taken to improve your defense.{" "}
+                </p>
+                <h6 className="header">Assurance in business continuity </h6>
                 <p className="text-dark  ">
-                Every cyber-attack will have a negative impact on your business. A pen test will reveal potential threats and help to ensure that your operations don’t suffer damage to costs and reputation. A good pen tester will give you a detailed report detailing your security weaknesses so you know what improvements to consider to improve your business’s cyber-security.                </p>
-                <h6 className="header">
-                Maintaining compliance                   </h6>
+                  Every cyber-attack will have a negative impact on your
+                  business. A pen test will reveal potential threats and help to
+                  ensure that your operations don’t suffer damage to costs and
+                  reputation. A good pen tester will give you a detailed report
+                  detailing your security weaknesses so you know what
+                  improvements to consider to improve your business’s
+                  cyber-security.{" "}
+                </p>
+                <h6 className="header">Maintaining compliance </h6>
                 <p className="text-dark  ">
-                Your legal compliance requirements may necessitate a level of penetration testing. The ISO 27001 (information security standard from the International Organization for Standardization), HIPPA (Health Insurance Portability and Accountability Act), PCI DSS (Payment Card Industry Data Security Standard), GDPR (General Data Protection Regulation), SOX (Sarbanes-Oxley Act), FISMA (Federal Information Security Management Act of 2002), GLBA (Gramm–Leach–Bliley Act) standard requires all managers/system owners to conduct regular penetration tests and security reviews, with skilled third-party testers.                </p>
-                <h6 className="header">
-                Maintain                 </h6>
+                  Your legal compliance requirements may necessitate a level of
+                  penetration testing. The ISO 27001 (information security
+                  standard from the International Organization for
+                  Standardization), HIPPA (Health Insurance Portability and
+                  Accountability Act), PCI DSS (Payment Card Industry Data
+                  Security Standard), GDPR (General Data Protection Regulation),
+                  SOX (Sarbanes-Oxley Act), FISMA (Federal Information Security
+                  Management Act of 2002), GLBA (Gramm–Leach–Bliley Act)
+                  standard requires all managers/system owners to conduct
+                  regular penetration tests and security reviews, with skilled
+                  third-party testers.{" "}
+                </p>
+                <h6 className="header">Maintain </h6>
                 <p className="text-dark  ">
-                A cyber-attack or data breach can have a negative impact on the confidence and loyalty of your customers, suppliers and stakeholders. If your business is known for its systematic security audits and pen tests, you will maintain the trust and confidence of your customers and clients.                </p>
-                
+                  A cyber-attack or data breach can have a negative impact on
+                  the confidence and loyalty of your customers, suppliers and
+                  stakeholders. If your business is known for its systematic
+                  security audits and pen tests, you will maintain the trust and
+                  confidence of your customers and clients.{" "}
+                </p>
               </div>
 
               <div>
                 <h5 className="header">Methodology:</h5>
                 <p className="text-dark">
-                RightTime’s security experts conduct real-world attacks to determine your security weaknesses. Our extensive knowledge of the most current attack vectors, along with our expertise network types including on-premise Data Centers, Cloud or Hybrid environments will provide the assurance and confidence you need. This enables your team to concentrate on day-to-day business rather than on the discovery of potential network security risks
+                  RightTime’s security experts conduct real-world attacks to
+                  determine your security weaknesses. Our extensive knowledge of
+                  the most current attack vectors, along with our expertise
+                  network types including on-premise Data Centers, Cloud or
+                  Hybrid environments will provide the assurance and confidence
+                  you need. This enables your team to concentrate on day-to-day
+                  business rather than on the discovery of potential network
+                  security risks
                 </p>
 
-                 
-
-                <h5 className="header pt-3">
-                Phases of Penetration Testing                </h5>
+                <h5 className="header pt-3">Phases of Penetration Testing </h5>
                 <p className="text-dark">
-                Along with different regular benefits, Penetration Testing does have some phases also that helps take a picture of the current security posture and an opportunity to identify potential breach points. Thus, there are a total of 10 phases that also have different names as per their performance.
+                  Along with different regular benefits, Penetration Testing
+                  does have some phases also that helps take a picture of the
+                  current security posture and an opportunity to identify
+                  potential breach points. Thus, there are a total of 10 phases
+                  that also have different names as per their performance.
                 </p>
               </div>
             </>
@@ -227,18 +276,18 @@ function Offer({ data, va, pt, id, Offercard }) {
 
           <img width="100%" src="/assets/images/services/rtl.png" alt="" />
 
-          {
-            va==="va" && (
-
-              <>
-                  <h5 className="header pt-3 text-info">Right Time Also Provides:</h5>
-          <img width="100%" src="/assets/images/services/vartl.png" alt="" />
-              
-              </>
-            )
-          }
-
-       
+          {va === "va" && (
+            <>
+              <h5 className="header pt-3 text-info">
+                Right Time Also Provides:
+              </h5>
+              <img
+                width="100%"
+                src="/assets/images/services/vartl.png"
+                alt=""
+              />
+            </>
+          )}
         </div>
       </div>
     </div>

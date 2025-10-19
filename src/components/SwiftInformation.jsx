@@ -2,49 +2,48 @@ import React from "react";
 import Slider from "react-slick";
 
 function SwiftInformation() {
- const clients = [
-  {
-    id: 1,
-    name: "Sonali Bank Limited",
-    image: "/assets/images/services/SwiftCyber/sonali.png",
-  },
-  {
-    id: 2,
-    name: "Social Islami Bank Limited",
-    image: "/assets/images/services/SwiftCyber/sibl.png",
-  },
-  {
-    id: 3,
-    name: "Shimanto Bank Limited",
-    image: "/assets/images/services/SwiftCyber/shimanto.png",
-  },
-  {
-    id: 4,
-    name: "Padma Bank Limited",
-    image: "/assets/images/services/SwiftCyber/padma.png",
-  },
-  {
-    id: 5,
-    name: "South Bangla Agriculture Bank Limited",
-    image: "/assets/images/services/SwiftCyber/sbac.png",
-  },
-  {
-    id: 6,
-    name: "Meghna Bank Limited",
-    image: "/assets/images/services/SwiftCyber/meghna.png",
-  },
-  {
-    id: 7,
-    name: "NRB Bank Limited",
-    image: "/assets/images/services/SwiftCyber/nrb.png",
-  },
-  {
-    id: 8,
-    name: "IFIC Bank Limited",
-    image: "/assets/images/services/SwiftCyber/ific.png",
-  },
-  
-];
+  const clients = [
+    {
+      id: 1,
+      name: "Sonali Bank Limited",
+      image: "/assets/images/services/SwiftCyber/sonali.png",
+    },
+    {
+      id: 2,
+      name: "Social Islami Bank Limited",
+      image: "/assets/images/services/SwiftCyber/sibl.png",
+    },
+    {
+      id: 3,
+      name: "Shimanto Bank Limited",
+      image: "/assets/images/services/SwiftCyber/shimanto.png",
+    },
+    {
+      id: 4,
+      name: "Padma Bank Limited",
+      image: "/assets/images/services/SwiftCyber/padma.png",
+    },
+    {
+      id: 5,
+      name: "South Bangla Agriculture Bank Limited",
+      image: "/assets/images/services/SwiftCyber/sbac.png",
+    },
+    {
+      id: 6,
+      name: "Meghna Bank Limited",
+      image: "/assets/images/services/SwiftCyber/meghna.png",
+    },
+    {
+      id: 7,
+      name: "NRB Bank Limited",
+      image: "/assets/images/services/SwiftCyber/nrb.png",
+    },
+    {
+      id: 8,
+      name: "IFIC Bank Limited",
+      image: "/assets/images/services/SwiftCyber/ific.png",
+    },
+  ];
 
   const settings = {
     dots: false,
@@ -62,24 +61,24 @@ function SwiftInformation() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 817,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-        }
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -94,22 +93,22 @@ function SwiftInformation() {
         <div className="mx-5">
           <div className="section-title text-center">
             <h2 className="header">
-              Some of our valued Customers: SWIFT CSP Audit , Cybersecurity Services (specially SWIFT)
+              Some of our valued Customers: SWIFT CSP Audit , Cybersecurity
+              Services (specially SWIFT)
             </h2>
           </div>
 
           <Slider {...settings}>
-  {clients.map((client) => (
-    <div key={client.id} className="item border-5">
-         <img
-          src={client.image}
-          alt={client.name || "Client logo"}
-          title={client.name}
-         />
-     </div>
-  ))}
-</Slider>
-
+            {clients.map((client) => (
+              <div key={client.id} className="item border-5">
+                <img
+                  src={client.image}
+                  alt={client.name || "Client logo"}
+                  title={client.name}
+                />
+              </div>
+            ))}
+          </Slider>
         </div>
       </section>
       <br />

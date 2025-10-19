@@ -1,17 +1,25 @@
-import React, { useState } from 'react'
-import ManagementNav from './ManagementNav';
+import React, { useState } from "react";
+import ManagementNav from "./ManagementNav";
 function ManagementBody() {
   const [tabIndex, setTabIndex] = useState(1);
 
   return (
     <div>
       <div className="page-header">
-        <div className="page-header__bg"
-          style={{ backgroundImage: `url('/assets/images/background/page-header-bg-1-1.jpg')` }}></div>
+        <div
+          className="page-header__bg"
+          style={{
+            backgroundImage: `url('/assets/images/background/page-header-bg-1-1.jpg')`,
+          }}
+        ></div>
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
-            <li><a href="{{ url('/') }}">Home</a></li>
-            <li><a href="{{ url('/services/security-training') }}">Training</a></li>
+            <li>
+              <a href="{{ url('/') }}">Home</a>
+            </li>
+            <li>
+              <a href="{{ url('/services/security-training') }}">Training</a>
+            </li>
             <li>Management</li>
           </ul>
           <h2 className="page-header__title">Management</h2>
@@ -21,18 +29,31 @@ function ManagementBody() {
         <div className="container">
           <div className="row">
             <div className="col-lg-7">
-
-
-              <h3 style={{ color: "orange" }} className="blog-card-one__title blog-details__title">Management</h3>
+              <h3
+                style={{ color: "orange" }}
+                className="blog-card-one__title blog-details__title"
+              >
+                Management
+              </h3>
               <div className="blog-details__content">
                 <p>
-                  “Right Time Limited” (RightTime) provides training programs that focus on ICT management principles and practices. These programs equip participants with the necessary skills to effectively manage ICT infrastructure, resources, and processes within an organization. Topics covered may include IT governance, IT service management, IT project management, and IT strategy development. By attending these training programs, participants can improve their ability to align ICT initiatives with business objectives and ensure efficient and secure ICT operations.                    <br />
+                  “Right Time Limited” (RightTime) provides training programs
+                  that focus on ICT management principles and practices. These
+                  programs equip participants with the necessary skills to
+                  effectively manage ICT infrastructure, resources, and
+                  processes within an organization. Topics covered may include
+                  IT governance, IT service management, IT project management,
+                  and IT strategy development. By attending these training
+                  programs, participants can improve their ability to align ICT
+                  initiatives with business objectives and ensure efficient and
+                  secure ICT operations. <br />
                 </p>
 
-                <img style={{ width: "100%" }} src='https://www.tuvsud.com/-/media/regions/sg/images/services/cybersecurity/ss-1115081195-operational-technology-security.jpg?h=1050&w=4050&la=en-ID&hash=9E0802B29A903A99B683EB1B18B3F05B' />
+                <img
+                  style={{ width: "100%" }}
+                  src="https://www.tuvsud.com/-/media/regions/sg/images/services/cybersecurity/ss-1115081195-operational-technology-security.jpg?h=1050&w=4050&la=en-ID&hash=9E0802B29A903A99B683EB1B18B3F05B"
+                />
               </div>
-
-
             </div>
             <div className="col-lg-5 mt-5">
               <ManagementNav />
@@ -298,21 +319,32 @@ By delivering training that aligns with the organization's specific context, Rig
 
         </section> */}
 
-
-      <div className="page-header mt-4" >
-        <div className="page-header__bg"
-          style={{ backgroundImage: `url('https://www.icorps.com/hs-fs/hubfs/Hero%20Image%2021-1.png?width=1500&height=600&name=Hero%20Image%2021-1.png')` }}></div>
+      <div className="page-header mt-4">
+        <div
+          className="page-header__bg"
+          style={{
+            backgroundImage: `url('https://www.icorps.com/hs-fs/hubfs/Hero%20Image%2021-1.png?width=1500&height=600&name=Hero%20Image%2021-1.png')`,
+          }}
+        ></div>
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
             <h2 className="text-light">Digital Badging</h2>
           </ul>
-          <p className="text-light dipt-breadcrump-paragraph ">“Right Time Limited” is a highly esteemed security service provider, assisting businesses in fortifying their security posture. It offers expert consultation, meticulous testing, certification support, and reliable managed services to safeguard assets and mitigate risks.</p>
+          <p className="text-light dipt-breadcrump-paragraph ">
+            “Right Time Limited” is a highly esteemed security service provider,
+            assisting businesses in fortifying their security posture. It offers
+            expert consultation, meticulous testing, certification support, and
+            reliable managed services to safeguard assets and mitigate risks.
+          </p>
         </div>
       </div>
 
-      <br /><br /><br /><br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
-  )
+  );
 }
 
-export default ManagementBody
+export default ManagementBody;

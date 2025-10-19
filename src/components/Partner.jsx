@@ -1,8 +1,6 @@
-
 import React from "react";
 import Slider from "react-slick";
 function Partner() {
-
   var settings = {
     dots: false,
     infinite: false,
@@ -20,24 +18,24 @@ function Partner() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 817,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-        }
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div>
@@ -49,36 +47,73 @@ function Partner() {
         <Slider {...settings}>
           <div>
             <div className="item">
-              <img style={{height:"220px",objectFit:"cover",borderRadius:"6px"}} src="/assets/images/partners/1.jpg" alt="" />
+              <img
+                style={{
+                  height: "220px",
+                  objectFit: "cover",
+                  borderRadius: "6px",
+                }}
+                src="/assets/images/partners/1.jpg"
+                alt=""
+              />
             </div>
           </div>
           <div>
             <div className="item">
-              <img style={{height:"220px",objectFit:"cover",borderRadius:"6px"}} src="/assets/images/partners/2.jpg" alt="" />
+              <img
+                style={{
+                  height: "220px",
+                  objectFit: "cover",
+                  borderRadius: "6px",
+                }}
+                src="/assets/images/partners/2.jpg"
+                alt=""
+              />
             </div>
           </div>
           <div>
             <div className="item">
-              <img style={{height:"220px",objectFit:"cover",borderRadius:"6px"}} src="/assets/images/partners/3.jpg" alt="" />
-            </div>        </div>
+              <img
+                style={{
+                  height: "220px",
+                  objectFit: "cover",
+                  borderRadius: "6px",
+                }}
+                src="/assets/images/partners/3.jpg"
+                alt=""
+              />
+            </div>{" "}
+          </div>
           <div>
             <div className="item">
-              <img style={{height:"220px",objectFit:"cover",borderRadius:"6px"}} src="/assets/images/partners/4.jpg" alt="" />
+              <img
+                style={{
+                  height: "220px",
+                  objectFit: "cover",
+                  borderRadius: "6px",
+                }}
+                src="/assets/images/partners/4.jpg"
+                alt=""
+              />
             </div>
           </div>
           <div>
             <div className="item">
-              <img style={{height:"220px",objectFit:"cover",borderRadius:"6px"}} src="/assets/images/partners/5.jpg" alt="" />
+              <img
+                style={{
+                  height: "220px",
+                  objectFit: "cover",
+                  borderRadius: "6px",
+                }}
+                src="/assets/images/partners/5.jpg"
+                alt=""
+              />
             </div>
           </div>
-           
-
         </Slider>
-
       </section>
     </div>
   );
 }
 
 export default Partner;
-

@@ -18,7 +18,7 @@
 }
 
 .featured-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -101,7 +101,11 @@
 }
 
 .bg-primary {
-  background: linear-gradient(135deg, orange 0%, rgb(134, 132, 127)  100%) !important;
+  background: linear-gradient(
+    135deg,
+    orange 0%,
+    rgb(134, 132, 127) 100%
+  ) !important;
 }
 
 .bg-warning {
@@ -137,7 +141,7 @@
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #0056b3 0%, rgb(134, 132, 127)  100%);
+  background: linear-gradient(135deg, #0056b3 0%, rgb(134, 132, 127) 100%);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
 }
@@ -188,7 +192,11 @@
 
 /* Call to action section */
 .bg-primary {
-  background: linear-gradient(135deg, orange 0%, rgb(134, 132, 127) 100%) !important;
+  background: linear-gradient(
+    135deg,
+    orange 0%,
+    rgb(134, 132, 127) 100%
+  ) !important;
 }
 
 .btn-light {
@@ -223,30 +231,30 @@
   .display-4 {
     font-size: 2.5rem;
   }
-  
+
   .display-5 {
     font-size: 2rem;
   }
-  
+
   .display-6 {
     font-size: 1.75rem;
   }
-  
+
   .datasheet-card:hover {
     transform: translateY(-4px);
   }
-  
+
   .category-btn {
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
     padding: 0.4rem 0.8rem;
   }
-  
+
   .d-flex.gap-3 {
     flex-direction: column;
     gap: 1rem !important;
   }
-  
+
   .btn-lg {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
@@ -257,14 +265,14 @@
   .input-group {
     flex-direction: column;
   }
-  
+
   .input-group .input-group-text,
   .input-group .form-control,
   .input-group .btn {
     border-radius: 8px !important;
     margin-bottom: 0.5rem;
   }
-  
+
   .input-group .btn {
     margin-bottom: 0;
   }
@@ -390,7 +398,7 @@
 }
 
 .datasheet-card.loading::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -404,6 +412,10 @@
 }
 
 @keyframes spin {
-  0% { transform: translate(-50%, -50%) rotate(0deg); }
-  100% { transform: translate(-50%, -50%) rotate(360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }

@@ -43,7 +43,6 @@ import SolutionPartner from "./views/Partners/SolutionPartner";
 import Association from "./views/Partners/Association";
 // Partner Section Imported End
 
-
 //Service Section Imported Start
 import ServiceBody from "./views/Services/ServiceBody";
 //Consultation
@@ -63,7 +62,6 @@ import InformationTechnology from "./views/Services/Auditing/InformationTechnolo
 import InformatonSystem from "./views/Services/Auditing/InformatonSystem";
 import Soc1Audit from "./views/Services/Auditing/Soc1Audit";
 import Soc2Audit from "./views/Services/Auditing/Soc2Audit";
-
 
 //Security testing
 import SecuirityTesting from "./views/Services/SecuirityTesting/SecurityTesting";
@@ -166,7 +164,6 @@ import blogs from "./views/resource/Blogs";
 import Team from "./views/Company/team/Team";
 import AdvisoryBoard from "./views/Company/advisoryBoard/AdvisoryBoard";
 
-
 // Account Section Imported Start
 import Login from "./views/Accounts/Login";
 import LoginBody from "./views/Accounts/LoginBody";
@@ -175,15 +172,12 @@ import LoginBody from "./views/Accounts/LoginBody";
 
 import IncidentBody from "./views/incident/IncidentBody";
 
-
 // cyber Defence Section Imported Start
 import CyberDefenseCenter from "./views/incident/CyberDefenseCenter";
 import CyberDefenseServices from "./views/incident/CyberDefenseServices";
 import DefenceCenter from "./views/incident/DefenceCenter";
 import Services from "./views/incident/Services";
 import AssociationBody from "./views/Association/AssociationBody";
-
-
 
 //  Association Section Imported End
 import Basis from "./views/Association/Basis";
@@ -195,7 +189,6 @@ import WorlBank from "./views/Association/WorlBank";
 
 //  Association Section Imported End
 
-
 //Service Partners Section Imported Start
 import Acnabin from "./views/Partners/ServicePertner/Acnabin";
 import EcCouncil from "./views/Partners/ServicePertner/EcCouncil";
@@ -203,12 +196,9 @@ import PersonView from "./views/Partners/ServicePertner/PersonView";
 import Pecb from "./views/Partners/ServicePertner/Pecb";
 import Sck from "./views/Partners/ServicePertner/Sck";
 
-
 // Service Partners Section Imported End
 
 // Solution Partners Section Imported Start
-
-
 
 import Alltenable from "./views/Partners/SolutionPartner/Alltenable";
 import BurpSuit from "./views/Partners/SolutionPartner/BurpSuit";
@@ -230,7 +220,6 @@ import PrivillegeAccess from "./views/Solutions/PrivillegeAccess";
 import GIACCertifiedIncident from "./views/Training/Management/GIACCertifiedIncident";
 import PracticalEthicalHacker from "./views/Training/Management/PracticalEthicalHacker";
 import OpenSource from "./views/Training/Management/OpenSource";
-
 
 import CaseStudies from "./views/resource/CaseStudies";
 import CheckList from "./views/resource/CheckList";
@@ -262,9 +251,7 @@ import RulesRegulation from "./views/resource/RulesRegulation";
 import FAQs from "./views/resource/FAQs";
 import Reports from "./views/resource/Reports";
 
-
 function App() {
-
   const show = localStorage.getItem("location");
   if (!show) {
     localStorage.setItem("location", "2");
@@ -273,127 +260,152 @@ function App() {
   const handleLocationChange = (e) => {
     localStorage.setItem("location", e.target.value);
     window.location.reload();
-   };
+  };
 
-   const detectCountry = async () => {
-      try {
-        const response = await axios.get("https://ipwho.is/");
-        const country = response.data.country;
+  const detectCountry = async () => {
+    try {
+      const response = await axios.get("https://ipwho.is/");
+      const country = response.data.country;
 
-        if (country === "Bangladesh") {
-          localStorage.setItem("location", "1");
-        } else if (country === "United States") {
-          localStorage.setItem("location", "2");
-        } else if (country === "Australia") {
-          localStorage.setItem("location", "3");
-        } else if (country === "Germany") {
-          localStorage.setItem("location", "4");
-        } else {
-          localStorage.setItem("location", "2");
-        }
-      } catch (error) {
-        console.error("Geo detection failed:", error);
+      if (country === "Bangladesh") {
+        localStorage.setItem("location", "1");
+      } else if (country === "United States") {
+        localStorage.setItem("location", "2");
+      } else if (country === "Australia") {
+        localStorage.setItem("location", "3");
+      } else if (country === "Germany") {
+        localStorage.setItem("location", "4");
+      } else {
         localStorage.setItem("location", "2");
       }
-    };
+    } catch (error) {
+      console.error("Geo detection failed:", error);
+      localStorage.setItem("location", "2");
+    }
+  };
 
   useEffect(() => {
-    
     detectCountry();
   }, []);
-
- 
 
   return (
     <Router>
       <ToastContainer />
 
-      <div className="custom-cursor__cursor">
-
-      </div>
+      <div className="custom-cursor__cursor"></div>
       <div className="custom-cursor__cursor-two"></div>
-
 
       <div className="page-wrapper">
         <div className="topbar">
           <div className="d-flex mx-2 py-2 ">
             <div className="d-flex">
-              <p style={{ fontSize: "11px" }} className="topbar__text pt-1">Welcome to Right Time Limited</p>
-              {
-                show === '1' ?
-                  <img className="m-2" width="30px" src="assets/images/flag/bd.png" alt="" />
-
-                  : show === '2' ?
-                    <img className="m-2" width="30px" src="assets/images/flag/usa.png" alt="" />
-                    : show === '3' ?
-                      <img className="m-2" width="30px" src="assets/images/flag/aus.png" alt="" />
-                      : <img className="m-2" width="30px" src="assets/images/flag/de.png" alt="" />
-
-              }
+              <p style={{ fontSize: "11px" }} className="topbar__text pt-1">
+                Welcome to Right Time Limited
+              </p>
+              {show === "1" ? (
+                <img
+                  className="m-2"
+                  width="30px"
+                  src="assets/images/flag/bd.png"
+                  alt=""
+                />
+              ) : show === "2" ? (
+                <img
+                  className="m-2"
+                  width="30px"
+                  src="assets/images/flag/usa.png"
+                  alt=""
+                />
+              ) : show === "3" ? (
+                <img
+                  className="m-2"
+                  width="30px"
+                  src="assets/images/flag/aus.png"
+                  alt=""
+                />
+              ) : (
+                <img
+                  className="m-2"
+                  width="30px"
+                  src="assets/images/flag/de.png"
+                  alt=""
+                />
+              )}
             </div>
 
-
             <ul className="topbar__info">
-              <li><marquee style={{ color: "orange", width: "100px" }}>together we make the world happier</marquee></li>
+              <li>
+                <marquee style={{ color: "orange", width: "100px" }}>
+                  together we make the world happier
+                </marquee>
+              </li>
 
-              {
-                show === '1' ? (
-                  <>
-                    <li>
-                      <i className="fa fa-envelope"></i>
-                      <a href="/">info@righttime.biz</a>
-                    </li>
-                    <li className="liveLocation">
-                      <span><i className="fa fa-map-marker"></i>
-                        Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar, Tejgaon</span>
-                    </li>
-                  </>
-
-                )
-
-                  : show === '2' ?
-                    <>
-                      <li>
-                        <i className="fa fa-envelope"></i>
-                        <a href="mailto:info@righttime.biz"> coo.usa@righttime.biz</a>
-                      </li>
-                      <li className="liveLocation">
-                        <span><i className="fa fa-map-marker"></i>5669 N Fresno St, Apt 232
-                          Fresno, CA 93710
-                        </span>
-                      </li>
-
-                    </>
-                    : show === '3' ?
-                      <>
-                        <li>
-                          <i className="fa fa-envelope"></i>
-                          <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
-                        </li>
-                        <li className="liveLocation">
-                          <span ><i className="fa fa-map-marker"></i>  11 Dahlia St. Quakers Hill,NSW 2763,Sydney,Australia.
-
-                          </span>
-
-                        </li>
-                      </>
-                      :
-                      <>
-                        <li>
-                          <i className="fa fa-envelope"></i>
-                          <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
-                        </li>
-                        <li className="liveLocation">
-                          <span><i className="fa fa-map-marker"></i>  Hausmann str-1.44139,Dortmund. Germany
-
-                          </span>
-
-                        </li>
-                      </>
-
-
-              }
-              <a className="px-2" href="/login-body"> <li className="px-2 text-light  " style={{ border: "1px solid gray" }}>Login (Customer + Employee)</li></a>
+              {show === "1" ? (
+                <>
+                  <li>
+                    <i className="fa fa-envelope"></i>
+                    <a href="/">info@righttime.biz</a>
+                  </li>
+                  <li className="liveLocation">
+                    <span>
+                      <i className="fa fa-map-marker"></i>
+                      Level: 06 & 14 (west), BDBL Bhaban, 12, Karwan Bazar,
+                      Tejgaon
+                    </span>
+                  </li>
+                </>
+              ) : show === "2" ? (
+                <>
+                  <li>
+                    <i className="fa fa-envelope"></i>
+                    <a href="mailto:info@righttime.biz">
+                      {" "}
+                      coo.usa@righttime.biz
+                    </a>
+                  </li>
+                  <li className="liveLocation">
+                    <span>
+                      <i className="fa fa-map-marker"></i>5669 N Fresno St, Apt
+                      232 Fresno, CA 93710
+                    </span>
+                  </li>
+                </>
+              ) : show === "3" ? (
+                <>
+                  <li>
+                    <i className="fa fa-envelope"></i>
+                    <a href="mailto:info@righttime.biz">coo.au@righttime.biz</a>
+                  </li>
+                  <li className="liveLocation">
+                    <span>
+                      <i className="fa fa-map-marker"></i> 11 Dahlia St. Quakers
+                      Hill,NSW 2763,Sydney,Australia.
+                    </span>
+                  </li>
+                </>
+              ) : (
+                <>
+                  <li>
+                    <i className="fa fa-envelope"></i>
+                    <a href="mailto:info@righttime.biz">coo.de@righttime.biz</a>
+                  </li>
+                  <li className="liveLocation">
+                    <span>
+                      <i className="fa fa-map-marker"></i> Hausmann
+                      str-1.44139,Dortmund. Germany
+                    </span>
+                  </li>
+                </>
+              )}
+              <a className="px-2" href="/login-body">
+                {" "}
+                <li
+                  className="px-2 text-light  "
+                  style={{ border: "1px solid gray" }}
+                >
+                  Login (Customer + Employee)
+                </li>
+              </a>
 
               <li>
                 <div className="dropdown">
@@ -409,15 +421,23 @@ function App() {
                   <a href="/">Australia</a>
                   <a href="/">Germany</a>
                 </select> */}
-                  <select className="topbar py-1 text-light"
+                  <select
+                    className="topbar py-1 text-light"
                     value={show}
                     onChange={handleLocationChange}
-
                   >
-                    <option value="1"><a href="/">Bangladesh</a></option>
-                    <option value="2"><a href="/">USA</a></option>
-                    <option value="3"><a href="/">Australia</a></option>
-                    <option value="4"><a href="/">Germany</a></option>
+                    <option value="1">
+                      <a href="/">Bangladesh</a>
+                    </option>
+                    <option value="2">
+                      <a href="/">USA</a>
+                    </option>
+                    <option value="3">
+                      <a href="/">Australia</a>
+                    </option>
+                    <option value="4">
+                      <a href="/">Germany</a>
+                    </option>
                   </select>
                 </div>
               </li>
@@ -449,17 +469,23 @@ function App() {
           <CookieConsent
             location="bottom"
             buttonclassNamees="rounded-pill"
-
             buttonText="Accepted Cookies"
             cookieName="myAwesomeCookieName2"
             style={{ background: "#2B373B" }}
-            buttonStyle={{ color: "#4e503b", fontSize: "13px", borderReidus: "60px", textAlign: "center", alignItem: "center", marginRight: "150px" }}
+            buttonStyle={{
+              color: "#4e503b",
+              fontSize: "13px",
+              borderReidus: "60px",
+              textAlign: "center",
+              alignItem: "center",
+              marginRight: "150px",
+            }}
             expires={350}
-
           >
-            We use cookies to enhance your user experience. By continuing to browse, you hereby agree to the use of cookies. To know more; visit our <a href="/">Privacy Policy</a> & <a href="/">Cookies Policy.</a>
+            We use cookies to enhance your user experience. By continuing to
+            browse, you hereby agree to the use of cookies. To know more; visit
+            our <a href="/">Privacy Policy</a> & <a href="/">Cookies Policy.</a>
           </CookieConsent>
-
 
           {/*Dashboard Section Route Declaration start */}
           <Route path="/" component={Dashboard} exact />
@@ -473,7 +499,6 @@ function App() {
           <Route path="/publication" component={Publication} exact />
           <Route path="/press-release" component={PressRelased} exact />
           <Route path="/picture-gallery" component={PictureGallaries} exact />
-
 
           {/* Association  Section Route Declaration start   */}
           <Route path="/Basis" component={Basis} exact />
@@ -507,16 +532,6 @@ function App() {
           <Route path="/SafeAen" component={SafeAen} exact />
           <Route path="/Tenable" component={Tenable} exact />
 
-
-
-
-
-
-
-
-
-
-
           {/*AboutUs Section Route Declaration end */}
 
           {/*Industries Section Route Declaration start */}
@@ -524,13 +539,16 @@ function App() {
           <Route path="/bank-nbfi" component={BankNbfi} exact />
           <Route path="/telecomunication" component={Telecomunication} exact />
           <Route path="/payment-card" component={PaymentCard} exact />
-          <Route path="/educational-institutions" component={Educational} exact />
+          <Route
+            path="/educational-institutions"
+            component={Educational}
+            exact
+          />
           <Route path="/ecommerce-retail" component={EcommerceReatail} exact />
           <Route path="/health-care" component={HealthCare} exact />
           <Route path="/insurance" component={Insurance} exact />
           <Route path="/bpo-service" component={BpoService} exact />
           <Route path="/power-sector" component={PowerSector} exact />
-
 
           {/*Industries Section Route Declaration End */}
 
@@ -547,12 +565,36 @@ function App() {
           {/* Consultation */}
           <Route path="/services" component={ServiceBody} exact />
           <Route path="/consultation" component={ConsultationBody} exact />
-          <Route path="/consultation-on-shaping" component={ConsultationOnShaping} exact />
-          <Route path="/information-security-Special" component={InformationSecuritySpecial} exact />
-          <Route path="/project-management" component={ProjectManagement} exact />
-          <Route path="/providing-security" component={ProvidingSecurity} exact />
-          <Route path="/swift-cyber-security" component={SwiftCyberSecurity} exact />
-          <Route path="/technical-documentation" component={TechnicalDoccumentation} exact />
+          <Route
+            path="/consultation-on-shaping"
+            component={ConsultationOnShaping}
+            exact
+          />
+          <Route
+            path="/information-security-Special"
+            component={InformationSecuritySpecial}
+            exact
+          />
+          <Route
+            path="/project-management"
+            component={ProjectManagement}
+            exact
+          />
+          <Route
+            path="/providing-security"
+            component={ProvidingSecurity}
+            exact
+          />
+          <Route
+            path="/swift-cyber-security"
+            component={SwiftCyberSecurity}
+            exact
+          />
+          <Route
+            path="/technical-documentation"
+            component={TechnicalDoccumentation}
+            exact
+          />
           <Route path="/pci-dss-consultation" component={PciDss} exact />
           <Route path="/Lean-Consultation" component={LeanConsultation} exact />
           <Route path="/Six-sigma" component={SixSigma} exact />
@@ -560,18 +602,24 @@ function App() {
           <Route path="/zero-trust" component={ZeroTrust} exact />
           <Route path="/profile" component={Profile} exact />
 
-
-
-
-
-
-
           {/* Auditing */}
           <Route path="/auditing" component={AuditingBody} exact />
           <Route path="/dc-drs-auditing" component={DcDrsAuditing} exact />
-          <Route path="/information-security-graded" component={InformationSecurityGraded} exact />
-          <Route path="/information-technology" component={InformationTechnology} exact />
-          <Route path="/information-system" component={InformatonSystem} exact />
+          <Route
+            path="/information-security-graded"
+            component={InformationSecurityGraded}
+            exact
+          />
+          <Route
+            path="/information-technology"
+            component={InformationTechnology}
+            exact
+          />
+          <Route
+            path="/information-system"
+            component={InformatonSystem}
+            exact
+          />
           <Route path="/swift-csp" component={SwiftCsp} exact />
           <Route path="/soc-1" component={Soc1Audit} exact />
           <Route path="/soc-2" component={Soc2Audit} exact />
@@ -580,7 +628,11 @@ function App() {
           <Route path="/security-testing" component={SecuirityTesting} exact />
           <Route path="/code-review" component={CodeReview} exact />
           <Route path="/digital-forensics" component={DigitalForensics} exact />
-          <Route path="/vulnerability-assessment" component={VulnerabilityAssesment} exact />
+          <Route
+            path="/vulnerability-assessment"
+            component={VulnerabilityAssesment}
+            exact
+          />
           <Route path="/software-quality" component={SoftwareQuality} exact />
           <Route path="/breach-attack" component={BreachAttack} exact />
           <Route path="/poster-assessment" component={PosterAssessment} exact />
@@ -589,12 +641,23 @@ function App() {
           <Route path="/certification" component={CertificationBody} exact />
           <Route path="/cmmi" component={Cmmi} exact />
           <Route path="/iso-international" component={IsoInternational} exact />
-          <Route path="/tia-for-data-center" component={TiaForDataCenter} exact />
+          <Route
+            path="/tia-for-data-center"
+            component={TiaForDataCenter}
+            exact
+          />
           <Route path="/pci-dss-payment" component={PciDssPayment} exact />
           <Route path="/iso-standard" component={IsoStandard} exact />
-          <Route path="/gdpr-certification" component={GDPRCertification} exact />
-          <Route path="/hippa-certification" component={HippaCertification} exact />
-
+          <Route
+            path="/gdpr-certification"
+            component={GDPRCertification}
+            exact
+          />
+          <Route
+            path="/hippa-certification"
+            component={HippaCertification}
+            exact
+          />
 
           {/*Services Section Route Declaration End */}
 
@@ -620,17 +683,29 @@ function App() {
           <Route path="/digital-asset" component={DigitalAsset} exact />
           <Route path="/patch-management" component={SmartContact} exact />
           <Route path="/privilege-access" component={PrivillegeAccess} exact />
-          <Route path="/secuirity-assessment" component={SecuirityAssessment} exact />
-          <Route path="/secuirity-management" component={SecuirityManagement} exact />
+          <Route
+            path="/secuirity-assessment"
+            component={SecuirityAssessment}
+            exact
+          />
+          <Route
+            path="/secuirity-management"
+            component={SecuirityManagement}
+            exact
+          />
           <Route path="/stack-for-alm" component={StackforAlm} exact />
-          <Route path="/network-application" component={NetworkApplication} exact />
-          <Route path="/digital-transformation" component={DigitalTransformation} exact />
+          <Route
+            path="/network-application"
+            component={NetworkApplication}
+            exact
+          />
+          <Route
+            path="/digital-transformation"
+            component={DigitalTransformation}
+            exact
+          />
           <Route path="/work-from-home" component={WorkFromHome} exact />
           <Route path="/tenable-sltn" component={TenableSltn} exact />
-
-
-
-
 
           {/*Solution Section Route Declaration End */}
 
@@ -639,44 +714,119 @@ function App() {
           <Route path="/training" component={TrainingBody} exact />
           <Route path="/pathway" component={Pathway} exact />
           <Route path="/interactive-map" component={InteractiveMap} exact />
-          <Route path="/education-training" component={EducationTraining} exact />
-
+          <Route
+            path="/education-training"
+            component={EducationTraining}
+            exact
+          />
 
           <Route path="/assesment" component={AssessmentBody} exact />
-          <Route path="/penetration-testing" component={PenetrationTesting} exact />
-          <Route path="/certified-penetration" component={CertifiedPenetration} exact />
+          <Route
+            path="/penetration-testing"
+            component={PenetrationTesting}
+            exact
+          />
+          <Route
+            path="/certified-penetration"
+            component={CertifiedPenetration}
+            exact
+          />
           <Route path="/Offensive" component={Offensive} exact />
           <Route path="/computer-hacking" component={ComputerHacking} exact />
           <Route path="/giac-penetration" component={GiacPenetration} exact />
-          <Route path="/giac-web-application" component={GiacWebApplication} exact />
-          <Route path="/certified-information" component={CertifiedInformation} exact />
+          <Route
+            path="/giac-web-application"
+            component={GiacWebApplication}
+            exact
+          />
+          <Route
+            path="/certified-information"
+            component={CertifiedInformation}
+            exact
+          />
           {/*Management */}
           <Route path="/management" component={ManagementBody} exact />
-          <Route path="/certified-disaster" component={CertifiedDisaster} exact />
-          <Route path="/certified-incident-handler" component={CertifiedIncidentHandler} exact />
-          <Route path="/certified-information-system" component={CertifiedInformationSystem} exact />
-          <Route path="/certified-information-security" component={CertifiedInformationSecurity} exact />
-          <Route path="/certified-information-system-security" component={CertifiedInformationSystemSecurity} exact />
-          <Route path="/certified-soc-analyst" component={CertifiedSocAnalyst} exact />
+          <Route
+            path="/certified-disaster"
+            component={CertifiedDisaster}
+            exact
+          />
+          <Route
+            path="/certified-incident-handler"
+            component={CertifiedIncidentHandler}
+            exact
+          />
+          <Route
+            path="/certified-information-system"
+            component={CertifiedInformationSystem}
+            exact
+          />
+          <Route
+            path="/certified-information-security"
+            component={CertifiedInformationSecurity}
+            exact
+          />
+          <Route
+            path="/certified-information-system-security"
+            component={CertifiedInformationSystemSecurity}
+            exact
+          />
+          <Route
+            path="/certified-soc-analyst"
+            component={CertifiedSocAnalyst}
+            exact
+          />
           <Route path="/certified-threat" component={CertifiedThreat} exact />
-          <Route path="/giac-certified-project" component={GiacCertifiedProject} exact />
-          <Route path="/giac-certified-incident" component={GIACCertifiedIncident} exact />
+          <Route
+            path="/giac-certified-project"
+            component={GiacCertifiedProject}
+            exact
+          />
+          <Route
+            path="/giac-certified-incident"
+            component={GIACCertifiedIncident}
+            exact
+          />
 
-          <Route path="/practical-hacker" component={PracticalEthicalHacker} exact />
+          <Route
+            path="/practical-hacker"
+            component={PracticalEthicalHacker}
+            exact
+          />
           <Route path="/open-source" component={OpenSource} exact />
 
           {/*Customized */}
           <Route path="/customized" component={CustomizedBody} exact />
           <Route path="/advance-corporate" component={AdvanceCorporate} exact />
           <Route path="/basic-corporate" component={BasisCorporate} exact />
-          <Route path="/intermidiate-corporate" component={IntermidiateCorporate} exact />
-          <Route path="/one-to-one-training" component={OneToOneTraining} exact />
+          <Route
+            path="/intermidiate-corporate"
+            component={IntermidiateCorporate}
+            exact
+          />
+          <Route
+            path="/one-to-one-training"
+            component={OneToOneTraining}
+            exact
+          />
           <Route path="/foundation-track" component={FoundationTrack} exact />
-          <Route path="/network-defense-operations" component={NetworkDefenseOperations} exact />
+          <Route
+            path="/network-defense-operations"
+            component={NetworkDefenseOperations}
+            exact
+          />
           <Route path="/software-security" component={SoftwareSecurity} exact />
-          <Route path="/vulnerability-assessment-&-penetration-testing" component={AssessmentAndPenetrationTesting} exact />
+          <Route
+            path="/vulnerability-assessment-&-penetration-testing"
+            component={AssessmentAndPenetrationTesting}
+            exact
+          />
           <Route path="/cyber-forensic" component={CyberForensic} exact />
-          <Route path="/governance-corporate" component={GovernanceCorporate} exact />
+          <Route
+            path="/governance-corporate"
+            component={GovernanceCorporate}
+            exact
+          />
 
           {/*Trainig Section Route Declaration End */}
 
@@ -685,7 +835,6 @@ function App() {
           <Route path="/view-job" component={ViewJob} exact />
           <Route path="/apply-job" component={ApplyJob} exact />
           <Route path="/All-job" component={AllJob} exact />
-
 
           {/*Careers Section Route Declaration End */}
 
@@ -713,12 +862,9 @@ function App() {
           <Route path="/faqs" component={FAQs} exact />
           <Route path="/reports" component={Reports} exact />
 
-
           {/* Team section route declaration start */}
           <Route path="/team" component={Team} exact />
           <Route path="/advisory-board" component={AdvisoryBoard} exact />
-
-
 
           {/*account Section Route Declaration start */}
           <Route path="/login" component={Login} exact />
@@ -728,21 +874,20 @@ function App() {
 
           {/*Incident Section Route Declaration */}
           <Route path="/incident" component={IncidentBody} exact />
-          <Route path="/cyber-defense-center" component={CyberDefenseCenter} exact />
-          <Route path="/cyber-defense-services" component={CyberDefenseServices} exact />
+          <Route
+            path="/cyber-defense-center"
+            component={CyberDefenseCenter}
+            exact
+          />
+          <Route
+            path="/cyber-defense-services"
+            component={CyberDefenseServices}
+            exact
+          />
 
           <Route path="/defense-center" component={DefenceCenter} exact />
 
           <Route path="/cyber-services" component={Services} exact />
-
-
-
-
-
-
-
-
-
         </div>
         {/* Footer Section Route Declaration */}
         <Footer show={show} />
@@ -750,11 +895,8 @@ function App() {
         <i className="fa fa-angle-up"></i>
       </a> */}
       </div>
-
-
     </Router>
   );
 }
 
 export default App;
-

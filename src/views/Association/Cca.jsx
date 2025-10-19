@@ -1,10 +1,8 @@
-import React from 'react'
-import Allpage from '../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../components/all-page/Allpage";
 
 function Cca() {
-  return (
-    <Allpage data="CCA"/>
-  )
+  return <Allpage data="CCA" />;
 }
 
-export default Cca
+export default Cca;

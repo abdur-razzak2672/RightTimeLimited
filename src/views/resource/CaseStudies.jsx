@@ -1,8 +1,6 @@
-import React from 'react'
-import Allpage from '../../components/all-page/Allpage'
+import React from "react";
 
 function CaseStudies() {
-
   const htmlString = `
   <div style="box-sizing: border-box; margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(225, 225, 225); border-image: initial; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: opensans-regular, Helvetica, Arial, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; clear: both; position: relative; background-color: rgb(230, 234, 239); color: rgb(51, 51, 51); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" id="isPasted">
 	<div style="box-sizing: border-box; margin: 0px auto; padding: 10px 50px; border: 0px rgb(225, 225, 225); font: inherit; vertical-align: baseline; position: relative; width: 1130px; clear: both; max-width: 1130px; min-height: 56px;">
@@ -17,7 +15,7 @@ function CaseStudies() {
 					<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; z-index: 1; float: left; position: relative; min-height: 1px; width: 701.891px; clear: left; border-radius: 0px;">
 						<div itemprop="image" style="box-sizing: border-box; margin: 0px auto; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; display: block; position: relative; max-width: 100%; text-align: center; clear: both;">
 							<div style="box-sizing: border-box; margin: 0px auto; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: bottom; border-radius: 3px; display: inline-block; position: relative; max-width: 100%;">
-								<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; transition: 0.7s;"><img src="blob:https://froala.com/7c5cdf8e-027e-4f29-93e2-a99fbce3b6ed" alt="Skye Controls case study banner image" title="" height="720" width="1280" itemprop="thumbnailUrl" srcset="https://skkynet.com/media/Case-Studies-Skye-controls-Azure.webp 1280w, https://skkynet.com/media/Case-Studies-Skye-controls-Azure-300x169.webp 300w" sizes="(max-width: 1280px) 100vw, 1280px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; max-width: 100%; height: auto; border-radius: 3px; transition: 0.7s; box-shadow: none;" class="fr-fil fr-dib"></div></div></div></div>
+								<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; transition: 0.7s;"><img src="blob:https://froala.com/7c5cdf8e-027e-4f29-93e2-a99fbce3b6ed" alt="Skye Controls case study banner image" title="" height="720" width="1280" itemprop="thumbnailUrl" srcset="https://skkynet.com/media/Case-Studies-Skye-controls-Azure.webp 1280w, https://skkynet.com/media/Case-Studies-Skye-controls-Azure-300x169.webp 300w" sizes="(max-width: 1280px) 100vw, 1280px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; max-width: 100%; height: auto; border-radius: 3px; transition: 0.7s; box-shadow: none;" className="fr-fil fr-dib"></div></div></div></div>
 					<div style="box-sizing: border-box; margin: 50px 0px 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; z-index: 1; float: left; position: relative; min-height: 1px; width: 701.891px; clear: left; border-radius: 0px;">
 						<section itemprop="blogPost" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; display: block;">
 							<div itemprop="text" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.65em; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; clear: both;">
@@ -40,7 +38,7 @@ function CaseStudies() {
 						</div>
 						<div itemprop="image" style="box-sizing: border-box; margin: 0px auto 10px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; display: block; position: relative; max-width: 100%; text-align: center; clear: both;">
 							<div style="box-sizing: border-box; margin: 0px auto; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: bottom; border-radius: 3px; display: inline-block; position: relative; max-width: 100%;">
-								<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; transition: 0.7s;"><img src="https://skkynet.com/media/case-study-skye-controls-usa-diagram-1.svg" alt="" title="" height="177" width="662" itemprop="thumbnailUrl" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; max-width: 100%; height: auto; border-radius: 3px; transition: 0.7s; box-shadow: none;" class="fr-fil fr-dib"></div></div></div>
+								<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; transition: 0.7s;"><img src="https://skkynet.com/media/case-study-skye-controls-usa-diagram-1.svg" alt="" title="" height="177" width="662" itemprop="thumbnailUrl" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; max-width: 100%; height: auto; border-radius: 3px; transition: 0.7s; box-shadow: none;" className="fr-fil fr-dib"></div></div></div>
 						<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 25px; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; clear: both; display: block; width: 701.891px; height: 10px; position: relative; float: none;">
 							<br>
 						</div>
@@ -73,7 +71,7 @@ function CaseStudies() {
 						</div>
 						<div itemprop="image" style="box-sizing: border-box; margin: 0px auto 10px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; display: block; position: relative; max-width: 100%; text-align: center; clear: both;">
 							<div style="box-sizing: border-box; margin: 0px auto; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: bottom; border-radius: 3px; display: inline-block; position: relative; max-width: 100%;">
-								<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; transition: 0.7s;"><img src="https://skkynet.com/media/case-study-skye-controls-usa-diagram-2.svg" alt="" title="" height="177" width="662" itemprop="thumbnailUrl" data-ll-status="loaded" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; max-width: 100%; height: auto; border-radius: 3px; transition: 0.7s; box-shadow: none;" class="fr-fil fr-dib"></div></div></div>
+								<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; transition: 0.7s;"><img src="https://skkynet.com/media/case-study-skye-controls-usa-diagram-2.svg" alt="" title="" height="177" width="662" itemprop="thumbnailUrl" data-ll-status="loaded" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; max-width: 100%; height: auto; border-radius: 3px; transition: 0.7s; box-shadow: none;" className="fr-fil fr-dib"></div></div></div>
 						<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 25px; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; clear: both; display: block; width: 701.891px; height: 10px; position: relative; float: none;">
 							<br>
 						</div>
@@ -88,7 +86,7 @@ function CaseStudies() {
 						</div>
 						<div itemprop="image" style="box-sizing: border-box; margin: 0px auto 10px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; display: block; position: relative; max-width: 100%; text-align: center; clear: both;">
 							<div style="box-sizing: border-box; margin: 0px auto; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: bottom; border-radius: 3px; display: inline-block; position: relative; max-width: 100%;">
-								<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; transition: 0.7s;"><img src="https://skkynet.com/media/case-study-skye-controls-usa-diagram-3.svg" alt="" title="" height="177" width="662" itemprop="thumbnailUrl" data-ll-status="loaded" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; max-width: 100%; height: auto; border-radius: 3px; transition: 0.7s; box-shadow: none;" class="fr-fil fr-dib"></div></div></div>
+								<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; transition: 0.7s;"><img src="https://skkynet.com/media/case-study-skye-controls-usa-diagram-3.svg" alt="" title="" height="177" width="662" itemprop="thumbnailUrl" data-ll-status="loaded" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; max-width: 100%; height: auto; border-radius: 3px; transition: 0.7s; box-shadow: none;" className="fr-fil fr-dib"></div></div></div>
 						<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: none; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 25px; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; clear: both; display: block; width: 701.891px; height: 10px; position: relative; float: none;">
 							<br>
 						</div>
@@ -127,13 +125,13 @@ function CaseStudies() {
 
 						<ul style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; list-style: none; width: 227.109px; float: left;">
 							<li style="box-sizing: border-box; width: 495px; margin: 0px 0px 1.5em; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; clear: both; overflow: hidden;">
-								<a  target ="_blank" href="https://skkynet.com/case-study-heritage-petroleum-trinidad-tobago/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(128, 130, 133); position: relative; overflow: hidden;"><img width="89" height="50" src="blob:https://froala.com/2c4b20fe-b13c-4df3-82f1-e657db04233a" alt="case-study-heritage-petroleum" srcset="https://skkynet.com/media/case-study-heritage-petroleum.webp 1280w, https://skkynet.com/media/case-study-heritage-petroleum-300x169.webp 300w" sizes="(max-width: 89px) 100vw, 89px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit;   height: auto; width: 195px;" class="fr-fil fr-dii"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline;"  > <br/>Case Study: Heritage Petroleum, <br/>Trinidad&hellip;</span></a></li>
+								<a  target ="_blank" href="https://skkynet.com/case-study-heritage-petroleum-trinidad-tobago/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(128, 130, 133); position: relative; overflow: hidden;"><img width="89" height="50" src="blob:https://froala.com/2c4b20fe-b13c-4df3-82f1-e657db04233a" alt="case-study-heritage-petroleum" srcset="https://skkynet.com/media/case-study-heritage-petroleum.webp 1280w, https://skkynet.com/media/case-study-heritage-petroleum-300x169.webp 300w" sizes="(max-width: 89px) 100vw, 89px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit;   height: auto; width: 195px;" className="fr-fil fr-dii"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline;"  > <br/>Case Study: Heritage Petroleum, <br/>Trinidad&hellip;</span></a></li>
 							<li style="box-sizing: border-box; margin: 0px 0px 1.5em; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; clear: both; overflow: hidden;">
-								<a  target ="_blank" href="https://skkynet.com/case-study-wind-turbine-farm-usa/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(128, 130, 133); position: relative; overflow: hidden;"><img width="89" height="50" src="blob:https://froala.com/e6dfc09c-1ebf-47f3-8d37-72609623ca26" alt="wind-turbine-control-usa" srcset="https://skkynet.com/media/wind-turbine-control-usa.webp 1280w, https://skkynet.com/media/wind-turbine-control-usa-300x169.webp 300w" sizes="(max-width: 89px) 100vw, 89px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; height: auto; width: 195px;" class="fr-fil fr-dii"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline;"><br/> Case Study: Wind TurbineControl, USA</span></a></li>
+								<a  target ="_blank" href="https://skkynet.com/case-study-wind-turbine-farm-usa/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(128, 130, 133); position: relative; overflow: hidden;"><img width="89" height="50" src="blob:https://froala.com/e6dfc09c-1ebf-47f3-8d37-72609623ca26" alt="wind-turbine-control-usa" srcset="https://skkynet.com/media/wind-turbine-control-usa.webp 1280w, https://skkynet.com/media/wind-turbine-control-usa-300x169.webp 300w" sizes="(max-width: 89px) 100vw, 89px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; height: auto; width: 195px;" className="fr-fil fr-dii"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline;"><br/> Case Study: Wind TurbineControl, USA</span></a></li>
 							<li style="box-sizing: border-box; margin: 0px 0px 1.5em; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; clear: both; overflow: hidden;">
-								<a  target ="_blank" href="https://skkynet.com/case-study-tanap-pipeline-turkey/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(128, 130, 133); position: relative; overflow: hidden;"><img width="89" height="50" src="blob:https://froala.com/5032da7f-6049-4b66-a282-724732d9a753" alt="" srcset="https://skkynet.com/media/TANAP-case-study.webp 1281w, https://skkynet.com/media/TANAP-case-study-300x169.webp 300w" sizes="(max-width: 89px) 100vw, 89px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; height: auto; width: 195px;" class="fr-fil fr-dii"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline;">Case Study: TANAP Pipeline, Turkey</span></a></li>
+								<a  target ="_blank" href="https://skkynet.com/case-study-tanap-pipeline-turkey/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(128, 130, 133); position: relative; overflow: hidden;"><img width="89" height="50" src="blob:https://froala.com/5032da7f-6049-4b66-a282-724732d9a753" alt="" srcset="https://skkynet.com/media/TANAP-case-study.webp 1281w, https://skkynet.com/media/TANAP-case-study-300x169.webp 300w" sizes="(max-width: 89px) 100vw, 89px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; height: auto; width: 195px;" className="fr-fil fr-dii"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline;">Case Study: TANAP Pipeline, Turkey</span></a></li>
 							<li style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; clear: both; overflow: hidden;">
-								<a  target ="_blank" href="https://skkynet.com/case-study-renewable-wind-power-turkey/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(128, 130, 133); position: relative; overflow: hidden;"><img width="89" height="50" src="blob:https://froala.com/70ff87f5-beef-44e9-97c6-069dee764478" alt="" srcset="https://skkynet.com/media/wind-power-turkey.webp 1280w, https://skkynet.com/media/wind-power-turkey-300x169.webp 300w" sizes="(max-width: 89px) 100vw, 89px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; height: auto; width: 195px;" class="fr-fil fr-dii"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline;">Case Study: Renewable Wind Power, Turkey</span></a></li>
+								<a  target ="_blank" href="https://skkynet.com/case-study-renewable-wind-power-turkey/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(128, 130, 133); position: relative; overflow: hidden;"><img width="89" height="50" src="blob:https://froala.com/70ff87f5-beef-44e9-97c6-069dee764478" alt="" srcset="https://skkynet.com/media/wind-power-turkey.webp 1280w, https://skkynet.com/media/wind-power-turkey-300x169.webp 300w" sizes="(max-width: 89px) 100vw, 89px" style="box-sizing: border-box; padding: 0px; border: none rgb(229, 234, 243); font: inherit; height: auto; width: 195px;" className="fr-fil fr-dii"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline;">Case Study: Renewable Wind Power, Turkey</span></a></li>
 						</ul>
 					</div></div>
 				<div style="box-sizing: border-box; margin: 0px; padding: 30px 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; zoom: 1; clear: both; position: relative; float: none;">
@@ -141,15 +139,15 @@ function CaseStudies() {
 						<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; text-align: center;"><a  target ="_blank" href="https://cogentdatahub.com/learning-hub/" target="_blank" rel="noopener noreferrer" style="box-sizing: border-box; margin: 3px 0px; padding: 10px 20px; border-width: 0px 0px 1px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-color: rgb(8, 54, 128); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 13px; line-height: 1.2em; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: bottom; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(255, 255, 255); background-color: rgb(10, 88, 161); border-radius: 3px; display: inline-block; position: relative; text-align: center; min-width: 80px;"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; position: relative; z-index: 3;">Learn More</span></a> <a  target ="_blank" href="https://cogentdatahub.com/download" style="box-sizing: border-box; margin: 3px 3px 5px; padding: 10px 20px; border-width: 0px 0px 1px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-color: rgb(8, 54, 128); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 13px; line-height: 1.2em; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: bottom; text-decoration: none; outline: 0px; max-width: 100%; color: rgb(255, 255, 255); background-color: rgb(10, 88, 161); border-radius: 3px; display: inline-block; position: relative; text-align: center; min-width: 80px;"><span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px rgb(229, 234, 243); font: inherit; vertical-align: baseline; position: relative; z-index: 3;">Try it Now</span></a></div></div></div></div>
 		</aside>
 	</div></div>
-<div class="fr-table-selector fr-table-selector-inactive" style="top: -1880px; left: 111px;">
-	<a  target ="_blank" tabindex="-1" title="Select Table"></a></div>
+<div className="fr-table-selector fr-table-selector-inactive" style="top: -1880px; left: 111px;">
+	<a  target ="_blank" tabIndex="-1" title="Select Table"></a></div>
 
 
   `;
 
   return (
     <div>
-       <div className="page-header">
+      <div className="page-header">
         <div
           className="page-header__bg"
           style={{ backgroundImage: `url('../images/resources/aboutbg1.png')` }}
@@ -157,39 +155,126 @@ function CaseStudies() {
         <div className="container">
           <ul className="thm-breadcrumb list-unstyled">
             <li>
-              <a  href="/">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>Case Studies</li>
           </ul>
           <h2 className="page-header__title">Case Studies</h2>
         </div>
-
       </div>
-
       <section>
         <div className="container mt-5">
           <h2 className="text-center header">Case Studies</h2>
-          <p className='text-dark'> The case studies provided by Right Time Limited showcase real-world examples of their work with clients. These case studies illustrate how their security solutions and services have addressed specific challenges, improved security posture, and delivered positive outcomes for organizations across different industries.
+          <p className="text-dark">
+            {" "}
+            The case studies provided by Right Time Limited showcase real-world
+            examples of their work with clients. These case studies illustrate
+            how their security solutions and services have addressed specific
+            challenges, improved security posture, and delivered positive
+            outcomes for organizations across different industries.
           </p>
-
-
         </div>
 
-         <div
-          dangerouslySetInnerHTML={{ __html: htmlString }}
-          className="p-4"
-        />
-
-
+        <div dangerouslySetInnerHTML={{ __html: htmlString }} className="p-4" />
       </section>
-
-
-
-
-
-     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> </div>
-  )
-   
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />{" "}
+    </div>
+  );
 }
 
-export default CaseStudies
+export default CaseStudies;

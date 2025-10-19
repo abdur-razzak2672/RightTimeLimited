@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion, Col, Row } from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
 import Service from "../../components/Service";
 import Benifits from "../../components/Benifits";
 function MissionStatement() {
@@ -34,24 +34,27 @@ function MissionStatement() {
             our purpose every day.
           </p>
 
- 
-
-
-
-           
-
           <div className="mt-5">
             <div className="row">
               <div className="col-md-7">
                 <h2 className="header   "> Our Mission</h2>
 
-                <p className="text-dark">Our mission is to protect our clients' digital assets and ensure their business continuity by providing comprehensive cyber security solutions. We aim to stay ahead of the constantly evolving threat landscape and leverage the latest technologies to deliver effective and efficient services to our clients. We strive to build long-term relationships with our clients based on trust, transparency, and superior performance, and to be recognized as a trusted partner in their digital transformation journey</p>
-
+                <p className="text-dark">
+                  Our mission is to protect our clients' digital assets and
+                  ensure their business continuity by providing comprehensive
+                  cyber security solutions. We aim to stay ahead of the
+                  constantly evolving threat landscape and leverage the latest
+                  technologies to deliver effective and efficient services to
+                  our clients. We strive to build long-term relationships with
+                  our clients based on trust, transparency, and superior
+                  performance, and to be recognized as a trusted partner in
+                  their digital transformation journey
+                </p>
               </div>
               <div className="col-md-5">
                 <div className="d-flex justify-content-center">
                   <img
-                  className="rounded"
+                    className="rounded"
                     width="100%"
                     src="/assets/images/about/mission.webp"
                     alt=""
@@ -62,20 +65,16 @@ function MissionStatement() {
           </div>
 
           <div className="text-center mt-5">
-          <h2 className="header" >Our Motto </h2>
-          <p className="text-dark"> "Together we make the world happier"</p>
-
+            <h2 className="header">Our Motto </h2>
+            <p className="text-dark"> "Together we make the world happier"</p>
           </div>
-
-
-
 
           <div className="mt-5">
             <div className="row">
-            <div className="col-md-5">
+              <div className="col-md-5">
                 <div className="d-flex justify-content-center">
                   <img
-                  className="rounded"
+                    className="rounded"
                     width="100%"
                     src="/assets/images/about/our_philosophy_image.webp"
                     alt=""
@@ -85,27 +84,44 @@ function MissionStatement() {
               <div className="col-md-7">
                 <h2 className="header   "> Our Philosophy</h2>
 
-                <p className="text-dark">We believe that cyber security is a critical component of every organization's success, and we are committed to empowering our clients to protect their valuable digital assets. We believe in taking a proactive and holistic approach to cyber security, leveraging cutting-edge technologies and best practices to mitigate risks and prevent threats. We believe in building a strong partnership with our clients, understanding their unique needs and challenges, and working collaboratively to develop customized solutions that address their specific requirements. Above all, we believe in honesty, integrity, and transparency, and strive to maintain the highest standards of professionalism in all our interactions.</p>
-
+                <p className="text-dark">
+                  We believe that cyber security is a critical component of
+                  every organization's success, and we are committed to
+                  empowering our clients to protect their valuable digital
+                  assets. We believe in taking a proactive and holistic approach
+                  to cyber security, leveraging cutting-edge technologies and
+                  best practices to mitigate risks and prevent threats. We
+                  believe in building a strong partnership with our clients,
+                  understanding their unique needs and challenges, and working
+                  collaboratively to develop customized solutions that address
+                  their specific requirements. Above all, we believe in honesty,
+                  integrity, and transparency, and strive to maintain the
+                  highest standards of professionalism in all our interactions.
+                </p>
               </div>
-              
             </div>
           </div>
-
-              
 
           <div className="mt-5">
             <div className="row">
               <div className="col-md-7">
                 <h2 className="header   "> Our People</h2>
 
-                <p className="text-dark">Expert human resource is a key element in Right Time Limited’s success. Our professionals possess the knowledge and expertise to develop effective solutions that safeguard clients' digital assets. They are updated with the latest trends and threats in the industry and possess excellent communication and problem-solving skills. People at Right Time Limited ensures delivery of top-notch services to its clients and maintains a competitive edge in the market.</p>
-
+                <p className="text-dark">
+                  Expert human resource is a key element in Right Time Limited’s
+                  success. Our professionals possess the knowledge and expertise
+                  to develop effective solutions that safeguard clients' digital
+                  assets. They are updated with the latest trends and threats in
+                  the industry and possess excellent communication and
+                  problem-solving skills. People at Right Time Limited ensures
+                  delivery of top-notch services to its clients and maintains a
+                  competitive edge in the market.
+                </p>
               </div>
               <div className="col-md-5">
                 <div className="d-flex justify-content-center">
                   <img
-                  className="rounded"
+                    className="rounded"
                     width="100%"
                     src="/assets/images/about/images.jpg"
                     alt=""
@@ -116,63 +132,53 @@ function MissionStatement() {
           </div>
 
           <section className="mt-5">
-
-          <table>
-              <tr colspan="2">
-                <th className="text-center" colspan="2" scope="col">Certiﬁcations  </th>
-                </tr>
+            <table>
+              <tr colSpan="2">
+                <th className="text-center" colSpan="2" scope="col">
+                  Certiﬁcations{" "}
+                </th>
+              </tr>
               <tr>
                 <td className="w-50">CISSP, CISA, CISM, CGEIT, CRISC</td>
-                <td rowSpan={3}>PCI QSA, PCIP, C|EH, C|HFI, CSCF, ECSA, LPT, CEI
-Core Professional, Burp Suite Pro, Nessus    Pro,
-Acunetix Pro,
-RHCE, RHCT, IBM-AIX-CS, IBM-AIX, SCSA, HP-UX-
-CSA,   RHL   EX-423,   RHL   EX-429,   VSG    Video
-Solution, Polycom VSG Video Solution Technical,
-Polycom Voice Over IP [VoIP], SCSECA, SCNA, SCSA, OCP, OCE, MCITP, MCITP,  MCTS  (Lync,
-Virtualization, Exchange, SharePoint, HPC), ITIL.
-</td>
+                <td rowSpan={3}>
+                  PCI QSA, PCIP, C|EH, C|HFI, CSCF, ECSA, LPT, CEI Core
+                  Professional, Burp Suite Pro, Nessus Pro, Acunetix Pro, RHCE,
+                  RHCT, IBM-AIX-CS, IBM-AIX, SCSA, HP-UX- CSA, RHL EX-423, RHL
+                  EX-429, VSG Video Solution, Polycom VSG Video Solution
+                  Technical, Polycom Voice Over IP [VoIP], SCSECA, SCNA, SCSA,
+                  OCP, OCE, MCITP, MCITP, MCTS (Lync, Virtualization, Exchange,
+                  SharePoint, HPC), ITIL.
+                </td>
+              </tr>
 
-               
-
-               </tr>
-            
-              
               <tr>
-              <td>Swift Certified Professional
-BCP & DRP, IS Audit, CSCF (Cyber Security
-Cyber Forensic), CDCE, CTDC, CDCS, CDCP
-</td>
+                <td>
+                  Swift Certified Professional BCP & DRP, IS Audit, CSCF (Cyber
+                  Security Cyber Forensic), CDCE, CTDC, CDCS, CDCP
+                </td>
+              </tr>
 
- 
-               </tr>
+              <tr>
+                <td>
+                  ISO Lead Auditor: ISO 20000, ISO 27001, ISO 9001, IO 14001,
+                  ISO 13485, ISO 50001, ISO 22301 etc. Lead Implementer: ISO
+                  27001 & ISO 9001
+                </td>
+              </tr>
 
-               <tr>
-              <td>ISO Lead Auditor:
-ISO 20000, ISO 27001, ISO 9001, IO     14001,
-ISO 13485, ISO 50001, ISO 22301 etc.
-Lead Implementer: ISO 27001 & ISO 9001
-</td>
- 
+              <tr>
+                <td className="w-50">
+                  Blockchain Certified Professional, CCNA, JNCIA, JNCIS, CND,
+                  CCNA Cyber Ops, CCNP
+                </td>
 
- 
-               </tr>
-
-               <tr >
-              <td className="w-50">Blockchain	Certified	Professional,	CCNA, JNCIA, JNCIS, CND, CCNA Cyber Ops, CCNP</td>
-
-              <td>CIPM® – Certiﬁed International Project Manager, MPM®  –  Masters  Project   Manager.</td>
-
-               </tr>
+                <td>
+                  CIPM® – Certiﬁed International Project Manager, MPM® –
+                  Masters Project Manager.
+                </td>
+              </tr>
             </table>
-
-
           </section>
-
-
-
-
-
 
           <div className="mt-5">
             <Accordion defaultActiveKey="1" flush>
@@ -242,9 +248,8 @@ Lead Implementer: ISO 27001 & ISO 9001
           </div>
         </div>
       </section>
-
-      <Service/>
-      <Benifits/>
+      <Service />
+      <Benifits />
       <br /> <br /> <br /> <br />
     </div>
   );

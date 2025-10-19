@@ -1,10 +1,8 @@
-import React from 'react'
-import Allpage from '../../../components/all-page/Allpage'
+import React from "react";
+import Allpage from "../../../components/all-page/Allpage";
 
 function NetSparker() {
-  return (
-    <Allpage data="NetSparker"/>
-  )
+  return <Allpage data="NetSparker" />;
 }
 
-export default NetSparker
+export default NetSparker;

@@ -37,15 +37,28 @@ function Client() {
 
               <div className="testimonials-two__content">
                 <div className="section-title mt-3">
-                   <h2 className="header">  WeLeading Information Security Company</h2>
+                  <h2 className="header">
+                    {" "}
+                    WeLeading Information Security Company
+                  </h2>
                 </div>
                 <div className="testimonials-two__content__text">
                   <p className="textJustify">
-                   
-Right Time Limited (“RightTime”, short form) started its journey in the year 2009. It’s purely an Information Security Consultation, Assessment/Audit Service & Solutions Provider. With all related International Standards and Association, we are providing Information System Audit, Technical Documentation, Project Management, Custom Skill Development, ISO Consultation & Certification, SWIFT Consultation & Auditing, PCI DSS Gap Assessment, Remediation Consultation, Auditing & Certification. Conducting Security Assessment e.g. VA & PT, Forensic (with the use of multiple world className Automated & Manual tools). As the first empaneled Security Assessor firm we are serving for more than 14 years.
+                    Right Time Limited (“RightTime”, short form) started its
+                    journey in the year 2009. It’s purely an Information
+                    Security Consultation, Assessment/Audit Service & Solutions
+                    Provider. With all related International Standards and
+                    Association, we are providing Information System Audit,
+                    Technical Documentation, Project Management, Custom Skill
+                    Development, ISO Consultation & Certification, SWIFT
+                    Consultation & Auditing, PCI DSS Gap Assessment, Remediation
+                    Consultation, Auditing & Certification. Conducting Security
+                    Assessment e.g. VA & PT, Forensic (with the use of multiple
+                    world className Automated & Manual tools). As the first
+                    empaneled Security Assessor firm we are serving for more
+                    than 14 years.
                   </p>
                 </div>
-               
               </div>
             </div>
             <div className="col-lg-7">
@@ -65,7 +78,20 @@ Right Time Limited (“RightTime”, short form) started its journey in the year
                       </div>
                       <div className="testimonials-one-card__content">
                         <div className="testimonials-one-card__text  textJustify">
-                          Al-Arafah Islami Bank Limited has achieved the ISO 27001 certification with the help of Right Time Limited  , an Information Technology (IT) Security Service Provider. RightTime's team of experts provided guidance and support throughout the entire process, enabling the bank to achieve certification in a timely and efficient manner. We highly recommend RightTime to any organization seeking to achieve ISO 27001 certification. <span  ><a style={{ color: "orange" }} href="/testmonial">Read More...</a></span>
+                          Al-Arafah Islami Bank Limited has achieved the ISO
+                          27001 certification with the help of Right Time
+                          Limited , an Information Technology (IT) Security
+                          Service Provider. RightTime's team of experts provided
+                          guidance and support throughout the entire process,
+                          enabling the bank to achieve certification in a timely
+                          and efficient manner. We highly recommend RightTime to
+                          any organization seeking to achieve ISO 27001
+                          certification.{" "}
+                          <span>
+                            <a style={{ color: "orange" }} href="/testmonial">
+                              Read More...
+                            </a>
+                          </span>
                           <h3 className="testimonials-one-card__title">
                             Syed Masodul Bari
                           </h3>
@@ -92,7 +118,19 @@ Right Time Limited (“RightTime”, short form) started its journey in the year
                         </div>
                         <div className="testimonials-one-card__content">
                           <div className="testimonials-one-card__text textJustify">
-                            NRB Bank Limited has achieved certification on Payment Card Industry Data Security Standard (PCI DSS) with the help of Right Time Limited  -first Bangladesh Based PCI QSA firm by PCI SSC, USA (Since 2013). We highly recommend RightTime for their expertise, and commitment to their clients' success in achieving PCI DSS certification.<span><a style={{ color: "orange" }} href="/testmonial"> Read More...</a></span>
+                            NRB Bank Limited has achieved certification on
+                            Payment Card Industry Data Security Standard (PCI
+                            DSS) with the help of Right Time Limited -first
+                            Bangladesh Based PCI QSA firm by PCI SSC, USA (Since
+                            2013). We highly recommend RightTime for their
+                            expertise, and commitment to their clients' success
+                            in achieving PCI DSS certification.
+                            <span>
+                              <a style={{ color: "orange" }} href="/testmonial">
+                                {" "}
+                                Read More...
+                              </a>
+                            </span>
                           </div>
                           <h3 className="testimonials-one-card__title">
                             Abu Md. Sabbir Hassan Chowdhury{" "}
