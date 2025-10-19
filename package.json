@@ -56,7 +56,9 @@
     "optimize:images": "node scripts/optimize-images.js",
     "optimize:images:rm": "REMOVE_ORIGINALS=1 node scripts/optimize-images.js",
     "build:fast": "cross-env EXTEND_ESLINT=true GENERATE_SOURCEMAP=false react-scripts build",
-    "build:slim": "npm run build:fast && npx purgecss --css 'build/static/css/*.css' --content 'build/**/*.html' 'build/static/js/*.js' --output build/static/css/ && npm run compress"
+    "build:slim": "npm run build:fast && npx purgecss --css 'build/static/css/*.css' --content 'build/**/*.html' 'build/static/js/*.js' --output build/static/css/ && npm run compress",
+    "optimize:svgs": "npx svgo -f public -r || true && npx svgo -f src -r || true",
+    "assets:unused": "node scripts/find-unused-assets.js"
   },
   "eslintConfig": {
     "extends": [
