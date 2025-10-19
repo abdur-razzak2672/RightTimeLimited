@@ -452,7 +452,7 @@ const AssesmentChangingPageButton = () => {
           <img loading="lazy" decoding="async"
             className="rounded"
             style={{ width: "60%" }}
-            src="/assets/images/services/SwiftCyber/re.png"
+            src="/assets/images/services/SwiftCyber/re.webp"
             alt=""
           />
         </div>

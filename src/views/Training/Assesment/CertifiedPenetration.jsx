@@ -230,7 +230,7 @@ function CertifiedPenetration() {
                 >
                   <img loading="lazy" decoding="async"
                     className="card-img-top rounded-3 w-100"
-                    src="/assets/images/training/work.png"
+                    src="/assets/images/training/work.webp"
                     alt=""
                   />
                   <div className="card-body p-3">
@@ -285,7 +285,7 @@ function CertifiedPenetration() {
                 >
                   <img loading="lazy" decoding="async"
                     className="card-img-top rounded-3 w-100"
-                    src="/assets/images/training/book.png"
+                    src="/assets/images/training/book.webp"
                     alt=""
                   />
                   <div className="card-body p-3">
@@ -356,7 +356,7 @@ function CertifiedPenetration() {
                 >
                   <img loading="lazy" decoding="async"
                     className="card-img-top rounded-3 w-100"
-                    src="/assets/images/training/man.png"
+                    src="/assets/images/training/man.webp"
                     alt=""
                   />
                   <div className="card-body p-3">

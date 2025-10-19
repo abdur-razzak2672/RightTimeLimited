@@ -52,7 +52,7 @@ const SwiftArchitectureChangingButtons = () => {
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
                 <img loading="lazy" decoding="async"
-                  src="/assets/images/services/SwiftCyber/type1.png"
+                  src="/assets/images/services/SwiftCyber/type1.webp"
                   alt=""
                 />
               </div>
@@ -85,7 +85,7 @@ const SwiftArchitectureChangingButtons = () => {
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
                 <img loading="lazy" decoding="async"
-                  src="/assets/images/services/SwiftCyber/type2.png"
+                  src="/assets/images/services/SwiftCyber/type2.webp"
                   alt=""
                 />
               </div>
@@ -115,7 +115,7 @@ const SwiftArchitectureChangingButtons = () => {
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
                 <img loading="lazy" decoding="async"
-                  src="/assets/images/services/SwiftCyber/type3.png"
+                  src="/assets/images/services/SwiftCyber/type3.webp"
                   alt=""
                 />
               </div>
@@ -153,7 +153,7 @@ const SwiftArchitectureChangingButtons = () => {
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
                 <img loading="lazy" decoding="async"
-                  src="/assets/images/services/SwiftCyber/type4.png"
+                  src="/assets/images/services/SwiftCyber/type4.webp"
                   alt=""
                 />
               </div>
@@ -197,7 +197,7 @@ const SwiftArchitectureChangingButtons = () => {
           >
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
-                <img loading="lazy" decoding="async" src="/assets/images/services/SwiftCyber/b.png" alt="" />
+                <img loading="lazy" decoding="async" src="/assets/images/services/SwiftCyber/b.webp" alt="" />
               </div>
               <div>
                 <div className="dipt-swift-architecture-data-mini-container">

@@ -60,21 +60,21 @@ function ZeroTrust() {
                 <Carousel.Item>
                   <img loading="lazy" decoding="async"
                     className="d-block w-100"
-                    src="/assets/images/services/Information Systems AUdit.png"
+                    src="/assets/images/services/Information Systems AUdit.webp"
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img loading="lazy" decoding="async"
                     className="d-block w-100"
-                    src="/assets/images/services/Information Security Graded Audit.png"
+                    src="/assets/images/services/Information Security Graded Audit.webp"
                     alt="Second slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img loading="lazy" decoding="async"
                     className="d-block w-100"
-                    src="/assets/images/services/Information Systems AUdit.png"
+                    src="/assets/images/services/Information Systems AUdit.webp"
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -88,21 +88,21 @@ function ZeroTrust() {
                 <Carousel.Item>
                   <img loading="lazy" decoding="async"
                     className="d-block w-100"
-                    src="/assets/images/services/Information Systems AUdit.png"
+                    src="/assets/images/services/Information Systems AUdit.webp"
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img loading="lazy" decoding="async"
                     className="d-block w-100"
-                    src="/assets/images/services/Information Security Graded Audit.png"
+                    src="/assets/images/services/Information Security Graded Audit.webp"
                     alt="Second slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img loading="lazy" decoding="async"
                     className="d-block w-100"
-                    src="/assets/images/services/Information Systems AUdit.png"
+                    src="/assets/images/services/Information Systems AUdit.webp"
                     alt="Third slide"
                   />
                 </Carousel.Item>

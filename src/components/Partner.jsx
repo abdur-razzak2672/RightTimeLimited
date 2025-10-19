@@ -92,7 +92,7 @@ function Partner() {
                   objectFit: "cover",
                   borderRadius: "6px",
                 }}
-                src="/assets/images/partners/4.jpg"
+                src="/assets/images/partners/4.webp"
                 alt=""
               />
             </div>
@@ -105,7 +105,7 @@ function Partner() {
                   objectFit: "cover",
                   borderRadius: "6px",
                 }}
-                src="/assets/images/partners/5.jpg"
+                src="/assets/images/partners/5.webp"
                 alt=""
               />
             </div>

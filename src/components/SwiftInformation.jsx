@@ -6,7 +6,7 @@ function SwiftInformation() {
     {
       id: 1,
       name: "Sonali Bank Limited",
-      image: "/assets/images/services/SwiftCyber/sonali.png",
+      image: "/assets/images/services/SwiftCyber/sonali.webp",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ function SwiftInformation() {
     {
       id: 3,
       name: "Shimanto Bank Limited",
-      image: "/assets/images/services/SwiftCyber/shimanto.png",
+      image: "/assets/images/services/SwiftCyber/shimanto.webp",
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ function SwiftInformation() {
     {
       id: 7,
       name: "NRB Bank Limited",
-      image: "/assets/images/services/SwiftCyber/nrb.png",
+      image: "/assets/images/services/SwiftCyber/nrb.webp",
     },
     {
       id: 8,

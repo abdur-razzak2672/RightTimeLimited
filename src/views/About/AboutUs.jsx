@@ -26,7 +26,7 @@ function AboutUs() {
             <div className="col-lg-6">
               <div className="about-four__image">
                 <img loading="lazy" decoding="async"
-                  src="/assets/images/resources/rt1.png"
+                  src="/assets/images/resources/rt1.webp"
                   className="wow fadeInUp"
                   data-wow-duration="1500ms"
                   alt=""

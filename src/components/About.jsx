@@ -170,7 +170,7 @@ function About() {
             <Col md={4}>
               <img loading="lazy" decoding="async"
                 className="img-responsive"
-                src="/assets/images/team/mam.jpg"
+                src="/assets/images/team/mam.webp"
                 alt=""
               />
             </Col>

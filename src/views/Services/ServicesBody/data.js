@@ -332,7 +332,7 @@ export const data = [
           "  MDR as A Service (Managed End Point Detection and Response)  ",
         description:
           ' "Right Time Limited" offers MDR (Managed End Point Detection and Response) as a Service, providing businesses and organizations with proactive cybersecurity defense against sophisticated threats. Our specialized team of cybersecurity experts deploys advanced endpoint detection and response solutions to continuously monitor endpoints, such as desktops, laptops, and servers. We detect and respond to potential threats in real-time, ensuring timely containment and mitigation of cyberattacks. With MDR as a Service, clients gain 24/7 monitoring, threat hunting, and incident response capabilities, all tailored to their specific security needs. Our proactive approach enables organizations to enhance their cyber resilience, prevent data breaches, and protect critical assets from emerging threats. By partnering with "Right Time Limited" for MDR as a Service, organizations can confidently safeguard their endpoints, maintain compliance, and focus on their core business while leaving their cybersecurity worries to our dedicated team of experts. Trust us to deliver reliable and effective MDR solutions that strengthen your cybersecurity posture and provide peace of mind in todays ever-evolving threat landscape.   ',
-        image: "/assets/images/services/Managed Services/3.jpg",
+        image: "/assets/images/services/Managed Services/3.webp",
         url: "/mdr-as-service   ",
       },
       {

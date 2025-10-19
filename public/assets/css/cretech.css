@@ -3809,7 +3809,7 @@ a {
 * Page Header
 ***********************/
 .solutions_banner {
-  background-image: url('/assets/images/solutions/headerBanner.jpg');
+  background-image: url('/assets/images/solutions/headerBanner.webp');
   background-size: 100% 100%;
   height: 400px;
   width: 100%;
@@ -3821,7 +3821,7 @@ a {
 }
 
 .training_banner {
-  background-image: url('/assets/images/training/TopBanner.jpg');
+  background-image: url('/assets/images/training/TopBanner.webp');
   height: 400px;
   width: 100%;
   background-size: 100% 100%;

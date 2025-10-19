@@ -10,7 +10,7 @@ function CyberDefenseServices() {
         <div
           className="page-header__bg"
           style={{
-            backgroundImage: `url('/assets/images/resources/contact.png')`,
+            backgroundImage: `url('/assets/images/resources/contact.webp')`,
           }}
         ></div>
 
@@ -182,7 +182,7 @@ function CyberDefenseServices() {
               <img loading="lazy" decoding="async"
                 alt="..."
                 className="img-fluid"
-                src="/assets/images/services/vapt.png"
+                src="/assets/images/services/vapt.webp"
                 width="100%"
               />
             </Col>

@@ -460,7 +460,7 @@ function WhitePapers() {
 
           <img loading="lazy" decoding="async"
             style={{ width: "100%" }}
-            src="/assets/images/resources/white.png"
+            src="/assets/images/resources/white.webp"
           />
 
           <div dangerouslySetInnerHTML={{ __html: htmlString }} />

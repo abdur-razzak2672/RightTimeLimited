@@ -30,7 +30,7 @@ function ServiceBody() {
         <div
           className="page-header__bg"
           style={{
-            backgroundImage: `url('/assets/images/services/consultation/banner.jpg')`,
+            backgroundImage: `url('/assets/images/services/consultation/banner.webp')`,
           }}
         ></div>
 
@@ -48,7 +48,7 @@ function ServiceBody() {
       <section
         className="  service-four gray-bg section-padding-lg--bottom section-has-bottom-margin background-repeat-no background-position-top-right"
         style={{
-          backgroundImage: `url('/assets/images/shapes/service-four-bg-1-1.png')`,
+          backgroundImage: `url('/assets/images/shapes/service-four-bg-1-1.webp')`,
         }}
       >
         <div>
@@ -153,7 +153,7 @@ function ServiceBody() {
       <section
         className="section-padding service-four gray-bg section-padding-l--bottom h-25 section-has-bottom-margin background-repeat-no background-position-top-right"
         style={{
-          backgroundImage: `url('/assets/images/shapes/service-four-bg-1-1.png')`,
+          backgroundImage: `url('/assets/images/shapes/service-four-bg-1-1.webp')`,
         }}
       >
         <br />
@@ -202,7 +202,7 @@ function ServiceBody() {
               >
                 <div className="item">
                   <img loading="lazy" decoding="async"
-                    src="/assets/images/resources/bangladesh bank.png"
+                    src="/assets/images/resources/bangladesh bank.webp"
                     alt=""
                   />
                 </div>

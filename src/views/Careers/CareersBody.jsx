@@ -55,12 +55,12 @@ function CareersBody() {
               </a>
             </div>
             <div className="col-md-6">
-              <img loading="lazy" decoding="async" width="130%" src="/assets/images/career/job1.png" alt="" />
+              <img loading="lazy" decoding="async" width="130%" src="/assets/images/career/job1.webp" alt="" />
             </div>
           </div>
           <div className="row mt-5">
             <div className="col-md-6">
-              <img loading="lazy" decoding="async" width="100%" src="/assets/images/career/job2.1.png" alt="" />
+              <img loading="lazy" decoding="async" width="100%" src="/assets/images/career/job2.1.webp" alt="" />
             </div>
             <div className="col-md-6">
               <h2 className="text-info">
@@ -165,7 +165,7 @@ function CareersBody() {
           all-job
           <div className="row mt-5">
             <div className="col-md-6">
-              <img loading="lazy" decoding="async" width="100%" src="/assets/images/career/job3.png" alt="" />
+              <img loading="lazy" decoding="async" width="100%" src="/assets/images/career/job3.webp" alt="" />
             </div>
             <div className="col-md-6 mt-5">
               <h2 className="text-info">Right Time</h2>

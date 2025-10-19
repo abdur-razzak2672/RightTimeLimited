@@ -8,7 +8,7 @@ function CyberDefenseCenter() {
         <div
           className="page-header__bg"
           style={{
-            backgroundImage: `url('/assets/images/resources/contact.png')`,
+            backgroundImage: `url('/assets/images/resources/contact.webp')`,
           }}
         ></div>
 

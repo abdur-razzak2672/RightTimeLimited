@@ -9,7 +9,7 @@ function SolutionBody() {
           <div
             className="page-header__bg"
             style={{
-              backgroundImage: `url('/assets/images/solutions/headerBanner.jpg')`,
+              backgroundImage: `url('/assets/images/solutions/headerBanner.webp')`,
             }}
           ></div>
 

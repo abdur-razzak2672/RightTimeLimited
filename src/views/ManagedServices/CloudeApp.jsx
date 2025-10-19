@@ -55,7 +55,7 @@ function CloudeApp() {
                   <div className="col-md-5">
                     <img loading="lazy" decoding="async"
                       className="w-100"
-                      src="/assets/images/services/CMMI.png"
+                      src="/assets/images/services/CMMI.webp"
                       alt=""
                     />
                   </div>

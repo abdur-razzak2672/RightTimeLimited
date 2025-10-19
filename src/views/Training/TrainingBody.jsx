@@ -57,7 +57,7 @@ const TRAINERS = [
   },
   {
     name: "Mohammad Tohidur Rahman Bhuiyan",
-    image: "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg",
+    image: "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.webp",
     position: "Lead Security Practitioner and MD & CEO",
     link: "/team",
   },
@@ -296,7 +296,7 @@ function TrainingBody() {
         <div
           className="page-header__bg"
           style={{
-            backgroundImage: `url('/assets/images/training/TopBanner.jpg')`,
+            backgroundImage: `url('/assets/images/training/TopBanner.webp')`,
           }}
         ></div>
         <div className="container">

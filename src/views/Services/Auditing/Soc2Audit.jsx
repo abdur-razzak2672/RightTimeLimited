@@ -40,7 +40,7 @@ function Soc2Audit() {
               </p>
               <div className="row">
                 <img loading="lazy" decoding="async"
-                  src="/assets/images/services/audit.png"
+                  src="/assets/images/services/audit.webp"
                   className="img-fluid"
                   alt="Responsive image"
                 />

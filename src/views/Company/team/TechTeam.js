@@ -9,7 +9,7 @@ function TechTeam() {
       id: "tohid",
       name: "Mohammad Tohidur Rahman Bhuiyan",
       position: "Lead Security Practitioner and MD & CEO",
-      image: "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg",
+      image: "/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.webp",
       colorClass: "Pink",
       details: [
         "Dr. Mohammad Tohidur Rahman Bhuiyan comes with 31+ Years of wide-ranging and adequate acumen in the domain of Information System Security, Governance, Compliance, Enterprise as well as ICT Risk Management, PCI DSS Compliance Validation Services SWIFT Cyber Security Consultation and SWIFT CSP Assessment, ITES Project Handling, Preparatory Consultation for various ISO/ BS Certification, Information System/Information Technology and Cyber Security Assessment/Auditing and Technical Documentation (end to end), etc.",
@@ -107,7 +107,7 @@ function TechTeam() {
       id: "mahadi",
       name: "Md Mahadi Hasan Heart",
       position: "SECURITY ANALYST",
-      image: "/assets/images/team/mehedi.jpg",
+      image: "/assets/images/team/mehedi.webp",
       colorClass: "Deep-Purple",
       details: [
         'As a Security Analyst at "Right Time Limited" Information Security Services, Mahadi is passionate about safeguarding our clients\' systems and data. With 3+ years of experience in the field of cyber security, he has developed expertise in conducting vulnerability assessments, analyzing network traffic, and identifying and responding to security incidents.',

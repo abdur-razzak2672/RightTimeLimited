@@ -54,7 +54,7 @@ const teamMembers = [
     id: 5,
     name: "Md. Shamim Al Mamun",
     title: "CHIEF TECHNOLOGY OFFICER (CTO)",
-    image: "/assets/images/team/sm2.jpeg",
+    image: "/assets/images/team/sm2.webp",
     description: [
       `Mamun has over 18 years of experience in various ICT roles across multiple organizations. His successful track record includes leading ICT projects in software, web, and mobile applications, as well as carrying out information systems audits, security assessments, and software quality assurance in various industries.`,
       `In addition, he has extensive experience in developing enforceable policies, including information security policies, business continuity policies, and technical documents. He has collaborated on local and international projects with teams from the Czech Republic, Norway, Japan, the Middle East, and the USA.`,

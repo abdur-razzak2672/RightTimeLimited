@@ -49,7 +49,7 @@ function CertifiedInformationSystemSecurity() {
                 </p>
                 <img loading="lazy" decoding="async"
                   className="training-images"
-                  src="/assets/images/training/CISSP.png"
+                  src="/assets/images/training/CISSP.webp"
                   alt=""
                 />
               </div>
@@ -220,7 +220,7 @@ function CertifiedInformationSystemSecurity() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/work.webp" alt="" />
                     <div className="card-body p-3">
                       <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
 
@@ -249,7 +249,7 @@ function CertifiedInformationSystemSecurity() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/book.webp" alt="" />
                     <div className="card-body p-3">
                       <p>
                         required by payment card brands and acquiring banks.
@@ -280,7 +280,7 @@ function CertifiedInformationSystemSecurity() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/man.webp" alt="" />
                     <div className="card-body p-3">
                       <p>
                         required by payment card brands and acquiring banks.

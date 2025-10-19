@@ -68,7 +68,7 @@ function InformatonSystem() {
                 <div className="col-md-5">
                   <img loading="lazy" decoding="async"
                     className="w-100"
-                    src="/assets/images/services/info_systems_audit.png"
+                    src="/assets/images/services/info_systems_audit.webp"
                     alt=""
                   />
                 </div>

@@ -254,7 +254,7 @@ function Footer({ show }) {
                   <li className="mt-2 mb-5 mx-1">
                     <img loading="lazy" decoding="async"
                       className="rounded"
-                      src="/assets/images/footer/pcaa.png"
+                      src="/assets/images/footer/pcaa.webp"
                       width="100%"
                       alt=""
                     />

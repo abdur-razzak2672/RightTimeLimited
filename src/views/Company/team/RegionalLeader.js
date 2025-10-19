@@ -21,7 +21,7 @@ function RegionalLeader() {
       id: "melinda",
       name: "MS. MELINDA S.",
       position: "COUNTRY DIRECTOR RIGHT TIME LIMITED GERMANY",
-      image: "/assets/images/team/linda.jpg",
+      image: "/assets/images/team/linda.webp",
       colorClass: "Pink",
       details: [
         "Miss Melinda has over 15 years of operational and decision-making management experience in cultivating and growing international organizations in the various verticals of Information technology enabled Services (ITES) organization. Her area of competence is in implementing information management systems into place in different ITES Organizations.",

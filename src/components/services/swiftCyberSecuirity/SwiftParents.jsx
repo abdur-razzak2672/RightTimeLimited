@@ -66,7 +66,7 @@ function SwiftParent() {
 
       {/* HEADER START */}
       {/* <section style={{ height: "1200px", width: "100%", }} className="swift-header-container">
-        <div className="dipt-bg-image-container" style={{ backgroundImage: `url('/assets/images/services/SwiftCyber/bg-header.jpg')`, height: "100%", width: "100%", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="dipt-bg-image-container" style={{ backgroundImage: `url('/assets/images/services/SwiftCyber/bg-header.webp')`, height: "100%", width: "100%", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="dipt-container-holder">
             <h3 className="dipt-big-title">SWIFT CSP ASSESSMENT</h3>
             <p className="dipt-paragraph">CUSTOMER SECURITY PROGRAM INDEPENDENT ASSSESSMENT PROVIDER</p>
@@ -264,7 +264,7 @@ function SwiftParent() {
                 <div className="text-center">
                   <img loading="lazy" decoding="async"
                     className="data-graph-img"
-                    src="/assets/images/services/SwiftCyber/control.png"
+                    src="/assets/images/services/SwiftCyber/control.webp"
                     alt=""
                   />
                 </div>
@@ -291,7 +291,7 @@ function SwiftParent() {
                 <div className="text-center">
                   <img loading="lazy" decoding="async"
                     className="data-graph-img"
-                    src="/assets/images/services/SwiftCyber/image.png"
+                    src="/assets/images/services/SwiftCyber/image.webp"
                     alt=""
                   />
                 </div>
@@ -428,7 +428,7 @@ function SwiftParent() {
                       <img loading="lazy" decoding="async"
                         className="rounded-5"
                         style={{ width: "100%", height: "170px" }}
-                        src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"
+                        src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.webp"
                         alt=""
                       />
                     </a>

@@ -119,7 +119,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                 <div className="col-md-5">
                   <img loading="lazy" decoding="async"
                     className="w-100"
-                    src="/assets/images/services/pcidss.png"
+                    src="/assets/images/services/pcidss.webp"
                     alt=""
                   />
                 </div>

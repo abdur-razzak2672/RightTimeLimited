@@ -50,7 +50,7 @@ function SixSigma() {
             <Col md={6}>
               <img loading="lazy" decoding="async"
                 className="d-block w-100"
-                src="/assets/images/services/six.jpg"
+                src="/assets/images/services/six.webp"
                 alt="First slide"
               />
             </Col>

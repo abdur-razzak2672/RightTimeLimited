@@ -30,16 +30,16 @@
     "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^3.3.3",
     "purgecss": "^5.0.0",
-    "source-map-explorer": "^2.5.3"
+    "sharp": "^0.33.5",
+    "source-map-explorer": "^2.5.3",
+    "svgo": "^3.3.2"
   },
   "scripts": {
     "start": "cross-env EXTEND_ESLINT=true react-scripts start",
     "start:no-lint": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "build": "cross-env EXTEND_ESLINT=true react-scripts build",
     "build:ci": "cross-env EXTEND_ESLINT=true CI=true react-scripts build",
-    "build:fast": "cross-env EXTEND_ESLINT=true GENERATE_SOURCEMAP=false react-scripts build",
     "build:no-lint": "cross-env DISABLE_ESLINT_PLUGIN=true GENERATE_SOURCEMAP=false react-scripts build",
-    "build:slim": "npm run build:fast && npx purgecss --css 'build/static/css/*.css' --content 'build/**/*.html' 'build/static/js/*.js' --output build/static/css/ && npm run compress",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "fix:jsx-attrs": "find src -type f \\( -name \"*.jsx\" -o -name \"*.js\" \\) -print0 | xargs -0 sed -i -E 's/\\bclass=/className=/g; s/<label([^>]*) for=/<label\\1 htmlFor=/g; s/\\btabindex=/tabIndex=/gi; s/\\bmaxlength=/maxLength=/gi; s/\\bautocomplete=/autoComplete=/gi; s/\\bcolspan=/colSpan=/gi; s/\\browspan=/rowSpan=/gi; s/\\bframeborder=/frameBorder=/gi; s/\\ballowfullscreen=/allowFullScreen=/gi'",
@@ -53,8 +53,10 @@
     "purge:report": "npm run build:ci && npx purgecss --css 'build/static/css/*.css' --content 'build/**/*.html' 'build/static/js/*.js' --rejected --stdout > purge-report.txt || true",
     "deps:unused": "npx depcheck --skip-missing",
     "compress": "find build -type f \\( -name '*.js' -o -name '*.css' -o -name '*.html' \\) -print0 | xargs -0 -I{} bash -lc \"gzip -kf9 '{}' || true; brotli -kf '{}' || true\"",
-    "fix:img-lazy": "find src -type f \\( -name \"*.jsx\" -o -name \"*.js\" \\) -print0 | xargs -0 sed -i -E 's/<img([^>]*)(?<!loading=\"lazy\")>/<img loading=\"lazy\" decoding=\"async\"\\1>/g'",
-    "start:preview": "npm run build:slim && npx --yes serve -s build -l 3000"
+    "optimize:images": "node scripts/optimize-images.js",
+    "optimize:images:rm": "REMOVE_ORIGINALS=1 node scripts/optimize-images.js",
+    "build:fast": "cross-env EXTEND_ESLINT=true GENERATE_SOURCEMAP=false react-scripts build",
+    "build:slim": "npm run build:fast && npx purgecss --css 'build/static/css/*.css' --content 'build/**/*.html' 'build/static/js/*.js' --output build/static/css/ && npm run compress"
   },
   "eslintConfig": {
     "extends": [

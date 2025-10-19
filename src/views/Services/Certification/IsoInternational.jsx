@@ -297,7 +297,7 @@ function IsoInternational() {
                   <img loading="lazy" decoding="async"
                     style={{ left: "0", top: "0" }}
                     className="w-100"
-                    src="/assets/images/services/iso/map.jpeg"
+                    src="/assets/images/services/iso/map.webp"
                     alt=""
                   />
                 </Col>

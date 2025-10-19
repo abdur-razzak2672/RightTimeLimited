@@ -35,7 +35,7 @@ const teamMembers = [
     name: "Munir Hasan",
     title: "Advisor, Information & Communication Technology",
     company: "Right Time Limited",
-    image: "/assets/images/team/munir.jpg",
+    image: "/assets/images/team/munir.webp",
     description: [
       `Munir Hasan is a distinguished figure in Bangladesh's Information and Communication Technology (ICT) landscape, renowned for his multifaceted roles as an inspirer, organizer, and non-fiction writer. He has played a pivotal role in the nation's digital transformation, serving as a co-founder for numerous impactful organizations such as BdMO, BdOSN, SPSB, and WMBD. As the Chief Coordinator of Digital Transformation and a Young Professionals Advisor for Information & Communication Technology, his influence is far-reaching and deeply embedded in both policy and practice.`,
       `Mr. Hasan’s expertise is particularly evident in his contributions to technology-related policy. He has been a key advocate in the drafting, facilitation, and implementation of critical national policies, including the National Broadband Policy-2009 and the ICT Rules 2010. His close collaboration with the Ministry of Science and ICT on regulatory and policy issues underscores his profound understanding of governance in the digital era.`,

@@ -18,73 +18,73 @@ function Home() {
 
         <Slider {...settings}>
           <img
-            src="/assets/images/home/is.jpg"
+            src="/assets/images/home/is.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />
           <img
-            src="/assets/images/home/realhack.jpg"
+            src="/assets/images/home/realhack.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />
           <img
-            src="/assets/images/home/qsa.jpg"
+            src="/assets/images/home/qsa.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />
           <img
-            src="/assets/images/home/Associations.png"
+            src="/assets/images/home/Associations.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />{" "}
           <img
-            src="/assets/images/home/Auditing.png"
+            src="/assets/images/home/Auditing.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />{" "}
           <img
-            src="/assets/images/home/Consultation.png"
+            src="/assets/images/home/Consultation.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />{" "}
           <img
-            src="/assets/images/home/Managed Services (ITES, Specially Cyber Security).png"
+            src="/assets/images/home/Managed Services (ITES, Specially Cyber Security).webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />{" "}
           <img
-            src="/assets/images/home/Partners.png"
+            src="/assets/images/home/Partners.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />{" "}
           <img
-            src="/assets/images/home/Security Assessment & Testing.png"
+            src="/assets/images/home/Security Assessment & Testing.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />{" "}
           <img
-            src="/assets/images/home/Solutions (Specially Cyber Security).png"
+            src="/assets/images/home/Solutions (Specially Cyber Security).webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />{" "}
           <img
-            src="/assets/images/home/Standard Implementation & Certification.png"
+            src="/assets/images/home/Standard Implementation & Certification.webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
           />{" "}
           <img
-            src="/assets/images/home/Training (Custom Skill Development).png"
+            src="/assets/images/home/Training (Custom Skill Development).webp"
             loading="lazy"
             alt=""
             style={{ height: "400px", width: "100%" }}
