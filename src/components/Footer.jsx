@@ -211,7 +211,7 @@ function Footer({ show }) {
                  
 
                   <li className="mt-2 mx-1">
-                    <img className="rounded" src="/assets/images/footer/iso2.png" width="100%" alt="" />
+                    <img className="rounded" src="/assets/images/footer/iso-1.png" width="100%" alt="" />
                   </li>
 
 
@@ -237,7 +237,7 @@ function Footer({ show }) {
                       >
                         <img
                           className="mt-2"
-                          style={{ border: "1px solid gray", width: '46%', height: '70px' }}
+                          style={{ border: "1px solid gray", width: '47%', height: '100px' }}
                           src={country.flag}
                           alt=""
                         />
@@ -254,7 +254,7 @@ function Footer({ show }) {
                       >
                         <img
                           className="mt-2"
-                          style={{ border: "1px solid gray", width: '46%',height:'70px'  }}
+                          style={{ border: "1px solid gray", width: '47%',height:'100px'  }}
                           src={country.flag}
                           alt=""
                         />
@@ -263,10 +263,8 @@ function Footer({ show }) {
                   </li>
 
                   <li className="mx-1 mt-2">
-                    <img src="assets/images/footer/iso.png" width="98%" alt="" />
-                    <h6 style={{ fontSize: "9px", width: "100%" }} className="mt-2 text-light">
-                      WE ARE ISO 27001 , ISO 14001 & ISO 9001 CERTIFIED COMPANY
-                    </h6>
+                    <img src="assets/images/footer/qr.png" width="98%" alt="" />
+                    
                   </li>
                 </ul>
 
