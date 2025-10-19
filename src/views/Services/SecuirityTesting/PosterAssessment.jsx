@@ -53,7 +53,7 @@ function PosterAssessment() {
                 operating an effective cyber security framework against the
                 ever-evolving threat landscape.
               </p>
-              {/* <img className="" src="/assets/images/services/picture.png" alt="" /> */}
+              {/* <img loading="lazy" decoding="async" className="" src="/assets/images/services/picture.png" alt="" /> */}
               <p>
                 Through a combination of questionnaires, face-to-face
                 interviews, and follow-ups we examine the organisation's
@@ -73,7 +73,7 @@ function PosterAssessment() {
               <div style={{ width: "50%" }}>
                 <Carousel indicators={false}>
                   <Carousel.Item interval={1000}>
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="d-block w-100"
                       src="assets/images/background/6.png"
                       alt="First slide"
@@ -87,7 +87,7 @@ function PosterAssessment() {
                     </Carousel.Caption>
                   </Carousel.Item>
                   <Carousel.Item interval={500}>
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="d-block   w-100"
                       src="assets/images/background/5.png"
                       alt="Second slide"
@@ -101,7 +101,7 @@ function PosterAssessment() {
                     </Carousel.Caption>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="d-block w-100"
                       src="assets/images/background/7.png"
                       alt="Third slide"
@@ -259,7 +259,7 @@ function PosterAssessment() {
               <div style={{ width: "50%" }}>
                 <Carousel indicators={false}>
                   <Carousel.Item interval={1000}>
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="d-block w-100"
                       src="assets/images/background/3.png"
                       alt="First slide"
@@ -274,7 +274,7 @@ function PosterAssessment() {
                     </Carousel.Caption>
                   </Carousel.Item>
                   <Carousel.Item interval={500}>
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="d-block   w-100"
                       src="assets/images/background/1.png"
                       alt="Second slide"
@@ -288,7 +288,7 @@ function PosterAssessment() {
                     </Carousel.Caption>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="d-block w-100"
                       src="assets/images/background/4.jpeg"
                       alt="Third slide"

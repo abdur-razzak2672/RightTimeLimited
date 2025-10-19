@@ -70,7 +70,7 @@ function Client() {
                         style={{ width: "120px" }}
                         className="testimonials-one-card__image"
                       >
-                        <img
+                        <img loading="lazy" decoding="async"
                           src="/assets/images/about/test2.jpg"
                           width="100%"
                           alt=""
@@ -110,7 +110,7 @@ function Client() {
                           style={{ width: "120px" }}
                           className="testimonials-one-card__image"
                         >
-                          <img
+                          <img loading="lazy" decoding="async"
                             src="/assets/images/about/test1.jpeg"
                             width="100%"
                             alt=""

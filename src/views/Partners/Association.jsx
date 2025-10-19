@@ -54,7 +54,7 @@ function Association() {
             <ul className="img-grid mt-5 text-center cardHieght py-5 ">
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/association-body" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/bank&nbfi.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
@@ -65,7 +65,7 @@ function Association() {
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/partners" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/ecommerce.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"

@@ -14,7 +14,7 @@ function Benefit() {
           <div className="row gutter-y-60">
             <div style={{ marginTop: "200px" }} className="col-lg-6  ">
               <div className="about-three__image">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/home/foot.png"
                   className="wow fadeInUp"
                   data-wow-duration="1500ms"

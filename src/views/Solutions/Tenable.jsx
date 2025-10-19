@@ -38,7 +38,7 @@ function Tenable() {
                     identify and address potential vulnerabilities in their IT
                     infrastructure.
                   </p>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="rounded"
                     width="90%"
                     src="/assets/images/solutions/Tenable.jpg"

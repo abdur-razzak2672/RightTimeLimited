@@ -179,7 +179,7 @@ function CyberDefenseServices() {
             </Col>
 
             <Col md={6}>
-              <img
+              <img loading="lazy" decoding="async"
                 alt="..."
                 className="img-fluid"
                 src="/assets/images/services/vapt.png"

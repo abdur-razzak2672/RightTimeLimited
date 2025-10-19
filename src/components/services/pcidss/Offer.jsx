@@ -92,7 +92,7 @@ function Offer({ data, id }) {
             that Right Time Limited adopts for the PCI DSS program of works is
             as follows:
           </p>
-          <img
+          <img loading="lazy" decoding="async"
             width="100%"
             src="/assets/images/services/network.png"
             alt="pci-dss-methology"

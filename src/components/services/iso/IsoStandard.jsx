@@ -192,7 +192,7 @@ function IsoStandard() {
                 </Col>
 
                 <Col md={6} sm={12}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="80%"
                     src="/assets/images/services/iso/iso.jpg"
                     alt=""
@@ -202,7 +202,7 @@ function IsoStandard() {
 
               <Row className="mt-5">
                 <Col md={6} sm={12}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="80%"
                     src="/assets/images/services/iso/second.webp"
                     alt=""
@@ -260,7 +260,7 @@ function IsoStandard() {
             <div className="container text-center">
               <Row>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso6.png"
                     alt=""
@@ -275,7 +275,7 @@ function IsoStandard() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso5.png"
                     alt=""
@@ -290,7 +290,7 @@ function IsoStandard() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso4.png"
                     alt=""
@@ -305,7 +305,7 @@ function IsoStandard() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso3.png"
                     alt=""
@@ -321,7 +321,7 @@ function IsoStandard() {
                 </Col>
 
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso2.png"
                     alt=""
@@ -337,7 +337,7 @@ function IsoStandard() {
                 </Col>
 
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso1.png"
                     alt=""

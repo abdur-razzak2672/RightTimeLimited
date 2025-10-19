@@ -39,7 +39,7 @@ function BurpSuite() {
                     designed to enhance the cybersecurity posture of
                     organizations.
                   </p>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="rounded mb-2"
                     width="100%"
                     height="250px"

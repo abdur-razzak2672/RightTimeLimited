@@ -51,7 +51,7 @@ function PartnerBody() {
             <ul className="img-grid mt-5 text-center cardHieght py-4 ">
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/service-partners" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/ecommerce.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
@@ -62,7 +62,7 @@ function PartnerBody() {
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/solution-partners" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/education.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"

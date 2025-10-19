@@ -55,12 +55,12 @@ function CareersBody() {
               </a>
             </div>
             <div className="col-md-6">
-              <img width="130%" src="/assets/images/career/job1.png" alt="" />
+              <img loading="lazy" decoding="async" width="130%" src="/assets/images/career/job1.png" alt="" />
             </div>
           </div>
           <div className="row mt-5">
             <div className="col-md-6">
-              <img width="100%" src="/assets/images/career/job2.1.png" alt="" />
+              <img loading="lazy" decoding="async" width="100%" src="/assets/images/career/job2.1.png" alt="" />
             </div>
             <div className="col-md-6">
               <h2 className="text-info">
@@ -87,7 +87,7 @@ function CareersBody() {
             <h2 className="text-center my-5">Our guiding principles</h2>
             <div className="col-md-4  ">
               <div className="text-center">
-                <img src="/assets/images/career/jobicon.png" alt="" />
+                <img loading="lazy" decoding="async" src="/assets/images/career/jobicon.png" alt="" />
                 <h4>Delight customers</h4>
                 <p>
                   Customer delight is at the heart of who we are. It informs all
@@ -99,7 +99,7 @@ function CareersBody() {
             </div>
             <div className="col-md-4">
               <div className="text-center">
-                <img src="/assets/images/career/jobicon1.webp" alt="" />
+                <img loading="lazy" decoding="async" src="/assets/images/career/jobicon1.webp" alt="" />
                 <h4>Do the right thing</h4>
                 <p>
                   In every interaction and at every opportunity our compass is
@@ -110,7 +110,7 @@ function CareersBody() {
             </div>
             <div className="col-md-4">
               <div className="text-center ">
-                <img src="/assets/images/career/jobicon2.webp" alt="" />
+                <img loading="lazy" decoding="async" src="/assets/images/career/jobicon2.webp" alt="" />
                 <h4>Innovate, communicate, win and grow</h4>
                 <p>
                   We foster an environment that encourages open communication
@@ -124,7 +124,7 @@ function CareersBody() {
           <div className="row mt-5">
             <div className="col-md-4  ">
               <div className="text-center">
-                <img src="/assets/images/career/jobicon3.webp" alt="" />
+                <img loading="lazy" decoding="async" src="/assets/images/career/jobicon3.webp" alt="" />
                 <h4>Work with and for each other</h4>
                 <p>
                   We know we can’t do it alone. The best ideas, innovations and
@@ -136,7 +136,7 @@ function CareersBody() {
             </div>
             <div className="col-md-4">
               <div className="text-center">
-                <img src="/assets/images/career/jobicon4.webp" alt="" />
+                <img loading="lazy" decoding="async" src="/assets/images/career/jobicon4.webp" alt="" />
                 <h4>Be a company of which all can be proud</h4>
                 <p>
                   We are proud of the work we do for our customers, the
@@ -148,7 +148,7 @@ function CareersBody() {
             </div>
             <div className="col-md-4">
               <div className="text-center ">
-                <img src="/assets/images/career/jobicon2.webp" alt="" />
+                <img loading="lazy" decoding="async" src="/assets/images/career/jobicon2.webp" alt="" />
                 <h4>Create and grow sustained business value</h4>
                 <p>
                   Our business model and plan are designed to grow the business
@@ -165,7 +165,7 @@ function CareersBody() {
           all-job
           <div className="row mt-5">
             <div className="col-md-6">
-              <img width="100%" src="/assets/images/career/job3.png" alt="" />
+              <img loading="lazy" decoding="async" width="100%" src="/assets/images/career/job3.png" alt="" />
             </div>
             <div className="col-md-6 mt-5">
               <h2 className="text-info">Right Time</h2>
@@ -199,7 +199,7 @@ function CareersBody() {
 
           <Row>
             <Col md={4}>
-            <img
+            <img loading="lazy" decoding="async"
             width="100%"
               className = "img-responsive"
               src= "/assets/images/career/job.png"

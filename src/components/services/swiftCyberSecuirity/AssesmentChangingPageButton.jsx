@@ -405,7 +405,7 @@ const AssesmentChangingPageButton = () => {
           also develop skillset to complete step 4. (figure as below)
         </p>
 
-        <img
+        <img loading="lazy" decoding="async"
           style={{ width: "100%" }}
           src="/assets/images/services/SwiftCyber/element.jpg"
           alt=""
@@ -449,7 +449,7 @@ const AssesmentChangingPageButton = () => {
           process.
         </p>
         <div className="d-flex justify-content-center">
-          <img
+          <img loading="lazy" decoding="async"
             className="rounded"
             style={{ width: "60%" }}
             src="/assets/images/services/SwiftCyber/re.png"

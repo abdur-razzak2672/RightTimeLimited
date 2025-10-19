@@ -15,7 +15,7 @@ function Header({ show }) {
         <div className="container-fluid  ">
           <div className="main-menu__logo">
             <a href="/">
-              <img
+              <img loading="lazy" decoding="async"
                 src="/assets/images/images-removebg-preview.png"
                 width="88"
                 height="75"
@@ -2216,7 +2216,7 @@ function Header({ show }) {
 
           <div className="logo-box">
             <Link to="/" aria-label="logo image">
-              <img
+              <img loading="lazy" decoding="async"
                 src="assets/images/images-removebg-preview.png"
                 width="78"
                 height="53"

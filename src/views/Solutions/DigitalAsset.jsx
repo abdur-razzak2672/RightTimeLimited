@@ -34,7 +34,7 @@ function DigitalAsset() {
                       Digital Asset (Security information and event management)
                     </h3>
 
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="rounded mb-2"
                       width="100%"
                       height=" 400px"

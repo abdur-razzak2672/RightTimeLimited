@@ -303,28 +303,28 @@ function App() {
                 Welcome to Right Time Limited
               </p>
               {show === "1" ? (
-                <img
+                <img loading="lazy" decoding="async"
                   className="m-2"
                   width="30px"
                   src="assets/images/flag/bd.png"
                   alt=""
                 />
               ) : show === "2" ? (
-                <img
+                <img loading="lazy" decoding="async"
                   className="m-2"
                   width="30px"
                   src="assets/images/flag/usa.png"
                   alt=""
                 />
               ) : show === "3" ? (
-                <img
+                <img loading="lazy" decoding="async"
                   className="m-2"
                   width="30px"
                   src="assets/images/flag/aus.png"
                   alt=""
                 />
               ) : (
-                <img
+                <img loading="lazy" decoding="async"
                   className="m-2"
                   width="30px"
                   src="assets/images/flag/de.png"

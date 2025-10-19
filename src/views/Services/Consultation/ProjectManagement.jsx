@@ -41,7 +41,7 @@ function ProjectManagement() {
                 any unauthorized access which can cause an impact on the
                 organization both in reputation and resources.
               </p>
-              <img
+              <img loading="lazy" decoding="async"
                 className="w-100"
                 src="/assets/images/services/project management.png"
                 alt=""

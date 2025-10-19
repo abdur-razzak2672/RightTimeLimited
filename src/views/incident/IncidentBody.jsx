@@ -186,7 +186,7 @@ function IncidentBody() {
         </div>
       </section> */}
       <div>
-        <img width="100%" src="/assets/images/incident/incident.jpg" alt="" />
+        <img loading="lazy" decoding="async" width="100%" src="/assets/images/incident/incident.jpg" alt="" />
       </div>
 
       <section className="d-flex justify-content-center">

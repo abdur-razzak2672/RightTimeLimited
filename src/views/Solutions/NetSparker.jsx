@@ -27,7 +27,7 @@ function NetSparker() {
                 Net Sparker (Web Assessment)
               </h2>
 
-              <img
+              <img loading="lazy" decoding="async"
                 className="rounded mb-2"
                 width="100%"
                 src="/assets/images/solutions/Netsparker.jpg"

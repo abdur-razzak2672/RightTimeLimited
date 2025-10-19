@@ -228,7 +228,7 @@ function CertifiedPenetration() {
                   className="right border rounded-3 shadow "
                   style={{ width: "100%" }}
                 >
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="card-img-top rounded-3 w-100"
                     src="/assets/images/training/work.png"
                     alt=""
@@ -283,7 +283,7 @@ function CertifiedPenetration() {
                   className="right border rounded-3 shadow "
                   style={{ width: "100%" }}
                 >
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="card-img-top rounded-3 w-100"
                     src="/assets/images/training/book.png"
                     alt=""
@@ -354,7 +354,7 @@ function CertifiedPenetration() {
                   className="right border rounded-3 shadow "
                   style={{ width: "100%" }}
                 >
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="card-img-top rounded-3 w-100"
                     src="/assets/images/training/man.png"
                     alt=""

@@ -66,22 +66,22 @@ function LoginBody() {
 
           <div className="row mt-5">
             <div className="col-md-3">
-              <img src="/assets/images/accounts/icon1.webp" alt="" />
+              <img loading="lazy" decoding="async" src="/assets/images/accounts/icon1.webp" alt="" />
               <h5 className="mt-3">Accelerate solution deployment</h5>
             </div>
 
             <div className="col-md-3">
-              <img src="/assets/images/accounts/icon2.webp" alt="" />
+              <img loading="lazy" decoding="async" src="/assets/images/accounts/icon2.webp" alt="" />
               <h5 className="mt-3">Drive user adoption</h5>
             </div>
 
             <div className="col-md-3">
-              <img src="/assets/images/accounts/icon3.webp" alt="" />
+              <img loading="lazy" decoding="async" src="/assets/images/accounts/icon3.webp" alt="" />
               <h5 className="mt-3">Maintain productive uptime</h5>
             </div>
 
             <div className="col-md-3">
-              <img src="/assets/images/accounts/icon4.webp" alt="" />
+              <img loading="lazy" decoding="async" src="/assets/images/accounts/icon4.webp" alt="" />
               <h5 className="mt-3">
                 Resolve incident level needs or 24/7 services
               </h5>
@@ -116,13 +116,13 @@ function LoginBody() {
           </div>
 
           <div className="col-md-6">
-            <img src="/assets/images/accounts/Support.webp" alt="" />
+            <img loading="lazy" decoding="async" src="/assets/images/accounts/Support.webp" alt="" />
           </div>
         </div>
 
         <div className="row mt-5">
           <div className="col-md-6">
-            <img src="/assets/images/accounts/Support2.webp" alt="" />
+            <img loading="lazy" decoding="async" src="/assets/images/accounts/Support2.webp" alt="" />
           </div>
 
           <div className="col-md-6">
@@ -146,7 +146,7 @@ function LoginBody() {
 
         <div className="row mt-5 pt-5">
           <div className="col-md-6">
-            <img src="/assets/images/accounts/log.webp" alt="" />
+            <img loading="lazy" decoding="async" src="/assets/images/accounts/log.webp" alt="" />
           </div>
 
           <div className="col-md-6">

@@ -53,7 +53,7 @@ function MissionStatement() {
               </div>
               <div className="col-md-5">
                 <div className="d-flex justify-content-center">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="rounded"
                     width="100%"
                     src="/assets/images/about/mission.webp"
@@ -73,7 +73,7 @@ function MissionStatement() {
             <div className="row">
               <div className="col-md-5">
                 <div className="d-flex justify-content-center">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="rounded"
                     width="100%"
                     src="/assets/images/about/our_philosophy_image.webp"
@@ -120,7 +120,7 @@ function MissionStatement() {
               </div>
               <div className="col-md-5">
                 <div className="d-flex justify-content-center">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="rounded"
                     width="100%"
                     src="/assets/images/about/images.jpg"

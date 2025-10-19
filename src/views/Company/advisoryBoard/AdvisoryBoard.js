@@ -108,7 +108,7 @@ function AdvisoryBoard() {
                     </a>
                     <div className="mc-content" style={{ height: "320px" }}>
                       <div className="img-container">
-                        <img
+                        <img loading="lazy" decoding="async"
                           className="img-responsive"
                           src={member.image}
                           alt={member.name}
@@ -157,7 +157,7 @@ function AdvisoryBoard() {
             <i style={{ fontSize: "40px" }} className="fab fa-linkedin"></i>
 
             <div>
-              <img
+              <img loading="lazy" decoding="async"
                 src={teamMembers[selectedMember].image}
                 alt={teamMembers[selectedMember].name}
                 className="img-responsive float-end ms-3 mb-2"

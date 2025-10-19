@@ -101,7 +101,7 @@ function SwiftInformation() {
           <Slider {...settings}>
             {clients.map((client) => (
               <div key={client.id} className="item border-5">
-                <img
+                <img loading="lazy" decoding="async"
                   src={client.image}
                   alt={client.name || "Client logo"}
                   title={client.name}

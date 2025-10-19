@@ -69,7 +69,7 @@ function ServiceBody() {
       <div id="card-container">
         <div id="card">
           <div className="front face text-center p-5">
-          <img src ="assets/images/resources/1.jpg" width = "50%"/>
+          <img loading="lazy" decoding="async" src ="assets/images/resources/1.jpg" width = "50%"/>
           <h5 className='pt-3'>Report</h5>
 
           </div>
@@ -83,7 +83,7 @@ function ServiceBody() {
       <div id="card-container">
         <div id="card2">
           <div className="front face text-center p-5">
-          <img src ="assets/images/resources/1.jpg" width = "50%"/>
+          <img loading="lazy" decoding="async" src ="assets/images/resources/1.jpg" width = "50%"/>
           <h5 className='pt-3'>Report</h5>
 
           </div>
@@ -97,7 +97,7 @@ function ServiceBody() {
       <div id="card-container">
         <div id="card3">
           <div className="front face text-center p-5">
-          <img src ="assets/images/resources/1.jpg" width = "50%"/>
+          <img loading="lazy" decoding="async" src ="assets/images/resources/1.jpg" width = "50%"/>
           <h5 className='pt-3'>Report</h5>
 
           </div>
@@ -111,7 +111,7 @@ function ServiceBody() {
       <div id="card-container">
         <div id="card3">
           <div className="front face text-center p-5">
-          <img src ="assets/images/resources/1.jpg" width = "50%"/>
+          <img loading="lazy" decoding="async" src ="assets/images/resources/1.jpg" width = "50%"/>
           <h5 className='pt-3'>Report</h5>
           </div>
           <div className="back face">
@@ -124,7 +124,7 @@ function ServiceBody() {
       <div id="card-container">
         <div id="card3">
           <div className="front face text-center p-5">
-          <img src ="assets/images/resources/1.jpg" width = "50%"/>
+          <img loading="lazy" decoding="async" src ="assets/images/resources/1.jpg" width = "50%"/>
           <h5 className='pt-3'>Report</h5>
           </div>
           <div className="back face">
@@ -137,7 +137,7 @@ function ServiceBody() {
       <div id="card-container">
         <div id="card3">
           <div className="front face text-center p-5">
-          <img src ="assets/images/resources/1.jpg" width = "50%"/>
+          <img loading="lazy" decoding="async" src ="assets/images/resources/1.jpg" width = "50%"/>
           <h5 className='pt-3'>Report</h5>
           </div>
           <div className="back face">
@@ -201,85 +201,85 @@ function ServiceBody() {
 				}}'
               >
                 <div className="item">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="/assets/images/resources/bangladesh bank.png"
                     alt=""
                   />
                 </div>
                 <div className="item">
-                  <img src="assets/images/resources/agrani bank.png" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/resources/agrani bank.png" alt="" />
                 </div>
                 <div className="item">
-                  <img src="assets/images/resources/rupali bank.png" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/resources/rupali bank.png" alt="" />
                 </div>
                 <div className="item">
-                  <img src="assets/images/resources/nrb-bank.png" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/resources/nrb-bank.png" alt="" />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/IFIC-Logo.png" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/IFIC-Logo.png" alt="" />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/SMBL-Logo.png" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/SMBL-Logo.png" alt="" />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/IFC-Logo.svg" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/IFC-Logo.svg" alt="" />
                 </div>
                 <div className="item">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="/assets/images/resources/Transparency International Bangladesh.png"
                     alt=""
                   />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/paywell.png" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/paywell.png" alt="" />
                 </div>
                 <div className="item">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="/assets/images/resources/Shahajalal Islami Bank_Logo.png"
                     alt=""
                   />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/shurjomikhi.png" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/shurjomikhi.png" alt="" />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/padma bank.png" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/padma bank.png" alt="" />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/SBAC bank.png" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/SBAC bank.png" alt="" />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/mutual-trust.png" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/mutual-trust.png" alt="" />
                 </div>
                 <div className="item">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="/assets/images/resources/meghnagbanklogo.png"
                     alt=""
                   />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/walletmix.png" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/walletmix.png" alt="" />
                 </div>
                 <div className="item">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="/assets/images/resources/circle-fintech.png"
                     alt=""
                   />
                 </div>
                 <div className="item">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="/assets/images/resources/addiesoftlogo.svg"
                     alt=""
                   />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/aibl.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/aibl.jpg" alt="" />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/cca.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/cca.jpg" alt="" />
                 </div>
                 <div className="item">
-                  <img src="/assets/images/resources/genweb2.webp" alt="" />
+                  <img loading="lazy" decoding="async" src="/assets/images/resources/genweb2.webp" alt="" />
                 </div>
               </div>
             </div>

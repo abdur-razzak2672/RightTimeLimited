@@ -27,7 +27,7 @@ function BlogDetails() {
           <div className="row">
             <div className="col-lg-8">
               <div className="blog-details__image">
-                <img src="assets/images/blog/blog-d-1-1.jpg" alt="" />
+                <img loading="lazy" decoding="async" src="assets/images/blog/blog-d-1-1.jpg" alt="" />
               </div>
               <div className="blog-card-one__meta">
                 <div className="blog-card-one__date">
@@ -103,7 +103,7 @@ function BlogDetails() {
               </div>
               <div className="author-one">
                 <div className="author-one__image">
-                  <img src="assets/images/blog/author-1-1.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/blog/author-1-1.jpg" alt="" />
                 </div>
                 <div className="author-one__content">
                   <h3 className="author-one__title">Christine Eve</h3>
@@ -118,7 +118,7 @@ function BlogDetails() {
                 <h3 className="comments-one__title">2 Comments</h3>
                 <div className="comments-one__item">
                   <div className="comments-one__item__image">
-                    <img src="assets/images/blog/comment-1-1.png" alt="" />
+                    <img loading="lazy" decoding="async" src="assets/images/blog/comment-1-1.png" alt="" />
                   </div>
                   <div className="comments-one__item__content">
                     <h3 className="comments-one__item__title">Kevin Martin</h3>
@@ -137,7 +137,7 @@ function BlogDetails() {
                 </div>
                 <div className="comments-one__item">
                   <div className="comments-one__item__image">
-                    <img src="assets/images/blog/comment-1-2.png" alt="" />
+                    <img loading="lazy" decoding="async" src="assets/images/blog/comment-1-2.png" alt="" />
                   </div>
                   <div className="comments-one__item__content">
                     <h3 className="comments-one__item__title">Sarah Albert</h3>
@@ -210,7 +210,7 @@ function BlogDetails() {
                   <ul className="sidebar__posts">
                     <li>
                       <div className="sidebar__posts__image">
-                        <img src="assets/images/blog/blog-s-1-1.png" alt="" />
+                        <img loading="lazy" decoding="async" src="assets/images/blog/blog-s-1-1.png" alt="" />
                       </div>
                       <div className="sidebar__posts__content">
                         <div className="sidebar__posts__date">
@@ -225,7 +225,7 @@ function BlogDetails() {
                     </li>
                     <li>
                       <div className="sidebar__posts__image">
-                        <img src="assets/images/blog/blog-s-1-2.png" alt="" />
+                        <img loading="lazy" decoding="async" src="assets/images/blog/blog-s-1-2.png" alt="" />
                       </div>
                       <div className="sidebar__posts__content">
                         <div className="sidebar__posts__date">
@@ -240,7 +240,7 @@ function BlogDetails() {
                     </li>
                     <li>
                       <div className="sidebar__posts__image">
-                        <img src="assets/images/blog/blog-s-1-3.png" alt="" />
+                        <img loading="lazy" decoding="async" src="assets/images/blog/blog-s-1-3.png" alt="" />
                       </div>
                       <div className="sidebar__posts__content">
                         <div className="sidebar__posts__date">

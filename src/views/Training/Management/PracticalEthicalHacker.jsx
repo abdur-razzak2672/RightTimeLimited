@@ -47,7 +47,7 @@ function PracticalEthicalHacker() {
                   professionals, and anyone interested in understanding the
                   techniques used to secure systems and networks. <br />
                 </p>
-                <img
+                <img loading="lazy" decoding="async"
                   className="training-images"
                   src="/assets/images/training/CEH.png"
                   alt=""
@@ -217,7 +217,7 @@ function PracticalEthicalHacker() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
                     <div className="card-body p-3">
                       <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
 
@@ -248,7 +248,7 @@ function PracticalEthicalHacker() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
                     <div className="card-body p-3">
                       <p>
                         required by payment card brands and acquiring banks.
@@ -280,7 +280,7 @@ function PracticalEthicalHacker() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
                     <div className="card-body p-3">
                       <p>
                         required by payment card brands and acquiring banks.

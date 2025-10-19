@@ -332,7 +332,7 @@ function TrainingBody() {
                   style={{ background: "#e9e3e0" }}
                   className="card"
                 >
-                  <img
+                  <img loading="lazy" decoding="async"
                     height="210px"
                     width="100%"
                     src={program.image}
@@ -404,7 +404,7 @@ function TrainingBody() {
                 <div key={index} className="item">
                   <div style={{ background: "#e9e3e0" }} className="card">
                     <Link to={trainer.link} className="mt-4 rounded-4">
-                      <img
+                      <img loading="lazy" decoding="async"
                         className="rounded-5"
                         style={{ width: "100%", height: "170px" }}
                         src={trainer.image}

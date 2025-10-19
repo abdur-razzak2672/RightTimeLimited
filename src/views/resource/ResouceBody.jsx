@@ -80,7 +80,7 @@ function ResourchBody() {
               <div className="cell mb-10 mx-5">
                 <a href="#" className="article-card custom-card">
                   <div className="image-cover">
-                    <img
+                    <img loading="lazy" decoding="async"
                       decoding="async"
                       width="100"
                       height="100"
@@ -103,7 +103,7 @@ function ResourchBody() {
                     <div className="read-more">
                       <span>Read More</span>
                       <span className="arrow_right_blue">
-                        <img
+                        <img loading="lazy" decoding="async"
                           src="/assets/images/resources/arrow.png"
                           alt="arrow-right-blue"
                           className="arrow-right-blue"
@@ -116,7 +116,7 @@ function ResourchBody() {
               <div className="cell mb-10">
                 <a href="#" className="article-card custom-card">
                   <div className="image-cover textJustify">
-                    <img
+                    <img loading="lazy" decoding="async"
                       decoding="async"
                       width="750"
                       height="392"
@@ -138,7 +138,7 @@ function ResourchBody() {
                     <div className="read-more">
                       <span>Read More</span>
                       <span className="arrow_right_blue">
-                        <img
+                        <img loading="lazy" decoding="async"
                           src="/assets/images/resources/arrow.png"
                           alt="arrow-right-blue"
                           className="arrow-right-blue"
@@ -192,7 +192,7 @@ function ResourchBody() {
                 <Slider {...settings}>
                   {data?.resourcesContent.map((resource, index) => (
                     <div>
-                      <img
+                      <img loading="lazy" decoding="async"
                         style={{ width: "260px" }}
                         src={resource?.image}
                         alt="webinar1"

@@ -43,7 +43,7 @@ function CertifiedDisaster() {
                   risk assessment, business continuity planning, data backup,
                   and recovery procedures.
                 </p>
-                <img
+                <img loading="lazy" decoding="async"
                   style={{ width: "100%" }}
                   src="https://www.shutterstock.com/image-photo/disaster-recovery-backup-data-protection-600nw-2283759633.jpg"
                 />
@@ -215,7 +215,7 @@ function CertifiedDisaster() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
                     <div className="card-body p-3">
                       <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
 
@@ -244,7 +244,7 @@ function CertifiedDisaster() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
                     <div className="card-body p-3">
                       <p>
                         required by payment card brands and acquiring banks.
@@ -275,7 +275,7 @@ function CertifiedDisaster() {
               </div>
               <div className="col-lg-4 mt-5">
                 {/* <div className="right border rounded-3 shadow " style={{ width: "100%" }}>
-                    <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
+                    <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
                     <div className="card-body p-3">
                       <p>
                         required by payment card brands and acquiring banks.

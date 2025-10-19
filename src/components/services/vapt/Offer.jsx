@@ -256,7 +256,7 @@ function Offer({ data, va, pt, id, Offercard }) {
                 <div id="card-container">
                   <div className="text-center rounded" id="card3">
                     <div className="front face text-center pt-3">
-                      <img
+                      <img loading="lazy" decoding="async"
                         src="assets/images/services/cardicon/2.png"
                         width="30%"
                         alt=""
@@ -274,14 +274,14 @@ function Offer({ data, va, pt, id, Offercard }) {
 
           <h5 className="header pt-3 text-info">Why RightTime?</h5>
 
-          <img width="100%" src="/assets/images/services/rtl.png" alt="" />
+          <img loading="lazy" decoding="async" width="100%" src="/assets/images/services/rtl.png" alt="" />
 
           {va === "va" && (
             <>
               <h5 className="header pt-3 text-info">
                 Right Time Also Provides:
               </h5>
-              <img
+              <img loading="lazy" decoding="async"
                 width="100%"
                 src="/assets/images/services/vartl.png"
                 alt=""

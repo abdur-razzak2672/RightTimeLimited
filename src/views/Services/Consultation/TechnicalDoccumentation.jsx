@@ -35,7 +35,7 @@ function TechnicalDoccumentation() {
             <div style={{ width: "100%" }}>
               <Carousel indicators={false}>
                 <Carousel.Item interval={1000}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block w-100"
                     src="assets/images/background/11.png"
                     alt="First slide"
@@ -49,7 +49,7 @@ function TechnicalDoccumentation() {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block   w-100"
                     src="assets/images/background/12.png"
                     alt="Second slide"
@@ -63,7 +63,7 @@ function TechnicalDoccumentation() {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block w-100"
                     src="assets/images/background/11.png"
                     alt="Third slide"
@@ -92,7 +92,7 @@ function TechnicalDoccumentation() {
               <div>
                 <div className="d-flex justify-content-between">
                   <h4 className="header-title">Policy Acceptance</h4>
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="50%"
                     src="assets/images/services/pol.png"
                     alt=""
@@ -111,7 +111,7 @@ function TechnicalDoccumentation() {
               <div>
                 <div className="d-flex justify-content-between">
                   <h4 className="header-title">Approval Workflow</h4>
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="50%"
                     src="assets/images/services/app.png"
                     alt=""
@@ -129,7 +129,7 @@ function TechnicalDoccumentation() {
               <div>
                 <div className="d-flex justify-content-between">
                   <h4 className="header-title">In-App Document Editor</h4>
-                  <img width="50%" src="assets/images/services/in.png" alt="" />
+                  <img loading="lazy" decoding="async" width="50%" src="assets/images/services/in.png" alt="" />
                 </div>
                 <p style={{ borderBottom: "1px solid red", width: "30%" }}></p>
                 <p>
@@ -144,7 +144,7 @@ function TechnicalDoccumentation() {
               <div>
                 <div className="d-flex justify-content-between">
                   <h4 className="header-title">Document Versioning</h4>
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="50%"
                     src="assets/images/services/doc.png"
                     alt=""
@@ -171,7 +171,7 @@ function TechnicalDoccumentation() {
                   <h4 className="header-title">
                     Centralized Policy Management
                   </h4>
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="50%"
                     src="assets/images/services/cen.png"
                     alt=""
@@ -190,7 +190,7 @@ function TechnicalDoccumentation() {
               <div>
                 <div className="d-flex justify-content-between">
                   <h4 className="header-title">Policy Mapping</h4>
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="50%"
                     src="assets/images/services/pol1.png"
                     alt=""
@@ -208,7 +208,7 @@ function TechnicalDoccumentation() {
               <div>
                 <div className="d-flex justify-content-between">
                   <h4 className="header-title">Keep Standards at Scale</h4>
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="50%"
                     src="assets/images/services/kep.png"
                     alt=""
@@ -227,7 +227,7 @@ function TechnicalDoccumentation() {
               <div>
                 <div className="d-flex justify-content-between">
                   <h4 className="header-title">Identify Risk</h4>
-                  <img width="50%" src="assets/images/services/id.png" alt="" />
+                  <img loading="lazy" decoding="async" width="50%" src="assets/images/services/id.png" alt="" />
                 </div>
                 <p style={{ borderBottom: "1px solid red", width: "30%" }}></p>
                 <p>
@@ -262,22 +262,22 @@ function TechnicalDoccumentation() {
 
           {/*   <Row className="mt-5">
      <Col md={3} sm="6">
-          <img width="100%" src="assets/images/services/1.png" alt="" />
+          <img loading="lazy" decoding="async" width="100%" src="assets/images/services/1.png" alt="" />
 
 
         </Col>
         <Col md={3} sm="6">
-          <img width="100%" src="assets/images/services/2.png" alt="" />
+          <img loading="lazy" decoding="async" width="100%" src="assets/images/services/2.png" alt="" />
 
 
         </Col>
         <Col md={3} sm="6">
-          <img width="100%" src="assets/images/services/3.png" alt="" />
+          <img loading="lazy" decoding="async" width="100%" src="assets/images/services/3.png" alt="" />
 
 
         </Col>
         <Col md={3} sm="6">
-          <img width="100%" src="assets/images/services/4.png" alt="" />
+          <img loading="lazy" decoding="async" width="100%" src="assets/images/services/4.png" alt="" />
 
 
         </Col>

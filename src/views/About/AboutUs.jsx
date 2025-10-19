@@ -25,7 +25,7 @@ function AboutUs() {
           <div className="row gutter-y-60">
             <div className="col-lg-6">
               <div className="about-four__image">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/resources/rt1.png"
                   className="wow fadeInUp"
                   data-wow-duration="1500ms"
@@ -65,20 +65,20 @@ function AboutUs() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 text-center p-2">
-              <img src="/assets/images/about/icon1.png" alt=""/>
+              <img loading="lazy" decoding="async" src="/assets/images/about/icon1.png" alt=""/>
               <h3 className="text-dark">Our Mission</h3>
               <p className="mx-5" >Right Time Limited (“RightTime”, short form) started its journey in the year 2009. It’s purely an Information Security Consultation.</p>
 
             </div>
             <div className="col-lg-4 text-center p-2">
-              <img src="/assets/images/about/icon1.png" alt=""/>
+              <img loading="lazy" decoding="async" src="/assets/images/about/icon1.png" alt=""/>
               <h3 className="text-dark">Our Vission</h3>
               <p className="mx-5" >Right Time Limited (“RightTime”, short form) started its journey in the year 2009. It’s purely an Information Security Consultation.</p>
 
             </div>
 
             <div className="col-lg-4 text-center p-2">
-              <img src="/assets/images/about/icon1.png" alt=""/>
+              <img loading="lazy" decoding="async" src="/assets/images/about/icon1.png" alt=""/>
               <h3 className="text-dark">Our Goals</h3>
               <p className="mx-5" >Right Time Limited (“RightTime”, short form) started its journey in the year 2009. It’s purely an Information Security Consultation.</p>
 
@@ -132,7 +132,7 @@ function AboutUs() {
               <ul className="img-grid mt-5 text-center pb-5 cardHieght1 ">
                 <li style={{ width: "140px" }} className="m-2 rounded border ">
                   <a href="/bank-nbfi" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/bank&nbfi.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -143,7 +143,7 @@ function AboutUs() {
                 </li>
                 <li style={{ width: "140px" }} className="m-2 rounded border ">
                   <a href="/ecommerce-retail" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/ecommerce.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -157,7 +157,7 @@ function AboutUs() {
                     href="/educational-institutions"
                     className="overlay-container"
                   >
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/education.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -168,7 +168,7 @@ function AboutUs() {
                 </li>
                 <li style={{ width: "140px" }} className="m-2 rounded border ">
                   <a href="/health-care" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/healthcare.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -179,7 +179,7 @@ function AboutUs() {
                 </li>
                 <li style={{ width: "140px" }} className="m-2 rounded border ">
                   <a href="/payment-card" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/pci.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -191,7 +191,7 @@ function AboutUs() {
 
                 <li style={{ width: "140px" }} className="m-2 rounded border ">
                   <a href="/telecomunication">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/telecommunication.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -203,7 +203,7 @@ function AboutUs() {
 
                 <li style={{ width: "140px" }} className="m-2 rounded border ">
                   <a href="/health-care" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/insurance .png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -214,7 +214,7 @@ function AboutUs() {
                 </li>
                 <li style={{ width: "140px" }} className="m-2 rounded border ">
                   <a href="/bpo-service" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/bpo.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -226,7 +226,7 @@ function AboutUs() {
 
                 <li style={{ width: "140px" }} className="m-2 rounded border ">
                   <a href="/power-sector">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/power.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"

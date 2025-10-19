@@ -74,7 +74,7 @@ function IndustriusBody() {
               <ul className="img-grid mt-5 text-center cardHieght ">
                 <li style={{ width: "180px" }} className="m-2 rounded border ">
                   <a href="/bank-nbfi" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/bank&nbfi.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -85,7 +85,7 @@ function IndustriusBody() {
                 </li>
                 <li style={{ width: "180px" }} className="m-2 rounded border ">
                   <a href="/ecommerce-retail" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/ecommerce.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -99,7 +99,7 @@ function IndustriusBody() {
                     href="/educational-institutions"
                     className="overlay-container"
                   >
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/education.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -110,7 +110,7 @@ function IndustriusBody() {
                 </li>
                 <li style={{ width: "180px" }} className="m-2 rounded border ">
                   <a href="/health-care" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/healthcare.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -121,7 +121,7 @@ function IndustriusBody() {
                 </li>
                 <li style={{ width: "180px" }} className="m-2 rounded border ">
                   <a href="/payment-card" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/pci.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -133,7 +133,7 @@ function IndustriusBody() {
 
                 <li style={{ width: "180px" }} className="m-2 rounded border ">
                   <a href="/telecomunication">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/telecommunication.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -145,7 +145,7 @@ function IndustriusBody() {
 
                 <li style={{ width: "180px" }} className="m-2 rounded border ">
                   <a href="/health-care" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/insurance .png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -156,7 +156,7 @@ function IndustriusBody() {
                 </li>
                 <li style={{ width: "180px" }} className="m-2 rounded border ">
                   <a href="/bpo-service" className="overlay-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/bpo.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"
@@ -168,7 +168,7 @@ function IndustriusBody() {
 
                 <li style={{ width: "180px" }} className="m-2 rounded border ">
                   <a href="/power-sector">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/Industries/power.png"
                       alt="Image capture goes here 01"
                       className="overlay-img rounded-2"

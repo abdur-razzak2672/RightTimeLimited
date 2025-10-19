@@ -25,7 +25,7 @@ function CoreImpact() {
             <div className="col-lg-8">
               <h2 className="text-center header">Core Impact (PT)</h2>
 
-              <img
+              <img loading="lazy" decoding="async"
                 className="rounded mb-2"
                 width="100%"
                 height=" 350px"

@@ -95,7 +95,7 @@ function RegionalLeader() {
                         </a>
                         <div className="mc-content" style={{ height: "320px" }}>
                           <div className="img-container">
-                            <img
+                            <img loading="lazy" decoding="async"
                               className="img-responsive"
                               src={leader.image}
                               alt={leader.name}
@@ -169,7 +169,7 @@ function RegionalLeader() {
           <Modal.Body className="rounded-3">
             <div className="position-relative">
               <div className="float-end ms-4 mb-3" style={{ width: "200px" }}>
-                <img
+                <img loading="lazy" decoding="async"
                   src={leader.image}
                   alt={leader.name}
                   className="img-fluid rounded"

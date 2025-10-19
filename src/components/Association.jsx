@@ -47,37 +47,37 @@ function Association() {
         <Slider {...settings}>
           <div>
             <div className="item">
-              <img src="assets/images/association/pci.jpg" alt="" />
+              <img loading="lazy" decoding="async" src="assets/images/association/pci.jpg" alt="" />
             </div>
           </div>
           <div>
             <div className="item">
-              <img src="assets/images/association/basis.jpg" alt="" />
+              <img loading="lazy" decoding="async" src="assets/images/association/basis.jpg" alt="" />
             </div>
           </div>
           <div>
             <div className="item">
-              <img src="assets/images/association/ecab.jpg" alt="" />
+              <img loading="lazy" decoding="async" src="assets/images/association/ecab.jpg" alt="" />
             </div>{" "}
           </div>
           <div>
             <div className="item">
-              <img src="assets/images/association/bcs.jpg" alt="" />
+              <img loading="lazy" decoding="async" src="assets/images/association/bcs.jpg" alt="" />
             </div>
           </div>
           <div>
             <div className="item">
-              <img src="assets/images/association/bf.jpg" alt="" />
+              <img loading="lazy" decoding="async" src="assets/images/association/bf.jpg" alt="" />
             </div>
           </div>
           <div>
             <div className="item">
-              <img src="assets/images/association/wbg.jpg" alt="" />
+              <img loading="lazy" decoding="async" src="assets/images/association/wbg.jpg" alt="" />
             </div>
           </div>
           <div>
             <div className="item">
-              <img src="assets/images/association/cca.jpg" alt="" />
+              <img loading="lazy" decoding="async" src="assets/images/association/cca.jpg" alt="" />
             </div>
           </div>
         </Slider>

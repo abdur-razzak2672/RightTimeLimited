@@ -46,7 +46,7 @@ function LeanConsultation() {
             </Col>
 
             <Col md={6}>
-              <img
+              <img loading="lazy" decoding="async"
                 className="d-block w-100"
                 src="/assets/images/services/Lean.jpg"
                 alt="First slide"

@@ -136,7 +136,7 @@ function BenitsConpany() {
                   </span>
                 </div>
                 <div className="col-md-8">
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="100%"
                     src={data[tabIndex]?.subTitle[subIndex]?.image}
                     alt=""

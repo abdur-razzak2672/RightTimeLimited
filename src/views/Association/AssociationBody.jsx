@@ -51,7 +51,7 @@ function AssociationBody() {
             <ul className="img-grid mt-5 text-center cardHieght py-4 ">
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/Cca" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/bank&nbfi.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
@@ -62,7 +62,7 @@ function AssociationBody() {
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/Pci" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/ecommerce.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
@@ -73,7 +73,7 @@ function AssociationBody() {
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/WorlBank" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/education.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
@@ -84,7 +84,7 @@ function AssociationBody() {
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/Swift" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/healthcare.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
@@ -95,7 +95,7 @@ function AssociationBody() {
               </li>
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/Basis" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/pci.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
@@ -107,7 +107,7 @@ function AssociationBody() {
 
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/Ecab">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/telecommunication.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"
@@ -119,7 +119,7 @@ function AssociationBody() {
 
               <li style={{ width: "180px" }} className="m-2 rounded border ">
                 <a href="/Bcs" className="overlay-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="assets/images/Industries/bpo.png"
                     alt="Image capture goes here 01"
                     className="overlay-img rounded-2"

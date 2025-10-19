@@ -49,7 +49,7 @@ function ManagementBody() {
                   secure ICT operations. <br />
                 </p>
 
-                <img
+                <img loading="lazy" decoding="async"
                   style={{ width: "100%" }}
                   src="https://www.tuvsud.com/-/media/regions/sg/images/services/cybersecurity/ss-1115081195-operational-technology-security.jpg?h=1050&w=4050&la=en-ID&hash=9E0802B29A903A99B683EB1B18B3F05B"
                 />
@@ -162,7 +162,7 @@ By delivering training that aligns with the organization's specific context, Rig
             </div>
             <div className="col-lg-4 mt-5">
             <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                   <img className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
+                   <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/work.png" alt="" />
                   <div className="card-body p-3">
                     <h6 mt-4>Upon completion of the course, you’ll be able to conduct PCI 3DS Assessments, validate and attest as to an entity’s PCI 3DS</h6>
 
@@ -199,7 +199,7 @@ By delivering training that aligns with the organization's specific context, Rig
               </div>
               <div className="col-lg-4 mt-5">
               <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
+                     <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/book.png" alt="" />
                     <div className="card-body p-3">
                     <p>
                        required by payment card brands and acquiring banks.
@@ -257,7 +257,7 @@ By delivering training that aligns with the organization's specific context, Rig
               </div>
               <div className="col-lg-4 mt-5">
               <div className="right border rounded-3 shadow " style={{width: "100%"}}>
-                     <img className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
+                     <img loading="lazy" decoding="async" className="card-img-top rounded-3 w-100" src="/assets/images/training/man.png" alt="" />
                     <div className="card-body p-3">
                     <p>
                        required by payment card brands and acquiring banks.

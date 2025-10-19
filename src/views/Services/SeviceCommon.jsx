@@ -22,7 +22,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/1.png"
                       width="30%"
                       alt=""
@@ -44,7 +44,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/2.png"
                       width="30%"
                       alt=""
@@ -64,7 +64,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/3.png"
                       width="30%"
                       alt=""
@@ -84,7 +84,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-4">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/1.png"
                       width="30%"
                       alt=""
@@ -104,7 +104,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/5.png"
                       width="30%"
                       alt=""
@@ -124,7 +124,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/6.png"
                       width="30%"
                       alt=""
@@ -146,7 +146,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/7.png"
                       width="30%"
                       alt=""
@@ -166,7 +166,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/8.png"
                       width="30%"
                       alt=""
@@ -188,7 +188,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/9.png"
                       width="30%"
                       alt=""
@@ -208,7 +208,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/10.png"
                       width="30%"
                       alt=""
@@ -228,7 +228,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/11.png"
                       width="30%"
                       alt=""
@@ -251,7 +251,7 @@ function SeviceCommon() {
               <div id="card-container">
                 <div className="text-center rounded" id="card3">
                   <div className="front face text-center pt-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="assets/images/services/cardicon/12.png"
                       width="30%"
                       alt=""

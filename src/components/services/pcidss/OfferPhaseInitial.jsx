@@ -18,7 +18,7 @@ function OfferPhase({ data }) {
             <div id="card-container">
               <div className="text-center rounded" id="card3">
                 <div className="front face text-center pt-3">
-                  <img src={item.image} width="30%" alt="" />
+                  <img loading="lazy" decoding="async" src={item.image} width="30%" alt="" />
                   <h5 className=" mt-3 p-2 text-dark">{item.title}</h5>
                 </div>
                 <div className="back face">
@@ -43,7 +43,7 @@ function OfferPhase({ data }) {
             <div id="card-container">
               <div className="text-center rounded" id="card3">
                 <div className="front face text-center pt-3">
-                  <img src={item.image} width="30%" alt="" />
+                  <img loading="lazy" decoding="async" src={item.image} width="30%" alt="" />
                   <h5 className="mt-3 p-2 text-dark">{item.title}</h5>
                 </div>
                 <div className="back face">
@@ -68,7 +68,7 @@ function OfferPhase({ data }) {
             <div id="card-container">
               <div className="text-center rounded" id="card3">
                 <div className="front face text-center pt-3">
-                  <img src={item.image} width="30%" alt="" />
+                  <img loading="lazy" decoding="async" src={item.image} width="30%" alt="" />
                   <h5 className="mt-3 p-2 text-dark">{item.title}</h5>
                   <h3 style={{ color: "red" }}>{item.action}</h3>
                 </div>

@@ -55,7 +55,7 @@ function Footer({ show }) {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-widget footer-widget--about">
                 {/* <a href="/" className="footer-widget__logo">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src="/assets/images/images-removebg-preview.png"
                     width="50"
                     height="50"
@@ -243,7 +243,7 @@ function Footer({ show }) {
 
                 <ul className="footer-widget__contact">
                   <li className="mt-2 mx-1">
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="rounded"
                       src="/assets/images/footer/iso-1.png"
                       width="100%"
@@ -252,7 +252,7 @@ function Footer({ show }) {
                   </li>
 
                   <li className="mt-2 mb-5 mx-1">
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="rounded"
                       src="/assets/images/footer/pcaa.png"
                       width="100%"
@@ -275,7 +275,7 @@ function Footer({ show }) {
                         onClick={country.onClick}
                         href="javascript:void(0)"
                       >
-                        <img
+                        <img loading="lazy" decoding="async"
                           className="mt-2"
                           style={{
                             border: "1px solid gray",
@@ -296,7 +296,7 @@ function Footer({ show }) {
                         onClick={country.onClick}
                         href="javascript:void(0)"
                       >
-                        <img
+                        <img loading="lazy" decoding="async"
                           className="mt-2"
                           style={{
                             border: "1px solid gray",
@@ -311,7 +311,7 @@ function Footer({ show }) {
                   </li>
 
                   <li className="mx-1 mt-2">
-                    <img src="assets/images/footer/qr.png" width="98%" alt="" />
+                    <img loading="lazy" decoding="async" src="assets/images/footer/qr.png" width="98%" alt="" />
                   </li>
                 </ul>
               </div>
@@ -370,7 +370,7 @@ function Footer({ show }) {
         <div className=" container p-3">
           <div>
             <p className="text-center mt-2 ">
-              <img
+              <img loading="lazy" decoding="async"
                 className="mx-2"
                 width="80px"
                 src="assets/images/footer/sectigo.png"

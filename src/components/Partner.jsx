@@ -47,7 +47,7 @@ function Partner() {
         <Slider {...settings}>
           <div>
             <div className="item">
-              <img
+              <img loading="lazy" decoding="async"
                 style={{
                   height: "220px",
                   objectFit: "cover",
@@ -60,7 +60,7 @@ function Partner() {
           </div>
           <div>
             <div className="item">
-              <img
+              <img loading="lazy" decoding="async"
                 style={{
                   height: "220px",
                   objectFit: "cover",
@@ -73,7 +73,7 @@ function Partner() {
           </div>
           <div>
             <div className="item">
-              <img
+              <img loading="lazy" decoding="async"
                 style={{
                   height: "220px",
                   objectFit: "cover",
@@ -86,7 +86,7 @@ function Partner() {
           </div>
           <div>
             <div className="item">
-              <img
+              <img loading="lazy" decoding="async"
                 style={{
                   height: "220px",
                   objectFit: "cover",
@@ -99,7 +99,7 @@ function Partner() {
           </div>
           <div>
             <div className="item">
-              <img
+              <img loading="lazy" decoding="async"
                 style={{
                   height: "220px",
                   objectFit: "cover",

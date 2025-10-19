@@ -9,7 +9,7 @@ function Profile() {
           <div>
             <div className="row">
               <div className="col-md-6 d-flex">
-                <img
+                <img loading="lazy" decoding="async"
                   className="rounded-5"
                   style={{ width: "30%", height: "150px" }}
                   src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"

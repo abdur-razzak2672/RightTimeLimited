@@ -53,69 +53,69 @@ function Information() {
 
           <Slider {...settings}>
             <div className="item">
-              <img src=" assets/images/clients/1.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/1.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/2.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/2.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/3.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/3.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/4.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/4.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/5.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/5.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/6.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/6.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/7.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/7.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/8.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/8.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/9.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/9.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/10.jpg " alt="" />
-            </div>
-
-            <div className="item">
-              <img src=" assets/images/clients/11.jpg " alt="" />
-            </div>
-            <div className="item">
-              <img src=" assets/images/clients/12.jpg " alt="" />
-            </div>
-            <div className="item">
-              <img src=" assets/images/clients/13.jpg " alt="" />
-            </div>
-            <div className="item">
-              <img src=" assets/images/clients/14.jpg " alt="" />
-            </div>
-            <div className="item">
-              <img src=" assets/images/clients/15.jpg " alt="" />{" "}
-            </div>
-            <div className="item">
-              <img src=" assets/images/clients/16.jpg " alt="" />
-            </div>
-            <div className="item">
-              <img src=" assets/images/clients/17.jpg " alt="" />{" "}
-            </div>
-            <div className="item">
-              <img src=" assets/images/clients/18.jpg " alt="" />{" "}
-            </div>
-            <div className="item">
-              <img src=" assets/images/clients/19.jpg " alt="" />{" "}
+              <img loading="lazy" decoding="async" src=" assets/images/clients/10.jpg " alt="" />
             </div>
 
             <div className="item">
-              <img src=" assets/images/clients/20.jpg " alt="" />
+              <img loading="lazy" decoding="async" src=" assets/images/clients/11.jpg " alt="" />
             </div>
             <div className="item">
-              <img src=" assets/images/clients/21.jpg " alt="" />{" "}
+              <img loading="lazy" decoding="async" src=" assets/images/clients/12.jpg " alt="" />
+            </div>
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/13.jpg " alt="" />
+            </div>
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/14.jpg " alt="" />
+            </div>
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/15.jpg " alt="" />{" "}
+            </div>
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/16.jpg " alt="" />
+            </div>
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/17.jpg " alt="" />{" "}
+            </div>
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/18.jpg " alt="" />{" "}
+            </div>
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/19.jpg " alt="" />{" "}
+            </div>
+
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/20.jpg " alt="" />
+            </div>
+            <div className="item">
+              <img loading="lazy" decoding="async" src=" assets/images/clients/21.jpg " alt="" />{" "}
             </div>
           </Slider>
         </div>

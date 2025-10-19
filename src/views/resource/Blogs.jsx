@@ -39,7 +39,7 @@ function blogs() {
             >
               <div className="blog-card-one">
                 <div className="blog-card-one__image">
-                  <img src="assets/images/blog/blog-1-1.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/blog/blog-1-1.jpg" alt="" />
                 </div>
                 <div className="blog-card-one__content">
                   <div className="blog-card-one__meta">
@@ -70,7 +70,7 @@ function blogs() {
             >
               <div className="blog-card-one">
                 <div className="blog-card-one__image">
-                  <img src="assets/images/blog/blog-1-2.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/blog/blog-1-2.jpg" alt="" />
                 </div>
                 <div className="blog-card-one__content">
                   <div className="blog-card-one__meta">
@@ -101,7 +101,7 @@ function blogs() {
             >
               <div className="blog-card-one">
                 <div className="blog-card-one__image">
-                  <img src="assets/images/blog/blog-1-3.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/blog/blog-1-3.jpg" alt="" />
                 </div>
                 <div className="blog-card-one__content">
                   <div className="blog-card-one__meta">
@@ -132,7 +132,7 @@ function blogs() {
             >
               <div className="blog-card-one">
                 <div className="blog-card-one__image">
-                  <img src="assets/images/blog/blog-1-4.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/blog/blog-1-4.jpg" alt="" />
                 </div>
                 <div className="blog-card-one__content">
                   <div className="blog-card-one__meta">
@@ -163,7 +163,7 @@ function blogs() {
             >
               <div className="blog-card-one">
                 <div className="blog-card-one__image">
-                  <img src="assets/images/blog/blog-1-5.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/blog/blog-1-5.jpg" alt="" />
                 </div>
                 <div className="blog-card-one__content">
                   <div className="blog-card-one__meta">
@@ -195,7 +195,7 @@ function blogs() {
             >
               <div className="blog-card-one">
                 <div className="blog-card-one__image">
-                  <img src="assets/images/blog/blog-1-6.jpg" alt="" />
+                  <img loading="lazy" decoding="async" src="assets/images/blog/blog-1-6.jpg" alt="" />
                 </div>
                 <div className="blog-card-one__content">
                   <div className="blog-card-one__meta">

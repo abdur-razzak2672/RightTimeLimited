@@ -50,7 +50,7 @@ function About() {
             <div className="col-lg-5">
               <div className="about-five__images">
                 <div className="about-five__images__shape"></div>
-                <img
+                <img loading="lazy" decoding="async"
                   src="assets/images/home/up.jpg"
                   className="wow fadeInUp"
                   data-wow-duration="1500ms"
@@ -100,7 +100,7 @@ function About() {
                   <div className="about-four__author">
                     <div className="row">
                       <div className="col-md-4">
-                        <img
+                        <img loading="lazy" decoding="async"
                           width="100%"
                           src="assets/images/team/mam.jpg"
                           alt=""
@@ -168,7 +168,7 @@ function About() {
             </Col>
 
             <Col md={4}>
-              <img
+              <img loading="lazy" decoding="async"
                 className="img-responsive"
                 src="/assets/images/team/mam.jpg"
                 alt=""

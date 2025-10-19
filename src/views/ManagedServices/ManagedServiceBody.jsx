@@ -123,7 +123,7 @@ function ManagedServiceBody() {
                         <div style={{ width: "100%" }}>
                           <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
-                              <img
+                              <img loading="lazy" decoding="async"
                                 className="d-block w-100"
                                 src="assets/images/background/6.png"
                                 alt="First slide"
@@ -138,7 +138,7 @@ function ManagedServiceBody() {
                               </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item interval={500}>
-                              <img
+                              <img loading="lazy" decoding="async"
                                 className="d-block   w-100"
                                 src="assets/images/background/5.png"
                                 alt="Second slide"
@@ -153,7 +153,7 @@ function ManagedServiceBody() {
                               </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                              <img
+                              <img loading="lazy" decoding="async"
                                 className="d-block w-100"
                                 src="assets/images/background/7.png"
                                 alt="Third slide"
@@ -310,7 +310,7 @@ function ManagedServiceBody() {
                     </p>
                   </div>
                   <div className="col-md-5">
-                    <img
+                    <img loading="lazy" decoding="async"
                       className="w-100"
                       src="/assets/images/services/CMMI.png"
                       alt=""

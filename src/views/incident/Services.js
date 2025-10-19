@@ -463,7 +463,7 @@ function Services() {
             know-how of our certified experts.
           </p>
 
-          <img
+          <img loading="lazy" decoding="async"
             alt="..."
             className="img-fluid"
             src="/assets/images/services/vapt.png"

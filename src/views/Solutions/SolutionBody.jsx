@@ -29,7 +29,7 @@ function SolutionBody() {
             <div className="row">
               <div className="col-lg-8">
                 <div className="container pt-4">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="rounded mb-2"
                     width="100%"
                     height="400px"

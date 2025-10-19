@@ -8,7 +8,7 @@ function Login() {
           <div className="login-text">
             <div className="logo d-flex justify-content-center">
               <a href="/">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/images-removebg-preview.png"
                   width="70"
                   height="62"

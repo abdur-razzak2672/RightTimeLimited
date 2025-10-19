@@ -51,7 +51,7 @@ function Testmonial() {
             </p>
             <Row>
               <Col style={{ width: "120px" }} md={2}>
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/about/test3.jpeg"
                   alt="testimonial"
                   width="100%"
@@ -69,7 +69,7 @@ function Testmonial() {
           </Col>
 
           <Col md={4}>
-            <img
+            <img loading="lazy" decoding="async"
               src="/assets/images/about/test3.jpeg"
               alt="testimonial"
               width="100%"
@@ -81,7 +81,7 @@ function Testmonial() {
       <section className="container mt-5">
         <Row className="mt-5">
           <Col md={4}>
-            <img
+            <img loading="lazy" decoding="async"
               src="/assets/images/about/test2.jpg"
               alt="testimonial"
               width="100%"
@@ -111,7 +111,7 @@ function Testmonial() {
             </p>
             <Row>
               <Col style={{ width: "120px" }} md={2}>
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/about/test2.jpg"
                   alt="testimonial"
                   width="100%"
@@ -156,7 +156,7 @@ function Testmonial() {
             </p>
             <Row>
               <Col style={{ width: "120px" }} md={2}>
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/about/test1.jpeg"
                   alt="testimonial"
                   width="100%"
@@ -175,7 +175,7 @@ function Testmonial() {
           </Col>
 
           <Col md={4}>
-            <img
+            <img loading="lazy" decoding="async"
               src="/assets/images/about/test1.jpeg"
               alt="testimonial"
               width="100%"

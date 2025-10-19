@@ -169,7 +169,7 @@ function SwiftParent() {
           </div>
 
           <div className="col-md-8">
-            <img
+            <img loading="lazy" decoding="async"
               style={{ width: "100%" }}
               src="/assets/images/services/SwiftCyber/customer.jpeg"
               alt=""
@@ -186,7 +186,7 @@ function SwiftParent() {
 
           <div className="architecture-graph mt-5">
             <div>
-              <img
+              <img loading="lazy" decoding="async"
                 className="data-graph-img"
                 src="/assets/images/services/SwiftCyber/graph.png"
                 alt=""
@@ -262,7 +262,7 @@ function SwiftParent() {
                 of the assessment to be made for an individual control is shown
                 in the following image (for an attestation against v2023):
                 <div className="text-center">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="data-graph-img"
                     src="/assets/images/services/SwiftCyber/control.png"
                     alt=""
@@ -289,7 +289,7 @@ function SwiftParent() {
                 of the controls each year in early July, and these controls are
                 then attested against between July and December the next year.
                 <div className="text-center">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="data-graph-img"
                     src="/assets/images/services/SwiftCyber/image.png"
                     alt=""
@@ -349,7 +349,7 @@ function SwiftParent() {
                 with your assessor to ensure mutual agreement on the scope of
                 the assessment and to better prepare your staff.
                 <div className="text-center">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="data-graph-img"
                     src="/assets/images/services/SwiftCyber/pic.png"
                     alt=""
@@ -378,7 +378,7 @@ function SwiftParent() {
                 but all responsibility for the assessment remains with you: you
                 must obtain assurance on the compliance of your third parties.
                 <div className="text-center">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="data-graph-img"
                     src="/assets/images/services/SwiftCyber/pic2.png"
                     alt=""
@@ -425,7 +425,7 @@ function SwiftParent() {
                 <div className="item">
                   <div style={{ background: "#e9e3e0" }} className="card">
                     <a className=" mt-4 rounded-4" href="/profile">
-                      <img
+                      <img loading="lazy" decoding="async"
                         className="rounded-5"
                         style={{ width: "100%", height: "170px" }}
                         src="/assets/images/team/Mohammad Tohidur Rahman Bhuiyan.jpg"
@@ -451,7 +451,7 @@ function SwiftParent() {
                 <div className="item">
                   <div style={{ background: "#e9e3e0" }} className="card">
                     <div className=" mt-4 rounded-4">
-                      <img
+                      <img loading="lazy" decoding="async"
                         className="rounded-5"
                         style={{ width: "100%", height: "170px" }}
                         src="/assets/images/team/Rokanuzzaman.jpeg"

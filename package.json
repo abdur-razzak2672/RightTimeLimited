@@ -52,7 +52,9 @@
     "analyze": "npm run build:ci && npx source-map-explorer 'build/static/js/*.js' --html analyze.html || true",
     "purge:report": "npm run build:ci && npx purgecss --css 'build/static/css/*.css' --content 'build/**/*.html' 'build/static/js/*.js' --rejected --stdout > purge-report.txt || true",
     "deps:unused": "npx depcheck --skip-missing",
-    "compress": "find build -type f \\( -name '*.js' -o -name '*.css' -o -name '*.html' \\) -print0 | xargs -0 -I{} bash -lc \"gzip -kf9 '{}' || true; brotli -kf '{}' || true\""
+    "compress": "find build -type f \\( -name '*.js' -o -name '*.css' -o -name '*.html' \\) -print0 | xargs -0 -I{} bash -lc \"gzip -kf9 '{}' || true; brotli -kf '{}' || true\"",
+    "fix:img-lazy": "find src -type f \\( -name \"*.jsx\" -o -name \"*.js\" \\) -print0 | xargs -0 sed -i -E 's/<img([^>]*)(?<!loading=\"lazy\")>/<img loading=\"lazy\" decoding=\"async\"\\1>/g'",
+    "start:preview": "npm run build:slim && npx --yes serve -s build -l 3000"
   },
   "eslintConfig": {
     "extends": [

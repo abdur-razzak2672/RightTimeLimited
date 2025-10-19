@@ -117,7 +117,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                   </p>
                 </div>
                 <div className="col-md-5">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-100"
                     src="/assets/images/services/pcidss.png"
                     alt=""
@@ -144,7 +144,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
 
         <div className="container">
           <div>
-            <img src="assets/images/services/ani.png" width="100%" alt="" />
+            <img loading="lazy" decoding="async" src="assets/images/services/ani.png" width="100%" alt="" />
           </div>
         </div>
 
@@ -341,7 +341,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                           onClick={() => setTabIndex(index)}
                           href="#javascript void(0)"
                         >
-                          <img
+                          <img loading="lazy" decoding="async"
                             src="/assets/images/services/initial.png"
                             alt=""
                           />
@@ -500,7 +500,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                   <div className="row mt-5">
                     <div className="col-md-4 text-center d-flex">
                       <Card>
-                        <img
+                        <img loading="lazy" decoding="async"
                           className=""
                           src="/assets/images/resources/1.jpeg"
                           alt=""
@@ -519,7 +519,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                     </div>
                     <div className="col-md-4 text-center d-flex">
                       <Card>
-                        <img
+                        <img loading="lazy" decoding="async"
                           className=""
                           src="/assets/images/resources/1.jpeg"
                           alt=""
@@ -538,7 +538,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                     </div>
                     <div className="col-md-4 text-center d-flex">
                       <Card>
-                        <img
+                        <img loading="lazy" decoding="async"
                           className=""
                           src="/assets/images/resources/1.jpeg"
                           alt=""
@@ -563,7 +563,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                 {tabIndex1 === 14 && (
                   <div className="d-flex justify-content-center  ">
                     <Card style={{ width: "300px" }}>
-                      <img
+                      <img loading="lazy" decoding="async"
                         className=""
                         src="/assets/images/resources/1.jpeg"
                         alt=""
@@ -585,7 +585,7 @@ function PciDssPrents({ tab1, tab2, tab3, tab4, tab5 }) {
                   <div>
                     <div className="d-flex justify-content-center  ">
                       <Card style={{ width: "300px" }}>
-                        <img
+                        <img loading="lazy" decoding="async"
                           className=""
                           src="/assets/images/resources/1.jpeg"
                           alt=""

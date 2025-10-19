@@ -28,7 +28,7 @@ function SecuirityManagement() {
               <h2 className="text-center header">
                 Cyber Security Management & Visibility solutions
               </h2>
-              <img
+              <img loading="lazy" decoding="async"
                 className="rounded mb-2"
                 width="100%"
                 height="350px"

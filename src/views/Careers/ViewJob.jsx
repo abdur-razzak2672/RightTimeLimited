@@ -268,7 +268,7 @@ function ViewJob() {
 
           <Row>
             <Col md={4}>
-            <img
+            <img loading="lazy" decoding="async"
             width="100%"
               className = "img-responsive"
               src= "/assets/images/career/job.png"

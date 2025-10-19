@@ -38,7 +38,7 @@ function PtService() {
               security of the web application.
             </p>
             <div className="row">
-              <img
+              <img loading="lazy" decoding="async"
                 className=""
                 src="/assets/images/services/webapptesting.png"
                 alt=""

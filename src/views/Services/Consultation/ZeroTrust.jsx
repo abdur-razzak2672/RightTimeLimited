@@ -58,21 +58,21 @@ function ZeroTrust() {
             <Col md={6}>
               <Carousel slide={false}>
                 <Carousel.Item>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block w-100"
                     src="/assets/images/services/Information Systems AUdit.png"
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block w-100"
                     src="/assets/images/services/Information Security Graded Audit.png"
                     alt="Second slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block w-100"
                     src="/assets/images/services/Information Systems AUdit.png"
                     alt="Third slide"
@@ -86,21 +86,21 @@ function ZeroTrust() {
             <Col md={6}>
               <Carousel slide={false}>
                 <Carousel.Item>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block w-100"
                     src="/assets/images/services/Information Systems AUdit.png"
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block w-100"
                     src="/assets/images/services/Information Security Graded Audit.png"
                     alt="Second slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="d-block w-100"
                     src="/assets/images/services/Information Systems AUdit.png"
                     alt="Third slide"

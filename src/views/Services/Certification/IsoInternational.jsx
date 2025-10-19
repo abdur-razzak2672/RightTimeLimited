@@ -115,7 +115,7 @@ function IsoInternational() {
 
               <Row>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-100"
                     src="/assets/images/services/iso/img1.webp"
                     alt=""
@@ -128,7 +128,7 @@ function IsoInternational() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-100"
                     src="/assets/images/services/iso/img2.webp"
                     alt=""
@@ -141,7 +141,7 @@ function IsoInternational() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-100"
                     src="/assets/images/services/iso/img3.webp"
                     alt=""
@@ -153,7 +153,7 @@ function IsoInternational() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-100"
                     src="/assets/images/services/iso/img4.webp"
                     alt=""
@@ -166,7 +166,7 @@ function IsoInternational() {
                 </Col>
 
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-100"
                     src="/assets/images/services/iso/img5.webp"
                     alt=""
@@ -179,7 +179,7 @@ function IsoInternational() {
                 </Col>
 
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-100"
                     src="/assets/images/services/iso/img6.webp"
                     alt=""
@@ -294,7 +294,7 @@ function IsoInternational() {
                 </Col>
 
                 <Col className="mt-2" md={6} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     style={{ left: "0", top: "0" }}
                     className="w-100"
                     src="/assets/images/services/iso/map.jpeg"
@@ -399,7 +399,7 @@ function IsoInternational() {
             <div className="container text-center">
               <Row>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso6.png"
                     alt=""
@@ -414,7 +414,7 @@ function IsoInternational() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso5.png"
                     alt=""
@@ -429,7 +429,7 @@ function IsoInternational() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso4.png"
                     alt=""
@@ -444,7 +444,7 @@ function IsoInternational() {
                   </p>
                 </Col>
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso3.png"
                     alt=""
@@ -460,7 +460,7 @@ function IsoInternational() {
                 </Col>
 
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso2.png"
                     alt=""
@@ -476,7 +476,7 @@ function IsoInternational() {
                 </Col>
 
                 <Col className="mt-2" md={4} sm={6}>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-50"
                     src="/assets/images/services/iso/iso1.png"
                     alt=""

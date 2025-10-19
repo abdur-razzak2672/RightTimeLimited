@@ -252,7 +252,7 @@ function VaptFooter() {
                 <div className="row mt-5">
                   <div className="col-md-4 text-center d-flex">
                     <Card>
-                      <img
+                      <img loading="lazy" decoding="async"
                         className=""
                         src="/assets/images/resources/1.jpeg"
                         alt=""
@@ -271,7 +271,7 @@ function VaptFooter() {
                   </div>
                   <div className="col-md-4 text-center d-flex">
                     <Card>
-                      <img
+                      <img loading="lazy" decoding="async"
                         className=""
                         src="/assets/images/resources/1.jpeg"
                         alt=""
@@ -290,7 +290,7 @@ function VaptFooter() {
                   </div>
                   <div className="col-md-4 text-center d-flex">
                     <Card>
-                      <img
+                      <img loading="lazy" decoding="async"
                         className=""
                         src="/assets/images/resources/1.jpeg"
                         alt=""
@@ -315,7 +315,7 @@ function VaptFooter() {
               {updateTap === 14 && (
                 <div className="d-flex justify-content-center  ">
                   <Card style={{ width: "300px" }}>
-                    <img
+                    <img loading="lazy" decoding="async"
                       className=""
                       src="/assets/images/resources/1.jpeg"
                       alt=""
@@ -335,7 +335,7 @@ function VaptFooter() {
                 <div>
                   <div className="d-flex justify-content-center  ">
                     <Card style={{ width: "300px" }}>
-                      <img
+                      <img loading="lazy" decoding="async"
                         className=""
                         src="/assets/images/resources/1.jpeg"
                         alt=""

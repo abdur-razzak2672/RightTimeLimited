@@ -243,7 +243,7 @@ function DataSheet() {
               <div key={sheet.id} className="col-lg-4 col-md-6">
                 <div className="card h-100 border-0 shadow-sm datasheet-card featured-card">
                   <div className="position-relative">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={sheet.image}
                       className="card-img-top"
                       alt={sheet.title}
@@ -369,7 +369,7 @@ function DataSheet() {
               <div key={sheet.id} className="col-lg-4 col-md-6">
                 <div className="card h-100 border-0 shadow-sm datasheet-card">
                   <div className="position-relative">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={sheet.image}
                       className="card-img-top"
                       alt={sheet.title}

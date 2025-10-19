@@ -52,7 +52,7 @@ function DigitalForensics() {
                   </p>
                 </div>
                 <div className="col-md-5">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="w-100"
                     src="/assets/images/services/digital forensics.png"
                     alt=""

@@ -29,7 +29,7 @@ function StackforAlm() {
               <h2 className="text-center header">
                 Dx Stack for ALM & Infrastructure
               </h2>
-              <img
+              <img loading="lazy" decoding="async"
                 className="rounded mb-2"
                 width="100%"
                 height=" 400px"

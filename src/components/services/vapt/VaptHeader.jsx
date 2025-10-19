@@ -82,7 +82,7 @@ function VaptHeader() {
                 </p>
               </div>
               <div className="col-md-5">
-                <img
+                <img loading="lazy" decoding="async"
                   className="w-100"
                   src="/assets/images/services/vapt.png"
                   alt=""
@@ -95,7 +95,7 @@ function VaptHeader() {
 
       <div className="container">
         <div>
-          <img src="assets/images/services/ani.png" width="100%" alt="" />
+          <img loading="lazy" decoding="async" src="assets/images/services/ani.png" width="100%" alt="" />
         </div>
       </div>
     </div>

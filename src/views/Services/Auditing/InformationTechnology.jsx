@@ -41,7 +41,7 @@ function InformationTechnology() {
                 vulnerabilities that are found during the process thereby and
                 enhance the overall security of the web application.
               </p>
-              <img
+              <img loading="lazy" decoding="async"
                 className=""
                 src="/assets/images/services/picture.png"
                 alt=""

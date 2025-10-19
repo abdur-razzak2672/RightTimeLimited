@@ -39,7 +39,7 @@ function SolutionPartner() {
                 <div className="text-center rounded" id="partner_card">
                   <div className="front face text-center mt-3">
                     <a href="javascript:void(0)" onClick={() => setShow(true)}>
-                      <img src="assets/images/partners/logo.webp" width="50%" />
+                      <img loading="lazy" decoding="async" src="assets/images/partners/logo.webp" width="50%" />
 
                       <h5 className="pt-3">Our Partner</h5>
                     </a>
@@ -71,7 +71,7 @@ function SolutionPartner() {
                 <div className="text-center rounded" id="partner_card">
                   <div className="front face text-center mt-3">
                     <a href="javascript:void(0)" onClick={() => setShow1(true)}>
-                      <img src="assets/images/partners/logo.webp" width="50%" />
+                      <img loading="lazy" decoding="async" src="assets/images/partners/logo.webp" width="50%" />
 
                       <h5 className="pt-3">Our Partner</h5>
                     </a>
@@ -103,7 +103,7 @@ function SolutionPartner() {
                 <div className="text-center rounded" id="partner_card">
                   <div className="front face text-center mt-3">
                     <a href="javascript:void(0)" onClick={() => setShow2(true)}>
-                      <img src="assets/images/partners/logo.webp" width="50%" />
+                      <img loading="lazy" decoding="async" src="assets/images/partners/logo.webp" width="50%" />
 
                       <h5 className="pt-3">Our Partner</h5>
                     </a>
@@ -135,7 +135,7 @@ function SolutionPartner() {
                 <div className="text-center rounded" id="partner_card">
                   <div className="front face text-center mt-3">
                     <a href="javascript:void(0)" onClick={() => setShow3(true)}>
-                      <img src="assets/images/partners/logo.webp" width="50%" />
+                      <img loading="lazy" decoding="async" src="assets/images/partners/logo.webp" width="50%" />
 
                       <h5 className="pt-3">Our Partner</h5>
                     </a>

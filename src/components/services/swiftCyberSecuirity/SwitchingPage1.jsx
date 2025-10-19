@@ -132,7 +132,7 @@ function SwitchingPage1() {
                 </div>
 
                 <div className="cscf-image-container">
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="cscf-image"
                     src="/assets/images/services/SwiftCyber/CSCF.png"
                     alt=""
@@ -414,7 +414,7 @@ function SwitchingPage1() {
                     </button>
                   </div>
                   <div className="cybersecurity-assesment-services-img-container">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src="/assets/images/services/SwiftCyber/csp-services.png"
                       alt=""
                     />
@@ -430,7 +430,7 @@ function SwitchingPage1() {
                     What happens if you don't submit your Swift CSCF 2024
                     attestation?
                   </h3>
-                  <img
+                  <img loading="lazy" decoding="async"
                     className="rounded"
                     style={{ width: "100%" }}
                     src="/assets/images/services/SwiftCyber/Pic01.png"

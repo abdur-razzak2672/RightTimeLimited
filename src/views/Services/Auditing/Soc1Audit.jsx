@@ -39,7 +39,7 @@ function Soc1Audit() {
                 enhance the overall security of the web application.
               </p>
               <div className="row">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/services/audit.png"
                   className="img-fluid"
                   alt="Responsive image"

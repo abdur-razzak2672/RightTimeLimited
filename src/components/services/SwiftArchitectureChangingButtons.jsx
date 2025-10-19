@@ -51,7 +51,7 @@ const SwiftArchitectureChangingButtons = () => {
           >
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/services/SwiftCyber/type1.png"
                   alt=""
                 />
@@ -84,7 +84,7 @@ const SwiftArchitectureChangingButtons = () => {
           >
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/services/SwiftCyber/type2.png"
                   alt=""
                 />
@@ -114,7 +114,7 @@ const SwiftArchitectureChangingButtons = () => {
           >
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/services/SwiftCyber/type3.png"
                   alt=""
                 />
@@ -152,7 +152,7 @@ const SwiftArchitectureChangingButtons = () => {
           >
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/assets/images/services/SwiftCyber/type4.png"
                   alt=""
                 />
@@ -197,7 +197,7 @@ const SwiftArchitectureChangingButtons = () => {
           >
             <div className="swift-architecture-data-container">
               <div className="dipt-swift-architecture-img-container">
-                <img src="/assets/images/services/SwiftCyber/b.png" alt="" />
+                <img loading="lazy" decoding="async" src="/assets/images/services/SwiftCyber/b.png" alt="" />
               </div>
               <div>
                 <div className="dipt-swift-architecture-data-mini-container">

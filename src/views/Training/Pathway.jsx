@@ -3,7 +3,7 @@ import React from "react";
 function Pathway() {
   return (
     <div id="pathway-container">
-      {/* <img id='prelC' src="images/c.svg"></img> */}
+      {/* <img loading="lazy" decoding="async" id='prelC' src="images/c.svg"></img> */}
 
       <div
         className="modal fade"
@@ -84,7 +84,7 @@ function Pathway() {
           <div className="col1 pure-u-1 pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-4 pure-u-xl-1-4">
             <div className="box no1">
               <div className="infoBox" id="b1">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -103,7 +103,7 @@ function Pathway() {
                 <div className="salary">
                   <div className="chartTitle">
                     AVERAGE SALARY
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -121,7 +121,7 @@ function Pathway() {
             </div>
             <div className="box no10 long is-bottom-row" id="no10">
               <div className="infoBox" id="b10">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -145,7 +145,7 @@ function Pathway() {
                 <div className="futureskills">
                   <div className="chartTitle">
                     TOP FUTURE SKILLS REQUESTED{" "}
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -173,7 +173,7 @@ function Pathway() {
           >
             <div className="box no3">
               <div className="infoBox" id="b3">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -192,7 +192,7 @@ function Pathway() {
                 <div className="commonJobs">
                   <div className="chartTitle">
                     COMMON JOB TITLES
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -206,7 +206,7 @@ function Pathway() {
             </div>
             <div className="box is-bottom-row long" id="no4">
               <div className="infoBox" id="b4">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -234,7 +234,7 @@ function Pathway() {
                     <span className="toChange">
                       COMMON NICE CYBERSECURITY WORKFORCE FRAMEWORK CATEGORIES
                     </span>
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -255,7 +255,7 @@ function Pathway() {
           >
             <div className="box no5">
               <div className="infoBox" id="b5">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -275,7 +275,7 @@ function Pathway() {
                 <div className="education">
                   <div className="chartTitle">
                     REQUESTED EDUCATION (%)
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -289,7 +289,7 @@ function Pathway() {
             </div>
             <div className="box is-bottom-row long remove-line-right " id="no6">
               <div className="infoBox" id="b6">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -308,7 +308,7 @@ function Pathway() {
                 <div className="certifications">
                   <div className="chartTitle">
                     TOP CERTIFICATIONS REQUESTED
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -328,7 +328,7 @@ function Pathway() {
           >
             <div className="box remove-line-right" id="no2">
               <div className="infoBox" id="b2">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -347,7 +347,7 @@ function Pathway() {
                 <div className="openings">
                   <div className="chartTitle">
                     TOTAL JOB OPENINGS
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -362,7 +362,7 @@ function Pathway() {
             </div>
             <div className="box long is-bottom-row" id="no7">
               <div className="infoBox" id="b7">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -381,7 +381,7 @@ function Pathway() {
                 <div className="commonJobs">
                   <div className="chartTitle">
                     TOP SKILLS REQUESTED
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -402,7 +402,7 @@ function Pathway() {
           >
             <div className="box long" id="no11">
               <div className="infoBox" id="b7">
-                <img
+                <img loading="lazy" decoding="async"
                   width="18px"
                   height="17px"
                   src="./images/xi_03.png"
@@ -425,7 +425,7 @@ function Pathway() {
                 <div className="commonJobs">
                   <div className="chartTitle">
                     TOP CYBERSECURITY SKILLS TO ADD
-                    <img
+                    <img loading="lazy" decoding="async"
                       width="17px"
                       height="15px"
                       src="./images/i_03.png"
@@ -443,7 +443,7 @@ function Pathway() {
         <div className="row2 pure-g">
           <div className="box no8 pure-u-1 pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-1-2">
             <div className="infoBox" id="b8">
-              <img
+              <img loading="lazy" decoding="async"
                 width="18px"
                 height="17px"
                 src="./images/xi_03.png"
@@ -465,7 +465,7 @@ function Pathway() {
               <div className="niceKsa">
                 <div className="chartTitle">
                   NICE KNOWLEDGE, SKILLS, AND ABILITIES
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="17px"
                     height="15px"
                     src="./images/i_03.png"
@@ -479,7 +479,7 @@ function Pathway() {
           </div>
           <div className="box no9 pure-u-1 pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-1-2 remove-line-right">
             <div className="infoBox" id="b9">
-              <img
+              <img loading="lazy" decoding="async"
                 width="18px"
                 height="17px"
                 src="./images/xi_03.png"
@@ -498,7 +498,7 @@ function Pathway() {
               <div className="niceTasks">
                 <div className="chartTitle">
                   NICE FRAMEWORK TASKS
-                  <img
+                  <img loading="lazy" decoding="async"
                     width="17px"
                     height="15px"
                     src="./images/i_03.png"

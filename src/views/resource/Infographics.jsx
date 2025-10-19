@@ -191,7 +191,7 @@ function Infographics() {
               <div key={infographic.id} className="col-lg-4 col-md-6">
                 <div className="card h-100 shadow-sm border-0 infographic-card">
                   <div className="card-img-top position-relative overflow-hidden">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={infographic.image}
                       className="img-fluid w-100"
                       alt={`${infographic.title} Infographic`}
